@@ -5,4 +5,8 @@ These projects are all UNMAINTAINED and are simply stored hear for research and 
 
 These projects were originally hosted in CVS repositories on SourceForge in the early 2000's
 
-Most code is in Python, C, PHP, and/or Java
+Most code is in Python, C, PHP, and/or Java and most projects were designed for the Linux operating system.
+
+Information on each project along with screenshots is available at:
+
+http://www.phrozensmoke.com/ 
