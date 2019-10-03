@@ -1,0 +1,13 @@
+echo "Compiling pyesd.c"
+gcc -c pyesd.c -I/usr/include/python2.2
+
+echo "Running swig for pyesd"
+swig -python -shadow pyesd.i
+
+echo "Compiling swig Python wrapper"
+gcc -c pyesd_wrap.c -I/usr/include/python2.2
+
+echo "Building Python shared library for pyesd.so"
+gcc --shared  pyesd.o pyesd_wrap.o  -Xlinker -Bdynamic -Xlinker -rpath . -Xlinker -rpath /usr/lib -Xlinker -rpath /usr/X11R6/lib -Xlinker -rpath /usr/local/lib -L.  `esd-config --libs`    -o pyesdc.so  
+
+strip -s pyesdc.so  

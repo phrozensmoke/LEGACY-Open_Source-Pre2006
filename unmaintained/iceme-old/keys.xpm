@@ -1,0 +1,35 @@
+/* XPM */
+static char *keys[] = {
+/* width height num_colors chars_per_pixel */
+"    22    22        6            1",
+/* colors */
+"  c None",
+". c #000000",
+"a c #000000",
+"b c #808080",
+"c c #c0c0c0",
+"d c #ffffff",
+/* pixels */
+"          aaa         ",
+"         addda        ",
+"        adbbdda       ",
+"       addbdddda      ",
+"      adbbd.dddda     ",
+"     addbd.dddddda    ",
+"    adbbd..ddddddda   ",
+"   adddd.......dddda  ",
+"  adbdd..d.ddddddddda ",
+" adddd.ddd.ddddddddcda",
+"addbdddddd.dddddddccda",
+"adbbbddddd.ddddddcccda",
+"adbbbbdddd.dddddccccda",
+" adbbbbddddbdbddcccca ",
+"  adbbbbddbbddccccda  ",
+"   adbbbbdddddcccca   ",
+"    adbbbbddccccda    ",
+"     adbbbbccccca     ",
+"      adbbbcccda      ",
+"       adbbccca       ",
+"        adbcda        ",
+"         adda         "
+};

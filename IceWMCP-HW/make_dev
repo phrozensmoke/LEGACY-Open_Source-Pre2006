@@ -1,0 +1,4 @@
+echo "BUILDING DEVELOPER'S RESOURCES..."
+make hwinfo
+make hwscan
+make dev

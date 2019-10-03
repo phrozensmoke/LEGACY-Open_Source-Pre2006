@@ -1,0 +1,5 @@
+# Ice Control Panel Applet
+Name=Курсоры\nIceWM
+Exec=[PHROZEN-INTERNAL]IceWMCPCursors.py
+Icon=icewmcp-cursors.png
+Hint=Конфигурация курсора мыши в IceWM

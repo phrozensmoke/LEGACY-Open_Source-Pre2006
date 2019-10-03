@@ -1,0 +1,2489 @@
+
+<!doctype html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module pyvoiceui</title>
+<style type="text/css"><!--
+TT { font-family: lucidatypewriter, lucida console, courier }
+--></style></head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>pyvoiceui</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/Compile/gyach-pyvoice/pyvoice/pyvoiceui.py">/Compile/gyach-pyvoice/pyvoice/pyvoiceui.py</a></font></td></tr></table>
+    <p><tt>#&nbsp;-*-&nbsp;coding:&nbsp;ISO-8859-1&nbsp;-*-</tt></p>
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#fffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="gtk.gdk.html">gtk.gdk</a><br>
+<a href="gtk.html">gtk</a><br>
+<a href="binascii.html">binascii</a><br>
+<a href="copy.html">copy</a><br>
+<a href="gtk.gdk.html">gtk.gdk</a><br>
+</td><td width="25%" valign=top><a href="gettext.html">gettext</a><br>
+<a href="gtk.html">gtk</a><br>
+<a href="gtk.keysyms.html">gtk.keysyms</a><br>
+<a href="os.html">os</a><br>
+<a href="pygtk.html">pygtk</a><br>
+</td><td width="25%" valign=top><a href="pytsp.html">pytsp</a><br>
+<a href="pyvoice.html">pyvoice</a><br>
+<a href="pyvoice_tricks.html">pyvoice_tricks</a><br>
+<a href="random.html">random</a><br>
+<a href="socket.html">socket</a><br>
+</td><td width="25%" valign=top><a href="string.html">string</a><br>
+<a href="struct.html">struct</a><br>
+<a href="sys.html">sys</a><br>
+<a href="time.html">time</a><br>
+</td></tr></table></td></tr></table>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="gtk.html#Dialog">gtk.Dialog</a>(<a href="gtk.html#Window">gtk.Window</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="pyvoiceui.html#_MessageBox">_MessageBox</a>
+</font></dt></dl>
+</dd>
+<dt><font face="helvetica, arial"><a href="gtk.html#HBox">gtk.HBox</a>(<a href="gtk.html#Box">gtk.Box</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="pyvoiceui.html#ColorButton">ColorButton</a>
+</font></dt><dt><font face="helvetica, arial"><a href="pyvoiceui.html#SoundBar">SoundBar</a>
+</font></dt></dl>
+</dd>
+<dt><font face="helvetica, arial"><a href="pyvoiceui.html#pyvoicegui">pyvoicegui</a>
+</font></dt></dl>
+ 
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="ColorButton">class <strong>ColorButton</strong></a>(<a href="gtk.html#HBox">gtk.HBox</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>A&nbsp;class&nbsp;for&nbsp;a&nbsp;'color&nbsp;indicator'&nbsp;button,&nbsp;which&nbsp;changes&nbsp;colors&nbsp;based&nbsp;on&nbsp;the&nbsp;state&nbsp;of&nbsp;our&nbsp;<br>
+connection.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="pyvoiceui.html#ColorButton">ColorButton</a></dd>
+<dd><a href="gtk.html#HBox">gtk.HBox</a></dd>
+<dd><a href="gtk.html#Box">gtk.Box</a></dd>
+<dd><a href="gtk.html#Container">gtk.Container</a></dd>
+<dd><a href="gtk.html#Widget">gtk.Widget</a></dd>
+<dd><a href="gtk.html#Object">gtk.Object</a></dd>
+<dd><a href="gobject.html#GObject">gobject.GObject</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="ColorButton-__init__"><strong>__init__</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="ColorButton-setColor"><strong>setColor</strong></a>(self, *args)</dt></dl>
+
+<dl><dt><a name="ColorButton-updateColorProperties"><strong>updateColorProperties</strong></a>(self, r, g, b)</dt></dl>
+
+<hr>
+Data and non-method functions defined here:<br>
+<dl><dt><strong>__doc__</strong> = "<font color="#c040c0">\n\t</font>A class for a 'color indicator' button, which ... colors based on the state of our <font color="#c040c0">\n\t</font>connection.<font color="#c040c0">\n\t</font>"<dd><tt>str(object)&nbsp;-&gt;&nbsp;string<br>
+&nbsp;<br>
+Return&nbsp;a&nbsp;nice&nbsp;string&nbsp;representation&nbsp;of&nbsp;the&nbsp;object.<br>
+If&nbsp;the&nbsp;argument&nbsp;is&nbsp;a&nbsp;string,&nbsp;the&nbsp;return&nbsp;value&nbsp;is&nbsp;the&nbsp;same&nbsp;object.</tt></dl>
+
+<dl><dt><strong>__module__</strong> = 'pyvoiceui'<dd><tt>str(object)&nbsp;-&gt;&nbsp;string<br>
+&nbsp;<br>
+Return&nbsp;a&nbsp;nice&nbsp;string&nbsp;representation&nbsp;of&nbsp;the&nbsp;object.<br>
+If&nbsp;the&nbsp;argument&nbsp;is&nbsp;a&nbsp;string,&nbsp;the&nbsp;return&nbsp;value&nbsp;is&nbsp;the&nbsp;same&nbsp;object.</tt></dl>
+
+<hr>
+Data and non-method functions inherited from <a href="gtk.html#HBox">gtk.HBox</a>:<br>
+<dl><dt><strong>__gtype__</strong> = &lt;GType GtkHBox (135924712)&gt;</dl>
+
+<hr>
+Methods inherited from <a href="gtk.html#Box">gtk.Box</a>:<br>
+<dl><dt><a name="ColorButton-get_homogeneous"><strong>get_homogeneous</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_spacing"><strong>get_spacing</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-pack_end"><strong>pack_end</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-pack_end_defaults"><strong>pack_end_defaults</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-pack_start"><strong>pack_start</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-pack_start_defaults"><strong>pack_start_defaults</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-query_child_packing"><strong>query_child_packing</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-reorder_child"><strong>reorder_child</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_child_packing"><strong>set_child_packing</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_homogeneous"><strong>set_homogeneous</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_spacing"><strong>set_spacing</strong></a>(...)</dt></dl>
+
+<hr>
+Methods inherited from <a href="gtk.html#Container">gtk.Container</a>:<br>
+<dl><dt><a name="ColorButton-add"><strong>add</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-add_with_properties"><strong>add_with_properties</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-check_resize"><strong>check_resize</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-child_get"><strong>child_get</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-child_get_property"><strong>child_get_property</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-child_set"><strong>child_set</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-child_set_property"><strong>child_set_property</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-child_type"><strong>child_type</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-children"><strong>children</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-forall"><strong>forall</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-foreach"><strong>foreach</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_border_width"><strong>get_border_width</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_children"><strong>get_children</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_focus_chain"><strong>get_focus_chain</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_focus_hadjustment"><strong>get_focus_hadjustment</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_focus_vadjustment"><strong>get_focus_vadjustment</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_resize_mode"><strong>get_resize_mode</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-propagate_expose"><strong>propagate_expose</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-remove"><strong>remove</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-resize_children"><strong>resize_children</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_border_width"><strong>set_border_width</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_focus_chain"><strong>set_focus_chain</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_focus_child"><strong>set_focus_child</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_focus_hadjustment"><strong>set_focus_hadjustment</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_focus_vadjustment"><strong>set_focus_vadjustment</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_reallocate_redraws"><strong>set_reallocate_redraws</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_resize_mode"><strong>set_resize_mode</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-unset_focus_chain"><strong>unset_focus_chain</strong></a>(...)</dt></dl>
+
+<hr>
+Data and non-method functions inherited from <a href="gtk.html#Container">gtk.Container</a>:<br>
+<dl><dt><strong>border_width</strong> = &lt;attribute 'border_width' of 'gtk.Container' objects&gt;</dl>
+
+<dl><dt><strong>focus_child</strong> = &lt;attribute 'focus_child' of 'gtk.Container' objects&gt;</dl>
+
+<dl><dt><strong>has_focus_chain</strong> = &lt;attribute 'has_focus_chain' of 'gtk.Container' objects&gt;</dl>
+
+<dl><dt><strong>need_resize</strong> = &lt;attribute 'need_resize' of 'gtk.Container' objects&gt;</dl>
+
+<dl><dt><strong>reallocate_redraws</strong> = &lt;attribute 'reallocate_redraws' of 'gtk.Container' objects&gt;</dl>
+
+<dl><dt><strong>resize_mode</strong> = &lt;attribute 'resize_mode' of 'gtk.Container' objects&gt;</dl>
+
+<hr>
+Methods inherited from <a href="gtk.html#Widget">gtk.Widget</a>:<br>
+<dl><dt><a name="ColorButton-activate"><strong>activate</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-add_accelerator"><strong>add_accelerator</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-add_events"><strong>add_events</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-child_focus"><strong>child_focus</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-child_notify"><strong>child_notify</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-class_path"><strong>class_path</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-create_pango_context"><strong>create_pango_context</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-create_pango_layout"><strong>create_pango_layout</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-destroy"><strong>destroy</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-drag_begin"><strong>drag_begin</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-drag_check_threshold"><strong>drag_check_threshold</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-drag_dest_find_target"><strong>drag_dest_find_target</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-drag_dest_get_target_list"><strong>drag_dest_get_target_list</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-drag_dest_set"><strong>drag_dest_set</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-drag_dest_set_proxy"><strong>drag_dest_set_proxy</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-drag_dest_set_target_list"><strong>drag_dest_set_target_list</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-drag_dest_unset"><strong>drag_dest_unset</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-drag_get_data"><strong>drag_get_data</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-drag_highlight"><strong>drag_highlight</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-drag_source_set"><strong>drag_source_set</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-drag_source_set_icon"><strong>drag_source_set_icon</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-drag_source_set_icon_pixbuf"><strong>drag_source_set_icon_pixbuf</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-drag_source_set_icon_stock"><strong>drag_source_set_icon_stock</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-drag_source_unset"><strong>drag_source_unset</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-drag_unhighlight"><strong>drag_unhighlight</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-draw"><strong>draw</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-ensure_style"><strong>ensure_style</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-event"><strong>event</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-freeze_child_notify"><strong>freeze_child_notify</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_accessible"><strong>get_accessible</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_allocation"><strong>get_allocation</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_ancestor"><strong>get_ancestor</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_child_requisition"><strong>get_child_requisition</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_child_visible"><strong>get_child_visible</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_colormap"><strong>get_colormap</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_composite_name"><strong>get_composite_name</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_direction"><strong>get_direction</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_events"><strong>get_events</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_extension_events"><strong>get_extension_events</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_modifier_style"><strong>get_modifier_style</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_name"><strong>get_name</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_pango_context"><strong>get_pango_context</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_parent"><strong>get_parent</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_parent_window"><strong>get_parent_window</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_pointer"><strong>get_pointer</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_settings"><strong>get_settings</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_size_request"><strong>get_size_request</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_style"><strong>get_style</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_toplevel"><strong>get_toplevel</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_visual"><strong>get_visual</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-grab_add"><strong>grab_add</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-grab_default"><strong>grab_default</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-grab_focus"><strong>grab_focus</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-grab_remove"><strong>grab_remove</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-hide"><strong>hide</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-hide_all"><strong>hide_all</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-hide_on_delete"><strong>hide_on_delete</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-intersect"><strong>intersect</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-is_ancestor"><strong>is_ancestor</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-is_focus"><strong>is_focus</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-map"><strong>map</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-mnemonic_activate"><strong>mnemonic_activate</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-modify_base"><strong>modify_base</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-modify_bg"><strong>modify_bg</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-modify_fg"><strong>modify_fg</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-modify_font"><strong>modify_font</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-modify_style"><strong>modify_style</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-modify_text"><strong>modify_text</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-path"><strong>path</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-queue_clear"><strong>queue_clear</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-queue_clear_area"><strong>queue_clear_area</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-queue_draw"><strong>queue_draw</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-queue_draw_area"><strong>queue_draw_area</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-queue_resize"><strong>queue_resize</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-rc_get_style"><strong>rc_get_style</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-realize"><strong>realize</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-remove_accelerator"><strong>remove_accelerator</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-render_icon"><strong>render_icon</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-reparent"><strong>reparent</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-reset_rc_styles"><strong>reset_rc_styles</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-reset_shapes"><strong>reset_shapes</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-selection_add_target"><strong>selection_add_target</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-selection_add_targets"><strong>selection_add_targets</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-selection_clear_targets"><strong>selection_clear_targets</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-selection_convert"><strong>selection_convert</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-selection_owner_set"><strong>selection_owner_set</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-selection_remove_all"><strong>selection_remove_all</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-send_expose"><strong>send_expose</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_accel_path"><strong>set_accel_path</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_app_paintable"><strong>set_app_paintable</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_child_visible"><strong>set_child_visible</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_colormap"><strong>set_colormap</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_composite_name"><strong>set_composite_name</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_direction"><strong>set_direction</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_double_buffered"><strong>set_double_buffered</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_events"><strong>set_events</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_extension_events"><strong>set_extension_events</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_name"><strong>set_name</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_parent"><strong>set_parent</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_parent_window"><strong>set_parent_window</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_redraw_on_allocate"><strong>set_redraw_on_allocate</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_scroll_adjustments"><strong>set_scroll_adjustments</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_sensitive"><strong>set_sensitive</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_size_request"><strong>set_size_request</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_state"><strong>set_state</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_style"><strong>set_style</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_uposition"><strong>set_uposition</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_usize"><strong>set_usize</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-shape_combine_mask"><strong>shape_combine_mask</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-show"><strong>show</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-show_all"><strong>show_all</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-show_now"><strong>show_now</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-size_allocate"><strong>size_allocate</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-size_request"><strong>size_request</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-thaw_child_notify"><strong>thaw_child_notify</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-translate_coordinates"><strong>translate_coordinates</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-unmap"><strong>unmap</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-unparent"><strong>unparent</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-unrealize"><strong>unrealize</strong></a>(...)</dt></dl>
+
+<hr>
+Data and non-method functions inherited from <a href="gtk.html#Widget">gtk.Widget</a>:<br>
+<dl><dt><strong>allocation</strong> = &lt;attribute 'allocation' of 'gtk.Widget' objects&gt;</dl>
+
+<dl><dt><strong>name</strong> = &lt;attribute 'name' of 'gtk.Widget' objects&gt;</dl>
+
+<dl><dt><strong>parent</strong> = &lt;attribute 'parent' of 'gtk.Widget' objects&gt;</dl>
+
+<dl><dt><strong>saved_state</strong> = &lt;attribute 'saved_state' of 'gtk.Widget' objects&gt;</dl>
+
+<dl><dt><strong>state</strong> = &lt;attribute 'state' of 'gtk.Widget' objects&gt;</dl>
+
+<dl><dt><strong>style</strong> = &lt;attribute 'style' of 'gtk.Widget' objects&gt;</dl>
+
+<dl><dt><strong>window</strong> = &lt;attribute 'window' of 'gtk.Widget' objects&gt;</dl>
+
+<hr>
+Methods inherited from <a href="gtk.html#Object">gtk.Object</a>:<br>
+<dl><dt><a name="ColorButton-flags"><strong>flags</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_flags"><strong>set_flags</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-unset_flags"><strong>unset_flags</strong></a>(...)</dt></dl>
+
+<hr>
+Methods inherited from <a href="gobject.html#GObject">gobject.GObject</a>:<br>
+<dl><dt><a name="ColorButton-__cmp__"><strong>__cmp__</strong></a>(...)</dt><dd><tt>x.<a href="#ColorButton-__cmp__">__cmp__</a>(y)&nbsp;&lt;==&gt;&nbsp;cmp(x,y)</tt></dd></dl>
+
+<dl><dt><a name="ColorButton-__gobject_init__"><strong>__gobject_init__</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-__hash__"><strong>__hash__</strong></a>(...)</dt><dd><tt>x.<a href="#ColorButton-__hash__">__hash__</a>()&nbsp;&lt;==&gt;&nbsp;hash(x)</tt></dd></dl>
+
+<dl><dt><a name="ColorButton-__repr__"><strong>__repr__</strong></a>(...)</dt><dd><tt>x.<a href="#ColorButton-__repr__">__repr__</a>()&nbsp;&lt;==&gt;&nbsp;repr(x)</tt></dd></dl>
+
+<dl><dt><a name="ColorButton-chain"><strong>chain</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-connect"><strong>connect</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-connect_after"><strong>connect_after</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-connect_object"><strong>connect_object</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-connect_object_after"><strong>connect_object_after</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-disconnect"><strong>disconnect</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-emit"><strong>emit</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-emit_stop_by_name"><strong>emit_stop_by_name</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-freeze_notify"><strong>freeze_notify</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_data"><strong>get_data</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-get_property"><strong>get_property</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-handler_block"><strong>handler_block</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-handler_disconnect"><strong>handler_disconnect</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-handler_is_connected"><strong>handler_is_connected</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-handler_unblock"><strong>handler_unblock</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-notify"><strong>notify</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_data"><strong>set_data</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-set_property"><strong>set_property</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-stop_emission"><strong>stop_emission</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="ColorButton-thaw_notify"><strong>thaw_notify</strong></a>(...)</dt></dl>
+
+<hr>
+Data and non-method functions inherited from <a href="gobject.html#GObject">gobject.GObject</a>:<br>
+<dl><dt><strong>__dict__</strong> = &lt;dict-proxy object&gt;</dl>
+
+<dl><dt><strong>__gdoc__</strong> = 'Object GtkHBox<font color="#c040c0">\n\n</font>Signals from GObject:<font color="#c040c0">\n</font>  notify (...ether the children should all be the same size.<font color="#c040c0">\n\n</font>'</dl>
+
+<dl><dt><strong>__grefcount__</strong> = &lt;attribute '__grefcount__' of 'gobject.GObject' objects&gt;</dl>
+
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#ColorButton-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;object&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<hr>
+Methods inherited from <a href="__builtin__.html#object">__builtin__.object</a>:<br>
+<dl><dt><a name="ColorButton-__delattr__"><strong>__delattr__</strong></a>(...)</dt><dd><tt>x.<a href="#ColorButton-__delattr__">__delattr__</a>('name')&nbsp;&lt;==&gt;&nbsp;del&nbsp;x.name</tt></dd></dl>
+
+<dl><dt><a name="ColorButton-__getattribute__"><strong>__getattribute__</strong></a>(...)</dt><dd><tt>x.<a href="#ColorButton-__getattribute__">__getattribute__</a>('name')&nbsp;&lt;==&gt;&nbsp;x.name</tt></dd></dl>
+
+<dl><dt><a name="ColorButton-__reduce__"><strong>__reduce__</strong></a>(...)</dt><dd><tt>helper&nbsp;for&nbsp;pickle</tt></dd></dl>
+
+<dl><dt><a name="ColorButton-__setattr__"><strong>__setattr__</strong></a>(...)</dt><dd><tt>x.<a href="#ColorButton-__setattr__">__setattr__</a>('name',&nbsp;value)&nbsp;&lt;==&gt;&nbsp;x.name&nbsp;=&nbsp;value</tt></dd></dl>
+
+<dl><dt><a name="ColorButton-__str__"><strong>__str__</strong></a>(...)</dt><dd><tt>x.<a href="#ColorButton-__str__">__str__</a>()&nbsp;&lt;==&gt;&nbsp;str(x)</tt></dd></dl>
+
+<hr>
+Data and non-method functions inherited from <a href="__builtin__.html#object">__builtin__.object</a>:<br>
+<dl><dt><strong>__class__</strong> = &lt;type 'type'&gt;<dd><tt>the&nbsp;object's&nbsp;class</tt></dl>
+
+</td></tr></table> 
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="SoundBar">class <strong>SoundBar</strong></a>(<a href="gtk.html#HBox">gtk.HBox</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>A&nbsp;class&nbsp;for&nbsp;a&nbsp;'sound&nbsp;bar'&nbsp;that&nbsp;lights&nbsp;up&nbsp;as&nbsp;the&nbsp;volume&nbsp;of&nbsp;the&nbsp;sound&nbsp;changes.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="pyvoiceui.html#SoundBar">SoundBar</a></dd>
+<dd><a href="gtk.html#HBox">gtk.HBox</a></dd>
+<dd><a href="gtk.html#Box">gtk.Box</a></dd>
+<dd><a href="gtk.html#Container">gtk.Container</a></dd>
+<dd><a href="gtk.html#Widget">gtk.Widget</a></dd>
+<dd><a href="gtk.html#Object">gtk.Object</a></dd>
+<dd><a href="gobject.html#GObject">gobject.GObject</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="SoundBar-__init__"><strong>__init__</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="SoundBar-setColor1"><strong>setColor1</strong></a>(self, *args)</dt></dl>
+
+<dl><dt><a name="SoundBar-setColor10"><strong>setColor10</strong></a>(self, *args)</dt></dl>
+
+<dl><dt><a name="SoundBar-setColor2"><strong>setColor2</strong></a>(self, *args)</dt></dl>
+
+<dl><dt><a name="SoundBar-setColor3"><strong>setColor3</strong></a>(self, *args)</dt></dl>
+
+<dl><dt><a name="SoundBar-setColor4"><strong>setColor4</strong></a>(self, *args)</dt></dl>
+
+<dl><dt><a name="SoundBar-setColor5"><strong>setColor5</strong></a>(self, *args)</dt></dl>
+
+<dl><dt><a name="SoundBar-setColor6"><strong>setColor6</strong></a>(self, *args)</dt></dl>
+
+<dl><dt><a name="SoundBar-setColor7"><strong>setColor7</strong></a>(self, *args)</dt></dl>
+
+<dl><dt><a name="SoundBar-setColor8"><strong>setColor8</strong></a>(self, *args)</dt></dl>
+
+<dl><dt><a name="SoundBar-setColor9"><strong>setColor9</strong></a>(self, *args)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_volume"><strong>set_volume</strong></a>(self, vnum)</dt></dl>
+
+<dl><dt><a name="SoundBar-updateColor"><strong>updateColor</strong></a>(self, some_block)</dt></dl>
+
+<dl><dt><a name="SoundBar-updateColorProperties"><strong>updateColorProperties</strong></a>(self, which_one, r, g, b)</dt></dl>
+
+<hr>
+Data and non-method functions defined here:<br>
+<dl><dt><strong>__doc__</strong> = "<font color="#c040c0">\n\t</font>A class for a 'sound bar' that lights up as the volume of the sound changes.<font color="#c040c0">\n\t</font>"<dd><tt>str(object)&nbsp;-&gt;&nbsp;string<br>
+&nbsp;<br>
+Return&nbsp;a&nbsp;nice&nbsp;string&nbsp;representation&nbsp;of&nbsp;the&nbsp;object.<br>
+If&nbsp;the&nbsp;argument&nbsp;is&nbsp;a&nbsp;string,&nbsp;the&nbsp;return&nbsp;value&nbsp;is&nbsp;the&nbsp;same&nbsp;object.</tt></dl>
+
+<dl><dt><strong>__module__</strong> = 'pyvoiceui'<dd><tt>str(object)&nbsp;-&gt;&nbsp;string<br>
+&nbsp;<br>
+Return&nbsp;a&nbsp;nice&nbsp;string&nbsp;representation&nbsp;of&nbsp;the&nbsp;object.<br>
+If&nbsp;the&nbsp;argument&nbsp;is&nbsp;a&nbsp;string,&nbsp;the&nbsp;return&nbsp;value&nbsp;is&nbsp;the&nbsp;same&nbsp;object.</tt></dl>
+
+<hr>
+Data and non-method functions inherited from <a href="gtk.html#HBox">gtk.HBox</a>:<br>
+<dl><dt><strong>__gtype__</strong> = &lt;GType GtkHBox (135924712)&gt;</dl>
+
+<hr>
+Methods inherited from <a href="gtk.html#Box">gtk.Box</a>:<br>
+<dl><dt><a name="SoundBar-get_homogeneous"><strong>get_homogeneous</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_spacing"><strong>get_spacing</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-pack_end"><strong>pack_end</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-pack_end_defaults"><strong>pack_end_defaults</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-pack_start"><strong>pack_start</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-pack_start_defaults"><strong>pack_start_defaults</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-query_child_packing"><strong>query_child_packing</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-reorder_child"><strong>reorder_child</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_child_packing"><strong>set_child_packing</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_homogeneous"><strong>set_homogeneous</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_spacing"><strong>set_spacing</strong></a>(...)</dt></dl>
+
+<hr>
+Methods inherited from <a href="gtk.html#Container">gtk.Container</a>:<br>
+<dl><dt><a name="SoundBar-add"><strong>add</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-add_with_properties"><strong>add_with_properties</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-check_resize"><strong>check_resize</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-child_get"><strong>child_get</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-child_get_property"><strong>child_get_property</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-child_set"><strong>child_set</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-child_set_property"><strong>child_set_property</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-child_type"><strong>child_type</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-children"><strong>children</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-forall"><strong>forall</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-foreach"><strong>foreach</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_border_width"><strong>get_border_width</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_children"><strong>get_children</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_focus_chain"><strong>get_focus_chain</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_focus_hadjustment"><strong>get_focus_hadjustment</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_focus_vadjustment"><strong>get_focus_vadjustment</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_resize_mode"><strong>get_resize_mode</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-propagate_expose"><strong>propagate_expose</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-remove"><strong>remove</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-resize_children"><strong>resize_children</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_border_width"><strong>set_border_width</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_focus_chain"><strong>set_focus_chain</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_focus_child"><strong>set_focus_child</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_focus_hadjustment"><strong>set_focus_hadjustment</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_focus_vadjustment"><strong>set_focus_vadjustment</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_reallocate_redraws"><strong>set_reallocate_redraws</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_resize_mode"><strong>set_resize_mode</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-unset_focus_chain"><strong>unset_focus_chain</strong></a>(...)</dt></dl>
+
+<hr>
+Data and non-method functions inherited from <a href="gtk.html#Container">gtk.Container</a>:<br>
+<dl><dt><strong>border_width</strong> = &lt;attribute 'border_width' of 'gtk.Container' objects&gt;</dl>
+
+<dl><dt><strong>focus_child</strong> = &lt;attribute 'focus_child' of 'gtk.Container' objects&gt;</dl>
+
+<dl><dt><strong>has_focus_chain</strong> = &lt;attribute 'has_focus_chain' of 'gtk.Container' objects&gt;</dl>
+
+<dl><dt><strong>need_resize</strong> = &lt;attribute 'need_resize' of 'gtk.Container' objects&gt;</dl>
+
+<dl><dt><strong>reallocate_redraws</strong> = &lt;attribute 'reallocate_redraws' of 'gtk.Container' objects&gt;</dl>
+
+<dl><dt><strong>resize_mode</strong> = &lt;attribute 'resize_mode' of 'gtk.Container' objects&gt;</dl>
+
+<hr>
+Methods inherited from <a href="gtk.html#Widget">gtk.Widget</a>:<br>
+<dl><dt><a name="SoundBar-activate"><strong>activate</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-add_accelerator"><strong>add_accelerator</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-add_events"><strong>add_events</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-child_focus"><strong>child_focus</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-child_notify"><strong>child_notify</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-class_path"><strong>class_path</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-create_pango_context"><strong>create_pango_context</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-create_pango_layout"><strong>create_pango_layout</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-destroy"><strong>destroy</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-drag_begin"><strong>drag_begin</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-drag_check_threshold"><strong>drag_check_threshold</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-drag_dest_find_target"><strong>drag_dest_find_target</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-drag_dest_get_target_list"><strong>drag_dest_get_target_list</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-drag_dest_set"><strong>drag_dest_set</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-drag_dest_set_proxy"><strong>drag_dest_set_proxy</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-drag_dest_set_target_list"><strong>drag_dest_set_target_list</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-drag_dest_unset"><strong>drag_dest_unset</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-drag_get_data"><strong>drag_get_data</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-drag_highlight"><strong>drag_highlight</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-drag_source_set"><strong>drag_source_set</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-drag_source_set_icon"><strong>drag_source_set_icon</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-drag_source_set_icon_pixbuf"><strong>drag_source_set_icon_pixbuf</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-drag_source_set_icon_stock"><strong>drag_source_set_icon_stock</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-drag_source_unset"><strong>drag_source_unset</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-drag_unhighlight"><strong>drag_unhighlight</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-draw"><strong>draw</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-ensure_style"><strong>ensure_style</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-event"><strong>event</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-freeze_child_notify"><strong>freeze_child_notify</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_accessible"><strong>get_accessible</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_allocation"><strong>get_allocation</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_ancestor"><strong>get_ancestor</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_child_requisition"><strong>get_child_requisition</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_child_visible"><strong>get_child_visible</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_colormap"><strong>get_colormap</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_composite_name"><strong>get_composite_name</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_direction"><strong>get_direction</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_events"><strong>get_events</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_extension_events"><strong>get_extension_events</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_modifier_style"><strong>get_modifier_style</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_name"><strong>get_name</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_pango_context"><strong>get_pango_context</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_parent"><strong>get_parent</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_parent_window"><strong>get_parent_window</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_pointer"><strong>get_pointer</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_settings"><strong>get_settings</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_size_request"><strong>get_size_request</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_style"><strong>get_style</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_toplevel"><strong>get_toplevel</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_visual"><strong>get_visual</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-grab_add"><strong>grab_add</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-grab_default"><strong>grab_default</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-grab_focus"><strong>grab_focus</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-grab_remove"><strong>grab_remove</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-hide"><strong>hide</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-hide_all"><strong>hide_all</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-hide_on_delete"><strong>hide_on_delete</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-intersect"><strong>intersect</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-is_ancestor"><strong>is_ancestor</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-is_focus"><strong>is_focus</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-map"><strong>map</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-mnemonic_activate"><strong>mnemonic_activate</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-modify_base"><strong>modify_base</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-modify_bg"><strong>modify_bg</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-modify_fg"><strong>modify_fg</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-modify_font"><strong>modify_font</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-modify_style"><strong>modify_style</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-modify_text"><strong>modify_text</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-path"><strong>path</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-queue_clear"><strong>queue_clear</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-queue_clear_area"><strong>queue_clear_area</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-queue_draw"><strong>queue_draw</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-queue_draw_area"><strong>queue_draw_area</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-queue_resize"><strong>queue_resize</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-rc_get_style"><strong>rc_get_style</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-realize"><strong>realize</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-remove_accelerator"><strong>remove_accelerator</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-render_icon"><strong>render_icon</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-reparent"><strong>reparent</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-reset_rc_styles"><strong>reset_rc_styles</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-reset_shapes"><strong>reset_shapes</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-selection_add_target"><strong>selection_add_target</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-selection_add_targets"><strong>selection_add_targets</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-selection_clear_targets"><strong>selection_clear_targets</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-selection_convert"><strong>selection_convert</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-selection_owner_set"><strong>selection_owner_set</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-selection_remove_all"><strong>selection_remove_all</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-send_expose"><strong>send_expose</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_accel_path"><strong>set_accel_path</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_app_paintable"><strong>set_app_paintable</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_child_visible"><strong>set_child_visible</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_colormap"><strong>set_colormap</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_composite_name"><strong>set_composite_name</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_direction"><strong>set_direction</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_double_buffered"><strong>set_double_buffered</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_events"><strong>set_events</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_extension_events"><strong>set_extension_events</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_name"><strong>set_name</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_parent"><strong>set_parent</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_parent_window"><strong>set_parent_window</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_redraw_on_allocate"><strong>set_redraw_on_allocate</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_scroll_adjustments"><strong>set_scroll_adjustments</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_sensitive"><strong>set_sensitive</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_size_request"><strong>set_size_request</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_state"><strong>set_state</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_style"><strong>set_style</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_uposition"><strong>set_uposition</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_usize"><strong>set_usize</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-shape_combine_mask"><strong>shape_combine_mask</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-show"><strong>show</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-show_all"><strong>show_all</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-show_now"><strong>show_now</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-size_allocate"><strong>size_allocate</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-size_request"><strong>size_request</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-thaw_child_notify"><strong>thaw_child_notify</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-translate_coordinates"><strong>translate_coordinates</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-unmap"><strong>unmap</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-unparent"><strong>unparent</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-unrealize"><strong>unrealize</strong></a>(...)</dt></dl>
+
+<hr>
+Data and non-method functions inherited from <a href="gtk.html#Widget">gtk.Widget</a>:<br>
+<dl><dt><strong>allocation</strong> = &lt;attribute 'allocation' of 'gtk.Widget' objects&gt;</dl>
+
+<dl><dt><strong>name</strong> = &lt;attribute 'name' of 'gtk.Widget' objects&gt;</dl>
+
+<dl><dt><strong>parent</strong> = &lt;attribute 'parent' of 'gtk.Widget' objects&gt;</dl>
+
+<dl><dt><strong>saved_state</strong> = &lt;attribute 'saved_state' of 'gtk.Widget' objects&gt;</dl>
+
+<dl><dt><strong>state</strong> = &lt;attribute 'state' of 'gtk.Widget' objects&gt;</dl>
+
+<dl><dt><strong>style</strong> = &lt;attribute 'style' of 'gtk.Widget' objects&gt;</dl>
+
+<dl><dt><strong>window</strong> = &lt;attribute 'window' of 'gtk.Widget' objects&gt;</dl>
+
+<hr>
+Methods inherited from <a href="gtk.html#Object">gtk.Object</a>:<br>
+<dl><dt><a name="SoundBar-flags"><strong>flags</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_flags"><strong>set_flags</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-unset_flags"><strong>unset_flags</strong></a>(...)</dt></dl>
+
+<hr>
+Methods inherited from <a href="gobject.html#GObject">gobject.GObject</a>:<br>
+<dl><dt><a name="SoundBar-__cmp__"><strong>__cmp__</strong></a>(...)</dt><dd><tt>x.<a href="#SoundBar-__cmp__">__cmp__</a>(y)&nbsp;&lt;==&gt;&nbsp;cmp(x,y)</tt></dd></dl>
+
+<dl><dt><a name="SoundBar-__gobject_init__"><strong>__gobject_init__</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-__hash__"><strong>__hash__</strong></a>(...)</dt><dd><tt>x.<a href="#SoundBar-__hash__">__hash__</a>()&nbsp;&lt;==&gt;&nbsp;hash(x)</tt></dd></dl>
+
+<dl><dt><a name="SoundBar-__repr__"><strong>__repr__</strong></a>(...)</dt><dd><tt>x.<a href="#SoundBar-__repr__">__repr__</a>()&nbsp;&lt;==&gt;&nbsp;repr(x)</tt></dd></dl>
+
+<dl><dt><a name="SoundBar-chain"><strong>chain</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-connect"><strong>connect</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-connect_after"><strong>connect_after</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-connect_object"><strong>connect_object</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-connect_object_after"><strong>connect_object_after</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-disconnect"><strong>disconnect</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-emit"><strong>emit</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-emit_stop_by_name"><strong>emit_stop_by_name</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-freeze_notify"><strong>freeze_notify</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_data"><strong>get_data</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-get_property"><strong>get_property</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-handler_block"><strong>handler_block</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-handler_disconnect"><strong>handler_disconnect</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-handler_is_connected"><strong>handler_is_connected</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-handler_unblock"><strong>handler_unblock</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-notify"><strong>notify</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_data"><strong>set_data</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-set_property"><strong>set_property</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-stop_emission"><strong>stop_emission</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="SoundBar-thaw_notify"><strong>thaw_notify</strong></a>(...)</dt></dl>
+
+<hr>
+Data and non-method functions inherited from <a href="gobject.html#GObject">gobject.GObject</a>:<br>
+<dl><dt><strong>__dict__</strong> = &lt;dict-proxy object&gt;</dl>
+
+<dl><dt><strong>__gdoc__</strong> = 'Object GtkHBox<font color="#c040c0">\n\n</font>Signals from GObject:<font color="#c040c0">\n</font>  notify (...ether the children should all be the same size.<font color="#c040c0">\n\n</font>'</dl>
+
+<dl><dt><strong>__grefcount__</strong> = &lt;attribute '__grefcount__' of 'gobject.GObject' objects&gt;</dl>
+
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#SoundBar-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;object&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<hr>
+Methods inherited from <a href="__builtin__.html#object">__builtin__.object</a>:<br>
+<dl><dt><a name="SoundBar-__delattr__"><strong>__delattr__</strong></a>(...)</dt><dd><tt>x.<a href="#SoundBar-__delattr__">__delattr__</a>('name')&nbsp;&lt;==&gt;&nbsp;del&nbsp;x.name</tt></dd></dl>
+
+<dl><dt><a name="SoundBar-__getattribute__"><strong>__getattribute__</strong></a>(...)</dt><dd><tt>x.<a href="#SoundBar-__getattribute__">__getattribute__</a>('name')&nbsp;&lt;==&gt;&nbsp;x.name</tt></dd></dl>
+
+<dl><dt><a name="SoundBar-__reduce__"><strong>__reduce__</strong></a>(...)</dt><dd><tt>helper&nbsp;for&nbsp;pickle</tt></dd></dl>
+
+<dl><dt><a name="SoundBar-__setattr__"><strong>__setattr__</strong></a>(...)</dt><dd><tt>x.<a href="#SoundBar-__setattr__">__setattr__</a>('name',&nbsp;value)&nbsp;&lt;==&gt;&nbsp;x.name&nbsp;=&nbsp;value</tt></dd></dl>
+
+<dl><dt><a name="SoundBar-__str__"><strong>__str__</strong></a>(...)</dt><dd><tt>x.<a href="#SoundBar-__str__">__str__</a>()&nbsp;&lt;==&gt;&nbsp;str(x)</tt></dd></dl>
+
+<hr>
+Data and non-method functions inherited from <a href="__builtin__.html#object">__builtin__.object</a>:<br>
+<dl><dt><strong>__class__</strong> = &lt;type 'type'&gt;<dd><tt>the&nbsp;object's&nbsp;class</tt></dl>
+
+</td></tr></table> 
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="_MessageBox">class <strong>_MessageBox</strong></a>(<a href="gtk.html#Dialog">gtk.Dialog</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>A&nbsp;generic&nbsp;message&nbsp;dialog&nbsp;box&nbsp;class.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="pyvoiceui.html#_MessageBox">_MessageBox</a></dd>
+<dd><a href="gtk.html#Dialog">gtk.Dialog</a></dd>
+<dd><a href="gtk.html#Window">gtk.Window</a></dd>
+<dd><a href="gtk.html#Bin">gtk.Bin</a></dd>
+<dd><a href="gtk.html#Container">gtk.Container</a></dd>
+<dd><a href="gtk.html#Widget">gtk.Widget</a></dd>
+<dd><a href="gtk.html#Object">gtk.Object</a></dd>
+<dd><a href="gobject.html#GObject">gobject.GObject</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="_MessageBox-_MessageBox__click"><strong>_MessageBox__click</strong></a> = __click(self, button)</dt></dl>
+
+<dl><dt><a name="_MessageBox-_MessageBox__press"><strong>_MessageBox__press</strong></a> = __press(self, widget, event)</dt></dl>
+
+<dl><dt><a name="_MessageBox-__init__"><strong>__init__</strong></a>(self, title<font color="#909090">='Message'</font>, message<font color="#909090">=''</font>, buttons<font color="#909090">=('Ok',)</font>, modal<font color="#909090">=1</font>)</dt><dd><tt>message:&nbsp;either&nbsp;a&nbsp;string&nbsp;or&nbsp;a&nbsp;list&nbsp;of&nbsp;strings</tt></dd></dl>
+
+<dl><dt><a name="_MessageBox-quit"><strong>quit</strong></a>(self, *args)</dt></dl>
+
+<hr>
+Data and non-method functions defined here:<br>
+<dl><dt><strong>__doc__</strong> = '<font color="#c040c0">\n</font>    A generic message dialog box class.<font color="#c040c0">\n</font>    '<dd><tt>str(object)&nbsp;-&gt;&nbsp;string<br>
+&nbsp;<br>
+Return&nbsp;a&nbsp;nice&nbsp;string&nbsp;representation&nbsp;of&nbsp;the&nbsp;object.<br>
+If&nbsp;the&nbsp;argument&nbsp;is&nbsp;a&nbsp;string,&nbsp;the&nbsp;return&nbsp;value&nbsp;is&nbsp;the&nbsp;same&nbsp;object.</tt></dl>
+
+<dl><dt><strong>__module__</strong> = 'pyvoiceui'<dd><tt>str(object)&nbsp;-&gt;&nbsp;string<br>
+&nbsp;<br>
+Return&nbsp;a&nbsp;nice&nbsp;string&nbsp;representation&nbsp;of&nbsp;the&nbsp;object.<br>
+If&nbsp;the&nbsp;argument&nbsp;is&nbsp;a&nbsp;string,&nbsp;the&nbsp;return&nbsp;value&nbsp;is&nbsp;the&nbsp;same&nbsp;object.</tt></dl>
+
+<hr>
+Methods inherited from <a href="gtk.html#Dialog">gtk.Dialog</a>:<br>
+<dl><dt><a name="_MessageBox-add_action_widget"><strong>add_action_widget</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-add_button"><strong>add_button</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-add_buttons"><strong>add_buttons</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_has_separator"><strong>get_has_separator</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-response"><strong>response</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-run"><strong>run</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_default_response"><strong>set_default_response</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_has_separator"><strong>set_has_separator</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_response_sensitive"><strong>set_response_sensitive</strong></a>(...)</dt></dl>
+
+<hr>
+Data and non-method functions inherited from <a href="gtk.html#Dialog">gtk.Dialog</a>:<br>
+<dl><dt><strong>__gtype__</strong> = &lt;GType GtkDialog (135959072)&gt;</dl>
+
+<dl><dt><strong>action_area</strong> = &lt;attribute 'action_area' of 'gtk.Dialog' objects&gt;</dl>
+
+<dl><dt><strong>vbox</strong> = &lt;attribute 'vbox' of 'gtk.Dialog' objects&gt;</dl>
+
+<hr>
+Methods inherited from <a href="gtk.html#Window">gtk.Window</a>:<br>
+<dl><dt><a name="_MessageBox-activate_default"><strong>activate_default</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-activate_focus"><strong>activate_focus</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-add_accel_group"><strong>add_accel_group</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-add_mnemonic"><strong>add_mnemonic</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-begin_move_drag"><strong>begin_move_drag</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-begin_resize_drag"><strong>begin_resize_drag</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-deiconify"><strong>deiconify</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_decorated"><strong>get_decorated</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_default_size"><strong>get_default_size</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_destroy_with_parent"><strong>get_destroy_with_parent</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_focus"><strong>get_focus</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_frame_dimensions"><strong>get_frame_dimensions</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_gravity"><strong>get_gravity</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_has_frame"><strong>get_has_frame</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_icon"><strong>get_icon</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_icon_list"><strong>get_icon_list</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_mnemonic_modifier"><strong>get_mnemonic_modifier</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_modal"><strong>get_modal</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_position"><strong>get_position</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_resizable"><strong>get_resizable</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_role"><strong>get_role</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_size"><strong>get_size</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_title"><strong>get_title</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_transient_for"><strong>get_transient_for</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_type_hint"><strong>get_type_hint</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-iconify"><strong>iconify</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-maximize"><strong>maximize</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-mnemonic_activate"><strong>mnemonic_activate</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-move"><strong>move</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-parse_geometry"><strong>parse_geometry</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-present"><strong>present</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-remove_accel_group"><strong>remove_accel_group</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-remove_mnemonic"><strong>remove_mnemonic</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-reshow_with_initial_size"><strong>reshow_with_initial_size</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-resize"><strong>resize</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_decorated"><strong>set_decorated</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_default"><strong>set_default</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_default_size"><strong>set_default_size</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_destroy_with_parent"><strong>set_destroy_with_parent</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_focus"><strong>set_focus</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_frame_dimensions"><strong>set_frame_dimensions</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_geometry_hints"><strong>set_geometry_hints</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_gravity"><strong>set_gravity</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_has_frame"><strong>set_has_frame</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_icon"><strong>set_icon</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_icon_list"><strong>set_icon_list</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_mnemonic_modifier"><strong>set_mnemonic_modifier</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_modal"><strong>set_modal</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_policy"><strong>set_policy</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_position"><strong>set_position</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_resizable"><strong>set_resizable</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_role"><strong>set_role</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_title"><strong>set_title</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_transient_for"><strong>set_transient_for</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_type_hint"><strong>set_type_hint</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_wmclass"><strong>set_wmclass</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-stick"><strong>stick</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-unmaximize"><strong>unmaximize</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-unstick"><strong>unstick</strong></a>(...)</dt></dl>
+
+<hr>
+Data and non-method functions inherited from <a href="gtk.html#Window">gtk.Window</a>:<br>
+<dl><dt><strong>allow_grow</strong> = &lt;attribute 'allow_grow' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>allow_shrink</strong> = &lt;attribute 'allow_shrink' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>configure_notify_received</strong> = &lt;attribute 'configure_notify_received' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>configure_request_count</strong> = &lt;attribute 'configure_request_count' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>decorated</strong> = &lt;attribute 'decorated' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>default_widget</strong> = &lt;attribute 'default_widget' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>destroy_with_parent</strong> = &lt;attribute 'destroy_with_parent' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>focus_widget</strong> = &lt;attribute 'focus_widget' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>frame</strong> = &lt;attribute 'frame' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>frame_bottom</strong> = &lt;attribute 'frame_bottom' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>frame_left</strong> = &lt;attribute 'frame_left' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>frame_right</strong> = &lt;attribute 'frame_right' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>frame_top</strong> = &lt;attribute 'frame_top' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>gravity</strong> = &lt;attribute 'gravity' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>group</strong> = &lt;attribute 'group' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>has_focus</strong> = &lt;attribute 'has_focus' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>has_frame</strong> = &lt;attribute 'has_frame' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>has_user_ref_count</strong> = &lt;attribute 'has_user_ref_count' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>iconify_initially</strong> = &lt;attribute 'iconify_initially' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>keys_changed_handler</strong> = &lt;attribute 'keys_changed_handler' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>maximize_initially</strong> = &lt;attribute 'maximize_initially' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>mnemonic_modifier</strong> = &lt;attribute 'mnemonic_modifier' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>modal</strong> = &lt;attribute 'modal' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>need_default_position</strong> = &lt;attribute 'need_default_position' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>need_default_size</strong> = &lt;attribute 'need_default_size' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>position</strong> = &lt;attribute 'position' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>stick_initially</strong> = &lt;attribute 'stick_initially' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>title</strong> = &lt;attribute 'title' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>transient_parent</strong> = &lt;attribute 'transient_parent' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>type</strong> = &lt;attribute 'type' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>type_hint</strong> = &lt;attribute 'type_hint' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>wm_role</strong> = &lt;attribute 'wm_role' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>wmclass_class</strong> = &lt;attribute 'wmclass_class' of 'gtk.Window' objects&gt;</dl>
+
+<dl><dt><strong>wmclass_name</strong> = &lt;attribute 'wmclass_name' of 'gtk.Window' objects&gt;</dl>
+
+<hr>
+Methods inherited from <a href="gtk.html#Bin">gtk.Bin</a>:<br>
+<dl><dt><a name="_MessageBox-get_child"><strong>get_child</strong></a>(...)</dt></dl>
+
+<hr>
+Data and non-method functions inherited from <a href="gtk.html#Bin">gtk.Bin</a>:<br>
+<dl><dt><strong>child</strong> = &lt;attribute 'child' of 'gtk.Bin' objects&gt;</dl>
+
+<hr>
+Methods inherited from <a href="gtk.html#Container">gtk.Container</a>:<br>
+<dl><dt><a name="_MessageBox-add"><strong>add</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-add_with_properties"><strong>add_with_properties</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-check_resize"><strong>check_resize</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-child_get"><strong>child_get</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-child_get_property"><strong>child_get_property</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-child_set"><strong>child_set</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-child_set_property"><strong>child_set_property</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-child_type"><strong>child_type</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-children"><strong>children</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-forall"><strong>forall</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-foreach"><strong>foreach</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_border_width"><strong>get_border_width</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_children"><strong>get_children</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_focus_chain"><strong>get_focus_chain</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_focus_hadjustment"><strong>get_focus_hadjustment</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_focus_vadjustment"><strong>get_focus_vadjustment</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_resize_mode"><strong>get_resize_mode</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-propagate_expose"><strong>propagate_expose</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-remove"><strong>remove</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-resize_children"><strong>resize_children</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_border_width"><strong>set_border_width</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_focus_chain"><strong>set_focus_chain</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_focus_child"><strong>set_focus_child</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_focus_hadjustment"><strong>set_focus_hadjustment</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_focus_vadjustment"><strong>set_focus_vadjustment</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_reallocate_redraws"><strong>set_reallocate_redraws</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_resize_mode"><strong>set_resize_mode</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-unset_focus_chain"><strong>unset_focus_chain</strong></a>(...)</dt></dl>
+
+<hr>
+Data and non-method functions inherited from <a href="gtk.html#Container">gtk.Container</a>:<br>
+<dl><dt><strong>border_width</strong> = &lt;attribute 'border_width' of 'gtk.Container' objects&gt;</dl>
+
+<dl><dt><strong>focus_child</strong> = &lt;attribute 'focus_child' of 'gtk.Container' objects&gt;</dl>
+
+<dl><dt><strong>has_focus_chain</strong> = &lt;attribute 'has_focus_chain' of 'gtk.Container' objects&gt;</dl>
+
+<dl><dt><strong>need_resize</strong> = &lt;attribute 'need_resize' of 'gtk.Container' objects&gt;</dl>
+
+<dl><dt><strong>reallocate_redraws</strong> = &lt;attribute 'reallocate_redraws' of 'gtk.Container' objects&gt;</dl>
+
+<dl><dt><strong>resize_mode</strong> = &lt;attribute 'resize_mode' of 'gtk.Container' objects&gt;</dl>
+
+<hr>
+Methods inherited from <a href="gtk.html#Widget">gtk.Widget</a>:<br>
+<dl><dt><a name="_MessageBox-activate"><strong>activate</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-add_accelerator"><strong>add_accelerator</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-add_events"><strong>add_events</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-child_focus"><strong>child_focus</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-child_notify"><strong>child_notify</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-class_path"><strong>class_path</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-create_pango_context"><strong>create_pango_context</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-create_pango_layout"><strong>create_pango_layout</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-destroy"><strong>destroy</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-drag_begin"><strong>drag_begin</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-drag_check_threshold"><strong>drag_check_threshold</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-drag_dest_find_target"><strong>drag_dest_find_target</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-drag_dest_get_target_list"><strong>drag_dest_get_target_list</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-drag_dest_set"><strong>drag_dest_set</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-drag_dest_set_proxy"><strong>drag_dest_set_proxy</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-drag_dest_set_target_list"><strong>drag_dest_set_target_list</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-drag_dest_unset"><strong>drag_dest_unset</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-drag_get_data"><strong>drag_get_data</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-drag_highlight"><strong>drag_highlight</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-drag_source_set"><strong>drag_source_set</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-drag_source_set_icon"><strong>drag_source_set_icon</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-drag_source_set_icon_pixbuf"><strong>drag_source_set_icon_pixbuf</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-drag_source_set_icon_stock"><strong>drag_source_set_icon_stock</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-drag_source_unset"><strong>drag_source_unset</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-drag_unhighlight"><strong>drag_unhighlight</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-draw"><strong>draw</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-ensure_style"><strong>ensure_style</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-event"><strong>event</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-freeze_child_notify"><strong>freeze_child_notify</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_accessible"><strong>get_accessible</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_allocation"><strong>get_allocation</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_ancestor"><strong>get_ancestor</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_child_requisition"><strong>get_child_requisition</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_child_visible"><strong>get_child_visible</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_colormap"><strong>get_colormap</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_composite_name"><strong>get_composite_name</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_direction"><strong>get_direction</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_events"><strong>get_events</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_extension_events"><strong>get_extension_events</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_modifier_style"><strong>get_modifier_style</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_name"><strong>get_name</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_pango_context"><strong>get_pango_context</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_parent"><strong>get_parent</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_parent_window"><strong>get_parent_window</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_pointer"><strong>get_pointer</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_settings"><strong>get_settings</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_size_request"><strong>get_size_request</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_style"><strong>get_style</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_toplevel"><strong>get_toplevel</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_visual"><strong>get_visual</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-grab_add"><strong>grab_add</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-grab_default"><strong>grab_default</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-grab_focus"><strong>grab_focus</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-grab_remove"><strong>grab_remove</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-hide"><strong>hide</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-hide_all"><strong>hide_all</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-hide_on_delete"><strong>hide_on_delete</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-intersect"><strong>intersect</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-is_ancestor"><strong>is_ancestor</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-is_focus"><strong>is_focus</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-map"><strong>map</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-modify_base"><strong>modify_base</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-modify_bg"><strong>modify_bg</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-modify_fg"><strong>modify_fg</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-modify_font"><strong>modify_font</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-modify_style"><strong>modify_style</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-modify_text"><strong>modify_text</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-path"><strong>path</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-queue_clear"><strong>queue_clear</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-queue_clear_area"><strong>queue_clear_area</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-queue_draw"><strong>queue_draw</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-queue_draw_area"><strong>queue_draw_area</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-queue_resize"><strong>queue_resize</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-rc_get_style"><strong>rc_get_style</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-realize"><strong>realize</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-remove_accelerator"><strong>remove_accelerator</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-render_icon"><strong>render_icon</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-reparent"><strong>reparent</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-reset_rc_styles"><strong>reset_rc_styles</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-reset_shapes"><strong>reset_shapes</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-selection_add_target"><strong>selection_add_target</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-selection_add_targets"><strong>selection_add_targets</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-selection_clear_targets"><strong>selection_clear_targets</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-selection_convert"><strong>selection_convert</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-selection_owner_set"><strong>selection_owner_set</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-selection_remove_all"><strong>selection_remove_all</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-send_expose"><strong>send_expose</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_accel_path"><strong>set_accel_path</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_app_paintable"><strong>set_app_paintable</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_child_visible"><strong>set_child_visible</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_colormap"><strong>set_colormap</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_composite_name"><strong>set_composite_name</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_direction"><strong>set_direction</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_double_buffered"><strong>set_double_buffered</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_events"><strong>set_events</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_extension_events"><strong>set_extension_events</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_name"><strong>set_name</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_parent"><strong>set_parent</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_parent_window"><strong>set_parent_window</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_redraw_on_allocate"><strong>set_redraw_on_allocate</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_scroll_adjustments"><strong>set_scroll_adjustments</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_sensitive"><strong>set_sensitive</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_size_request"><strong>set_size_request</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_state"><strong>set_state</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_style"><strong>set_style</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_uposition"><strong>set_uposition</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_usize"><strong>set_usize</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-shape_combine_mask"><strong>shape_combine_mask</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-show"><strong>show</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-show_all"><strong>show_all</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-show_now"><strong>show_now</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-size_allocate"><strong>size_allocate</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-size_request"><strong>size_request</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-thaw_child_notify"><strong>thaw_child_notify</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-translate_coordinates"><strong>translate_coordinates</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-unmap"><strong>unmap</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-unparent"><strong>unparent</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-unrealize"><strong>unrealize</strong></a>(...)</dt></dl>
+
+<hr>
+Data and non-method functions inherited from <a href="gtk.html#Widget">gtk.Widget</a>:<br>
+<dl><dt><strong>allocation</strong> = &lt;attribute 'allocation' of 'gtk.Widget' objects&gt;</dl>
+
+<dl><dt><strong>name</strong> = &lt;attribute 'name' of 'gtk.Widget' objects&gt;</dl>
+
+<dl><dt><strong>parent</strong> = &lt;attribute 'parent' of 'gtk.Widget' objects&gt;</dl>
+
+<dl><dt><strong>saved_state</strong> = &lt;attribute 'saved_state' of 'gtk.Widget' objects&gt;</dl>
+
+<dl><dt><strong>state</strong> = &lt;attribute 'state' of 'gtk.Widget' objects&gt;</dl>
+
+<dl><dt><strong>style</strong> = &lt;attribute 'style' of 'gtk.Widget' objects&gt;</dl>
+
+<dl><dt><strong>window</strong> = &lt;attribute 'window' of 'gtk.Widget' objects&gt;</dl>
+
+<hr>
+Methods inherited from <a href="gtk.html#Object">gtk.Object</a>:<br>
+<dl><dt><a name="_MessageBox-flags"><strong>flags</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_flags"><strong>set_flags</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-unset_flags"><strong>unset_flags</strong></a>(...)</dt></dl>
+
+<hr>
+Methods inherited from <a href="gobject.html#GObject">gobject.GObject</a>:<br>
+<dl><dt><a name="_MessageBox-__cmp__"><strong>__cmp__</strong></a>(...)</dt><dd><tt>x.<a href="#_MessageBox-__cmp__">__cmp__</a>(y)&nbsp;&lt;==&gt;&nbsp;cmp(x,y)</tt></dd></dl>
+
+<dl><dt><a name="_MessageBox-__gobject_init__"><strong>__gobject_init__</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-__hash__"><strong>__hash__</strong></a>(...)</dt><dd><tt>x.<a href="#_MessageBox-__hash__">__hash__</a>()&nbsp;&lt;==&gt;&nbsp;hash(x)</tt></dd></dl>
+
+<dl><dt><a name="_MessageBox-__repr__"><strong>__repr__</strong></a>(...)</dt><dd><tt>x.<a href="#_MessageBox-__repr__">__repr__</a>()&nbsp;&lt;==&gt;&nbsp;repr(x)</tt></dd></dl>
+
+<dl><dt><a name="_MessageBox-chain"><strong>chain</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-connect"><strong>connect</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-connect_after"><strong>connect_after</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-connect_object"><strong>connect_object</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-connect_object_after"><strong>connect_object_after</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-disconnect"><strong>disconnect</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-emit"><strong>emit</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-emit_stop_by_name"><strong>emit_stop_by_name</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-freeze_notify"><strong>freeze_notify</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_data"><strong>get_data</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-get_property"><strong>get_property</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-handler_block"><strong>handler_block</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-handler_disconnect"><strong>handler_disconnect</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-handler_is_connected"><strong>handler_is_connected</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-handler_unblock"><strong>handler_unblock</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-notify"><strong>notify</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_data"><strong>set_data</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-set_property"><strong>set_property</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-stop_emission"><strong>stop_emission</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="_MessageBox-thaw_notify"><strong>thaw_notify</strong></a>(...)</dt></dl>
+
+<hr>
+Data and non-method functions inherited from <a href="gobject.html#GObject">gobject.GObject</a>:<br>
+<dl><dt><strong>__dict__</strong> = &lt;dict-proxy object&gt;</dl>
+
+<dl><dt><strong>__gdoc__</strong> = 'Object GtkDialog<font color="#c040c0">\n\n</font>Signals from GObject:<font color="#c040c0">\n</font>  notify...ana tiene un barra separadora sobre sus botones<font color="#c040c0">\n\n</font>'</dl>
+
+<dl><dt><strong>__grefcount__</strong> = &lt;attribute '__grefcount__' of 'gobject.GObject' objects&gt;</dl>
+
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#_MessageBox-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;object&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<hr>
+Methods inherited from <a href="__builtin__.html#object">__builtin__.object</a>:<br>
+<dl><dt><a name="_MessageBox-__delattr__"><strong>__delattr__</strong></a>(...)</dt><dd><tt>x.<a href="#_MessageBox-__delattr__">__delattr__</a>('name')&nbsp;&lt;==&gt;&nbsp;del&nbsp;x.name</tt></dd></dl>
+
+<dl><dt><a name="_MessageBox-__getattribute__"><strong>__getattribute__</strong></a>(...)</dt><dd><tt>x.<a href="#_MessageBox-__getattribute__">__getattribute__</a>('name')&nbsp;&lt;==&gt;&nbsp;x.name</tt></dd></dl>
+
+<dl><dt><a name="_MessageBox-__reduce__"><strong>__reduce__</strong></a>(...)</dt><dd><tt>helper&nbsp;for&nbsp;pickle</tt></dd></dl>
+
+<dl><dt><a name="_MessageBox-__setattr__"><strong>__setattr__</strong></a>(...)</dt><dd><tt>x.<a href="#_MessageBox-__setattr__">__setattr__</a>('name',&nbsp;value)&nbsp;&lt;==&gt;&nbsp;x.name&nbsp;=&nbsp;value</tt></dd></dl>
+
+<dl><dt><a name="_MessageBox-__str__"><strong>__str__</strong></a>(...)</dt><dd><tt>x.<a href="#_MessageBox-__str__">__str__</a>()&nbsp;&lt;==&gt;&nbsp;str(x)</tt></dd></dl>
+
+<hr>
+Data and non-method functions inherited from <a href="__builtin__.html#object">__builtin__.object</a>:<br>
+<dl><dt><strong>__class__</strong> = &lt;type 'type'&gt;<dd><tt>the&nbsp;object's&nbsp;class</tt></dl>
+
+</td></tr></table> 
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="pyvoicegui">class <strong>pyvoicegui</strong></a></font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Main&nbsp;GUI&nbsp;interface&nbsp;class.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="pyvoicegui-__init__"><strong>__init__</strong></a>(self)</dt><dd><tt>Main&nbsp;GUI&nbsp;interface&nbsp;class&nbsp;initiation&nbsp;method.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-boot_many_cb"><strong>boot_many_cb</strong></a>(self, *args)</dt></dl>
+
+<dl><dt><a name="pyvoicegui-boot_once_cb"><strong>boot_once_cb</strong></a>(self, *args)</dt></dl>
+
+<dl><dt><a name="pyvoicegui-check_requested_room"><strong>check_requested_room</strong></a>(self, *args)</dt><dd><tt>Called&nbsp;at&nbsp;regular&nbsp;intervals&nbsp;to&nbsp;see&nbsp;if&nbsp;we&nbsp;have&nbsp;switched&nbsp;chat&nbsp;rooms&nbsp;in&nbsp;GYach&nbsp;<br>
+Enhanced.&nbsp;&nbsp;If&nbsp;we&nbsp;have,&nbsp;Py&nbsp;Voice&nbsp;Chat&nbsp;is&nbsp;reconnected&nbsp;to&nbsp;the&nbsp;new&nbsp;chat&nbsp;room.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-clist_cb"><strong>clist_cb</strong></a>(self, widget, row, col, event)</dt><dd><tt>Room&nbsp;member&nbsp;list&nbsp;callback&nbsp;on&nbsp;select.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-clist_unselect"><strong>clist_unselect</strong></a>(self, *args)</dt><dd><tt>Room&nbsp;member&nbsp;list&nbsp;callback&nbsp;on&nbsp;unselect.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-dbg_off"><strong>dbg_off</strong></a>(self, *args)</dt><dd><tt>Turns&nbsp;debuggin&nbsp;off.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-dbg_on"><strong>dbg_on</strong></a>(self, *args)</dt><dd><tt>Turns&nbsp;debugging&nbsp;on.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-doAbout"><strong>doAbout</strong></a>(self, *args)</dt><dd><tt>Displays&nbsp;the&nbsp;'about'&nbsp;box.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-doContrib"><strong>doContrib</strong></a>(self, *args)</dt><dd><tt>Displays&nbsp;the&nbsp;'contributors'&nbsp;box.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-doQuit"><strong>doQuit</strong></a>(self, *args)</dt><dd><tt>Callback&nbsp;when&nbsp;we&nbsp;are&nbsp;about&nbsp;to&nbsp;exit&nbsp;PyVoiceChat.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-get_translator_credits"><strong>get_translator_credits</strong></a>(self, *args)</dt><dd><tt>Gather&nbsp;a&nbsp;string&nbsp;containing&nbsp;the&nbsp;credits&nbsp;for&nbsp;the&nbsp;translator&nbsp;(if&nbsp;any).</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-hide_server"><strong>hide_server</strong></a>(self, *args)</dt></dl>
+
+<dl><dt><a name="pyvoicegui-load_server"><strong>load_server</strong></a>(self, *args)</dt><dd><tt>Loads&nbsp;the&nbsp;saved&nbsp;voice&nbsp;chat&nbsp;server.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-save_server"><strong>save_server</strong></a>(self, *args)</dt></dl>
+
+<dl><dt><a name="pyvoicegui-selectServer"><strong>selectServer</strong></a>(self, *args)</dt><dd><tt>Callback&nbsp;for&nbsp;selecting&nbsp;a&nbsp;voice&nbsp;chat&nbsp;server&nbsp;from&nbsp;a&nbsp;list&nbsp;of&nbsp;available&nbsp;servers.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-set_status"><strong>set_status</strong></a>(self, mystat)</dt><dd><tt>Displays&nbsp;any&nbsp;generic&nbsp;string&nbsp;'mystat'&nbsp;in&nbsp;the&nbsp;status&nbsp;bar.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-show_sound_engine"><strong>show_sound_engine</strong></a>(self, *args)</dt><dd><tt>Displays&nbsp;information&nbsp;about&nbsp;PyESD,&nbsp;PyTSP,&nbsp;and&nbsp;the&nbsp;TrueSpeech&nbsp;codec.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-show_stats"><strong>show_stats</strong></a>(self, *args)</dt><dd><tt>Shows&nbsp;statistics&nbsp;about&nbsp;the&nbsp;current&nbsp;voice&nbsp;chat&nbsp;session.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-show_user_info"><strong>show_user_info</strong></a>(self, *args)</dt><dd><tt>Displays&nbsp;information&nbsp;and&nbsp;statistics&nbsp;about&nbsp;the&nbsp;selected&nbsp;voice&nbsp;chat&nbsp;user.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-start_voice_cb"><strong>start_voice_cb</strong></a>(self, *args)</dt><dd><tt>Callback&nbsp;to&nbsp;start&nbsp;a&nbsp;Py&nbsp;Voice&nbsp;Chat&nbsp;connection.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-stop_booting_cb"><strong>stop_booting_cb</strong></a>(self, *args)</dt></dl>
+
+<dl><dt><a name="pyvoicegui-stop_voice_cb"><strong>stop_voice_cb</strong></a>(self, *args)</dt><dd><tt>Callback&nbsp;to&nbsp;stop&nbsp;a&nbsp;Py&nbsp;Voice&nbsp;Chat&nbsp;connection.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-toggleTalk"><strong>toggleTalk</strong></a>(self, *args)</dt><dd><tt>Enables/disables&nbsp;talking&nbsp;and&nbsp;sending&nbsp;out&nbsp;to&nbsp;the&nbsp;voice&nbsp;chat&nbsp;server.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-toggle_ignore"><strong>toggle_ignore</strong></a>(self, *args)</dt><dd><tt>Turns&nbsp;ignore&nbsp;on/off&nbsp;for&nbsp;the&nbsp;selected&nbsp;voice&nbsp;chat&nbsp;user.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-toggle_mute"><strong>toggle_mute</strong></a>(self, *args)</dt><dd><tt>Turns&nbsp;mute&nbsp;on/off.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-tstartMicTest"><strong>tstartMicTest</strong></a>(self, *args)</dt></dl>
+
+<dl><dt><a name="pyvoicegui-update_alias"><strong>update_alias</strong></a>(self, nstatus)</dt><dd><tt>Displays&nbsp;the&nbsp;nick&nbsp;name&nbsp;(if&nbsp;any)&nbsp;of&nbsp;who&nbsp;is&nbsp;talking&nbsp;in&nbsp;the&nbsp;status&nbsp;bar.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-update_error"><strong>update_error</strong></a>(self, *args)</dt><dd><tt>Displays&nbsp;an&nbsp;existing&nbsp;error&nbsp;messages,&nbsp;which&nbsp;are&nbsp;polled&nbsp;at&nbsp;regular&nbsp;intervals.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-update_name"><strong>update_name</strong></a>(self, nstatus)</dt><dd><tt>Displays&nbsp;the&nbsp;screen&nbsp;name&nbsp;of&nbsp;who&nbsp;is&nbsp;talking&nbsp;in&nbsp;the&nbsp;status&nbsp;bar.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-update_recording"><strong>update_recording</strong></a>(self, *args)</dt><dd><tt>Called&nbsp;at&nbsp;regular&nbsp;intervals&nbsp;to&nbsp;update&nbsp;the&nbsp;recording&nbsp;color&nbsp;status.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-update_room_name"><strong>update_room_name</strong></a>(self, *args)</dt><dd><tt>Called&nbsp;at&nbsp;regular&nbsp;intervals&nbsp;to&nbsp;update&nbsp;the&nbsp;name&nbsp;of&nbsp;the&nbsp;voice&nbsp;chat&nbsp;room&nbsp;we&nbsp;are&nbsp;in.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-update_room_users"><strong>update_room_users</strong></a>(self, *args)</dt><dd><tt>Called&nbsp;at&nbsp;regular&nbsp;intervals&nbsp;to&nbsp;update&nbsp;the&nbsp;list&nbsp;of&nbsp;members&nbsp;in&nbsp;the&nbsp;voice&nbsp;chat&nbsp;room.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-update_state"><strong>update_state</strong></a>(self, *args)</dt><dd><tt>Called&nbsp;at&nbsp;regular&nbsp;intervals&nbsp;to&nbsp;update&nbsp;the&nbsp;color&nbsp;'state'&nbsp;display.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-update_talker"><strong>update_talker</strong></a>(self, *args)</dt><dd><tt>Called&nbsp;at&nbsp;regular&nbsp;intervals&nbsp;to&nbsp;update&nbsp;the&nbsp;displayed&nbsp;name&nbsp;of&nbsp;who&nbsp;is&nbsp;talking.</tt></dd></dl>
+
+<dl><dt><a name="pyvoicegui-update_vol"><strong>update_vol</strong></a>(self, *args)</dt><dd><tt>Called&nbsp;at&nbsp;regular&nbsp;intervals&nbsp;to&nbsp;update&nbsp;the&nbsp;volume&nbsp;display.</tt></dd></dl>
+
+<hr>
+Data and non-method functions defined here:<br>
+<dl><dt><strong>__doc__</strong> = '<font color="#c040c0">\n</font>    Main GUI interface class.<font color="#c040c0">\n</font>    '<dd><tt>str(object)&nbsp;-&gt;&nbsp;string<br>
+&nbsp;<br>
+Return&nbsp;a&nbsp;nice&nbsp;string&nbsp;representation&nbsp;of&nbsp;the&nbsp;object.<br>
+If&nbsp;the&nbsp;argument&nbsp;is&nbsp;a&nbsp;string,&nbsp;the&nbsp;return&nbsp;value&nbsp;is&nbsp;the&nbsp;same&nbsp;object.</tt></dl>
+
+<dl><dt><strong>__module__</strong> = 'pyvoiceui'<dd><tt>str(object)&nbsp;-&gt;&nbsp;string<br>
+&nbsp;<br>
+Return&nbsp;a&nbsp;nice&nbsp;string&nbsp;representation&nbsp;of&nbsp;the&nbsp;object.<br>
+If&nbsp;the&nbsp;argument&nbsp;is&nbsp;a&nbsp;string,&nbsp;the&nbsp;return&nbsp;value&nbsp;is&nbsp;the&nbsp;same&nbsp;object.</tt></dl>
+
+</td></tr></table></td></tr></table>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;&nbsp;</td>
+<td width="100%"><dl><dt><a name="-_"><strong>_</strong></a>(somestr)</dt></dl>
+ <dl><dt><a name="-accel_map_add_filter"><strong>accel_map_add_filter</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-accel_map_change_entry"><strong>accel_map_change_entry</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-accel_map_load"><strong>accel_map_load</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-accel_map_load_fd"><strong>accel_map_load_fd</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-accel_map_lookup_entry"><strong>accel_map_lookup_entry</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-accel_map_save"><strong>accel_map_save</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-accel_map_save_fd"><strong>accel_map_save_fd</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-accelerator_get_default_mod_mask"><strong>accelerator_get_default_mod_mask</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-accelerator_name"><strong>accelerator_name</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-accelerator_parse"><strong>accelerator_parse</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-accelerator_set_default_mod_mask"><strong>accelerator_set_default_mod_mask</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-accelerator_valid"><strong>accelerator_valid</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-binding_entry_add_signal"><strong>binding_entry_add_signal</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-bindings_activate"><strong>bindings_activate</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-check_version"><strong>check_version</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-color_selection_palette_from_string"><strong>color_selection_palette_from_string</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-color_selection_palette_to_string"><strong>color_selection_palette_to_string</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-create_pixmap_from_xpm"><strong>create_pixmap_from_xpm</strong></a> = pixmap_create_from_xpm(...)</dt></dl>
+ <dl><dt><a name="-create_pixmap_from_xpm_d"><strong>create_pixmap_from_xpm_d</strong></a> = pixmap_create_from_xpm_d(...)</dt></dl>
+ <dl><dt><a name="-disable_setlocale"><strong>disable_setlocale</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-do_cleanup"><strong>do_cleanup</strong></a>(*args)</dt><dd><tt>Cleans&nbsp;up&nbsp;temporary&nbsp;files&nbsp;in&nbsp;/tmp/&nbsp;.</tt></dd></dl>
+ <dl><dt><a name="-drag_set_default_icon"><strong>drag_set_default_icon</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-events_pending"><strong>events_pending</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-getBaseDir"><strong>getBaseDir</strong></a>()</dt></dl>
+ <dl><dt><a name="-getIconButton"><strong>getIconButton</strong></a>(winval, icon, label)</dt><dd><tt>Internal&nbsp;GUI&nbsp;method.</tt></dd></dl>
+ <dl><dt><a name="-getIconButton2"><strong>getIconButton2</strong></a>(winval, icon, label, toggle<font color="#909090">=0</font>)</dt><dd><tt>Internal&nbsp;GUI&nbsp;method.</tt></dd></dl>
+ <dl><dt><a name="-getPixDir"><strong>getPixDir</strong></a>()</dt></dl>
+ <dl><dt><a name="-get_current_event_time"><strong>get_current_event_time</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-get_default_language"><strong>get_default_language</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-grab_get_current"><strong>grab_get_current</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-gtk_tooltips_data_get"><strong>gtk_tooltips_data_get</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-hbutton_box_get_layout_default"><strong>hbutton_box_get_layout_default</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-hbutton_box_get_spacing_default"><strong>hbutton_box_get_spacing_default</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-hbutton_box_set_layout_default"><strong>hbutton_box_set_layout_default</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-hbutton_box_set_spacing_default"><strong>hbutton_box_set_spacing_default</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-icon_factory_lookup_default"><strong>icon_factory_lookup_default</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-icon_set_new"><strong>icon_set_new</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-icon_size_from_name"><strong>icon_size_from_name</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-icon_size_get_name"><strong>icon_size_get_name</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-icon_size_lookup"><strong>icon_size_lookup</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-icon_size_register"><strong>icon_size_register</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-icon_size_register_alias"><strong>icon_size_register_alias</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-idle_add"><strong>idle_add</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-idle_remove"><strong>idle_remove</strong></a> = source_remove(...)</dt></dl>
+ <dl><dt><a name="-image_new_from_animation"><strong>image_new_from_animation</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-image_new_from_icon_set"><strong>image_new_from_icon_set</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-image_new_from_stock"><strong>image_new_from_stock</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-input_add"><strong>input_add</strong></a> = io_add_watch(...)</dt></dl>
+ <dl><dt><a name="-input_add_full"><strong>input_add_full</strong></a> = io_add_watch(...)</dt></dl>
+ <dl><dt><a name="-input_remove"><strong>input_remove</strong></a> = source_remove(...)</dt></dl>
+ <dl><dt><a name="-item_factories_path_delete"><strong>item_factories_path_delete</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-item_factory_add_foreign"><strong>item_factory_add_foreign</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-item_factory_from_path"><strong>item_factory_from_path</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-item_factory_from_widget"><strong>item_factory_from_widget</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-item_factory_path_from_widget"><strong>item_factory_path_from_widget</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-loadImage"><strong>loadImage</strong></a>(picon, windowval)</dt><dd><tt>Internal&nbsp;GUI&nbsp;method.</tt></dd></dl>
+ <dl><dt><a name="-load_fontset"><strong>load_fontset</strong></a> = fontset_load(...)</dt></dl>
+ <dl><dt><a name="-main"><strong>main</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-main_do_event"><strong>main_do_event</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-main_iteration"><strong>main_iteration</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-main_iteration_do"><strong>main_iteration_do</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-main_level"><strong>main_level</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-main_quit"><strong>main_quit</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-mainiteration"><strong>mainiteration</strong></a> = main_iteration(...)</dt></dl>
+ <dl><dt><a name="-mainloop"><strong>mainloop</strong></a> = main(...)</dt></dl>
+ <dl><dt><a name="-message"><strong>message</strong></a>(message<font color="#909090">=''</font>, buttons<font color="#909090">=('Ok',)</font>, modal<font color="#909090">=1</font>, big<font color="#909090">=0</font>)</dt><dd><tt>Create&nbsp;a&nbsp;message&nbsp;box,&nbsp;and&nbsp;return&nbsp;which&nbsp;button&nbsp;was&nbsp;pressed.</tt></dd></dl>
+ <dl><dt><a name="-preview_get_cmap"><strong>preview_get_cmap</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-preview_get_visual"><strong>preview_get_visual</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-preview_reset"><strong>preview_reset</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-preview_set_color_cube"><strong>preview_set_color_cube</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-preview_set_gamma"><strong>preview_set_gamma</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-preview_set_install_cmap"><strong>preview_set_install_cmap</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-preview_set_reserved"><strong>preview_set_reserved</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-quit_add"><strong>quit_add</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-quit_remove"><strong>quit_remove</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-rc_add_default_file"><strong>rc_add_default_file</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-rc_find_module_in_path"><strong>rc_find_module_in_path</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-rc_get_default_files"><strong>rc_get_default_files</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-rc_get_im_module_file"><strong>rc_get_im_module_file</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-rc_get_im_module_path"><strong>rc_get_im_module_path</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-rc_get_module_dir"><strong>rc_get_module_dir</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-rc_get_style_by_paths"><strong>rc_get_style_by_paths</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-rc_get_theme_dir"><strong>rc_get_theme_dir</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-rc_parse"><strong>rc_parse</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-rc_parse_string"><strong>rc_parse_string</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-rc_reparse_all"><strong>rc_reparse_all</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-rc_reparse_all_for_settings"><strong>rc_reparse_all_for_settings</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-rc_set_default_files"><strong>rc_set_default_files</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-runApp"><strong>runApp</strong></a>(*args)</dt><dd><tt>Main&nbsp;method&nbsp;for&nbsp;launching&nbsp;the&nbsp;application.</tt></dd></dl>
+ <dl><dt><a name="-settings_get_default"><strong>settings_get_default</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-stock_add"><strong>stock_add</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-stock_list_ids"><strong>stock_list_ids</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-stock_lookup"><strong>stock_lookup</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-threads_enter"><strong>threads_enter</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-threads_init"><strong>threads_init</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-threads_leave"><strong>threads_leave</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-timeout_add"><strong>timeout_add</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-timeout_remove"><strong>timeout_remove</strong></a> = source_remove(...)</dt></dl>
+ <dl><dt><a name="-to_utf8"><strong>to_utf8</strong></a>(somestr)</dt></dl>
+ <dl><dt><a name="-tree_row_reference_deleted"><strong>tree_row_reference_deleted</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-tree_row_reference_inserted"><strong>tree_row_reference_inserted</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-vbutton_box_get_layout_default"><strong>vbutton_box_get_layout_default</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-vbutton_box_get_spacing_default"><strong>vbutton_box_get_spacing_default</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-vbutton_box_set_layout_default"><strong>vbutton_box_set_layout_default</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-vbutton_box_set_spacing_default"><strong>vbutton_box_set_spacing_default</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-widget_get_default_colormap"><strong>widget_get_default_colormap</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-widget_get_default_direction"><strong>widget_get_default_direction</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-widget_get_default_style"><strong>widget_get_default_style</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-widget_get_default_visual"><strong>widget_get_default_visual</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-widget_pop_colormap"><strong>widget_pop_colormap</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-widget_pop_composite_child"><strong>widget_pop_composite_child</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-widget_push_colormap"><strong>widget_push_colormap</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-widget_push_composite_child"><strong>widget_push_composite_child</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-widget_set_default_colormap"><strong>widget_set_default_colormap</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-widget_set_default_direction"><strong>widget_set_default_direction</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-window_get_default_icon_list"><strong>window_get_default_icon_list</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-window_list_toplevels"><strong>window_list_toplevels</strong></a>(...)</dt></dl>
+ <dl><dt><a name="-window_set_default_icon_list"><strong>window_set_default_icon_list</strong></a>(...)</dt></dl>
+</td></tr></table>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;&nbsp;</td>
+<td width="100%"><strong>ACCEL_LOCKED</strong> = 2<br>
+<strong>ACCEL_MASK</strong> = 7<br>
+<strong>ACCEL_VISIBLE</strong> = 1<br>
+<strong>ANCHOR_CENTER</strong> = 0<br>
+<strong>ANCHOR_E</strong> = 8<br>
+<strong>ANCHOR_EAST</strong> = 8<br>
+<strong>ANCHOR_N</strong> = 1<br>
+<strong>ANCHOR_NE</strong> = 3<br>
+<strong>ANCHOR_NORTH</strong> = 1<br>
+<strong>ANCHOR_NORTH_EAST</strong> = 3<br>
+<strong>ANCHOR_NORTH_WEST</strong> = 2<br>
+<strong>ANCHOR_NW</strong> = 2<br>
+<strong>ANCHOR_S</strong> = 4<br>
+<strong>ANCHOR_SE</strong> = 6<br>
+<strong>ANCHOR_SOUTH</strong> = 4<br>
+<strong>ANCHOR_SOUTH_EAST</strong> = 6<br>
+<strong>ANCHOR_SOUTH_WEST</strong> = 5<br>
+<strong>ANCHOR_SW</strong> = 5<br>
+<strong>ANCHOR_W</strong> = 7<br>
+<strong>ANCHOR_WEST</strong> = 7<br>
+<strong>APP_PAINTABLE</strong> = 524288<br>
+<strong>ARG_CHILD_ARG</strong> = 16<br>
+<strong>ARG_CONSTRUCT</strong> = 4<br>
+<strong>ARG_CONSTRUCT_ONLY</strong> = 8<br>
+<strong>ARG_READABLE</strong> = 1<br>
+<strong>ARG_WRITABLE</strong> = 2<br>
+<strong>ARROW_DOWN</strong> = 1<br>
+<strong>ARROW_LEFT</strong> = 2<br>
+<strong>ARROW_RIGHT</strong> = 3<br>
+<strong>ARROW_UP</strong> = 0<br>
+<strong>ATE_GTK_ALLOC_NEEDED</strong> = 4096<br>
+<strong>ATE_GTK_ANCHORED</strong> = 512<br>
+<strong>ATE_GTK_CHILD_VISIBLE</strong> = 1024<br>
+<strong>ATE_GTK_DIRECTION_LTR</strong> = 256<br>
+<strong>ATE_GTK_DIRECTION_SET</strong> = 128<br>
+<strong>ATE_GTK_HAS_SHAPE_MASK</strong> = 32<br>
+<strong>ATE_GTK_IN_REPARENT</strong> = 64<br>
+<strong>ATE_GTK_LEAVE_PENDING</strong> = 16<br>
+<strong>ATE_GTK_REDRAW_ON_ALLOC</strong> = 2048<br>
+<strong>ATE_GTK_REQUEST_NEEDED</strong> = 8192<br>
+<strong>ATE_GTK_RESIZE_PENDING</strong> = 4<br>
+<strong>ATE_GTK_USER_STYLE</strong> = 1<br>
+<strong>BUTTONBOX_DEFAULT_STYLE</strong> = 0<br>
+<strong>BUTTONBOX_EDGE</strong> = 2<br>
+<strong>BUTTONBOX_END</strong> = 4<br>
+<strong>BUTTONBOX_SPREAD</strong> = 1<br>
+<strong>BUTTONBOX_START</strong> = 3<br>
+<strong>BUTTONS_CANCEL</strong> = 3<br>
+<strong>BUTTONS_CLOSE</strong> = 2<br>
+<strong>BUTTONS_NONE</strong> = 0<br>
+<strong>BUTTONS_OK</strong> = 1<br>
+<strong>BUTTONS_OK_CANCEL</strong> = 5<br>
+<strong>BUTTONS_YES_NO</strong> = 4<br>
+<strong>BUTTON_DRAGS</strong> = 2<br>
+<strong>BUTTON_EXPANDS</strong> = 4<br>
+<strong>BUTTON_IGNORED</strong> = 0<br>
+<strong>BUTTON_SELECTS</strong> = 1<br>
+<strong>CALENDAR_NO_MONTH_CHANGE</strong> = 4<br>
+<strong>CALENDAR_SHOW_DAY_NAMES</strong> = 2<br>
+<strong>CALENDAR_SHOW_HEADING</strong> = 1<br>
+<strong>CALENDAR_SHOW_WEEK_NUMBERS</strong> = 8<br>
+<strong>CALENDAR_WEEK_START_MONDAY</strong> = 16<br>
+<strong>CAN_DEFAULT</strong> = 8192<br>
+<strong>CAN_FOCUS</strong> = 2048<br>
+<strong>CELL_EMPTY</strong> = 0<br>
+<strong>CELL_PIXMAP</strong> = 2<br>
+<strong>CELL_PIXTEXT</strong> = 3<br>
+<strong>CELL_RENDERER_INSENSITIVE</strong> = 4<br>
+<strong>CELL_RENDERER_MODE_ACTIVATABLE</strong> = 1<br>
+<strong>CELL_RENDERER_MODE_EDITABLE</strong> = 2<br>
+<strong>CELL_RENDERER_MODE_INERT</strong> = 0<br>
+<strong>CELL_RENDERER_PRELIT</strong> = 2<br>
+<strong>CELL_RENDERER_SELECTED</strong> = 1<br>
+<strong>CELL_RENDERER_SORTED</strong> = 8<br>
+<strong>CELL_TEXT</strong> = 1<br>
+<strong>CELL_WIDGET</strong> = 4<br>
+<strong>CENTIMETERS</strong> = 2<br>
+<strong>CLIST_DRAG_AFTER</strong> = 3<br>
+<strong>CLIST_DRAG_BEFORE</strong> = 1<br>
+<strong>CLIST_DRAG_INTO</strong> = 2<br>
+<strong>CLIST_DRAG_NONE</strong> = 0<br>
+<strong>COMPOSITE_CHILD</strong> = 131072<br>
+<strong>CORNER_BOTTOM_LEFT</strong> = 1<br>
+<strong>CORNER_BOTTOM_RIGHT</strong> = 3<br>
+<strong>CORNER_TOP_LEFT</strong> = 0<br>
+<strong>CORNER_TOP_RIGHT</strong> = 2<br>
+<strong>CTREE_EXPANDER_CIRCULAR</strong> = 3<br>
+<strong>CTREE_EXPANDER_NONE</strong> = 0<br>
+<strong>CTREE_EXPANDER_SQUARE</strong> = 1<br>
+<strong>CTREE_EXPANDER_TRIANGLE</strong> = 2<br>
+<strong>CTREE_EXPANSION_COLLAPSE</strong> = 2<br>
+<strong>CTREE_EXPANSION_COLLAPSE_RECURSIVE</strong> = 3<br>
+<strong>CTREE_EXPANSION_EXPAND</strong> = 0<br>
+<strong>CTREE_EXPANSION_EXPAND_RECURSIVE</strong> = 1<br>
+<strong>CTREE_EXPANSION_TOGGLE</strong> = 4<br>
+<strong>CTREE_EXPANSION_TOGGLE_RECURSIVE</strong> = 5<br>
+<strong>CTREE_LINES_DOTTED</strong> = 2<br>
+<strong>CTREE_LINES_NONE</strong> = 0<br>
+<strong>CTREE_LINES_SOLID</strong> = 1<br>
+<strong>CTREE_LINES_TABBED</strong> = 3<br>
+<strong>CTREE_POS_AFTER</strong> = 2<br>
+<strong>CTREE_POS_AS_CHILD</strong> = 1<br>
+<strong>CTREE_POS_BEFORE</strong> = 0<br>
+<strong>CURVE_TYPE_FREE</strong> = 2<br>
+<strong>CURVE_TYPE_LINEAR</strong> = 0<br>
+<strong>CURVE_TYPE_SPLINE</strong> = 1<br>
+<strong>DEBUG_KEYBINDINGS</strong> = 32<br>
+<strong>DEBUG_MISC</strong> = 1<br>
+<strong>DEBUG_PLUGSOCKET</strong> = 2<br>
+<strong>DEBUG_TEXT</strong> = 4<br>
+<strong>DEBUG_TREE</strong> = 8<br>
+<strong>DEBUG_UPDATES</strong> = 16<br>
+<strong>DELETE_CHARS</strong> = 0<br>
+<strong>DELETE_DISPLAY_LINES</strong> = 3<br>
+<strong>DELETE_DISPLAY_LINE_ENDS</strong> = 4<br>
+<strong>DELETE_PARAGRAPHS</strong> = 6<br>
+<strong>DELETE_PARAGRAPH_ENDS</strong> = 5<br>
+<strong>DELETE_WHITESPACE</strong> = 7<br>
+<strong>DELETE_WORDS</strong> = 2<br>
+<strong>DELETE_WORD_ENDS</strong> = 1<br>
+<strong>DEST_DEFAULT_ALL</strong> = 7<br>
+<strong>DEST_DEFAULT_DROP</strong> = 4<br>
+<strong>DEST_DEFAULT_HIGHLIGHT</strong> = 2<br>
+<strong>DEST_DEFAULT_MOTION</strong> = 1<br>
+<strong>DIALOG_DESTROY_WITH_PARENT</strong> = 2<br>
+<strong>DIALOG_MODAL</strong> = 1<br>
+<strong>DIALOG_NO_SEPARATOR</strong> = 4<br>
+<strong>DIRECTION_LEFT</strong> = 0<br>
+<strong>DIRECTION_RIGHT</strong> = 1<br>
+<strong>DIR_DOWN</strong> = 3<br>
+<strong>DIR_LEFT</strong> = 4<br>
+<strong>DIR_RIGHT</strong> = 5<br>
+<strong>DIR_TAB_BACKWARD</strong> = 1<br>
+<strong>DIR_TAB_FORWARD</strong> = 0<br>
+<strong>DIR_UP</strong> = 2<br>
+<strong>DOUBLE_BUFFERED</strong> = 2097152<br>
+<strong>EXPAND</strong> = 1<br>
+<strong>EXPANDER_COLLAPSED</strong> = 0<br>
+<strong>EXPANDER_EXPANDED</strong> = 3<br>
+<strong>EXPANDER_SEMI_COLLAPSED</strong> = 1<br>
+<strong>EXPANDER_SEMI_EXPANDED</strong> = 2<br>
+<strong>FALSE</strong> = 0<br>
+<strong>FILL</strong> = 4<br>
+<strong>FLOATING</strong> = 2<br>
+<strong>HAS_DEFAULT</strong> = 16384<br>
+<strong>HAS_FOCUS</strong> = 4096<br>
+<strong>HAS_GRAB</strong> = 32768<br>
+<strong>HAVE_MIC_TRICKS</strong> = 1<br>
+<strong>ICON_SIZE_BUTTON</strong> = 4<br>
+<strong>ICON_SIZE_DIALOG</strong> = 6<br>
+<strong>ICON_SIZE_DND</strong> = 5<br>
+<strong>ICON_SIZE_INVALID</strong> = 0<br>
+<strong>ICON_SIZE_LARGE_TOOLBAR</strong> = 3<br>
+<strong>ICON_SIZE_MENU</strong> = 1<br>
+<strong>ICON_SIZE_SMALL_TOOLBAR</strong> = 2<br>
+<strong>IMAGE_ANIMATION</strong> = 6<br>
+<strong>IMAGE_EMPTY</strong> = 0<br>
+<strong>IMAGE_ICON_SET</strong> = 5<br>
+<strong>IMAGE_IMAGE</strong> = 2<br>
+<strong>IMAGE_PIXBUF</strong> = 3<br>
+<strong>IMAGE_PIXMAP</strong> = 1<br>
+<strong>IMAGE_STOCK</strong> = 4<br>
+<strong>INCHES</strong> = 1<br>
+<strong>IN_DESTRUCTION</strong> = 1<br>
+<strong>JUSTIFY_CENTER</strong> = 2<br>
+<strong>JUSTIFY_FILL</strong> = 3<br>
+<strong>JUSTIFY_LEFT</strong> = 0<br>
+<strong>JUSTIFY_RIGHT</strong> = 1<br>
+<strong>LEFT_RIGHT</strong> = 1<br>
+<strong>LOCALE_DIR</strong> = '/usr/local/share/locale'<br>
+<strong>MAPPED</strong> = 128<br>
+<strong>MATCH_ALL</strong> = 0<br>
+<strong>MATCH_ALL_TAIL</strong> = 1<br>
+<strong>MATCH_EXACT</strong> = 4<br>
+<strong>MATCH_HEAD</strong> = 2<br>
+<strong>MATCH_LAST</strong> = 5<br>
+<strong>MATCH_TAIL</strong> = 3<br>
+<strong>MENU_DIR_CHILD</strong> = 1<br>
+<strong>MENU_DIR_NEXT</strong> = 2<br>
+<strong>MENU_DIR_PARENT</strong> = 0<br>
+<strong>MENU_DIR_PREV</strong> = 3<br>
+<strong>MESSAGE_ERROR</strong> = 3<br>
+<strong>MESSAGE_INFO</strong> = 0<br>
+<strong>MESSAGE_QUESTION</strong> = 2<br>
+<strong>MESSAGE_WARNING</strong> = 1<br>
+<strong>MOVEMENT_BUFFER_ENDS</strong> = 8<br>
+<strong>MOVEMENT_DISPLAY_LINES</strong> = 3<br>
+<strong>MOVEMENT_DISPLAY_LINE_ENDS</strong> = 4<br>
+<strong>MOVEMENT_LOGICAL_POSITIONS</strong> = 0<br>
+<strong>MOVEMENT_PAGES</strong> = 7<br>
+<strong>MOVEMENT_PARAGRAPHS</strong> = 5<br>
+<strong>MOVEMENT_PARAGRAPH_ENDS</strong> = 6<br>
+<strong>MOVEMENT_VISUAL_POSITIONS</strong> = 1<br>
+<strong>MOVEMENT_WORDS</strong> = 2<br>
+<strong>NOTEBOOK_TAB_FIRST</strong> = 0<br>
+<strong>NOTEBOOK_TAB_LAST</strong> = 1<br>
+<strong>NO_REPARENT</strong> = 262144<br>
+<strong>NO_WINDOW</strong> = 32<br>
+<strong>ORIENTATION_HORIZONTAL</strong> = 0<br>
+<strong>ORIENTATION_VERTICAL</strong> = 1<br>
+<strong>PACK_END</strong> = 1<br>
+<strong>PACK_START</strong> = 0<br>
+<strong>PARENT_SENSITIVE</strong> = 1024<br>
+<strong>PATH_CLASS</strong> = 2<br>
+<strong>PATH_PRIO_APPLICATION</strong> = 8<br>
+<strong>PATH_PRIO_GTK</strong> = 4<br>
+<strong>PATH_PRIO_HIGHEST</strong> = 15<br>
+<strong>PATH_PRIO_LOWEST</strong> = 0<br>
+<strong>PATH_PRIO_RC</strong> = 12<br>
+<strong>PATH_PRIO_THEME</strong> = 10<br>
+<strong>PATH_WIDGET</strong> = 0<br>
+<strong>PATH_WIDGET_CLASS</strong> = 1<br>
+<strong>PIXELS</strong> = 0<br>
+<strong>POLICY_ALWAYS</strong> = 0<br>
+<strong>POLICY_AUTOMATIC</strong> = 1<br>
+<strong>POLICY_NEVER</strong> = 2<br>
+<strong>POS_BOTTOM</strong> = 3<br>
+<strong>POS_LEFT</strong> = 0<br>
+<strong>POS_RIGHT</strong> = 1<br>
+<strong>POS_TOP</strong> = 2<br>
+<strong>PREVIEW_COLOR</strong> = 0<br>
+<strong>PREVIEW_GRAYSCALE</strong> = 1<br>
+<strong>PROGRESS_BOTTOM_TO_TOP</strong> = 2<br>
+<strong>PROGRESS_CONTINUOUS</strong> = 0<br>
+<strong>PROGRESS_DISCRETE</strong> = 1<br>
+<strong>PROGRESS_LEFT_TO_RIGHT</strong> = 0<br>
+<strong>PROGRESS_RIGHT_TO_LEFT</strong> = 1<br>
+<strong>PROGRESS_TOP_TO_BOTTOM</strong> = 3<br>
+<strong>RC_BASE</strong> = 8<br>
+<strong>RC_BG</strong> = 2<br>
+<strong>RC_FG</strong> = 1<br>
+<strong>RC_STYLE</strong> = 65536<br>
+<strong>RC_TEXT</strong> = 4<br>
+<strong>RC_TOKEN_ACTIVE</strong> = 273<br>
+<strong>RC_TOKEN_APPLICATION</strong> = 296<br>
+<strong>RC_TOKEN_BASE</strong> = 280<br>
+<strong>RC_TOKEN_BG</strong> = 278<br>
+<strong>RC_TOKEN_BG_PIXMAP</strong> = 286<br>
+<strong>RC_TOKEN_BIND</strong> = 290<br>
+<strong>RC_TOKEN_BINDING</strong> = 289<br>
+<strong>RC_TOKEN_CLASS</strong> = 293<br>
+<strong>RC_TOKEN_ENGINE</strong> = 300<br>
+<strong>RC_TOKEN_FG</strong> = 277<br>
+<strong>RC_TOKEN_FONT</strong> = 283<br>
+<strong>RC_TOKEN_FONTSET</strong> = 284<br>
+<strong>RC_TOKEN_FONT_NAME</strong> = 285<br>
+<strong>RC_TOKEN_GTK</strong> = 295<br>
+<strong>RC_TOKEN_HIGHEST</strong> = 299<br>
+<strong>RC_TOKEN_IM_MODULE_FILE</strong> = 303<br>
+<strong>RC_TOKEN_IM_MODULE_PATH</strong> = 302<br>
+<strong>RC_TOKEN_INCLUDE</strong> = 271<br>
+<strong>RC_TOKEN_INSENSITIVE</strong> = 276<br>
+<strong>RC_TOKEN_INVALID</strong> = 270<br>
+<strong>RC_TOKEN_LAST</strong> = 307<br>
+<strong>RC_TOKEN_LOWEST</strong> = 294<br>
+<strong>RC_TOKEN_LTR</strong> = 305<br>
+<strong>RC_TOKEN_MODULE_PATH</strong> = 301<br>
+<strong>RC_TOKEN_NORMAL</strong> = 272<br>
+<strong>RC_TOKEN_PIXMAP_PATH</strong> = 287<br>
+<strong>RC_TOKEN_PRELIGHT</strong> = 274<br>
+<strong>RC_TOKEN_RC</strong> = 298<br>
+<strong>RC_TOKEN_RTL</strong> = 306<br>
+<strong>RC_TOKEN_SELECTED</strong> = 275<br>
+<strong>RC_TOKEN_STOCK</strong> = 304<br>
+<strong>RC_TOKEN_STYLE</strong> = 288<br>
+<strong>RC_TOKEN_TEXT</strong> = 279<br>
+<strong>RC_TOKEN_THEME</strong> = 297<br>
+<strong>RC_TOKEN_WIDGET</strong> = 291<br>
+<strong>RC_TOKEN_WIDGET_CLASS</strong> = 292<br>
+<strong>RC_TOKEN_XTHICKNESS</strong> = 281<br>
+<strong>RC_TOKEN_YTHICKNESS</strong> = 282<br>
+<strong>REALIZED</strong> = 64<br>
+<strong>RECEIVES_DEFAULT</strong> = 1048576<br>
+<strong>RELIEF_HALF</strong> = 1<br>
+<strong>RELIEF_NONE</strong> = 2<br>
+<strong>RELIEF_NORMAL</strong> = 0<br>
+<strong>RESERVED_1</strong> = 4<br>
+<strong>RESERVED_2</strong> = 8<br>
+<strong>RESIZE_IMMEDIATE</strong> = 2<br>
+<strong>RESIZE_PARENT</strong> = 0<br>
+<strong>RESIZE_QUEUE</strong> = 1<br>
+<strong>RESPONSE_ACCEPT</strong> = -3<br>
+<strong>RESPONSE_APPLY</strong> = -10<br>
+<strong>RESPONSE_CANCEL</strong> = -6<br>
+<strong>RESPONSE_CLOSE</strong> = -7<br>
+<strong>RESPONSE_DELETE_EVENT</strong> = -4<br>
+<strong>RESPONSE_HELP</strong> = -11<br>
+<strong>RESPONSE_NO</strong> = -9<br>
+<strong>RESPONSE_NONE</strong> = -1<br>
+<strong>RESPONSE_OK</strong> = -5<br>
+<strong>RESPONSE_REJECT</strong> = -2<br>
+<strong>RESPONSE_YES</strong> = -8<br>
+<strong>SCROLL_END</strong> = 15<br>
+<strong>SCROLL_JUMP</strong> = 1<br>
+<strong>SCROLL_NONE</strong> = 0<br>
+<strong>SCROLL_PAGE_BACKWARD</strong> = 4<br>
+<strong>SCROLL_PAGE_DOWN</strong> = 9<br>
+<strong>SCROLL_PAGE_FORWARD</strong> = 5<br>
+<strong>SCROLL_PAGE_LEFT</strong> = 12<br>
+<strong>SCROLL_PAGE_RIGHT</strong> = 13<br>
+<strong>SCROLL_PAGE_UP</strong> = 8<br>
+<strong>SCROLL_START</strong> = 14<br>
+<strong>SCROLL_STEP_BACKWARD</strong> = 2<br>
+<strong>SCROLL_STEP_DOWN</strong> = 7<br>
+<strong>SCROLL_STEP_FORWARD</strong> = 3<br>
+<strong>SCROLL_STEP_LEFT</strong> = 10<br>
+<strong>SCROLL_STEP_RIGHT</strong> = 11<br>
+<strong>SCROLL_STEP_UP</strong> = 6<br>
+<strong>SELECTION_BROWSE</strong> = 2<br>
+<strong>SELECTION_EXTENDED</strong> = 3<br>
+<strong>SELECTION_MULTIPLE</strong> = 3<br>
+<strong>SELECTION_NONE</strong> = 0<br>
+<strong>SELECTION_SINGLE</strong> = 1<br>
+<strong>SENSITIVE</strong> = 512<br>
+<strong>SHADOW_ETCHED_IN</strong> = 3<br>
+<strong>SHADOW_ETCHED_OUT</strong> = 4<br>
+<strong>SHADOW_IN</strong> = 1<br>
+<strong>SHADOW_NONE</strong> = 0<br>
+<strong>SHADOW_OUT</strong> = 2<br>
+<strong>SHRINK</strong> = 2<br>
+<strong>SIDE_BOTTOM</strong> = 1<br>
+<strong>SIDE_LEFT</strong> = 2<br>
+<strong>SIDE_RIGHT</strong> = 3<br>
+<strong>SIDE_TOP</strong> = 0<br>
+<strong>SIZE_GROUP_BOTH</strong> = 3<br>
+<strong>SIZE_GROUP_HORIZONTAL</strong> = 1<br>
+<strong>SIZE_GROUP_NONE</strong> = 0<br>
+<strong>SIZE_GROUP_VERTICAL</strong> = 2<br>
+<strong>SORT_ASCENDING</strong> = 0<br>
+<strong>SORT_DESCENDING</strong> = 1<br>
+<strong>SPIN_END</strong> = 5<br>
+<strong>SPIN_HOME</strong> = 4<br>
+<strong>SPIN_PAGE_BACKWARD</strong> = 3<br>
+<strong>SPIN_PAGE_FORWARD</strong> = 2<br>
+<strong>SPIN_STEP_BACKWARD</strong> = 1<br>
+<strong>SPIN_STEP_FORWARD</strong> = 0<br>
+<strong>SPIN_USER_DEFINED</strong> = 6<br>
+<strong>STATE_ACTIVE</strong> = 1<br>
+<strong>STATE_INSENSITIVE</strong> = 4<br>
+<strong>STATE_NORMAL</strong> = 0<br>
+<strong>STATE_PRELIGHT</strong> = 2<br>
+<strong>STATE_SELECTED</strong> = 3<br>
+<strong>STOCK_ADD</strong> = 'gtk-add'<br>
+<strong>STOCK_APPLY</strong> = 'gtk-apply'<br>
+<strong>STOCK_BOLD</strong> = 'gtk-bold'<br>
+<strong>STOCK_CANCEL</strong> = 'gtk-cancel'<br>
+<strong>STOCK_CDROM</strong> = 'gtk-cdrom'<br>
+<strong>STOCK_CLEAR</strong> = 'gtk-clear'<br>
+<strong>STOCK_CLOSE</strong> = 'gtk-close'<br>
+<strong>STOCK_CONVERT</strong> = 'gtk-convert'<br>
+<strong>STOCK_COPY</strong> = 'gtk-copy'<br>
+<strong>STOCK_CUT</strong> = 'gtk-cut'<br>
+<strong>STOCK_DELETE</strong> = 'gtk-delete'<br>
+<strong>STOCK_DIALOG_ERROR</strong> = 'gtk-dialog-error'<br>
+<strong>STOCK_DIALOG_INFO</strong> = 'gtk-dialog-info'<br>
+<strong>STOCK_DIALOG_QUESTION</strong> = 'gtk-dialog-question'<br>
+<strong>STOCK_DIALOG_WARNING</strong> = 'gtk-dialog-warning'<br>
+<strong>STOCK_DND</strong> = 'gtk-dnd'<br>
+<strong>STOCK_DND_MULTIPLE</strong> = 'gtk-dnd-multiple'<br>
+<strong>STOCK_EXECUTE</strong> = 'gtk-execute'<br>
+<strong>STOCK_FIND</strong> = 'gtk-find'<br>
+<strong>STOCK_FIND_AND_REPLACE</strong> = 'gtk-find-and-replace'<br>
+<strong>STOCK_FLOPPY</strong> = 'gtk-floppy'<br>
+<strong>STOCK_GOTO_BOTTOM</strong> = 'gtk-goto-bottom'<br>
+<strong>STOCK_GOTO_FIRST</strong> = 'gtk-goto-first'<br>
+<strong>STOCK_GOTO_LAST</strong> = 'gtk-goto-last'<br>
+<strong>STOCK_GOTO_TOP</strong> = 'gtk-goto-top'<br>
+<strong>STOCK_GO_BACK</strong> = 'gtk-go-back'<br>
+<strong>STOCK_GO_DOWN</strong> = 'gtk-go-down'<br>
+<strong>STOCK_GO_FORWARD</strong> = 'gtk-go-forward'<br>
+<strong>STOCK_GO_UP</strong> = 'gtk-go-up'<br>
+<strong>STOCK_HELP</strong> = 'gtk-help'<br>
+<strong>STOCK_HOME</strong> = 'gtk-home'<br>
+<strong>STOCK_INDEX</strong> = 'gtk-index'<br>
+<strong>STOCK_ITALIC</strong> = 'gtk-italic'<br>
+<strong>STOCK_JUMP_TO</strong> = 'gtk-jump-to'<br>
+<strong>STOCK_JUSTIFY_CENTER</strong> = 'gtk-justify-center'<br>
+<strong>STOCK_JUSTIFY_FILL</strong> = 'gtk-justify-fill'<br>
+<strong>STOCK_JUSTIFY_LEFT</strong> = 'gtk-justify-left'<br>
+<strong>STOCK_JUSTIFY_RIGHT</strong> = 'gtk-justify-right'<br>
+<strong>STOCK_MISSING_IMAGE</strong> = 'gtk-missing-image'<br>
+<strong>STOCK_NEW</strong> = 'gtk-new'<br>
+<strong>STOCK_NO</strong> = 'gtk-no'<br>
+<strong>STOCK_OK</strong> = 'gtk-ok'<br>
+<strong>STOCK_OPEN</strong> = 'gtk-open'<br>
+<strong>STOCK_PASTE</strong> = 'gtk-paste'<br>
+<strong>STOCK_PREFERENCES</strong> = 'gtk-preferences'<br>
+<strong>STOCK_PRINT</strong> = 'gtk-print'<br>
+<strong>STOCK_PRINT_PREVIEW</strong> = 'gtk-print-preview'<br>
+<strong>STOCK_PROPERTIES</strong> = 'gtk-properties'<br>
+<strong>STOCK_QUIT</strong> = 'gtk-quit'<br>
+<strong>STOCK_REDO</strong> = 'gtk-redo'<br>
+<strong>STOCK_REFRESH</strong> = 'gtk-refresh'<br>
+<strong>STOCK_REMOVE</strong> = 'gtk-remove'<br>
+<strong>STOCK_REVERT_TO_SAVED</strong> = 'gtk-revert-to-saved'<br>
+<strong>STOCK_SAVE</strong> = 'gtk-save'<br>
+<strong>STOCK_SAVE_AS</strong> = 'gtk-save-as'<br>
+<strong>STOCK_SELECT_COLOR</strong> = 'gtk-select-color'<br>
+<strong>STOCK_SELECT_FONT</strong> = 'gtk-select-font'<br>
+<strong>STOCK_SORT_ASCENDING</strong> = 'gtk-sort-ascending'<br>
+<strong>STOCK_SORT_DESCENDING</strong> = 'gtk-sort-descending'<br>
+<strong>STOCK_SPELL_CHECK</strong> = 'gtk-spell-check'<br>
+<strong>STOCK_STOP</strong> = 'gtk-stop'<br>
+<strong>STOCK_STRIKETHROUGH</strong> = 'gtk-strikethrough'<br>
+<strong>STOCK_UNDELETE</strong> = 'gtk-undelete'<br>
+<strong>STOCK_UNDERLINE</strong> = 'gtk-underline'<br>
+<strong>STOCK_UNDO</strong> = 'gtk-undo'<br>
+<strong>STOCK_YES</strong> = 'gtk-yes'<br>
+<strong>STOCK_ZOOM_100</strong> = 'gtk-zoom-100'<br>
+<strong>STOCK_ZOOM_FIT</strong> = 'gtk-zoom-fit'<br>
+<strong>STOCK_ZOOM_IN</strong> = 'gtk-zoom-in'<br>
+<strong>STOCK_ZOOM_OUT</strong> = 'gtk-zoom-out'<br>
+<strong>TARGET_SAME_APP</strong> = 1<br>
+<strong>TARGET_SAME_WIDGET</strong> = 2<br>
+<strong>TEXT_DIR_LTR</strong> = 1<br>
+<strong>TEXT_DIR_NONE</strong> = 0<br>
+<strong>TEXT_DIR_RTL</strong> = 2<br>
+<strong>TEXT_SEARCH_TEXT_ONLY</strong> = 1<br>
+<strong>TEXT_SEARCH_VISIBLE_ONLY</strong> = 0<br>
+<strong>TEXT_WINDOW_BOTTOM</strong> = 6<br>
+<strong>TEXT_WINDOW_LEFT</strong> = 3<br>
+<strong>TEXT_WINDOW_PRIVATE</strong> = 0<br>
+<strong>TEXT_WINDOW_RIGHT</strong> = 4<br>
+<strong>TEXT_WINDOW_TEXT</strong> = 2<br>
+<strong>TEXT_WINDOW_TOP</strong> = 5<br>
+<strong>TEXT_WINDOW_WIDGET</strong> = 1<br>
+<strong>TOOLBAR_BOTH</strong> = 2<br>
+<strong>TOOLBAR_BOTH_HORIZ</strong> = 3<br>
+<strong>TOOLBAR_CHILD_BUTTON</strong> = 1<br>
+<strong>TOOLBAR_CHILD_RADIOBUTTON</strong> = 3<br>
+<strong>TOOLBAR_CHILD_SPACE</strong> = 0<br>
+<strong>TOOLBAR_CHILD_TOGGLEBUTTON</strong> = 2<br>
+<strong>TOOLBAR_CHILD_WIDGET</strong> = 4<br>
+<strong>TOOLBAR_ICONS</strong> = 0<br>
+<strong>TOOLBAR_SPACE_EMPTY</strong> = 0<br>
+<strong>TOOLBAR_SPACE_LINE</strong> = 1<br>
+<strong>TOOLBAR_TEXT</strong> = 1<br>
+<strong>TOPLEVEL</strong> = 16<br>
+<strong>TOP_BOTTOM</strong> = 0<br>
+<strong>TREE_MODEL_ITERS_PERSIST</strong> = 1<br>
+<strong>TREE_MODEL_LIST_ONLY</strong> = 2<br>
+<strong>TREE_VIEW_COLUMN_AUTOSIZE</strong> = 1<br>
+<strong>TREE_VIEW_COLUMN_FIXED</strong> = 2<br>
+<strong>TREE_VIEW_COLUMN_GROW_ONLY</strong> = 0<br>
+<strong>TREE_VIEW_DROP_AFTER</strong> = 1<br>
+<strong>TREE_VIEW_DROP_BEFORE</strong> = 0<br>
+<strong>TREE_VIEW_DROP_INTO_OR_AFTER</strong> = 3<br>
+<strong>TREE_VIEW_DROP_INTO_OR_BEFORE</strong> = 2<br>
+<strong>TREE_VIEW_ITEM</strong> = 1<br>
+<strong>TREE_VIEW_LINE</strong> = 0<br>
+<strong>TRUE</strong> = 1<br>
+<strong>UPDATE_ALWAYS</strong> = 0<br>
+<strong>UPDATE_CONTINUOUS</strong> = 0<br>
+<strong>UPDATE_DELAYED</strong> = 2<br>
+<strong>UPDATE_DISCONTINUOUS</strong> = 1<br>
+<strong>UPDATE_IF_VALID</strong> = 1<br>
+<strong>VISIBILITY_FULL</strong> = 2<br>
+<strong>VISIBILITY_NONE</strong> = 0<br>
+<strong>VISIBILITY_PARTIAL</strong> = 1<br>
+<strong>VISIBLE</strong> = 256<br>
+<strong>WIDGET_HELP_TOOLTIP</strong> = 0<br>
+<strong>WIDGET_HELP_WHATS_THIS</strong> = 1<br>
+<strong>WINDOW_POPUP</strong> = 1<br>
+<strong>WINDOW_TOPLEVEL</strong> = 0<br>
+<strong>WIN_POS_CENTER</strong> = 1<br>
+<strong>WIN_POS_CENTER_ALWAYS</strong> = 3<br>
+<strong>WIN_POS_CENTER_ON_PARENT</strong> = 4<br>
+<strong>WIN_POS_MOUSE</strong> = 2<br>
+<strong>WIN_POS_NONE</strong> = 0<br>
+<strong>WRAP_CHAR</strong> = 1<br>
+<strong>WRAP_NONE</strong> = 0<br>
+<strong>WRAP_WORD</strong> = 2<br>
+<strong>__file__</strong> = './pyvoiceui.py'<br>
+<strong>__name__</strong> = 'pyvoiceui'<br>
+<strong>allow_vol_update</strong> = 0<br>
+<strong>audio_packets</strong> = 0<br>
+<strong>audio_packets_S</strong> = 0<br>
+<strong>can_record</strong> = 0<br>
+<strong>chat_connect_status</strong> = 0<br>
+<strong>chat_cookie</strong> = ''<br>
+<strong>chat_name_nick</strong> = ''<br>
+<strong>chat_name_nicks</strong> = {}<br>
+<strong>chat_room</strong> = ''<br>
+<strong>chat_serial</strong> = ''<br>
+<strong>chat_user</strong> = ''<br>
+<strong>debug_on</strong> = 0<br>
+<strong>eighty_byte_model</strong> = 0<br>
+<strong>empty_buffer</strong> = 0<br>
+<strong>error_msg</strong> = ''<br>
+<strong>esd_volume</strong> = 0<br>
+<strong>f_gettext</strong> = 0<br>
+<strong>gtk_version</strong> = (2, 0, 6)<br>
+<strong>gyach_ignore_file</strong> = '/root/.yahoorc/gyach/ignore'<br>
+<strong>hex_len_map</strong> = {1: '<font color="#c040c0">\x01</font>', 2: '<font color="#c040c0">\x02</font>', 3: '<font color="#c040c0">\x03</font>', 4: '<font color="#c040c0">\x04</font>', 5: '<font color="#c040c0">\x05</font>', 6: '<font color="#c040c0">\x06</font>', 7: '<font color="#c040c0">\x07</font>', 8: '<font color="#c040c0">\x08</font>', 9: '<font color="#c040c0">\t</font>', 10: '<font color="#c040c0">\n</font>', ...}<br>
+<strong>hex_len_map_num</strong> = {'<font color="#c040c0">\x01</font>': 1, '<font color="#c040c0">\x02</font>': 2, '<font color="#c040c0">\x03</font>': 3, '<font color="#c040c0">\x04</font>': 4, '<font color="#c040c0">\x05</font>': 5, '<font color="#c040c0">\x06</font>': 6, '<font color="#c040c0">\x07</font>': 7, '<font color="#c040c0">\x08</font>': 8, '<font color="#c040c0">\t</font>': 9, '<font color="#c040c0">\n</font>': 10, ...}<br>
+<strong>ignored_users</strong> = {}<br>
+<strong>ii</strong> = 'z'<br>
+<strong>is_recording</strong> = 0<br>
+<strong>last_login_string</strong> = ''<br>
+<strong>letter_len</strong> = 256<br>
+<strong>letter_len_map</strong> = {1: 'A', 2: 'B', 3: 'C', 4: 'D', 5: 'E', 6: 'F', 7: 'G', 8: 'H', 9: 'I', 10: 'J', ...}<br>
+<strong>letter_len_map_num</strong> = {'A': 1, 'B': 2, 'C': 3, 'D': 4, 'E': 5, 'F': 6, 'G': 7, 'H': 8, 'I': 9, 'J': 10, ...}<br>
+<strong>locale_dirs</strong> = ['/usr/lib/python2.2//locale', '/usr/share/locale', '/usr/X11R6/share/locale', '/usr/locale', '/usr/local/share/locale']<br>
+<strong>mic_test</strong> = 0<br>
+<strong>my_esd_host</strong> = 'localhost'<br>
+<strong>no_auto_server_change</strong> = 0<br>
+<strong>on_mute</strong> = 0<br>
+<strong>poll_connection</strong> = 1<br>
+<strong>pygtk_version</strong> = (2, 0, 0)<br>
+<strong>pyvoice_ignore_file</strong> = '/root/.pyvoice_ignore'<br>
+<strong>pyvoice_xtext</strong> = &lt;gettext.NullTranslations instance&gt;<br>
+<strong>r_starttime</strong> = 0<br>
+<strong>record_sequence</strong> = 1<br>
+<strong>record_time</strong> = 0<br>
+<strong>rsound_data</strong> = ''<br>
+<strong>sdivider</strong> = '@'<br>
+<strong>snd_buflimit</strong> = 2048<br>
+<strong>sound_cut1</strong> = 1568<br>
+<strong>sound_cut2</strong> = 1824<br>
+<strong>sound_data</strong> = ''<br>
+<strong>sound_spool_started</strong> = 0<br>
+<strong>tcp_data</strong> = None<br>
+<strong>tcp_data2</strong> = None<br>
+<strong>tcp_not_udp</strong> = 0<br>
+<strong>tcp_socket</strong> = None<br>
+<strong>tcp_socket2</strong> = None<br>
+<strong>tcp_socket3</strong> = None<br>
+<strong>total_packets</strong> = 0<br>
+<strong>total_packets_S</strong> = 0<br>
+<strong>udp_socket</strong> = None<br>
+<strong>user_stats</strong> = {}<br>
+<strong>vchat_port</strong> = 5001<br>
+<strong>vchat_port_udp</strong> = 5000<br>
+<strong>vchat_server</strong> = '66.218.70.37'<br>
+<strong>vchat_server2</strong> = ''<br>
+<strong>vchat_udp_server</strong> = ''<br>
+<strong>who_is_talking</strong> = ''<br>
+<strong>who_is_talking_expire</strong> = 1088722803.6307061</td></tr></table>
+</body></html>

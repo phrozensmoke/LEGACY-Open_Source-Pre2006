@@ -1,0 +1,165 @@
+dnl Process this file with autoconf to produce a configure script.
+
+AC_INIT(configure.in)
+AM_INIT_AUTOMAKE(gyach, 0.9.2)
+AM_CONFIG_HEADER(config.h)
+
+AC_ISC_POSIX
+AC_PROG_CC
+AM_PROG_CC_STDC
+AC_HEADER_STDC
+
+AC_ARG_ENABLE(gtk_v2,
+  [  --disable-gtk_v2        disable gtk v2.0.x support])
+AC_ARG_ENABLE(gdk-pixbuf,
+  [  --disable-gdk-pixbuf    disable use of gdk-pixbuf (with gtk v1.x)],
+    gdk_pixbuf=$enableval, gdk_pixbuf=yes)
+AC_ARG_ENABLE(pixmaps,
+  [  --disable-pixmaps       disable remote user status pixmaps])
+AC_ARG_ENABLE(threads,
+  [  --disable-threads       disable use of pthread_create])
+AC_ARG_ENABLE(debug,
+  [  --enable-debug=LEVEL    enable debug messages at specified level])
+dnl AC_ARG_ENABLE(interface,
+dnl   [  --enable-interface=type use "type" widget for main chat text [text/xtext/html]] )
+
+
+if test "x$enable_gtk_v2" != "xno"; then
+	printf "checking for GTK - version >= 2.0.0... "
+	GTK_CFLAGS=`pkg-config --cflags gtk+-2.0 gthread-2.0 2> /dev/null`
+else
+	GTK_CFLAGS=""
+fi
+
+if test "x${GTK_CFLAGS}" != "x"; then
+	if test "x$enable_gtk_v2" != "xno"; then
+		echo yes
+	fi
+	if test "$enable_threads" != "no"; then
+		GTK_LIBS=`pkg-config --libs gtk+-2.0 gthread-2.0 2> /dev/null`
+	else
+		GTK_LIBS=`pkg-config --libs gtk+-2.0 2> /dev/null`
+	fi
+	CFLAGS="${CFLAGS} ${GTK_CFLAGS}"
+	LIBS="${LIBS} ${GTK_LIBS}"
+	AC_DEFINE(USE_GTK2)
+else
+	if test "x$enable_gtk_v2" != "xno"; then
+		echo no
+	fi
+	AM_PATH_GTK(1.2.0, ,
+            AC_MSG_WARN(Cannot find GTK: Is gtk-config in path?),
+			gthread)
+dnl            AC_MSG_ERROR(Cannot find GTK: Is gtk-config in path?), gthread)
+
+	if test "x${GTK_CFLAGS}" = 'x'; then
+		echo "*** gtk-config not found, running scripts/my-gtk-config"
+		CFLAGS="${CFLAGS} `scripts/my-gtk-config --cflags`"
+		echo "***     CFLAGS now '${CFLAGS}'"
+		LIBS="${LIBS} `scripts/my-gtk-config --libs`"
+		echo "***     LIBS now '${LIBS}'"
+	fi
+
+	if test "$gdk_pixbuf" = yes; then
+	  AC_PATH_PROG(gdkpixbufpath, gdk-pixbuf-config)
+	  AC_MSG_CHECKING(for gdk-pixbuf >= 0.8)
+	  GDK_PIXBUF_CFLAGS=`$gdkpixbufpath --cflags 2>/dev/null`
+	  GDK_PIXBUF_LIBS=`$gdkpixbufpath --libs 2>/dev/null`
+	  if test "_$GDK_PIXBUF_CFLAGS" = _; then
+		AC_MSG_RESULT([not found, will attempt to use 'convert' for images])
+	  else
+		vers=`$gdkpixbufpath --version`
+		case $vers
+		in
+		  gdk-pixbuf-0.[[01234567]]) gdk_pixbuf_ok=false ;;
+		  *) gdk_pixbuf_ok=true ;;
+		esac
+		if $gdk_pixbuf_ok; then
+		  AC_MSG_RESULT(found)
+		  gdk_pixbuf=yes
+		  AC_DEFINE(USE_GDK_PIXBUF)
+		  LIBS="${LIBS} $GDK_PIXBUF_LIBS"
+		  CFLAGS="${CFLAGS} $GDK_PIXBUF_CFLAGS"
+		else
+		  gdk_pixbuf=no
+		  AC_MSG_RESULT([version too old, building without gdk-pixbuf])
+		fi
+	  fi
+	fi
+fi
+
+ac_system=`uname -s | cut -c1-6`
+if test "${ac_system}" = "CYGWIN"; then
+	CFLAGS="${CFLAGS} -fnative-struct"
+fi
+
+
+AC_CHECK_LIB( c_r, pthread_create, LIBS="$LIBS -lc_r", )
+
+dnl Set PACKAGE_DATA_DIR in config.h.
+if test "x${datadir}" = 'x${prefix}/share'; then
+  if test "x${prefix}" = "xNONE"; then
+    AC_DEFINE_UNQUOTED(PACKAGE_DATA_DIR, "${ac_default_prefix}/share/${PACKAGE}")
+  else
+    AC_DEFINE_UNQUOTED(PACKAGE_DATA_DIR, "${prefix}/share/${PACKAGE}")
+  fi
+else
+  AC_DEFINE_UNQUOTED(PACKAGE_DATA_DIR, "${datadir}/${PACKAGE}")
+fi
+
+dnl Set PACKAGE_SOURCE_DIR in config.h.
+packagesrcdir=`cd $srcdir && pwd`
+AC_DEFINE_UNQUOTED(PACKAGE_SOURCE_DIR, "${packagesrcdir}")
+
+if test "$enable_pixmaps" != "no"; then
+	AC_DEFINE(SHOW_STATUS_PIXMAPS)
+else
+    echo "*** status pixmaps disabled"
+fi
+
+if test "$enable_threads" != "no"; then
+	AC_DEFINE(USE_PTHREAD_CREATE)
+else
+    echo "*** pthread_create disabled"
+fi
+
+if test "x$enable_debug" != "x"; then
+	AC_DEFINE_UNQUOTED(DBG_LEVEL, $enable_debug )
+	echo "*** DBG_LEVEL set to ${enable_debug}"
+else
+	AC_DEFINE(DBG_LEVEL, 0 )
+fi
+
+if test "x$enable_interface" != "x"; then
+	if test "x$enable_interface" = "xxtext"; then
+		AC_DEFINE(GYACH_INT_XTEXT)
+		echo "*** gyach text interface set to gtk_xtext widget"
+	else
+		if test "x$enable_interface" = "xhtml"; then
+			AC_DEFINE(GYACH_INT_HTML)
+			echo "*** gyach text interface set to gtk_html widget"
+		else
+			AC_DEFINE(GYACH_INT_TEXT)
+			echo "*** gyach text interface set to gtk_text widget"
+		fi
+	fi
+else
+	AC_DEFINE(GYACH_INT_TEXT)
+	echo "*** gyach text interface set to gtk_text widget"
+fi
+
+dnl Use -Wall if we have gcc.
+changequote(,)dnl
+if test "x$GCC" = "xyes"; then
+  case " $CFLAGS " in
+  *[\ \	]-Wall[\ \	]*) ;;
+  *) CFLAGS="$CFLAGS -Wall" ;;
+  esac
+fi
+changequote([,])dnl
+
+AC_OUTPUT([
+Makefile
+src/Makefile
+])
+

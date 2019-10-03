@@ -1,0 +1,222 @@
+<html>
+<title>Gyach Enhanced and pY! Voice Chat Installation Help</title>
+<body bgcolor="#FFFFFF" text="#000000" link="#9543ad" vlink="#bf3975">
+
+
+
+
+
+<font size=5 face=Arial color="#0000AA">Gyach Enhanced and pY! Voice Chat Installation Help</font><br>
+<br>
+
+<font size=4 face=Arial color="#000000">
+
+<b>HOW TO INSTALL:</b><br>
+&nbsp; &nbsp; <a href="#gyachr">Gyach-E / pY! Voice Chat: RPM Package</a> (.i586.rpm)<br>
+&nbsp; &nbsp; <a href="#gyachb">Gyach-E / pY! Voice Chat: Binary .tar.bz2 Package</a> (.i586.tar.bz2)<br>
+&nbsp; &nbsp; <a href="#gyachs">Gyach-E / pY! Voice Chat: Source Package</a>  (source.tar.bz2)<br>
+<br>
+
+
+<a href="#missing">System Requirements and Missing Files</a><br>
+<a href="#themes">Y! Messenger-like Themes</a><br>
+<a href="http://sourceforge.net/project/showfiles.php?group_id=57756">Download Area</a><br>
+<a href="http://phpaint.sourceforge.net/pyvoicechat/">Gyach-E / pY! Voice Chat: Home Page</a><br>
+
+
+<br><br>
+
+<br>
+
+
+
+
+<a name="gyachr"><br><b>Gyach-E / pY! Voice Chat: RPM Package:</b><br>
+<table border=2 width="90%" cellspacing=2 cellpadding=3>
+
+<tr><td align=left valign=top width="35%" bgcolor="#ddddde">
+<b>What to download:</b>
+</td></tr>
+
+<tr><td align=left valign=top>
+<b>Gyach-Enhanced-pYVoiceChat-1.X.X-X.i586.rpm [necessary]</b><br>
+Gyach-Enhanced-Media-Package-X.X-X.i586.rpm (highly recommended)<br>
+gyach_enhanced_fonts1.tar.bz2 (recommended)<br>
+gyach_enhanced_fonts2.tar.bz2 (recommended)<br>
+Gyach-Enhanced-XMMS-Plugin-X.X-X.i586.rpm (optional)<br>
+Gyach-Enhanced-Encryption-Plugins-X.X-X.i586.rpm (optional)<br><br>
+
+<a href="http://sourceforge.net/project/showfiles.php?group_id=57756" target="Neny">Download Area</a><br>
+
+** NOTE: <u>You do NOT need</u> to download any of the 'pYVoiceChat-X.X.tar.bz2' or  'gyachE-Webcam-Utilities-' packages as the Gyach-Enhanced-pYVoiceChat-1.X.X-X.i586.rpm package  already contains voice chat and webcam support. <u>You should NOT need to install Jasper as it is already compiled into the Webcam utilities.</u>.
+
+</td></tr>
+
+
+<tr><td align=left valign=top width="35%" bgcolor="#ddddde">
+<b>Installing:</b>
+</td></tr>
+
+<tr><td align=left valign=top>
+<u>You must be the ROOT user to install these packages</u>. To install the main programs, including Gyach-E, pY! Voice Chat, and the Gyach-E webcam utilities, change to the directory where you  saved the RPMs, then type <b>rpm -Uvh --force --nodeps Gyach-Enhanced-pYVoiceChat-1.X.X-X.i586.rpm</b>.  Everything is automatically installed in the /usr/local/bin and /usr/local/share/gyach/ directories. Icons for the program are available in the /usr/local/share/gyach/pixmaps/ directory.<br><br>
+
+To install the <b>XMMS Plugin</b>, change to the directory where you  saved the RPMs, then type <b>rpm -Uvh --force --nodeps Gyach-Enhanced-XMMS-Plugin-X.X-X.i586.rpm</b>.  Everything is automatically installed in the /usr/local/share/gyach/plugins/ directory. You will need XMMS version 1.2.7 or better to use this plugin.<br><br>
+
+To install the <b>Encryption Plugins</b>, change to the directory where you  saved the RPMs, then type <b>rpm -Uvh --force --nodeps Gyach-Enhanced-Encryption-Plugins-X.X-X.i586.rpm</b>.  Everything is automatically installed in the /usr/local/share/gyach/plugins/ directory. Be sure to read <a href="http://phpaint.sourceforge.net/pyvoicechat/Encryption_Plugins_README.txt">this document</a> for information about system requirements and legal issues regarding using encryption in certain countries and jurisdictions.<br><br>
+
+
+You now should install the <b>Gyach-E Media Package</b>. <u>This package is only useful if you are installing Gyach-E version 1.0.4 or better. Do not even bother with this package if you are installing Gyach-E version 1.0.3 or earlier.</u>.  Although this is not absolutely necessary, I STRONGLY recommend you install this package as it adds support for TUXVironments (like IMVironments) and Audibles used in instant messaging conversations.  Change to the directory where you  saved the RPMs, then type <b>rpm -Uvh --force --nodeps Gyach-Enhanced-Media-Package-X.X-X.i586.rpm</b>.  Everything is automatically installed in the /usr/local/share/gyach/ directory.<br><br>
+
+You now should install the <b>Gyach-E Fonts Packages</b>. Although this is not absolutely necessary, I STRONGLY recommend you install these packages. Be sure you have downloaded the  gyach_enhanced_fonts1.tar.bz2 and gyach_enhanced_fonts2.tar.bz2 packages.  The greatly improved font support uses hard-coded font settings which are used to 'recommend' fonts similar to the ones requested if an exact match is not found on your system (this is as of version 1.0.3).  To get the BEST experience out of Gyach Enhanced, you should download and install BOTH of the 'font' packages available in the download area. These packages are NO LONGER ESSENTIAL to properly run Gyach-E (as of version 1.0.3), but it is highly recommended that you install the 'font' packages as it will greatly increase Gyach Enhanced abilities to 'interpret' incoming fonts to similar fonts on your system if an exact match is not available. The packages contain TrueType (TTF) fonts which you will need to install on your system. Please consult the documentation for your Linux distribution for information about installing fonts on your system, as instructions for this procedure can vary widely.  Using the Gyach-E font packages is highly recommended, but not absolutely necessary as of Gyach-E version 1.0.3.  If you are using Gyach-E version 1.0.2 or earlier, the 'font' packages are *required* for running Gyach-E. 
+
+</td></tr>
+
+<tr><td align=left valign=top width="35%" bgcolor="#ddddde">
+<b>Running the program:</b></td></tr>
+<tr><td align=left valign=top>
+You can run Gyach-E by executing the command <b>gyach</b> or <b>/usr/local/bin/gyach</b>. If Gyach-E will not run because it appears necessary files are missing, please read <a href="#missing">System Requirements and Missing Files</a>. See the 'Help' menu inside Gyach-E for information about using webcam and voice chat features.
+</td></tr>
+
+
+</table>
+
+
+
+
+
+<br>&nbsp; <br>&nbsp; <br>
+
+<a name="gyachb"><br><b>Gyach-E / pY! Voice Chat: Binary .tar.bz2 Package:</b><br>
+<table border=2 width="90%" cellspacing=2 cellpadding=3>
+
+<tr><td align=left valign=top width="35%" bgcolor="#ddddde">
+<b>What to download:</b>
+</td></tr>
+
+<tr><td align=left valign=top>
+<b>gyach-enhanced_pyvoice-binary-X.X.X-i586.tar.bz2 [necessary]</b><br>
+gyachE-Webcam-Utilities-X.X-i586.tar.bz2  (highly recommended)<br>
+gyachE-Media-Package-X.X.tar.bz2 (highly recommended)<br>
+gyach_enhanced_fonts1.tar.bz2 (recommended)<br>
+gyach_enhanced_fonts2.tar.bz2 (recommended)<br>
+gyachE-XMMS-Plugin-X.X-i586.tar.bz2 (optional)<br>
+gyachE-Encryption-Plugins-X.X-i586.tar.bz2 (optional)<br><br>
+
+<a href="http://sourceforge.net/project/showfiles.php?group_id=57756" target="Neny">Download Area</a><br>
+
+** NOTE: <u>You do NOT need</u> to download  the 'pYVoiceChat-X.X.tar.bz2'  package as the gyach-enhanced_pyvoice-binary-X.X.X-i586.tar.bz2 package  already contains voice chat support. However, you should be sure to download the 'gyachE-Webcam-Utilities-X.X-i586.tar.bz2' package if you wish to have webcam support.  <u>You should NOT need to install Jasper as it is already compiled into the Webcam utilities.</u>.
+
+</td></tr>
+
+
+<tr><td align=left valign=top width="35%" bgcolor="#ddddde">
+<b>Installing:</b>
+</td></tr>
+
+<tr><td align=left valign=top>
+
+<u>You must be the ROOT user to install these packages</u>. The FIRST thing you need to do is move all of the .tar.bz2 packages you've just downloaded to the root of your file system by typing <b>mv  gyach*.tar.bz2 /</b>.
+
+<br><br>
+To install the main programs, including Gyach-E and pY! Voice Chat, change to the top directory by typing <b>cd /</b>, then type <b>tar -xjf gyach-enhanced_pyvoice-binary-*-i586.tar.bz2</b>.  Everything is automatically installed in the /usr/local/bin and /usr/local/share/gyach/ directories. Icons for the program are available in the /usr/local/share/gyach/pixmaps/ directory. NOTE: This does <u>NOT</u> install webcam support. See the section below for information on installing webcam support.<br><br>
+
+To install the <b>Webcam Utilities</b>, change to the top directory by typing <b>cd /</b>, then type <b>tar -xjf gyachE-Webcam-Utilities-*-i586.tar.bz2</b>.  Everything is automatically installed in the /usr/local/share/gyach/webcam/ directory. Please consult <a href="http://phpaint.sourceforge.net/pyvoicechat/index_gwebcam.php">this document</a> for information on system requirements for the Gyach-E Webcam Utilities. <u>You should NOT need to install Jasper as it is already compiled into the Webcam utilities.</u>.<br><br>
+
+To install the <b>XMMS Plugin</b>, change to the top directory by typing <b>cd /</b>, then type <b>tar -xjf gyachE-XMMS-Plugin-*-i586.tar.bz2</b>.  Everything is automatically installed in the /usr/local/share/gyach/plugins/ directory. You will need XMMS version 1.2.7 or better to use this plugin.<br><br>
+
+To install the <b>Encryption Plugins</b>, change to the top directory by typing <b>cd /</b>, then type <b>tar -xjf  gyachE-Encryption-Plugins-*-i586.tar.bz2</b>.  Everything is automatically installed in the /usr/local/share/gyach/plugins/ directory. Be sure to read <a href="http://phpaint.sourceforge.net/pyvoicechat/Encryption_Plugins_README.txt">this document</a> for information about system requirements and legal issues regarding using encryption in certain countries and jurisdictions.<br><br>
+
+
+You now should install the <b>Gyach-E Media Package</b>. <u>This package is only useful if you are installing Gyach-E version 1.0.4 or better. Do not even bother with this package if you are installing Gyach-E version 1.0.3 or earlier.</u>. Although this is not absolutely necessary, I STRONGLY recommend you install this package as it adds support for TUXVironments (like IMVironments) and Audibles used in instant messaging conversations.  Change to the top directory by typing <b>cd /</b>, then type <b>tar -xjf gyachE-Media-Package-*.tar.bz2</b>.  Everything is automatically installed in the /usr/local/share/gyach/ directory.<br><br>
+
+You now should install the <b>Gyach-E Fonts Packages</b>. Although this is not absolutely necessary, I STRONGLY recommend you install these packages. Be sure you have downloaded the  gyach_enhanced_fonts1.tar.bz2 and gyach_enhanced_fonts2.tar.bz2 packages.  The greatly improved font support uses hard-coded font settings which are used to 'recommend' fonts similar to the ones requested if an exact match is not found on your system (this is as of version 1.0.3).  To get the BEST experience out of Gyach Enhanced, you should download and install BOTH of the 'font' packages available in the download area. These packages are NO LONGER ESSENTIAL to properly run Gyach-E (as of version 1.0.3), but it is highly recommended that you install the 'font' packages as it will greatly increase Gyach Enhanced abilities to 'interpret' incoming fonts to similar fonts on your system if an exact match is not available. The packages contain TrueType (TTF) fonts which you will need to install on your system. Please consult the documentation for your Linux distribution for information about installing fonts on your system, as instructions for this procedure can vary widely.  Using the Gyach-E font packages is highly recommended, but not absolutely necessary as of Gyach-E version 1.0.3.  If you are using Gyach-E version 1.0.2 or earlier, the 'font' packages are *required* for running Gyach-E. 
+
+</td></tr>
+
+<tr><td align=left valign=top width="35%" bgcolor="#ddddde">
+<b>Running the program:</b></td></tr>
+<tr><td align=left valign=top>
+You can run Gyach-E by executing the command <b>gyach</b> or <b>/usr/local/bin/gyach</b>. If Gyach-E will not run because it appears necessary files are missing, please read <a href="#missing">System Requirements and Missing Files</a>. See the 'Help' menu inside Gyach-E for information about using webcam and voice chat features.
+</td></tr>
+
+
+</table>
+
+
+
+<br>&nbsp; <br>&nbsp; <br>
+
+<a name="gyachs"><br><b>Gyach-E / pY! Voice Chat: Source Package:</b><br>
+<table border=2 width="90%" cellspacing=2 cellpadding=3>
+
+<tr><td align=left valign=top width="35%" bgcolor="#ddddde">
+<b>What to download:</b>
+</td></tr>
+
+<tr><td align=left valign=top>
+<b>gyach-enhanced_pyvoice-source-X.X.X.tar.bz2 [necessary]</b><br>
+gyachE-Media-Package-X.X.tar.bz2 (highly recommended)<br>
+gyach_enhanced_fonts1.tar.bz2 (recommended)<br>
+gyach_enhanced_fonts2.tar.bz2 (recommended)<br>
+gyachE-XMMS-Plugin-X.X-source.tar.bz2 (optional)<br>
+gyachE-Encryption-Plugins-X.X-source.tar.bz2 (optional)<br><br>
+
+<a href="http://sourceforge.net/project/showfiles.php?group_id=57756" target="Neny">Download Area</a><br>
+
+** NOTE: <u>You do NOT need</u> to download the 'pYVoiceChat-X.X.tar.bz2' and 'gyachE-Webcam-Utilities-X.X-source.tar.bz2' packages since the  gyach-enhanced_pyvoice-source-X.X.X.tar.bz2 package already contains all the necessary source code for pY! Voice Chat and the Gyach-E webcam utilities.
+
+</td></tr>
+
+
+<tr><td align=left valign=top width="35%" bgcolor="#ddddde">
+<b>Installing:</b>
+</td></tr>
+
+<tr><td align=left valign=top>
+NOTE: Building the programs from source is <u>not</u> recommended for novice users or people with limited Linux experience. If this describes you, please consider installing one of the pre-built <a href="#gyachr">RPM</a> or <a href="#gyachb">.tar.bz2</a> packages.  To build the Gyach-E webcam utilities, you will need get a copy of Jasper from the download area an install it. Please consult <a href="http://phpaint.sourceforge.net/pyvoicechat/index_gwebcam.php">this document</a> for information on system requirements for the Gyach-E Webcam Utilities.
+
+<br><br>
+<u>You must be the ROOT user to build and install this package</u>. First, you'll need to build and install the gyach-enhanced_pyvoice-source-X.X.X.tar.bz2 package which contains Gyach-E, the Gyach-E webcam utilities, and pY! Voice Chat.  Change to the directory where you wish to extract and build the package. We'll call this directory [BUILD_DIRECTORY]. (I strongly suggest you make a new temporary directory for this build, such as '/gyache-tmp/' or whatever you like. You can make this new directory by typing <b>mkdir /gyache-tmp/</b> in any terminal or console window.)  In any terminal or console type <b>cd /[BUILD_DIRECTORY]/</b>.  Extract the package by typing <b>tar -xjf gyach-enhanced_pyvoice-source-*.tar.bz2</b>. Now do the following:  Type <b>cd ./gyach</b>, then type <b>./config.status</b>, then type <b>cp -f config.h.backup  config.h</b> (Type 'y' if you are asked if you want to replace the file).  Finally,  type <b>cd /[BUILD_DIRECTORY]/</b>.  Now, type <b>make</b> to begin building the programs.  After all necessary files have been built, type <b>make install</b> to install everything. Everything is automatically installed in the /usr/local/bin and /usr/local/share/gyach/ directories. There is NO need to type 'configure' before building, and there is currently no way to change the installation directory. Icons for the program are available in the /usr/local/share/gyach/pixmaps/ directory.<br><br>
+
+If you wish to build and install the <b>XMMS plugin</b>, be sure you have downloaded the gyachE-XMMS-Plugin-X.X-source.tar.bz2 package.  Type <b>cd /[BUILD_DIRECTORY]/</b>. Extract the package by typing <b>tar -xjf gyachE-XMMS-Plugin-*-source.tar.bz2</b>. Type <b>cd /[BUILD_DIRECTORY]/gyach/plugins/src/</b>, then type <b>make xmms</b>. After the plugin has been built, type <b>make install</b>. Be sure to read the 'XMMS_Plugin_README.txt' document inside the gyachE-XMMS-Plugin-X.X-source.tar.bz2 package for information about system requirements for the XMMS plugin. All of the necessary files will be placed in the Gyach-E shared files directory /usr/local/share/gyach/plugins/. You will need XMMS version 1.2.7 or better as well as the XMMS 'development' headers to build and use this plugin.<br><br>
+
+If you wish to build and install the <b>Encryption plugins</b>, be sure you have downloaded the gyachE-Encryption-Plugins-X.X-source.tar.bz2 package.  Type <b>cd /[BUILD_DIRECTORY]/</b>. Extract the package by typing <b>tar -xjf gyachE-Encryption-Plugins-*-source.tar.bz2</b>. Type <b>cd /[BUILD_DIRECTORY]/gyach/plugins/src/</b>. Type <b>make blowfish</b> to build Blowfish plugin (no special software is required).  Type <b>make mcrypt</b> to build the MCrypt plugin.  Type <b>make gpgme</b> to build the GPG plugin. After the plugins have been built, type <b>make install</b>.  Be sure to read <a href="http://phpaint.sourceforge.net/pyvoicechat/Encryption_Plugins_README.txt">this document</a> for information about system requirements and legal issues regarding using encryption in certain countries and jurisdictions. All of the necessary files will be placed in the Gyach-E shared files directory /usr/local/share/gyach/plugins/.<br><br>
+
+
+You now should install the <b>Gyach-E Media Package</b>. <u>This package is only useful if you are installing Gyach-E version 1.0.4 or better. Do not even bother with this package if you are installing Gyach-E version 1.0.3 or earlier.</u>.  Although this is not absolutely necessary, I STRONGLY recommend you install this package as it adds support for TUXVironments (like IMVironments) and Audibles used in instant messaging conversations. Be sure you have downloaded the gyachE-Media-Package-X.X.tar.bz2 package.  Nothing needs to be 'built' in this package. You will need to move the package to the root of your file system by typing <b>mv gyachE-Media-Package-*.tar.bz2 /</b>.  Finally, extract the package by typing <b>tar -xjf gyachE-Media-Package-*.tar.bz2</b>. All of the necessary files will be placed in the Gyach-E shared files directory /usr/local/share/gyach/.<br><br>
+
+You now should install the <b>Gyach-E Fonts Packages</b>. Although this is not absolutely necessary, I STRONGLY recommend you install these packages. Be sure you have downloaded the  gyach_enhanced_fonts1.tar.bz2 and gyach_enhanced_fonts2.tar.bz2 packages.  The greatly improved font support uses hard-coded font settings which are used to 'recommend' fonts similar to the ones requested if an exact match is not found on your system (this is as of version 1.0.3).  To get the BEST experience out of Gyach Enhanced, you should download and install BOTH of the 'font' packages available in the download area. These packages are NO LONGER ESSENTIAL to properly run Gyach-E (as of version 1.0.3), but it is highly recommended that you install the 'font' packages as it will greatly increase Gyach Enhanced abilities to 'interpret' incoming fonts to similar fonts on your system if an exact match is not available. The packages contain TrueType (TTF) fonts which you will need to install on your system. Please consult the documentation for your Linux distribution for information about installing fonts on your system, as instructions for this procedure can vary widely.  Using the Gyach-E font packages is highly recommended, but not absolutely necessary as of Gyach-E version 1.0.3.  If you are using Gyach-E version 1.0.2 or earlier, the 'font' packages are *required* for running Gyach-E. 
+
+</td></tr>
+
+<tr><td align=left valign=top width="35%" bgcolor="#ddddde">
+<b>Running the program:</b></td></tr>
+<tr><td align=left valign=top>
+You can run Gyach-E by executing the command <b>gyach</b> or <b>/usr/local/bin/gyach</b>. If Gyach-E will not run because it appears necessary files are missing, please read <a href="#missing">System Requirements and Missing Files</a>. See the 'Help' menu inside Gyach-E for information about using webcam and voice chat features.
+</td></tr>
+
+</table>
+
+
+
+<br><br>
+
+<a name="missing"><br><b>System Requirements and Missing Files</b><br>
+Gyach Enhanced, pY! Voice Chat, and the Gyach-E Webcam Utilities all use Gtk-2 for their user interfaces (Gtk-2 2.0.6 or better required). Additionally, Gyach-E requires GtkHTML-2, and pY! Voice Chat requires PyGtk-2.  (Pre-built versions of these libraries are available in the <a href="http://sourceforge.net/project/showfiles.php?group_id=57756">Download Area</a>.)  Gyach-E also requires the Expat library, which most modern Linux systems already have.  Please read the <a href="http://phpaint.sourceforge.net/pyvoicechat/Encryption_Plugins_README.txt">Encryption_Plugins_README.txt file</a> for additional information about system requirements for the Encryption plugins. The XMMS Plugin requires XMMS version 1.2.7 or better. If you see error messages while building, installing, or attempting to run Gyach Enhanced that suggest that some necessary files are not present on your system, please have a look at the very BOTTOM of the <a href="http://sourceforge.net/project/showfiles.php?group_id=57756">Download Area</a> for source and pre-built binary packages for commonly need files and libaries, such as Jasper, GtkHTML, PyGtk-2, and GPGMe.  These packages are 'courtesy' packages and NO SUPPORT is provided for installing them.  In addition, have a look around the <a href="http://phpaint.sourceforge.net/pyvoicechat/">website</a> for more information about system requirements.
+
+<br><br>
+
+<a name="themes"><br><b>Y! Messenger-like Themes</b><br>
+If you would like to see have Gyach-E look a little more like the newer versions of Y! Messenger for windows, please have a look at the very BOTTOM of the <a href="http://sourceforge.net/project/showfiles.php?group_id=57756">Download Area</a> for the 'Gtk-Themes-Maverick-Blue.tar.bz2' and 'IceWM-Theme-Maverick-Blue.tar.bz2' files. These files contain themes for Gtk-2/Gtk-1 and IceWM which attempt to emulate the look of the 'Maverick Blue' theme in the newer versions of Y! Messenger for windows. These packages are 'courtesy' packages and NO SUPPORT is provided for installing or using them.
+
+<br><br>
+
+
+</font>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+/* ******************************
+  * PyTrueSpeech
+  * Copyright (c) 2003 Erica Andrews
+  * <PhrozenSmoke ['at'] yahoo.com>
+  * http://phpaint.sourceforge.net/pyvoicechat/
+  * License: GNU General Public License
+  *
+  * A Python-wrapped library for 
+  * converting between raw sound
+  * and DSP's Group's TrueSpeech format
+  * and playing TrueSpeech sound over
+  * ESound.  This library relies on PyESD
+  * for playback over ESD.  This library
+  * uses highly modified versions of 
+  * code provided by Piotr Karwasz and 
+  * Robert Brewer for loading
+  * the TrueSpeech codecs with MPlayer's
+  * version of 'wine lib'.
+  *
+****************************** */
+
+To compile this library you will need the following (at a minimum):
+	INCLUDED:  PyESD
+	INCLUDED: Modified 'wine lib' from MPlayer project
+	Python 2.2 or better
+	Python-Devel 2.2 or better (with the Python.h header)
+	Swig 1.3.15 or better
+	ESound/ESD (Enlightenment Sound Daemon) version 0.2.28 or better recommended
+	The 'audiofile' library (required by ESound)
+
+To compile the library, execute './Build' .  NOTE: You may wish to edit the './Build' and './Build.pyesd' scripts to suit the location of your headers and libraries.  Sorry, no intention of making a fancy 'configure' or 'make install' process thing for such a small library.  If you need to 're-configure' open a text editor and edit the 'config.h' file then recompile.
+
+TrueSpeech Codecs:
+	The DSP Group's TrueSpeech codecs are 'tssoft32.acm' and 'tsd32.dll'. They should be included with this package.  If they are not, download them from somewhere on the internet or grab then off of a Windows computer.  You will need to copy these files to the directory '/usr/lib/win32/'.  If you wish to store them someplace else, you will need to edit the 'WIN32_PATH' value in 'config.h' and recompile the library by typing './Build'.   Warning: PyTSP can CRASH if you attempt to run it without the codecs in the path specified in the 'WIN32_PATH'  value of 'config.h'.  So make sure where you place the codecs matches 'WIN32_PATH'. 
+
+NOTE: This library does NOT support playing to OSS, Alsa or any other sound systems at this time.  I have no intention of adding this support since both OSS and Alsa suck in my opinion, and I use ESound exclusively when possible.
+
+NOTE: A 90-byte TrueSpeech header (used mostly in TrueSpeech .wav) files is included in the file 'tsp.header' for people wishing to experiment with this or create TrueSpeech .wav files readable by Windows and MPlayer, etc.  You would basically read the 'tsp.header' file, grab its 90 bytes and append it to your .wav file before any other TrueSpeech data, and it should be playable by Windows or MPlayer as a TrueSpeech .wav file.  (I've personally tested this, and it works.) The TrueSpeech header is NOT appended by 'default' to TrueSpeech data created by PyTSP, since some applications require access to 'raw' TrueSpeech data without the headers.
+
+For a usage example: see the 'test.py' file.
+
+TEMPORARY FILES:  PyTSP uses temporary files in /tmp/, generally with names like 'pytsp_*_yourusername' for converting, reading, writing, and playing TrueSpeech sound.
+
+
+NO TECHNICAL SUPPORT IS PROVIDED FOR THIS LIBRARY.  DO NOT EMAIL WITH WITH QUESTIONS ABOUT THIS LIBRARY.  YOU ARE ON YOUR OWN.
+

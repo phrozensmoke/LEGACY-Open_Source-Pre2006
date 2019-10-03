@@ -1,0 +1,2 @@
+python /usr/lib/python2.2/pydoc.py -w pyvoice
+python /usr/lib/python2.2/pydoc.py -w pyvoiceui

@@ -1,0 +1,2 @@
+rm -f gyachE-XMMS-Plugin-*source*.tar.bz2
+tar -cjf gyachE-XMMS-Plugin-0.4-source.tar.bz2 ./gyach/src/plugins/gyach-xmms.c    ./gyach/src/plugins/Makefile* ./gyach/src/plugins/XMMS_Plugin_README.txt

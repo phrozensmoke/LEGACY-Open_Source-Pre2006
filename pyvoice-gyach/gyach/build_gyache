@@ -1,0 +1,6 @@
+cd ./src/
+make
+echo "Building Gyach Enhanced Webcam Viewer"
+cd ./webcam/
+make
+make install

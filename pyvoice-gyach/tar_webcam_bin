@@ -1,0 +1,2 @@
+rm -f gyachE-Webcam-Utilities-*i586*.tar.bz2
+tar -cjf gyachE-Webcam-Utilities-0.4-i586.tar.bz2 /usr/local/share/gyach/webcam/ 

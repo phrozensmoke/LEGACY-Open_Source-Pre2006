@@ -1,0 +1,368 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Py! Voice Chat\n"
+"POT-Creation-Date: 2003-07-15 11:35+0100\n"
+"PO-Revision-Date: 2004-02-11 15:51+0400\n"
+"Last-Translator: Erica Andrews <PhrozenSmoke@yahoo.com>\n"
+"Language-Team: SPANISH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+
+#: ../pyvoice.py:65 ../pyvoice.py:70 ../pyvoice.py:75 ../pyvoiceui.py:414
+msgid "License"
+msgstr "Licencia"
+
+#: ../pyvoice.py:66 ../pyvoice.py:96
+msgid "PyTSP Version"
+msgstr "Versión de PyTSP"
+
+#: ../pyvoice.py:71 ../pyvoice.py:97
+msgid "PyESD Version"
+msgstr "Versión de PyESD"
+
+#: ../pyvoice.py:138
+msgid "Neither pY! Voice Chat nor its author are in anyway endorsed by or affiliated with DSP Group's TrueSpeech (tm). The TrueSpeech (tm) codec and format are patented by DSP Group."
+msgstr "pY! Voice Chat y su autor no son de manera alguna afiliados con y no son endorados por TrueSpeech (tm) de DSP Group. El codec y el formato TrueSpeech (tm) son patentados por DSP Group."
+
+#: ../pyvoiceui.py:508
+msgid "Neither pY! Voice Chat nor its author are in anyway endorsed by or affiliated with Yahoo! (tm).  Yahoo! (tm) is a registered trademark of Yahoo! Communications."
+msgstr "pY! Voice Chat y su autor no son de manera alguna afiliados con y no son endorados por Yahoo! (tm).  Yahoo! (tm) es marca registrada de Yahoo! Communications."
+
+#: ../pyvoice.py:74 ../pyvoice.py:98
+msgid "ESound Version"
+msgstr "Versión de ESound"
+
+#: ../pyvoice.py:81 ../pyvoiceui.py:288
+msgid "User"
+msgstr "Usuario"
+
+#: ../pyvoice.py:82
+msgid "Room"
+msgstr "Sala"
+
+#: ../pyvoice.py:83
+msgid "Room Number"
+msgstr "Número de Sala"
+
+#: ../pyvoice.py:84
+msgid "Cookie"
+msgstr "Galleta (Cookie)"
+
+#: ../pyvoice.py:85
+msgid "Users In Room"
+msgstr "Usuarios en Sala"
+
+#: ../pyvoice.py:86
+msgid "Ignored Users"
+msgstr "Usuarios Silenciados"
+
+#: ../pyvoice.py:87
+msgid "On Mute"
+msgstr "Silenciado"
+
+#: ../pyvoice.py:87 ../pyvoiceui.py:291
+msgid "Yes"
+msgstr "Sí"
+
+#: ../pyvoice.py:87 ../pyvoiceui.py:293
+msgid "No"
+msgstr "No"
+
+#: ../pyvoice.py:89
+msgid "Connection State"
+msgstr "Estado de Conexión"
+
+#: ../pyvoice.py:90
+msgid "Initial Server"
+msgstr "Servidor Initial"
+
+#: ../pyvoice.py:91
+msgid "Redirected to Server"
+msgstr "Se reexpidió hacia servidor"
+
+#: ../pyvoice.py:92
+msgid "UDP Server"
+msgstr "Servidor UDP"
+
+#: ../pyvoice.py:93
+msgid "TCP/UDP Packets Received"
+msgstr "Paquetes TCP/UDP Recibidos"
+
+#: ../pyvoice.py:94
+msgid "Audio Packets Received"
+msgstr "Paquetes de Sonido Recibidos"
+
+#: ../pyvoice.py:120
+msgid "TCP/UDP Packets Sent"
+msgstr "Paquetes TCP/UDP Transmitidos"
+
+#: ../pyvoice.py:121
+msgid "Audio Packets Sent"
+msgstr "Paquetes de Sonido Transmitidos"
+
+#: ../pyvoice.py:95
+msgid "Last Error"
+msgstr "Último Error "
+
+#: ../pyvoice.py:99
+msgid "Last PyTSP Error"
+msgstr "Último Error de PyTSP"
+
+#: ../pyvoice.py:100
+msgid "Last PyESD Error"
+msgstr "Último Error de PyESD"
+
+#: ../pyvoice.py:336 ../pyvoice.py:342
+msgid "Could not open TCP socket"
+msgstr "No podía iniciar una conexión TCP"
+
+#: ../pyvoice.py:414
+msgid "Could not open UDP socket"
+msgstr "No podía iniciar una conexión UDP"
+
+#: ../pyvoice.py:472
+msgid "Could not read config file"
+msgstr "No podía abrir el fichero de configuración"
+
+#: ../pyvoice.py:505
+msgid "Could not login to voice chat server  [TCP]"
+msgstr "No podía ingresar al servidor de voz  [TCP]"
+
+#: ../pyvoice.py:525
+msgid "Voice chat server redirection failed"
+msgstr "No podia conectar con el próximo servidor"
+
+#: ../pyvoice.py:653
+msgid "Redirected to an unknown voice chat server"
+msgstr "Se reexpidió hacia un servidor desconocido"
+
+#: ../pyvoice.py:711
+msgid "Voice chat connection failed: bad login"
+msgstr "Error al conectar: No podía ingresar"
+
+#: ../pyvoice.py:790
+msgid "Could not login to voice server"
+msgstr "No podía ingresar al servidor"
+
+#: ../pyvoiceui.py:77 ../pyvoiceui.py:246
+msgid "Not Connected"
+msgstr "Sin Conexión"
+
+#: ../pyvoiceui.py:78
+msgid "Connecting..."
+msgstr "Conectando..."
+
+#: ../pyvoiceui.py:79
+msgid "Connected"
+msgstr "Conectado"
+
+#: ../pyvoiceui.py:91 ../pyvoiceui.py:132 ../pyvoiceui.py:413
+#: ../pyvoiceui.py:433 ../pyvoiceui.py:524
+msgid "pY! Voice Chat"
+msgstr "pY! Voice Chat (Charla de Voz)"
+
+#: ../pyvoiceui.py:105
+msgid "/_File"
+msgstr "/_Fichero"
+
+#: ../pyvoiceui.py:106
+msgid "/_File/_Connect"
+msgstr "/_Fichero/_Conectar"
+
+#: ../pyvoiceui.py:107
+msgid "/_File/_Disconnect"
+msgstr "/_Fichero/_Desconectar"
+
+#: ../pyvoiceui.py:108 ../pyvoiceui.py:111 ../pyvoiceui.py:114
+msgid "/_File/sep4"
+msgstr "/_Fichero/sep4"
+
+#: ../pyvoiceui.py:109
+msgid "/_File/_Voice Server"
+msgstr "/_Fichero/_Servidor de Voz"
+
+#: ../pyvoiceui.py:110
+msgid "/_File/_Session Information"
+msgstr "/_Fichero/_Información de Sesión"
+
+#: ../pyvoiceui.py:112
+msgid "/_File/Enable Debugging"
+msgstr "/_Fichero/Permitir Depurador"
+
+#: ../pyvoiceui.py:113
+msgid "/_File/Disable Debugging"
+msgstr "/_Fichero/Inhabilitar Depurador"
+
+#: ../pyvoiceui.py:115
+msgid "/_File/_Quit"
+msgstr "/_Fichero/_Salir"
+
+#: ../pyvoiceui.py:117
+msgid "/_Help"
+msgstr "/_Ayuda"
+
+#: ../pyvoiceui.py:118
+msgid "/_Help/_About pY! Voice Chat..."
+msgstr "/_Ayuda/_Acerca de pY! Voice Chat..."
+
+#: ../pyvoiceui.py:119
+msgid "/_Help/_About PyTSP and PyESD..."
+msgstr "/_Ayuda/_Acerca de PyTSP y PyESD..."
+
+#: ../pyvoiceui.py:
+msgid "/_Help/_Contributors..."
+msgstr "/_Ayuda/_Contribuidores..."
+
+#: ../pyvoiceui.py:138 ../pyvoiceui.py:139
+msgid "On"
+msgstr "Conectar"
+
+#: ../pyvoiceui.py:141 ../pyvoiceui.py:142
+msgid "Off"
+msgstr "Desconectar"
+
+#: ../pyvoiceui.py:144 ../pyvoiceui.py:145
+msgid "Mute"
+msgstr "Silenciar"
+
+#: ../pyvoiceui.py:167 ../pyvoiceui.py:168
+msgid "Talk"
+msgstr "Hablar"
+
+#: ../pyvoiceui.py:182 ../pyvoiceui.py:184
+msgid "Ignore"
+msgstr "Silenciar"
+
+#: ../pyvoiceui.py:189
+msgid "Info"
+msgstr "Info"
+
+#: ../pyvoiceui.py:190
+msgid "User Information"
+msgstr "Información de Usuario"
+
+#: ../pyvoiceui.py:198 ../pyvoiceui.py:218
+msgid "Name"
+msgstr "Nombre"
+
+#: ../pyvoiceui.py:198 ../pyvoiceui.py:219
+msgid "Alias"
+msgstr "Apodo"
+
+#: ../pyvoiceui.py:214
+msgid "Speaker"
+msgstr "Usuario"
+
+#: ../pyvoiceui.py:274 ../pyvoiceui.py:277 ../pyvoiceui.py:282
+#: ../pyvoiceui.py:295 ../pyvoiceui.py:417 ../pyvoiceui.py:446
+msgid "OK"
+msgstr "ACEPTAR"
+
+#: ../pyvoiceui.py:277
+msgid "Py! Voice Chat uses the following software for playing Yahoo! voice chat sound"
+msgstr "Py! Voice Chat usa el software siguiente para jugar el sonido de voz transmitido por Yahoo!"
+
+#: ../pyvoiceui.py:282
+msgid "ERROR"
+msgstr "ERROR"
+
+#: ../pyvoiceui.py:289
+msgid "Nickname"
+msgstr "Apodo"
+
+#: ../pyvoiceui.py:291 ../pyvoiceui.py:293
+msgid "Ignored"
+msgstr "Silenciado"
+
+#: ../pyvoiceui.py:294
+msgid "Voice Packets Sent"
+msgstr "Paquetes de Sonido Transmitidos"
+
+#: ../pyvoiceui.py:413
+msgid "Author"
+msgstr "Autor"
+
+#: ../pyvoiceui.py:413
+msgid "Email"
+msgstr "Correo-e"
+
+#: ../pyvoiceui.py:413
+msgid "The FIRST Yahoo! voice chat program for Linux operating systems."
+msgstr "El PRIMER programa apoyando la charla de voz de Yahoo! en los sistemas Linux."
+
+#: ../pyvoiceui.py:414
+msgid "Version"
+msgstr "Versión"
+
+#: ../pyvoiceui.py:438
+msgid "Select a voice server"
+msgstr "Seleccione un servidor de voz"
+
+msgid "You have been disconnected from the Yahoo! voice chat server."
+msgstr "Le han desconectado del servidor de voz de Yahoo!."
+
+#: ../pyvoiceui.py:
+msgid "Client Name"
+msgstr "Nombre de Cliente"
+
+#: ../pyvoiceui.py:
+msgid "Host"
+msgstr "Servidor"
+
+#: ../pyvoiceui.py:
+msgid "CONTRIBUTORS"
+msgstr "LOS CONTRIBUIDORES"
+
+#: ../pyvoiceui.py:
+msgid "This program would not have been possible without the following contributions"
+msgstr "Este programa no habría sido posible sin las contribuciones siguientes"
+
+#: ../pyvoice.py:1242 ../pyvoiceui.py:397
+msgid "MIC TEST"
+msgstr "PROBAR MIC"
+
+#: ../pyvoice.py:1253 ../pyvoiceui.py:400
+msgid "MIC PLAY"
+msgstr "SONIDO DE MIC"
+
+#: ../pyvoiceui.py:169
+msgid "Test"
+msgstr "Probar"
+
+#: ../pyvoiceui.py:402
+msgid "Listen"
+msgstr "Escuchar"
+
+#: ../pyvoiceui.py:501
+msgid "Translation"
+msgstr "Traducción"
+
+#: ../pyvoiceui.py:501
+msgid "Translator"
+msgstr "Traductor"
+
+#: ../pyvoice.py:124
+msgid "Platform"
+msgstr "Sistema"
+
+#: ../pyvoice.py:83
+msgid "TrueSpeech Codec"
+msgstr "Codec de TrueSpeech"
+
+#: ../pyvoice.py:84
+msgid "TrueSpeech Codec - DLL"
+msgstr "Codec de TrueSpeech - DLL"
+
+#: ../pyvoice.py:434 ../pyvoice.py:438
+msgid "Network connection failed."
+msgstr "La conexión de red falló."
+
+
+

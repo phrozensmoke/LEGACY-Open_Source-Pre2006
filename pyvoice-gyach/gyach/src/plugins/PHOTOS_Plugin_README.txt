@@ -1,0 +1,1 @@
+To build the Photo Imvironment plugin, type 'make photos'.

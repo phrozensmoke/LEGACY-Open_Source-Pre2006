@@ -1,0 +1,18 @@
+gcc --shared hwinfo.o ./src/hd/*.o ./src/isdn/*.o ./src/int10/*.o -Wl,-soname=libicewmcphw.so  -o libicewmcphw.so
+strip -s libicewmcphw.so
+
+echo "Building command-line executable 'hwinfo2'"
+gcc hwinfo.o  -o hwinfo2 -Xlinker -Bdynamic -Xlinker -rpath . -Xlinker -rpath /usr/share/IceWMCP -Xlinker -rpath /usr/lib/python2.2  -Xlinker -rpath /usr/lib -Xlinker -rpath /usr/X11R6/lib -Xlinker -rpath /usr/local/lib -L. -licewmcphw
+
+strip -s hwinfo2
+
+echo "Running swig"
+swig -python pyicewmcphw.i
+
+echo "Compiling swig Python wrapper"
+gcc -c pyicewmcphw_wrap.c -I/usr/include/python2.2 -I/usr/include 
+
+echo "Building Python shared library"
+gcc --shared pyicewmcphw_wrap.o hwinfo.o ./src/hd/hdp.o -o _pyicewmcphw.so  -Xlinker -Bdynamic -Xlinker -rpath . -Xlinker -rpath /usr/share/IceWMCP -Xlinker -rpath /usr/lib/python2.2  -Xlinker -rpath /usr/lib -Xlinker -rpath /usr/X11R6/lib -Xlinker -rpath /usr/local/lib -L. -licewmcphw   -o _pyicewmcphw.so  
+
+strip -s _pyicewmcphw.so  

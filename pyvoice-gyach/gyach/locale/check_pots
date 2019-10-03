@@ -1,0 +1,75 @@
+#! /usr/bin/env python
+
+
+def builddict(flist) :
+	master={}
+	collecting=0
+	msgid=""
+	for ii in flist:
+		if len(ii.strip())==0:
+			collecting=0
+			if len(msgid)>0:
+				master[msgid]="1"
+				msgid=msgid.replace("msgid","").replace("\\\"", "[!]").replace("\n","").replace("\"","")
+				msgid=msgid.replace("[!]", "\\\"").strip()
+				msgid=""
+			continue
+		if ii.strip().startswith("msgstr"):
+			collecting=0
+			if len(msgid)>0:
+				msgid=msgid.replace("msgid","").replace("\\\"", "[!]").replace("\n","").replace("\"","")
+				msgid=msgid.replace("[!]", "\\\"").strip()
+				master[msgid]="1"
+				msgid=""
+			continue
+		if ii.strip().startswith("msgid"):
+			collecting=1
+			msgid=msgid+ii.strip()
+			continue
+		if collecting==1:
+			msgid=msgid+ii.strip()
+			continue
+	return master
+
+def check_missing(master,inc, lang):
+	f=open(lang+"-missing.txt","w")
+	k=master.keys()
+	k.sort()
+	for ii in k:
+		if not inc.has_key(ii):
+			f.write("msgid \""+ii.replace("\\n", "\\n\"\n")+"\"\nmsgstr \"\"\n\n")
+	f.flush()
+	f.close()
+
+def check_obselete(master,inc, lang):
+	f=open(lang+"-obselete.txt","w")
+	k=inc.keys()
+	k.sort()
+	for ii in k:
+		if not master.has_key(ii):
+			f.write("msgid \""+ii.replace("\\n", "\\n\"\n")+"\"\nmsgstr \"\"\n\n")
+	f.flush()
+	f.close()
+	
+
+def findmissing():
+	lang_names=['es','fr']
+	langs={}
+	f=open("gyach.pot")
+	ff=f.read()
+	f.close()
+	flist=ff.split("\n")
+	master=builddict(flist)
+	for ii in lang_names:
+		f=open("./"+ii+"/gyach.po")
+		ff=f.read()
+		f.close()
+		flist=ff.split("\n")
+		langs[ii]=builddict(flist)
+	for  ii in langs.keys():
+		check_missing(master,langs[ii],ii)
+		check_obselete(master,langs[ii],ii)
+
+
+if __name__ == '__main__':
+	findmissing()

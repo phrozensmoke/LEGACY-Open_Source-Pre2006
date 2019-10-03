@@ -1,0 +1,94 @@
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="CJ">
+  
+   <title>PHPaint v.2.1 Tutorial</title>
+</head>
+<body bgcolor=#FFFFFF text=#000000 link=#0000EE vlink=#DD0000>
+
+<center><img src="phpaint.png">
+
+<br><b><font face="Times"  size=5 color="#3333DD">PHP</font><font face="Times"  size=5 color="#000000">aint
+v.2.1 TUTORIAL<br><form></b><font face="Times"  size=2 color="#000000">July 15, 2002
+<br>Copyright 1999-2002 by Erica Andrews.<br>All rights reserved.<br><br>
+If you are looking for general information about PHPaint (system requirements, installation, etc.), read the <a href="phpaint_manual.html">Manual</a>.<br><br><hr></center><br></font><font face="Times"  size=3 color="#00000">
+
+<a name="Step1"><br><b>Step 1:</b><br>
+If you haven't done so already, <a href="phpaint_manual.html">install PHPaint</a>, then start PHPaint by going to the URL 'http://Your.Server.Com/Your_Install_Directory/<b>phpaint.php</b>' (usually: http://Your.Server.Com/phpaint/phpaint.php) using one of the <a href="phpaint_manual.html#browser">supported web browsers</a>. A Javascript-enabled browser is required, as is a web server running PHP 4.0b1 or better (with GD and FreeType support enabled). See the <a href="phpaint_manual.html">manual</a> for a full list of <a href="phpaint_manual.html#require">system requirements</a>.<br><br>
+
+<a name="Step2"><br><b>Step 2:</b><br>
+The VERY FIRST thing you need to do <u>everytime you start PHPaint</u> is click the 'Font Directory...' button, located on the MIDDLE panel, and set the font directory to the directory where your TTF (TrueType) fonts are installed.<blockquote><input type=button value="Font Directory...">  &nbsp; &nbsp; (example only)</blockquote>If you fail to do this, your images may not appear correctly (broken images), or you may see only 2 available fonts (times.ttf, shatter.ttf). After clicking the 'Font Directory...' button, a dialog will open, asking you to type in the full path of your desired font directory. When setting the font directory, you must include the trailing slash: '/var/www/html/ttf/' or 'C:\temp\fonts\', etc. Please type a FULL PATH, not an abbreviated path. Now, click 'OK'. PHPaint will load a list of available TTF fonts in the selected directory.  Check the 'TrueType Font' font list (to the left of the 'Font Directory...' button)<blockquote><b>TrueType Font:&nbsp;</b> <select><option>shatter.ttf</option><option>times.ttf</option></select> &nbsp;&nbsp; &nbsp;<input type=button value="Font Directory...">  &nbsp; &nbsp; &nbsp; (example only)</blockquote>to ensure that you have set the font directory correctly and your fonts were loaded correctly. Only files with the .ttf extension (case-insensitive) will be listed in the font list.<br><br>
+
+<a name="Step3"><br><b>Step 3:</b><br>
+Select the TTF font you want to use for the text on the image by selecting a font from the 'TrueType Font' font list, on the MIDDLE panel, to the left of the 'Font Directory...' button.<blockquote><b>TrueType Font:&nbsp;</b> <select><option>shatter.ttf</option><option>times.ttf</option></select> &nbsp;&nbsp; &nbsp;<input type=button value="Font Directory...">  &nbsp; &nbsp; &nbsp; (example only)</blockquote>Simply select your desired font from the drop-down menu.<br><br>
+
+<a name="Step4"><br><b>Step 4:</b><br>
+Type in the font SIZE in the field 'Font Size', on the MIDDLE panel, just underneath the font list.<blockquote><b>Font Size:</b> &nbsp;<input type=text maxlength="3" size="3" value="40">  &nbsp; &nbsp; &nbsp; (example only)</blockquote>This font size affects the font you just selected in <a href="#Step3">Step 3</a>. The font SIZE must be a positive integer, greater than zero. Generally, you will want to select a font SIZE between 10 and 100. Large font sizes create large images. Font sizes which are too small, may make the text on the image unreadable. Keep in mind that any font you have selected (in <a href="#Step3">Step 3</a>) may have limits on how big (or small) of a font SIZE can be used. Some fonts won't scale about a size of 72.<br><br>
+
+<a name="Step5"><br><b>Step 5:</b><br>
+Type in the TEXT to be drawn across the image in the field "Text On Image", which is located on the MIDDLE panel, just underneath the 'Font Size' field.<blockquote><b>Text On Image:</b> &nbsp;<input type=text value="SAMPLE IMAGE">  &nbsp; &nbsp; &nbsp; (example only)</blockquote>There are no restrictions on what can be typed in this field. However, PHPaint is not intended for, nor has been tested with, TEXT larger than 100 characters.<br><br>
+
+<a name="Step6"><br><b>Step 6:</b><br>
+Next, select the MAIN color for the image by clicking a color on the <u>'Main Image Color'</u> palette, located at the very top of the RIGHT panel.<blockquote><img src="palette.gif" alt="Palette example"> &nbsp; &nbsp; (example only)</blockquote>You may also fine-tune the color by typing in an RGB value in the 'Main Image Color' text field, just above the color palette.<blockquote><input type=text value="130,140,200"><br><img src="palette.gif" alt="Palette example"> &nbsp; &nbsp; (example only)</blockquote>The RGB value in the text field, must be a comma-separated list of exactly 3 integers. Each integer must be between 0 and 255. Include NO spaces in the RGB value text field. The 'Main Image Color' makes up most of the image's color, and provides the color immediately surrounding the text drawn on the image. The 'Main Image Color' is the color of the image's main 'rectangle' and does not include the shading of the 'rectangle' (see <a href="#Step7">Step 7</a>).<br><img src="imageparts.png" alt="Image Diagram"><br><br>
+
+<a name="Step7"><br><b>Step 7:</b><br>
+Select the IMAGE SHADING color for the image by clicking a color on the <u>'Image Shading Color'</u> palette, located on the RIGHT panel, in the 3rd box from the top.<blockquote><img src="palette.gif" alt="Palette example"> &nbsp; &nbsp; (example only)</blockquote>You may also fine-tune the color by typing in an RGB value in the 'Image Shading Color' text field, just above the color palette.<blockquote><input type=text value="130,140,200"><br><img src="palette.gif" alt="Palette example"> &nbsp; &nbsp; (example only)</blockquote>The RGB value in the text field, must be a comma-separated list of exactly 3 integers. Each integer must be between 0 and 255. Include NO spaces in the RGB value text field. The 'Image Shading Color' is the color of the shading of the image's main 'rectangle'.<br><img src="imageparts.png" alt="Image Diagram"><br><br>
+
+<a name="Step8"><br><b>Step 8:</b><br>
+Select the TEXT color for the image by clicking a color on the <u>'Text Color'</u> palette, located on the RIGHT panel, in the 2nd box from the top.<blockquote><img src="palette.gif" alt="Palette example"> &nbsp; &nbsp; (example only)</blockquote>You may also fine-tune the color by typing in an RGB value in the 'Text Color' text field, just above the color palette.<blockquote><input type=text value="130,140,200"><br><img src="palette.gif" alt="Palette example"> &nbsp; &nbsp; (example only)</blockquote>The RGB value in the text field, must be a comma-separated list of exactly 3 integers. Each integer must be between 0 and 255. Include NO spaces in the RGB value text field. The 'Text Color' is the color of the text drawn on the image, not including the shading under the text (see <a href="#Step9">Step 9</a>).<br><img src="imageparts.png" alt="Image Diagram"><br><br>
+
+<a name="Step9"><br><b>Step 9:</b><br>
+Select the TEXT SHADING color for the image by clicking a color on the <u>'Text Shading Color'</u> palette, located on the LEFT panel, at the very top.<blockquote><img src="palette.gif" alt="Palette example"> &nbsp; &nbsp; (example only)</blockquote>You may also fine-tune the color by typing in an RGB value in the 'Text Shading Color' text field, just above the color palette.<blockquote><input type=text value="130,140,200"><br><img src="palette.gif" alt="Palette example"> &nbsp; &nbsp; (example only)</blockquote>The RGB value in the text field, must be a comma-separated list of exactly 3 integers. Each integer must be between 0 and 255. Include NO spaces in the RGB value text field. The 'Text Shading Color' is the color of the SHADING of the text, and should generally be a darker color than the 'Text Color' chosen in <a href="#Step8">Step 8</a>.<br><img src="imageparts.png" alt="Image Diagram"><br><br>
+
+<a name="Step10"><br><b>Step 10:</b><br>
+Select the IMAGE TYPE by choosing an image format from the <u>'Image Type'</u> list, located on the LEFT panel, in the 4th box from the top.<blockquote><select><option>png</option><option>jpeg</option><option>wbmp</option><option>gif</option></select>   &nbsp; &nbsp; (example only)</blockquote>Currently, PHP (and PHPaint) support the following image formats: PNG, JPEG, GIF, and WBMP.  Please be aware, that not all of these images formats will necessarily be supported by your particular build and version of PHP. If you choose an image type that is NOT supported by your PHP installation, no image will be created. The default value is 'png'. Not all PHP installations support GIF and WBMP. Generally, newer version of PHP do not support GIF, due to image compression patent problems. Most PHP installations can create at least 'png' and 'jpeg' images.  However, check your particular PHP installation/build to be sure. The 'wbmp' (Wireless Bitmap) format, is used mostly by Wireless/WAP developers. Images in the 'wbmp' format can be created by PHPaint, but generally cannot be displayed by normal web browsers. You will want to have a WAP-enabled (wireless) web browser or image viewer available if you are working with the 'wbmp' format.<br><br>
+
+<a name="Step11"><br><b>Step 11:</b><br>
+Type in a LINK for your image in the 'Link' text field, located near the very bottom of the LEFT panel. <blockquote><b>Link:</b> &nbsp; &nbsp;<input type=text value="http://www.MyWebSiteHost.net">  &nbsp; &nbsp;&nbsp; &nbsp;(example only)</blockquote>If you want your image to be part of a link to a particular URL, type the desired URL here. If you don't know what this is for, or don't want your image linked to any URL, leave the 'Link' text field blank, and skip to <a href="#Step13">Step 13</a>.<br><br>
+
+<a name="Step12"><br><b>Step 12:</b><br>
+Type in a TARGET for your image's LINK from <a href="#Step11">Step 11</a> in the 'Target' text field, located near the very bottom of the LEFT panel.<blockquote><b>Target:</b> &nbsp; &nbsp;<input type=text value="NewWindow">  &nbsp; &nbsp;&nbsp; &nbsp;(example only)</blockquote>The 'target' is an element of the 'a href' tag in HTML. If you don't know what this is for, or don't want the LINK (from <a href="#Step11">Step 11</a>) to target a specific browser window, leave it blank, and move on to <a href="#Step13">Step 13</a>.<br><br>
+
+
+<a name="Step13"><br><b>Step 13:</b><br>
+Create your image! Create a 'preview' of your image by clicking the 'CREATE IMAGE' button near the top of the MIDDLE panel.<blockquote><input type=button value="CREATE IMAGE">  &nbsp; &nbsp;(example only)</blockquote> PHPaint will create a preview image. <br><br>
+
+<a name="Step14"><br><b>Step 14:</b><br>
+NO IMAGE WAS CREATED! If your 'preview' image was correctly displayed, skip this step and move on to <a href="#Step15">Step 15</a>. If you followed Steps <a href="#Step1">1-13</a> to the letter and see NO image at all, check the following:<blockquote>- That you have images ENABLED for your web browser<br>- That you correctly set the font directory for TrueType fonts (see <a href="#Step2">Step 2</a>)<br>- That you have SELECTED a TrueType font (see <a href="#Step3">Step 3</a>)<br>- That you have selected an IMAGE FORMAT supported by your version/build of PHP (see <a href="#Step10">Step 10</a>).</blockquote><u>IMPORTANT NOTE:</u> Most regular web browsers are NOT capable of displaying WBMP images. If you selected 'wbmp' as your 'Image Type' in <a href="#Step10">Step 10</a>, and are <u>sure</u> you have WBMP support enabled for your version/build of PHP, your image was most likely created, but unviewable by your web browser. I suggest you do a right-click, then 'Save As...' on the preview image's rectangular "place holder", save it to disk, then attempt to open the image with your own third-party tool capable of viewing 'wbmp' images (such as a Wireless/WAP web browser) just to make sure that your 'wbmp' image was created. Also, not all web browsers can display 'png' images. If you have selected 'png', please make sure you are using one of the <a href="phpaint_manual.html">supported browsers</a> known to be capable of displaying 'png' images. If you selected the 'gif' image format, please be aware that most newer versions GD, the library used by PHP to create images, do not support the creation of Gif images. If your version of GD was created within the past 2 years, it probably does not support Gif images (unless you have a special 'hacked' version).<br><br>If your image was created, but the TEXT drawn on the image appears as scrambled "junk", try <a href="#Step3">selecting a different TrueType font</a>, since some "shareware" or special fonts will refuse to print normal alpha-numeric characters. You should especially select a different font if you see a series of "squares" instead of regular text. In addition, you may want to <a href="#Step4">try increasing the font size</a>, as using a very small font size can create scrambled "junk" rather than legible text.<br><br>If your image was created, but you see NO text at all, please make sure that you did not set your <a href="#Step6">Main Image Color</a> to the same color as your <a href="#Step8">Text Color</a> or your <a href="#Step9">Text Shading Color</a>.<br><br>
+
+<a name="Step15"><br><b>Step 15:</b><br>
+Retouch your image (if necessary). If there is something you do not like about the 'preview' image that was created, follow <a href="#Step3">Steps 3-14</a> again (as needed), until you are pleased with the result.<br><br>
+
+<a name="Step16"><br><b>Step 16:</b><br>
+Adjust the 'Space Around Text', located on the LEFT panel in the 3rd box from the top. Generally, you can skip this step unless you need more 'space' around the text drawn onto the image, or want to reduce the amount of 'space' around the text drawn onto the image. You can make the necessary changes by adjusting the values in the 'X-pad' and 'Y-pad' fields.<blockquote>X-pad: <input type=text size="2" length="2" maxlength="2" 
+name="xpad" value="6"> &nbsp;&nbsp; &nbsp;&nbsp;Y-pad: <input type=text size="2" 
+length="2" maxlength="2" name="ypad" value="6">    &nbsp; &nbsp;(example only)</blockquote>You can enter any POSITIVE, INTEGER value into these fields bewtween 1 and infinity.  Please keep in mind that increasing the values of these fields also increases the size of the image (both in screen real estate, and byte size). The 'X-pad' field controls the amount of space on the RIGHT and LEFT sides of the text drawn on the image.  The 'Y-pad' field controls the amount of space above and below the text drawn onto the image.<br><br>
+
+<a name="Step17"><br><b>Step 17:</b><br>
+See what your image will look like on a background similar to what you will be using on your web page by clicking on a color from the 'Background Preview' palette, located on the LEFT panel, in the 2nd box from the top.<blockquote><img src="palette.gif" alt="Preview palette">  &nbsp; &nbsp; (example only)</blockquote>PHPaint should immediately reload with your chosen background color as the backdrop for your 'preview' image. This Step does not change the image itself in any way.<br><br>
+
+<a name="Step18"><br><b>Step 18:</b><br>
+ADD YOUR IMAGE TO YOUR WEB PAGE.<br><b>IMPORTANT:</b> You do NOT need to save a copy of this image to disk (unless you *want* to).<br><br>To add your image to your web page, do the following:<br><blockquote>
+- SELECT ALL of the text in the box 'IMG Tag For This Image' on the MIDDLE panel<br><br>
+<b>IMG Tag For This Image:</b><br>
+<textarea cols=34 rows=5>
+&lt;img src="phpimagebank.php?s=40&text=SAMPLE+IMAGE&ts1=60&ts2=60&ts3=60&im1=30&im2=200&im3=200&te1=0&te2=255&te3=255&is1=0&is2=160&is3=160&font=shatter.ttf&xpad=6&ypad=6&fontdir=/var/www/html/phptest/" border=0 alt='SAMPLE IMAGE'>
+</textarea>  &nbsp; &nbsp;(example only)<br><br>
+
+- COPY the text by pressing Ctrl+C<br>
+- PASTE the text into your web page by pressing Ctrl+V<br>
+- COPY the <a href="phpimagebank.php">phpimagebank.php</a> script to the SAME directory on your web server as your web page (if you haven't already put a copy there).<br>
+- LEAVE the .ttf font file for the font you selected (in <a href="#Step3">Step 3</a> in your font directory (from <a href="#Step2">Step 2</a>). There is NO need to copy your .ttf font file anywhere.<br>
+- VIEW your web page by opening its 'http://' URL  &nbsp;&nbsp;(not its local disk 'file:/' URL)
+
+</blockquote>
+That's it! If you followed these instructions, your web page should be loading an image that looks identical to the 'preview' image created by PHPaint.  You do NOT need to save the 'preview' image to disk unless you want to.  The text you copied from the 'IMG Tag For This Image' box will 'remember' your image, allowing you to save disk space by not having to save hard copies of images to disk. The <a href="phpimagebank.php">phpimagebank.php</a> script is only about 2.9 kb and is a much better alternative to saving numerous web page "buttons" to disk and wasting server resources.<br><br>If you ever need to change the image in your web page, just <a href="#Step1">start PHPaint</a> again, <a href="#Step2">create a new image</a>, and replace the 'IMG' tag with the new 'IMG Tag For This Image'. It's that easy: No memory-intensive image editors, no wasted space, no wasted time. Let PHP do the job it was hired to do. Enjoy!<br><br>
+
+This ends the PHPaint tutorial.
+<br>
+
+</form>
+
+<hr><br>
+</body></html>

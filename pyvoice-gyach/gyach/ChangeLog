@@ -1,0 +1,1649 @@
+#######################
+GYach Enhanced - 1.0.8pre
+03/13/2006
+#######################
+
+	- Major Bug Fix: Fixed a bug that could cause Gyach-E to hang on startup if it encountered an empty/blank line in the 'history' file as well as other configuration files in the user's home directory
+	- Major Bug Fix: Fixed a bug that prevented the Yahoo Address Book from being loaded or used all together; The Yahoo addressbook feature now connects to the proper server and URL
+	- Updated Gyach-E to "impersonate" the latest Windows version of Y! Messenger (7.5)
+	- Updated all copyright information to accomodated the new year
+
+
+
+#######################
+GYach Enhanced - 1.0.7
+04/04/2005
+The "Through The Wire" release
+#######################
+
+	- Major Bug Fix: Fixed a bug which could cause a user to be booted (and repeatedly booted) immediately upon sign-on
+	- Webcam broadcasting patch [gyache-upload]: Applied Natanael Copa's (n ['at'] tanael.org) patch  to add double-buffered support for OV519 cameras. Thanks!
+	- Webcam broadcasting patch [gyache-upload]: Applied Mark Alexander's (marka ['at'] pobox.com) patch  to add support for Logitech Quickcam for Notebooks Pro devices using the CCVT/camstreem YUV-to-RGB conversion routines. Thanks!
+	- Tweak: Gyach-E now emulates Y! Messenger version 6,0,0,1922 (latest know official Yahoo release)
+	- Bug Fix: Buddies on your list who are in the  'Y! Mobile Messenger' buddy group are now also shown in the other buddy group where they exist (if any).  This fixes a bug where using Yahoo over a mobile phone resulted in almost all of your buddies showing up in the 'Y! Mobile Messenger' group instead of the buddy group you placed them in.  
+	- Updates to the spam control module, spamcheck.c, to help screen out spam related to personal ads and escort services
+	- Gyach-E now prevents you from attempting to delete or rename the 'Y! Mobile Messenger' buddy group (Yahoo itself doesn't allow you to do this anyway)
+	- Updated the built-in list of known LaunchCast genres
+	- Minor updates to the built-in list of Yahoo links
+	- Made the login window a little prettier (small logo along the left side)
+	- Added support for tuxvironment (IMV) 'apprentice' in the current media package
+	- Fixes to the Yahoo news alert reporting feature: Show the news filter that dragged in the current news article and get rid of unnecessary 'abstract' words showing up on the chat screen
+	- Updated all copyright year information within the program, external modules, and sources
+
+	
+
+#######################
+GYach Enhanced - 1.0.6
+11/28/2004
+#######################
+
+	
+	- Bug fix: Patched a bug that could cause LONG html code to show from 
+	incoming chat and PM messages that have long faders  (This fixes a bug 
+	where faders where not being rendered for long faders, resulting in the 
+	person's message showing up 'wedged' in between a bunch of HTML 
+	junk )
+	- Added support for using the 'normal' method of uploading buddy images; 
+	Gyach-E now supports TWO methods for uploading buddy images to 
+	Yahoo's server...the 'normal' way and the 'reflexive' way.  This is currently 
+	only configurable by editing the 'buddy_image_upload_method' option 
+	in the ~/.yahoorc/gyach/gyachrc file (0=normal,1=reflexive): If you don't 
+	understand what this means, leave this setting alone...the default setting 
+	should be fine for most people.  The new default method is to use the 
+	'normal' upload method with Windows emulation. This option is not 
+	currently configurable in the Setup window but may be in the future.
+	- Feature enhancement: The status bar is now visible from all tabs
+	- Features added: The status bar is now used to also show some important
+	events, in addition to chat room counts and news alerts...the new events 
+	show are: Buddy on/off, Buddy away/back, PM 'buzzes' and mail alerts.
+	- Feature added: Improved 'signalling' of incoming PM messages that 
+	have not yet been answered...in addition to a start (*) being put in the 
+	title bar of the PM window, the icon of the PM window now changes from 
+	grey (no new messages) to blue (new, unanswered PM messages)
+	- Feature added: Offline PM message windows now are 'signalled' as new 
+	messages that have not yet been responded to...this is useful when we are 
+	signing back on with PM windows already open and have received PM messages
+	in an already opened window.
+	- Bug fix: Sending an audible no longer removes the 'TYPING' status from the 
+	other PM user if a 'TYPING' status is present on the title bar of the window
+	- Updated the list of LaunchCast genres that Gyach-E recognizes; This means 
+	Gyach-E should now do a better job of 'guessing' the genre of the music a 
+	person on your buddy list is listening to.
+	- Makefile optimizations: Gyach-E is now compiled with better optimization by 
+	default, which results in faster startup of the executable(s) but slightly larger 
+	binary size
+	- Added support for recognizing Literati and Pool game invitations
+	- Added new My Yahoo content to the My Yahoo! tab: "Parenting Tips", 
+	"Diet Tracker", "Pet Tips", "Ask the Doctor", 	"Dummies eTips", "Asthma Watch",
+	"Word of the Day", "Gossip"
+	- Emulation updates: Gyach-E now pretends to be Windoze Y! Messenger 
+	version 6,0,0,1750
+	- Patched handling of the Yahoo News alert packets to better handle the new format
+	Yahoo seems to be pushing at http://beta.alerts.yahoo.com; This adds support 
+	for the newer versions of the alert packets, fixing some HTML rendering issues 
+	and providing better scanning of incoming headlines;  This should help fix any 
+	crashing users may have experienced from News alerts after 'opting in' to Yahoo's 
+	'beta' version of the next-generation News alerts
+	- HTML rendering improvements: The default 'zoom' size of all HTML data on the 
+	'My Yahoo' tab is now a little larger (this should make the text more 'accessible', and, 
+	personally, I need the large fonts.); Got rid of the ridiculous amount of 'blank' space 
+	that could show up at the top of the 'My Yahoo' tab window for some HTML data.
+	- Feature Added: Added "Yahoo News Alerts" to the 'Status' menu: When this is 
+	*checked* and your status is not set as 'invisible' or 'busy' Gyach-E will set your status 
+	message to incoming Yahoo news alert headlines... these news alerts can be configured 
+	at http://alerts.yahoo.com; This seems like a cool way to share a little news with 
+	friends on your buddy list, as they will be able to stay informed just by looking at your 
+	status message and seeing a new news headline.  Note: This feature will work best 
+	with Yahoo Messenger 6 features enabled in the Setup window (This is ON by default, 
+	anyways), as you will need to use a protocol that supports sending the new, longer 
+	status messages to the Yahoo servers
+	- Added 'Y! Links' to the 'Help' menu: Clicking this menu item will show you a very 
+	large list of Yahoo-related links; This can be used as a quick 'yellow pages'-type directory
+	for quickly finding Yahoo websites such as pets.yahoo.com, my.yahoo.com, etc.
+	- Outgoing status messages of up to 254 characters are now supported when 
+	running with Y! Messenger 6 features enabled (this is already enabled by default)
+	- Incoming status messages of up to 254 characters are now supported 
+	- Hopefully fixed a bug that could cause the 'Adult' rooms in the 'Romance' 
+	category to sometimes not show up when listing the English rooms
+	- New Feature: An 'Immunity' list on the popup menu for the list of chat room users:
+	Simply click 'Do Not Auto-Mute' on the popup menu to stop a user from being auto-muted
+	for various reasons (suspected spammer, repeated duplicate posts, etc.)
+	- Added 'Do Not Auto-Mute'  to the popup menu for the list of chat room users.
+	- The 'display font' which can be applied to the Buddy List and the AddressBook is 
+	now also applied to the list of chat room users
+	- Font fixes: reset the minimum font size for most fonts to 12pts to ensure 
+	readability of all incoming messages
+	- Bug Fix: Fixed a bug that could cause multiple 'Y=' and 'T=' cookies to be sent 
+	to the servers when running under the 'web connect' or 'ycht' methods: This also fixes 
+	a bug which would cause the buddy list not to be downloaded when running under YCHT
+	mode
+	- Performance Improvements: Fixed problems that caused the list of chat room users 
+	to be 'refreshed' in a way that was both ugly and resource intensive: Users should now 
+	notice less 'flashing' and 'flickering' of the list of chat room users, better performance 
+	in terms of refreshing of the list, and the list NOT jumping back up to the top after you 
+	have scrolled down or to the sides.  This should remove some annoyances of scrolling 
+	down to a name clicking it, only to have the chat room list 'refresh' and jump back to 
+	the top again.
+	- Spam detections updates to the spamcheck.c module (Added rules to detect a few 
+	new commonly seen spam bot 'series')
+	- The application has now been tested against TWO versions of Gtk+2:  Gtk+-2 versions 
+	2.0.6 and 2.4.9; I've verified that the application works with both these versions, so, 
+	presumably, it should be running on all Gtk-2 versions in between as well.
+	- Changed the mail icon indicator text from from 'fixed' to 'Courier' (I just like it better.)
+	- Bug fixes: Patched hundreds of potential buffer overflow crashes by replacing 
+	'sprintf' statements with 'snprintf', 'strcat' with 'strncat', and 'strcpy' with 'strncpy' (This is an 
+	on-going process of stabilizing the code.)
+	- Updated the Help documenation (Added information about the new 'Immunity' list.)
+	- Module and header clean ups; more 'extern' prototypes moved to the .h headers 
+	where they belong.
+	- 'Buddy Info' improvements: Clicking 'Info' on the popup buddy list menu now 
+	provides a scrollable window with more detailed information as well as an
+	enlarged version of the person's avatar on the right-hand side (basically, this is 
+	the same window used for internal profiles when using the 'profile window' as the 
+	profile viewer)...This makes all URLs in status messages clickable and all emticons 
+	in status messages get rendered as emoticons; This replaces the old, basic 
+	'OK' dialog that use to popup when 'Info' was click on the popup buddy list menu
+	- Error notification improvement: Gyach-E now reports an error if you attempt to add 
+	or remove a friend from your buddy list and Yahoo's servers fail to respond to
+	the request (Sometimes, Yahoos servers go down, ignoring such requests 
+	without reporting any errors at all...i.e. Yahoo just does nothing at all.)
+	- Error notification improvement: Gyach-E now reports an error if you attempt to add 
+	or remove a friend from your permanent ignore list and Yahoo's servers fail 
+	to respond to the request 	(Sometimes, Yahoos servers go down, ignoring 
+	such requests without reporting any errors at all...i.e. Yahoo just does nothing at all.)
+	- Error notification improvement: Gyach-E now reports an error if you attempt to add 
+	or remove a friend from your permanent ignore list  while connected using the 
+	YCHT or WEBCONNECT method, as these connection methods do not permit such
+	actions.
+	- Error notification improvement: Gyach-E now reports an error if you attempt to add 
+	or remove a friend from your buddy list  while connected using the 
+	YCHT or WEBCONNECT method, as these connection methods do not permit such
+	actions.
+	- Improved handling of Yahoo News Alerts 'abstract'-type Alerts so that a real Headline 
+	is properly displayed instead of just the vague word 'abstract'
+	- 1 New pre-configured 'FADE' tag added to the fader drop-down list
+	- Improved support for 'Highlight Let' and other 'highlight' style fonts to ensure that
+	they are rendered at sizes large enough to be readable on the screen
+	- Fixed a bug that could cause missing or incomplete Yahoo address book entries to be extracted from the Yahoo XML addressbook data
+	- The addressbook tab now shows how many entries are in your addressbook when it is loaded
+	- Fixed a bug that could cause friends' names to show up more than once on the list of buddies shown on the Chat screen at login if a buddy was in more than one buddy group
+	- Fixed a bug that could create incomplete or corrupted buddy lists if your buddy list contained many names (generally, over 40) and Yahoo sent a 'continuation' packet with the remainder of the names
+	- XMMS Plugin updates: The XMMS plugin now supports status messages up to 215 characters.
+
+
+
+	pY! Voice Chat 0.3.5:
+		- Added support for connecting to the newly found voice chat servers 
+		68.142.226.64 - 68.142.226.73 (v1.vc.re2.yahoo.com-v9.vc.re2.yahoo.com, 
+		and vc1.vc.vip.re2.yahoo.com); These servers are now available on the 
+		'Voice Chat Server...' list accessible from the application's menu
+		
+	
+
+#######################
+GYach Enhanced - 1.0.5
+8/08/2004
+"PATCH me if you can like the gingerbread man"
+#######################
+
+	SUMMARY OF Changes:
+	This release adds Java chat support, a login fix for the YMSG protocol, and numerous 
+	other bug fixes. A Photo IMVironment plugin has been added, the internal profile 
+	viewer has been rewritten, and several security flaws have been fixed. Major 
+	improvements have been made to the configuration window and the 
+	font support. Support has been added for international profiles, disabling PM 
+	buzzes, and checking for new versions and project news.
+	
+
+	- BUG FIX: Login fix, added an official patch for the latest Yahoo login changes...logging on using YMSG should now work again
+	- Added full YCHT protocol (Java chat) support: It is used to provide access to chat rooms when connecting using the 'web login' method (when Yahoo locks us out), but it can also be used as a stand alone chat service (to avoid being booted.)
+	- NEW PLUGIN: Photos IMV/TUXivironment implementation that allows complete sharing and joint b browsing of a Yahoo photo album in a PM window.  (Still EXPERIMENTAL, and there are KNOWN problems sharing photos with Windows users.)	
+	-Bug Fix/Privacy Feature Addition: Fixed a bug that caused Gyach-E to only 
+	auto-reject requests to add you as a friend from your primary screen 
+	name; Now, if you 'reject' a person's attempt to add you as a friend, you 
+	someone tries to add you when you have 'auto-reject' turned ON, Gyach-E 
+	sends a 'rejection' notice from ALL of your profile names, taking ALL of your 
+	known screen names off that person's list
+	-Added support for viewing international profiles: Currently, the following 
+	languages are supported: English, German, Spanish-Argentina, Spanish-Spain, 
+	Spanish-Mexican, Spanish-US, French-Canada, French-France, Italian, Portuguese, 
+	Danish, Norwegian, and Swedish 
+	(there is currently no immediately plans to add support for profiles in Asian languages...
+	sorry, but the charsets are a pain in the butt.)
+	- Cleanups of buffers throughout the program, resulting in a reduction in the size of 
+	the binary executable. 
+	-Updated messenger 'emulation' (the version we fake) to 6,0,0,1671
+	- Added support for longer status messages (up to 156 characters), Yahoo seems to be allowing longer and longer status messages
+	- XMMS plugin updates: Allow longer status messages to be sent because Yahoo is supporting longer messages on their servers	
+	- Status message readibility improvements: Long status messages are now 'wrapped' on the buddy list to avoid very long horizontal scrolls.
+	-Bug fix: Fixed a bug that could cause Audibles not to play and display as audibles unless we had opened the Audible selection dialog prior to someone sending us an Audible
+	- Bug fix: Properly reset profile names when connecting using the 'Web Login' method (and now the YCHT method which is available)...this fixes a bug where old screen names would be left over in the name selection widgets after we switched screen names completely on 'web login' causing PMs, etc. to be sent from 'illegal' names
+	-Bug Fix: Fixed a bug where the Yahoo cookie we receive could be modified in a way that made it 'invalid' and useless if certain characters were in the cookie...this may fix problems you may have experienced where 'My Yahoo' and Addressbook stuff just didn't work sometimes.
+	- Update-checking feature added: You may check for new versions of Gyach-E and the latest project news by clicking 'Help'->'Check for new versions and news...' on the Gyach-E menu
+	-Help file updates and additions
+	- Spam protection improvements: If spam protection is ON, anyone whose first comment upon entering a chat room is an 'Emote' instead of regular text is automatically muted....lots of bots are now coming into rooms and posting Emotes over and over again
+	-Bug Fix: Fixed a bug where 'never ignore a friend' sometimes didn't work if that friend had been previously ignored or listed as a 'flooder'....now ALL communications from friends and temporary friends will come through (even if they are on the 'ignore' list) if you have 'never ignore a friend' turned ON.
+	-Bug fix: Patched a bug that could cause invalid cookie headers to be sent to the 'filetransfer' server when sending a file or buddy image
+	- Bug fix: Fixed a bug that caused no more that 2 profile names to show up in the profile name widgets for selecting screen names...this bug was reported via email by a Gyach-E user...all available profile names should now display properly
+	-Bug fix: Fixed a bug which sometimes caused PM 'buddy images' not to be offered to the other person automatically (i.e., sometimes the image had to be reloaded before it showed up)...now any buddy image we are using is automatically offered to the PM user (if they have permission) and their image is automatically requested as soon as a PM window is opened for them (this does NOT apply to PM windows opened for SMS/cell phone users.)
+	- Bug fix/Usability improvement: Clicking 'Help'->'Plugins' on the menu automatically makes the Chat tab visible where the plugin info is being shown (if the Chat tab is not already visible.)
+	- Bug Fix: Fixed a bug several users reported where 
+	text typed in the PM window's 'send' field would could 
+	be unexpectedly highlighted and deleted upon receiving 
+	a new message; 'auto raise pm on message received' is 
+	now OFF by default, as that was contributing to the bug
+	- Bug Fix: Fixed many issues involving focusing and 
+	(re-focusing) of the PM window's 'send' field: clicking 
+	buttons on the PM window's toolbar, opening/closing 
+	the smileys dialog and audibles dialog, and opening/closing 
+	the Buddy Image window now properly puts the cursor 
+	back in the 'send' field...to go straight back to typing, avoid 
+	unexpected deleting and erasing of everything typed (see 
+	bug mentioned above), and avoid retriggering any buttons 
+	we just clicked.	
+	-Bug Fix: Lots of scrolling issues with the PM windows and the 
+	Chat window have been fixed...The Chat window now properly 
+	scrolls down to the bottom when Gyach-E initially starts and 
+	PM windows properly scroll down to the bottom when the PM 
+	window is first created...in addition, a bug that caused the text 
+	windows to stop scrolling automatically after a very long line 
+	was posted to the screen has been fixed; all-in-all scrolling of 
+	the Chat window and the PM windows should be smoother and 
+	more reliable 
+	- Bug fix: Fixed a bug where Gyach-E would assume that 
+	the connection to Yahoo had failed if your buddy list or 
+	server-stored ignore list was completely empty...this bug 
+	had been causing automatic disconnection on connections 
+	that appeared to have 'failed' but were fine; Gyach-E 
+	now assumes the connection is fine if *either* the buddy 
+	list or the server-stored ignore list was sent from Yahoo 
+	(instead of both being required); Gyach-E now notes that 
+	the buddy list and ignore list have been received even if 
+	the Yahoo server gives us a list that is completely empty
+	- Bug Fix: Fixed a bug where Gyach-E would assume that 
+	a connection to Yahoo had failed too early, the application 
+	now waits a few more seconds before assuming the connection 
+	is dead and disconnecting	
+	- Bug fix: All screen names and profile names sent in Yahoo 
+	packets are now *always* sent in lower-case; This fixes some 
+	random misbehavior from the Yahoo servers due to names with 
+	capital letters in them and makes Gyach-E's behavior more 
+	consistent with the behavior of the newer Windows clients
+	- Bug Fix: Fixed logging into voice chat for PMs and conferences 
+	by properly collecting the new voice chat cookie sent back to 
+	us for PMs and conferences in field '233'
+	- Bug fix: Buddy Image checksums are now properly created 
+	based on the file's contents (this is of no interest to the average 
+	user but only serves to make the program more consistent 
+	with the behavior of the newest Windows clients.)
+	- Bug Fix: The 'excerpts' of blocked chat messages and blocked PM messages 
+	that are shown now have line-feeds and HTML code properly stripped 
+	out of them to avoid unwanted color-change effects
+	- Usability Improvement: The buddy image checksum for Friends 
+	on your buddy list is now 'remembered'. This means that when you 
+	close a PM window from a friend and re-open a PM window for 
+	that same friend later, their Buddy Image for the PM window 
+	can be loaded immediately if it is still on the hard-drive (this 
+	avoid having to re-request the image each time a PM window 
+	is opened.)
+	- Bandwidth usage improvement: All avatars (all sizes) are now 
+	downloaded from Yahoo's servers in JPEG format (I recently 
+	found out that Yahoo's avatars are available in both PNG and JPEG 
+	and that the JPEG avatars are MUCH smaller in file size than the 
+	PNG avatars...so, for now, Gyach-E will be using the much smaller
+	JPG avatars unless switching back to PNG proves necessary, which 
+	will pose no problem to the author :-)  )
+	- Feature Addition: Clicking 'Info' on the buddy list popup menu 
+	now also shows you the names of all known Identities for your 
+	friend's screen name (if your friend has more than one name or 
+	profile name on your buddy list and GyachE knows about it.)
+	- Usability improvement: Gyach-E now uses one, uniform callback 
+	for displaying information about 'rejected' communications from other 
+	users, such as blocked PMs, blocked invites, and blocked files...the 
+	new 'rejection' display messages have a unique color scheme that 
+	stands out and is accompanied by the 'ignore' icon, the new 
+	callback handles all sending of automated responses, preemptive 
+	strikes, and playing of 'rejection' sound events
+	- Spam protection improvement: If spam protection is on, any user 
+	in a room who is not a friend or temporary friend who sends 3 or more 
+	back-to-back 'Emotes' is now automatically muted...lots of spam bots 
+	are coming into rooms these days and just posting Emote after Emote
+	- Code cleanups: Removed intl.h, yahoo_md5.h, yahoo_md5.c files 
+	from the source tree, added yahoo_authenticate.h, copyright info added 
+	to sha.h file
+	- Code cleanup: parsecfg.c no longer attempts to use translatable strings
+	(this wasnt necessary to begin with)
+	- Code cleanup: Added a 'version_emulation" string to the users.h header 
+	to provide a uniform string used throughout the application to 'pretend' 
+	to be the latest Windows Y! Messenger client
+	- Usability improvement: In the setup window, the lists for Accounts, 
+	Friends, Favorite Rooms, Ignored Users, and Regex now all have buttons 
+	for 'Add', 'Remove', and 'Delete' underneath the list, making things a 
+	little easier for new users who don't know about the popup menu or 
+	users who can't access the right-click popup menu for whatever reason
+	-Usability improvement: The initial size of the PM window is now slightly 
+	larger	
+	- Bug fix: Fixed sending of XMMS song statuses when using the XMMS 
+	plugin so that the 'fake' LaunchCAST status shown on Gyach-E and 
+	the Windows clients now has a genre (house); before, no genre was 
+	being set
+	- Y Messenger 6 emulation improvements: The chat room logout and 
+	conference room logout packets now send the '1005' field just like the 
+	Windows client does...just trying to 'blend in'
+	- Code clean up: The yahoochat.c module now imports the new 
+	'yahoo_authenticate.h' header to access the authentication routines 
+	instead of accessing those routines through 'extern' functions
+	- Bug Fix: A 'timer' is now set to make sure Gyach-E doesn't hang 
+	indefinitely if a DNS lookup fails while connecting servers; failed 
+	DNS lookups now are forced to 'time out' 
+	- Bug fix: Patched a bug that stopped application-specific Gtk themes 
+	from working with Gyach-E; Now, placing a Gtk-2 theme in the file 
+	~/.yahoorc/gyach/gtkrc allows you to apply any 'special' themes 
+	you want to Gyach-E at startup (say, if you want to 'tweak' the look 
+	of Gyach-E against your current Gtk-2 theme or simply want Gyach-E 
+	to use a completely different Gtk-2 theme than the rest of your Gtk-2
+	applications.)
+	- The colors for incoming chat 'Emotes' have been changed to something
+	a little nicer (and more reasonable) looking
+	- Spam prevention updates: 'coed_' bots are now flagged as spam bots 
+	immediately and additional exceptions have been added for 'net grammar' 
+	used in screen names
+	- Lots of code cleanup, resulting in reduced binary executable size 
+	and slightly faster start-up (removal of alot of unnecessary 
+	"gtk_object_set_data" and "gtk_widget_show" calls in interface.c ) 
+	- Complete re-write of the Internal Profile Viewer (the one that 
+	uses the Window): The profile information is now scrollable, 
+	'pretty' (colorized), easier to ready, and links are now clickable.
+	Fixed bugs that caused some profile information not to be collected, 
+	added support for showing 'Hobbies', 'Latest News' and 'Favorite 
+	Quote' information, and the 'Cool Links' stuff is now actually 
+	collected and shown if it is available in the profile. The window is 
+	now also smaller (more compact) with less wasted screen space, 
+	the 'Close' button is now underneath the person's picture on the right. 
+	The code for collecting and parsing the profile information as been 
+	tweaked to better protect against buffer overflows and control 
+	string sizes; With these changes, smileys people type in their profiles 
+	should now appear as real emoticons... These changes do NOT affect 
+	the internal 'My Yahoo' profile viewer that shows profiles on the 
+	HTML-renderer tab
+	- PM window tweaks: The list of 'profile names' now says 'From:' 
+	instead of 'My Yahoo ID!:'...this is clearer for new and old users alike 
+	and saves some screen space; The 'text style' toolbar on the PM window 
+	now features a 'Fader' button for one-click access to configuring Fader/Alt 
+	tag text effects without having to go into the Setup window.
+	- Bug Fix: Patched a bug that caused the 'clown' smiley to show up on 
+	the screen as the 'shocked' smiley
+	- Feature Added: You can now disable/enable incoming 'buzzes' in 
+	the Setup window under the 'Private Message' tab
+	- Feature Added: The server used for file sharing is now configurable 
+	in the Setup window under Options (Connection Options); This 
+	setting affects which file transfer server is used for sending files to 
+	other users and sharing 'buddy images' in PM windows
+	- General optimization of buffers throughout the program to reduce 
+	binary size and bring some sanity back to the source code
+	- Improved protection against buffer overflows when retrieving 
+	data from http servers
+	- Bug Fix: Fixed a bug that could allow a buddy "group" to be double-clicked 
+	open as a PM window
+	- Bug Fix: Fixed a bug that could allow the wrong menu to be shown over 
+	a buddy on the buddy list or a group on the buddy list
+	- About Box changes: The old GUI for the about box has been eliminated 
+	(wasted code and GUI space); The about 'box' now shows as HTML formatted 
+	data on the 'My Yahoo' tab...it looks alot better, and all links are properly 
+	clickable
+	- Feature addition: Finally added a 'Close' button to the selection dialogs 
+	for Encryption, Tuxvironments, and the buddy list's 'Move to group' function
+	- Code cleanups: Cleaned up lots of 'empty' methods out of callbacks.c, remove 
+	lots of unused prototypes from callbacks.h (These were left over from the old 
+	Gyach code-base)		
+	- Some font rendering bug fixes and code cleanups
+	- Feature Added: Added support for a 'display' Font as well as the 'Message' Font; 
+	This allows for configuring one font for outgoing chat and PM messages and another 
+	font for the buddy list and addressbook
+	- Bug Fix: Fixed typing status notifications - do not show 'typing' as ON to the other 
+	user if we are hitting special keys like ALT, Shift, or Ctrl, etc instead of alpha-numeric 
+	and punctuation keys
+	- Bug Fix: Fixed possible font display problems for 'popup' messages if Gyach-E 
+	was run with the environment variable GDK_USE_XFT=1 set
+	- Re-orgranized the Setup window's Font section
+	- Improved the Fader configuration dialogs 'Preview' text area; slightly larger, 
+	appropriate margins and line-wrapping added
+	- Removed/disabled old debugging code left over from the original Gyach	
+
+
+
+	pY! Voice Chat 0.3.4:
+		- Fixed a bug where it could be impossible to connect to the voice chat server which long screen names (say, 25 characters or more)...the proper hex packet sizes are now sent with ALL login packets to avoid 'disconnect' errors.
+		- Fixed a bug where we sometimes didn't detect the voice chat server we were being forwarded too
+		- Bug Fix: Fixed logging into voice chat for PMs and conferences 
+	by properly collecting the new voice chat cookie sent back to 
+	us for PMs and conferences in field '233'
+		- Added a feature that makes pY! Voice Chat report random sound cards on each login....to avoid Yahoo from ever trying to 'block' us because we send the same thing over and over
+		
+
+
+#######################
+GYach Enhanced - 1.0.4
+6/21/2004
+"It's 10 o'clock. Do you know where your brain is?"
+#######################
+
+
+	
+	SUMMARY OF Changes:
+	Support has been added for the new Messenger 6 features, including "display images" in PM windows, avatars, audibles, and stealth settings. A new French translation, SMS support, and complete Address Book support have been added. PM windows are more customizable and offer a scrollable typing area. Problems broadcasting webcam images to Windows users have been fixed. The buddy list has been greatly improved, new My Yahoo! content has been added, and numerous bugs have been fixed.
+
+
+	- Beta-rized: Support for almost all of the new features in the latest 
+	version for Y! Messenger 6 for Windows has been added: 
+		Audibles support, Buddy list avatar support, Stealth support, 
+		PM Display image support, basic handling of game invitation 
+		packets...almost complete support for all known changes in 
+		the new YMSG-12 protocol (Currently Messenger-6 
+		support can be turned on/off 
+		
+	- New French translation added: Thanks to Philippe 
+	  (philippe.parmentier ['at'] club-internet.fr)	 
+
+		
+	- Buddy list improvements (once again): We are now using icons 
+	to show such things as when a person is in Games, Chat, SMS, or 
+	have their webcam on. "Invisibility snooping" upgraded to handle 
+	the new YMSG-12/Messenger-6 protocol.  Added full support for 
+	showing buddy list avatars on the buddy list (can be turned on/off), 
+	Added full support for viewing full-size and animated versions of 
+	avatars
+	
+	- Buddy list popup menu additions: "View game scores", "Join user 
+	in Game room", "Stealth Settings", "View full-size avatar", "View 
+	avatar animation"
+	
+	- Extended boot prevention and privacy controls to handle the 
+	new set of YMSG-12 packets and defend against possible malicious 
+	uses of some of the new packets (such as Audible 'bombs' and 
+	Audible spam, which we'll probably see in the very near future.)
+	
+	- Added complete (but preliminary) support for Buddy Display Images
+	in PM windows (new in Messenger 6), complete with a dialog for 
+	selecting images and a new picture bar on the right side of the PM 
+	window for viewing your display image and their display image. 
+	(The bar can be turned on/off)
+	
+	- Setup window changes: The 'send avatar' stuff used for sending 
+	Cheetah Chat avatars in chat rooms has been moved to the 'Chat' 
+	tab where it belongs, to avoid any confusion with configuration 
+	settings for Buddy List Avatars
+	
+	- Added new Privacy/Security option in the Setup window to 
+	automatically reject any incoming invitations (including game 
+	invitations, webcam invitations, conference/chat invites)
+	
+	- Added support for viewing user's Game profiles (This is a profile 
+	showing a little info about them, what games they've been playing, 
+	and their high scores.)
+	
+	- Bug fix: Fixed a bug that could result in a crash from mishandled 
+	conference invite/message/decline packets that had error messages
+	in them.
+	
+	- PM Window improvemnts: Support for Audibles has been added 
+	(requires you to use an external MP3 command-line MP3 player 
+	such as mplayer or mpg123); An 'Audibles' button has been 
+	added next to the smiley button;  Added support for configuring 
+	which buttons are shown in the PM window - you can now 
+	turn on/off the smileys, audibles, and send-erase buttons as 
+	you please to create more space.
+	
+	- Preliminary support added for creating rooms in other Country 
+	category locations such as 'es', 'fr', 'au', etc.
+	
+	- The URL for the game room that a friend is in is now saved in the 
+	buddy list and can be accessed by selecting "Join user in Game room"
+	from the buddy list popup menu
+	
+	- My Yahoo! extensions and fixes: Fixed problems that caused the 
+	'News' page to have strange margins that made the left side of the 
+	difficult to read; Added support for viewing your own Game profile 
+	(your list of high scores) from the My Yahoo! tab; Added support 
+	for grabbing Horoscopes off Yahoo.
+	
+	- Added support for the longer status messages that YMSG-12 protocol 
+	(Messenger-6) now support:  You can currently send status messages 
+	of up to 115 characters (the previous limit was around 60 characters)
+	
+	- Extended support for PM 'error' messages: Packets we might get back 
+	telling us that the person we sent a message to is busy or idle.
+	
+	- XMMS plugin updates: Added support for sending longer status messages 
+	when running in Y! Messenger-6 mode and XMMS now pretends that we 
+	are using the new 'LaunchCAST' service on Y! when a song is playing (this 
+	basically forces XMMS to show your song as a LaunchCAST-style status....
+	hey, it ain't fair that Yahoo chose to use that Windows Media Player format 
+	for their radio stations and created an otherwise nice 'radio station' built into 
+	the Windows-version of Y! Messenger that ONLY works on Windows....so, 
+	us Linux users have to make our own 'radio station' then, don't we? - at 
+	least XMMS doesn't have AD banners lol...but anyway, the XMMS plugin 
+	will create a cute little 'headphone' icon on the buddy lists of Windows 
+	users...and GyachE users - next to your song status. )
+	
+	- PM Window improvements: Added support for larger, scrollable 
+	typing areas in the PM session windows (This feature can be 
+	turned on/off in the Setup window); Added support for turning 
+	the top toolbars on/off (This feature can be 
+	turned on/off in the Setup window); Added support for turning 
+	the following buttons on/off - Smileys, Audibles, Send-Erase 
+	(These buttons can be turned on/off in the Setup window); 
+	These configuration options effectively allow you to choose 
+	how your PM window is displayed - anything from the most 
+	basic PM window with no toolbar, buttons, or scrolling typing 
+	area, to fancier PM windows with all the buttons, toolbars, 
+	and buddy images...and any combinations in between that 
+	you choose.  You can now choose between having the old 
+	single-line typing area or the new multi-line, scrollable 
+	typing area.
+	
+	Bug Fix: Fixed a major bug that could cause a 
+	buffer-overflow/overrun related crash when HTML tags
+	are stripped from some content (This particularly fixes 
+	potential crashes in room joining, New Alert posting, and 
+	room list displaying) - patched the "strip_html_tags" method
+	in util.c to properly check for end of line.
+	
+	Bug Fix: Fixed bugs in the Fader (fader.c) rendering utility 
+	that would cause chat comments and PMs sent to us like 
+	"<-- this is me" or "<-- im back" to show up as empty lines
+	on the screen due to improper interpretation of the "<" 
+	character as the start of an HTML tag.
+	
+	Anti-stupidity improvements: When in chat rooms, if a user 
+	in the room sends an empty line or a line with just a space, 
+	that comment will be completely ignored unless the user is 
+	one of your friends or a 'temporary' friend.  It appears an 
+	increasing number of people are stupidly sending 'empty' 
+	chat lines for no other reason but to see their names on the 
+	screen...this gets very annoying and only constitutes wasted 
+	CPU for the person receiving the comment. 
+	
+	A few patches to the 'smiley' mapping system inside the program
+	to properly detect variations in smiley 'codes' that get sent.
+	
+	- Bug Fix: Fixed a bug where the other user's 'TYPING' status 
+	would disappear from the PM window title bar right after 
+	we sent a message to them
+	
+	- Added complete support for Audibles (all 62 known audibles 
+	are now supported...I'm sure Yahoo will change/add/remove 
+	audibles as time goes on.);  The audibles work using animated 
+	.gif images and mp3 sound (using a configurable MP3 player.)  
+	
+	- Status messages shown in the 'Chat' tab and any open PM windows 
+	now often have distinguishing icons to make them stand out from 
+	other text...for example, the mail notification message shows the 
+	'mail envelope' icon next to the notification
+	
+	- Greatly extended SMS support: If you open a PM window for a 
+	buddy on your buddy list who is currently connected using SMS 
+	(a cell phone device), appropriate settings will be enacted: 
+	The max length of the message you can send will be 152 
+	characters, your message will be sent *without* formatting tags
+	such as fonts, colors, and faders, and TuxVironments and encryption 
+	will be disabled...also, a message appears in the PM window letting 
+	you know that the user is connected using SMS and can only receive 
+	short, basic messages.  Obviously, you don't want to send things 
+	like encrypted messages and Tux/Imvironments to a cell phone 
+	device as the recipient will have no way to see them.  Also, 
+	'typing' notifications are not sent out if the recipient is known to be 
+	on a cell phone device.  Currently, this support only applies to friends
+	on your buddy list, since I don't yet know of a way to detect when 
+	random users are on SMS.  Also, incoming messages from SMS 
+	users will have an "[SMS]" tag after the message, similar to the 
+	tags used for special messages like Game messages and system 
+	messages.
+	
+	- Added optional timestamps to voice chat invitations sent to open 
+	PM windows.
+	
+	- If you have your Gyach-E setup to NOT show PM messages in separate 
+	windows, PMs that arrive on the 'Chat' screen are now more distinguished 
+	by a special 'document'-like icon next to the message...this is a big help 
+	when PMs come into the chat screen when you are in a room where the 
+	comments are scrolling fast, making it easy to miss PM messages.
+	
+	- Bug fix: Fixed a bug where 'auto responses' could be sent to 'empty' names 
+	causing some very unwanted results.
+	
+	- Big Endian login fix (yes, another one): Added a login patch for Big Endian systems...
+	borrowed from the libyahoo2 project CVS server (thanks!)
+	
+	- Improved invisibility snooping on friends that pretend to 'sign off': 
+	In most cases, Gyach-E can detect when a user has used the new 
+	'stealth' settings to go invisible from you...support for this is 
+	continuing to improve
+	
+	- GyachE Webcam Upload fixes: Fixed some problems people may have 
+	experienced getting Windows users to see images they are broadcasting
+	(hopefully), so both GyachE and Windows users should be able to see 
+	webcam images broadcast from GyachE
+	
+	
+	- Added new /date and /time chat commands, typing them simply shows you
+	the current date and time on the 'Chat' window
+	- Added new /image command for quickly previewing images on your local 
+	hard-drive in the 'Chat' window
+	- Updated 'TYPING' status notifications packets to better reflect the newer 
+	YMSG protocol
+	- Bug Fix: 'TYPING" status notifications are now properly sent when sending 
+	PM messages from profile names (this fixes a problem where the other user 
+	never saw a 'TYPING' notice if we were using a profile name instead of our 
+	primary screen name.)
+	- Bug Fix: fixed a bug that could cause some text to be incorrectly decoded 
+	in the XML data that is retrieved to create the chat room list
+	- 'Tab Completion' updates and fixes: The 'tab completion' feature available
+	in the 'Chat' window now features an updated list of commands; also, 'emotes', 
+	have now been removed from the 'tab completion' list
+	- Improvements to Conference enter/leave messages shown on the chat screen
+	- Added a menu item under the 'Actions' menu for easy viewing of any user's 
+	Yahoo! photo album (in your external web browser)
+	- The help files have been updated and new information has been added to them.
+	
+	- Complete Yahoo! Addressbook support as been added: It places
+	a new 'Contacts' tab in the window, and can be turned on/off in the 
+	Setup window; supports adding, editing, deletig, and viewing addressbook entries
+	- PM window menu additions: "Edit contact information" (Address book), 
+	"Add as friend", and "Add as temporary friend"
+	- Buddy list popup menu addition: "Edit contact information" (Address book)
+	- Added support for doing web searches from both the 'Chat' window and 
+	any open PM window by typing 's: [search term]'; This is similar to the 
+	feature available in the new Messenger 6 for Windows except the better 
+	Google search engine is used instead of Yahoo's crappy engine; For the PM 
+	windows, you search results are shared with others and other can share 
+	search results with you by sending the same type of string: The PM web 
+	search can be turned off/on in the Setup window and it is registered as a 
+	possible 'boot code' in case someone attempts to keep sending searches 
+	over and over
+	- If you have your Gyach-E configured to send an Auto-Reply messages to 
+	users who PM you when you are away, your Auto-reply message is now
+	shown in the PM window if you use PM windows (this is so you KNOW
+	when auto-reply messages are being sent.)
+	
+	
+	- LOTS of 'My Yahoo!' content updates and additions: Almost every major 
+	Yahoo module ('tearoff' page) has been added to the menu including 
+	support for viewing your photo album, briefcase, a 'mail previewer'
+	and a whole lot more; Old 'my yahoo' pages have been replaced with 
+	newer ones that seem to display much better in the window
+	- Changes to the mail-checking functions: The /mail command no longer
+	opens your web browser and tries (and fails) to log you in, instead, 
+	a 'preview' of what's in your mailbox is shown in the 'My Yahoo' tab 
+	where you can click any of the links to open your web browser and 
+	go to your mailbox if you feel the messages are worth reading
+	- The 'mail alerts' shown in the chat window now also feature a 
+	link to get to the 'mail previewer'; better accomodation of non-UTF
+	messages in the 'popup' message that shows
+	- The 'Tools-> Yahoo! Mail' menu item now opens the email previewer 
+	in the My Yahoo tab
+	- Connectivity fixes:  LOTS of fixes to connections that could hang when 
+	attempting to connect to various servers for downloading HTML data, 
+	images, and uploading files...if Gyach-E cant connect to the server, 
+	the program now properly 'times out' instead of being frozen forever.
+	- Memory Efficiency: Gyach-E does a better job of conserving memory 
+	when download data from the web (Html data, images, etc.) by
+	*immediately* freeing allocated memory instead of waiting until later
+	- The 'My Yahoo' content menu is now categorized by 'concept'
+	
+	- New feature: Added a 'reactivation' box to the login window that appears when 
+	your account  has been 'locked' due to too many failed login attempts. With this feature, 
+	you can look at an image that Yahoo shows you, type the word shown in 
+	that image, and login to unlock your account (this beats having to go all 
+	the way over to their website to unlock your account.)
+	- Fixed a bug where adding a new friend automatically set their status 
+	to 'invisible' on the buddy list even if they were truly offline
+	- Fixed a bug where some chat room 'nicknames' were not collected on joining 
+	a room if more than one 'join' packet was sent to us.
+	- Logging improvements: chat room comments are now shown in the console if 
+	'debug packets' is turned on; chat room comments from dumped packets are now 
+	logged to file if a log file is open and 'debug packets' is on;  If a log file is open and 
+	'debug packets' is on, a 'split' view of the dumped packet will be written to the log 
+	file as well as the console...i.e. the fields are shown 'hashed': '112' = 'something' 
+	(this last bit is probably of interest only to other developers and networking gurus.)
+	- The 'spamcheck.c' spam-blocking module has been upgraded to flag 'junk text' 
+	as spam (when bots type stuff like '0git gwdi3 sjdo45g'); The spam-check module 
+	also does a better job of spotting 'junk text' in screen names
+	- Bug Fix/Crash Avoidance:  If the 'show' button on the 'My Yahoo!' tab is clicked 
+	when not connected, the 'about' window is shown in the My Yahoo window 
+	instead to avoid possible crashes and problems from retrieving Yahoo data 
+	without a cookie, etc. Almost all of the 'My Yahoo' stuff requires you to be signed 
+	on to see it anyways.
+
+
+	- Fixed a problem that was preventing the sending of chat invitations when in a chat (conference invites were being sent instead).  Now the application properly sends chat invitations when in a chat room, even if no user is selected on the buddy list
+	- Added support for the new smileys that will be available in the next 'official' release of Y! Messenger for windows (about 13 new smileys); These smileys are already available in the 'Beta' version of the Windows Y! Messenger and have been popping up more and more in PMs and chat rooms.
+	- Disabled reading of the 'emoticons' file: This means that emoticons are no longer user-configurable (which I never thought was necessary to begin with);  This was a necessary measure as reading of stale 'emoticons' files conflicts with adding of support for Yahoo's new smileys, since many of the smileys have relocated to new file names  (This is to avoid having the wrong emoticons show for smiley tags due to reading an out-dated 'emoticons' file.) 
+	
+	
+	
+	pY! Voice Chat changes:
+		- New French translation added: Thanks to Philippe 
+	  (philippe.parmentier ['at'] club-internet.fr)	 
+	  	- The application now impersonates the latest 
+	  	version of Y! Messenger 6 for Windoze
+	  	- Makefile fixes for the spanish 'es' and french 'fr' 
+	  	languages (the Makefile now properly installs 
+	  	the compiled gettext catalogs)
+
+
+#######################
+GYach Enhanced - 1.0.3
+4/26/2004
+
+The "This is way more than one version 
+worth of changes..." Release
+#######################
+
+
+	SUMMARY OF CHANGES: 
+		New XMMS status plugin; Buddy groups support has been
+		added;  Support for using and managing profile names has been added; 
+		Support for the new Yahoo "New Alerts" (http://alerts.yahoo.com) has been
+		added; Encryption plugin improvements; Font support completely re-written to 
+		eliminate the need for hard-coded fonts; All GtkCList widgets are replaced with 
+		the Gtk-2 GtkTreeView widgets; Many new features and bug fixes for PM sessions; 
+		Chat window has a cleaner, new look; Tons of bugs have been fixed, and loads of 
+		memory leaks have been patched.  Major improvements to 'boot prevention' 
+		and flood control. Major improvements to the rendering of 'fader' tags: Rendering 
+		of fader/alt (blended color) tags is now FAST. The help system has been completely 
+		re-written to use external 	text and html files and the 'My Yahoo' tab for viewing.  
+		Accessiblity: All text is now scaleable; The application now starts much faster and 
+		has a smaller memory footprint; Lots of improvements to logging have been made.
+		An optional 'quick access' toolbar has been added to the My Yahoo tab.
+
+
+	- New Plugin: Added XMMS song status plugin to show the current song being played in XMMS as your status message (if you aren't invisible or 'away'), adds a menu item under 'Status' menu "XMMS: What's Playing?"; Currently the plugin will only monitor the first instance of XMMS found running and will not change your status if you have your status set to an 'Away' status such as 'Busy' or 'On The Phone', but will set the status if you are Idle or 'Auto-Away'.  It will NOT set the status if you are invisible (this would knock you off Invisible mode!)	
+	- MCrypt encryption plugin updates: Added support for 4 additional encryption algorithms (Rijndael-256, ArcFour/RC4, Serpent, Safer+); As of version 0.2 of the MCrypt plugin, Gyach Enhanced sends ascii-armored versions of the encrypted data: This does not change the encryption algorithm used in any way, but rather, it converts the data into a plain-text (hex-like) string of data acceptable for sending across Yahoo's network: Without this, your Yahoo connection would disconnect frequently when using encrypted instant messaging through the MCrypt plugin;  This fixes major bugs in the plugin which caused frequent dropped connections because the plugin was sending unacceptable data across Yahoo's network.
+	- GyachE Blowfish-Internal encryption plugin updates: As of version 0.2 of the GyachE Blowfish-Internal  plugin, Gyach Enhanced sends ascii-armored versions of the encrypted data: This does not change the encryption algorithm used in any way, but rather, it converts the data into a plain-text (hex-like) string of data acceptable for sending across Yahoo's network: Without this, your Yahoo connection would disconnect frequently when using encrypted instant messaging through the GyachE Blowfish-Internal  plugin;  This fixes major bugs in the plugin which caused frequent dropped connections because the plugin was sending unacceptable data across Yahoo's network.
+	- News Alerts support! : Added complete support for the new YMSG 'News Alert' packet supported by the newer versions of Y! Messenger for Windoze.  This feature allows you to configure 'news flashes' you want to know about by going over to http://alerts.yahoo.com, where you can configure news alerts of interest to you from dozens of newspapers and news services worldwide (Beware: Not all of the 'alerts' Yahoo offers allow for alerts via Messenger, but regular news stories, regional missing children reports, and a few others can be.).  When news stories of interest to you are available, Yahoo sends a quick headline and 1-2 sentence description of the story with a link to the full story, all this comes right to the messenger client. (So far, it does not appear Yahoo is spamming these news bulletins with any kind of ads or ad banners...cool.).  Sound events and popup windows inside Gyach Enhanced can be configured as you see fit to alert you of breaking news stories (see the 'Setup' window).  The 1-2 sentence story description Yahoo sends is in HTML and is displayed in the 'My Yahoo' HTML component for convenience (I figured since GyachE already has an HTML component, why not use it).  Personally, I LOVE this feature...I'm a news junkie.  [For those interested, the 'News Alert' packet is YMSG packet 0x12c (aka 300)] 
+	- Added 'Tools'->'My News Alerts' to the menu for quick access to configuring customized news alerts
+	- Notification Window improvements and additions: Added optional, configurable 'popup' windows that show in the lower-right corner for the following events (Buddy On, Buddy Off, Mail Alerts, Buzzes);  Also, popup alerts are available for Yahoo's new 'news alerts' (see above). The old mail alert dialog box that had to be 'clicked' close is now replaced with a popup window that disappears automatically; Popup windows disappear automatically after 8-10 seconds (not too long, not too short); Popup windows for these events can be configured under 'Options' in the Setup window (turn them on/off); The popup windows are similar to those used by Yahoo(tm) and MSN(tm)
+	- Setup window: A few configurable additions added to support the new 'popup' window features
+	- Usability improvement: The menu items for 'Find Text...' and 'Save Current Text' have been moved from the 'Tools' menu over to the 'Connection' menu and are now accessible/clickable whether Gyach Enhanced is connected or not
+	- My Yahoo support additions: The My Yahoo tab in Gyach Enhanced now adds access to Yahoo's 'TV Guide', giving you one-click access to your personalized TV guide listings (I like this one); You can go configure what's shown in your personal TV Guide over at my.yahoo.com  (I don't think even the 'official' Yahoo clients support the TV Guide in the 'My Yahoo' content, and I found the 'tearoff' page for the TV Guide almost by accident...well, I was being nosey and LOOKING for it, but still an accident.)
+	-My Yahoo fixes: Fixed most problems with relative URLs, so loading and or launching links that reference relative URLS should now work;  This fixes most problems involving clicking on My Yahoo! content links and having invalid URLs sent to the external web browser
+	- My Yahoo improvements: Some links clicked on 'My Yahoo' pages in GyachE can now be loaded and handled by the program: Address Book, TV Guide, Agenda...this allows you to scroll through time in the TV guide, click and read address book entries, and scroll through your 'Agenda' all from inside GyachE...these are generally small pages GyachE can handle, but clicking links to other My Yahoo content still spawns the external web browser.
+	- Typing notification improvements: If a person sents a 'typing' notification when you don't have a PM window open for them (including when you have external PM windows disabled), the 'TYPING" status is now shown in the chat room 'status bar'; This improves 'advanced warning'  before PMs arrives (similar to the peer-to-peer capability check);  Also, if the person typing is on your buddy list but not shown as 'online' they wil be flagged as 'Invisible' on the buddy list
+	- Improved overall performance by better controlling refeshing of the buddy list to flag users as 'invisible': Instead of the buddy list constantly being 'updated' everytime an invisible buddy's online activity is detected, the list now is only refreshed if they haven't already been flagged as 'invisible';  This greatly improves performance and eliminates continuously 'flashing' of the buddy list while an invisible friend is typing and sending PMs
+	- Performance speed up related to checking for 'invisible' buddies: The list of online buddies (normally smaller) is checked before the full buddy list.
+	- Bug Fix: Fixed a problem that caused clicking the 'Refresh Buddy List' menu item to do absolutely nothing if no friends were online and we were invisible
+	- Timestamps are now automatically displayed in the 'Chat' window to accompany the following events:  Yahoo! 'News Alerts', Contact Information sent (Address Book entries), Calendar events, and Files sent via the FileTransfer system...these types of events are often 'time sensitive' and it is often useful to know what time they occurred...news, for obvious reasons...files can 'expire', etc.
+	- Bug Fix: Patched a possible seg-fault that could occur when users send their contact information
+	- Updated the information shown and sent when you type '/ver' to show information about Gyach Enhanced to yourself or in a chat room/conference; Also, when online, this information is now sent as an emote (it just looks better that way); basic cleanups and updates to the info.
+	- Bug fix: Fixed vertical scroll bar not being available when buddy list was long but nobody was signed on; Vertical scrollbar on buddy list is now always available and always scrollable
+	- Bug fix: Fixed a bug that stopped adding of new buddies to an empty buddy list (This problem could prevent adding of names and initializing of the buddy list on new screen names or screen names with empty buddy lists): fixed wrong protocol numbers in packets for away/back and buddy add/remove (the normal YMSG protocol number is now used just like in the 'official' yahoo clients) 	
+	- Bug fix: Fixed a bug that caused an empty name to show up on the buddy list tab when the buddy list was empty; No more insertion of empty strings as 'buddies' when the buddy list is truly empty
+	- Usability fix: Eliminated annoying mail alerts that could occur when adding and removing buddies; The mail status packet that may follow when the buddy list is refreshed in this case is now ignored to avoid continuous mail dialogs from popping up when editing the buddy list	
+	- Bug fix: Increased profile retrieval size to around 26kb to allow for larger profiles
+	- Bug fix: hopefully fixed possible bug that caused Gyach Enhanced to crash if profile image didn't  download
+	- Usability Fix: Improved focusing of PM windows - auto-focus PM window to the 'Entry' where you type text when a new PM window is opened, or is raised (if configured to do that), or after a PM 'function' button has been clicked (such as the 'buzz', or 'profile' buttons on the PM window).  This only makes sense, and should eliminate problems for fast typers who inadvertently trigger one of the PM 'buttons' (usually the 'profile' button) by happening to be typing when a new PM window pops open.  :-)  Now all of that good wasted text will go into the 'Entry' instead of the keystrokes triggering 5-6 loads of the profile.
+	- More fixes to the MCrypt and Blowfish-Internal encryption plugins here and there to help eliminated truncation and encryption/decryption errors (this is an ongoing process)
+	- Random code cleanups to module pmwindow.c
+	- Fixed the way Gyach-E sends typing notifications when text is sent: Now upon sending text. Gyach-E correctly sends the 'stopped typing' notification first, before sending the PM message text.
+	- Mail alert improvements: Silenly 'refresh' the mail count after receiving a mail status with just a message header and a count of '1', this helps keep the true mail count in-sync on the mail icon; Minor cleanups to the text shown for mail alerts in the 'Chat' window.
+	- Animated smileys now show for 10 seconds instead of 9 (just suits me a little better)
+	- Boot prevention tweaks: 'New Mail' and 'Calendar Event' packets are now flagged as 'safe' packets because they can only originate from Yahoo, not users  (if you don't understand what this means, don't worry about it.)
+	- Minor fix to PM window titles: Fixed a user sending a 'typing' notification resulting in the PM window title saying 'Gyach' instead of 'GyachE' like all the other titles   (part of migrating from the original Gyach)
+	- Patched potential (but highly unlikely) buffer overflows that could occur when typing statuses are sent  (strcat,sprintf stuff replaced with strncat, snprintf, etc.)
+	- Patched potential (but highly unlikely) buffer overflows that could occur when the chat room 'status bar' is set to the current chat room name  (strcat,sprintf stuff replaced with strncat, snprintf, etc.)
+	- Removal of some superfluous code from interface.c (ongoing process)
+	- Bug Fix: Fixed sending of typing notifications, removed duplicate screenname in field 4
+	- Bug Fix: Added code to suppress possible duplicate 'user has left the room' messages which can occur when the user has more than one profile name logged on
+	- Bug Fix: Distinctions now made between a room we are attempting to join and the room we are currently in, this fixes the status bar showing info about a room we tried to join but are not yet in
+	- Bug Fix: Fixed grabbing of remote user name for 'notify' packets, make sure only ONE name is grabbed even if Yahoo sends more than one name; this fixes possible typing notifications now showing
+up on our side or 'comma-separated' names showing up
+	- Bug Fix: Fixed segfault that was occuring when saving PM sessions to file; fixed problem of text buffer data being directed to the wrong file descriptor
+	- Bug Fix: Fixed (hopefully) segfault that could occur when a Peer-to-Peer file was received
+	- Consistency Fix: The 'Save Current Text' menu option that saves the Chat window text now saves files with headers similar in format to those of the log files and the saved PM sessions
+	- PM Improvements: Use display name in PMs if available before using plain lowercase screen name of remote user
+	- Conference fixes: Optimized buffer allocations in module conference.c, Memory leak fixes in module conference.c that affect the window for creating conferences and inviting users to  chats/conferences, Patched several possible by unlikely buffer overflows in conference.c
+	- Color tweaks: Better colors the basic set of builtin colors, colors on the screen now exactly match
+the colors being sent via chat, PM, and conference  (changes in main.h, main.c)
+	- Changed colors for screen names in PM windows: Dark blue for us, Dark purple for the remote user (Got tired of the overdone red/blue scheme used on every IM client)
+	- Spam check improvements: More scrutiny is placed on 'legacy' PM messages using packet type 0x20 (PM_RECV), 'game' messages, and yahoo 'system' messages which spam bots often use to pump spam, Check the validity of all 'system' messages in the permissions method, scrutinize the portion of screen name after an underscore to check for spam-mish looking sequences
+	- Changed auto-muting screen colors to dark green (too much blue was on the screen!)
+	- Lots of code cleanups: cleaned up alot of externs, optimizations to buffer allocations in yahoochat.c, Changed all old 'YMSG9' named variables and methods to simply 'YMSG_*", brought sanity to the copyright information throughout the source files to eliminate confusion about which contact information is mine and which belongs to the original author, removed an unused gettext-related method from main.c	
+	- Optimized internal pixmaps (XPMs) to 96 colors to reduce size: Reduce size of the 'gyach' binary by about 40 kb; Removed pixmaps no longer needed: save.xpm, exit.xpm
+	- Support for Profile Names/Alternate Y! IDs:
+Easily jump from different conferences, rooms, and PMs using 
+different profiles names; 
+	- User interface improvement: All but 
+the 'Close' button is flat in PM window. 
+	- User interface improvement: All 'Chat' buttons on the chat window are flat.  
+	- Improved handling of chat invite error messages. 
+	- Improved handling of Buddy Add behavior: Don't add new buddy if the Yahoo tells us the screen 
+name is not valid.  
+	- Improved login error catching: Catch errors reported by Yahoo of 'Invalid User' when a screen name does not exist.  
+	- Improved handling of dead connections and 
+disconnections: In all instances the same method is called 
+for consistency, also improved checking of dead sockets 
+by checking for read/write errors that should have been checked
+for a long time ago.  
+	- Improved detection of failed logins due to Yahoo having a 'dead' or 'slow' server: After login process is started, connection will timeout and disconnect if login has not completed within 18 seconds. 
+	- Improved lots of broken conference behavior: Make sure we leave the *right* conference room; Fixed problems that could occur jumping from one conference directly to another (Solves problems with automatically 'leaving' a conference as soon as it was joined.).  
+	- UI window added for managing profile names: Support for setting a default profile name and activating and deactivating profile names.  
+	- NEW Icons for the chat member room list (I got tired of the other ones.).  
+	- Speed up startup of GyachE by speeding up loading of the login window: Only build the list of 
+servers ones, eliminates memory leaks.   
+	- Speed up login  behavior of GyachE:  Do not call ymsg_online if we are logging on
+without entering a chat room.  
+	- Rearrangement of PM window interface: 'Close' button is further up top to the right of the new 
+selection list for choosing which Profile Name to send the PM from.  
+	- Improvements to the 'Control Line Feeds' functionality: Also checking for unwanted return chars '\r' and tab '\t' chars; Control Line Feeds functionality also applied to PM messages
+and Conference chats.  
+	- Fixed the 'force_lowercase' flag:  It actually works now and forces text to lowercase if turned on; 
+works for PMs, chats, conferences, and anything put in the TextBuffer objects.  
+	- Webconnect connection module fixes: Fixed a major segfault that was causing connections to fail; 
+Webconnect method works (again)...for now: It works when Yahoo wants it to. 
+	- Boot Prevention Upgrades: Updated the conference.c module to better defend against the latest variation of the 'conference invite' boot;  The program does a much better job of staying online under such an attack and the person/bot sending the invite flood attack is now properly listed as a 'flooder', 
+even if you have your PM permissions open to everyone.  Added other minor improvements to defend against other 'conference' boot codes: Illegal conference message floods and conference 'decline' floods.
+	- Conference module bug fixes: Fixed a bug which could result in the wrong screenname in an 'invite' packet being said to be the 'host' when boot-prevention is activated and you are warned of a possible flood/boot attack.
+	- Chat feature additions: The list of chat users can now be re-ordered (you can move the columns around, though this setting is never saved on exit.) You can also now sort the list of chat users by screen name or alias by clicking their respect column titles.
+	- Added support for scaling text on the 'My Yahoo' tab.
+	- Added support for showing profiles on the 'My Yahoo' tab.  Default profile-viewing  behavior is  now to show profiles on the 'My Yahoo' tab which supports proper display of HTML data.
+	- Removed no longer needed modules:  support.c and support.h
+	- The 'no_photo' XPM is now stored internally in the program, used by user profile lookups.  The pixmap is also changed and smaller.
+	- Added support for sending instant messages to mutiple users.
+	- The external profile window now uses GdkPixbuf images instead of deprecated GtkPixmap/Bitmap 
+objects.
+	- Gtk ToggleButton, RadioButton, CheckButton, and CheckButton items now properly access 'get_active' and 'set_active' in conformance to the Gtk API (no more referencing of private variable members.); This removes alot of 'deprecation' in the code.
+	- All deprecated GtkEntry-related calls have been removed. 
+	- Bug Fix: Fixed problems with offline messages not always showing up as 'Offline' messages (they sometimes showed as regular PMs)
+	- Fixed some issues with Buddy 'Remove' actions and responses to 'Buddy Reject' messages; Also, 
+allowing for a longer length messages on Buddy Reject messages when received.
+	- The message area for 'Create A Room' now allows for a longer room topic.
+	- ALL deprecated GtkCList widgets have been replaced with GtkTreeView widgets.  Icons have been added to all lists and trees that didn't have them before (room list, create-a-room, favorites lists, Setup  
+lists.)
+	- Support for Buddy groups has been added; Full support for displaying, adding to, renaming, and moving Friends to-from different buddy lists; Removed the buddy list 'column labels' to save screen space.
+	- Support for Text Scaling of Chat and PM text has been added (accessible from the Setup menu).
+	- Bug Fix: Fixed buddies showing up Idle when they weren't idle.
+	- Fader rendering is now FAST and efficient; Many bugs  that could cause characters to disappear from Fader-rendered text have been fixed.
+	- Improved error notifications when attempting to add buddies 
+that can't successfully be added.
+	- All new chat room icons: These look much cooler I think.
+	- Code cleanup: The TuxVironment and Encryption selection dialogs now share a common dialog box.
+	- Bug fix: Prevent us from PMing ourselves when we select Instant Message on the chat user list menu or double-click our own name.
+	- Use of TextTags is more efficient, to save memory by decreasing the number of TextTags in the textbuffers (one TextTag now holds multiple properties instead of making a TextTag for every single property as the original author did.)
+	- Complete re-write of Font support: Your system is now checked for the availablity of requested fonts BEFORE GyachE attempts to 'recommend' a similar font.  This means that GyachE no longer relies 
+on 'hard-coded' font settings.  Though it is still strongly suggested that you install the GyachE font packages, it is no longer absolutely necessary to run the application at full quality  (Just have your own good collection of fonts.)  When a font is requested in a chat, conference, or PM comment, your system is first checked for likely match or 'close enough' match to the requested font.  For instance: Font 'Arial Bold' is requested, you have Arial, but not a Bold-capable version - 'Arial Normal' will be used.  Another scenario: A Calligraphy-type font is requested, your system is checked but doesn't have a match to the font name, GyachE suggests 'Black Chancery', you have that, so 'Black Chancery' is used...close enough, right? The new font support provides a much more complete and flexible approach to loading customized fonts, making the application much more portable.  It is still recommended you install the GyachE font packages, as these are the fonts that GyachE will 'recommend' when you don't  have anything that matches the requested font.
+	- LOADS of memory leak fixes to GHashTable related objects in modules: friends.c, users.c, conference.c, ignore.c...specifically memory leaks relating to the buddy list, quick profiles, chat name 'aliases', the permenant ignore list, and the conference 'invite list' and 'chat member list' have been patched by properly freeing memory on 'foreach_remove' calls.
+	- Minor code cleanups to the trayicon.c module (use GDK_DISPLAY() to avoid accessing 'extern' variables in the Gdk headers that may change with API revisions).
+	- Font loading improvements to the text boxes (PM and Chat):  Pango is now told to use 'English' font settings to encourage the use of 8859-1 fonts which most people use...this isn't a big help to people using Non-English/Non-Euro configurations, but it sure helps me avoid font loading 'warnings' on the console.
+	- Patched the 'parsecfg.c' module to allow for quotes  inside configuration file values: This means that you can now safely save things like 'away' messages, auto-reply messages, and contact information stuff found in the "Setup" window with strings that contain quotation marks.  This fixes a bug where saving strings that contained quotes in the Setup window would result in the Setup property being  'erased' the next time GyachE was run.
+	- Patched a segfault that could occur when removing a buddy from the buddy list and being prompted to 'revoke' the person's buddy privileges; 
+	- UI speed-ups and memory-uage improvements:  Removed alot of unnecessary calls 'ref'/'unref' resulting in the application starting more quickly and using a smaller memory footprint
+	- Code cleanups and Yahoochat.c buffer usage sanity:  Instead of every packet allocating its own buffers, common buffers are now used for sending, receiving, and pings. This keeps things more consistent, shrinks binary size, better for memory, and only makes sense now that GyachE is a largely single-threaded app.
+	- PM Window improvements: The text 'style' toolbar (bold/italic/underline/ color/font) is now available on the PM window in the upper right corner and fills what would otherwise be 'wasted screen space'.  This of  course make changing text styles from PM windows much easier.
+	- Removed the 'Chat started, type /help/ for help' message that shows up when we connect and replaced it with a message that indicates we are 'CONNECTED'; This make sense since we are not always entering a chat on connect and it's clearer for new users.
+	- Memory usage improvement: Pixbufs created using the 'get_pm_icon' method are now properly 'unref'ed
+	- Improved PM Logging: Selecting a file for logging now logs incoming PMs continuously until you turn  it off by clicking the 'Save' button again; PM log files by default now include the person's name and the date  in the filename, selected filenames are 'remembered'.
+	- PM performance improvements: The PM textbuffer size now limits itself to around 9kb - This provides a good PM 'history' while keeping the PM window from becoming slow; Once the PM text box has about 9kb of data in the window, older messages are removed.
+	- PM 'Commands' added:  4 '/' commands are now supported when typed in the PM window's text field: /t - Think,  /e - Emote, /clear and /clr - clear the PMs text box.
+	- PM Ignore improvements: Clicking the 'Ignore' button on the PM window now presents you with a confirmation dialog before ignoring the user and closing the window
+	- PM URL Highlight improvement: Http/Https/Ftp links in PM windows are now properly underlined
+	- Complete re-write of the Smiley selection dialog: Removed  the 2nd 'Color' window from the Chat Window and merged  the color and style buttons into the Smiley window.  The  old Gyach 'Color' and 'Style' window is now gone as it is merged into the new dialog.
+	- Complete re-write of the 'Help' system to use external HTML and Text files instead of hard-coding it into the program; Reduced binary size by about 20kb.
+	- Deleted all 'Help' window related code: The My Yahoo tab is now used to display the Help document. 
+	- Logging improvements and Save Chat Text improvements:  Log files by default now include the date in the filename.
+	- File sharing improvements: File names selected through the file selection dialog are now 'remembered' between back-to-back file sends.
+	- Improved buffer control when 'buffer limit' is on in the chat window; 
+If a buffer limit is set, the max size is now 50kb.
+	- A 'Fader' button to access the fader window is now available in the
+Setup window under the 'Color' tab.
+	- Added a 'Font' button to the text 'style' toolbar in the chat window: Clicking it opens the Setup window to the Color/Font tab -> 'Font' section.
+	- Improved functionality of the 'Color' button on the text 'style' toolbar in the chat window: Clicking it opens the Setup window to the Color/Font tab -> 'Color' section.
+	- New 'Hand' cursor for URLs shown in chat and PM windows: The new cursor looks much coolers and more like a hand than the default GDK 'Hand' thing.
+	- HTTPS:// URLS are now highlighted and underlined just like http://
+and ftp:// URLS
+	- Patched alot of possible buffer overflows regarding loading/saving 
+of GyachE configuration files; 
+	- Removed alot of old code from the Gtk-1 version.
+	- Htmlrender.c component now supports file:/ protocol.
+	- Makefile changes: No longer staticly linking in Expat, reduced binary size by about 115kb.
+	- Fixed compile-time warnings regarding calls to 'gdk_pixbuf_new_from_xpm_data' calls in pmwindow.c, interface.c, and trayicon.c
+	- Removed Obsolete (unused) file gtktext_parts.h from the distribution and the CVS tree.
+	- Setup Window fixes: CLists titles are now unclickable, removed 'Apply' button
+	- Text entry fields for chat and PM windows  now provide previewing of the configured font size, 
+ face, and color - This means you see your font and  color while you type (however, you can't see fader/alt tags while you type, just the base color); 
+	- User interface improvements: Better, cooler looking shadows for 
+ CList and ScrolledWindow widgets as well as the My Yahoo! HTML widget (now has a shadow), the 
+buddy list is now 'flat' instead of shadowed, and the PM window's text window finally has a shadow. 
+	- Added reasonable 5-pixel borders to all TextView objects to avoid text being too close to the scrollers. 
+	- The chat window now uses 'flat' buttons for the smiley, color, fader, send, and erase buttons; 
+	- News alert tweaks: Set a default URL is Yahoo doesn't provide one, remove the 'div' tag that messes up display of HTML data in the  GtkHTML-2 widget;  
+	- The TUXVironment selection window now has the TUXVironment icon up top, and the Encryption window how has the encryption icon up top - this helps to better distinguish 2 very similar looking windows.  
+	- Patched some temporary friend stuff: Make sure we do not add our own name or a profile name as a temporary friend.  
+	- Patched possible text truncation that could occur when 'mute' and 'ignore' notices are posted to the 'Chat' window telling us that a person has been ignored/muted.
+	- Conference invite/Chat invite improvements:  Temporary friends now appear in the list of 'friends' on the left along with the real friends on your buddy list  (The temporary friends have the 'clock' icon next to them.)
+	- Menu rearragements: Some menu items are now under a new menu called 'Actions'  (PM, file sending, profile viewing, webcam stuff.)
+	- Changed 'Blank PM' behavior:  Clicking the 'Instant Message' menu item to send a 'Blank' instant message now opens a regular, full PM window after you have filled in the username, some text, and clicked 'Send' (This helps insure that the first message of every conversation will always be loggable.)
+	- Added support for recognizing the new 'account locked' notifications Yahoo will send if we try to login with too many bad passwords
+	- The font selected in the 'Setup' window can now be applied to the buddy list by checking the 'Apply this font to Buddy list'  item on the 'Font' tab in the Setup window.
+	- Added support for the 'Y' notification packets (maybe new packets?) that arrive when a person on our friend's list is in a game room  (this can be used to let us know when someone is 'hiding' in Games.)
+	- Fixed some problems with game notification URLs and rooms not showing up properly in text buffers.	
+	- Added support for showing chat 'nicknames' in PM messages instead of regular screen-names, this is turned off by default but configurable from the 'Setup' window
+	- Added support for controlling whether your status changes get broadcast in chats and conferences, the default is to broadcast it in the room like normal Y! apps, but this feature is now configurable from the Setup window's 'Chat' tab
+	- Added a 'Quick Access' toolbar that appears on the right side of the 'My Yahoo' tab giving quick access to things like PM windows, chat room favorites and lists, voice chat stuff, and the status change dialog; This is turned ON by default but is configurable from the Setup window's 'General' tab
+	- UI improvments: The 3 main tabs for Chat, Buddies, and My Yahoo! now have cute little icons
+	- Fixed status change 'broadcasting' when we are in a room: If the status is a 'custom' status message that is neither tagged as 'Busy' or 'Idle' then it will not get broadcast into the current chat room or conference as an 'away' message.  (basically, if you open the status message change dialog, type in something cute you want as your status without setting it to busy/idle, GyachE will no longer report you as being 'away' in the current chat room or conference.)
+	- Added support for copying status messages off of the buddy list: Clicking your friend's status twice now makes their status message copy-able...meaning that it is now easy to copy URL links, etc. that your friends my post in their buddy list status messages
+	- Various spam trapping improvements to increase reliability and keep up with the latest spam 'trends'
+	- Fixed some problems that could cause emoticons to show up when they shouldn't on the 'Chat' window when 'auto-ignore' messages are posted telling you that a communication from a user (invite, PM, etc.) has been blocked.
+	- Bug Fix: Fixed a bug that could cause the Y! cookie to be collected incorrectly when signing on (This fixes problems where only partial cookies were collected sometimes, possibly resulting in room lists not showing a full list, strange error messages when loading user profiles, or 'adult' rooms refusing to show in the room list.)
+	- Improvements to the login window:  The login window how has a cute little pixmap, a cleaner user interface, and does a better job of remembering your last selected settings for login.
+	- Sound event fixes: Fixed problems where sound events were playing slower than they should; Now sound events should play at the same speed as the 'official' Y! Messenger client
+	- Smiley pixmaps are now scalable and are scaled in accordance with whatever text scaling you have configured in the Setup window.
+	- Clicking on a screen-name on the 'Chat' window now opens the user's profile with you configured profile viewer, instead of automatically lauching the user's profile URL in a web browser
+	- Fixed problems that could occur when repeatedly attempting to join a 'full' room: GyachE now properly logs you out of the Y! chat system when you are told the room is 'full' and you are not in any other rooms  (This fixes a problem where subsequent attempts to join the room would automatically fail whether the room was full or not.)
+	- New feature: If a person enters or leaves the room you are currently in and you have  PM window open for that user, 'user has left the room' and 'user has entered the room' messages will also be displayed in your open PM window (currently, this only applies to chat rooms, not conference rooms.)...this way if you are talking to your friend in PM, you don't have to keep asking them "did you get into the room yet?"  :-)
+	- Removed deprecated calls to 'gdk_pixbuf_unref" from all modules  (this call is now deprecated in the Gtk API according to the docs, so might as well remove it now.)
+	
+
+	Py Voice Chat fixes:
+		- Fixed some problems that could cause memory usage to approach 100% because too much incoming sound was being stored in the playback buffer (generally when people were playing songs using high-speed connections.)
+		- Fixed problems where user's 'nicknames' could temporarily 'disappear' then reappear intermittently (now screenname 'nicknames' should be visible all the time.)
+
+
+	GyachE-WebCam-Upload fixes:
+		- Deprecation removal: The CList widget used to display viewers has now been replaced with a GtkTreeView
+		- The list of viewers now includes icons, and buddies viewing the cam have a different color icon from the rest.
+		- Improved buddy list checking for people connecting to the cam to ensure that we dont interpret people as buddies who are not really on our buddy list.
+		
+	GyachE-WebCam-Viewer fixes:
+		- Fixed possible compile-time problems in the GyachE webcam viewer that could result from the GyachE icon not being properly found
+	
+		
+
+	TODO: Do we need to show Http cookies to retrieve some Profile images?  Yahoo is randomly sending '302 Moved' messages forwarding us to non-existent servers when we attempt to retrieve some profile images...possibly a cookie problem isolated to cookies we get when running Yahoo under something other than EN-US  (problems found when running Yahoo/Yahoo Mail in spanish and other languages as our YMSG cookie is non-standard...intl=e1 instead of intl=us); Maybe modify cookie and force use of 'us' to get profile images?
+	TODO: Preemptive strikes: maybe not send all packets out at once, but use a slower 'timeout' kind of thing that doesn't 'flood' the Yahoo server?
+
+
+
+
+#######################
+GYach Enhanced - 1.0.2
+3/06/2004
+
+The "I'll see you guys in the boardroom, 
+where somebody...is going to have
+to get FIRED." Release
+
+(quote from 'The Apprentice')
+#######################
+
+OVERVIEW OF MAJOR CHANGES:
+	Encrypted instant messaging support has been added. Proxy support has 
+	been greatly extended.  Many major memory leaks and potental buffer 
+	overflows have been fixed.  File sharing has been fixed.  A tool for 
+	configuring Faders and 'Alt' tags has been added. Support for 
+	SmileyCentral.com smileys has been added.  Many UTF/Locale 
+	fixes have been made, and the logging feature has been greatly 
+	improved.  Boot prevention has been greatly improved, and a major 
+	bug in the spam protection module has been fixed. New icons and a 
+	right-click popup menu for the Buddy List.
+
+
+	- Three encryption plugins added to provide support for encrypted instant messaging conversations, for a total of 11 supported encryption methods, including 2 variations of Blowfish encryption:
+		- GPG / GPGMe encryption plugin ( provides support for sending unsigned, encrypted/ascii-armored messages, Requirements: GPGMe 0.3.16 or better; tested on gpgme  0.3.16, GPG 1.0.7)
+		- MCrypt encryption plugin (provides support for a variety of encryption/encoding methods: XTea, Blowfish, Twofish, Tripledes, Gost, Cast-128, Cast-256, RC6, and Loki97 ; Requirements: MCrypt/libMCrypt 2.5.2-22 or better, tested on MCrypt 2.5.2-22 )
+		- Basic Blowfish encryption plugin (GyachE Blowfish-Internal, uses a public domain implementation of Blowfish)
+
+
+	- Plugins are stored in the '/plugins/' sub-directory of your Gyach Enhanced installation directory, normally /usr/local/share/gyach/plugins/. For more information on the encryption plugins, see the 'Encryption_Plugins_README.txt' file in the ./plugins/ subdirectory of the source distribution.  Please note that encryption support is only available when you have your PMs configured to be opened in separate windows (instead of having PMs show up on the chat screen); Encryption session negotiation is handled through a series of YMSG 'Notify' packets; Right now, the safest most-reliable encryption method is the GPG/GPGMe encryption plugin, the other methods may occassionally produce truncated/incomplete messages or disconnect you completely from the Yahoo server (Yahoo doesn't always like non-ascii text going through its system);  It is very likely that the encryption plugins will only work with other Gyach-E users, unless other applications choose to support the 'Notify' packets used by Gyach Enhanced.  For the GPG/GPGMe plugin, passphrases are auto-generated, and using private/public keys is not supported: For this reason, the GPG plugin is probably not very compatible with the GPG plugin used by Ayttm.    Also, be aware that use of these encryption plugins may not be legal in all jurisdictions, especially terrorist countries:  I take no responsiblity if you use these encryption plugins in violation of your local, state, or federal laws.  The encryption works for instant messages ONLY:  You cannot encrypt conferences and chat rooms!
+
+	- Fader.c updates: The code that handles 'ALT' tags completely 
+	re-written to  support for multi-colored ALT tags with 
+	3+ colors.  The new re-write supports up to 12 colors in one ALT 
+	tag. Before, only 2 colors from any given ALT tag were used.  
+	The new re-write provides a more realistic, true-to-life display of 
+	ALT-ed text, though it's still not 'perfect', but it's getting there. 
+	Support for multiple colors had already been implemented for FADE
+	back in late November and has now finally been extended to ALT tags.
+	Also, fader display fixes for FADE tags when the text is interrupted
+	by a smiley (or other image) or URL  (the fade is smoother and more
+	realistic, bug fix)
+
+	- Finally: A user interface has been added for creating (and previewing)
+	Faders ('FADE' and 'ALT' text tags) in the form of a small dialog; Also
+	changes/additions/removals from the list of pre-configured Faders and
+	'ALT' tags.  To access the new dialog, click the small 'color' button 
+	just to the right of the 'On' checkmark for the Fader configuration stuff
+	in the main window.
+
+	- Support for displaying the frequently used smileys from SmileyCentral.com
+	(without needing to download their spyware-ridden Windoze software); This 
+	allows you to see SmileyCentral smileys that you may have seen show up
+	in chat rooms at code like this '@[smiley: Hi Ya : [15/15_1_70]]'.  
+	Display of these smileys quickly grabs the animated gif from the appropriate 
+	web site; This support is configurable from the Setup window under the 
+	'Multimedia' category.  Note: These smileys must be retrieved from the web, 
+	probably storing them as part of this program would violate some kind of dumb 
+	license, also it just wouldn't be practical as there are THOUSANDS of SmileyCentral.com
+	smileys.
+
+	- LOGGING greatly improved:  The app logger is back to working status again and will automatically log  all incoming and outgoing packets as well as everything posted to all textbuffers if logging is turned on (and a valid file is selected)...More in-depth Packet information and packet dumps can also now be added to the log if you turn on 'Debug Packets' along with the logging feature  (incoming and outgoing packets are logged).  Times are attached to all logged data, and damn near everything is logged now: YMSG session packets (incoming and outgoing), HTTP operations, possible boot/flood attacks and malicious users, etc.
+
+	- UTF-8/Locale related fixes:  Elimination of almost all Gtk-warnings related to non-UTF strings in textbuffers by forcing most strings into UTF...this applies to user 'nicknames' (growing number of people using weird characters in their Yahoo nicks), user 'locations' and 'quick profiles', mail alert messages (all fields), contact information we are sent (address book entries), chat messages, conference messages, incoming tuxvironment names, and file transfers (file names, descriptions, etc.), invitation messages, and buddy 'add request'/'add reject' messages, conference decline messages, PMs...basically almost every  incoming string from yahoo chat that  could be non-UTF is now checked for UTF validity and forced into UTF-8 if necessary to avoid Gtk-warnings.  The UTF conversions assume that the original charset was iso-8859-1, so this may cause incorrectly converted, but UTF-compliant strings if the incoming string (say a user's nickname) contains Cyrillic, Asian, Greek, or Persian characters...or uses any other weird, non-Euro characters....for best results, discourage your friends from using, say, Taiwanese characters in their Yahoo nicknames  :)
+	
+	- Major File Sharing fixes: Fixed broken file sharing functionality that resulted from a missing session ID, set file size limit to 250kb  (Hey! this isn't Kazaa), and improved notification messages we receive upon sending a file.  Also, the notification message when we receive a file now shows the expiration date of the file stored on yahoo's FileTransfer system.
+	
+	- Boot Prevention: Flood/Boot prevention now temporarily halts the use of dialog boxes if a flood/boot attempt is detected (any series of quick, incoming messages that require 'OK' or 'confirmation' dialog boxes to be shown...voice chat bombs, 'buddy add' requests, etc.):  This is a good way to stop a dangerous flood attack that could lead to a complete crash of Gyach Enhanced and even the X server.  If this type of attack is detected, dialog boxes are temporarily disabled for 2.5 minutes, allowing you time to figure out the problem (or culprit) and get control over your computer.  (While disabled, messages from 'OK' dialogs will be displayed on the chat console, and default actions will be taken for confirmation dialogs.)
+	
+	- Boot Prevention: Flood/Boot prevention now temporarily halts the use of sound events if a  flood/boot attempt is detected (any series of quick, incoming messages that require sound events to be played):  This is a good way to stop a dangerous flood attack that could lead to a complete crash of Gyach Enhanced and even the X server. If this type of attack is detected, sound events are temporarily disabled for 2.5 minutes, allowing you time to figure out the problem (or culprit) and get control over your computer.
+
+	- UTF-8/Locale messaging fixes: For chat, conference, PM, and status messages the text you send is now converted back from UTF-8 to iso-8859-1 before being sent...this means if you are typing in  Spanish, Portuguese, French, etc., your strings will be sent with their correct accent marks instead of in UTF-8 (which many clients do no display properly, especially the 'official' clients for Linux and Windows)....this is a BAD thing for people sending messages in foreign languages that do not use iso-8859-1 as the charset (Chinese, Russian, Greek, etc.) ....sorry;  Proposed solution: send messages in English :) ...Sorry, not really going out of my way to make this app work for 'everybody else', but make it work for me.  There is no way for me to 'guess' what locale a person is typing in, since somebody can run GyachE under a Chinese locale setting and be typing in German for all I know, so the app simply assumes you are typing in a common charset (iso-8859-1)
+	
+	- Spam protection bug fix: A major bug in the spam protection module which could cause almost everyone in a room to be muted at once has been fixed
+	
+	- Fixed a major connectivity bug which could cause the Yahoo 'session id' to be erased    (This is not known to have stopped packets from being properly sent, but COULD have); Now, the session ID is immediately 'reclaimed' even if it does get erased  (this also fixes FileTransfer functionality).
+	
+	- Fixed Window Transparency feature:  Fixed problems with the window transparency feature of the 'Chat' window where the color shading was WAY off...the RGB settings are now being applied correctly; Also fixed a problem where turning transparency off turned the window pitch black (Turning transparency off now turns the window a reasonable white background + black text scheme)
+	
+	- Major memory leak fixes: Fixed a number of memory leaks that resulted from refreshing the buddy list (even when done automatically), closing the room list window, and closing the conference 'invite' window  (malloced and 'strduped' data used as row data for the CLists in these windows is now being properly freed.)
+	
+	- Proxy support has been greatly improved:  Proxy support has been extended to image downloading (including profile images, avatars, and smileycentral.com smileys) and file transfers: Please be aware that you most likely need to use a transparent proxy for image downloading and file transfers to work via proxy (the proxy must be capable of forwarding your Yahoo cookie!)...'anonymous proxies' which don't usually forward cookies will most likely have problems;  Also, a buffer overflow that could result from proxies sending back long error messages has been fixed and NO multi-line proxy error messages are being shown in the status bar (first line only) - this fixes a bug where a multi-line proxy error message could cause the status bar to 'grow' to ridiculous height, wasting space
+	
+	- Connectivity bug fix: 'Consecutive duplicate' packets are now only ignored for dangerous packets for the purpose of boot/flood protection: This fixes major bugs where packets (such as PMs from friends saying the same thing twice) could be ignored (leaving you to think they hadn't said anything at all....before, if a friend sent 2 or more consecutive PMs that said 'No' - for instance, only the first PM would arrive.)
+	- Boot Prevention: 'Consecutive duplicate' packets are ignored for a period of 90 seconds if a boot/flood attack is detected
+	- New Buddy List icons:  I got tired of the other ones...it was time for a change
+	- The buddy list now has a popup menu providing quick access to many useful functions  (all the 'usual' ones as well as webcam stuff, etc.)...just do a 'right click' on the buddy list to see it
+	- All application windows now have sane wm_name/wm_class values which look something like "SomeWindowName".GyachE  (all windows have a name in the 'GyachE' class family)
+	- The 'Log to File' feature has been moved out of the 'Tools' menu to the 'Connect' menu, and is always click-able even when not connected  (so that you can log stuff AS you are trying to connect, not just after you have connected.)
+	- PM Loging fixes:  PM sessions saved to file are now converted back from UTF-8 to iso-8859-1 charset before saving...this is a big help when having conversations in Spanish, Portuguese, French, Catala, etc. as it means appropriate accent marks are saved instead of strange-looking UTF stuff...this is a BAD thing for people sending messages in foreign languages that do not use iso-8859-1 as the charset (Chinese, Russian, Greek, etc.) ....sorry;
+	- PM Logs and general logs now have nice 'headers' at the tops of the logs which include the date, GyachE version, etc.
+	- Plugin architecture somewhat stabilized, right now only the encryption plugins are supported
+	- An Encryption button has been added to the PM window, with a dialog allowing you to select an encryption method
+	- PM window interface changes:  PM window toolbar buttons are now 'flat' buttons
+	- Bug Fix: Fixed horizontal scrolling of PM windows: Long lines will now allow you to scroll left-right instead of the whole PM window being resized to accomodate the long line
+	- A few memory leaks fixed that could occur when closing PM windows (freeing of strdup'ed objects)
+	- Patched bugs in retrieval of avatar images:  Fixed a bug from the original Gyach where the WHOLE filename was being converted to lowercase, including the configuration directory path (this could have caused problems on systems where Gyach-E was installed on a path that was not  all lowercase); Fixed possible buffer overflows in avatar retrieval (sprintf statements replaced with snprintf, etc.); excessively large read buffer resized to something more practical for the size of the avatar files; Avatars are now scaled down to reasonable sizes (never larger than 26 pixels in width or height, to save screen space and help combat people who like to make giant billboards for avatars.)
+	- packet_handler.c module: added function for handling negotiation of encrypted instant messaging sessions
+	- yahoochat.c module: added 2 methods for handling negotiation of encrypted instant messaging sessions.
+	- Added 'Help'->'Plugins' to the menu to retrieve information about loaded plugins (the information displays on the main chat screen, no popup windows)
+	- Feature added: Right-clicking on a room in the Room List window now gives you a menu with an option to added the selected room to your list of Favorite rooms (this is useful for bookmarking a room you can't or don't want to enter right this minute, but don't want to have to look for it all over again later.)
+	- PM Fix: When Gyach-E is configured to show PMs on the 'Chat' screen instead of in a seperate window, Buzzes are now NOT shown in a seperate PM window, but instead are shown on the 'Chat' screen
+	- PM Fix: When Gyach-E is configured to show PMs on the 'Chat' screen instead of in a seperate window, Offline Messages are now NOT shown in a seperate PM window, but instead are shown on the 'Chat' screen
+	- PM Buzz Fix: Colors of PM Buzzes (whether PMs are displayed in seperate windows or not) have been changed to more unique, less-sickening looking colors
+	- PM Offline Message Fix:  Buzzes sent to you while you are offline are now shown as buzzes instead of 'ding', though no 'Buzz' sound event will be played (it wouldn't make sense to play a buzz sound if you may not be getting the buzz for minutes, hours, or days...also, if someone has sent many "Buzzes" while we were offline, this can easily jam the sound card and ESound  playing the same sound over and over and no way for us to stop it once it starts - this is a commonly used 'boot' attempt where the person sends Buzz after Buzz after Buzz to freeze the system)
+	- Please note that sounds for Buzzes are only played if the person sending the buzz is listed as a Friend or Temporary Friend (this is to prevent random idiots, i.e. strangers, from getting stupid and repeatedly clicking the 'Buzz' button and creating irritating looping sounds.  Generally, we don't want 'strangers' sounding these kinds of audio alarms anyways.)
+	- Setup Window: Added a configurable options for enabling/disabling support of encryption in  instant messages on the tab for 'Private Messages'
+	- Web Connect method bug fixes: Fixed 2 possible segfaults in the web-connect method: allow for larger cookies to help ensure login and avoid buffer overflows and check for EOL null bytes.
+	- Code Cleanup: Automated responses (to unwanted PMs, invitations, etc.) are now sent from one centralized method (newly added); will help keep code neater and the style of automated responses consistent (affects the packet_handler.c and conference.c modules)
+	- Auto-responder addition: Auto-responses are now sent to people sending blocked voice chat invites (unless they are listed as a flooder)
+	- Auto-responder additions: Added auto-responses for cases when Encryption is not available, the type of encryption requested is not support, or the user is ignored or blocked and attempting to started an encrypted PM session
+	- Fixed a few possible buffer overflows and segfaults that *could* occur when downloading images or displaying profiles using the internal profile viewer
+	- Internal Profile Viewer touchups: Back to using a Fixed-width font (12pt), this makes the text a little neater looking
+	- Internal Profile Viewer text is now selectable, for easy copying and pasting of the email addresses and links in the profile
+	- wm_class/wm_name value changes for many windows: Almost all windows that function as 'dialogs' now have wm_class/wm_name values that suggest that; also a new wm_class/wm_name assigned to the main window, the favorites window, the 'create a room' window', and a few other  (this stuff is mostly of interest to fellow IceWM users, like myself.)
+	- Changed the color and tab-spacing of PMs when Gyach-E is configured to show PMs on the 'Chat' screen instead of in a seperate window; colors are now tan/brown and red (instead of the old common blue/red) so that they stand out more, also the messages are indented further to stand out in busy chat rooms; they style of the messages has also changed  'Instant Message from  [person]' is now the header, instead of '[person] <private to [your_name]>'...'private' just sounded weird, and if you are receiving the message, you don't really need to be told that it's TO YOU, do you? Ahem!  Okay, next item...
+	- Room list parsing fixes: Fixed a bug where amphersands in room names and topics were not showing up, causing you to enter the wrong room
+	- Room list parsing speed-up: yahoo_xmldecode returns immediately if no ampersand is found in the given string (there's no need to decode it in this case), resulting in parsing speed-ups for roughly 90-95%+ of room names and topics; removed an unnecessary strdup'ed string that was created for every room
+	- Chat user list fixes: The 'Last Comment' column in the list of chat users now actually shows the users last comment (or an excerpt if too long)
+	- Status bar fixes: Fixed incorrect calculation for muted and ignored users...the number of muted and ignored users in the room should now be correctly calculated and displayed in the statusbar at the bottom of the chat window
+	- Fader parsing fixes: Fixed some parsing of Fade/Alt tags that could result in the creation of non-UTF-8 strings that would cause Gtk/Pango warnings on the console
+	- Binary size greatly reduced (again) / removal of most large static char buffers and replaced with malloc'ed buffers created as needed for parts like web login, My Yahoo!, Room list, etc.
+	- Tuxironments .jpg images: File sizes shrunk by over 25%
+	- Many protential buffer overflow fixes throughout the program (mostly those left over from the old Gyach using sprintf/strcpy/strcat instead of snprintf/strncpy/strncat)...I'm patching them as I'm finding them
+	- Added various translatable strings (and Spanish translation updates) to the gettext files for the added Plugin and Encryption support.
+	
+
+
+
+
+#######################
+GYach Enhanced - 1.0.1
+2/14/2004
+"Re-issued: Do Over!"
+#######################
+
+	This release is mainly an emergency re-issue of version 1.0.0 to fix some pretty serious bugs in that version. If you are using version 1.0.0, you should upgrade immediately!  As a result of these known bugs, version 1.0.0 OBSOLETED with this new release.
+
+
+	- Major Bug Fix: Fixed a major bug where the popup menu in the Setup window was not showing up (this bug had prevented the add/removal/editing of new Yahoo accounts, ignored users, favorite rooms, Regex rules, and friends list)
+	- Bug Fix: Fixed a bug where the edit/insert dialog that shows from the Setup window would not fully display; the dialog now displays fully, is modal, and centered on the screen
+	- Feature Added: You can now insert/edit/remove items from the Favorite Rooms window by clicking the right mouse button on the window (just as you can in the Setup window); this eliminates the need to have to open the Setup window to edit/add/remove items from your Favorite rooms list.
+	- Bug Fix: Fixed a bug where double clicking a user's name in the chat room list of names could produce an instant message window that had the user's Yahoo 'nickname' instead of their real screen name;  (Note: Double-clicking the user's name no longer produces the 'basic' instant message window, but instead produces the FULL instant message window, complete with the larger text area, icons, and all...and, of course, the user's screen name appears there instead of their Y! nickname.)
+	- Feature Added: More properties from the 'login' window are now saved to the configuration file and remembered the next time Gyach Enhanced is run:  Last login name used, invisible/visible, and chat room/no chat room
+	- Feature Added: Fader properties are now saved to the configuration file and remembered the next time Gyach Enhanced is run:  Fader/Alt start tag, Fader/Alt end tag,  use fader/not use fader
+	- Bug Fix: Fixed a possible segfault that could result while inserting/editing an item in any one of the CList widgets in the Setup window
+	- User Interface additions:  Gtk Stock icons added to the 'Setup' menu item and the 'Help' menu item (so that they stand out more)
+	- Webcam support fixes: The 'Makefile' and 'Makefile.static' no longer link to 'esd', 'audiofile', and 'asound' unnecessarily; this also removes unnecessary linked dependencies in pre-compiled binary versions
+	- Voice chat support fixes: Patched version of pY! Voice Chat is included with this release; this additional patch fixes (yet again) problems parsing the 2nd IP address we are forward to; this should eliminate most hung connections
+
+
+
+
+#######################
+GYach Enhanced - 1.0.0
+2/12/2004
+"Smile - you're on Candid Camera..."
+#######################
+
+	MAJOR UPGRADE:
+	- TWO webcam viewers added in this release. (view webcams)
+	- One webcam broadcaster added in this release. (send your webcam)
+	- Major fixes to pY! Voice Chat connections and pygtk-2 module imports
+
+	- MAJOR FEATURE ENHANCEMENT!: Added Gyache-Webcam: external webcam viewing utility written in C that uses libJasper:  
+		While some of the code is borrowed from Ayttm,
+		this viewer is much less memory intensive, is 
+		singled-threaded, and does not rely on 
+		Gtk 'input_add' (which often causes deadlocks, memory 
+		leaks, etc.), Also, unlike the Ayttm cam viewer, this viewer 
+		is an EXTERNAL program (meaning that IF it does crash, 
+		it will crash ALONE instead of taking down Gyach 
+		Enhanced and your Yahoo connection with it - I think 'risky' 
+		apps are best run separately)...also, the app uses 
+		GtkImage with GdkPixbuf instead of the soon-to-be-deprecated 
+		GtkPixmap + GdkPixmap combination used in Ayttm.  The 
+		app relies on the more simplified socket-reading characteristic 
+		of the Gyach codebase, instead of the overly complicated 'callback' 
+		system used in the Ayttm viewer  (In other words, it does the same 
+		thing with much less code and much less confusion).  
+		Currently, Gyache-Webcam only supports VIEWING,  but I hope 
+		to have a 'sister' program available for sending webcam images 
+		when I get a chance to play with the V4L stuff.  The program is 
+		automatically launched by Gyach Enhanced, but as it takes 
+		3 simple command-line arguments, it can easily be used as a 
+		webcam viewer for ANY Yahoo app capable of spitting out 
+		Yahoo's 'webcam key' on the command-line.  (Plugin suitable!)  
+		Gyache-Webcam requires libJasper 1.700-2 or better (1.700-5 
+		is recommended, as there are several known memory leaks in 
+		version 1.700-2)....For the libJ2K fans - Sorry, I won't be 
+		adding support for using libJ2K for the Jpeg-2000 support 
+		anytime soon: When I tried using the latest release, 
+		all it did was segfault, and when it wasn't doing that, it 
+		dumped too much junk to stdout and created REALLY bad 
+		renditions of the image (turned clear color images into black 
+		and white distorted garbage, and the API is very Messy)...
+		Everybody knows that I do my best to keep Gyach Enhanced 
+		from printing excessive junk to stdout/stderr...so libJ2K is not 
+		a candidate as it prints HUNDREDS of lines to stderr PER 
+		converted image - that's crazy.  Gyache-Webcam uses as 
+		few calls to malloc/calloc/realloc/strdup, etc  as possible 
+		to help  minimize the risk of memory leaks now and in the future.
+		This code is in the ./src/webcam/ subdirectory of the source
+		code path.
+			STATUS: Initial Release, experimental
+	
+	- MAJOR FEATURE ENHANCEMENT!: Added pYWebCam: external webcam viewing utility written in Python that uses the 'jasper' executable:  
+		This webcam viewer was actually written before the Gyache-Webcam C version,
+		but both are similar in look-and-feel.  However, pYWebCam uses the 'jasper'
+		executable (from libJasper) instead of the library itself.  For this reason, it 
+		is KNOWN to be slower than the C version and uses more system resources
+		than the C version (It is not recommended for incredibly slow systems).  However, 
+		I'm keeping it around (no harm in having TWO Yahoo cam viewers) because it 
+		still does a good job and is useful for people who have the 'jasper' executable 
+		running on their system but cannot (or will not) upgrade to libJasper-1.700-2+, 
+		or want an example of a Python implementation of viewing Yahoo webcams. It 
+		does not rely on a particular version of libJasper, as long as whatever version 
+		you are running is capable of converting from Jpeg-2000 to Jpeg format.  For 
+		this reason, it is probably more portable.  It uses PyGtk-2 for the user interface, 
+		so PyGtk-2 1.99 or better is required.  The program is 
+		automatically launched by Gyach Enhanced, but as it takes 
+		3 simple command-line arguments, it can easily be used as a 
+		webcam viewer for ANY Yahoo app capable of spitting out 
+		Yahoo's 'webcam key' on the command-line.  (Plugin suitable!)  
+		This code is in the ./src/webcam/ subdirectory of the source
+		code path.
+			STATUS: Initial Release, experimental
+
+	- MAJOR FEATURE ENHANCEMENT!: Added Gyache-Broadcaster: external webcam broadcasting utility written in C that uses libJasper:  
+
+		This application allows sending of webcam streams
+		to other Yahoo users Right now this program has only 
+		been tested with a single Video4Linux device: An OV511 
+		DLink C100 USB webcam.  The program uses Video4Linux-1
+		for image capture and the libJasper library for Jpeg-2000
+		image conversions. Has lots of nice 'permissions' features
+		and a clean user interface.
+			STATUS: Initial Release, experimental
+
+	- Security improvement:  Gyach Enhanced no longer stores passwords in plain text!  Stored passwords are now encoded/encrypted/scrambled, but this does NOT mean you should think it's safe to share your Gyach Enhanced configuration files with others if they contain stored passwords! However, most of us feel safer with our passwords not being stored in plain text.
+	- Added Big Endian patch:  Found a patch on the Ayttm cvs server that is suppose to make the new  Yahoo authentication system work on Big Endian systems as well  (this is basically a patch the guys at Ayttm made to Amatus' Gaim patch from mid January); I can't say I care one way or the other if this app works on Big Endian systems (I'm not using one), but since the patch was there, no reason not to use it, right?  Hopefully this will enable Amatus' terrific algorithm module to work on more systems.  Adding the Big Endian patch does not seem to have had any negative side effects on Little Endian systems, so that's the important thing.
+	- Fixed handling of Idle/Away times shown on the buddy list (yes, AGAIN: I thought it was fixed in the last release, but it wasn't)  In the event the Idle/Away time cannot be correctly calculated, the Idle/Away time will be set to a negative number for "unknown".  (changes to modules friends.c and packet_handler.c)
+	- 'Webcam'-related menu widgets are now sensitive/clickable again (Obviously), since webcam viewing support is now available
+	- Lots of code cleanups, optimizations: the size of the 'gyach' binary has been reduced by almost 100kb and the application seems to start faster due to a lower memory request at startup time.  More frugal use of buffers for Http operations to decrease the memory footprint at startup time.
+	- Added menu options for sending webcam invites, starting your webcam, and showing your webcam as 'available' when in chat rooms;  If we really want to, we can 'appear' to have our cam on in chat rooms even when we don't actually have it on (don't know what advantage this serves though.)
+	- The webcam.c module has been completely re-written to use external webcam viewers (see above), and most of the old code from Ayttm has been dumped, however the module is still responsible for handling Webcam-related YMSG packets and launching the appropriate viewer
+	- Keyboard shortcut fix: Pressing Ctrl+F now opens a fully-USABLE 'Find' window, and the window is now sized, displayed, and mapped properly in the same manner as clicking 'Find Text...' on the 'Tools' menu  (before, an unsizeable Find window was opening that was too small to see or use)
+	- Clipboard and Shortcut key fixes:  On the 'Chat' tab, pressing Ctrl+C can now copy text from either the 'Entry' where you type your text, or the chat window itself  (Before, pressing Ctrl+C would only copy text from the chat window, and the left mouse button had to be clicked to copy text from the 'Entry' where text is typed.)  The Ctrl+C shortcut can now copy text to the clipboard from either of these locations, and the location of the mouse cursor and the availibilty of selected text are now used to intelligently decide which area you are trying to copy text from.
+	- Smiley fixes/Bug Fix:  Patched a bug where smileys beginning with "/" would result in the 'Unknown command' warning and smileys beginning with "\" might be displayed incorrectly or not at all.  This should fix a couple of errors that would occur when attempting to use certain smileys in the "Chat" tab.
+	-Major code cleanups to the 'Setup' window module, lots of unneeded code has been removed; the module now compiles alot faster (using less memory at compile time), and the 'Setup' window seems to open a little faster
+	- Setup window addition: Added drop-down/GtkCombo list to allow for selecting an external web cam viewer (currently GyachE-Webcam and pYWebCam are supported.)
+	- Setup window addtion: added an entry for specifying the Video4Linux device to be used for the GyachE-Broadcaster (webcam streamer)
+	- Code cleanup: Removed unused method 'ymsg9_sock_has_data' from yahoochat.c module
+	- Removed the 'Makefile.webcam'  and 'Makefile.no-webcam' files as they are no longer necessary
+	- Accessibilty: A slightly larger font is now used for the 'Help' window  (my eyes are bad! that 10pt font wasn't working for me.)
+	- 'About' box has been spiffed up, cute little Gtk stock icon added and other touch ups.
+	- The 'web connect' method works again (for now)
+	- Fixed printing of received webcam invitations to the 'chat' screen
+	- The confirmation dialog to accept/reject a webcam invitation now appropriately disappears after an option has been selected.
+	- Various translation updates to accomodate the new webcam viewers and the webcam broadcasting features.
+	- A small plugin API has been started to accomodate possible encryption and/or SSL support, but PLEASE do not write plugins against this API as it is not yet complete!
+	- pY! Voice Chat fixes: Connection fixes: fixed collection of the 2nd server IP address we are to be forward to (fixes half of the connections recently just starting to 'hang'); fixed importing the PyGtk-2 modules on some systems, and got rid of possible warnings under Python 2.3 about 'no encoding' being specified.
+	- TODO: Fix some weird bug that occassionally pops up and results in everybody being 'muted' as a 'spammer'
+					#######################
+					GYach Enhanced - 1.0.0-SneakPeek-3
+					1/25/2004
+					Toward Version 1.0.0...
+					#######################
+	- MAJOR BUG FIXES:  Major bug fixes to Buddy list status parsing:  Eliminated a bug where all buddies statuses would be erased when "refreshing" the buddy list; Eliminated possible memory leaks in buddy list parsing by avoiding the use of an unfree-able 'strdup' string, and fixing other possible memory leaks;  Improved calculation of buddies 'Idle' time;  Fixed a bug where a friend's icon might show as 'normal' when it should show as 'away' or 'idle';  Fixed a bug where custom status messages could be skipped over (which sometimes left friends who had statuses with no status at all)
+	- MAJOR 'INVISIBILITY' SNOOPING ADDITIONS - NICE! :  We can now tell the difference between when a buddy truly disconnects, or goes invisible (you are now told when they have gone invisible);   Tattle-tale on Buddies who were hiding online in Games and/or Chat when they just signed on from 'invisible' mode;  Tattle-tale on Buddies who are pretending to sign-ofr (go invisible), but are still in Game and/or Chat areas.  Improved detection of buddies coming online from 'invisible' mode - the cover is now blown for almost everybody signing on from 'invisible';  Tell on friends who appear to be 'signing off' but are still on messenger as 'invisible'.  Tell on friends who are in Yahoo Games but don't want you to know they are in Yahoo Games, or don't want you to know which Yahoo Game room they are in. All of these things are now shown on the chat screen and on the buddy list tab.
+
+	- Fixes for possible buffer overflow crashes when retrieving URL data:  Buffer sizes are now properly managed and checked better; This improves stability of the 'web connect' method, profile downloading, chat room list loading, and 'my yahoo' content downloading
+	- Internal profile viewer:  Now allowing the download of user's profile pics up to 90kb (before the limit was 64kb)...some people don't know how to compress their images!
+	- Privacy Fix:  Don't show an 'emote' in the chat room or conference we are in when setting our 'away' status to 'invisible'  (I don't think the whole room needs to know we've gone invisible)
+	- Tray Icon feature enhancements:  The Tray Icon now has a small 'tooltip' (popup hint), when you put your mouse cursor over it, you can now see whether or not you are connected, number of email messages, number of friends on the buddy list, and number of friends online...without having to click the icon
+	- User interface improvements to the 'Blank' PM window that appears when you click 'Tools' -> 'Instant Message...'
+	- IMPORTANT PM CHANGES: Double-clicking a person on your buddy list, or clicking 'Instant Message' on the buddy list tab, OR clicking 'Instant Message...' on the Chat Room users' menu now produces the normal PM window you would see when you are engaged in a conversation (instead of the 'Blank' PM window that just sends and disappears.);  personally, I like the FULL PM window better, so that's what we're gonna use...in chat rooms/conference, you can still get the 'Blank' PM window (the cheap one that just opens, sends, and disappears), of  double-clicking the person's name instead of selecting 'Instant Message...' from the Chat Room users' menu - though I may get rid of this one too in the next release  (Using the FULL PM window improves PM saving/logging capabilities, since the first comment(s) sent by you won't be left out of the log due to using a window that sends and disappears.)
+	- Code cleanups/consolidation:  Most URL fetching is now own using the 'fetch_url' method for uniform performance across most functions requiring the retrieval of http data (this should help proxy users...I hope.); also adds better control of buffers to avoid overflow problems; this will help keep retrieval of web content consistent;  This affects: retrieval of room lists, profiles, my yahoo content, and the 'web connect' method.  It does not affect the retrieval of profile pictures  (TODO: proxy support needs to be added to profile picture retrieval)
+	- Bug Fix: Fixed the 'Gtk Warning' that appeared when quitting the application by eliminating the unnecessary call to 'main_quit'
+	- E-mail alert improvements:  We now also the email 'nickname' of the person who just sent us a message (for alerts where we are suppled email addy, email nick, and email subj.)
+	- Room list fixes: HTML is now stripped out of any room list topics; also HTML is stripped out of any room list topics that show when we join a room
+	- User Interface improvements:  Gtk stock icons have been added to most dialogs - info dialogs, confirmation dialogs, input dialogs, also to the 'Find', 'Alias', 'Blank PM', and 'Help' windows
+	- User Interface improvements:  ALL scrollable CList widgets now allow scrolling up-down AND right-left - this improves scrolling in such things as the Favorites list,the Room list, and the Buddy list tab, among others
+	- User interface improvements:  Most CList widgets now set the optimal column width to make sure all text is visible - this affects the Alias window, the list of chat room users (big help here), and the Buddy list tab (auto-expands to accomodate long status messages)
+	- User interface improvement: Alias window no longer uses a fixed size (no more calling 'usize' on the window!)
+	- The auto-responder now responds to offline messages unless the sender is marked as a flooder/booter or spam bot
+	- The 'display messages before auto-ignoring' flag is now applied to PMs and offline messages: PM 'excerpts' will no longer be displayed if this flag is set to 'off'
+	- Tray icon fixup:  Most menu items on the 'Options' and 'Protection' menu are accessible even when Gyach Enhanced is 'offline', most importantly access to the 'disable tray icon' menu item is accessible in offline mode
+	- Tray icon fixup:  Changing an option from the tray icon now saves your Gyach Enhanced configuration, so those changes will continue to take effect when you re-run the application (instead of the changes being 'temporary' while the program is running)
+	- Spam filtering fix:  Never flag Gyach Enhanced auto-responses or messages containing the  URL to the Gyach Enhanced website as 'spam'
+	- Lots of Spam detection improvements in spamcheck.c: We're trapping almost every spam bot it seems; also fixes to help avoid muting people who are NOT spam bots
+
+
+
+
+#######################
+GYach Enhanced - 1.0.0pre
+1/13/2004
+The "Hey, quit locking the damn door!" Release
+#######################
+
+	- CRITICAL UPDATE - YAHOO LOGINS ARE FIXED:  Added modules 
+	yahoo_fn.c/yahoo_fn.h  from a new encryption patch submitted to 
+	Gaim by Amatus@users.sourceforge.net  (For reasons unknown, Gaim 
+	decided they didn't want the patch!)  Anyway, regular Yahoo logins are 
+	working again, eliminating the 'Invalid Password' notice most people 
+	experienced.
+
+	- A Backup Login method has been added - Web Logins, similiar to the 
+	Web Login method used in a recent version of Gaim.  Web logins are 
+	experimental, but working and are intended to be used as BACKUPS 
+	when Yahoo changes the protocol (again?) in the future.  The web 
+	login servers are at the end of the server list beginning with the letters 
+	'wcs'.  NOTE: The Web Login method only allows use of PMs and Chat; 
+	Web Login servers do not appear to support chat rooms, add/remove 
+	buddies, logging in invisible, and status changes.  Added modules
+	webconnect.c/webconnect.h to support this feature.
+	- IMPORTANT NETWORK POLLING CHANGES:  Gyach Enhanced has 
+	dropped the use of the Gtk main-loop+"input conditions" in favor of 
+	Gtk 'main iterations' and regular old-fashioned socket polling.  This 
+	probably will not affect you at all; but I just thought you guys should 
+	know.  I linked the Gtk 'add_input' and 'remove_input' calls to way 
+	too many memory leaks and too much memory usage, even worse, 
+	sometimes it's impossible to 'remove' input you've added which can 
+	create a terribly memory leak and system drain.  I've noticed no 
+	negative side effects from this change, and infact the flow-control 
+	used to help reduce booting and floods works better because 
+	Gyach Enh. gets to control socket reading (and adapt when necessary); 
+	This change has created a KNOWN MINOR BUG: A 'Gtk Critical' 
+	messages on when Gyach Enhanced exits whining about the 
+	absense of a 'main_loop"; It's not dangerous, just ugly and will 
+	be fixed in the next release. 	 
+	- The server list in the Login window has been updated to use the 
+	newer 'scs' servers on the 'dcn' network; In addition, new IP addresses 
+	have been added for the 'low-traffic' servers in the list, in case you have 
+	trouble connecting to the most commonly used servers.
+	- Stability improvement: Many potential buffer overflows have been 
+	avoided by exchanging more strcat/strcpy/sprintf calls for 
+	strncat/strncpy/snprintf controlled calls.
+	- Fixed a bug related to toggling the 'Debug Packets' item on the menu;
+	'Gtk-critical' warnings on the console have been eliminated and turning 
+	packet debugging on no longer gets 'stuck' in 'on' mode.
+	- Interface improvements for the login window: Space in the window is 
+	now used more wisely so that text entires and drop-down lists get the 
+	space they deserve
+	- Fixed a bug where closing the Login window with the window's 'X'  
+	button made it impossible to get the Login window again by selecting 
+	'Connect' on the menu; The Login window is now properly created and 
+	destroyed as needed.
+	- Usability improvement: The Login window shows a message when you 
+	attempt to login without typing a password and refuses to login until you do.
+	- Usability improvement: The server you select in the Login window is now
+	remembered in the Gyach Enhanced configuration file
+	- Usability improvement: The chat room you select in the Login window is now
+	remembered in the Gyach Enhanced configuration file
+	- Improved handling of incoming Yahoo 'system' messages so that these 
+	messages never get 'blocked' as possibly 'malicious'; also, we disconnect 
+	on certain system messages Yahoo sends (generally these messages indicate 
+	a login, communication, or connection problem)
+	- Various improvements to the spam bot filtering in module 'spamcheck.c'; 
+	hopefully more effective
+	- Better buffer overflow protection added to incoming PMs, buddy lists, 
+	and Yahoo-stored ignore lists
+	- Various improvements to the 'bootprevent.c' module; pre-emptive
+	strikes, and not marking Yahoo system messages as 'malicious'...ever
+	- Fixed a bug where a missing 'gyachrc' configuration file could result in 
+	Gyach Enhanced not starting up but instead exiting with an error displayed
+	on the console; Gyach Enhanced can startup anyways and use defaults
+	(parsecfg.c updated)
+	- Fixed a bug where certain bad syntax in the 'gyachrc' configuration file could result in 
+	Gyach Enhanced not starting up but instead exiting with an error displayed
+	on the console; Gyach Enhanced can startup anyways and use defaults
+	(parsecfg.c updated)
+	- Cleanups: Deleted a couple unneeded pixmaps and methods in various modules
+	- Copyright updates throughout the code: Just to accomodate the New Year
+	- The internal help has been updated under the 'Help' menu
+	- Fixed possible memory leaks in the tray icon; Status PixBufs are now unref'ed.
+	- Speed up of reloading of the popup menu for the tray icon; re-use existing menu 
+	rather than destroying and recreating
+	- Various improvements to memory usage: More frugal where possible
+	- User Interface: Temporary Friends system is now manageable from the window under
+	'Tools'->'Temporary Friends...'
+	- User Interface: Flooder/Booter system is now manageable from the window under
+	'Tools'->'Flooders/Booters...'
+	- User Interface: Gyach Enhanced's locale ignore list is now manageable from the window under
+	'Tools'->'Gyach Enhanced Ignore List...', enables easlier management of your ignore list 
+	without having to open the big 'Setup' window.
+	- Tray Icon: Added the following functions to the tray icon's popup menu: 
+	'Yahoo! Permenant Ignore List", 	'Temporary Friends...', 'Flooders/Booters...', 
+	'Tools'->'Gyach Enhanced Ignore List...' (under the 'Protection' submenu)
+	- The popup menu that shows in the chat room's list of users now has 'Add As Temporary Friend"
+	on the list to make using the temporary friend system easier
+	- Patched a few possible buffer overflows in the 'ignore.c' module
+	- Minor fixes to the 'bootprevent.c' module and 'packet_handler.c' module's automated 
+	responses to blocked PMs
+		#######################
+		GYach Enhanced - 1.0.0pre-SneakPeek-2
+		1/03/2004
+		#######################
+	- Tray Icon Support added with new module trayicon.c: 
+	This provides a nice tray icon for NETWM/FreeDesktop.org- 
+	compliant system trays like those found in Gnome2, KDE 3, and 
+	IceWM; The tray icon gives fast access to connecting, disconnecting, 
+	exiting the application, sending PMs, viewing profiles, joining rooms, 
+	and important configuration options like sound events, privacy/security, 
+	and faders/graphics; So now important features can be changed 
+	quickly without having to load the configuration window everytime;
+	Although the feature is new, haven't seen any bugs in it yet; looks spiffy
+	- Configuration Window: numerous user interface improvements; 
+	settings options in the configuration window have been rearranged
+	so that items are in more logical categories and locations; The color 
+	'effects' checkbuttons for 'bold', 'underline', and 'italic' have been moved
+	to an 'Effects' tab under the 'Color/Font' category; The Color selection 
+	dialog now always shows the selected color as opaque, so a preview 
+	of the color always appears in the rectangular preview area. Some 
+	screen space saving rearrangement, especially when running under 
+	the Spanish translation. Added 'Spam Protection' section to the 
+	'Protection' tab: 'Enable Spam Protection' and 'Ignore guest users' 
+	now appear under the 'Spam Protection' area;  If 'Enable Spam
+	Protection' is selected, 'Ignore guest users' will also automatically be 
+	selected
+	- Fixed a possible buffer overflow that could result from the Buddy List 
+	counts being displayed at the bottom of the buddy list
+	- Fixed a bug where Auto-Away timer only took affect when in a chat room 
+	and only when chat comments were being sent from other; the Auto-Away 
+	checker is now in the main event loop to fix this problem and should work 
+	whether in a chat or not
+	- Auto-Away improvement:  The Auto-Away timer will now only set your 
+	status to 'auto-away' if you are NOT invisible; This is to avoid being 
+	expectedly snatched out of invisible mode because a forgotten about 
+	auto-away 'alarm' goes off
+	- Fixed a possible buffer overflow in the Room List loader by allocating more
+	space for downloaded XML data
+	- Improved the message sent to the other user when we deny them
+	the right to add us to their buddy list or when we remove our name
+	from their buddy list.
+	- Added spam filter to trap spam bots advertising for 'live shows'
+	- GUI/Usability improvement: GTK Stock icons have been added to 
+	all buttons, (almost) all menu items now have stock icons
+	- Better usage/selection of existing GTK stock icons on menu items
+	- Added a "Join Room..." To the "Rooms" tool menu, for easily 
+	joining a random room without having to type the /join command
+	- Several changes to the main gettext catalog, several additions
+	- Several fixes and corrections to the Spanish translation catalog; 
+	several additions and many modifications
+	- Updates to the internal help file: Added section on 'Spam Protection'
+	- Efficiency and effectiveness improvements to Spam Blocking module
+	'spamcheck.c'
+	- Rewrote Spanish translation for the Configuration window to save 
+	screen space
+		#######################
+		GYach Enhanced - 1.0.0pre-SneakPeak-1
+		11/30/2003
+		#######################
+	- Fader.c updates: The code that handes <FADE tags completely 
+	re-written - There is now support for multi-colored faders with 
+	3+ colors.  The new re-write supports up to 12 colors in one <FADE
+	tag and includes lots of text display bug-fixes. Before, only 2 colors 
+	from any given <FADE tag were used.  The new re-write provides 
+	a more realistic, true-to-life display of faders, though it's still not 
+	'perfect', but it's getting there.  NOTE: These changes do NOT apply 
+	to <ALT tags (yet?).
+	- Spam protection module (spamcheck.c) rewritten and now provides 
+	better speed and effectivness in blocking spam bots and chat spam. The 
+	module now takes advantage of some 'nice' spam bots that label their 
+	posts as '[SPAMBOT]' and immediately mutes them also.  Better filtering
+	and detection of chat spam, also better filtering of certain spambot series.
+	- Packet Handler updates (packet_handler.c): The 'quick profile' that shows
+	when a user enters a room now uses a slightly smaller font to save screen 
+	space. Also, quick profiles are now grabbed even when the incoming 
+	chat room user is on ignore or mute  (before, no profiles were grabbed 
+	for such users, leading to 'no profile available' messages when you attempted 
+	to view their 'quick profile' )
+	- Interface.c updates: Several new <FADE tags were added to the drop-down
+	list of faders, many show-casing the new support for multi-colored faders with 
+	3+ colors
+	- Callbacks.c updates: Fixed the code that displays quick profiles when you click
+	'Quick Profile' on a chat room user's name, to avoid emoticons showing in the 
+	quick profile posted to the chat screen.
+
+
+
+
+#######################
+GYach Enhanced - 0.9.9
+11/27/2003 - The "Thanksgiving
+Turkey Day" Release
+#######################
+
+MAJOR UPGRADE:
+
+This release represents a COMPLETE overhaul of security, privacy, and anti-spam features in GYach Enhanced.  It's been over 2 months since the last release, so bear with me if I don't remember all of the millions of new features and bug-fixes made in that time.  If you've used a previous version of Gyach Enhanced, the first things you should do is run the 'Setup' and re-check your configuration so that you can take advantage of all the new features.
+
+
+	- Webcam support has been started by is not yet usable, so it is DISABLED in this release until it becomes halfway stable: I'm working on it.  (The new webcam support is optional, but if used, libJasper 1.500 or better is required)
+	- Added support for "My Yahoo" content through new module 'htmlrender.c': Features 
+	basic HTML rendering of 'My Yahoo' tearoff pages available in the official Linux and Windows 
+	versions of the Messenger client (but, WITHOUT the little ad banners).  Currently any links 
+	clicked or forms clicked get sent to the external web browser, but so far the new module is 
+	good for quick checking of weather, calendar, etc.  Adds new dependency: GtkHTML-2 (for Gtk-2)
+	Most systems that have Gtk installed already have this library, make sure you have the development 
+	package for GtkHTML before compiling; TODO: fix some issues involving relative URLS
+	- Spam protection greatly improved! Added 'spamcheck' module to check screen names and comments for chat spam, Added option to automatically mute spam bots that come into the room and mute bots as soon as they send their first spam comment, Restored option to mute 'guest' users in chat rooms since most 'guest' users these days are spam bots.  For maximum protection against spam, you should enable auto-muting of BOTH Spam/Spam Bots and Guest Users in the Gyach Configuration window
+	- Added third tab to the notebook tab interface: 'My Yahoo'
+	- Added support for Yahoo calendar events (The first Linux Yahoo app in a lonnng time to support them.)
+	- Added support a Linux version of IMVironments (called TUXVironments), can be enabled/disabled...no fancy animations or interaction, but sets nice backgrounds in the PM window when they are loaded.
+	- Added protocol code in yahoochat.c for sending and receiving IMVironment settings
+	- Finally, the login window now REMEMBERS the last settings you attempted to sign in under (only good while Gyach Enhanced is running, these are not saved to file.)
+	- A few new Yahoo servers have been added to the list, these use DNS addresses (in case DNS lookups fail), these are known to be less-trafficked, slightly faster servers from my own experience
+	- Boot protection/prevention/rescue have been greatly improved:  GYach Enhanced can now detect whether you have logged off voluntarily of have been booted and will now attempt to reconnect you (and put you back in your chat room) if you have been booted.  Gyach now does a MUCH better job of warning you when someone is attempting to boot you, taking appropriate measures (local ignore, permenant ignore, etc.) when you are under 'boot' attack and can block certain types of bombs by adding the offender to Yahoo's permenant ignore list (though some bombs still come through.) ...Sound events are disabled after a person as been designated as a flooder/booter (so they can't cause ESD to be overwhelmed by sending repeated packets that trigger sound events.), Gyach Enhanced now does a much better job of staying online when under attack from a booter and will survive many different types of boot attacks (though ALL YMSG clients remain vunerable to certain 'server side' boot attacks) , you are warned periodically as the booter continues to try to boot you, Gyach Enhanced does a better job of fighting against booters/flooders who are sending 'buddy add' bombs:  If you do get booted, Gyach Enhanced remembers the name of the booter/flooder and automatically removes your name from their buddy list the next time you sign on ...also the 'pre-emptive strikes' are quite a bit more vicious *smile*.  Though NO YMSG client is completely 'unbootable' Gyach Enhanced has been tested against several booting programs (including one I wrote for the purpose of testing Gyach) over a period of two months  		  - Implemented a 'temporary friend' system, for when you have PMs closed to just friends but want to allow a person not on your friend's list to send PMs, files, etc WITHOUT having to open your PMs up to the world...you can now type '/temp-friend-add [person]'  and '/temp-friend-remove [person]' - also see the 'Help' window for more information, This feature can also be used to prevent a person from being auto-muted/auto-ignored in a chat room, also pre-emptive strikes are never sent to temporary friends.
+	- Option to have friends/temporary names  highlighted when they leave and enter room or conference
+	- Option to have timestamps for leave/enter messages and status changes
+	- Privacy improvements: You are now WARNED when you receive buddy list status messages, buddy list leave/enter messages from people NOT on your buddy list, since this usually means that someone has added you to their buddy list without your permission - also the warning includes information on how to fix the problem and protect yourself.
+	- The chat room list of users now has new icons: For men/women/unknown, men with cams/women with cams/unknown with cams.  Blue for the men, pink for the women.
+	- Fixed reading of some status messages that showed up strangely in the chat window when a buddy had their webcam on.  Buddy list now shows you when a friend has their webcam on, is on SMS, in Yahoo Games, or is in a chat room (though it can't show you which chat room they are in). 
+	- Animated smileys are pretty much stabilized
+	- The layout of the 'Send' area in the chat window has been redesigned to increase the amount of space for typing
+	- Fixes to the Configuration window, deleting a person from the 'Ignored' list now really deletes them from that list
+	- Fixed a bug where trying to 'goto' (Join user in chat) would tell you the user was NOT in a chat 
+	even if they were when you tried to join the user while you were not in the chat area.
+	- Improvements to sending status messages: appropriate setting of remote idle/busy icons as necessary
+	- The 'custom away message' dialog now gives you the option to force a 'busy', 'idle', or 'normal' icon
+	- The 'custom away message' dialog and all over text imput dialogs now accept up to 48 characters  (previously only 35 were accepted)  .  Improved buddy list statuses (now maintaining separate statuses for basic stat messages, game status messages, and idle status messages.  Added code for showing when a user is in SMS and chats, improve code for showing when a user is in Yahoo Games.  You should now see idle/away icons, as well as game/chat/sms statuses immediately when the buddy list is loaded.  Games logon/logoff, Yahoo away/back, and Yahoo logoff messages are now sent to a common status parsing method for better consistency
+	- The custom away message now remembers the last custom message you used
+	- Added new, small mail counter status icon next to the toolbar that holds the bold/italic/underline buttons for a quick look at the number of messages in your mailbox
+	- The room lister now has support for more foreign language chat codes..including 'e1' (American Spanish) to ease finding chats in foreign languages/countries
+	- New buddy list icons and features:  Added buddy icons for 'idle' and 'away'
+	- Several improvements to the TYPING notification sent to the user your PMing: 'no longer typing' notification is now sent when backspace or delete key is hit, if the text field is cleared, or the PM window is closed with the 'close' button; TODO: maybe a timeout to send 'no longer typing' status when we have stopped typing for a while and when the pm window is closed with the window's 'X' button
+	- Bug fix for 'ymsg9_away' method in yahoochat.c:  Packet was not sending the necessary terminating YMSG9_SEP, fixed, correct packet format is now being sent
+	- Added a status for 'idle' (code 999) on the 'Status' menu
+	- Fixes for timestamps in chat and PMs, timestamps are now forced to the smallest font possible to save space
+	- PM box tweak: One of the 'space holding' labels at the top of the PM box is now used to display a 'TYPING' status for easier reading  (still maintaining the 'TYPING' status that shows in the window title bar)
+	- PM box fix: The asterisk in front of the user's name now disappears after you have sent a response, and reappears again when your friend sends a message that you have not yet responded to
+	- Fixed a bug that caused setting your status to 'invisible' while using foreign language status messages to  literally show the word 'Invisible' as your status on other people's buddy lists instead of removing your name from buddy lists
+	- Fixes for potential buffer overflows:  almost all sprintf statements have been replaced with snprintf, and strcat statements replaced with strncat
+	- Fixed a bug that could cause the 'cookie' sent by the Yahoo servers to be deleted (which was resulting in the 'my yahoo' content showing up with the default content instead of user-defined content)
+	- Fixed a bug that cause buddy statuses and mail statuses to be requested twice from the server upon logon (this was resulting in the arrival of 2 'you got mail' messages )
+	- Fixed a bug which caused the buddy list to take a long time to empty when logging off of Yahoo: tweaks to speed up emptying of the buddy list so the app doesnt seem to lag
+	- Timestamp enhancements for PMs: when you *send* a PM the date/time is now shown for the PMs you send, not just incoming PMs
+	- Timestamps in PMs and Chat all now use a common method for showig them for uniformity
+	- Code cleanups:  create a common method in packet_handler.c for 'buddy online' event handling
+	- Smiley dialog tweak: Animations are now only shown in the smiley selection dialog if you have animations enabled (previously, they were always shown)
+	- Fixed a bug in the smiley selection dialog that caused the windows not to be destroyed, fixed some bugs and segfaults related to 'unref' calls
+	- New privacy features: You are now shown a message on the 'chat' screen when a message is rejected from a user OUTSIDE of the chat room you are in - also, whatever controls you have set for 'multiple posts' now apply to people sending repeated blocked PMs.  So, if you auto-ignore people after sending 5 identical lines to the chat screen, they will be auto-ignored if they send 5 PMs that you blocked (for example, if you have PMs closed to only friends)...this is a good way to silence people who can't take 'no' for an answer
+	- Changed the 'url referrer' value in gyach.h to be identical to the url referrer value that is sent by the latest version of the 'official' Yahoo Linux client  (to help avoid standing out as a third-party app when doing stuff like loading room lists)
+	- Changed the 'wm_class' values for several important windows: PMs, configuration window, room/conference invitation window, smiley selection window, yahoo permenant ignore list window, favorites/room list/create a room: This is mainly useful for users of IceWM so they can set the windows icons to whatever values they like
+	- Redesigned the user interface of the PM window (niceeeeeeeeeeeeeee)
+	- Several new courtesty Faders in the 'Fader' menu
+	-TODO: Fix any possible memory leaks in 'update_buddy_clist' in module interface.c involving the use of g_strdup() for the clist row data
+	- Sooooooooooooooooo many other new features and bug fixes that I can't remember right now
+	
+
+
+
+
+#######################
+GYach Enhanced - 0.9.7
+The "I survived the hurricane" release
+#######################
+
+	- Implemented support for the new login encryption methods used by Yahoo as of Sept. 24th, 2003 when they FORCED everybody to upgrade (a combo of Sha/MD5 encryption, using code from the Gaim/libyahoo2/Cerelean Studios Trillian projects), so for now, we can login to Yahoo! again...YAY!
+	- Added files  yahoo_sha.c, sha.c, sha.h
+	- New default login server 'scs.msg.yahoo.com'
+	- Added some possible seg-fault fixes to yahoo_crypt.c from the libyahoo2 project
+	- Completely re-wrote the roomlist.c module, it now uses the XML-based Yahoo category lists (which provide more information) instead of the old 'catfeed.html' lists that required roll-your-own text parsing, the new re-write uses XML (Expat parser) and is more stable and you should experience far fewer segfaults (hopefully)...also, the list seems to load much faster and use less memory
+	- By default, the Makefile links the expat library statically into the gyach binary.
+	- Added support for getting room lists and categories for non-U.S. chats, you can now easily browse chats of different languages/countries
+	- Changes to the room list window, added a drop-down menu for selecting the country/language of chats to browse
+	- The 'create a room' function now caches the room category list, since categories rarely change, this speeds up loading of the window on subsequent calls to the 'create a room' functions
+	- The 'Fader' text field in the GUI is now a drop down combo list, containing a few pre-defined fader and alt tags, though you can still type in your own tags
+	- MAJOR bug fixes to the animated smiley code:  It doesn't crash as frequently as it use to (thanks to some code borrowed from Gaim)...so it's pretty safe to use now, animations play at the right speed, animated .gif files no longer have to be unoptimized format, animations are now 'unrefed' when no longer in use, it's now safe to have several animations running at once, and all animations are stopped automatically after 8.5 seconds
+	- Due to the new stability of the animations code, animations are now on by default, with the default number of animations being 3
+	- MAJOR feature enhancements to the smiley selection window:  Animated smileys are now displayed as animations instead of static images, the buttons are now 'flat'
+	- Bug fix for refreshing of buddy list, all old statuses are now properly deleted when the buddy list is refreshed.
+
+
+#######################
+GYach Enhanced - 0.9.6
+The "Hurricane Isabel" Release
+#######################
+	NOTE: As of this version, compilation under Gtk-1 is NO LONGER SUPPORTED in any way shape or form whatsover: Go to www.gtk.org and UPGRADE to Gtk-2
+
+	- Changed all YMSG headers to user 0x0b (YMSG-11) so we no longer get 'warning' messages about needing to upgrade our Yahoo client and won't be blocked (hopefully)
+	- Conference support is now complete and has reached a pretty stable state (voice chat in conferences still remains to be tested)
+	- Added a user interface window for creating conferences, and inviting friends to conferences: the window looks very similar to the one used on Windows or the official Linux version of Yahoo 
+	- GYach Enhanced can now operate as a stand-alone messenger or a chat client (or both): The login/logoff process has changed complete, so that logging off of chat does not log you off of Yahoo (i.e. You can be in NO room - or in a conference, and still remain online)
+	- Added experimental support for animated smileys in CHAT only (not PMs): This is still experimental and GdkPixbuf does always handle animated .gifs properly, sometimes resulting in the GYach Enhanced exiting unexpectedly with a complaint about the animation size and the message 'Aborting...'; I'm looking for a fix for this: for results, Go to the configuration window and either disable the animations altogether (for maximum stability) or set the number of simultaneous animations to '1' - also option added to 'configuration' window to control whether animations are shown and how many are show at one time
+	- All smileys have been converted to .gif format to support animation (the .png format is history)
+	- Added sounds.h/sounds.c which support several sound events (PMs, mail, etc) using the ESound sound daemon; Sound events are stored in the ./sounds/ directory in raw format, which means you can change the sound events if you'd like by converting .wav files to 'raw' with sox or a similar utility.  To compile without sound event support change the value of '#define SUPPORT_SOUND_EVENTS 1' in 'config.h' to '0'
+	- The 'configuration' window has been completely redesigned to look cleaner and use much less screen space
+	- Added a security/privacy feature (accessible in the configuration window) for preventing people from adding you to their friends list: If this option is set to 'Yes', people who attempt to add you to their friends list will be automatically rejected (similar to pressing the 'Deny' button on windows), unless you either add them to your buddy list first or you disable the feature
+	- Added a security/privacy feature (accessible in the configuration window) for ignoring any files people attempt to send you; if set to 'Yes' this feature will ignore any files people send to you from Peer-to-peer or file-transfer
+	- Added configurable options for having your name and/or those of anybody on your buddy list highlight in the list of chat room users; If set to yes, your name will be highlight in the list and/or the names of any of your friends will be highlight in the list
+	- Changed  around a few of the colors used to display messages on the main chat screen (to spiff things up).
+	- Added a user interface and functionality for modifying the permanent ignore list stored on Yahoo's servers
+	- Added 'View shared files...' to the menu for quick viewing of a user's briefcase
+	- The buddy list now uses buddy-online/buddy-offline icons instead of asterisks (the icons are penguins and dimmed penguins)
+	- The buddy list tab is now 'inactive' when you are not connected (just to prevent you from doing things that may crash due to a lack of connection)
+	- Re-wrote the code for creating rooms on Yahoo: Now ALL combinations of public/private, voice/no-voice, invite-only, etc. are now support and create rooms with the appropriate room attributes  (before, it was impossible to create a private room with voice chat, etc.)
+	- User interface improvements: added Gtk 'stock' icons where appropriate to all menus and popup menus
+	- The PM window now displays smileys from incoming PMs as smileys 
+	- Animated smileys are now supported in PM windows
+	- Fixed a bug which could cause Gyach Enhanced to seg-fault when a line was sent to the screen with back-to-back smileys starting with ':'; this was caused by 'convert_smileys' being called twice, a bug left over from the old Gyach
+	- The chat 'invitation' dialog has been changed to use the same style user interface as the one used by conferences, meaning you can easily select friends from you list, add other people not on your buddy list, then send invitations out in bulk  (good if you want to start a chat room and need to bring all your friends together quickly)
+	- The PM window has been completely redesigned to save screen space: using a combination of icons and tooltips instead of the old text buttons
+	- I *think* I have fixed most crashes related to the closing of the PM window
+	- Fixed a smiley parsing bug that would cause times like '10:00' to show up with unexpected smileys in the middle of them
+	- Added support for receiving Yahoo Games messages from users playing games: they are treated as PMs and now appear in the PM window
+	- Added a menu option under the 'Rooms' menu for leaving a chat room or conference (when you wish to be in NO room, but still online)
+	- Added options in the configuration window for basic boot prevention and advanced boot protection: advanced boot protection will lauch 'pre-emptive strikes' against people who appear to be harassing you or trying to boot you
+	- Added support for getting alerts about which Yahoo Games room a friend is in - shown on buddy status, chat room window, and pm window if you happen to be talking to that friend in PMs
+	- Support for sending/receiving Yahoo addressbook 'business cards' (however, no way yet to store received business cards, but they are at least shown on the screen); additional options in the configuration window for setting up personal info to be used on your Yahoo addressbook 'business card' sent out to friends
+	- Several bug fixes to the fader (fader.c) support which should eliminate most improperly displayed text when using 'FADE' and 'ALT' tags, as a result, some fades/alts may not seem as 'gradual', but text will always be displayed in readable manner (hopefully)
+	- Added 'New Custom Status...' to the 'Status' menu for a quick way to change your custom status without opening the configuration window
+	- Added support for showing 'idle' messages in the buddy list
+	- IMvironments are now acknowledged: meaning you will know a person you are in PMs with is trying to load one and see a crude name of the IMvironment, however there is no way to display IMvironments  (not really planning to add support for that)
+	- Major buf fixes to the 'convert_smileys' code in util.c, which should fix most problems with certain  smileys not showing with a line is sent containing just a smiley
+	- Added configurable option for translating sent/received  'away' and 'back' messages  (if translation for your language is available)
+	- Added 'quick profile' to the user menu that pops up over users' names in the chat room list: clicking it tells you their age/sex/location/webcam availibity  quickly on the screen
+	- Added several dialogs for special events: when somebody requests to add you as a friend, conference/chat invites, mail alerts, etc.
+	- GUI improvements to the Configuration window, major improvements when running under the Spanish locale
+	- Added 2 options to the configuration window for enabling/disabling sound event support for PMs and other events
+	- Added feature for refreshing the buddy list
+	- Bug fix for smiley display, you should not see smileys displayed in text that is supposed to be a time such as "10:00"
+	- Added support for showing an error message when you attempt to 'join' a friend in a room who is not in a room
+	- Added support for showing an error message when the chat room is full or unavailable
+	- Added support when a Yahoo error occurs while attempting to create a room
+	- added support for sending offline messages
+	- improved locale support, got rid of weird characters showing up (only tested 
+	with Spanish so far
+	- added '/revoke' command to remove yourself from someone's buddy list
+	- set reasonable limits on how much text a person can send to chat windows, PM 
+	windows, conference windows to avoid buffer overflows and defend against 		  spammers/boooters
+	- added increased 'auto-ignore' protection against spammers/flooders/booters who
+	may try to send repeated conference invites/declines, webcam invites/declines/,
+	voice chat invites, peer2peer/file transfer notices, etc.
+	- you are now shown a warning if somebody is trying to boot you using the 
+	'conference decline' flood
+	- increased boot protection by adding basic 'flow control' to the file descriptor that reads from the Yahoo messenger socket; flow control increases when large packets are sent to your connection (normally these are larger than normal conference decline boot packets) or a series of 'dangerous' packets (likely to be boot packets) are sent to you - as a result, the GUI might appear to 'pause' for a second when such packets beging coming in, but recovers within 15 seconds and continues to operate fairly gracefully even as such boot attempts continue; this as been tested conference decline, buddy add/reject, webcam invite, and PM bombs/boot attempts
+	- increased boot protection, pings are now sent back to yahoo's server if it appears
+	somebody is trying to boot us, this resets the flag on the ymsg-9 packet and 
+	'appears' to help stop us from getting booted
+	- Whatever permissions you apply to PMs now extend to conference invites, 
+	file transfers, chat invites, voice chat invites, webcam invites, etc. - so if you have 
+	PMs restricted to just friends, then conference invites, webcam invites, etc will also
+	be restricted to just friends
+	- Added ability to accept/decline to be added to somebody's buddy list
+	- Added feature that automatically REJECTS an attempt by and ignored user to 
+	add you to their buddy list
+	- Removing a buddy from your buddy list now gives you the option to remove yourself from THEIR buddy list
+	- Allowing a person to your buddy list now asks you if you would like to add them to YOUR buddy list
+	- Major fixes to the mute/ignore features that show up on the user menu over users' names in the chat room list
+	- Messages attached to buddy 'decline' messages, buddy 'add' messages, 
+	conference/chat invites and declines, and file transfers have a reasonable limit 
+	set on the amount of text from the message that will be shown to avoid 
+	spammers/booters using this as a buffer overflow method - also, this help
+	stop dialog boxes from being to large
+	- Whatever flood protection you have configured for multiple chat room posts 
+	now extends to conference invites/declines, buddy add attempts, voice chat 
+	invites, web cam invites, file transfer attempts, etc. (so if you have it set to 
+	ignore somebody after 5 repeated posts of the same thing, they will also be 
+	auto-ignored for attempting to add you to their buddy list 5 times in a row)
+	- Overall flood, boot, and buffer overflow protection improved.
+	- Conference chat still has lots of bugs to be worked out
+	- One-to-one voice chat is still considered very experimental
+	- Buddy list now clears when you log off, so you should not still see buddies from another screen name you were on when you switch screen names - This is also a memory leak fix to avoid the buddy status hash from getting too large
+	- Added support for auto-muting people in chats based on criteria: gender/age, configurable from the setup menu
+	- Memory leak fix, code clean up:  The screen name alias hash is now emptied and freed each time you switch rooms...this helps with memory and also makes sure the PyVoice 'alias' file doesn't keep getting bigger and bigger
+	- Added quick links on the 'Tools' menu for Yahoo Games and 'Report Abuse' 
+	- The interface.c module has been split (it had gotten too big): spawn modules roomui.c, pmwindow.c, setupwindow2.c, etc.
+	- All packet handling functionality has been moved out of main.c and into a separate module: packet_handler.c
+	- Lots of spanish language updates/additions
+	- Added conference.h, bootprevent.c, bootprevent.h, animations.c, animations.h
+	- Many other improvements, bug fixes, etc. that I can't remember right now...
+	
+
+
+#######################
+GYach Enhanced - 0.9.4
+#######################
+This is the initial release of GYach Enhanced, and UNOFFICIAL 'fork' of the original GYach program for connecting to Yahoo chat rooms, see the 'PHROZEN_SMOKE_README.txt' file for all the new features in GYach Enhanced.

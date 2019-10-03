@@ -1,0 +1,4 @@
+rm -f pytsp*.tar.bz2
+tar -cjf pytsp-0.2.tar.bz2  ./pytsp/*.py ./pytsp/stubs.s ./pytsp/wrapper.S  ./pytsp/*.so ./pytsp/*.c ./pytsp/*.h ./pytsp/*.i   ./pytsp/*.mak ./pytsp/Makefile ./pytsp/Build ./pytsp/Build.pyesd ./pytsp/README* ./pytsp/AUTHORS ./pytsp/LICENSE ./pytsp/tsp.header ./pytsp/pyesd.html ./pytsp/pytsp.html  ./pytsp/wine/* ./pytsp/codec/*
+rm -f pytsp-codec*.tar.bz2
+tar -cjf tsp-codec.tar.bz2 ./pytsp/codec/*

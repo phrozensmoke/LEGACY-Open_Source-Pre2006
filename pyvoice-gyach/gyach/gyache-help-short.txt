@@ -1,0 +1,64 @@
+
+--------------------------------------------------------------
+Gyach ENHANCED-PhrozenSmoke
+Copyright (c) 2003-2006, Erica Andrews [phrozensmoke 'at' yahoo.com]
+Copyright (c) 2000-2003, Chris T. Pinkham [cpinkham 'at' corp.infi.net]
+License: GNU General Public License.
+http://phpaint.sourceforge.net/pyvoicechat/
+
+
+CHAT COMMANDS:
+  /adv                        paste Gyach ENHANCED version and url
+  /away [msg]                 go away with custom auto-away message
+  /back                       come back from away status
+  /business-card [user]       send your contact information to 'user'
+  /clear                      clear chat text window
+  /conf-invite [user]         invite user to private conference
+  /conf-start                 start a private conference
+  /date                       show current date and time
+  /emote [text]                    send text as an emote
+  /e [text]                    send text as an emote
+  /find [text]                search in chat window for text
+  /flooder-remove [user]      remove user from list of flooders/booters
+  /follow [user]              follow user
+  /follow                     stop following
+  /friends                    show your buddy list
+  /friend [user]              add/remove user to buddy/friend list
+  /goto [user]                join 'user' in whatever chat room 
+				   they are currently in
+  /help                       short command help screen
+  /history                    display command history
+  /ignore [user]              ignore/un-ignore user
+  /image [file_name]          display the image 'file_name'
+				   in the 'Chat' window
+  /invite [user]              invite the user to the current room
+  /logout                     logout and quit Gyach-E
+  /logoff                     logout and quit Gyach-E
+  /mail                       show a preview of your Yahoo Mail messages
+  /mute [user]                mute/un-mute user for this session
+  /profile [user]             show user's profile
+  /quit                       logout and quit Gyach-E
+  /regex [regex]              add/remove regex to auto-ignore list
+  /regex_test "text" [regex]  test the specified text (quotes
+                                  required) against given regex
+  /rejoin              	      leave the current room and come
+  			         right back in (cannot be a conference)
+  /revoke [user]              revoke another user's right to have
+  			        you on their buddy list - 
+			        take your name off their list
+  /tell [user] [text]         send PM to user
+  /temp-friend-add [user]     add user to your temporary buddy list
+  /temp-friend-remove [user]  remove user from your temporary buddy list
+  /think [text]               . o O( think text )
+  /t [text]               . o O( think text )
+  /time                       show current date and time
+  /ver                        paste Gyach ENHANCED version and url
+  /viewcam [user]             view a user's webcam 
+				 (Requires GyachE-Webcam or pYWebCam)
+  : [text]                    send text as an emote
+  ! [command]                 execute command and post results
+  !! [command]                execute command and displayresults locally
+  s: [term]                   search the web for 'term'
+
+   *** For a complete list of commands, click 'Help' on the menu. ***
+-----------------------------------------------------------

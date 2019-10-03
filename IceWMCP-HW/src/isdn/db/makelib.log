@@ -1,0 +1,1252 @@
+cdpppcdpppcdppcdppcdppcdpppcdpppcddppcddppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdpppcdppcdppcdpppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdpppcdppcdpppcdppppcdppcdppcdppcdppcdppcdppcdpppcdpppcdppcddppcddppcddppcddppcdppcdppcdppcdpppcdppcdppcdppcdppcdppcdppcdppcdppcdpppcdpppcdpppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcddppcdcdppcdpppcdppcdpppcdppcdppcdpppcdcdcdcdcdcdcdppcdppcdppcdppcdppcdppcdppcdppcdppcdppcdpp
+Found 135 cards 142 drivers 275 parameters
+add_card:Teles 16.0 C3 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 1/0 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F300 L8 3 4 5 9 a b c f
+add_para:IO Dd80 F500 L3 d80 e80 f80
+add_para:MEMBASE Dd0000 F300 L16 c0000 c2000 c4000 c6000 c8000 ca000 cc000 ce000 d0000 d2000 d4000 d6000 d8000 da000 dc000 de000
+add_card:Teles 16.0 AB C3 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 1/1 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F300 L8 3 4 5 9 a b c f
+add_para:IO Dd80 F500 L3 d80 e80 f80
+add_para:MEMBASE Dd0000 F300 L16 c0000 c2000 c4000 c6000 c8000 ca000 cc000 ce000 d0000 d2000 d4000 d6000 d8000 da000 dc000 de000
+add_card:Teles 8.0 C3 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 2/0 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F500 L6 3 4 5 6 7 9
+add_para:MEMBASE Dd0000 F500 L16 c0000 c2000 c4000 c6000 c8000 ca000 cc000 ce000 d0000 d2000 d4000 d6000 d8000 da000 dc000 de000
+add_card:Teles 16.3 C3 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 3/0 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F300 L5 5 9 a c f
+add_para:IO D180 F500 L3 180 280 380
+add_card:Teles 16.3 AB C3 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 3/1 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F300 L7 3 5 9 a b c f
+add_para:IO D180 F500 L3 180 280 380
+add_card:Teles 16.3 PNP C2 0x2750/0x1021/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 4/0 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F1100 L0
+add_para:IO0 D580 F1100 L0
+add_para:IO1 D180 F1100 L0
+add_card:Creatix 16.3 PNP C2 0x980e/0x0/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 4/1 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F1100 L0
+add_para:IO0 D580 F1100 L0
+add_para:IO1 D180 F1100 L0
+add_card:AVM FRITZ!Card Classic C3 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 5/0 A10003 Ff P:"" M:"" C:"" F:"" D:OpenSource without Fax G3 N:i4l-base,i4l-isdnlog,capi4linux
+add_drv:AVM CAPI2.0add_drv:fcclassic 8002/3 A1 F130000a P:"" M:capi C:"" F:"" D:binary only CAPI with FAX G3 N:i4l-base,i4l-isdnlog,capi4linux
+add_para:IRQ D5 F300 L9 3 4 5 7 9 a b c f
+add_para:IO D200 F100 L4 200 240 300 340
+add_card:AVM A1 C3 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 5/1 A10003 Ff P:"" M:"" C:"" F:"" D:OpenSource without Fax G3 N:i4l-base,i4l-isdnlog,capi4linux
+add_drv:AVM CAPI2.0add_drv:fcclassic 8002/4 A1 F130000a P:"" M:capi C:"" F:"" D:binary only CAPI with FAX G3 N:i4l-base,i4l-isdnlog,capi4linux
+add_para:IRQ D5 F300 L9 3 4 5 7 9 a b c f
+add_para:IO D200 F500 L4 200 240 300 340
+add_card:Elsa ML PC C3 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 6/1 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 Fd00 L4 3 5 7 9
+add_para:IO D160 Fd00 L4 160 170 260 360
+add_card:Elsa ML PCC-8 C3 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 6/2 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 Fd00 L4 3 5 7 9
+add_para:IO D160 Fd00 L4 160 170 260 360
+add_card:Elsa ML PCC-16 C3 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 6/3 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 Fd00 L6 3 5 9 a b f
+add_para:IO D160 Fd00 L4 160 170 260 360
+add_card:Elsa ML PCF C3 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 6/4 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 Fd00 L6 3 5 9 a b f
+add_para:IO D160 Fd00 L4 160 170 260 360
+add_card:Elsa ML PCF-Pro C3 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 6/5 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 Fd00 L6 3 5 9 a b f
+add_para:IO D160 Fd00 L4 160 170 260 360
+add_card:Elsa Quickstep 1000 C2 0x9315/0x3301/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 7/7 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F1100 L0
+add_para:IO D160 F1100 L0
+add_card:Elsa Quickstep 3000 C2 0x9315/0x3401/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 7/8 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F1100 L0
+add_para:IO D160 F1100 L0
+add_card:Teles PCMCIA C4 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 8/0 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F0 L0
+add_para:IO D0 F0 L0
+add_card:ITK ix1-micro Rev.2 C3 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 9/0 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ Db F100 L4 5 9 a b
+add_para:IO D390 F100 L4 390 398 3a0 3a8
+add_card:ITK ISDN 3.0 C2 0x8b26/0x2500/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 9/1 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ Db F1100 L0
+add_para:IO D390 F1100 L0
+add_card:ITK ISDN PnP C2 0x8b26/0x2900/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 9/2 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ Db F1100 L0
+add_para:IO D390 F1100 L0
+add_card:Elsa PCMCIA C4 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 10/6 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F0 L0
+add_para:IO D0 F0 L0
+add_card:Elsa PCMCIA IPAC C4 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 10/11 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F0 L0
+add_para:IO D0 F0 L0
+add_card:Eicon Diva 2.0 ISA C2 0x891c/0x7100/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 11/1 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F1100 L0
+add_para:IO D200 F1100 L0
+add_card:Eicon Diva 2.0 PCI C1 0x1133/0xe002/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 11/2 A10007 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS2 D0 F2000 L0
+add_card:Eicon Diva 2.01 ISA C2 0x891c/0xa100/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 11/3 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F1100 L0
+add_para:IO D200 F1100 L0
+add_card:Eicon Diva 2.01 PCI C1 0x1133/0xe005/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 11/4 A10007 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS0 D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:Eicon Diva Piccola C2 0x891c/0x5100/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 11/11 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F1100 L0
+add_para:IO D200 F1100 L0
+add_card:Eicon Diva 2.0U PCI C1 0x1133/0xe004/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 11/12 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS2 D0 F2000 L0
+add_card:Eicon Diva 2.02 PCI C1 0x1133/0xe00b/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 11/13 A10007 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS0 D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:AsusCom ISA ISAC C2 0x7506/0x8816/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 12/1 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F1100 L0
+add_para:IO D180 F1100 L0
+add_card:AsusCom ISA IPAC C2 0x7506/0x9016/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 12/2 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F1100 L0
+add_para:IO D180 F1100 L0
+add_card:Siemens ISurf 2 C2 0x254d/0x2000/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 12/3 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F1100 L0
+add_para:IO D180 F1100 L0
+add_card:Iscas TE320 C2 0x8615/0x0/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 12/4 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F1100 L0
+add_para:IO D180 F1100 L0
+add_card:TeleInt SA1 C3 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 13/0 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F300 L6 3 4 5 7 a b
+add_para:IO D300 F500 L0
+add_card:Teles 16.3c C2 0x2750/0x1026/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 14/0 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F1100 L0
+add_para:IO D580 F1100 L0
+add_card:iSTAR PnP C2 0x2750/0x1074/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 14/1 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F1100 L0
+add_para:IO D580 F1100 L0
+add_card:Sedlbauer Speed Card C3 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 15/0 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ Db F500 L8 3 4 5 7 a b c f
+add_para:IO D270 F500 L0
+add_card:Sedlbauer Speed Win C2 0x274c/0x100/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 15/1 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F1100 L0
+add_para:IO D200 F1100 L0
+add_card:Sedlbauer Speed Win2 PC104 C5 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 15/4 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F0 L0
+add_para:IO D0 F0 L0
+add_card:Sedlbauer Speed PCI C1 0xe159/0x2/0x53/0x1/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 15/6 A10007 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS0 D0 F2000 L0
+add_card:HST saphir III C1 0xe159/0x2/0x52/0x1/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 15/9 A10007 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS0 D0 F2000 L0
+add_card:USR Sportster C3 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 16/0 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F300 L7 5 7 a b c e f
+add_para:IO D268 F500 L0
+add_card:ith mic C3 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 17/0 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F500 L8 3 4 5 7 a b c f
+add_para:IO D200 F500 L0
+add_card:Elsa Quickstep 1000 PCI C1 0x1048/0x1000/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 18/9 A10007 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_para:BASE_ADRESS3 D0 F2000 L0
+add_card:Elsa Quickstep 3000 PCI C1 0x1048/0x3000/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 18/10 A10007 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:IO D0 F2000 L0
+add_card:Elsa Microlink PCI C1 0x1048/0x1000/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 18/12 A10007 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_para:BASE_ADRESS3 D0 F2000 L0
+add_card:Compaq ISDN S0 ISA C2 0x110e/0x210/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 19/0 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F1100 L0
+add_para:IO0 D2000 F1100 L0
+add_para:IO1 D2100 F1100 L0
+add_para:IO2 D2180 F1100 L0
+add_card:Tiger 300 PCI C1 0xe159/0x1/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 20/0 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS0 D0 F2000 L0
+add_card:NetJet PCI C1 0xe159/0x1/0xff/0xf/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 20/1 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS0 D0 F2000 L0
+add_card:Teles2 PCI C1 0xe159/0x1/0xa7/0x1/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 20/2 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS0 D0 F2000 L0
+add_card:Teles PCI C1 0x11de/0x6120/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 21/0 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS0 D0 F2000 L0
+add_card:Sedlbauer Speed Star C4 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 22/2 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F0 L0
+add_para:IO D0 F0 L0
+add_card:Sedlbauer Speed Star2 C4 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 22/5 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F0 L0
+add_para:IO D0 F0 L0
+add_card:Sagem Niccy ISA C2 0x814c/0x5001/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 24/1 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F1100 L0
+add_para:IO0 D200 F1100 L0
+add_para:IO1 D220 F1100 L0
+add_card:Sagem Niccy PCI C1 0x1267/0x1016/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 24/2 A10007 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS0 D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:S0Box C6 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 25/0 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D7 F100 L0
+add_para:IO D278 F100 L3 378 278 3bc
+add_card:AVM FRITZ!Card PCMCIA C4 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 26/0 A10003 Ff P:"" M:"" C:"" F:"" D:OpenSource without Fax G3 N:i4l-base,i4l-isdnlog,capi4linux
+add_drv:AVM CAPI2.0add_drv:fcpcmcia 8002/5 A1 F130000a P:"" M:capi C:"" F:"" D:binary only CAPI with FAX G3 N:i4l-base,i4l-isdnlog,capi4linux
+add_para:IRQ D0 F0 L0
+add_para:IO D0 F0 L0
+add_card:AVM A1 PCMCIA C4 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 26/1 A10003 Ff P:"" M:"" C:"" F:"" D:OpenSource without Fax G3 N:i4l-base,i4l-isdnlog,capi4linux
+add_drv:AVM CAPI2.0add_drv:fcpcmcia 8002/6 A1 F130000a P:"" M:capi C:"" F:"" D:binary only CAPI with FAX G3 N:i4l-base,i4l-isdnlog,capi4linux
+add_para:IRQ D0 F0 L0
+add_para:IO D0 F0 L0
+add_card:AVM FRITZ!PCI C1 0x1244/0xa00/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 27/1 A10007 Ff P:"" M:"" C:"" F:"" D:OpenSource without Fax G3 N:i4l-base,i4l-isdnlog,capi4linux
+add_drv:AVM CAPI2.0add_drv:fcpci 8002/1 A1 F130000a P:"" M:capi C:"" F:"" D:binary only CAPI with FAX G3 N:i4l-base,i4l-isdnlog,capi4linux
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:AVM FRITZ!Card PnP C2 0xcd06/0x9/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 27/2 A10003 Ff P:"" M:"" C:"" F:"" D:OpenSource without Fax G3 N:i4l-base,i4l-isdnlog,capi4linux
+add_drv:AVM CAPI2.0add_drv:fcpnp 8002/7 A1 F130000a P:"" M:capi C:"" F:"" D:binary only CAPI with FAX G3 N:i4l-base,i4l-isdnlog,capi4linux
+add_para:IRQ D5 F1100 L0
+add_para:IO D200 F1100 L0
+add_card:Sedlbauer Speed Fax+ C2 0x274c/0x200/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 28/3 A10003 F1000f P:"" M:"" C:"" F:ISAR.BIN D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F1100 L0
+add_para:IO D200 F1100 L0
+add_card:Pyramid Speed Fax+ PCI C1 0xe159/0x2/0x51/0x1/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 28/7 A10007 F1000f P:"" M:"" C:"" F:ISAR.BIN D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS0 D0 F2000 L0
+add_card:Sedlbauer Speed Fax+ PCI C1 0xe159/0x2/0x54/0x1/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 28/8 A10007 F1000f P:"" M:"" C:"" F:ISAR.BIN D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS0 D0 F2000 L0
+add_card:Siemens ISURF C2 0x254d/0x1000/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 29/0 A10003 F1000f P:"" M:"" C:"" F:ISAR.BIN D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F1100 L0
+add_para:IO D100 F1100 L0
+add_para:MEMBASE Dc8000 F1100 L0
+add_card:Acer P10 C2 0xd805/0x1411/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 30/0 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F1100 L0
+add_para:IO D220 F1100 L0
+add_card:Billion BIPAC-D C2 0x2c09/0x200/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 30/1 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F1100 L0
+add_para:IO D280 F1100 L0
+add_card:Billion BIPAC-D1 C2 0x2c09/0x100/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 30/2 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F1100 L0
+add_para:IO D280 F1100 L0
+add_card:Genius Speed Surfer C2 0x252f/0x100/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 30/3 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F1100 L0
+add_para:IO D280 F1100 L0
+add_card:Tornado Tipac C2 0xcd4c/0x100/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 30/4 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F1100 L0
+add_para:IO D280 F1100 L0
+add_card:HST Saphir C3 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 31/0 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F300 L5 3 5 b c f
+add_para:IO D250 F500 L7 250 270 290 2b0 2d0 350 370
+add_card:Berkom A4T C1 0x11de/0x6120/0x871/0xffa4/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 32/0 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS0 D0 F2000 L0
+add_card:Scitel Quadro C1 0x10b5/0x9050/0x871/0xffa8/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 33/0 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:Gazel R685 C1 0x10b5/0x1030/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 34/0 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_para:BASE_ADRESS2 D0 F2000 L0
+add_card:Gazel R753 C1 0x10b5/0x1152/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 34/1 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_para:BASE_ADRESS2 D0 F2000 L0
+add_card:Gazel Djinn Itoo C1 0x10b5/0x1151/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 34/2 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_para:BASE_ADRESS2 D0 F2000 L0
+add_card:Billion B000 C1 0x1397/0xb000/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 35/1 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:Billion B006 C1 0x1397/0xb006/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 35/2 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:Billion B007 C1 0x1397/0xb007/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 35/3 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:Billion B008 C1 0x1397/0xb008/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 35/4 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:Billion B009 C1 0x1397/0xb009/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 35/5 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:Billion B00A C1 0x1397/0xb00a/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 35/6 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:Billion B00B C1 0x1397/0xb00b/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 35/7 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:Billion B00C C1 0x1397/0xb00c/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 35/8 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:Seyon B100 C1 0x1397/0xb100/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 35/9 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:AsusCom PCI (CCD HFC) C1 0x1043/0x675/0x675/0x1704/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 35/10 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:Dynalink PCI (CCD HFC) C1 0x1397/0x2bd0/0x1043/0x1704/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 35/11 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:Askey PCI (CCD HFC) C1 0x1397/0x2bd0/0x144f/0x1704/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 35/12 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:Telekom A1T C1 0x871/0xffa1/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 35/13 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:Telekom Concept C1 0x871/0xffa2/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 35/14 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:Motorola MC145575 C1 0x1051/0x100/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 35/15 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:Zolltrix 2BDS0 C1 0x15b0/0x2bd0/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 35/16 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:CCD HFC 2BDS0 C1 0x1397/0x2bd0/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 35/17 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:Digi DataFire Micro V IOM2 (Europe) C1 0x114f/0x70/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 35/18 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:Digi DataFire Micro V (Europe) C1 0x114f/0x71/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 35/19 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:Digi DataFire Micro V IOM2 (North America) C1 0x114f/0x72/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 35/20 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:Digi DataFire Micro V (North America) C1 0x114f/0x73/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 35/21 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:Abocom/Magitek 2BD1 C1 0x13d1/0x2bd1/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 35/22 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:ASUSCOM PCI (W6692) C1 0x1050/0x6692/0x1043/0x1702/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 36/0 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:AsKey PCI (W6692) C1 0x1050/0x6692/0x144f/0x1702/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 36/1 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:ASUSCOM PCI + Voice (W6692) C1 0x1050/0x6692/0x1043/0x1703/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 36/2 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:AsKey  PCI + Voice (W6692) C1 0x1050/0x6692/0x144f/0x1703/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 36/3 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:Dynalink PCI (W6692) C1 0x1043/0x675/0x675/0x1702/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 36/4 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:Dynalink 6692 PCI C1 0x675/0x1702/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 36/5 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:Winbond W6692 card C1 0x1050/0x6692/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 36/6 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:U.S.Robotics ISDN PCI Card TA C1 0x1050/0x6692/0x16ec/0x3409/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 36/7 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:Teles 16.3c v.2.1 C2 0x2750/0x2026/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 37/0 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F1100 L0
+add_para:IO D580 F1100 L0
+add_card:HFCS+ based card C2 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 37/1 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D5 F1100 L0
+add_para:IO D180 F1100 L0
+add_card:NetSpider-U PCI C1 0xe159/0x1/0xffff/0xffff/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 38/0 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS0 D0 F2000 L0
+add_card:Formula-n enter:now C1 0xe159/0x1/0x55/0x2/0x1/0x1
+add_drv:HiSaxadd_drv:hisax 41/1 A10003 Ff P:"" M:"" C:"" F:"" D:under development N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS0 D0 F2000 L0
+add_card:AVM FRITZ!PCI v2.0 C1 0x1244/0xe00/0x1244/0xe00/0x1/0x1
+add_drv:HiSax FritzV2add_drv:hisax_fcpcipnp 1000/0 A10003 Ff P:"" M:hisax C:"" F:"" D:OpenSource without Fax G3 N:i4l-base,i4l-isdnlog,capi4linux
+add_drv:AVM CAPI2.0add_drv:fcpci 8002/2 A1 F130000a P:"" M:capi C:"" F:"" D:binary only CAPI with FAX G3 N:i4l-base,i4l-isdnlog,capi4linux
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:ST5481 USB Adapter C8 0x483/0x4810/0xffff/0xffff/0x1/0x1
+add_drv:HiSax ST5481add_drv:hisax_st5481 1001/1 A10003 Ff P:"" M:"" C:"" F:"" D:"" N:i4l-base,i4l-isdnlog
+add_card:AVM B1 C3 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:AVM B1 ISAadd_drv:b1isa 8001/0 A10001 F30000f P:"" M:capi C:"" F:b1-%{PROTO}.t4 D:"" N:i4l-base,i4l-isdnlog,capi4linux
+add_para:IRQ D5 F300 L10 3 4 5 6 7 9 a b c f
+add_para:IO D150 F500 L4 150 250 300 340
+add_card:AVM B1 PCI C1 0x1244/0x700/0xffff/0xffff/0x1/0x1
+add_drv:AVM B1 PCIadd_drv:b1pci 8001/1 A10001 F30000f P:"" M:capi C:"" F:b1-%{PROTO}.t4 D:"" N:i4l-base,i4l-isdnlog,capi4linux
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS0 D0 F2000 L0
+add_para:BASE_ADRESS2 D0 F2000 L0
+add_card:AVM B1 PCMCIA C4 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:AVM B1 PCMCIAadd_drv:b1pcmcia 8001/2 A10001 F30000f P:"" M:capi C:"" F:b1-%{PROTO}.t4 D:"" N:i4l-base,i4l-isdnlog,capi4linux
+add_para:IRQ D0 F0 L0
+add_para:IO D0 F0 L0
+add_card:AVM C4 C1 0x1011/0x1065/0x1244/0x800/0x1/0x4
+add_drv:AVM C4add_drv:c4 8001/3 A10001 F30000f P:"" M:capi C:"" F:c4.bin D:"" N:i4l-base,i4l-isdnlog,capi4linux
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS0 D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:AVM M1 PCMCIA C4 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:AVM B1 PCMCIAadd_drv:b1pcmcia 8001/4 A10001 F30000f P:"" M:capi C:"" F:b1-%{PROTO}.t4 D:"" N:i4l-base,i4l-isdnlog,capi4linux
+add_para:IRQ D0 F0 L0
+add_para:IO D0 F0 L0
+add_card:AVM M2 PCMCIA C4 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:AVM B1 PCMCIAadd_drv:b1pcmcia 8001/5 A10001 F30000f P:"" M:capi C:"" F:b1-%{PROTO}.t4 D:"" N:i4l-base,i4l-isdnlog,capi4linux
+add_para:IRQ D0 F0 L0
+add_para:IO D0 F0 L0
+add_card:AVM C2 C1 0x1011/0x1065/0x1244/0x1100/0x1/0x2
+add_drv:AVM C2add_drv:c4 8001/6 A10001 F30000f P:"" M:capi C:"" F:c4.bin D:"" N:i4l-base,i4l-isdnlog,capi4linux
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS0 D0 F2000 L0
+add_para:BASE_ADRESS1 D0 F2000 L0
+add_card:AVM FRITZ!Card USB C8 0x57c/0xc00/0xffff/0xffff/0x1/0x1
+add_drv:AVM CAPI2.0add_drv:fcusb 8003/1 A1 F130000a P:"" M:capi C:"" F:"" D:binary only CAPI with FAX G3 N:i4l-base,i4l-isdnlog,capi4linux
+add_card:AVM FRITZ!Card USB v2.0 C8 0x57c/0x1000/0xffff/0xffff/0x1/0x1
+add_drv:AVM CAPI2.0add_drv:fcusb2 8003/2 A1 F130000a P:"" M:capi C:"" F:"" D:binary only CAPI with FAX G3 N:i4l-base,i4l-isdnlog,capi4linux
+add_card:AVM FRITZ!Card USB v2.1 C8 0x57c/0x1900/0xffff/0xffff/0x1/0x1
+add_drv:AVM CAPI2.0add_drv:fcusb2 8003/3 A1 F130000a P:"" M:capi C:"" F:"" D:binary only CAPI with FAX G3 N:i4l-base,i4l-isdnlog,capi4linux
+add_card:AVM FRITZ!X USB C8 0x57c/0x2000/0xffff/0xffff/0x1/0x1
+add_drv:AVM CAPI2.0add_drv:fxusb 8003/5 A1 F130000a P:"" M:capi C:"" F:"" D:binary only CAPI with FAX G3 N:i4l-base,i4l-isdnlog,capi4linux
+add_card:AVM FRITZ!X USB OEM C8 0x57c/0x2800/0xffff/0xffff/0x1/0x1
+add_drv:AVM CAPI2.0add_drv:fxusb_CZ 8003/6 A1 F130000a P:"" M:capi C:"" F:"" D:binary only CAPI with FAX G3 N:i4l-base,i4l-isdnlog,capi4linux
+add_card:AVM FRITZ!Card DSL C1 0x1131/0x5402/0x1244/0xf00/0x5/0x1
+add_drv:AVM CAPI2.0add_drv:fcdsl 8004/1 A1 F130000a P:"" M:capi C:"" F:"" D:binary only CAPI with FAX G3 and DSL N:i4l-base,i4l-isdnlog,capi4linux,avm_fcdsl
+add_card:Eicon Diehl ISDN-S C3 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:Eicon divaadd_drv:eicon 8010/0 A10003 F2000f P:"" M:"" C:"" F:%{PROTO} D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ Da F500 L6 3 4 9 a b c
+add_para:MEMBASE Dd0000 F500 L0
+add_card:Eicon Diehl ISDN-SX C3 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:Eicon divaadd_drv:eicon 8010/1 A10003 F2000f P:"" M:"" C:"" F:%{PROTO} D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ Da F500 L6 3 4 9 a b c
+add_para:MEMBASE Dd0000 F500 L0
+add_card:Eicon Diehl ISDN-SCOM C3 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:Eicon divaadd_drv:eicon 8010/2 A10003 F2000f P:"" M:"" C:"" F:%{PROTO} D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ Da F500 L8 3 4 5 7 9 a b c
+add_para:MEMBASE Dd0000 F500 L0
+add_card:Eicon Diehl ISDN-QUADRO C3 0x0/0x0/0x0/0x0/0x1/0x4
+add_drv:Eicon divaadd_drv:eicon 8010/3 A10003 F2000f P:"" M:"" C:"" F:%{PROTO} D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ Da F500 L8 3 4 5 6 9 a b c
+add_para:MEMBASE Dd0000 F500 L0
+add_card:Eicon Diehl ISDN-S2M C3 0x0/0x0/0x0/0x0/0x2/0x1
+add_drv:Eicon divaadd_drv:eicon 8010/4 A10003 F2000f P:"" M:"" C:"" F:%{PROTO} D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ Da F500 L8 3 4 5 7 9 a b c
+add_para:MEMBASE Dd0000 F500 L0
+add_card:Eicon Diva Server BRI PCI C1 0x1133/0xe010/0xffff/0xffff/0x1/0x1
+add_drv:Eicon divaadd_drv:eicon 8010/5 A10003 F2000f P:"" M:"" C:"" F:%{PROTO} D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS2 D0 F2000 L0
+add_card:Eicon Diva Server 4BRI/PCI C1 0x1133/0xe012/0xffff/0xffff/0x1/0x4
+add_drv:Eicon divaadd_drv:eicon 8010/6 A10003 F2000f P:"" M:"" C:"" F:%{PROTO} D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS2 D0 F2000 L0
+add_card:Eicon Diva Server 4BRI/PCI U C1 0x1133/0xe013/0xffff/0xffff/0x1/0x4
+add_drv:Eicon divaadd_drv:eicon 8010/7 A10003 F2000f P:"" M:"" C:"" F:%{PROTO} D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS2 D0 F2000 L0
+add_card:Eicon Diva Server PRI/PCI C1 0x1133/0xe014/0xffff/0xffff/0x2/0x1
+add_drv:Eicon divaadd_drv:eicon 8010/8 A10003 F2000f P:"" M:"" C:"" F:%{PROTO} D:"" N:i4l-base,i4l-isdnlog
+add_para:IRQ D0 F2000 L0
+add_para:BASE_ADRESS2 D0 F2000 L0
+add_card:ICN 2B C3 0x0/0x0/0x0/0x0/0x1/0x1
+add_drv:ICNadd_drv:icn 8030/0 A10003 Ff P:"" M:"" C:"" F:pc-%{PROTO}.bin D:"" N:i4l-base,i4l-isdnlog
+add_para:IO D320 F500 L14 300 310 320 330 340 350 360 308 318 328 338 348 358 368
+add_para:MEMBASE Dd0000 F300 L16 c0000 c2000 c4000 c6000 c8000 ca000 cc000 ce000 d0000 d2000 d4000 d6000 d8000 da000 dc000 de000
+add_card:ICN 4B C3 0x0/0x0/0x0/0x0/0x1/0x2
+add_drv:ICNadd_drv:icn 8030/1 A10003 Ff P:"" M:"" C:"" F:pc-%{PROTO}.bin D:"" N:i4l-base,i4l-isdnlog
+add_para:IO D320 F500 L14 300 310 320 330 340 350 360 308 318 328 338 348 358 368
+add_para:MEMBASE Dd0000 F300 L16 c0000 c2000 c4000 c6000 c8000 ca000 cc000 ce000 d0000 d2000 d4000 d6000 d8000 da000 dc000 de000
+got 374 paralist entries
+inserted 4461 bytes in drv_str and 2329 in cname_str
+ 96 ->   0
+ 64 ->   1
+100 ->   2
+ 86 ->   3
+ 98 ->   4
+ 30 ->   5
+ 29 ->   6
+ 84 ->   7
+ 97 ->   8
+ 99 ->   9
+  8 ->  10
+ 57 ->  11
+111 ->  12
+112 ->  13
+113 ->  14
+117 ->  15
+114 ->  16
+  7 ->  17
+123 ->  18
+ 56 ->  19
+ 59 ->  20
+118 ->  21
+119 ->  22
+120 ->  23
+ 58 ->  24
+109 ->  25
+121 ->  26
+122 ->  27
+115 ->  28
+116 ->  29
+ 70 ->  30
+ 75 ->  31
+ 76 ->  32
+ 77 ->  33
+ 78 ->  34
+ 79 ->  35
+ 80 ->  36
+ 81 ->  37
+ 82 ->  38
+ 65 ->  39
+ 66 ->  40
+ 91 ->  41
+ 46 ->  42
+  6 ->  43
+ 93 ->  44
+ 95 ->  45
+ 92 ->  46
+ 94 ->  47
+102 ->  48
+ 85 ->  49
+101 ->  50
+127 ->  51
+124 ->  52
+128 ->  53
+126 ->  54
+125 ->  55
+ 22 ->  56
+ 23 ->  57
+ 24 ->  58
+ 25 ->  59
+ 28 ->  60
+ 27 ->  61
+ 26 ->  62
+130 ->  63
+131 ->  64
+129 ->  65
+132 ->  66
+ 45 ->  67
+  9 ->  68
+ 11 ->  69
+ 10 ->  70
+ 12 ->  71
+ 13 ->  72
+ 20 ->  73
+ 21 ->  74
+ 14 ->  75
+ 43 ->  76
+ 15 ->  77
+ 44 ->  78
+108 ->  79
+ 74 ->  80
+ 72 ->  81
+ 73 ->  82
+ 67 ->  83
+106 ->  84
+ 69 ->  85
+ 40 ->  86
+133 ->  87
+134 ->  88
+ 32 ->  89
+ 35 ->  90
+ 42 ->  91
+ 18 ->  92
+ 19 ->  93
+ 17 ->  94
+ 89 ->  95
+ 48 ->  96
+107 ->  97
+ 61 ->  98
+ 55 ->  99
+ 53 -> 100
+ 54 -> 101
+ 71 -> 102
+ 36 -> 103
+ 60 -> 104
+ 62 -> 105
+ 39 -> 106
+ 51 -> 107
+ 52 -> 108
+ 37 -> 109
+ 38 -> 110
+ 83 -> 111
+ 63 -> 112
+ 31 -> 113
+110 -> 114
+ 33 -> 115
+ 87 -> 116
+ 88 -> 117
+  0 -> 118
+  1 -> 119
+  3 -> 120
+  4 -> 121
+  5 -> 122
+ 34 -> 123
+105 -> 124
+  2 -> 125
+ 50 -> 126
+ 16 -> 127
+ 49 -> 128
+ 47 -> 129
+ 68 -> 130
+104 -> 131
+ 41 -> 132
+103 -> 133
+ 90 -> 134
+  0 -> 118
+  1 -> 119
+  2 -> 125
+  3 -> 120
+  4 -> 121
+  5 -> 122
+  6 ->  43
+  7 ->  17
+  7 ->  17
+  8 ->  10
+  8 ->  10
+  9 ->  68
+ 10 ->  70
+ 11 ->  69
+ 12 ->  71
+ 13 ->  72
+ 14 ->  75
+ 15 ->  77
+ 16 -> 127
+ 17 ->  94
+ 18 ->  92
+ 19 ->  93
+ 20 ->  73
+ 21 ->  74
+ 22 ->  56
+ 23 ->  57
+ 24 ->  58
+ 25 ->  59
+ 26 ->  62
+ 27 ->  61
+ 28 ->  60
+ 29 ->   6
+ 30 ->   5
+ 31 -> 113
+ 32 ->  89
+ 33 -> 115
+ 34 -> 123
+ 35 ->  90
+ 36 -> 103
+ 37 -> 109
+ 38 -> 110
+ 39 -> 106
+ 40 ->  86
+ 41 -> 132
+ 42 ->  91
+ 43 ->  76
+ 44 ->  78
+ 45 ->  67
+ 46 ->  42
+ 47 -> 129
+ 48 ->  96
+ 49 -> 128
+ 50 -> 126
+ 51 -> 107
+ 52 -> 108
+ 53 -> 100
+ 54 -> 101
+ 55 ->  99
+ 56 ->  19
+ 56 ->  19
+ 57 ->  11
+ 57 ->  11
+ 58 ->  24
+ 58 ->  24
+ 59 ->  20
+ 59 ->  20
+ 60 -> 104
+ 61 ->  98
+ 62 -> 105
+ 63 -> 112
+ 64 ->   1
+ 65 ->  39
+ 66 ->  40
+ 67 ->  83
+ 68 -> 130
+ 69 ->  85
+ 70 ->  30
+ 71 -> 102
+ 72 ->  81
+ 73 ->  82
+ 74 ->  80
+ 75 ->  31
+ 76 ->  32
+ 77 ->  33
+ 78 ->  34
+ 79 ->  35
+ 80 ->  36
+ 81 ->  37
+ 82 ->  38
+ 83 -> 111
+ 84 ->   7
+ 85 ->  49
+ 86 ->   3
+ 87 -> 116
+ 88 -> 117
+ 89 ->  95
+ 90 -> 134
+ 91 ->  41
+ 92 ->  46
+ 93 ->  44
+ 94 ->  47
+ 95 ->  45
+ 96 ->   0
+ 97 ->   8
+ 98 ->   4
+ 99 ->   9
+100 ->   2
+101 ->  50
+102 ->  48
+103 -> 133
+104 -> 131
+105 -> 124
+106 ->  84
+107 ->  97
+108 ->  79
+109 ->  25
+109 ->  25
+110 -> 114
+111 ->  12
+112 ->  13
+113 ->  14
+114 ->  16
+115 ->  28
+116 ->  29
+117 ->  15
+118 ->  21
+119 ->  22
+120 ->  23
+121 ->  26
+122 ->  27
+123 ->  18
+124 ->  52
+125 ->  55
+126 ->  54
+127 ->  51
+128 ->  53
+129 ->  65
+130 ->  63
+131 ->  64
+132 ->  66
+133 ->  87
+134 ->  88
+  0 ->   0
+  1 ->   1
+  2 ->   2
+  3 ->   3
+  4 ->   4
+  5 ->   5
+  6 ->   6
+  7 ->   7
+  9 ->   8
+ 11 ->   9
+ 12 ->  10
+ 13 ->  11
+ 14 ->  12
+ 15 ->  13
+ 16 ->  14
+ 17 ->  15
+ 18 ->  16
+ 19 ->  17
+ 20 ->  18
+ 21 ->  19
+ 22 ->  20
+ 23 ->  21
+ 24 ->  22
+ 25 ->  23
+ 26 ->  24
+ 27 ->  25
+ 28 ->  26
+ 29 ->  27
+ 30 ->  28
+ 31 ->  29
+ 32 ->  30
+ 33 ->  31
+ 34 ->  32
+ 35 ->  33
+ 36 ->  34
+ 37 ->  35
+ 38 ->  36
+ 39 ->  37
+ 40 ->  38
+ 41 ->  39
+ 42 ->  40
+ 43 ->  41
+ 44 ->  42
+ 45 ->  43
+ 46 ->  44
+ 47 ->  45
+ 48 ->  46
+ 49 ->  47
+ 50 ->  48
+ 51 ->  49
+ 52 ->  50
+ 53 ->  51
+ 54 ->  52
+ 55 ->  53
+ 56 ->  54
+ 57 ->  55
+ 58 ->  56
+ 60 ->  57
+ 62 ->  58
+ 64 ->  59
+ 66 ->  60
+ 67 ->  61
+ 68 ->  62
+ 69 ->  63
+ 70 ->  64
+ 71 ->  65
+ 72 ->  66
+ 73 ->  67
+ 74 ->  68
+ 75 ->  69
+ 76 ->  70
+ 77 ->  71
+ 78 ->  72
+ 79 ->  73
+ 80 ->  74
+ 81 ->  75
+ 82 ->  76
+ 83 ->  77
+ 84 ->  78
+ 85 ->  79
+ 86 ->  80
+ 87 ->  81
+ 88 ->  82
+ 89 ->  83
+ 90 ->  84
+ 91 ->  85
+ 92 ->  86
+ 93 ->  87
+ 94 ->  88
+ 95 ->  89
+ 96 ->  90
+ 97 ->  91
+ 98 ->  92
+ 99 ->  93
+100 ->  94
+101 ->  95
+102 ->  96
+103 ->  97
+104 ->  98
+105 ->  99
+106 -> 100
+107 -> 101
+108 -> 102
+109 -> 103
+110 -> 104
+111 -> 105
+112 -> 106
+113 -> 107
+114 -> 108
+115 -> 109
+117 -> 110
+118 -> 111
+119 -> 112
+120 -> 113
+121 -> 114
+122 -> 115
+123 -> 116
+124 -> 117
+ 63 -> 118
+116 -> 119
+  8 -> 120
+ 10 -> 121
+ 59 -> 122
+ 61 -> 123
+ 65 -> 124
+125 -> 125
+126 -> 126
+127 -> 127
+128 -> 128
+129 -> 129
+130 -> 130
+131 -> 131
+132 -> 132
+133 -> 133
+134 -> 134
+135 -> 135
+136 -> 136
+137 -> 137
+138 -> 138
+139 -> 139
+140 -> 140
+141 -> 141
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+  8 -> 120
+ -1 ->  -1
+ 10 -> 121
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ 59 -> 122
+ -1 ->  -1
+ 61 -> 123
+ -1 ->  -1
+ 63 -> 118
+ -1 ->  -1
+ 65 -> 124
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+116 -> 119
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+ -1 ->  -1
+  0 ->   0
+  1 ->   1
+  2 ->   2
+  3 ->   3
+  4 ->   4
+  5 ->   5
+  6 ->   6
+  7 ->   7
+  9 ->   8
+ 11 ->   9
+ 12 ->  10
+ 13 ->  11
+ 14 ->  12
+ 15 ->  13
+ 16 ->  14
+ 17 ->  15
+ 18 ->  16
+ 19 ->  17
+ 20 ->  18
+ 21 ->  19
+ 22 ->  20
+ 23 ->  21
+ 24 ->  22
+ 25 ->  23
+ 26 ->  24
+ 27 ->  25
+ 28 ->  26
+ 29 ->  27
+ 30 ->  28
+ 31 ->  29
+ 32 ->  30
+ 33 ->  31
+ 34 ->  32
+ 35 ->  33
+ 36 ->  34
+ 37 ->  35
+ 38 ->  36
+ 39 ->  37
+ 40 ->  38
+ 41 ->  39
+ 42 ->  40
+ 43 ->  41
+ 44 ->  42
+ 45 ->  43
+ 46 ->  44
+ 47 ->  45
+ 48 ->  46
+ 49 ->  47
+ 50 ->  48
+ 51 ->  49
+ 52 ->  50
+ 53 ->  51
+ 54 ->  52
+ 55 ->  53
+ 56 ->  54
+ 57 ->  55
+ 58 ->  56
+ 60 ->  57
+ 62 ->  58
+ 64 ->  59
+ 66 ->  60
+ 67 ->  61
+ 68 ->  62
+ 69 ->  63
+ 70 ->  64
+ 71 ->  65
+ 72 ->  66
+ 73 ->  67
+ 74 ->  68
+ 75 ->  69
+ 76 ->  70
+ 77 ->  71
+ 78 ->  72
+ 79 ->  73
+ 80 ->  74
+ 81 ->  75
+ 82 ->  76
+ 83 ->  77
+ 84 ->  78
+ 85 ->  79
+ 86 ->  80
+ 87 ->  81
+ 88 ->  82
+ 89 ->  83
+ 90 ->  84
+ 91 ->  85
+ 92 ->  86
+ 93 ->  87
+ 94 ->  88
+ 95 ->  89
+ 96 ->  90
+ 97 ->  91
+ 98 ->  92
+ 99 ->  93
+100 ->  94
+101 ->  95
+102 ->  96
+103 ->  97
+104 ->  98
+105 ->  99
+106 -> 100
+107 -> 101
+108 -> 102
+109 -> 103
+110 -> 104
+111 -> 105
+112 -> 106
+113 -> 107
+114 -> 108
+115 -> 109
+117 -> 110
+118 -> 111
+119 -> 112
+120 -> 113
+121 -> 114
+122 -> 115
+123 -> 116
+124 -> 117
+125 -> 125
+126 -> 126
+127 -> 127
+128 -> 128
+129 -> 129
+130 -> 130
+131 -> 131
+132 -> 132
+133 -> 133
+134 -> 134
+135 -> 135
+136 -> 136
+137 -> 137
+138 -> 138
+139 -> 139
+140 -> 140
+141 -> 141

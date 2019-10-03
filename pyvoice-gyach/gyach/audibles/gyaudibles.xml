@@ -1,0 +1,134 @@
+<?xml version="1.0" ?>
+<GyachE-Audibles>
+
+<audible yname="base.us.flirts.booty1" quote="Arrr!  Your booty shivers me timbers"  ahash="0fbd4c07404eab4a067a372aa9f5c5f3be3e4865" filename="base.us.flirts.booty" />
+
+<audible yname="base.us.flirts.comecloser1" quote="Come here you. Come on. Closer. Closer."  ahash="25a3cfce27a3b917133cf09ea0ffc3c70bc8fe2b" filename="base.us.flirts.comecloser" />
+
+<audible yname="base.us.flirts.heartmelt1" quote="You make my heart melt"  ahash="1d781eb55e4f1fc6595bb9338d3357573acebf63" filename="base.us.flirts.heartmelt" />
+
+<audible yname="base.us.flirts.hot1" quote="Is it just me or is it getting really hot in here?"  ahash="991ce29c682118f24cb6d338c5a43fc18c8d70b5" filename="base.us.flirts.hot" />
+
+<audible yname="base.us.flirts.lovesme1" quote="She loves me not.  She loves me."  ahash="7e4475d91030605c53c16e4ee1804c1f735910d0" filename="base.us.flirts.lovesme" />
+
+<audible yname="base.us.flirts.realslow1" quote="I love it when you type real slow"  ahash="04bb8215d6856011cd63986e3e0515f2944ed9dd" filename="base.us.flirts.realslow" />
+
+<audible yname="base.us.flirts.sexy1" quote="Hey sexy"  ahash="e399c55f0863ff0e4a82d20e81640b4adb63565d" filename="base.us.flirts.sexy" />
+
+<audible yname="base.us.flirts.window1" quote="I love what you've done with your window"  ahash="b4721fa281eab71f56e1874a74ea8279569f981b" filename="base.us.flirts.window" />
+
+<audible yname="base.us.goodbyes.boss1" quote="Ooh gotta go, the boss is coming."  ahash="2414035a3b44c91619f2e5f44567719a0e555084" filename="base.us.goodbyes.boss" />
+
+<audible yname="base.us.goodbyes.buhbye1" quote="Buh-bye! Buh-bye now. Buh-Bye!"  ahash="85935a59f9c5e1a3dcee70a8a864362e5ebeddd8" filename="base.us.goodbyes.buhbye" />
+
+<audible yname="base.us.goodbyes.outtahere1" quote="That's it.  I'm outta here"  ahash="08e64a7e6a8d1491852271e569da49c219519414" filename="base.us.goodbyes.outtahere" />
+
+<audible yname="base.us.goodbyes.parole1" quote="Gotta go.  My parole officer needs to use the computer"  ahash="0f5f12c43f97d524b73e7ba305c7bc16f9b0c9e3" filename="base.us.goodbyes.parole" />
+
+<audible yname="base.us.goodbyes.pee1" quote="Gotta go. Gotta go.  I gotta pee!"  ahash="d11df67ac5fd8fa9846b90f4dcf7a55f871e37e4" filename="base.us.goodbyes.pee" />
+
+<audible yname="base.us.goodbyes.reboot1" quote="Oops.  Sorry... I have to reboot.  Goodbye..."  ahash="865449e3ba9df10c8d36e8139a58b007763e3239" filename="base.us.goodbyes.reboot" />
+
+<audible yname="base.us.goodbyes.seeya1" quote="See ya - wouldn't want to be ya"  ahash="59f24b917a8f1650dbff45fdb37cc56b6ea8171c" filename="base.us.goodbyes.seeya" />
+
+<audible yname="base.us.goodbyes.split1" quote="See ya. I gotta split."  ahash="98a96a9d714cd5a821882a54a4be44b8bc5f41c6" filename="base.us.goodbyes.split" />
+
+<audible yname="base.us.hello.dude1" quote="Dude!"  ahash="0d29376f051ad14fb85f2fc9ff8b03b3106d4689" filename="base.us.hellos.dude" />
+
+<audible yname="base.us.hello.echo1" quote="Hello? Hello? Anybody there? Echo!"  ahash="6fffd5f4e833d3bbac5f60f0af0cba7fe07663b5" filename="base.us.hellos.echo" />
+
+<audible yname="base.us.hello.ladies1" quote="All the ladies in the house say..."  ahash="e6e04dfe428c6bf75d5ea021ee58c583e53afb89" filename="base.us.hellos.ladies" />
+
+<audible yname="base.us.hello.nosepick1" quote="Oh... uh... Hello"  ahash="234206a7191d02472d4f76df4dae96a4cae907ee" filename="base.us.hellos.nosepick" />
+
+<audible yname="base.us.hello.seeyou1" quote="Hello? I know you're there. I can see you!"  ahash="86e07e3f911a741bdc0d9fd11cf1c4a53e1f5e66" filename="base.us.hellos.seeyou" />
+
+<audible yname="base.us.hello.welcome1" quote="Welcome. I've been expecting you."  ahash="e4fa5ec263485ed14ff7462890f0a306bb88f0a2" filename="base.us.hellos.welcome" />
+
+<audible yname="base.us.hello.whadup1" quote="Whaaadddup?"  ahash="dfb67c13a06049e08458ba1273f54cae32f4b193" filename="base.us.hellos.whadup" />
+
+<audible yname="base.us.hello.whistle1" quote="Whistle"  ahash="3257b0c61637efd75b5bd84113100c2e18a7540a" filename="base.us.hellos.whistle" />
+
+<audible yname="base.us.insults.brain1" quote="It's 10 o'clock.  Do you know where your brain is?"  ahash="47071d49261b14cf0794c544352e073600abe979" filename="base.us.insults.brain" />
+
+<audible yname="base.us.insults.funny1" quote="Haha... you're funny!"  ahash="f336a75908403f101a4d44cecba1bf6d1f4a1ee3" filename="base.us.insults.funny" />
+
+<audible yname="base.us.insults.lonely1" quote="It must be really lonely being you."  ahash="c07bdcf7a2fbdd6d1e05676a45407ce8d37ad73e" filename="base.us.insults.lonely" />
+
+<audible yname="base.us.insults.monkey1" quote="I've gotten better IM's from a drunken monkey"  ahash="467e40ae7babc6d1ddf83458309ba8be3a33cf4f" filename="base.us.insults.monkey" />
+
+<audible yname="base.us.insults.notfunny1" quote="That's not funny.  That's not even in the same zip code as funny."  ahash="83d90ebb6412fcb1c1ad261b17a577f7a302af5b" filename="base.us.insults.notfunny" />
+
+<audible yname="base.us.insults.spellcheck1" quote="It's called spell check.  Look into it."  ahash="e87418bdd321caeb62d2fededfc2a91d40e17ad5" filename="base.us.insults.spellcheck" />
+
+<audible yname="base.us.insults.typo1" quote="I'm sorry - was that a typo? Or are you really that stupid?"  ahash="8bdb3b919bc4ba4803cebe3ca81eb2fa183dd125" filename="base.us.insults.typo" />
+
+<audible yname="base.us.insults.unplug1" quote="Seriously - do us all a favor and unplug your computer now!"  ahash="8ebab9094156135f5dcbaccbeee662a5c5fd1420" filename="base.us.insults.unplug" />
+
+<audible yname="base.us.losing.besttwo1" quote="How about best two out of three?"  ahash="a08d16b67929700cdb988b718ae2fad0fee31611" filename="base.us.losing.besttwo" />
+
+<audible yname="base.us.losing.cheater1" quote="Cheater!"  ahash="0f94e50f760b31349d543649fb0d122c7a4768f5" filename="base.us.losing.cheater" />
+
+<audible yname="base.us.losing.confidence1" quote="Yeah, well I was just trying to build your confidence"  ahash="0b030888a20366c47a44c828f4767d09235d36cc" filename="base.us.losing.confidence" />
+
+<audible yname="base.us.losing.likeyou1" quote="It's not that I'm losing, it's that I'm losing to someone like you!"  ahash="31d5efc5e69f3fea77bf2dff8153c280173cf54a" filename="base.us.losing.likeyou" />
+
+<audible yname="base.us.losing.nooo1" quote="No No No No NO!"  ahash="addc94f6986b0452ea6910db8b6e8990ce4b1556" filename="base.us.losing.nooo" />
+
+<audible yname="base.us.losing.onnow1" quote="It's on now!"  ahash="5fe5efb60f0658b94bae8b0403ed89466a12c95e" filename="base.us.losing.onnow" />
+
+<audible yname="base.us.losing.wellplayed1" quote="Well played old man!"  ahash="476056bd129b6cad2abf1f703fa0b2b67f3f9912" filename="base.us.losing.wellplayed" />
+
+<audible yname="base.us.losing.whatever1" quote="Whatever"  ahash="8d8012be88ed6fa51cf6a1e2c6db422fc3d7d3fa" filename="base.us.losing.whatever" />
+
+<audible yname="base.us.taunt.badabing1" quote="Badabing badabang badaboom"  ahash="0fefe10ede64a477388ba7ea418529236600cb1b" filename="base.us.taunts.badabing" />
+
+<audible yname="base.us.taunt.bestshot1" quote="Hit me with your best shot... Grandma!"  ahash="bddeca723d6917246800e9b6a311a9c94683e451" filename="base.us.taunts.bestshot" />
+
+<audible yname="base.us.taunt.dontmakeme1" quote="Don't make me hurt you"  ahash="30eb7a48a2afa293b68d2c3f333582661e13b4d1" filename="base.us.taunts.dontmakeme" />
+
+<audible yname="base.us.taunt.gottahurt1" quote="Oooh that's gotta hurt"  ahash="4ca6f3b93e5fe53190881a65b028fe22031e14fb" filename="base.us.taunts.gottahurt" />
+
+<audible yname="base.us.taunt.hungry1" quote="I hope you're hungry 'cause I'm about to take you to lunch."  ahash="154eda05e30ca4e577ed00c9a59575008a1ffc71" filename="base.us.taunts.hungry" />
+
+<audible yname="base.us.taunt.mopping1" quote="I hope you don't slip while I'm mopping the floor with you."  ahash="ad0974adacf1d980148b29bbfe82ffa415f4b3f7"  filename="base.us.taunts.mopping" />
+
+<audible yname="base.us.taunt.muha1"  quote="Muhahahaha!"  ahash="de2ffcdbc49aae6c947fe969741257f61fbe3ca1" filename="base.us.taunts.muha" />
+
+<audible yname="base.us.taunt.seriously1" quote="Seriously, are you even trying?"  ahash="0c601fda6c37c53ab0f477461d76cc6d9fe3e571" filename="base.us.taunts.seriously" />
+
+<audible yname="base.us.winning.greatest1" quote="I really am the greatest ever to play this game, aren't I?"  ahash="1ad4a4016a2cdf78b1114b703bcfb20f15c69712" filename="base.us.winning.greatest" />
+
+<audible yname="base.us.winning.iwon1" quote="I won?! Oh my gosh- I never win! You must suck!"  ahash="0f768465876cb15f7086d48d9e0a74594ac00f1c" filename="base.us.winning.iwon" />
+
+<audible yname="base.us.winning.nana1" quote="Nana nana nana!"  ahash="25315716cecb784b1d6b08cf66eded65b002dcc5" filename="base.us.winning.nana" />
+
+<audible yname="base.us.winning.sandwich1" quote="What happened?  I've been making a sandwich for the past 10 minutes?"  ahash="801e4e0310194856cb061a0b4c6a39d1ac4b047f" filename="base.us.winning.sandwich" />
+
+<audible yname="base.us.winning.sobadly1" quote="What's it like to lose so badly?"  ahash="16c839a1d16884e9d9466257da4f691b977e8660" filename="base.us.winning.sobadly" />
+
+<audible yname="base.us.winning.wakeme1" quote="Do me a favor. Wake me when you're done losing"  ahash="12211a837d5e8235f5fbb327b90c1f998538b852" filename="base.us.winning.wakeme" />
+
+<audible yname="base.us.winning.women1" quote="You lost to a girl.  Women are just plain smarter"  ahash="cd7f9e212b9e47ff21d3903b79fff09688f5a425" filename="base.us.winning.women" />
+
+<audible yname="base.us.winning.yeah1" quote="YEAHHHHH!"  ahash="5d84eadf810c3e991f5dd997117a10002eb5614c" filename="base.us.winning.yeah" />
+
+
+
+<audible yname="base.us.htf.disco1" quote="Disco: Roar"  ahash="33462c5fff155157670264ce96c3b2c681509cbb" filename="base.us.htf.disco" />
+
+<audible yname="base.us.htf.flaky1" quote="Flaky: Hi!"  ahash="083516aeca37604b318018c95471b5af22befbbd" filename="base.us.htf.flaky" />
+
+<audible yname="base.us.htf.flippy1" quote="Flippy: Growl!"  ahash="aa29731a5c1e894a275d3abde2b9856a275a7135" filename="base.us.htf.flippy" />
+
+<audible yname="base.us.htf.giggles1" quote="Giggles: Hee Hee"  ahash="5daff4d0b19e70d5878b82fe807835987b1de879" filename="base.us.htf.giggles" />
+
+<audible yname="base.us.htf.nutty1" quote="Nutty: Sugar High!"  ahash="15a31ef9985ac8bb6d8f0da28263caa40c011f76" filename="base.us.htf.nutty" />
+
+<audible yname="base.us.htf.toothy1" quote="Toothy: Yawn"  ahash="556a4c70c8e52e67a15add02e6c16ecd8255284f" filename="base.us.htf.toothy" />
+
+<audible yname="base.us.madonna.rayoflight1" quote="Madonna: 'Ray Of Light'"  ahash="6c588abf40b82c4e1df68a58df14aedac3e62def" filename="base.us.madonna.rayoflight" />
+
+<audible yname="base.us.madonna.whosthatgirl1" quote="Madonna: 'Who's That Girl?'"  ahash="0be13b800e654c2adbd62e26461ce5c056abd1a7" filename="base.us.madonna.whosthatgirl" />
+
+</GyachE-Audibles>

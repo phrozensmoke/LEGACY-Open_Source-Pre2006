@@ -1,0 +1,974 @@
+#! /usr/bin/env python
+######################################
+#  PyInstallShield 0.3b.
+#  
+#  Copyright 2003 by Erica Andrews
+#  PhrozenSmoke@yahoo.com
+#  All rights reserved.
+#  
+#  A simple gtk.-based, cross-platform 
+#  installation program written in Python. It is 
+#  tweaked for installing Python applications  
+#  but should work for others as well.  
+#
+#  PyInstallShield is known to run on 
+#  Linux/Unix and Windows 95/98/ME.  
+#  
+#  Requires: Python 2.1 or better, gtk. 1.2.8 
+#  or better, Pygtk. 0.69 or better.  
+#  
+#  PyInstallShield is open source under the
+#  GPL (General Public License).
+#
+#  Ported to PyGTK-2 by: David Moore (djm6202@yahoo.co.nz) - June 2003
+#
+######################################
+import os
+import sys
+import gtk
+
+## THIS IS THE ONLY LINE THAT NEEDS TO BE CHANGED, ALL CONFIGURATION IS FROM THIS FILE
+install_file="install-config.txt"
+
+### gtk CONSTANTS
+#WIN_POS_NONE   = 0
+#WIN_POS_CENTER = 1
+#gtk.WINDOW_TOPLEVEL = 0
+############ 
+global install_pixmap 
+global install_exe 
+global install_dir 
+global bin_dir
+global icon_dir
+global install_files 
+global install_app_name 
+global install_type 
+global install_icons 
+global install_links 
+global install_clean 
+global show_license 
+global license 
+global uninstall_files 
+global installing 
+global exe_names
+global install_app_version
+global optionals
+
+install_pixmap=""
+install_exe=[]
+install_dir=os.sep+"tmp"+os.sep
+bin_dir="/usr/X11R6/bin"
+icon_dir="/usr/share/icons"
+install_files=[]
+install_app_version="0.1"
+install_app_name="Unnamed Application"
+install_type=1  #1=linux;2=windows
+install_icons=[]
+install_links=0
+install_clean=1
+show_license=1
+license=""
+exe_names={}
+optionals=[]
+
+uninstall_files=[]
+installing=1  # are we installing or un-installing? 1=install,anything else=unintall
+
+if sys.platform.lower().find("win")>-1: install_type=2
+
+
+def getBaseDir() :
+    return sys.argv[0][0:sys.argv[0].rfind(os.sep)+1]
+
+###################
+## added 2.22.2003 -similated 'gettext' support for Spanish language
+MYLANG="en"
+GTEXT_TRANS=None
+global my_locale
+my_locale=None
+try:
+    if install_type==1:
+        if os.environ.has_key("LANGUAGE"):
+            MYLANG=os.environ["LANGUAGE"].lower()
+        if os.environ.has_key("LANG"):
+            MYLANG=os.environ["LANG"].lower()
+        if MYLANG.find("_")>-1: MYLANG=MYLANG[0:MYLANG.find("_")].strip().lower()
+        if not MYLANG=="en":
+            import gettext
+            gettext.install(os.path.abspath(getBaseDir())+os.sep+MYLANG)
+            GTEXT_TRANS=gettext._translations.values()[0]
+            my_locale=MYLANG+".mo"
+except:
+    print "gettext failed"
+    my_locale=None
+    MYLANG="en"
+    GTEXT_TRANS=None
+
+def gtext(some_string):
+    if not install_type==1: return some_string
+    if not MYLANG=="es": return some_string
+    if GTEXT_TRANS==None: return some_string
+    return GTEXT_TRANS.gettext(str(some_string))
+
+_=gtext
+
+
+############
+use_filter=0
+filter_dict={"á":"Ã¡","ñ":"Ã±","é":"Ã©","ü":"Ã¼","í":"Ã­","ó":"Ã³","ú":"Ãº","¿":"Â¿","É":"Ã©","Ú":"Ãº","Ñ":"Ã±","Ó":"Ã³","Á":"Ã¡","Ü":"Ã¼","Í":"Ã­"}
+
+unfilter_dict={}
+for ii in filter_dict.keys():
+    if not ii in ["É","Ú","Ñ","Ó","Á","Ü","Í"]:  unfilter_dict[filter_dict[ii]]=ii
+
+def filter(some_string):
+    if use_filter==0: return some_string
+    some_string=some_string.replace("¡","Â¡")
+    for ii in filter_dict.keys():
+        some_string=some_string.replace(ii,filter_dict[ii])
+    return some_string
+
+def unfilter(some_string):
+    if use_filter==0: return some_string
+    for ii in unfilter_dict.keys():
+        some_string=some_string.replace(ii,unfilter_dict[ii])
+    return some_string.replace("Â¡","¡")
+
+
+
+#windows_link="L\x00\x00\x00\x01\x14\x02\x00\x00\x00\x00\x00\xc0\x00\x00\x00\x00\x00\x00F\x1b\x00\x00\x00 \x00\x00\x00\x00SQ\x82\xe3\x8b\xc2\x01\x00\x08\x97\xd9c\x8c\xc2\x01\x00A\x0e\xab\xe6\x8c\xc2\x01\x07\x1d\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x93\x00\x14\x00\x1f\x0f\xe0O\xd0 \xea:i\x10\xa2\xd8\x08\x00+00\x9d\x19\x00#C:\\\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x11\xee \x001\x00\x00\x00\x00\x00n-\xb1\xac\x10\x00Projects\x00PROJECTS\x00 \x001\x00\x00\x00\x00\x00n-\xb1\xac\x10\x00pythonol\x00PYTHONOL\x00$\x002\x00\x07\x1d\x00\x00o-\x8d\xa4 \x00[SCRIPT]\x00[SCRIPTU]\x00\x00\x00N\x00\x00\x00\x1c\x00\x00\x00\x01\x00\x00\x00\x1c\x00\x00\x00-\x00\x00\x00\x00\x00\x00\x11M\x00\x00\x00\x11\x00\x00\x00\x03\x00\x00\x00\xf3\x07h \x10\x00\x00\x00\x00[DIR][SCRIPT]\x00\x00\x0c\x00.\\[SCRIPT]\x14\x00[DIR]\x00\x00\x00\x00"
+
+windows_link="start [DIR][SCRIPT]"
+
+linux_link="cd [DIR]\n[LAUNCHER]/[SCRIPT] \"$*\""
+
+try:
+    if os.path.exists(getBaseDir()+"uninstall.log"): installing=0   # we are uninstalling
+except:
+    installing=1
+
+class installwin:
+    def __init__(self):
+    self.pversion="0.3"
+    global install_pixmap 
+    global install_exe 
+    global bin_dir
+    global icon_dir
+    global install_dir 
+    global install_files 
+    global install_app_name 
+    global install_type 
+    global install_icons 
+    global install_links 
+    global install_clean 
+    global show_license 
+    global license 
+    global uninstall_files 
+    global installing 
+    global install_app_version
+    quizwin=gtk.Window(gtk.WINDOW_TOPLEVEL)
+    quizwin.realize()
+    quizwin.set_title(filter('PyInstallShield '+self.pversion))
+    quizwin.set_position(WIN_POS_CENTER)
+    self.quizwin=quizwin
+    mainbox=gtk.VBox(0,0)
+    vbox1=gtk.VBox(0,4)
+    vbox1.set_border_width(6)   
+
+    menubar1=gtk.MenuBar()
+
+        ag=gtk.AccelGroup()
+        itemf=gtk.ItemFactory(gtk.MenuBar,"<main>",ag)
+        itemf.create_items([
+        # path              key           callback    action#  type
+    (_("/ _File"), "<alt>F", None, 0,"<Branch>"),
+    (_("/ _File/_Save this window..."),"<control>S",self.saveOutputWindow,14,""),
+    (_("/ _File/_Exit PyInstallShield"),"<control>Q",self.doClose,10,""),
+    (_("/_Help"), "<alt>H", None,16,"<LastBranch>"),
+    (_("/_Help/_About"),"F2",self.showAbout,20,""),
+        ])
+
+        quizwin.add_accel_group(ag)
+        menubar1=itemf.get_widget("<main>")
+        menubar1.show()
+    mainbox.pack_start(menubar1,0,0,0)
+    mainbox.pack_start(vbox1,1,1,0)
+
+    self.loadInstallData()
+    if installing==1: titlelab=self.loadImage(getBaseDir()+install_pixmap,quizwin)
+    else: titlelab=self.loadImage(install_pixmap,quizwin)
+    if not titlelab: titlelab=gtk.Label(filter('PyInstallShield ')+self.pversion)
+    vbox1.pack_start(titlelab,0,0,4)
+    if installing==1: vbox1.pack_start(gtk.Label(install_app_name+" version "+install_app_version+" INSTALLATION "),0,0,0)
+    else: vbox1.pack_start(gtk.Label(install_app_name+" UN-INSTALL "),0,0,6)
+    vbox1.pack_start(gtk.HSeparator(),0,0,2)
+    if installing==1: diskspace=gtk.Label(_("Disk Space Required:")+" 0 MB")
+    else:  diskspace=gtk.Label(_("Disk Space Currently Used By This Application:")+" 0 MB")
+    self.diskspace=diskspace
+    vbox1.pack_start(diskspace,0,0,4)
+    vbox1.pack_start(gtk.HSeparator(),0,0,0)
+    quizwin.connect("destroy",self.doClose)
+    if installing==1:
+        import gtk
+        table1=gtk.Table(3,3,0)
+        table1.set_col_spacings(5)
+        table1.set_row_spacings(3)
+        table1.attach( gtk.Label(_("Installation Directory:")),0,1,0,1,(gtk.EXPAND+gtk.FILL),(gtk.EXPAND+gtk.FILL),0,0)
+        install_text=gtk.Entry()
+        install_text.set_editable(0)
+        install_text.set_size_request(230,-2)
+        install_text.set_text(install_dir)
+        self.install_text=install_text
+        table1.attach( install_text,1,2,0,1,(gtk.EXPAND+gtk.FILL),(gtk.EXPAND+gtk.FILL),0,0)
+        dirbutt=self.getIconButton(quizwin,getBaseDir()+"dir.xpm",_(" Change... "),1,1) 
+        table1.attach( dirbutt,2,3,0,1,(gtk.EXPAND+gtk.FILL),(gtk.EXPAND+gtk.FILL),0,0)
+        gtk.Tooltips().set_tip(dirbutt,_("Select a different installation directory"))
+        dirbutt.connect("clicked",self.getInstallDir)
+
+        if install_type==1:
+            table1.attach( gtk.Label(_("Executables Directory:")),0,1,1,2,(gtk.EXPAND+gtk.FILL),(gtk.EXPAND+gtk.FILL),0,0)
+            exec_text=gtk.Entry()
+            exec_text.set_editable(0)
+            exec_text.set_size_request(230,-2)
+            exec_text.set_text(bin_dir)
+            self.exec_text=exec_text
+            table1.attach( exec_text,1,2,1,2,(gtk.EXPAND+gtk.FILL),(gtk.EXPAND+gtk.FILL),0,0)
+            binbutt=self.getIconButton(quizwin,getBaseDir()+"dir.xpm",_(" Change... "),1,1) 
+            table1.attach( binbutt,2,3,1,2,(gtk.EXPAND+gtk.FILL),(gtk.EXPAND+gtk.FILL),0,0)
+            gtk.Tooltips().set_tip(binbutt,_("Select a different directory for installed executables"))
+            binbutt.connect("clicked",self.getBinDir)
+
+            table1.attach( gtk.Label(_("Icon Directory:")),0,1,2,3,(gtk.EXPAND+gtk.FILL),(gtk.EXPAND+gtk.FILL),0,0)
+            icon_text=gtk.Entry()
+            icon_text.set_editable(0)
+            icon_text.set_size_request(230,-2)
+            icon_text.set_text(icon_dir)
+            self.icon_text=icon_text
+            table1.attach( icon_text,1,2,2,3,(gtk.EXPAND+gtk.FILL),(gtk.EXPAND+gtk.FILL),0,0)
+            iconbutt=self.getIconButton(quizwin,getBaseDir()+"dir.xpm",_(" Change... "),1,1)    
+            table1.attach( iconbutt,2,3,2,3,(gtk.EXPAND+gtk.FILL),(gtk.EXPAND+gtk.FILL),0,0)
+            gtk.Tooltips().set_tip(iconbutt,_("Select a different directory for installed icons"))
+            iconbutt.connect("clicked",self.getIconDir)
+
+        vbox1.pack_start(table1,1,0,4)
+    else:  
+        vbox1.pack_start(gtk.Label("  "),1,0,3)
+        vbox1.pack_start(gtk.Label(_(" Are you sure you want to UN-INSTALL this application? ")),1,0,4)
+    hbox1=gtk.HBox(0,0)
+    hbox1.set_spacing(4)
+    if installing==1: closebutt=self.getIconButton(quizwin,getBaseDir()+"close.xpm",_(" EXIT "),1,1)    
+    else: closebutt=self.getIconButton(quizwin,getBaseDir()+"close.xpm",_(" No, Cancel Un-install "),1,1)
+    gtk.Tooltips().set_tip(closebutt,_("Exit PyInstallShield"))
+    closebutt.connect("clicked",self.doClose)
+    self.closebutt=closebutt
+    hbox1.pack_start(closebutt,0,0,0)   
+    self.holder=gtk.Label("                                                        ")
+    hbox1.pack_start(self.holder,1,1,0) 
+    if installing==1: 
+        installbutt=self.getIconButton(quizwin,getBaseDir()+"next.xpm",_(" INSTALL "),1)    
+        gtk.Tooltips().set_tip(installbutt,_("Install the application"))
+        installbutt.connect("clicked",self.launchInstall)
+    else: 
+        installbutt=self.getIconButton(quizwin,getBaseDir()+"next.xpm",_(" YES, Un-install Now! "),1)   
+        gtk.Tooltips().set_tip(installbutt,_("Un-install this application"))
+        installbutt.connect("clicked",self.launchUninstall)
+    self.missing_files=0
+    hbox1.pack_start(installbutt,0,0,0) 
+    vbox1.pack_start(gtk.HSeparator(),0,0,0)
+    vbox1.pack_start(hbox1,0,0,4)
+    sc=gtk.ScrolledWindow()
+    logger=gtk.Text()
+    logger.set_editable(0)
+    logger.set_line_wrap(1)
+    logger.set_word_wrap(1)
+    self.logger=logger
+    sc.add(logger)
+    sc.set_size_request(-2,130)
+    vbox1.pack_start(sc,0,0,4)
+    quizwin.add(mainbox)
+    self.install_error=0
+    self.installed=0
+    self.setText(self.logger,self.install_info)
+    self.holder.set_size_request(285,-2)
+    self.holder.set_text(self.holder_info)
+    self.countFiles()
+    quizwin.show_all()
+    self.showLicense()
+
+    def showLicense(self,*args):
+    if not installing==1: return
+    if show_license==1:
+        if len(license)>0:
+            ldata=""
+            try:
+                f=open(getBaseDir()+license)
+                ldata=f.read()
+                f.close()
+            except:
+                ldata=""
+            if len(ldata)>0:
+                ltitle=install_app_name+" "+_("License Agreement")
+                pylicense(self.doClose,ldata,ltitle)
+
+    def loadInstallData(self,*args):
+    global install_pixmap 
+    global install_exe 
+    global install_dir 
+    global install_files 
+    global install_app_name 
+    global install_type 
+    global install_icons 
+    global install_links 
+    global install_clean 
+    global show_license 
+    global license 
+    global uninstall_files 
+    global installing 
+    global install_app_version
+    global bin_dir
+    global icon_dir
+    global optionals
+    self.holder_info="  "
+    self.install_info=" "
+    global exe_names
+    if installing==1:
+        try:
+            f=open(getBaseDir()+install_file)
+            ff=f.read()
+            f.close()
+            flist=ff.split("\n")
+            for ii in flist:
+                    fline=ii.replace("\t","").replace("\r","").strip()
+                    if (fline.startswith("#")) or (fline.find("=")<1): continue
+                    fkey=fline.split("=")[0].strip().lower()
+                    fval=self.cleanLine(fline.split("=")[1].strip())
+                    if fkey=="icon": install_icons.append(fval.replace("\\",os.sep).replace("/",os.sep))
+                    if fkey=="exe": 
+                        if fval.find(",")==-1: install_exe.append(fval.replace("\\",os.sep).replace("/",os.sep))
+                        else:
+                            fps=fval.split(",")
+                            if len(fps)>1:
+                                f1=fps[0].strip()
+                                f2=fps[1].strip()
+                                install_exe.append(f1)
+                                exe_names[f1]=f2
+                    if fkey=="file": install_files.append(fval.replace("\\",os.sep).replace("/",os.sep))
+                    if fkey=="optional": optionals.append(fval.replace("\\",os.sep).replace("/",os.sep))
+                    if fkey=="install_pixmap": install_pixmap=fval.replace("\\",os.sep).replace("/",os.sep)
+                    if fkey=="install_app_name": install_app_name=fval
+                    if fkey=="install_app_version": install_app_version=fval
+                    if fkey=="license": license=fval.replace("\\",os.sep).replace("/",os.sep)
+                    if fkey=="install_type": install_type=self.getInt(fval,1)
+                    if fkey=="install_clean": install_clean=self.getInt(fval,1)
+                    if fkey=="install_links": install_links=self.getInt(fval,0)
+                    if fkey=="show_license": show_license=self.getInt(fval,1)
+                    if fkey=="install_dir": 
+                        install_dir=fval.replace("\\",os.sep).replace("/",os.sep)
+                        if not install_dir.startswith(os.sep): 
+                            if install_type==1: install_dir=os.sep+install_dir
+                        if not install_dir.endswith(os.sep): install_dir=install_dir+os.sep
+                    if fkey=="icon_dir": 
+                        icon_dir=fval.replace("\\",os.sep).replace("/",os.sep)
+                        if not icon_dir.startswith(os.sep): 
+                            if install_type==1: icon_dir=os.sep+icon_dir
+                        if not icon_dir.endswith(os.sep): icon_dir=icon_dir+os.sep
+                    if fkey=="bin_dir": 
+                        bin_dir=fval.replace("\\",os.sep).replace("/",os.sep)
+                        if not bin_dir.startswith(os.sep): 
+                            if install_type==1: bin_dir=os.sep+bin_dir
+                        if not bin_dir.endswith(os.sep): bin_dir=bin_dir+os.sep
+        except:
+            self.missing_files=1
+            self.install_info=_("There was an ERROR reading the installation configuration")+" '"+install_file+"':\n\n"+_("ERROR: Installation cannot continue.")
+            self.holder_info=_("INSTALLATION ERROR!")
+        install_dir=install_dir.replace("\\",os.sep).replace("/",os.sep)
+    else:
+        try:
+            f=open(getBaseDir()+"uninstall.log")
+            ff=f.read()
+            f.close()
+            flist=ff.split("\n")
+            for ii in flist:
+                fline=ii.replace("\t","").replace("\r","").strip()
+                if (fline.startswith("#")) or (len(fline)==0): continue
+                if fline.startswith("APP_NAME="): install_app_name=fline.replace("APP_NAME=","").strip()
+                elif fline.startswith("PIXMAP="): install_pixmap=fline.replace("PIXMAP=","").strip()
+                else: uninstall_files.append(fline)
+        except:
+            self.missing_files=1
+            self.install_info=_("There was an ERROR reading the un-install configuration")+" '"+getBaseDir()+"uninstall.log"+"':\n\n"+_("ERROR: Un-install cannot continue.")
+            self.holder_info=_("UN-INSTALL ERROR!")
+
+    def cleanLine(self,myline):
+    myline=myline.replace("\t","").replace("\r","")
+    if myline.startswith(os.sep): myline=myline[1:len(myline)]
+    return myline.replace("=","").strip()
+
+    def getInt(self,mystr,defaultval=1):
+    try:
+        return int(mystr.strip())
+    except:
+        return defaultval
+
+    def showAbout(self,*args):
+    self.showMessage("PyInstallShield "+self.pversion+"\n\nCopyright 2003 by Erica Andrews\n(PhrozenSmoke@yahoo.com)\nhttp://pythonol.sourceforge.net\n"+_("All rights reserved.")+"\n\n"+_("A simple gtk.-based, cross-platform installation program written in Python.")+"\n It is tweaked for installing Python\napplications but should \nwork for others as well.\n\nPyInstallShield is known to run on Linux/Unix \nand Windows 95/98/ME/2000.\nRequires: Python 2.1 or better, gtk. 1.2.8\n or better, Pygtk. 0.69 or better.\n\nPyInstallShield is open source \nunder the GPL (General Public License).")
+
+    def doClose(self,*args):
+    if installing==1:
+        if self.install_error==1:
+            self.doUninstall(0)
+        if self.installed==1:
+            self.doCleanup()
+    gtk.mainquit()
+    self.quizwin.destroy()
+    self.quizwin.unmap()
+
+    def loadImage(self,picon,windowval):
+    try:
+        p=gtk.Image(windowval,str(picon),None)
+        p.show_all()
+        return p
+    except:
+        return None
+
+    def showMessage(self,message_text):
+    gtk.Extra.message_box("PyInstallShield "+self.pversion,str(message_text),[_('OK')])
+
+
+    def saveOutputWindow(self,*args):
+    ff=gtk.Extra.file_save_box()
+    if (ff==None) or (str(ff)==""): return 
+    if ff.endswith(os.sep): return
+    try:
+        f=open(ff,"w")
+        f.write(self.logger.get_chars(0,self.logger.get_length()))
+        f.flush()
+        f.close()
+        self.showMessage(_("Successfully saved to file:")+" "+str(ff))
+    except:
+        self.showMessage(_("Could not save to file:")+" "+str(ff))
+
+    def getInstallDir(self,*args):
+    ff=gtk.Extra.file_save_box()
+    if (ff==None) or (str(ff)==""): return 
+    if ff==getBaseDir(): return
+    global install_dir
+    if ff.endswith(os.sep): 
+        self.install_text.set_text(ff)
+        install_dir=ff
+    else: 
+        self.install_text.set_text(ff[0:ff.rfind(os.sep)+1])
+        install_dir=ff[0:ff.rfind(os.sep)+1]
+
+    def getIconDir(self,*args):
+    ff=gtk.Extra.file_save_box()
+    if (ff==None) or (str(ff)==""): return 
+    if ff==getBaseDir(): return
+    global icon_dir
+    if ff.endswith(os.sep): 
+        self.icon_text.set_text(ff)
+        icon_dir=ff
+    else: 
+        self.icon_text.set_text(ff[0:ff.rfind(os.sep)+1])
+        icon_dir=ff[0:ff.rfind(os.sep)+1]
+
+    def getBinDir(self,*args):
+    ff=gtk.Extra.file_save_box()
+    if (ff==None) or (str(ff)==""): return 
+    if ff==getBaseDir(): return
+    global bin_dir
+    if ff.endswith(os.sep): 
+        self.exec_text.set_text(ff)
+        bin_dir=ff
+    else: 
+        self.exec_text.set_text(ff[0:ff.rfind(os.sep)+1])
+        bin_dir=ff[0:ff.rfind(os.sep)+1]
+
+    def countFiles(self,*args):
+      counter=0
+      warnings=""
+      global install_files
+      global optionals
+      global install_exe
+      global install_icons
+      if installing==1:
+    u_inst=[sys.argv[0][sys.argv[0].rfind(os.sep)+1:len(sys.argv[0])],"next.xpm","close.xpm"]
+    global my_locale
+    if not my_locale==None: u_inst.append(my_locale)
+    
+    counted={}
+    all_files= install_files+install_icons+u_inst
+    for ii in all_files:
+        if ii in counted.keys(): continue
+        try:
+            counter=counter+os.path.getsize(getBaseDir()+ii)
+            counted[getBaseDir()+ii]="1"
+        except:
+            if not ii in optionals:
+                if len(warnings)==0: warnings=_("There were ERRORS locating the following files needed for installation:")
+                warnings=warnings+"\n   "+getBaseDir()+ii
+            else:
+                if ii in install_icons: del install_icons[install_icons.index(ii)]
+                if ii in install_exe: del install_exe[install_exe.index(ii)]
+                if ii in install_files: del install_files[install_files.index(ii)]
+    installS="0.0 KB"
+    if counter>1000000:
+        counter=counter/1000000.00
+        installS=str(str(counter)+"000")[0:str(str(counter)+"000").rfind(".")+3]+" MB"
+    else:
+        counter=counter/1000.00
+        installS=str(str(counter)+"000")[0:str(str(counter)+"000").rfind(".")+3]+" KB"
+    self.diskspace.set_text(_("Disk Space Required:")+" "+installS)
+    if len(warnings)>0:
+        self.missing_files=1
+        self.setText(self.logger,warnings+"\n\n"+_("ERROR: Installation cannot continue."))
+        self.holder.set_text(_("INSTALLATION ERROR!"))
+    else:
+        if self.missing_files==0:   
+            ifiles=counted.keys()
+            ifiles.sort()
+            s="\n\n_______________\n"+_("PyInstallShield will install the following files:")+"\n"
+            for ii in ifiles:
+                s=s+"   "+ii+"\n"
+            self.setText(self.logger,_("Welcome to the PyInstallShield installation program.")+"\n"+_("Please select the directories (folders) you wish to install the program in, then click 'INSTALL' to install")+" '"+install_app_name+"'."+s)
+
+      else:
+    counted={}
+    for ii in uninstall_files:
+        if ii in counted.keys(): continue
+        try:
+            counter=counter+os.path.getsize(ii)
+            counted[ii]="1"
+        except:
+            pass
+    installS="0.0 KB"
+    if counter>1000000:
+        counter=counter/1000000.00
+        installS=str(str(counter)+"000")[0:str(str(counter)+"000").rfind(".")+3]+" MB"
+    else:
+        counter=counter/1000.00
+        installS=str(str(counter)+"000")[0:str(str(counter)+"000").rfind(".")+3]+" KB"
+    self.diskspace.set_text("    "+_("Disk Space Currently Used By This Application:")+"  "+installS+"    ")
+    if self.missing_files==0:   
+        uninstall_files.sort()
+        s=""
+        for ii in uninstall_files:
+            s=s+"   "+ii+"\n"
+        self.setText(self.logger,_("You are about to UN-INSTALL the application")+" '"+install_app_name+"'.\n"+_("Click 'YES, Un-install Now!' if you are certain you want to uninstall this application.")+"\n____________\n"+_("PyInstallShield will DELETE the following application files:")+"\n"+s)
+
+
+    def launchInstall(self,*args):
+    if not installing==1: return
+    if self.missing_files==1:
+        self.showMessage(_("ERROR: Installation cannot continue.")+"\n"+_("Some files needed for the installation could not be located."))
+        return
+    if self.installed==1:
+        self.showMessage(_("The application has already been installed.")+"\n"+_("You may now click the 'EXIT' button to finish."))
+        return
+    if len(install_dir.strip())==0:
+        self.showMessage(_("Error: No installation directory selected.")+"\n"+_("Please select an installation directory first."))
+        return
+    self.holder.set_text(_("INSTALLING...PLEASE WAIT."))
+    gtk.timeout_add(2000,self.doInstall)
+
+    def doInstall(self,*args):
+    inst_err=0
+    self.install_error=0
+    iinfo=""
+    udict={}
+    try:
+        os.makedirs(install_dir)
+        udict[install_dir]="1"
+    except:
+        try:
+            if not os.path.exists(install_dir):
+                inst_err=1
+                iinfo=iinfo+"   "+_("Error creating installation directory:")+"  "+install_dir
+        except:
+            inst_err=1
+            iinfo=iinfo+"   "+_("Error creating installation directory:")+"  "+install_dir
+    if inst_err==0:
+        #self.doUninstall(0) # remove old copies
+        #copy files and make links
+        idict={}
+        for ii in install_files:
+            copyto=str(install_dir+ii).strip()
+            copyfrom=str(getBaseDir()+ii).strip()
+            if not  copyto in idict.keys():
+                try:
+                    if copyto.find(os.sep)>-1:
+                        try:
+                            os.makedirs(copyto[0:copyto.rfind(os.sep)+1])
+                            udict[copyto[0:copyto.rfind(os.sep)+1]]="1"
+                            otherdirs=copyto[0:copyto.rfind(os.sep)+1].replace(install_dir,"").split(os.sep)
+                            od=install_dir
+                            for pp in otherdirs:
+                                    if pp:
+                                        od=od+pp+os.sep
+                                        udict[od]="1"
+                        except:
+                            if not os.path.exists(copyto[0:copyto.rfind(os.sep)+1]):
+                                inst_err=1
+                                iinfo=iinfo+"   "+_("Error creating installation directory:")+"  "+copyto[0:copyto.rfind(os.sep)+1]
+                                continue
+                            else: udict[copyto[0:copyto.rfind(os.sep)+1]]="1"
+                    if not self.copyFile(copyfrom,copyto): raise TypeError
+                    udict[copyto]="1"
+                    if copyto.endswith(".py"):
+                        udict[copyto+"c"]="1"  # .pyc
+                        udict[copyto+"o"]="1"  # .pyc
+                    idict[copyto]="1"
+                except:
+                    inst_err=1
+                    iinfo=iinfo+"  "+_("Error copying")+"  "+copyfrom+"   "+_("to")+"   "+copyto+"\n"
+    if inst_err==0: 
+        self.holder.set_text(_("INSTALLATION COMPLETE!"))
+        self.install_error=0
+        linn=self.makeIcons(udict)
+        if len(linn)>0: 
+            iinfo=iinfo+"\n"+_("The following icons were created on your system:")+"\n"
+            for hh in linn:
+                iinfo=iinfo+"     "+hh+"\n"
+        self.makeUninstall(udict)
+        linn=self.makeLinks(udict)
+        if len(linn)>0: 
+            iinfo=iinfo+"\n"+_("The following executables were created on your system:")+"\n"
+            for hh in linn:
+                iinfo=iinfo+"     "+hh+"\n"
+        self.makeUninstall(udict)
+        self.installed=1
+        self.setText(self.logger,_("Your application is now installed.")+"\n"+_("You may now click the 'EXIT' button to finish.")+"\nEnjoy!\n______________\n"+iinfo)
+    else: 
+        self.install_error=1
+        self.holder.set_text(_("INSTALLATION ERRORS!"))
+        self.setText(self.logger,_("There were ERRORS installing your application")+":\n\n"+iinfo)
+    global uninstall_files
+    uninstall_files=udict.keys()
+
+    def makeIcons(self,udict):  
+    if not install_type==1: return  []  #install no icons for windows
+    micons=[]
+    global icon_dir
+    for ii in install_icons:
+        try:
+            try:
+                os.makedirs(icon_dir)
+            except:
+                pass
+            iname=ii[ii.rfind(os.sep)+1:len(ii)]
+            if os.path.exists(icon_dir):
+                if self.copyFile(getBaseDir()+ii,icon_dir+iname,0): 
+                    udict[icon_dir+iname]="1"
+                    micons.append(icon_dir+iname)
+                else: raise TypeError
+        except:
+            micons.append(_("ERROR creating icon:")+" "+icon_dir+ii)
+    return micons
+
+    def makeLinkName(self,yy,ltype=1):  
+    if not exe_names.has_key(yy):
+        lname=yy.lower().replace('.py','').replace('.pyc','').replace('.pyo','').strip()
+        lname=lname[lname.rfind(os.sep)+1:len(lname)].strip()
+        if ltype==1: return lname.replace(".","").strip().replace(" ","-").strip()
+        return lname.capitalize()
+    else: return exe_names[yy]
+
+    def makeLinks(self,udict):  
+    made_exes=[]
+    new_path=1
+    global bin_dir
+    if install_type==2:
+        return [] # making links on Windows not yet supported
+        windir="C:\\WINDOWS\\"
+        if os.environ.has_key("WINDIR"): windir=os.environ["WINDIR"]
+        if not windir.endswith(os.sep): windir=windir+os.sep
+        try:
+            os.makedirs(windir+"Start Menu\\Programs\\"+install_app_name+"\\")
+            udict[windir+"Start Menu\\Programs\\"+install_app_name+"\\"]="1"
+        except:
+            if not os.path.exists(windir+"Start Menu\\Programs\\"+install_app_name+"\\"):
+                new_path=0
+            else: udict[windir+"Start Menu\\Programs\\"+install_app_name+"\\"]="1"
+    for yy in install_exe:
+        linker=linux_link
+        if install_type==2: linker=windows_link
+        launcher=""
+        if install_type==1:
+            launcher="."
+            for ii in ['.py','.pyc','.pyo']:
+                if yy.lower().endswith(ii): launcher="python ."
+        linker=linker.replace("[DIR]",install_dir).replace("[SCRIPT]",yy).replace("[SCRIPTU]",yy.upper()).replace("[LAUNCHER]",launcher)
+        mlink=self.makeLinkName(yy,install_type)
+        if not len(mlink)>0: continue
+        if install_type==1:
+            try:
+                try:
+                    os.makedirs(bin_dir)
+                except:
+                    pass
+                f=open(bin_dir+mlink,"w")
+                f.write(linker)
+                f.flush()
+                f.close()
+                made_exes.append(bin_dir+mlink)
+                udict[bin_dir+mlink]="1"
+                try:
+                    os.chmod(bin_dir+mlink,33261)
+                except:
+                    pass
+            except:
+                made_exes.append(_("ERROR creating executable:")+" "+bin_dir+mlink)
+
+        if install_type==2:
+            try:
+                if new_path==1: f=open(windir+"Start Menu\\Programs\\"+install_app_name+"\\"+mlink+".bat","w")
+                else: f=open(windir+"Start Menu\\Programs\\"+mlink+".bat","w")
+                f.write(linker)
+                f.flush()
+                f.close()
+                if new_path==1:  udict[windir+"Start Menu\\Programs\\"+install_app_name+"\\"+mlink+".bat"]="1"
+                else: udict[windir+"Start Menu\\Programs\\"+mlink+".bat"]="1"
+            except:
+                pass
+    return made_exes
+
+    def makeUninstall(self,udict):  
+    global install_exe
+    global exe_names
+    this_app=sys.argv[0]
+    this_app_cp=this_app[this_app.rfind(os.sep)+1:len(this_app)]
+    pixmaps=['close.xpm','next.xpm']
+    global my_locale
+    if not my_locale==None: pixmaps.append(my_locale)
+    if self.copyFile(this_app,install_dir+this_app_cp,0):
+        udict[install_dir+this_app_cp]="1"
+        try:
+            f=open(install_dir+"UNINSTALL-ME.sh","w")
+            f.write("python ."+os.sep+this_app_cp)
+            f.flush()
+            f.close()
+            udict[install_dir+"UNINSTALL-ME.sh"]="1"
+            os.chmod(install_dir+"UNINSTALL-ME.sh",33261)
+        except:
+            pass
+        install_exe.append(this_app_cp)
+        if install_type==2: exe_names[this_app_cp]="Uninstall "+self.makeLinkName(install_app_name,2)
+        else: exe_names[this_app_cp]="uninstall-"+self.makeLinkName(install_app_name,1)
+        for ii in pixmaps:
+            if self.copyFile(getBaseDir()+ii,install_dir+ii,0): udict[install_dir+ii]="1"
+        if len(install_pixmap)>0:
+            if self.copyFile(install_pixmap,install_dir+install_pixmap,0): udict[install_dir+install_pixmap]="1"
+    try:
+        f=open(install_dir+"uninstall.log","w")
+        f.write("APP_NAME="+install_app_name+" version "+install_app_version+"\n")
+        f.write("PIXMAP="+install_dir+install_pixmap+"\n")      
+        for ii in udict.keys():
+            f.write(ii+"\n")
+        f.write(install_dir+"uninstall.log\n")
+        f.flush()
+        f.close()
+        udict[install_dir+"uninstall.log"]="1"
+    except:
+        pass
+    
+    def copyFile(self,copyfrom,copyto,fail_on_permission_error=1):  
+    try:
+        f=open(copyfrom)
+        ff=f.read()
+        f.close()
+        f=open(copyto,"w")
+        f.write(ff)
+        f.flush()
+        f.close()
+        global install_type
+        if install_type==1: # set permisions for unix/linux
+            try:
+                os.chmod(copyto,os.stat(copyfrom)[0])
+            except:
+                if fail_on_permission_error==1: return 0
+        return os.path.exists(copyto)
+    except:
+        return 0
+
+    def launchUninstall(self,*args):
+    if self.installed==1:
+        self.showMessage(_("The application has already been UN-INSTALLED.")+"\n"+_("You may now click the 'FINISH' button to exit."))
+        return
+    self.holder.set_text(_("  UN-INSTALLING...PLEASE WAIT.  "))
+    gtk.timeout_add(2000,self.doUninstall)
+
+    def doUninstall(self,notify=1): 
+    mydirs=[]
+    b=0
+    while b<11:
+        for ii in uninstall_files:
+            try:
+                if not ii.endswith(os.sep): 
+                    try:
+                        f=os.popen("rm -f "+ii)
+                        f.readlines()
+                    except:
+                        pass
+                    os.remove(ii)
+                    del uninstall_files[uninstall_files.index(ii)]
+                else: 
+                    mydirs.append(ii)
+                    del uninstall_files[uninstall_files.index(ii)]
+            except:
+                if not os.path.exists(ii): del uninstall_files[uninstall_files.index(ii)]
+        b=b+1
+    b=0
+    mydirs.sort()
+    mydirs.reverse()
+    while b<15:
+        for ii in mydirs:
+            try:
+                os.rmdir(ii)
+                del mydirs[mydirs.index(ii)]
+            except:
+                if not os.path.exists(ii): del mydirs[mydirs.index(ii)]
+        b=b+1   
+    self.installed=1
+    if notify==1:
+        s=""
+        if len(mydirs)>0: 
+            s=s+"\n__________________\n"+_("PyInstallShield could not remove the following directories (folders):")+"\n"
+            for ii in mydirs:
+                s=s+ii+"\n"
+        if len(uninstall_files)>0: 
+            s=s+"\n"+_("PyInstallShield could not remove the following files:")+"\n"
+            for ii in uninstall_files:
+                s=s+ii+"\n"
+        self.holder.set_text(_("  UN-INSTALL COMPLETE!  "))
+        self.setText(self.logger,_("The application")+" '"+install_app_name+"' "+_("has been successfully uninstalled")+"\n"+_("and REMOVED from your system.")+"\n"+_("Click the 'FINISH' button to exit.")+"\n"+s)    
+        self.closebutt.remove(self.closebutt.get_children()[0])
+        self.closebutt.add(gtk.Label(_("   FINISH   ")))
+        self.closebutt.show_all()
+
+    def doCleanup(self,*args):
+    # return
+    if not install_clean==1: return
+    if getBaseDir()==install_dir: return
+    global install_file
+    global my_locale
+    cdirs={}
+    clean=install_files+['close.xpm','next.xpm',sys.argv[0],'PyInstallShield-LICENSE','INSTALL-ME.sh','dir.xpm',install_file]
+    if not my_locale==None: clean.append(my_locale)
+    if len(install_icons)>0: clean=clean+install_icons
+    if len(install_exe)>0: clean=clean+install_exe
+    if len(install_pixmap)>0: clean.append(install_pixmap)
+    if len(license)>0: clean.append(license)
+    for ii in clean:
+        try:
+            if ii.find(os.sep)>0: 
+                cdirs[os.path.abspath(ii[0:ii.rfind(os.sep)+1])]="1"
+            os.remove(getBaseDir()+ii)
+        except:
+            pass
+    b=0
+    lcd=cdirs.keys()
+    lcd.sort()
+    lcd.reverse()
+    while b<6:
+        for yy in lcd:
+            try:
+                f=os.popen("rmdir "+ii)
+                f.readlines()
+                os.rmdir(ii)
+                del cdirs[ii]
+            except:
+                pass
+        b=b+1
+
+
+    def setText(self,temptext,textdata):
+    temptext.freeze()
+    try:
+        temptext.delete_text(0,temptext.get_length())
+        temptext.delete_text(0,temptext.get_length()+1)
+    except:
+        pass
+    temptext.insert_defaults(str(textdata))
+    temptext.thaw()
+
+    def getIconButton (self,iwin,picon,lab="?",both=0,reverse=0) :  
+        try:
+            b=gtk.Button()
+            if both==1:
+                h=gtk.HBox(0,0)
+                h.set_spacing(4)
+                if reverse==1:
+                    h.pack_start(gtk.Image(iwin,str(picon),None),0,0,0)
+                    l=gtk.Label(str(lab))
+                    l.set_alignment(0,0.5)
+                    h.pack_start(l,1,1,0)
+                else:
+                    l=gtk.Label(str(lab))
+                    l.set_alignment(0,0.5)
+                    h.pack_start(l,1,1,0)
+                    h.pack_start(gtk.Image(iwin,str(picon),None),0,0,0)
+                h.show_all()
+                b.add(h)
+            else:
+                b.add(gtk.Image(iwin,str(picon),None))
+            b.show_all()        
+            return b
+        except:
+            return gtk.Button(str(lab))
+        
+    def loadImage(self,picon,windowval):
+    try:
+        p=gtk.Image(windowval,str(picon),None)
+        p.show_all()
+        return p
+    except:
+        return None
+
+# license window
+class pylicense :
+    def __init__ (self,quit_cmd,license_data,title=_("License Agreement")) :
+    icehelp = gtk.Window (gtk.WINDOW_TOPLEVEL)
+    icehelp.realize()
+    icehelp.set_title (filter(str(title)))
+    icehelp.set_policy (1, 1, 0)
+    icehelp.set_position (WIN_POS_CENTER)
+    icehelp.set_size_request(550,300)
+    icehelp.set_modal(1)
+    icehelp.connect("destroy",quit_cmd)
+    self.icehelp = icehelp
+    vbox1 = gtk.VBox (0, 0)
+    vbox1.set_border_width (11)
+    vbox1.set_spacing(4)
+    scrolledwindow1 = gtk.ScrolledWindow ()
+    helptext =gtk.Text ()
+    helptext.set_editable(0)
+    helptext.set_word_wrap(1)
+    helptext.set_line_wrap(1)
+    scrolledwindow1.add (helptext)  
+    vbox1.pack_start (scrolledwindow1, 1, 1, 0)
+    vbox1.pack_start (gtk.Label(_(" You must read and accept the license agreement above. ")), 0, 0, 3)
+    hbox=gtk.HBox(0,0)
+    agbutt =gtk.Button(" "+_("YES, I accept this license.")+" ")
+    gtk.Tooltips().set_tip(agbutt,_("YES, I accept this license."))
+    agbutt.connect("clicked",self.hideh)
+    hbox.pack_start(agbutt,0,0,0)
+    hbox.pack_start(gtk.Label("     "),1,1,0)
+    closebutt =gtk.Button(" "+_("NO, I don't accept this license.")+" ")
+    gtk.Tooltips().set_tip(closebutt,_("NO, I don't accept this license."))
+    closebutt.connect("clicked",quit_cmd)
+    hbox.pack_start(closebutt,0,0,0)
+    vbox1.pack_start (hbox, 0, 0, 6)
+    icehelp.add (vbox1)
+    helptext.insert_defaults("\n"+filter(str(license_data)))
+    icehelp.show_all()
+
+    def hideh(self,*args):      
+    self.icehelp.hide()
+## main methods
+
+def runbabel() :
+    mybabel=installwin()
+    gtk.mainloop()
+
+if __name__== "__main__" :
+    runbabel()

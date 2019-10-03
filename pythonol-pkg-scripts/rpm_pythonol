@@ -1,0 +1,3 @@
+rm -f Pythonol*.rpm
+rpm -bb --buildroot=/usr/src/BUILDROOT --target i586-Linux pythonol.spec
+mv -f /usr/src/packages/RPMS/i586/Pythonol*.rpm /Compile/distro/pythonol/

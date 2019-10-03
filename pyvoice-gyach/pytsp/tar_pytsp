@@ -1,0 +1,1 @@
+tar -cIf pytsp.tar.bz2  *.py *.so *.c *.h *.i *.acm *.dll *.mak Makefile Build Build.pyesd README* AUTHORS LICENSE tsp.header pyesd.html pytsp.html  ./wine/*

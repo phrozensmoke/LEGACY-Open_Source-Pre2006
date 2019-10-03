@@ -1,0 +1,347 @@
+ baseclass.id		0x001
+&subclass.id		0x04
+&vendor.id		pci 0x105a
+|vendor.id		pci 0x105a
+&device.id		pci 0x6268
++driver.module.insmod	ataraid|pdcraid
+
+ baseclass.id		0x00c
+&subclass.id		0x00
+&progif.id		0x10
++driver.module.insmod	ieee1394|ohci1394
+
+ baseclass.id		0x00c
+&subclass.id		0x03
+&progif.id		0x00
++driver.module.insmod	usbcore|usb-uhci
+
+ baseclass.id		0x00c
+&subclass.id		0x03
+&progif.id		0x10
++driver.module.insmod	usbcore|usb-ohci
+
+ baseclass.id		0x00c
+&subclass.id		0x03
+&progif.id		0x20
++driver.module.insmod	usbcore|ehci-hcd
+
+ baseclass.id		0x00e
+&subclass.id		0x00+0x0002
++driver.module.insmod	i2o_pci|i2o_core|i2o_config|i2o_block
+
+ vendor.id		pci 0x0e11
+&device.id		pci 0xae10
+|vendor.id		pci 0x1000
+&device.id		pci 0x0010
+&subvendor.id		pci 0x0e11
+&subdevice.id		pci 0x0000+0x10000
+|vendor.id		pci 0x1011
+&device.id		pci 0x0046
++driver.module.insmod	cpqarray
+
+ vendor.id		pci 0x0e11
+&device.id		pci 0xb060
+|vendor.id		pci 0x0e11
+&device.id		pci 0xb178
++driver.module.insmod	cciss
+
+ vendor.id		pci 0x1000
+&device.id		pci 0x0001+0x0004
++driver.module.insmod	sym53c8xx
++driver.module.insmod	ncr53c8xx
++driver.module.insmod	53c7,8xx
+
+ vendor.id		pci 0x1000
+&device.id		pci 0x0006
+|vendor.id		pci 0x1000
+&device.id		pci 0x000a+0x0004
+|vendor.id		pci 0x1000
+&device.id		pci 0x000f
++driver.module.insmod	ncr53c8xx
++driver.module.insmod	sym53c8xx
+
+ vendor.id		pci 0x1000
+&device.id		pci 0x0012
+|vendor.id		pci 0x1000
+&device.id		pci 0x008f
++driver.module.insmod	sym53c8xx
++driver.module.insmod	ncr53c8xx
+
+ vendor.id		pci 0x1000
+&device.id		pci 0x0020+0x0002
++driver.module.insmod	sym53c8xx
+
+ vendor.id		pci 0x1000
+&device.id		pci 0x0030
+|vendor.id		pci 0x1000
+&device.id		pci 0x0621+0x0002
+|vendor.id		pci 0x1000
+&device.id		pci 0x0624
++driver.module.modprobe	mptscsih
++driver.module.insmod	mptbase|mptscsih
+
+ vendor.id		pci 0x1011
+&device.id		pci 0x1065
+|vendor.id		pci 0x1069
+&device.id		pci 0x0002
+|vendor.id		pci 0x1069
+&device.id		pci 0x0010
+|vendor.id		pci 0x1069
+&device.id		pci 0x0050
+|vendor.id		pci 0x1069
+&device.id		pci 0xba56
++driver.module.insmod	DAC960
+
+ vendor.id		pci 0x1014
+&device.id		pci 0x002e
+|vendor.id		pci 0x1014
+&device.id		pci 0x01bd
++driver.module.insmod	ips
+
+ vendor.id		pci 0x1014
+&device.id		pci 0x0096
++driver.module.insmod	ibmsis
+
+ vendor.id		pci 0x101e
+&device.id		pci 0x1960
+|vendor.id		pci 0x101e
+&device.id		pci 0x9010
+|vendor.id		pci 0x101e
+&device.id		pci 0x9060
+|vendor.id		pci 0x8086
+&device.id		pci 0x1960
++driver.module.insmod	megaraid
+
+ vendor.id		pci 0x1022
+&device.id		pci 0x2020
++driver.module.insmod	tmscsim
++driver.module.insmod	AM53C974
+
+ vendor.id		pci 0x1036
+&device.id		pci 0x0000
++driver.module.insmod	fdomain
+
+ vendor.id		pci 0x1044
+&device.id		pci 0xa400
++driver.module.insmod	eata
+
+ vendor.id		pci 0x1044
+&device.id		pci 0xa501
++driver.module.insmod	dpt_i2o
+
+ vendor.id		pci 0x104b
+&device.id		pci 0x0140
+|vendor.id		pci 0x104b
+&device.id		pci 0x1040
+|vendor.id		pci 0x104b
+&device.id		pci 0x8130
++driver.module.insmod	BusLogic
+
+ vendor.id		pci 0x1077
+&device.id		pci 0x1016
+|vendor.id		pci 0x1077
+&device.id		pci 0x1080
+|vendor.id		pci 0x1077
+&device.id		pci 0x1216
+|vendor.id		pci 0x1077
+&device.id		pci 0x1240
+|vendor.id		pci 0x1077
+&device.id		pci 0x1280
++driver.module.insmod	qla1280
+
+ vendor.id		pci 0x1077
+&device.id		pci 0x1020
++driver.module.insmod	qlogicisp
+
+ vendor.id		pci 0x1077
+&device.id		pci 0x2100
++driver.module.insmod	qla2x00
++driver.module.insmod	qlogicfc
+
+ vendor.id		pci 0x1077
+&device.id		pci 0x2200
++driver.module.insmod	qla2200
++driver.module.insmod	qla2x00
++driver.module.insmod	qlogicfc
+
+ vendor.id		pci 0x1077
+&device.id		pci 0x2300
++driver.module.insmod	qla2300
+
+ vendor.id		pci 0x10cd
+&device.id		pci 0x1100
+|vendor.id		pci 0x10cd
+&device.id		pci 0x1200
+|vendor.id		pci 0x10cd
+&device.id		pci 0x1300
+|vendor.id		pci 0x10cd
+&device.id		pci 0x2300
+|vendor.id		pci 0x10cd
+&device.id		pci 0x2500
++driver.module.insmod	advansys
+
+ vendor.id		pci 0x1101
+&device.id		pci 0x0002
+|vendor.id		pci 0x1101
+&device.id		pci 0x1060
++driver.module.insmod	a100u2w
+
+ vendor.id		pci 0x1101
+&device.id		pci 0x9400+0x0002
+|vendor.id		pci 0x1101
+&device.id		pci 0x9500
+|vendor.id		pci 0x134a
+&device.id		pci 0x0002
++driver.module.insmod	initio
+
+ vendor.id		pci 0x1103
+&device.id		pci 0x0003+0x0002
++driver.module.insmod	ataraid|hptraid
+
+ vendor.id		pci 0x1119
+&device.id		pci 0x0000+0x000e
+|vendor.id		pci 0x1119
+&device.id		pci 0x0100+0x0300
+|vendor.id		pci 0x8086
+&device.id		pci 0x0600
++driver.module.insmod	gdth
+
+ vendor.id		pci 0x1191
+&device.id		pci 0x8002
+|vendor.id		pci 0x1191
+&device.id		pci 0x8010
+|vendor.id		pci 0x1191
+&device.id		pci 0x8020
+|vendor.id		pci 0x1191
+&device.id		pci 0x8030
+|vendor.id		pci 0x1191
+&device.id		pci 0x8040
+|vendor.id		pci 0x1191
+&device.id		pci 0x8050
+|vendor.id		pci 0x1191
+&device.id		pci 0x8060
++driver.module.insmod	atp870u
+
+ vendor.id		pci 0x1256
+&device.id		pci 0x4401
++driver.module.insmod	pci2220i
+
+ vendor.id		pci 0x1256
+&device.id		pci 0x5201
++driver.module.insmod	pci2000
+
+ vendor.id		pci 0x134a
+&device.id		pci 0x0001
++driver.module.insmod	dmx3191d
+
+ vendor.id		pci 0x13c1
+&device.id		pci 0x1000+0x0002
++driver.module.insmod	3w-xxxx
+
+ vendor.id		pci 0x1de1
+&device.id		pci 0x0391
++driver.module.insmod	dc395x_trm
+
+ vendor.id		pci 0x9004
+&device.id		pci 0x1078
+|vendor.id		pci 0x9004
+&device.id		pci 0x2178
+|vendor.id		pci 0x9004
+&device.id		pci 0x3860
+|vendor.id		pci 0x9004
+&device.id		pci 0x5078
+|vendor.id		pci 0x9004
+&device.id		pci 0x5578
+|vendor.id		pci 0x9004
+&device.id		pci 0x6038
+|vendor.id		pci 0x9004
+&device.id		pci 0x6075
+|vendor.id		pci 0x9004
+&device.id		pci 0x6078
+|vendor.id		pci 0x9004
+&device.id		pci 0x6178
+|vendor.id		pci 0x9004
+&device.id		pci 0x7078
+|vendor.id		pci 0x9004
+&device.id		pci 0x7178
+|vendor.id		pci 0x9004
+&device.id		pci 0x7278
+|vendor.id		pci 0x9004
+&device.id		pci 0x7378
+|vendor.id		pci 0x9004
+&device.id		pci 0x7478
+|vendor.id		pci 0x9004
+&device.id		pci 0x7895
+|vendor.id		pci 0x9004
+&device.id		pci 0x8078
+|vendor.id		pci 0x9004
+&device.id		pci 0x8178
+|vendor.id		pci 0x9004
+&device.id		pci 0x8278
+|vendor.id		pci 0x9004
+&device.id		pci 0x8378
+|vendor.id		pci 0x9004
+&device.id		pci 0x8478
+|vendor.id		pci 0x9004
+&device.id		pci 0x8578
+|vendor.id		pci 0x9004
+&device.id		pci 0x8678
+|vendor.id		pci 0x9004
+&device.id		pci 0x8778
+|vendor.id		pci 0x9004
+&device.id		pci 0x8878
+|vendor.id		pci 0x9005
+&device.id		pci 0x0010+0x0002
+|vendor.id		pci 0x9005
+&device.id		pci 0x0013
+|vendor.id		pci 0x9005
+&device.id		pci 0x001f
+|vendor.id		pci 0x9005
+&device.id		pci 0x0050+0x0002
+|vendor.id		pci 0x9005
+&device.id		pci 0x005f
+|vendor.id		pci 0x9005
+&device.id		pci 0x0080+0x0002
+|vendor.id		pci 0x9005
+&device.id		pci 0x0083
+|vendor.id		pci 0x9005
+&device.id		pci 0x008f
+|vendor.id		pci 0x9005
+&device.id		pci 0x00c0+0x0002
+|vendor.id		pci 0x9005
+&device.id		pci 0x00c3
+|vendor.id		pci 0x9005
+&device.id		pci 0x00cf
++driver.module.insmod	aic7xxx
++driver.module.insmod	aic7xxx_old
+
+ vendor.id		ADP
+&device.id		eisa 0x1505
++driver.module.modprobe	aha152x
++driver.module.config	options aha152x		aha152x=<io0>,<irq0>
++driver.module.insmod	aha152x aha152x=<io0>,<irq0>
+
+ vendor.id		special 0x0401
+&device.id		special 0x0030
++driver.module.insmod	mesh
+
+ vendor.id		special 0x0401
+&device.id		special 0x0031
++driver.module.insmod	mac53c94
+
+ vendor.id		special 0x0401
+&device.id		special 0x0040
++driver.module.insmod	swim3
+
+ vendor.id		special 0x1800
+&device.id		special 0x0001
++driver.module.modprobe	imm
+
+ vendor.id		special 0x1800
+&device.id		special 0x0002
++driver.module.modprobe	ppa
+
+ vendor.id		special 0x4001
+&device.id		special 0x1003+0x0002
++driver.module.insmod	qlogicpti
+

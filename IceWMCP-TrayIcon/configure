@@ -1,0 +1,10 @@
+#! /bin/sh
+echo ""
+echo "       There is no 'configure' script."
+echo ""
+echo "       Just type 'make', then 'make install'."
+echo ""
+echo "       See the 'IceWMCP-TrayIcon-README.txt'"
+echo "       file (in the section 'BUILDING AND INSTALLING')"
+echo "       for information on configuring the application."
+echo ""

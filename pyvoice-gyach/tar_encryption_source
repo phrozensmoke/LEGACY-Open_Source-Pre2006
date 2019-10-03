@@ -1,0 +1,2 @@
+rm -f gyachE-Encryption-Plugins-*source*.tar.bz2
+tar -cjf gyachE-Encryption-Plugins-0.2-source.tar.bz2 ./gyach/src/plugins/*gyach-mcrypt*.c  ./gyach/src/plugins/*gyach-blowfish*.c  ./gyach/src/plugins/*gyach-gpgme*.c  ./gyach/src/plugins/Encryption_Plugins_README.txt ./gyach/src/plugins/Makefile* 

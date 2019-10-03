@@ -1,0 +1,5 @@
+# Ice Control Panel Applet
+Name=Teclas\nde IceWM
+Exec=[PHROZEN-INTERNAL]IceWMCPKeyEdit.py
+Icon=icewmcp-keyedit.png
+Hint=Administrar teclas de atajo de IceWM

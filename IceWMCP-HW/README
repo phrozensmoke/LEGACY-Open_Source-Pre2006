@@ -1,0 +1,203 @@
+LICENSE:
+	GNU General Public License v.2 (see the 'COPYING' file)
+
+BUILDING THE PLUGIN :
+
+	To build the IceWMCP Hardware/System plugin:
+
+		 type 'make'
+		 then type 'make install'
+
+		 When 'PyInstallShield' launches, be sure to install the plugin in 
+		 the SAME directory where IceWM Control Panel is installed! If you 
+		 attempt to install the plug-in in some other directory, the plugin 
+		 will NOT work.  For example, if IceWM Control Panel is installed in 
+		 '/usr/share/IceWMCP/', then you MUST install the plugin in 
+	     	 '/usr/share/IceWMCP/'.
+
+		 If the plugin has been built and installed successfully, you should be 
+		 able to run the command 'IceWMCP-System'.
+
+	
+	You will need the Python development package with the 'Python.h' header.  The 
+	Python wrapper code (built with swig) has already been included, so you won't need 
+	Swig.
+
+	NO OTHER HELP WILL BE PROVIDED FOR BUILDING, COMPILING, INSTALLING, OR 
+	USING THIS PLUGIN.  DO NOT SEND ME 'BUG REPORTS' ABOUT THIS PLUGIN. DO 
+	NOT EMAIL ME ASKING QUESTIONS ABOUT THE PLUGIN OR FOR HELP BUILDING
+	OR INSTALLING THE PLUGIN.  HELP WILL ONLY BE OFFERED TO TRANSLATORS 
+	WORKING ON THE DEVELOPMENT TEAM!  THIS IS AN *UNSUPPORTED* PLUGIN 
+	AND IS STILL CONSIDERED 'EXPERIMENTAL'.  THIS CODE CONTAINS A MODIFIED
+	VERSION OF THE 'LIBHD'/HWINFO SOFTWARE FROM SUSE (GPL). THIS PLUGIN 
+	IS NOT FOR 'NEWBIES' OR PEOPLE TOO LAZY TO TROUBLESHOOT ON THEIR OWN.
+
+	IF YOU CAN'T USE THE PRE-COMPILED i586 (Intel) VERSION AND YOU CAN'T 
+	GET THIS CODE TO COMPILE, GET HELP FROM SOMEONE ELSE, OTHERWISE, YOU 
+	ARE 'SH*T OUT OF LUCK'.
+
+
+[ADDED by Erica Andrews, PhrozenSmoke@yahoo.com]
+KNOWN LIMITATIONS:
+	- Probing of the smbios does not work on all systems.
+	- Probing of the X Server has been (temporarily) disabled because it generally reports WRONG information
+	  and relies on system-specific /proc/cmdline
+	- Probing Network, ISDN, or Modem devices while online may (WILL with modems) disconnect you from the 
+	  internet, this is definitely true of most ppp and tuntap network devices
+	- Probing 'partition' appears to do nothing useful
+	- This is a highly MODIFIED version of the hwinfo/libhd tools distributed by SuSe.  This is STILL EXPERIMENTAL CODE.
+
+
+
+OLD HELP FILE FROM SuSe (not really correct anymore!)
+
+
+1. Usage
+========
+
+  hwinfo [debug=deb_flag] [log=log_file] [list[+]=hw_item] [[+|-]probe_option1] [[+|-]probe_option2] ...
+
+Examples:
+
+  hwinfo
+    - probes for nearly everything
+
+  hwinfo +all
+    - probes for everything
+
+  hwinfo log=hw_log
+    - default probing, output is written to hw_log
+      *** Please don't use "hwinfo >some_log 2>&1" to store the output into a
+      log file! ***
+
+  hwinfo -all +ide
+    - probe for ide drives only
+
+  hwinfo +all -isapnp -floppy
+    - probe for everything *except* isapnp and floppies
+
+Some probing flags do not stand for complete modules but enable additional
+features; e.g. "pci.range" or "cdrom.info".
+
+Example:
+  hwinfo -all +cdrom
+  gives a list of all cdrom's
+
+  hwinfo -all +cdrom.info
+  additionally reads the iso9660 info
+
+To get a list of all supported probing flags, call 'hwinfo -all'.
+
+
+2. Environment variables/kernel cmdline parameters
+==================================================
+
+You can control the hardware probing using the environment variable
+"hwprobe" and the kernel cmdline parameters "hwprobe" & "x11".
+
+If "hwprobe" is set on the kernel cmdline, the environment variable
+"hwprobe" is ignored. Otherwise, the meaning of both is exactly the same.
+
+  x11
+    - Controls the X server/X version to prefer. It is either "3" or "4" or the
+      name of the X server/X server module to use (XF3: server name without
+      the leading "XF86_", XF4: the server module name).
+
+      Examples:
+        x11=3
+          o prefer XFree86 3.x over 4.x (if possible)
+
+        x11=SVGA
+          o use the XF86_SVGA server (*** Even if the server does not
+            support the card! ***)
+
+        x11=nv
+          o use the XF4 nv_drv.o driver (*** Even if the module does not
+            support the card! ***)
+
+  hwprobe
+    - Controls which probing flags should *always* be set/cleared. (These
+      settings *cannot* be overridden by command line switches.)
+
+      Examples:
+        hwprobe=-isapnp
+          o *never* do any isapnp probing
+
+        hwprobe=-braille,-modem
+          o don't look for braille displays & modems
+
+    - Allows you to add and remove hardware from the probing results. In this case
+      the syntax is (-: remove, +: add at end of list, <nothing>: add at begin of
+      list):
+        hwprobe=[+-]<device_class>:<vendor_id>:<device_id>[:<unix_device_file>]
+
+      <device_class>, <vendor_id> and <device_id> are device ids as used by libhd.
+      See the output of hwinfo for examples. In connection with "-", you can use
+      "*" as a placeholder that matches every id.
+
+      Note: <unix_device_file> is optional.
+
+      Note2: you cannot usefully *add* hardware that needs more info than that
+      given by the hwprobe entry. Disks & floppies are notable examples.
+      (But you can *remove* them.)
+
+      Here is a typical hwinfo output for a mouse, with the relevant ids
+      underlined (<device_class> is the combined base_class & sub_class),
+      [see 1st example below]:
+
+        14: PS/2 00.0: 10500 PS/2 Mouse
+                       ^^^^^ -->	<device_class>
+          [Created at mouse.110]
+          Vendor: s0200 "Unknown"
+                  ^^^^^  -->		<vendor_id>
+          Model: 0002 "Generic PS/2 Mouse"
+                 ^^^^  -->		<device_id>
+          Device File: /dev/psaux
+                       ^^^^^^^^^^ -->	<unix_device_file>
+          Driver Info #0:
+            XFree86 Protocol: ps/2
+            GPM Protocol: ps2
+          Attached to: #8 (PS/2 Controller)
+
+
+      Examples:
+        hwprobe=+10500:s200:2:/dev/psaux
+          o add a ps/2 mouse [at the end of the hardware list]
+
+        hwprobe=10500:s200:2:/dev/psaux
+          o add a ps/2 mouse [at the start of the hardware list, so it
+            is our default mouse]
+
+        hwprobe=+10b00:s5001:0:/dev/ttyS0
+          o add a braille display connected to /dev/ttyS0
+
+        hwprobe=-10500:s200:2:/dev/psaux
+          o remove ps/2 mice attached to /dev/psaux
+
+        hwprobe=-10500:s200:2
+          o remove all ps/2 mice
+
+        hwprobe=-10500:*:*
+          o remove all ps/2 mice
+
+        hwprobe=-*:*:*:/dev/hdc
+          o remove /dev/hdc
+
+        hwprobe=+401:1274:5000
+          o add an ensoniq sound card
+
+      Grafics cards are are slightly trickier:
+
+        hwprobe=+300:1014:b7
+          o add a Fire GL1 card
+            Note: this way you'll get a multihead config. You'll probably
+            rather want the following example.
+
+        hwprobe=-300:*:*,+300:1014:b7
+          o remove all graphics cards; then add a Fire GL1 card
+
+        hwprobe=+400:121a:1
+          o add a 3fx voodoo card (Note the class "400", not "300"!)
+
+    - for more ids, see "src/ids/names.*" and "src/ids/drivers.*"
+

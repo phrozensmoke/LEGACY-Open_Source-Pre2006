@@ -1,0 +1,69 @@
+#!/bin/sh
+##################################################################
+# Simple script to try to simulate gtk-config if it isn't found. #
+# This was written to be used on cygwin systems that didn't      #
+# include gtk-config.  Probably won't work on much else.         # 
+#                                                                #
+# written by Chris Pinkham, Sept 9, 2002.                        #
+##################################################################
+
+case "$1" in
+	--libs)
+		LIST="libgdk libglib libgmodule libgthread libgtk"
+		LIBS=""
+		LAST_DIR=""
+		for LIB in $LIST
+		do
+			FULL=`/bin/ls -1 /lib/${LIB}*.dll.a /usr/lib/${LIB}*.dll.a /usr/local/lib/${LIB}*.dll.a 2> /dev/null | head -1`
+			DIR=`dirname $FULL`
+			if [ "${DIR}" != "${LAST_DIR}" ]
+			then
+				printf "-L%s " $DIR
+				LAST_DIR=${DIR}
+			fi
+			FILE=`basename $FULL | sed -e "s/^lib//" -e "s/.dll.a$//"`
+			printf "-l%s " $FILE
+		done
+		printf "\n"
+		;;
+
+	--cflags)
+		INC_DIR=`/bin/ls -1d /usr/include/gtk*/gtk.h /usr/local/include/gtk*/gtk.h 2> /dev/null | head -1 | sed -e "s/\/[^\/]*\/gtk.h\$//"`
+		printf "-I${INC_DIR} "
+
+		INC_DIR2=`/bin/ls -1d /usr/include/glib.h /include/glib*/glib.h /usr/include/glib*/glib.h /usr/local/include/glib.h 2> /dev/null | head -1 | sed -e "s/\/glib.h\$//"`
+		if [ "${INC_DIR}" != "${INC_DIR2}" \
+			-a "${INC_DIR2}" != "" ]
+		then
+			printf "-I${INC_DIR2} "
+		fi
+
+		INC_DIR3=`/bin/ls -1d /usr/include/gdkconfig.h /lib/*/include/gdkconfig.h /usr/local/lib/*/include/gdkconfig.h /usr/local/include/gdkconfig.h 2> /dev/null | head -1 | sed -e "s/\/gdkconfig.h\$//"`
+		if [ "${INC_DIR3}" != "${INC_DIR}" \
+			-a "${INC_DIR3}" != "${INC_DIR2}" \
+			-a "${INC_DIR3}" != "" ]
+		then
+			printf "-I${INC_DIR3} "
+		fi
+
+		INC_DIR4=`/bin/ls -1d /usr/include/glibconfig.h /lib/*/include/glibconfig.h /usr/local/lib/*/include/glibconfig.h /usr/local/include/glibconfig.h 2> /dev/null | head -1 | sed -e "s/\/glibconfig.h\$//"`
+		if [ "${INC_DIR4}" != "${INC_DIR}" \
+			-a "${INC_DIR4}" != "${INC_DIR2}" \
+			-a "${INC_DIR4}" != "${INC_DIR3}" \
+			-a "${INC_DIR4}" != "" ]
+		then
+			printf "-I${INC_DIR4} "
+		fi
+
+		printf "\n"
+		;;
+
+	*)
+		echo
+		echo "USAGE: my-gtk-config <option>"
+		echo "   where option is one of:"
+		echo "	--libs"
+		echo "	--cflags"
+		echo
+		exit 1
+esac

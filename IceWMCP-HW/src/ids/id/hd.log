@@ -1,0 +1,84 @@
+- removing useless entries
+- splitting entries
+- combining driver info
+- combining requires info
+- checking for consistency
+- join items
+storage(16,1): info added to storage(16,0), item removed
+storage(16,2): info added to storage(16,0), item removed
+storage(26,1): info added to storage(26,0), item removed
+storage(39,1): info added to storage(39,0), item removed
+storage(39,2): info added to storage(39,0), item removed
+storage(49,1): info added to storage(49,0), item removed
+storage(60,1): info added to storage(60,0), item removed
+storage(60,2): info added to storage(60,0), item removed
+storage(60,3): info added to storage(60,0), item removed
+storage(93,1): info added to storage(93,0), item removed
+storage(93,2): info added to storage(93,0), item removed
+storage(102,1): info added to storage(102,0), item removed
+storage(102,2): info added to storage(102,0), item removed
+storage(102,3): info added to storage(102,0), item removed
+storage(102,4): info added to storage(102,0), item removed
+storage(137,1): info added to storage(137,0), item removed
+storage(137,2): info added to storage(137,0), item removed
+storage(137,3): info added to storage(137,0), item removed
+storage(137,4): info added to storage(137,0), item removed
+storage(150,1): info added to storage(150,0), item removed
+storage(157,1): info added to storage(157,0), item removed
+storage(157,2): info added to storage(157,0), item removed
+storage(166,1): info added to storage(166,0), item removed
+storage(166,2): info added to storage(166,0), item removed
+storage(175,1): info added to storage(175,0), item removed
+storage(175,2): info added to storage(175,0), item removed
+storage(175,3): info added to storage(175,0), item removed
+storage(175,4): info added to storage(175,0), item removed
+storage(175,5): info added to storage(175,0), item removed
+storage(175,6): info added to storage(175,0), item removed
+storage(217,1): info added to storage(217,0), item removed
+storage(217,2): info added to storage(217,0), item removed
+storage(217,3): info added to storage(217,0), item removed
+storage(217,4): info added to storage(217,0), item removed
+storage(217,5): info added to storage(217,0), item removed
+storage(217,6): info added to storage(217,0), item removed
+storage(217,7): info added to storage(217,0), item removed
+storage(217,8): info added to storage(217,0), item removed
+storage(217,9): info added to storage(217,0), item removed
+storage(217,10): info added to storage(217,0), item removed
+storage(217,11): info added to storage(217,0), item removed
+storage(217,12): info added to storage(217,0), item removed
+storage(217,13): info added to storage(217,0), item removed
+storage(217,14): info added to storage(217,0), item removed
+storage(217,15): info added to storage(217,0), item removed
+storage(217,16): info added to storage(217,0), item removed
+storage(217,17): info added to storage(217,0), item removed
+storage(217,18): info added to storage(217,0), item removed
+storage(217,19): info added to storage(217,0), item removed
+storage(217,20): info added to storage(217,0), item removed
+storage(217,21): info added to storage(217,0), item removed
+storage(217,22): info added to storage(217,0), item removed
+storage(217,23): info added to storage(217,0), item removed
+storage(217,24): info added to storage(217,0), item removed
+storage(217,25): info added to storage(217,0), item removed
+storage(217,26): info added to storage(217,0), item removed
+storage(217,27): info added to storage(217,0), item removed
+storage(217,28): info added to storage(217,0), item removed
+storage(217,29): info added to storage(217,0), item removed
+storage(217,30): info added to storage(217,0), item removed
+storage(217,31): info added to storage(217,0), item removed
+storage(217,32): info added to storage(217,0), item removed
+storage(217,33): info added to storage(217,0), item removed
+storage(217,34): info added to storage(217,0), item removed
+storage(327,1): info added to storage(327,0), item removed
+storage(327,2): info added to storage(327,0), item removed
+storage(327,3): info added to storage(327,0), item removed
+storage(327,4): info added to storage(327,0), item removed
+storage(340,1): info added to storage(340,0), item removed
+storage(340,2): info added to storage(340,0), item removed
+storage(351,1): info added to storage(351,0), item removed
+storage(368,1): info added to storage(368,0), item removed
+- sorting
+- statistics
+  0 inconsistencies
+  0 errors
+  46 items in
+  46 items out

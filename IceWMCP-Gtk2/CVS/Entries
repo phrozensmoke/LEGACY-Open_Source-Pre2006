@@ -1,0 +1,57 @@
+/ColorButton.py/1.1.1.1/Sun Aug  3 08:10:34 2003//
+/DndCTree.py/1.1.1.1/Sun Aug  3 08:08:18 2003//
+/ICEWMCP_BugReport.py/1.1.1.1/Sun Aug  3 08:09:09 2003//
+/ICEWMCP_URLRead.py/1.1.1.1/Sun Aug  3 08:10:00 2003//
+/INSTALL-ME.sh/1.1.1.1/Sun Aug  3 08:10:04 2003//
+/IceMe.py/1.1.1.1/Sun Aug  3 08:08:25 2003//
+/IceMenuTree.py/1.1.1.1/Sun Aug  3 08:08:21 2003//
+/IceWMCP.py/1.1.1.1/Sun Aug  3 08:09:37 2003//
+/IceWMCPGtkIconSelection.py/1.1.1.1/Sun Aug  3 08:09:17 2003//
+/IceWMCPKeyboard.py/1.1.1.1/Sun Aug  3 08:09:30 2003//
+/IceWMCPMouse.py/1.1.1.1/Sun Aug  3 08:09:31 2003//
+/IceWMCPRun.py/1.1.1.1/Sun Aug  3 08:09:39 2003//
+/IceWMCPWallpaper.py/1.1.1.1/Sun Aug  3 08:10:01 2003//
+/IceWMCPWinOptions.py/1.1.1.1/Sun Aug  3 08:10:02 2003//
+/IceWMCP_Dialogs.py/1.1.1.1/Sun Aug  3 08:09:14 2003//
+/IceWMCP_GtkPCCard.py/1.1.1.1/Sun Aug  3 08:09:18 2003//
+/IconSelectionDialog.py/1.1.1.1/Sun Aug  3 08:10:03 2003//
+/MenuParser.py/1.1.1.1/Sun Aug  3 08:10:10 2003//
+/Preferences.py/1.1.1.1/Sun Aug  3 08:10:13 2003//
+/PreviewWindow.py/1.1.1.1/Sun Aug  3 08:10:14 2003//
+/PyInstallShield/1.1.1.1/Sun Aug  3 08:10:18 2003//
+/README.txt/1.1.1.1/Sun Aug  3 08:10:34 2003//
+/close.xpm/1.1.1.1/Sun Aug  3 08:08:16 2003//
+/constants.py/1.1.1.1/Sun Aug  3 08:08:16 2003//
+/dir.xpm/1.1.1.1/Sun Aug  3 08:08:16 2003//
+/es.mo/1.1.1.1/Sun Aug  3 08:08:19 2003//
+/icepref.py/1.1.1.1/Sun Aug  3 08:08:40 2003//
+/icepref2.png/1.1.1.1/Sun Aug  3 08:08:27 2003//
+/icepref_search.py/1.1.1.1/Sun Aug  3 08:08:42 2003//
+/icepref_td.py/1.1.1.1/Sun Aug  3 08:09:00 2003//
+/icesound.py/1.1.1.1/Sun Aug  3 08:09:07 2003//
+/icewmcp.png/1.1.1.1/Sun Aug  3 08:09:35 2003//
+/icewmcp_common.py/1.1.1.1/Sun Aug  3 08:09:11 2003//
+/icewmcp_dnd.py/1.1.1.1/Sun Aug  3 08:09:15 2003//
+/icewmcp_help.png/1.1.1.1/Sun Aug  3 08:09:18 2003//
+/icewmcp_short.png/1.1.1.1/Sun Aug  3 08:09:58 2003//
+/install-config.txt/1.1.1.1/Sun Aug  3 08:10:04 2003//
+/install-pix.xpm/1.1.1.1/Sun Aug  3 08:10:08 2003//
+/launcher.py/1.1.1.1/Sun Aug  3 08:10:09 2003//
+/local.sed/1.1.1.1/Sun Aug  3 08:10:30 2003//
+/next.xpm/1.1.1.1/Sun Aug  3 08:10:10 2003//
+/notes.txt/1.1.1.1/Sun Aug  3 08:10:33 2003//
+/phrozenclock.py/1.1.1.1/Sun Aug  3 08:10:12 2003//
+/pyprintcommon.py/1.1.1.1/Sun Aug  3 08:10:18 2003//
+/pyspool.py/1.1.1.1/Sun Aug  3 08:10:27 2003//
+/sample_theme.stheme/1.1.1.1/Sun Aug  3 08:10:27 2003//
+/view_col.png/1.1.1.1/Sun Aug  3 08:10:27 2003//
+/view_icon.png/1.1.1.1/Sun Aug  3 08:10:30 2003//
+/view_list.png/1.1.1.1/Sun Aug  3 08:10:30 2003//
+D/applet-icons////
+D/applets////
+D/doc////
+D/help////
+D/icons////
+D/licenses////
+D/locale////
+D/pixmaps////

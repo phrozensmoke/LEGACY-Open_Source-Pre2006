@@ -1,0 +1,1 @@
+To build the XMMS status plugin, type 'make xmms'.

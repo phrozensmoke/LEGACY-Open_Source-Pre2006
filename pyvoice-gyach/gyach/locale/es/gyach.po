@@ -1,0 +1,3209 @@
+#DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GYach Enhanced 1.0.7\n"
+"POT-Creation-Date: 2003-07-12 11:35+0100\n"
+"PO-Revision-Date: 2005-04-03 15:51+0400\n"
+"Last-Translator: Erica Andrews <PhrozenSmoke [at] yahoo.com>\n"
+"Language-Team: SPANISH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid " Add To Friends "
+msgstr " Añadir Como Amigo "
+
+msgid " Apply "
+msgstr " Aplicar "
+
+msgid " Buzz "
+msgstr " Buzz "
+
+msgid " Cancel "
+msgstr " Cancelar "
+
+msgid " Clear "
+msgstr " Borrar "
+
+msgid " Close "
+msgstr " Cerrar "
+
+msgid " Create Room "
+msgstr " Crear Sala "
+
+msgid " Find "
+msgstr " Encontrar "
+
+msgid " Find Text... "
+msgstr " Encontrar Texto... "
+
+msgid " Follow "
+msgstr " Perseguir "
+
+msgid " Get Profile... "
+msgstr " Ver Perfil... "
+
+msgid " Ignore "
+msgstr " Ignorar al Usuario "
+
+msgid " Ignore & BROADCAST "
+msgstr " Ignorar al Usuario y TRANSMITIR "
+
+msgid " Instant Message "
+msgstr " Mensaje Instantáneo "
+
+msgid " Join In Chat "
+msgstr " Ir A Su Charla "
+
+msgid " Join Room "
+msgstr " Unirse a la Sala "
+
+msgid " Join User In Chat Room... "
+msgstr " Unirse a la Sala del Usuario... "
+
+msgid " Login "
+msgstr " Conectar "
+
+msgid " Mute "
+msgstr " Silenciar "
+
+msgid " Next "
+msgstr " Próximo "
+
+msgid " Profile "
+msgstr " Perfil "
+
+msgid " Quick Profile "
+msgstr " Perfil Rápido "
+
+msgid " Reload "
+msgstr " Refrescar "
+
+msgid " Report Abuse... "
+msgstr " Mandar un Informe de Abuso... "
+
+msgid " Save "
+msgstr " Guardar "
+
+msgid " Send "
+msgstr " Mandar "
+
+msgid " Send File to User... "
+msgstr " Mandar Fichero a Usuario... "
+
+msgid " Send File... "
+msgstr " Mandar Fichero... "
+
+msgid " Send My Contact Information... "
+msgstr " Mandar Mi Información Personal... "
+
+msgid " Un-Ignore "
+msgstr " No Ignorar "
+
+msgid " Un-Mute "
+msgstr " No Silenciar "
+
+msgid " View Shared Files... "
+msgstr " Ver Ficheros Compartidos... "
+
+msgid " Voice Chat "
+msgstr " Charla de Voz "
+
+msgid " Yahoo! Games "
+msgstr " Juegos de Yahoo! "
+
+msgid " Yahoo! Ignore List... "
+msgstr " Lista de Usuarios Ignorados de Yahoo!... "
+
+msgid " Yahoo! Mail "
+msgstr " Correo-e de Yahoo! "
+
+msgid " [TYPING]"
+msgstr " [TECLANDO]"
+
+msgid "[TYPING]"
+msgstr "[TECLANDO]"
+
+msgid "* right-click mouse on list for edit menu *"
+msgstr "* haga clic en lista con el botón derecho para el menú de corregir*"
+
+msgid "---- downloading list ----"
+msgstr "---- descargando la lista ----"
+
+msgid "<< Remove"
+msgstr "<< Eliminar"
+
+msgid "A file has been sent to you.  Please check the window named 'Chat'."
+msgstr "Un fichero ha sido enviado a ti.  Por favor, mira la ventana nombrada 'Charla'."
+
+msgid "A user has sent you their personal contact information.  Please check the window named 'Chat'."
+msgstr "Un usuario le ha enviado su información personal.  Por favor, mira la ventana nombrada 'Charla'."
+
+msgid "About GYach Enhanced"
+msgstr "Acerca de GYach Enhanced"
+
+msgid "About GYach Enhanced..."
+msgstr "Acerca de GYach Enhanced..."
+
+msgid "Accept Private Messages,\n"
+"Invitations, and Files From:"
+msgstr "Permitir Mensajes Privados,\n"
+"Invitaciones, y Ficheros Desde:"
+
+msgid "Access:"
+msgstr "Permisos:"
+
+msgid "Accounts,\n"
+"Rooms,\n"
+"Friends"
+msgstr "Cuentas,\n"
+"Salas,\n"
+"Amigos"
+
+msgid "Add >>"
+msgstr "Añadir >>"
+
+msgid "Add Buddy..."
+msgstr "Añadir Como Amigo..."
+
+msgid "Add Favorite Room:"
+msgstr "Añadir Sala Favorita:"
+
+msgid "Add Friend:"
+msgstr "Añadir Amigo:"
+
+msgid "Add Ignore Regex:"
+msgstr "Añadir Regla de Ignorar del tipo Regex:"
+
+msgid "Add To Favorites"
+msgstr "Añadir A Favoritas"
+
+msgid "Add User To Ignore:"
+msgstr "Añadir Usuario Ignorado:"
+
+msgid "Add Yahoo Login:"
+msgstr "Añadir Cuenta de Yahoo:"
+
+msgid "Add"
+msgstr "Añadir"
+
+msgid "Advanced boot prevention -\n"
+"pre-emptive strikes against\n"
+"users trying to boot me"
+msgstr "Protección avanzada contra 'boots'-\n"
+"Acción con derecho preferente\n"
+"contra los usuarios que intentan\n"
+"desconectarme"
+
+msgid "Age"
+msgstr "Edad"
+
+msgid "Age: "
+msgstr "Edad: "
+
+msgid "Age: ?, "
+msgstr "Edad: ?, "
+
+msgid "Alias"
+msgstr "Apodo"
+
+msgid "All Yahoo! users"
+msgstr "Todos los Usuarios de Yahoo!"
+
+msgid "Auto-Away timer set to"
+msgstr "El contador de tiempo\n"
+"de Ausente-Automático se ha fijado a"
+
+msgid "Auto-Away"
+msgstr "Ausente-Automático"
+
+msgid "Auto-Ignore"
+msgstr "Ignorar-Auto"
+
+msgid "Auto-Ignore/Auto-Mute Rules:"
+msgstr "Reglas de Ignorar-Auto/Silenciar-Auto:"
+
+msgid "Auto-Ignore/Auto-Mute Triggers:"
+msgstr "Gatillos de Ignorar/Silenciar Automático:"
+
+msgid "Auto-Mute"
+msgstr "Silenciar-Auto"
+
+msgid "Auto-away timer  (in minutes)"
+msgstr "Minutos antes de marcarlo como ausente"
+
+msgid "Auto-close room list\n"
+"window when joining"
+msgstr "Cerrar la lista de salas automáticamente\n"
+"al unirse"
+
+msgid "Auto-login at startup"
+msgstr "Conectar con Yahoo! automáticamente\n"
+"al iniciar"
+
+msgid "Auto-raise PM window when message received"
+msgstr "Levantar la ventana de PM al recibir un\n"
+"mensaje"
+
+msgid "Auto-reconnect if disconnected"
+msgstr "Conectar de nuevo automáticamente\n"
+"al desconectar"
+
+msgid "Automatically reply to private messages\n"
+"when I'm away"
+msgstr "Responder automáticamente a mensajes\n"
+"cuando estoy ausente"
+
+msgid "Away Status:"
+msgstr "Estado de Ausencia:"
+
+msgid "Away message"
+msgstr "Mensaje de Ausencia"
+
+msgid "Be Right Back"
+msgstr "Vuelvo enseguida"
+
+msgid "Be right back"
+msgstr "Vuelvo enseguida"
+
+msgid "Black"
+msgstr "Negro"
+
+msgid "Blue"
+msgstr "Azul"
+
+msgid "Bold"
+msgstr "Negrita"
+
+msgid "Buddies"
+msgstr "Amigos"
+
+msgid "Buddy"
+msgstr "Amigo"
+
+msgid "Busy"
+msgstr "Ocupado"
+
+msgid "Buzz"
+msgstr "Buzz"
+
+msgid "CONTACT INFORMATION"
+msgstr "INFORMACIÓN PERSONAL"
+
+msgid "Cache room list"
+msgstr "Guardar lista de salas en cache"
+
+msgid "Cam: ?"
+msgstr "Cámara: ?"
+
+msgid "Cam: No"
+msgstr "Cámara: No"
+
+msgid "Cam: Yes"
+msgstr "Cámara: Sí"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Case Sensitive"
+msgstr "Distinguir entre minúsculas y mayúsculas"
+
+msgid "Chat &\n"
+"Conferences"
+msgstr "Charla y\n"
+"Conferencias"
+
+msgid "Chat Error: You are not currently in a chat room."
+msgstr "Error de Charla: Usted no está en una charla"
+
+msgid "Chat Text Display:"
+msgstr "Display del Texto de Charla:"
+
+msgid "CONNECTED: type /help for help"
+msgstr "CONECTADO: tecla /help para ayuda"
+
+msgid "Chat"
+msgstr "Charla"
+
+msgid "Cmd Format #1"
+msgstr "Mando Formato #1"
+
+msgid "Cmd Format #2"
+msgstr "Mando Formato #2"
+
+msgid "Cmd Version 1:"
+msgstr "Mando Versión 1:"
+
+msgid "Cmd Version 2:"
+msgstr "Mando Versión 2:"
+
+msgid "Color &\n"
+"Font"
+msgstr "Color y\n"
+"Fuente"
+
+msgid "Color"
+msgstr "Color"
+
+msgid "Colors"
+msgstr "Colores"
+
+msgid "Conference Error"
+msgstr "Error de Conferencia"
+
+msgid "Conference Room"
+msgstr "Sala de Conferencia"
+
+msgid "Connect via Proxy"
+msgstr "Conectar por Proxy"
+
+msgid "Connect"
+msgstr "Conectar"
+
+msgid "Connection Options:"
+msgstr "Opciónes de Conexión:"
+
+msgid "Connection"
+msgstr "Conexión"
+
+msgid "Contact Information:"
+msgstr "Información Personal:"
+
+msgid "Cool Links"
+msgstr "Enlaces Favoritos"
+
+msgid "Could not connect to Yahoo!"
+msgstr "No podia conectar con Yahoo!"
+
+msgid "Could not connect to server"
+msgstr "No podia conectar con el servidor"
+
+msgid "Could not load the room list"
+msgstr "No podia descargar la lista de salas"
+
+msgid "Create Chat Room"
+msgstr "Crear Charla"
+
+msgid "Create Room..."
+msgstr "Crear Sala..."
+
+msgid "Create a Conference"
+msgstr "Crear una Conferencia"
+
+msgid "Create in Category:"
+msgstr "Crear en Categoría:"
+
+msgid "Current Buddy List"
+msgstr "Lista de Amigos Actual"
+
+msgid "Current Room"
+msgstr "Sala Actual"
+
+msgid "Custom Away Msg.: "
+msgstr "Mensaje de Ausencia: "
+
+msgid "Custom Message"
+msgstr "Mensaje Especial"
+
+msgid "Custom"
+msgstr "Especial"
+
+msgid "Cyan"
+msgstr "Mar"
+
+msgid "DUPLICATE YAHOO! SCREEN NAMES LOGGED IN"
+msgstr "NOMBRES DUPLICADOS ENTRADOS"
+
+msgid "Default Browser Command\n"
+"(use %s for URL):"
+msgstr "Mando de lanzar navegador de web\n"
+"(use %s para URL)"
+
+msgid "Delete"
+msgstr "Eliminar"
+
+msgid "Delete..."
+msgstr "Eliminar..."
+
+msgid "Denied buddy list privileges for"
+msgstr "Usted negó los privilegios de la lista de amigos para"
+
+msgid "Disabled"
+msgstr "No Permitida"
+
+msgid "Disconnect"
+msgstr "Desconectar"
+
+msgid "Disconnected from Yahoo!    See Ya!"
+msgstr "¡Desconectado de Yahoo!  ¡Adiós!"
+
+msgid "Display messages before auto-ignoring"
+msgstr "Mostrar mensajes antes de ignorar\n"
+"automáticamente"
+
+msgid "Display timestamp with PM messages"
+msgstr "Mostrar fecha y hora en mensajes PM"
+
+msgid "Display timestamp with messages"
+msgstr "Mostrar fecha y hora en mensajes de\n"
+"charla"
+
+msgid "Do not accept any sent files"
+msgstr "Rechazar todos los ficheros\n"
+"mandados"
+
+msgid "Do not allow anyone who\n"
+"is not a friend to add me\n"
+"to their friend's list"
+msgstr "Solamente amigos actuales\n"
+"pueden añadirme a sus listas de\n"
+"amigos"
+
+msgid "Download"
+msgstr "Descargar"
+
+msgid "Duplicate chat\n"
+"messages, invitations,\n"
+"and file transfers in a row"
+msgstr "Mensajes de charla,\n"
+"invitaciones, y ficheros\n"
+"mandados a la vez"
+
+msgid "E-mail:"
+msgstr "Correo-e:"
+
+msgid "Edit Emote"
+msgstr "Corregir Emoción"
+
+msgid "Edit Favorite Room"
+msgstr "Corregir Sala Favorita"
+
+msgid "Edit Friend"
+msgstr "Corregir Amigo"
+
+msgid "Edit Ignore Item"
+msgstr "Corregir Articulo Ignorado"
+
+msgid "Edit Ignore Regex"
+msgstr "Corregir Regla de Ignorar del tipo Regex"
+
+msgid "Edit Ignored User"
+msgstr "Corregir Usuario Ignorado"
+
+msgid "Edit Yahoo Login"
+msgstr "Corregir Cuenta de Yahoo"
+
+msgid "Edit your list of permenantly ignored users.\n"
+"This list is stored on Yahoo's servers,\n"
+"separate from Gyach Enhanced's local ignore list."
+msgstr "Modificar su lista de usuarios ignorados\n"
+"permanente. Esta lista se guarda en los\n"
+"servidores de Yahoo!, separada de la lista\n"
+"local de Gyach Enhanced."
+
+msgid "Edit"
+msgstr "Corregir"
+
+msgid "Edit..."
+msgstr "Corregir..."
+
+msgid "Effects"
+msgstr "Efectos"
+
+msgid "Email"
+msgstr "Correo-e"
+
+msgid "Emote Name:"
+msgstr "Nombre de Emoción:"
+
+msgid "Emotes"
+msgstr "Emociónes"
+
+msgid "Enable PM sound events"
+msgstr "Permitir sonidos para PM"
+
+msgid "Enable Voice Chat"
+msgstr "Habilitar Charla de Voz"
+
+msgid "Enable Voice in Room"
+msgstr "Habilitar Charla de Voz en Sala"
+
+msgid "Enable basic boot prevention"
+msgstr "Habilitar protección básico contra\n"
+"'boots'"
+
+msgid "Enable command history (lines)"
+msgstr "Habilitar historia de mandos (lineas)"
+
+msgid "Enable sound events"
+msgstr "Permitir eventos de sonido"
+
+msgid "Enabled"
+msgstr "Permitida"
+
+msgid "Enter Login Information: "
+msgstr "Introduzca Su Información de Yahoo!: "
+
+msgid "Entering/leaving"
+msgstr "Idas/Vueltas"
+
+msgid "Error opening file for saving."
+msgstr "Error al abrir fichero para guardar."
+
+msgid "Fader:  "
+msgstr "Fader (Color mezclado):  "
+
+msgid "Faders"
+msgstr "Faders (Colores mezclados)"
+
+msgid "Favorite Rooms"
+msgstr "Salas Favoritas"
+
+msgid "Favorite Yahoo! Rooms"
+msgstr "Salas Favoritas de Yahoo!"
+
+msgid "Favorites"
+msgstr "Favoritas"
+
+msgid "File could not be opened"
+msgstr "El fichero no podía ser abierto"
+
+msgid "File does not exist"
+msgstr "No existe el fichero"
+
+msgid "File name"
+msgstr "Nombre de Fichero"
+
+msgid "File size"
+msgstr "Tamaño del fichero"
+
+msgid "File successfully sent"
+msgstr "Fichero mandado con éxito"
+
+msgid "Filter Command:"
+msgstr "Mando de Filtro:"
+
+msgid "Find:"
+msgstr "Buscar:"
+
+msgid "First Name:"
+msgstr "Nombre:"
+
+msgid "First Post is a PM"
+msgstr "Primer Mensaje de Charla es PM"
+
+msgid "First Post is a URL"
+msgstr "Primer Mensaje de Charla es URL"
+
+msgid "Following user"
+msgstr "Está siguiendo a usuario"
+
+msgid "Font"
+msgstr "Fuente"
+
+msgid "Fonts"
+msgstr "Fuentes"
+
+msgid "Force text to lowercase"
+msgstr "Todo el texto en letras minúsculas"
+
+msgid "Friend"
+msgstr "Amigo"
+
+msgid "Friends"
+msgstr "Amigos"
+
+msgid "Friends/Buddies"
+msgstr "Amigos/Buddies"
+
+msgid "GYach Enhanced: Message"
+msgstr "GYach Enhanced: Mensaje"
+
+msgid "GYach Enhanced: Question"
+msgstr "GYach Enhanced: Pregunta"
+
+msgid "General"
+msgstr "General"
+
+msgid "Graphics & Multimedia:"
+msgstr "Gráficos y Multimedia:"
+
+msgid "Gray"
+msgstr "Gris"
+
+msgid "Green"
+msgstr "Verde"
+
+msgid "Gyach Enhanced: Find"
+msgstr "Gyach Enhanced: Buscar"
+
+msgid "Gyach Enhanced: Yahoo! Login"
+msgstr "Gyach Enhanced: Iniciar Sesión de Yahoo!"
+
+msgid "Help"
+msgstr "Ayuda"
+
+msgid "Here"
+msgstr "Aquí"
+
+msgid "Highlight Friends names when they comment"
+msgstr "Destacar mis amigos cuando hablen"
+
+msgid "Highlight my name in the list of\n"
+"chat room members"
+msgstr "Destacar mi nombre en la lista de\n"
+"miembros de charla"
+
+msgid "Highlight the names of my friends\n"
+"in the list of chat room members"
+msgstr "Destacar los nombres de mis amigos en\n"
+"la lista de miembros de charla"
+
+msgid "Home #:"
+msgstr "En Casa #:"
+
+msgid "Home Page"
+msgstr "Página Web"
+
+msgid "INCORRECT PASSWORD"
+msgstr "CONTRASEÑA INCORRECTA"
+
+msgid "Idle"
+msgstr "Inactivo"
+
+msgid "Ignored\n"
+"Users"
+msgstr "Usuarios\n"
+"Ignorados"
+
+msgid "Ignored PM from Friend"
+msgstr "Se rechazó PM de Amigo"
+
+msgid "Ignored PM from User in Room"
+msgstr "Se rechazó PM de Usuario en sala"
+
+msgid "Ignored Users"
+msgstr "Usuarios Ignorados"
+
+msgid "Ignored chat invitation from"
+msgstr "Se rechazó la invitación de charla desde"
+
+msgid "Ignored conference invitation from"
+msgstr "Se rechazó la invitación de conferencia desde"
+
+msgid "Ignored file sent from"
+msgstr "Se rechazó el archivo enviado desde"
+
+msgid "Ignored offline private message from"
+msgstr "Se rechazó el mensaje offline desde"
+
+msgid "Ignored personal contact information from"
+msgstr "Se rechazó la informatión personal desde"
+
+msgid "Ignored voice chat invitation from"
+msgstr "Se rechazó la invitación de voz desde"
+
+msgid "Ignored webcam invitation from"
+msgstr "Se rechazó la invitación de webcam desde"
+
+msgid "Incorrect password."
+msgstr "Contraseña incorrecta."
+
+msgid "Indent wrapped lines"
+msgstr "Usar lineas sangrados"
+
+msgid "Insert"
+msgstr "Insertar"
+
+msgid "Instant Message"
+msgstr "Mensaje Instantáneo"
+
+msgid "Invisible Buddy"
+msgstr "Amigo Invisible"
+
+msgid "Invisible buddy"
+msgstr "Amigo invisible"
+
+msgid "Invisible"
+msgstr "Invisible"
+
+msgid "invisible"
+msgstr "invisible"
+
+msgid "Invitation List"
+msgstr "Lista de Usuarios Invitados"
+
+msgid "Invitation sent."
+msgstr "Invitación mandada."
+
+msgid "Invite User To Room"
+msgstr "Invitar a Amigo a la Sala"
+
+msgid "Invite User to Room or Conference..."
+msgstr "Invitar a Usuario a Sala/Conferencia..."
+
+msgid "Invite to Chat Room"
+msgstr "Invitar a la Charla"
+
+msgid "Invite"
+msgstr "Invitar"
+
+msgid "Italics"
+msgstr "Cursiva"
+
+msgid "Join User In Room"
+msgstr "Unirse a Sala de Amigo"
+
+msgid "LOGIN FAILED!"
+msgstr "PROBLEMA DE LOGIN!"
+
+msgid "Last Comment"
+msgstr "Último Comentario"
+
+msgid "Last Name:"
+msgstr "Apellido:"
+
+msgid "Last Updated"
+msgstr "Actualizado"
+
+msgid "Last users to leave the room"
+msgstr "Los usuarios últimos que salieron de la sala"
+
+msgid "Launch pY! Voice Chat"
+msgstr "Iniciar pY! Voice Chat"
+
+msgid "Leave Room or Conference"
+msgstr "Salir de Sala o Conferencia"
+
+msgid "Limit text box size (in Kilobytes)"
+msgstr "Limitar tamaño de la caja de texto\n"
+"(en kilobytes)"
+
+msgid "List adult rooms in room list"
+msgstr "Mostrar salas para adultos en lista de salas"
+
+msgid "List of Friends Online"
+msgstr "Lista de Amigos En Línea"
+
+msgid "Loading Room List..."
+msgstr "Cargando Lista de Salas..."
+
+msgid "Location"
+msgstr "Ubicación"
+
+msgid "Location: "
+msgstr "Ubicación: "
+
+msgid "Location: ?, "
+msgstr "Ubicación: ?, "
+
+msgid "Log to File"
+msgstr "Recordar en fichero"
+
+msgid "Logging in to chat server..."
+msgstr "Comenzando la sesión con la servidor de charlas..."
+
+msgid "Login as invisible"
+msgstr "Conectar como invisible"
+
+msgid "Marital Status"
+msgstr "Estado Civil"
+
+msgid "Maximum line feeds per message"
+msgstr "Máximum líneas por mensaje"
+
+msgid "Maximum simultaneous\n"
+"animated smileys"
+msgstr "Máximum caritas gráficas\n"
+"animadas a la vez"
+
+msgid "Members in this conference"
+msgstr "Usuarios en esta conferencia"
+
+msgid "Members in this room"
+msgstr "Usuarios en esta sala"
+
+msgid "Message"
+msgstr "Mensaje"
+
+msgid "Message:"
+msgstr "Mensaje:"
+
+msgid "Messages &\n"
+"Personal"
+msgstr "Mensajes y\n"
+"Personal"
+
+msgid "Miscellaneous Options:"
+msgstr "Opciónes Misceláneos:"
+
+msgid "Mobile #:"
+msgstr "Cellular #:"
+
+msgid "My Yahoo! ID:"
+msgstr "Mi ID de Yahoo!:"
+
+msgid "NONE"
+msgstr "NINGUNO"
+
+msgid "Never auto-ignore/auto-mute a friend"
+msgstr "No silenciar o ignorar automáticamente a mis amigos"
+
+msgid "New Custom Message..."
+msgstr "Nuevo Mensaje Especial..."
+
+msgid "New mail from"
+msgstr "Nuevo correo-e desde"
+
+msgid "New..."
+msgstr "Nuevo..."
+
+msgid "Nickname"
+msgstr "Apodo"
+
+msgid "No chat room"
+msgstr "Ninguna charla"
+
+msgid "No friends on your list."
+msgstr "Ningunos amigos en su lista."
+
+msgid "None"
+msgstr "Ninguno"
+
+msgid "Not At Home"
+msgstr "Fuera de casa"
+
+msgid "Not At My Desk"
+msgstr "Lejos del Escritorio"
+
+msgid "Not In The Office"
+msgstr "Fuera de la Oficina"
+
+msgid "Not currently connected to Yahoo!."
+msgstr "No conectado con Yahoo! actualmente."
+
+msgid "Not currently connected to chat."
+msgstr "No conectado con charla."
+
+msgid "Not currently connected to conference."
+msgstr "No conectado con la conferencia."
+
+msgid "Not currently following anyone."
+msgstr "No está actualmente siguiendo a nadie."
+
+msgid "OK"
+msgstr "ACEPTAR"
+
+msgid "Occupation"
+msgstr "Ocupación"
+
+msgid "Offline Message"
+msgstr "Mensaje Offline"
+
+msgid "On  "
+msgstr "Usar  "
+
+msgid "On The Phone"
+msgstr "Al Teléfono"
+
+msgid "On Vacation"
+msgstr "De Vacaciones"
+
+msgid "Online for"
+msgstr "En linea por"
+
+msgid "Online"
+msgstr "En Linea"
+
+msgid "Open separate windows for PM chats"
+msgstr "Abrir ventanas separadas para charlas PM"
+
+msgid "Options"
+msgstr "Opciónes"
+
+msgid "Orange"
+msgstr "Anaranjado"
+
+msgid "Out To Lunch"
+msgstr "Salí a comer"
+
+msgid "Outgoing Messages:"
+msgstr "Mensajes Salientes:"
+
+msgid "Packet Debugging"
+msgstr "Depurar Paquetes"
+
+msgid "Packet debugging"
+msgstr "Depurar paquetes"
+
+msgid "Password: "
+msgstr "Contraseña: "
+
+msgid "Ping keepalive (time in minutes)"
+msgstr "Ping keep-alive (en minutos)"
+
+msgid "Privacy and Security:"
+msgstr "Privacidad y Seguridad:"
+
+msgid "Private  (Room will not appear in Room list)"
+msgstr "Privado  (La Sala no será incluido en la lista de Salas)"
+
+msgid "Private Message Options:"
+msgstr "Opciónes de Mensajes Privados:"
+
+msgid "Profile"
+msgstr "Perfil"
+
+msgid "Protection"
+msgstr "Protección"
+
+msgid "Proxy Port: "
+msgstr "Puerto Proxy: "
+
+msgid "Proxy Server: "
+msgstr "Servidor Proxy: "
+
+msgid "Public  (Room will appear in Room list for everyone to join)"
+msgstr "Público  (La Sala será incluido en la lista de Salas para todos)"
+
+msgid "Purple"
+msgstr "Púrpura"
+
+msgid "QUICK PROFILE"
+msgstr "Perfil Rápido"
+
+msgid "QUICK PROFILES ARE NOT AVAILABLE IN CONFERENCE ROOMS."
+msgstr "Perfiles rápidos no están disponibles en las salas de conferencia."
+
+msgid "Quick profile is not available."
+msgstr "Perfil rápido no está disponible."
+
+msgid "Quit"
+msgstr "Salir"
+
+msgid "RED"
+msgstr "ROJOS"
+
+msgid "Real Name"
+msgstr "Nombre Real"
+
+msgid "Red"
+msgstr "Rojo"
+
+msgid "Refresh Buddy List"
+msgstr "Refrescar la Lista de Amigos"
+
+msgid "Regex to Auto-ignore"
+msgstr "Regla Regex para Ignorar-Auto"
+
+msgid "Rejoin Current Chat Room"
+msgstr "Unirse a de Nuevo la Charla Actual"
+
+msgid "Remember main window\n"
+"position & size"
+msgstr "Recordar Puesto y Tamaño de Ventana\n"
+"Principal"
+
+msgid "Remove Buddy"
+msgstr "Borrar al Amigo"
+
+msgid "Retrieving Room List..."
+msgstr "Consiguiendo Lista de Salas..."
+
+msgid "Room List Options:"
+msgstr "Opciónes de Lista de Salas:"
+
+msgid "Room List"
+msgstr "Lista de Salas"
+
+msgid "Room Name:"
+msgstr "Nombre de Sala:"
+
+msgid "Room Topic:"
+msgstr "Asunto:"
+
+msgid "Room: "
+msgstr "Sala: "
+
+msgid "Room"
+msgstr "Sala"
+
+msgid "Room:"
+msgstr "Sala:"
+
+msgid "Rooms"
+msgstr "Salas"
+
+msgid "Save Current Text"
+msgstr "Guardar Texto Actual"
+
+msgid "Save Settings Options:"
+msgstr "Opciónes de Guardar Ajustes:"
+
+msgid "Save password in \n" 
+"configuration file"
+msgstr "Guardar contraseña en fichero de\n"
+"configuración"
+
+msgid "Screen Name"
+msgstr "Usuario"
+
+msgid "Select A File"
+msgstr "Seleccione Un Fichero"
+
+msgid "Select Color"
+msgstr "Seleccionar Color"
+
+msgid ""
+"Select friends from the list on the left and click \"Add\" to invite them to the\n"
+"chat room. To add somebody who is not on the list, type his or her Yahoo!\n"
+"ID in the box and click \"Add\"."
+msgstr "Seleccione a sus amigos de la lista a la izquierda, entonces haga\n"
+"clic en 'Añadir' para invitarles a la charla.  Puede añadir un usuario\n"
+"que no está en la lista escribiendo su ID de Yahoo! dentro de la caja y\n"
+"haciendo clic en 'Añadir'."
+
+msgid ""
+"Select friends from the list on the left and click \"Add\" to invite them to your\n"
+"conference. To add somebody who is not on the list, type his or her Yahoo!\n"
+"ID in the box and click \"Add\"."
+msgstr "Seleccione a sus amigos de la lista a la izquierda, entonces haga\n"
+"clic en 'Añadir' para invitarles a la conferencia.  Puede añadir un usuario\n"
+"que no está en la lista escribiendo su ID de Yahoo! dentro de la caja y\n"
+"haciendo clic en 'Añadir'."
+
+msgid "Send Avatar:"
+msgstr "Mandar Avatar:"
+
+msgid "Send File..."
+msgstr "Mandar Fichero..."
+
+msgid "Send and receive status messages\n"
+"in the same language as my LOCALE"
+msgstr "Mandar y recibir mensajes de ausencia en el\n"
+"idioma de mi LOCALE"
+
+msgid "Send your text in Bold"
+msgstr "Mandar como negrita"
+
+msgid "Send your text in italic"
+msgstr "Mandar como cursiva"
+
+msgid "Send your text in underline"
+msgstr "Mandar como subrayado"
+
+msgid "Send"
+msgstr "Mandar"
+
+msgid "Sending PM or chat comment\n"
+"when away brings you back"
+msgstr "El envío de privado (PM) o de mensaje de charla\n"
+"quita el estado de ausencia"
+
+msgid "Server: "
+msgstr "Servidor: "
+
+msgid "Setting status to Online..."
+msgstr "Fijando su estado como 'en linea'..."
+
+msgid "Setup"
+msgstr "Configuración"
+
+msgid "Sex"
+msgstr "Sexo"
+
+msgid "Sex: ?"
+msgstr "Sexo: ?"
+
+msgid "Sex: Female"
+msgstr "Sexo: Mujer"
+
+msgid "Sex: Male"
+msgstr "Sexo: Hombre"
+
+msgid "Show Avatars"
+msgstr "Mostrar Avatars"
+
+msgid "Show animated smileys"
+msgstr "Mostrar caritas animadas"
+
+msgid "Show smileys"
+msgstr "Mostrar caritas gráficas"
+
+msgid "Show the following from other users:"
+msgstr "Mostrar los siguientes de otros usuarios:"
+
+msgid "Smileys"
+msgstr "Caritas Gráficas"
+
+msgid "Sorry, I'm away right now, but I'll respond as soon as I get back."
+msgstr "Lo siento, Estoy ocupado pero conseguí su mensaje..."
+
+msgid "Start A Conference"
+msgstr "Iniciar Una Conferencia"
+
+msgid "Status changes"
+msgstr "Cambios de ausencia"
+
+msgid "Status"
+msgstr "Ausente"
+
+msgid "Stepped Out"
+msgstr "Ha abandonado"
+
+msgid "Support html tags"
+msgstr "Apoyar HTML"
+
+msgid "Support pY! Voice voice\n"
+"chat features"
+msgstr "Apoyar pY! Voice - charla de voz"
+
+msgid "Suppress multiple consecutive posts"
+msgstr "Rechazar mensajes consecutivos y multiples"
+
+msgid "Thanks, but no thanks."
+msgstr "Gracias, pero no puedo."
+
+msgid "The chat room is full. Please try again later."
+msgstr "La charla está llena. Intentala más tarde."
+
+msgid "The following room has been added to your favorites list"
+msgstr "La sala siguiente ha sido añadida a su lista de favoritas"
+
+msgid "The following room is already in your favorites list"
+msgstr "La sala siguiente ya está en su lista de favoritas"
+
+msgid "The room you tried to create could not be created."
+msgstr "La sala Usted intentaba crear no podia ser creada."
+
+msgid "The user is not currently in a chat room."
+msgstr "El usuario no está en una charla."
+
+msgid "Tools"
+msgstr "Herramientas"
+
+msgid "Transparent Background (EXPERIMENTAL)"
+msgstr "Fondo Transparente (EXPERIMENTAL)"
+
+msgid "Transparent Shading\n"
+"(R,G,B)"
+msgstr "Color Transparente\n"
+"(R,G,B)"
+
+msgid "URL from user not in room"
+msgstr "URL desde usuario afuera de la sala"
+
+msgid "Underline"
+msgstr "Subrayado"
+
+
+msgid "User Rooms"
+msgstr "Salas de Usuarios"
+
+msgid "User has been invited to"
+msgstr "El usuario ha sido invitado a"
+
+msgid "User"
+msgstr "Usuario"
+
+msgid "Username: "
+msgstr "Usuario: "
+
+msgid "Users can join the room only if I invite them"
+msgstr "Otros usuarios pueden entrar en la sala solamente si los invito"
+
+msgid "Users in current room"
+msgstr "Usuarios en la sala actual"
+
+msgid "Users"
+msgstr "Usuarios"
+
+msgid "Voice Chat"
+msgstr "Charla de Voz"
+
+msgid "Voice chat has been enabled.  Start pY! Voice Chat."
+msgstr "Se ha habilitado la charla de voz.  Usted puede iniciar pY! Voice Chat."
+
+msgid "Voice chat is not available in this room."
+msgstr "La charla de voz no está disponible en esta sala."
+
+msgid "Voice chat will be disabled in any other rooms or conferences."
+msgstr "Charla de voz se inhabilitará para otras salas y conferencias."
+
+msgid "Voice chat: could not open file for writing"
+msgstr "Charla de voz: error al abrir el fichero para escribir"
+
+msgid "Work #:"
+msgstr "Empleo #:"
+
+msgid "Would you like to add this user to your buddy list?"
+msgstr "¿Desea añadir este usuario a su lista de amigos?"
+
+msgid "Would you like to allow this user to add you to their buddy list?"
+msgstr "¿Desea autorize lo/la para que él/ella puede añadirle a su lista de amigos?"
+
+msgid "Would you like to enable voice chat for this user?"
+msgstr "¿Desea permitir charla de voz para este usuario?"
+
+msgid "Would you like to remove yourself\n"
+"from this person's buddy list?"
+msgstr "¿Desea quitarse de la lista de\n"
+"amigos de esta persona?"
+
+msgid "YOUR YAHOO! ACCOUNT HAS BEEN LOCKED BECAUSE OF TOO MANY FAILED LOGIN ATTEMPTS"
+msgstr "TU CUENTA DE YAHOO! SE HA CERRADO TEMPORALMENTE DEBIDO A DEMASIADAS CONTRASEÑAS INCORRECTAS"
+
+msgid "Yahoo Ignore List"
+msgstr "Lista de Ignorados de Yahoo"
+
+msgid "Yahoo Logins"
+msgstr "Cuentas de Yahoo"
+
+msgid "Yahoo! Games"
+msgstr "Juegos de Yahoo!"
+
+msgid "Yahoo! ID"
+msgstr "Alias de Yahoo!"
+
+msgid "Yahoo! Instant Message"
+msgstr "Mensaje Instantáneo de Yahoo!"
+
+msgid "Yahoo! Private Message"
+msgstr "Mensaje Privado de Yahoo!"
+
+msgid "Yahoo! Room List"
+msgstr "Lista de Salas de Yahoo!"
+
+msgid "Yahoo! User Profile"
+msgstr "Perfil de Usuario de Yahoo!"
+
+msgid "Yellow"
+msgstr "Amarillo"
+
+msgid "You are invited to join my conference."
+msgstr "Te doy una invitación para entrar en mi conferencia."
+
+msgid "You are no longer invisible"
+msgstr "Usted NO está invisible"
+
+msgid "You are now in the conference named"
+msgstr "Te encuentras en la conferencia nombrada"
+
+msgid "You are now in"
+msgstr "Usted está en"
+
+msgid "You are now invisible"
+msgstr "Usted está invisible ahora"
+
+msgid "You can send your personal\n"
+"information for other users to save\n"
+"in their Yahoo! addressbook."
+msgstr "Puede mandar su información\n"
+"personal a otros usuarios y pueden\n"
+"guardarla en sus libros de contactos\n"
+"de Yahoo!"
+
+msgid "You can't follow yourself."
+msgstr "Usted no puede seguirse."
+
+msgid "You cannot add a conference room to your favorites list"
+msgstr "No puede añadir una conferencia a su lista de favoritas"
+
+msgid "You don't appear to be online at the moment."
+msgstr "Usted no aparece estar en línea ahorita."
+
+msgid "You have been disconnected from Yahoo!: Broken pipe."
+msgstr "Usted ha sido disconectado de Yahoo!: Tubería rota."
+
+msgid "You have been disconnected from Yahoo!"
+msgstr "Usted ha sido disconectado de Yahoo!"
+
+msgid "You have been invited to the conference"
+msgstr "Usted ha sido invitado a la conferencia"
+
+msgid "You have been invited to"
+msgstr "Usted ha sido invitado a"
+
+msgid "You have left the Yahoo chat area."
+msgstr "Usted ha salido de las charlas de Yahoo."
+
+msgid "You have left the conference."
+msgstr "Usted ha salido de la conferencia."
+
+msgid "You have mail."
+msgstr "Usted tiene correo-e."
+
+msgid "You have"
+msgstr "Usted tiene"
+
+msgid "[FEATURE NOT SUPPORTED]"
+msgstr "[CARACTERÍSTICA NO APOYADA]"
+
+msgid "[Game Message]"
+msgstr "[Mensaje de Juegos]"
+
+msgid "[System Message]"
+msgstr "[Mensaje de Sistema]"
+
+msgid "abcdefghijk ABCDEFGHIJK GYach Enhanced 1234567890"
+msgstr "abcdefghijk ABCDEFGHIJK GYach Enhanced En Español 1234567890"
+
+msgid "added to permanent Yahoo ignore list"
+msgstr "añadido a la lista de ignorados permanentes de Yahoo!"
+
+msgid "by"
+msgstr "por"
+
+msgid "bytes"
+msgstr "octetos"
+
+msgid "email(s)"
+msgstr "mensaje(s) correo-e"
+
+msgid "friends online in"
+msgstr "amigos en línea son"
+
+msgid "has added you to their buddy list."
+msgstr "te ha añadido a su lista de amigos."
+
+msgid "has declined to be added to your buddy list."
+msgstr "ha rechazado su petición de añadirlo a su lista de amigos."
+
+msgid "has declined to join the conference."
+msgstr "ha rechazado entrar en la conferencia"
+
+msgid "has disabled IMVironments"
+msgstr "ha detenido IMvironments"
+
+msgid "has enabled IMVironment"
+msgstr "ha permitido IMvironments"
+
+msgid "has enabled voice chat."
+msgstr "ha permitido charla de voz."
+
+msgid "has entered"
+msgstr "ha entrado en"
+
+msgid "has invited you to the conference"
+msgstr "te ha invitado a la conferencia"
+
+msgid "has joined the conference."
+msgstr "ha entrado en la conferencia."
+
+msgid "has left the conference."
+msgstr "ha salido de la conferencia."
+
+msgid "has left"
+msgstr "ha salido de"
+
+msgid "has logged OFF"
+msgstr "ha terminado la sesión Yahoo!"
+
+msgid "has logged ON"
+msgstr "ha comenzado la sesión Yahoo!"
+
+msgid "has sent you a file using peer-to-peer."
+msgstr "te ha enviado un fichero usando 'persona-a-persona'."
+
+msgid "has sent you a file using the file transfer system."
+msgstr "te ha enviado un fichero usando el sistema de transferencia de ficheros."
+
+msgid "has sent you a voice chat invitation."
+msgstr "te ha enviado una invitación de voz."
+
+msgid "has started playing in Yahoo! Games."
+msgstr "ha comenzado a jugar en Juegos de Yahoo!"
+
+msgid "has stopped playing in Yahoo! Games."
+msgstr "ha parado jugar en Juegos de Yahoo!"
+
+msgid "has stopped trying to view your shared files (peer-to-peer)."
+msgstr "ha parado tratar de ver tus ficheros compartidos (persona-a-persona)."
+
+msgid "ignored"
+msgstr "ignorados"
+
+msgid "ignoring"
+msgstr "ignorando"
+
+msgid "is attempting to view your shared files (peer-to-peer)."
+msgstr "está tratando de ver tus ficheros compartidos (persona-a-persona)."
+
+msgid "is away"
+msgstr "está ausente"
+
+msgid "is back"
+msgstr "está de regreso"
+
+msgid "is now visible"
+msgstr "está visible ahora"
+
+msgid " View Webcam... "
+msgstr " Ver Cámara... "
+
+msgid "is in Yahoo! game room"
+msgstr "está en sala de juegos de Yahoo!"
+
+msgid "is not in this room.  User can not be followed."
+msgstr "no está en la sala.  El usuario no puede ser seguido."
+
+msgid "minute(s)"
+msgstr "minuto(s)"
+
+msgid "muted"
+msgstr "silenciados"
+
+msgid "muting"
+msgstr "silenciando"
+
+msgid "no longer ignoring"
+msgstr "no ya ignorando"
+
+msgid "no longer muting"
+msgstr "no ya silenciando"
+
+msgid "online for"
+msgstr "en linea por"
+
+msgid "peer-to-peer capability check."
+msgstr "prueba de la capacidad de 'persona-a-persona'."
+
+msgid "removed from permanent Yahoo ignore list"
+msgstr "borrado de la lista de ignorados permanentes de Yahoo!"
+
+msgid "the room"
+msgstr "la sala"
+
+msgid "users"
+msgstr "usuarios"
+
+msgid "webcam invitation from"
+msgstr "una invitación de webcam desde"
+
+#: ../src/setupwindow2.c:868
+msgid "In chat rooms, try to mute all of the\n"
+"following users (You must leave and\n"
+"re-enter the room) :"
+msgstr "En charlas, intenta silenciar todos los\n"
+"usuarios sigientes (Hay que salir de y entrar\n"
+"en de nuevo la sala) :"
+
+#: ../src/setupwindow2.c:894
+msgid "Unknown Age"
+msgstr "Edad Desconocida"
+
+#: ../src/setupwindow2.c:884
+msgid "Unknown Gender"
+msgstr "Sexo Desconocido"
+
+#: ../src/setupwindow2.c:879
+msgid "Females"
+msgstr "Mujeres"
+
+#: ../src/setupwindow2.c:874
+msgid "Males"
+msgstr "Hombres"
+
+#: ../src/setupwindow2.c:889
+msgid "Users Under 18"
+msgstr "Usuarios Menor de Edad"
+
+msgid "Ignored PM from User NOT in the Room"
+msgstr "Se rechazó PM de Usuario AFUERA de la sala"
+
+msgid "Normal icon"
+msgstr "Icono normal"
+
+msgid "Busy icon"
+msgstr "Icono ocupado"
+
+msgid "Idle icon"
+msgstr "Icono inactivo"
+
+#: ../src/htmlrender.c:370
+msgid " Edit My Yahoo! "
+msgstr " Modificar Mi Yahoo! "
+
+#: ../src/htmlrender.c:367
+msgid " Hide "
+msgstr " Ocultar "
+
+#: ../src/htmlrender.c:202 ../src/htmlrender.c:202 ../src/htmlrender.c:359
+msgid "Portfolios"
+msgstr "Carteras de valores"
+
+#: ../src/htmlrender.c:199 ../src/htmlrender.c:199 ../src/htmlrender.c:358
+msgid "Travel"
+msgstr "Tarifas"
+
+#: ../src/htmlrender.c:190 ../src/htmlrender.c:190 ../src/htmlrender.c:354
+msgid "Address Book"
+msgstr "Libreta de Direcciones"
+
+#: ../src/htmlrender.c:184 ../src/htmlrender.c:184 ../src/htmlrender.c:353
+msgid "Sports"
+msgstr "Resultados Deportivos"
+
+#: ../src/htmlrender.c:181 ../src/htmlrender.c:181 ../src/htmlrender.c:351
+msgid "Weather"
+msgstr "Tiempo"
+
+#: ../src/htmlrender.c:196 ../src/htmlrender.c:196 ../src/htmlrender.c:357
+msgid "Auctions"
+msgstr "Subastas"
+
+#: ../src/htmlrender.c:365
+msgid " View "
+msgstr " Mostrar "
+
+#: ../src/htmlrender.c:178 ../src/htmlrender.c:178 ../src/htmlrender.c:352
+msgid "News"
+msgstr "Noticias"
+
+#: ../src/htmlrender.c:347
+msgid "My Yahoo!"
+msgstr "Mi Yahoo!"
+
+#: ../src/htmlrender.c:187 ../src/htmlrender.c:187 ../src/htmlrender.c:355
+msgid "Calendar"
+msgstr "Agenda"
+
+#: ../src/htmlrender.c:193 ../src/htmlrender.c:193 ../src/htmlrender.c:356
+msgid "Bookmarks"
+msgstr "Marcadores"
+
+msgid "Games"
+msgstr "Juegos"
+
+#: ../src/webcam.c:470
+msgid "Close"
+msgstr "Cerrar"
+
+#: ../src/packet_handler.c:1325
+msgid "WEBCAM"
+msgstr "CÁMARA WEB"
+
+#: ../src/gyach_int.c:1325
+msgid "Colors & Emoticons"
+msgstr "Colores y Caritas Gráficas"
+
+#: ../src/setupwindow2.c
+msgid "Entering/leaving Timestamps"
+msgstr "Hora de Idas/Vueltas"
+
+#: ../src/setupwindow2.c
+msgid "Enable Webcam Features"
+msgstr "Apoyar Cámara Web"
+
+#: ../src/setupwindow2.c
+msgid "Enable TUXVironments"
+msgstr "Permitir TUXVironments"
+
+#: ../src/tuxvironments.c:105 ../src/tuxvironments.c:207
+#: ../src/tuxvironments.c:265
+msgid "[NONE]"
+msgstr "[NINGUN]"
+
+#: ../src/tuxvironments.c:164
+msgid "TUXVironment loaded"
+msgstr "TUXVironment cargado"
+
+#: ../src/tuxvironments.c:156
+msgid "TUXVironment is not supported"
+msgstr "Este TUXVironment no apoyado"
+
+#: ../src/tuxvironments.c:65
+msgid "TUXVironment is not available"
+msgstr "Este TUXVironment no disponible"
+
+#: ../src/tuxvironments.c:138 ../src/tuxvironments.c:216
+msgid "TUXVironments are not currently enabled"
+msgstr "Los TUXVironments no permitidos actualmente"
+
+#: ../src/tuxvironments.c:260
+msgid "Select a TUXVironment:"
+msgstr "Seleccione un TUXVironment:"
+
+#: ../src/tuxvironments.c:251
+msgid "TUXVironment"
+msgstr "TUXVironment"
+
+#: ../src/pmwindow.c:388 ../src/pmwindow.c:390 ../src/pmwindow.c:390
+msgid " TUXVironment... "
+msgstr "TUXVironment..."
+
+msgid "Join Room"
+msgstr "Unirse a la Sala"
+
+msgid "has been added to your buddy list"
+msgstr "ha sido añadido a su lista de amigos"
+
+msgid "has been added to your TEMPORARY buddy list"
+msgstr "ha sido añadido a su lista TEMPORAL de amigos"
+
+msgid "has been removed from your buddy list"
+msgstr "ha sido eliminado de su lista de amigos"
+
+msgid "has been removed from your TEMPORARY buddy list"
+msgstr "ha sido eliminado de su lista TEMPORAL de amigos"
+
+msgid "Sorry, this is an adult profile."
+msgstr "Lo siento, esto es un perfil de adultos."
+
+msgid "You will need to view this profile with your web browser."
+msgstr "Hay que ver este perfil con el navegador web."
+
+#: bootprevent.c
+msgid "is no longer designated as a FLOODER"
+msgstr "es no más largo señalado como FLOODER"
+
+#: bootprevent.c
+msgid "is now designated as a FLOODER. This person is trying to BOOT you."
+msgstr "es señalado como FLOODER ahorita. Esta persona está intentando DESCONECTARTE."
+
+#: packet_handler.c
+msgid "Private Message Error"
+msgstr "Error de Mensaje Privado"
+
+#: conference.c
+msgid "Could not send invitation"
+msgstr "No podía enviar la invitación"
+
+#: conference.c
+msgid "Error"
+msgstr "Error"
+
+#: packet_handler.c
+msgid "Please check the window named 'Chat'."
+msgstr "Por favor, mira la ventana nombrada 'Charla'."
+
+#: packet_handler.c
+msgid "You should check your Yahoo Calendar"
+msgstr "Usted debe mirar su calendario de Yahoo"
+
+#: packet_handler.c
+msgid "Yahoo Calendar Event"
+msgstr "Evento de Calendario de Yahoo"
+
+#: packet_handler.c
+msgid "Unknown Yahoo Calendar Event"
+msgstr "Evento Desconocido de Calendario de Yahoo"
+
+#: interface.c
+msgid " Join Chat Room... "
+msgstr " Unirse A Una Charla... "
+
+msgid "Add Buddy"
+msgstr "Añadir Amigo"
+
+msgid "User is not online."
+msgstr "El usuario no está en linea."
+
+msgid "Join Conference"
+msgstr "Unirse a la Conferencia"
+
+msgid "Decline Invitation"
+msgstr "Rechazar la Invitación"
+
+msgid "YES"
+msgstr "SÍ"
+
+msgid "NO"
+msgstr "NO"
+
+msgid "Are you sure you want to remove this buddy?"
+msgstr "¿Es usted seguro desea quitar a este amigo?"
+
+#: ../src/setupwindow2.c:1204
+msgid "Ignore guest & @sbcglobal.net users"
+msgstr "Ignorar a los huéspedes y los @sbcglobal.net"
+
+#: ../src/setupwindow2.c:1198
+msgid "Spam Protection:"
+msgstr "Protección Contra Spam:"
+
+#: ../src/setupwindow2.c:1210
+msgid "Enable spam protection (PM & Chat)"
+msgstr "Permitir protección contra spam (MI y Charla)"
+
+msgid "E-mail Messages"
+msgstr "Mensajes Correo-e"
+
+#: ../src/trayicon.c
+msgid "Disable Tray Icon"
+msgstr "Inhabilitar Icono de la Barra de Tareas"
+
+#: ../src/trayicon.c
+msgid "Enable Tray Icon"
+msgstr "Permitir Icono de la Barra de Tareas"
+
+
+msgid " Temporary Friends... "
+msgstr " Amigos Temporales... "
+
+msgid "Temporary Friends List"
+msgstr "Lista de Amigos Temporales"
+
+msgid "Flooder/Booter List"
+msgstr "Lista de los Flooders/Booters"
+
+msgid "GYach Enhanced Ignore List"
+msgstr "Lista de Usuarios Ignorados de Gyach Enhanced"
+
+msgid " Flooders/Booters... "
+msgstr " Los Flooders/Booters... "
+
+msgid " Gyach Enhanced Ignore List... "
+msgstr " Lista de Usuarios Ignorados de Gyach Enhanced... "
+
+msgid " Add As Temporary Friend "
+msgstr " Añadir Como Amigo Temporal "
+
+msgid "Edit your list of temporary friends.\nAdding a user as a temporary friend allows\nthem to send you messages, invitations, and files,\nwithout having to open your PMs to everyone,\nand without having to add them to your real buddy list."
+msgstr "Corregir su lista de amigos temporales.\nLa adición de un usuario como amigo temporal permite\nque le envíen los mensajes, las invitaciones, y los\nficheros, sin tener que abrir su PMs en cada uno,\ny sin tener que añadirlos a su lista verdadera de amigos."
+
+msgid "Edit the list of flooders/booters.\nA user is designated as a Flooder\nif it appears they are trying to harass you\nor boot you, and significant steps are taken\nto reduce their ability to communicate\nwith you. You may remove users from this list."
+msgstr "Corregir la lista de los Flooders/Booters.\nSeñalan a un usuario como Flooder si aparece que están\nintentando molestarle o desconectarle, y medidas significativas están\ntomadas para reducir su capacidad de comunicarse con usted.\nUsted puede quitar a usuarios de esta lista."
+
+msgid "Edit Gyach Enhanced's list of ignored users.\nThis list is stored locally on your computer."
+msgstr "Corregir la lista de usuarios ignorados de Gyach\nEnhanced. Esta lista se guarda localmente en su\ncomputadora."
+
+
+#: ../src/callbacks.c:974
+msgid ""
+"The following server uses the 'web login'\n"
+"connection method:"
+msgstr ""
+"El servidor siguiente utiliza el método de\n"
+"conexión 'web login':"
+
+
+#: ../src/callbacks.c:976
+msgid ""
+"This is an experimental, backup connection method.\n"
+"This server does not allow you to login as invisible, change\n"
+"your away status, or add/remove\n"
+"buddies on your buddy list. Several other major\n"
+"features may also be unavailable. Continue?"
+msgstr ""
+"Esto es un método de conexión experimental tuvo la\n"
+"intención de ser usado como una última instancia.\n"
+"Este servidor no le permite unirse sin ser visto,\n"
+"cambiar su mensajes de ausencia, o modificar\n"
+"su lista de amigos. Varias otras cosas también\n"
+"pueden ser no disponibles.  ¿Desea seguir?"
+
+# trayicon.c
+msgid "Offline"
+msgstr "No Conectado"
+
+# packet_hander.c
+msgid "The user is in Yahoo! Games."
+msgstr "El usuario está en los Juegos de Yahoo!"
+
+# packet_hander.c
+msgid "The user is in Yahoo! Chat."
+msgstr "El usuario está en las Charlas de Yahoo!"
+
+# packet_hander.c
+msgid "The user is still in Yahoo! Games. (invisible)"
+msgstr "El usuario todavía está en los Juegos de Yahoo! (invisible)"
+
+# packet_hander.c
+msgid "The user is still in Yahoo! Chat. (invisible)"
+msgstr "El usuario todavía está en las Charlas de Yahoo! (invisible)"
+
+# packet_hander.c
+msgid "The user is still on Yahoo! Messenger. (invisible)"
+msgstr "El usuario todavía está conectado con el Mensajero de Yahoo! (invisible)"
+
+# packet_hander.c
+msgid "The user is invisible"
+msgstr "El usuario es invisible"
+
+# packet_hander.c
+msgid "The user is hiding which game room they are in"
+msgstr "El usuario está ocultando el nombre de la sala de juegos"
+
+
+#: gyachewebcam.c:115
+msgid "Unknown Error"
+msgstr "Error Desconocido"
+
+#: gyachewebcam.c:294 gyachewebcam.c:306 gyachewebcam.c:313
+msgid "Could not connect to webcam host"
+msgstr "No podía conectar con el servidor de webcam"
+
+#: gyachewebcam.c:855 gyachewebcam.c:856 main.c:136 pywebcam.py:725
+msgid "Webcam"
+msgstr "Cámara Web"
+
+#: pywebcam.py:672
+msgid "Disconnected"
+msgstr "Desconectado"
+
+#: gyachewebcam.c:782 pywebcam.py:699
+msgid "Pause Video"
+msgstr "Detener Video"
+
+#: gyachewebcam.c:828
+msgid "About GYach-E Webcam Viewer..."
+msgstr "Acerca de GYach-E Webcam Viewer..."
+
+#: gyachewebcam.c:140 pywebcam.py:287
+msgid "The user has stopped broadcasting."
+msgstr "El usuario ha parado transmitir."
+
+#: pywebcam.py:443
+msgid "Network connection failed."
+msgstr "La conexión de red falló."
+
+#: gyachewebcam.c:434 pywebcam.py:343
+msgid "The user does not have their webcam online."
+msgstr "El usuario no tiene su cámara web en línea."
+
+#: pywebcam.py:706
+msgid "About pY! WebCam..."
+msgstr "Acerca de pY! WebCam..."
+
+#: gyachewebcam.c:94 pywebcam.py:669
+msgid "Not Connected"
+msgstr "No Conectado"
+
+#: gyachewebcam.c:89
+msgid "Requesting Permission..."
+msgstr "Pidiendo el Permiso..."
+
+#: gyachewebcam.c:145 pywebcam.py:291
+msgid "The user has cancelled viewing permission."
+msgstr "El usuario ha cancelado el permiso de ver."
+
+#: gyachewebcam.c:124 pywebcam.py:274
+msgid "The user has denied you viewing permission."
+msgstr "El usuario le ha negado el permiso de ver."
+
+#: gyachewebcam.c:645
+msgid "Webcam Viewer"
+msgstr "Visor de Webcam"
+
+#: setupwindow2.c:645
+msgid "Webcam Viewer:"
+msgstr "Visor de Webcam:"
+
+#: gyachewebcam.c:91 pywebcam.py:671
+msgid "Connected"
+msgstr "Conectado"
+
+#: main.c:63
+msgid "You have been disconnected from the Yahoo webcam server."
+msgstr "Desconectado del servidor webcam de Yahoo."
+
+#: pywebcam.py:455 pywebcam.py:460
+msgid "Could not open TCP socket"
+msgstr "No podía crear una conexión TCP"
+
+#: main.c:138 pywebcam.py:670
+msgid "Connecting..."
+msgstr "Conectando..."
+
+#: ../src/webcam/gyacheupload-ui.c:1493
+msgid "Remove User"
+msgstr "Quitar al Usuario"
+
+#: ../src/interface.c:451 ../src/interface.c:1569
+msgid " Send Webcam Invitation... "
+msgstr " Enviar una Invitación de Webcam... "
+
+#: ../src/interface.c:443
+msgid " Start My Webcam... "
+msgstr " Iniciar Mi Cámara Web... "
+
+#: ../src/interface.c:464
+msgid "Show My Webcam Is On In Chat Rooms"
+msgstr "Mostrar Mi Cámara Web Es Conectado En Las Charlas"
+
+#: ../src/webcam/gyacheupload-ui.c:944
+msgid "Color:"
+msgstr "Color:"
+
+#: ../src/webcam/gyacheupload-ui.c:1326
+msgid "Unknown Camera"
+msgstr "Cámara Desconocida"
+
+#: ../src/webcam/gyacheupload-ui.c:1069
+msgid "Do you wish to allow this user to view your webcam?"
+msgstr "¿Desea usted permitir a este usuario ver su cámara web?"
+
+#: ../src/webcam.c:101
+msgid "The Gyach Enhanced external webcam broadcaster could not be found"
+msgstr "El transmisor externo de webcam de Gyach Enhanced no podría ser encontrado"
+
+#: ../src/webcam/gyachewebcam.c:162
+msgid "The webcam connection has been closed."
+msgstr "La conexión de webcam ha sido cerrada."
+
+#: ../src/webcam/gyacheupload-ui.c:935
+msgid "Hue:"
+msgstr "Matiz:"
+
+#: ../src/webcam/gyacheupload-ui.c:1287
+msgid "Automatically Deny Anonymous Users"
+msgstr "Automáticamente Rechazar a Todos los Usuarios Anónimos"
+
+#: ../src/webcam/gyacheupload-ui.c:1276
+msgid "Automatically Allow All Friends To View"
+msgstr "Automáticamente Permitir a Todos mis Amigos Ver"
+
+#: ../src/webcam/gyacheupload-ui.c:915
+msgid "Apply"
+msgstr "Aplicar"
+
+#: ../src/webcam/gyacheupload-ui.c:126
+msgid "Broadcasting  [Paused]"
+msgstr "Transmitiendo  [Detenido]"
+
+#: ../src/webcam/gyacheupload-ui.c:806
+msgid "Webcam Broadcaster"
+msgstr "Transmisor de Cámara Web"
+
+#: ../src/webcam/gyacheupload-ui.c:1273
+msgid "Automatically Allow All Users To View"
+msgstr "Automáticamente Permitir a Todos los Usuarios Ver"
+
+#: ../src/webcam/gyacheupload-ui.c:904 ../src/webcam/gyacheupload-ui.c:912
+msgid "GYach Enhanced: Camera Properties"
+msgstr "GYach Enhanced: Propriedades de Cámara"
+
+#: ../src/webcam/gyacheupload-ui.c:1281
+msgid "Automatically Deny All Users"
+msgstr "Automáticamente Rechazar a Todos los Usuarios"
+
+#: ../src/webcam/gyacheupload-ui.c:1267
+msgid "Permissions"
+msgstr "Permisos"
+
+#: ../src/webcam/gyacheupload-main.c:159 ../src/webcam/gyacheupload-ui.c:131
+msgid "Not Broadcasting"
+msgstr "No Transmitiendo"
+
+#: ../src/webcam/gyacheupload-ui.c:1315
+msgid "About GYach-E Webcam Broadcaster..."
+msgstr "Acerca de GYach-E Webcam Broadcaster..."
+
+#: ../src/webcam/gyacheupload-ui.c:1218
+msgid "Camera Properties..."
+msgstr "Propriedades de Cámara..."
+
+#: ../src/webcam/gyacheupload-ui.c:128
+msgid "Broadcasting"
+msgstr "Transmitiendo"
+
+#: ../src/webcam/gyacheupload-ui.c:938
+msgid "Contrast:"
+msgstr "Contraste:"
+
+#: ../src/webcam/gyacheupload-ui.c:941
+msgid "Brightness:"
+msgstr "Brillo:"
+
+#: ../src/webcam/gyacheupload-ui.c:1284
+msgid "Automatically Deny All Except Friends"
+msgstr "Automáticamente Rechazar a Todos Excepto Amigos"
+
+#: ../src/webcam/gyacheupload-ui.c:947
+msgid "Fix Color"
+msgstr "Corregir el Color"
+
+#: ../src/webcam.c:1268
+msgid "The yahoo user '%s' has invited you to view their webcam. Do you want to accept?"
+msgstr "El usuario de Yahoo '%s' le ha invitado a ver su webcam. ¿Desea usted aceptar la invitación?"
+
+#: ../src/setupwindow2.c:470
+msgid "Webcam Device:"
+msgstr "Unidad Webcam:"
+
+#: ../src/packet_handler.c:2918
+msgid "has accepted your webcam invitation"
+msgstr "ha aceptado su invitación de webcam"
+
+#: ../src/packet_handler.c:2959 ../src/packet_handler.c:2963
+msgid "has declined your webcam invitation"
+msgstr "ha rechazado su invitación de webcam"
+
+msgid "Plugins"
+msgstr "Conectores"
+
+msgid "Instant Message from"
+msgstr "Mensaje Instantáneo desde"
+
+#: ../src/setupwindow2.c:1034
+msgid "Allow PM Encryption (plugin)"
+msgstr "Permitir el Cifrado de Mensajes (conector)"
+
+#: ../src/plugins.c:322
+msgid "Unknown and unhandled plugin type."
+msgstr "Tipo desconocido de conector."
+
+#: ../src/plugins.c:229
+msgid "Plugin"
+msgstr "Conector"
+
+#: ../src/plugins.c:138
+msgid "Loaded plugins"
+msgstr "Conectores cargados"
+
+#: ../src/plugins.c:127 ../src/plugins.c:133
+msgid "No plugins loaded."
+msgstr "Ningunos conectores cargados."
+
+#: ../src/plugins.c:229
+msgid "could not be loaded because of an error"
+msgstr "no podía ser cargado debido a un error"
+
+#: ../src/plugins.c:346
+msgid "An error occurred initiating the plugin."
+msgstr "Error al iniciar el conector."
+
+#: ../src/plugins.c:164
+msgid "Plugin Loaded"
+msgstr "Conector Cargado"
+
+#: ../src/plugins.c:399
+msgid "Unknown and unhandled encryption plugin type."
+msgstr "Tipo desconocido de conector de cifrado."
+
+#: ../src/plugins.c:393
+msgid "Successfully loaded."
+msgstr "Cargado con éxito."
+
+#: ../src/packet_handler.c:4427
+msgid "Your system does not support this encryption or you have encryption disabled."
+msgstr "Su sistema no apoya este método de cifrado o usted tiene el cifrado inhabilitado."
+
+#: ../src/pmwindow.c:315
+msgid "Select An Encryption Method:"
+msgstr "Seleccione un Método de Cifrado:"
+
+#: ../src/packet_handler.c:4414 ../src/packet_handler.c:4444
+msgid "Encrypted session started."
+msgstr "Sesión cifrada iniciada."
+
+#: ../src/pmwindow.c:222
+msgid "Encryption is not currently enabled."
+msgstr "El cifrado actualmente no es permitido."
+
+#: ../src/pmwindow.c:552 ../src/pmwindow.c:555
+msgid " Encryption... "
+msgstr " Cifrado... "
+
+#: ../src/packet_handler.c:4414 ../src/packet_handler.c:4444
+msgid "has enabled encrypted instant messaging."
+msgstr "ha permitido los mensajes cifrados."
+
+#: ../src/packet_handler.c:4427
+msgid "attempted to start an encrypted instant messaging session"
+msgstr "trató de comenzar una sesión de mensajes cifrados."
+
+#: ../src/pmwindow.c:252
+msgid "The session is already using this encryption."
+msgstr "La sesión ya usa este método de cifrado ahorita."
+
+#: ../src/packet_handler.c:4373
+msgid "does not have support for the requested encryption."
+msgstr "Él no tiene el apoyo al método de cifrado solicitado."
+
+#: ../src/pmwindow.c:308
+msgid "Encryption"
+msgstr "Cifrado"
+
+#: ../src/pmwindow.c:205 ../src/packet_handler.c:4353
+#: ../src/packet_handler.c:4373 ../src/packet_handler.c:4427
+msgid "Encrypted session stopped."
+msgstr "Sesión cifrada detenida."
+
+#: ../src/pmwindow.c:234
+msgid "Requesting encrypted session..."
+msgstr "Pidiendo la sesión cifrada..."
+
+#: ../src/packet_handler.c:4353
+msgid "has stopped encrypting the instant message session."
+msgstr "ha detenido la sesión de mensajes cifrados."
+
+#: ../src/plugins.c:281
+msgid "Cannot resolve symbol \"plugin_info\"."
+msgstr "No podía encontrar que el símbolo nombrado \"plugin_info\"."
+
+#: ../src/plugins.c:367
+msgid "Cannot resolve symbol \"encrypt_message\"."
+msgstr "No podía encontrar que el símbolo nombrado \"encrypt_message\"."
+
+#: ../src/plugins.c:377
+msgid "Cannot resolve symbol \"decrypt_message\"."
+msgstr "No podía encontrar que el símbolo nombrado \"decrypt_message\"."
+
+#: ../src/plugins.c:354
+msgid "No function named \"my_init\" defined in module."
+msgstr "Ningún función llamó \"my_init\" encontrado en el módulo"
+
+#: ../src/setupwindow2.c
+msgid "Show SmileyCentral smileys (web)"
+msgstr "Mostrar caritas de SmileyCentral (www)"
+
+#: ../src/fader.c
+msgid "Configuration: Text Effects"
+msgstr "Configuración: Efectos\nEspeciales de Texto"
+
+#: ../src/fader.c
+msgid "Maximum Colors"
+msgstr "Colores Permitidos"
+
+#: ../src/fader.c
+msgid "Style:"
+msgstr "Tipo:"
+
+#: ../src/packet_handler.c
+msgid "Available Until"
+msgstr "Disponible Hasta"
+
+#: ../src/yahoochat.c
+msgid "File is too large"
+msgstr "El fichero es demasiado grande"
+
+#: ../src/yahoochat.c
+msgid "Maximum Allowed File Size"
+msgstr "Tamaño de Fichero Máximo Permitido"
+
+# XMMS plugin
+msgid "XMMS: What's Playing?"
+msgstr "XMMS: Canción Actual"
+
+#: ../src/packet_handler.c
+msgid "Invalid User."
+msgstr "Usuario Inválido."
+
+#: ../src/setupwindow2.c
+msgid "A buddy comes online"
+msgstr "Un amigo ingresa en Yahoo!"
+
+#: ../src/setupwindow2.c
+msgid "A buddy goes offline"
+msgstr "Un amigo sale de Yahoo!"
+
+#: ../src/setupwindow2.c
+msgid "A user buzzes me"
+msgstr "Un usuario me manda un 'buzz'"
+
+#: ../src/setupwindow2.c
+msgid "New mail arrives"
+msgstr "Mensajes correo-e llegan"
+
+#: ../src/setupwindow2.c
+msgid "News bulletins arrive"
+msgstr "Las noticias llegan"
+
+#: ../src/packet_handler.c
+msgid "News Bulletin"
+msgstr "Noticias"
+
+
+#: ../src/interface.c
+msgid " My News Alerts "
+msgstr " Mi Noticias "
+
+#: ../src/packet_handler.c
+msgid "See the 'My Yahoo' window for more information."
+msgstr "Mira la ventana 'Mi Yahoo!' para más información."
+
+#: ../src/setupwindow2.c
+msgid "Show A Popup Window When:"
+msgstr "Mostrar Ventana Emergente Cuando:"
+
+#: ../src/htmlrender.c
+msgid "TV Guide"
+msgstr "Guía TV"
+
+#: ../src/packet_handler.c
+msgid "has logged OFF\n"
+"[You are now invisible]"
+msgstr "ha terminado la sesión Yahoo!\n"
+"[Usted está invisible ahora]"
+
+#: ../src/packet_handler.c
+msgid "has logged ON\n"
+"[is now visible]"
+msgstr "ha comenzado la sesión Yahoo!\n"
+"[está visible ahora]"
+
+#: ../src/interface.c:442
+msgid " Manage Profile Names... "
+msgstr " Manejar Nombres de Perfil... "
+
+#: ../src/interface.c:3247
+msgid "Move to group..."
+msgstr "Mover este amigo al grupo..."
+
+#: ../src/setupwindow2.c:1539
+msgid "Use builtin profile viewer (Window)"
+msgstr "Usar visor de perfiles de GyachE (Ventana)"
+
+#: ../src/setupwindow2.c:1533
+msgid "Use builtin profile viewer (My Yahoo)"
+msgstr "Usar visor de perfiles de GyachE (Mi Yahoo!)"
+
+#: ../src/setupwindow2.c:1545
+msgid "Use my web browser to view profiles"
+msgstr "Ver perfiles usando mi navegador de web"
+
+#: ../src/setupwindow2.c:401
+msgid "Scale Text:"
+msgstr "Escalar Texto:"
+
+#: ../src/interface.c:356
+msgid " Send Instant Message to Many... "
+msgstr " Enviar Mensaje Instantáneo a Muchos... "
+
+#: ../src/pmwindow.c:137
+msgid "Logging PM to file"
+msgstr "Ha comenzado a registrar la conversación al fichero"
+
+#: ../src/pmwindow.c:103
+msgid "Stopped logging PM to file"
+msgstr "Ha parado el registrar de la conversación al fichero"
+
+#: ../src/packet_handler.c:1417 ../src/packet_handler.c:1420
+msgid "Buddy could not be added."
+msgstr "El amigo no podría ser añadido."
+
+#: ../src/packet_handler.c:1406 ../src/packet_handler.c:1409
+msgid "Buddy already exists."
+msgstr "El amigo ya existe."
+
+#: ../src/htmlrender.c:584
+msgid "Zoom Out"
+msgstr "Más pequeño"
+
+#: ../src/htmlrender.c:584
+msgid "Zoom In"
+msgstr "Más grande"
+
+#: ../src/profname.c:334 ../src/profname.c:335
+msgid "Deactivate ID"
+msgstr "Desactivar ID"
+
+#: ../src/profname.c:331 ../src/profname.c:332
+msgid "Activate ID"
+msgstr "Activar ID"
+
+#: ../src/profname.c:338
+msgid "Create or Edit Profiles"
+msgstr "Crear o Modificar Perfiles"
+
+#: ../src/profname.c:310
+msgid "Your primary Yahoo ID is"
+msgstr "Su ID de Yahoo principal es"
+
+#: ../src/profname.c:310
+msgid "You can disable any of your alternate IDs by selecting the ID and clicking 'Deactivate ID'.  Disabling an ID will turn it offline."
+msgstr "Usted puede inhabilitar cualesquiera de sus IDs alternas seleccionando la ID y haciendo clic en 'Desactivar ID'. Inhabilitar una ID la enviará fuera de línea."
+
+#: ../src/profname.c:310
+msgid "You are logged in as"
+msgstr "Usted está conectado como"
+
+#: ../src/profname.c:223
+msgid "Alternate IDs:"
+msgstr "IDs Alternas"
+
+#: ../src/profname.c:348
+msgid "Names available"
+msgstr "Nombres disponibles"
+
+#: ../src/profname.c:348
+msgid "Default ID to be used for messages, chats, conferences, files, and invitations."
+msgstr "ID principal que se utilizará para los mensajes, las charlas, las conferencias, los archivos, y las invitaciones."
+
+#: ../src/profname.c:317
+msgid "You cannot activate or deactivate IDs while you are invisible."
+msgstr "No puedes activar o desactivar IDs mientras que eres invisible."
+
+#: ../src/conference.c:201
+msgid ""
+"You can send short instant messages to up to 8 users at once.\n"
+"Select friends from the list on the left and click \"Add\" to add them to the\n"
+"list of recipients. To add somebody who is not on the list, type his or her Yahoo!\n"
+"ID in the box and click \"Add\"."
+msgstr "Puede enviar mensajes instantáneos cortos a un máximo de 8 usuarios\n"
+"a la vez. Seleccione a sus amigos de la lista a la izquierda, entonces\n"
+"haga clic en 'Añadir' para añadirles a la lista de recipientes.  Puede añadir un\n"
+"usuario que no está en la lista escribiendo su ID de Yahoo! dentro de la caja\n"
+"y haciendo clic en 'Añadir'."
+
+
+#: ../src/conference.c:215
+msgid "Recipients"
+msgstr "Recipientes"
+
+#: ../src/callbacks.c:4414 ../src/friends.c:255
+msgid "Group:"
+msgstr "Grupo:"
+
+#: ../src/interface.c:3300
+msgid "Rename..."
+msgstr "Renombrar..."
+
+# setupwindow2.c
+msgid "Show the 'quick access' toolbar (requires restart)"
+msgstr "Mostrar barra de herramientas 'acceso rápido'\n(Hay que reiniciar.)"
+
+# setupwindow2.c
+msgid "When possible, show chat 'nicknames' instead\nof screen names in messages"
+msgstr "Cuando posible, mostrar apodos de charla en\nvez de nombres en mensajes"
+
+# setupwindow2.c
+msgid "Broadcast my status changes in chats / conferences"
+msgstr "Mostrar mis cambios de ausencia en charlas\ny conferencias"
+
+msgid "Rename"
+msgstr "Renombrar"
+
+msgid "Group"
+msgstr "Grupo"
+
+#: ../src/profname.c:302
+msgid "Edit My Profiles"
+msgstr "Modificar Mis Perfiles"
+
+
+msgid "(Attempting to reconnect)"
+msgstr "(Tratando de conectar de nuevo)"
+
+msgid "(Changes affect new PM windows.)"
+msgstr "(Cambios afectarán nuevo ventanas PM)"
+
+msgid "(requires restart)"
+msgstr "(Hay que reiniciar.)"
+
+msgid "Actions"
+msgstr "Acciones"
+
+msgid "Activate my profile names"
+msgstr "Activar mis nombres de perfil"
+
+msgid "Address:"
+msgstr "Dirección:"
+
+msgid "Allergy Watch"
+msgstr "Avisos de alergia"
+
+msgid "Allow Yahoo! websites to show when I'm online."
+msgstr "Permitir que sitios de Yahoo! muestren cuando estoy en línea."
+
+msgid "Allow users to see my Game high scores."
+msgstr "Permitir que los usuarios vean mis cuentas de Juego"
+
+msgid "Allow users to see when I am in Games."
+msgstr "Permitir que los usuarios vean cuando estoy en juegos"
+
+msgid "Alt. E-mail #2:"
+msgstr "Correo-e Alt. #2:"
+
+msgid "Alt. E-mail:"
+msgstr "Correo-e Alt.:"
+
+msgid "An error occurred deleting the addressbook item."
+msgstr "Error al eliminar el contacto."
+
+msgid "An error occurred updating the addressbook item."
+msgstr "Error al modificar el contacto."
+
+msgid "Anniversary:"
+msgstr "Aniversario:"
+
+msgid "Are you sure you want to DELETE this address book item?"
+msgstr "¿Deseas ELIMINAR este contacto?"
+
+msgid "Are you sure you want to ignore this and close this window?"
+msgstr "¿Deseas ignorar este y cerrar esta ventana?"
+
+msgid "Audibles"
+msgstr "Audibles"
+
+msgid "Automatically reject all invitations"
+msgstr "Rechazar automáticamente todas\ninvitaciones"
+
+msgid "Automobiles"
+msgstr "Automóviles"
+
+msgid "Away"
+msgstr "Ausente"
+
+msgid "Birthday:"
+msgstr "Cumpleaños:"
+
+msgid "Bottom Toolbar"
+msgstr "Barra Inferior"
+
+msgid "Browse..."
+msgstr "Seleccionar..."
+
+msgid "Buttons shown on PM windows:"
+msgstr "Botones mostrados en ventanas PM:"
+
+msgid "Buttons shown on the chat window:"
+msgstr "Botones mostrados en ventana de charla:"
+
+msgid "CheetaChat Avatars"
+msgstr "Avatars de CheetaChat"
+
+msgid "City Guide"
+msgstr "Guía de Ciudad"
+
+msgid "City:"
+msgstr "Ciudad:"
+
+msgid "Comments #1:"
+msgstr "Comentarios #1:"
+
+msgid "Comments #2:"
+msgstr "Comentarios #2:"
+
+msgid "Comments #3:"
+msgstr "Comentarios #3:"
+
+msgid "Comments #4:"
+msgstr "Comentarios #4:"
+
+msgid "Community Service"
+msgstr "Servicio de Comunidad"
+
+msgid "Company:"
+msgstr "Compañía:"
+
+msgid "Contact Information"
+msgstr "Información Personal"
+
+msgid "Contacts"
+msgstr "Contactos"
+
+msgid "Copy name"
+msgstr "Copiar el nombre"
+
+msgid "Copy nick name"
+msgstr "Copiar el apodo"
+
+msgid "Could not login: Connection timed out."
+msgstr "No podría ingresar: La conexión no respondió."
+
+msgid "Country:"
+msgstr "País:"
+
+msgid "Create/Edit Profiles"
+msgstr "Crear/Modificar Perfiles"
+
+msgid "Currency Rates"
+msgstr "Tasas de Cambio"
+
+msgid "Delete All Avatars"
+msgstr "Borrar todos los avatars"
+
+msgid "Delete All Buddy Images"
+msgstr "Borrar todas las imágenes de amigos"
+
+msgid "Display Image Size:"
+msgstr "Tamaño de Imagen:"
+
+msgid "Don't share a display image"
+msgstr "No compartir una imagen"
+
+msgid "Don't share my image"
+msgstr "No compartir mi imagen"
+
+msgid "E-Mail Preview"
+msgstr "Previa Vista de Correo-E"
+
+msgid "E-mail Preview"
+msgstr "Previa Vista de Correo-e"
+
+msgid "Edit / Create Avatar..."
+msgstr "Modificar / Crear Avatar..."
+
+msgid "Edit Contact Information..."
+msgstr " Modificar Información de Contacto..."
+
+msgid "Edit My Display Image..."
+msgstr "Modificar Mi Imagen..."
+
+msgid "Enable Addressbook"
+msgstr "Permitir Libreta de Direcciones"
+
+msgid "Enable Audibles"
+msgstr "Permitir Audibles"
+
+msgid "Enable Messenger-6 features"
+msgstr "Permitir capacidades de Messenger-6"
+
+msgid "Enable Web Searches"
+msgstr "Permitir Búsquedas de Web"
+
+msgid "Fax #:"
+msgstr "Fax #:"
+
+msgid "File successfully saved."
+msgstr "Fichero guardado con éxito."
+
+msgid "Fitness"
+msgstr "Ejercicio"
+
+msgid "Flash Player Command:"
+msgstr "Mando de Jugador Flash:"
+
+msgid "Forums"
+msgstr "Foros"
+
+msgid "Game Scores"
+msgstr "Cuentas de Juegos"
+
+msgid "Has accepted your Game Invitation"
+msgstr "ha aceptado su Invitación de Juego"
+
+msgid "Has cancelled the Game Invitation"
+msgstr "ha cancelado su Invitación de Juego"
+
+msgid "Has declined your Game Invitation"
+msgstr "ha rechazado su Invitación de Juego"
+
+msgid "Has sent you a Game Invitation"
+msgstr "te ha mandado una Invitación de Juego"
+
+msgid "Health"
+msgstr "Salud"
+
+msgid "Home"
+msgstr "Casa"
+
+msgid "Horoscope - Aquarius"
+msgstr "Horóscopo - Acuario"
+
+msgid "Horoscope - Aries"
+msgstr "Horóscopo - Aries"
+
+msgid "Horoscope - Cancer"
+msgstr "Horóscopo - Cancer"
+
+msgid "Horoscope - Capricorn"
+msgstr "Horóscopo - Capricornio"
+
+msgid "Horoscope - Gemini"
+msgstr "Horóscopo - Géminis"
+
+msgid "Horoscope - Leo"
+msgstr "Horóscopo - Leo"
+
+msgid "Horoscope - Libra"
+msgstr "Horóscopo - Libra"
+
+msgid "Horoscope - Pisces"
+msgstr "Horóscopo - Piscis"
+
+msgid "Horoscope - Sagittarius"
+msgstr "Horóscopo - Sagitario"
+
+msgid "Horoscope - Scorpio"
+msgstr "Horóscopo - Escorpión"
+
+msgid "Horoscope - Taurus"
+msgstr "Horóscopo - Tauro"
+
+msgid "Horoscope - Virgo"
+msgstr "Horóscopo - Virgo"
+
+msgid "I am NO longer permanently offline to this user:"
+msgstr "NO estoy permanentemente desconectado para este usuario"
+
+msgid "I am permanently offline to this user:"
+msgstr "Estoy permanentemente desconectado para este usuario"
+
+msgid "ID:"
+msgstr "ID:"
+
+msgid "IM"
+msgstr "MI"
+
+msgid "Ignored Audible Animation from user"
+msgstr "Se rechazó Animación Audible de usuario"
+
+msgid "Ignored BUZZ from user"
+msgstr "Se rechazó BUZZ de usuario"
+
+msgid "Ignored Game Invitation from user"
+msgstr "Se rechazó Invitación de Juego de usuario"
+
+msgid "Ignored webcam invitation acceptance message from"
+msgstr "Se rechazó un mensaje que aceptaba tu invitación de webcam desde"
+
+msgid "Ignored webcam invitation decline message from"
+msgstr "Se rechazó un mensaje que rechazaba tu invitación de webcam desde"
+
+msgid "Info"
+msgstr "Info"
+
+msgid "Invisible - Stealth Settings"
+msgstr "Invisible - Ajustes Stealth"
+
+msgid "Jobs"
+msgstr "Empleos"
+
+msgid "Join User In Game Room"
+msgstr "Unirse a la Sala de Juegos del Usuario"
+
+msgid "Large"
+msgstr "Grande"
+
+msgid "Load"
+msgstr "Cargar"
+
+msgid "Lotto Results"
+msgstr "Resultados de la Lotería"
+
+msgid "MP3 Player Command:"
+msgstr "Mando de Jugador MP3:"
+
+msgid "Medium"
+msgstr "Medio"
+
+msgid "Messages sent."
+msgstr "Mensajes mandados."
+
+msgid "Middle Name:"
+msgstr "Nombre Medio:"
+
+msgid "Movie Showtimes"
+msgstr "Horarios de Proyección de Películas"
+
+msgid "My Briefcase"
+msgstr "Mi Maletín"
+
+msgid "My Display Image"
+msgstr "Mi Imagen"
+
+msgid "My Horoscope"
+msgstr "Mi Horóscopo"
+
+msgid "My Info"
+msgstr "Mi Info"
+
+msgid "My Invitations"
+msgstr "Mis Invitaciones"
+
+msgid "My Photos"
+msgstr "Mis Fotos"
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "New"
+msgstr "Nuevo"
+
+msgid "New Movie Releases"
+msgstr "Estrenos de películas"
+
+msgid "New Music Releases"
+msgstr "Versiones del álbum"
+
+msgid "New Video Releases"
+msgstr "Estrenos de videos"
+
+msgid "Nick Name:"
+msgstr "Apodo:"
+
+msgid "Notepad"
+msgstr "Bloc de notas"
+
+msgid "Notes:"
+msgstr "Notas:"
+
+msgid "Only friends may view and share display images"
+msgstr "Solamente mis amigos pueden ver y compartir imágenes"
+
+msgid "Other"
+msgstr "Otro"
+
+msgid "Other #:"
+msgstr "Otro #:"
+
+msgid "PM windows have scrollable typing area"
+msgstr "Ventanas PM tiene un área de teclar\ncon barras de desplazamiento"
+
+msgid "Pager #:"
+msgstr "Paginador #:"
+
+msgid "Permanently Offline"
+msgstr "Permanentemente Desconectado"
+
+msgid "RSS Newsfeeds"
+msgstr "Noticias RSS"
+
+msgid "Recipes"
+msgstr "Comida sana"
+
+msgid "Refresh View"
+msgstr "Refrescar la Vista"
+
+msgid "Remove my name from this user's buddy list:"
+msgstr "Quitar mi nombre de la lista de esta persona "
+
+msgid "SMS (Cell Phone)"
+msgstr "SMS (Celular)"
+
+msgid "Save As..."
+msgstr "Guardar Como..."
+
+msgid "Save Changes"
+msgstr "Guardar Cambios"
+
+msgid "Saved Searches"
+msgstr "Búsquedas Guardadas"
+
+msgid "Send / Erase"
+msgstr "Mandar / Borrar"
+
+msgid "Share my avatar"
+msgstr "Compartir mi avatar"
+
+msgid "Share my image"
+msgstr "Compartir mi imagen"
+
+msgid "Share my photo:"
+msgstr "Compartir mi foto"
+
+msgid "Show"
+msgstr "Mostrar"
+
+msgid "Show Buddy Images"
+msgstr "Mostrar Imágenes de Amigos"
+
+msgid "Show avatars on my buddy list"
+msgstr "Mostrar avatars en mi lista de amigos"
+
+msgid "Show buddy list avatars"
+msgstr "Mostrar avatars en lista de amigos"
+
+msgid "Show display images in IM windows"
+msgstr "Mostrar imágenes de amigos en MI"
+
+msgid "Show my avatar on friends' buddy lists"
+msgstr "Permitir que mis amigos vean mi avatar en sus listas"
+
+msgid "Small"
+msgstr "Pequeño"
+
+msgid "Sorry, You have the webcam feature disabled."
+msgstr "Las capacidades de webcam son inhabilitados."
+
+msgid "Sports Team News"
+msgstr "Noticias Sobre Equipos"
+
+msgid "State:"
+msgstr "Estado:"
+
+msgid "Stealth Settings"
+msgstr "Ajustes Stealth"
+
+msgid "Stealth Settings..."
+msgstr "Ajustes Stealth..."
+
+msgid "Stock Market Summary"
+msgstr "Resumen de la Bolsa"
+
+msgid "Tabs on the bottom (requires restart)"
+msgstr "Etiquetas al inferior (Hay que reiniciar)"
+
+msgid "Temporary Friends"
+msgstr "Amigos Temporales"
+
+msgid "The Flash player command allows you to view  such things as avatar animations. Suggested commands are 'gflashplayer' and 'swf_play'."
+msgstr "El mando del jugador FLASH lo permite ver tales cosas como animaciones de avatar.  Usted debe  utilizar a un jugador tal como 'gflashplayer' o 'swf_play'."
+
+msgid "The Gyach Enhanced external webcam viewer could not be found"
+msgstr "El programa externo de webcam de Gyach Enhanced no se podría encontrar"
+
+msgid "The MP3 player command allows you to listen to such things as Audibles. You should use a command-line MP3 player such as 'mplayer' or 'mpg123'."
+msgstr "El mando del jugador MP3 lo permite escuchar tales cosas como Audibles. Usted debe  utilizar a un jugador tal como 'mplayer' o 'mpg123' sin un interfaz gráfico."
+
+msgid "The image could not be converted to a 96x96 .PNG image."
+msgstr "La imagen no podría ser convertida a una imagen 96x96 del tipo .PNG."
+
+msgid "The image could not be loaded."
+msgstr "La imagen no se podría cargar."
+
+msgid "The user did not receive your voice chat invitation because they are either unavailable or have their privacy settings configured to block you."
+msgstr "El usuario no recibió su invitación de charla voz porque ellos son indisponible o sus  ajustes privacidad se configuran para bloquearlo."
+
+msgid "The user has changed their avatar."
+msgstr "El usuario ha modificado su avatar."
+
+msgid "The user has deleted their avatar."
+msgstr "El usuario ha eliminado su avatar."
+
+msgid "The user has no avatar."
+msgstr "El usuario no tiene un avatar."
+
+msgid "The user is connected through SMS and will receive your message on a cell phone. Your message can be up to 152 characters."
+msgstr "El usuario está conectado por SMS y recibirá su mensaje en un celular. Su mensaje puede tener hasta 152 caracteres."
+
+msgid "The user is currently AWAY and might not receive your message."
+msgstr "El usuario es actualmente AUSENTE y no quizás recibe su mensaje."
+
+msgid "The user is currently IDLE and might not receive your message."
+msgstr "El usuario es actualmente INACTIVO y no quizás recibe su mensaje."
+
+msgid "The user is no longer connected through the SMS cell phone service and can now receive regular sized messages."
+msgstr "El usuario NO está conectado por el servicio de celular de SMS y ahora puede recibir mensajes de tamaño normal."
+
+msgid "The user is not in a game room."
+msgstr "El usuario no está en una sala de juegos."
+
+msgid "The user used Stealth settings to be invisible."
+msgstr "El usuario utilizó los ajustes Stealth para estar invisible."
+
+msgid "This feature is not yet supported by Gyach-E. If you wish to join this user in the game room, login to http://games.yahoo.com."
+msgstr "Esto no está apoyado por Gyach-E. Si usted desea unir este usuario en la sala de juego,  ingresar en http: //games.yahoo.com."
+
+msgid "This feature is only available for friends."
+msgstr "Esto está sólo disponible para amigos."
+
+msgid "Tips"
+msgstr "Consejos"
+
+msgid "Title:"
+msgstr "Título:"
+
+msgid "Top Headline"
+msgstr "Fotografía Principal"
+
+msgid "Top Toolbar"
+msgstr "Barra Superior"
+
+msgid " View Game Scores... "
+msgstr " Ver Cuentas de Juegos... "
+
+msgid " View Photo Album... "
+msgstr " Ver Álbum de Fotos... "
+
+msgid "View avatar animation"
+msgstr "Ver la animación del avatar"
+
+msgid "View full-size avatar"
+msgstr "Ver la versión grande del avatar"
+
+msgid "Warning: You will probably be unable to download this peer-to-peer file.  GYach Enhanced will instruct Yahoo! to re-send you the file using the File Transfer system instead.  The re-sent file arrive within a few minutes, depending on the file size."
+msgstr "Aviso: Usted será probablemente incapaz de descargar este fichero persona-a-persona.  GYach Enhanced instruirá Yahoo! re-mandar el fichero que utiliza el sistema de Transferencias de  Fichero en lugar. El fichero re-mandado llegará dentro de unos pocos minutos, dependiendo del tamaño del fichero."
+
+msgid "Web Search"
+msgstr "Búsqueda de Web"
+
+msgid "Website:"
+msgstr "Sitio Web:"
+
+msgid "Work"
+msgstr "Empleo"
+
+msgid "Yahoo Rooms"
+msgstr "Salas de Yahoo"
+
+msgid "Yahoo! Privacy Settings"
+msgstr "Ajustes Privacidad de Yahoo!"
+
+msgid " Yahoo! Privacy Settings... "
+msgstr "Ajustes Privacidad de Yahoo!..."
+
+msgid "You are no longer sharing your buddy list avatar."
+msgstr "Usted no está compartiendo su avatar."
+
+msgid "You are now sharing your buddy list avatar."
+msgstr "Usted está compartiendo su avatar ahorita."
+
+msgid "You are permanently 'offline' to"
+msgstr "Estás permanentemente 'desconectado' para"
+
+msgid "Your avatar has been deleted."
+msgstr "Tu avatar ha sido eliminado."
+
+msgid "Your avatar has been updated."
+msgstr "Tu avatar ha sido modificado."
+
+msgid "Your buddy image has been uploaded"
+msgstr "Tu imagen ha sido subida."
+
+msgid "Zip Code:"
+msgstr "Código Postal:"
+
+msgid "[Audible]"
+msgstr "[Audible]"
+
+msgid "no longer sees you as PERMANENTLY offline"
+msgstr "no te ve como PERMANENTEMENTE desconectado"
+
+msgid "now sees you as PERMANENTLY offline"
+msgstr "te ve como PERMANENTEMENTE desconectado ahorita"
+
+msgid "now sees you as offline"
+msgstr "te ve como desconectado"
+
+msgid "now sees you as online"
+msgstr "te ve como conectado"
+
+msgid "sees me as"
+msgstr "me ve como"
+
+#: ../src/pmwindow.c:618
+msgid "Hide"
+msgstr "Ocultar"
+
+#: ../src/yab.c:1753 ../src/yab.c:1754
+msgid "View"
+msgstr "Ver"
+
+#: ../src/interface.c:3895
+msgid "Your account has been temporarily locked due to too many failed login attempts. Please type the word shown below to unlock your account:"
+msgstr "Su cuenta se ha cerrado temporalmente debido a demasiadas contraseñas incorrectas.  Esriba la palabra mostrada debajo de ingresar en su cuenta:"
+
+
+
+#: ../src/plugins/gyach-photos.c:1903
+msgid "has invited you to view a photo album. Would you like to accept the invitation?"
+msgstr "lo ha invitado a ver un álbum de fotos. ¿Querría usted aceptar la invitación?"
+
+#: ../src/plugins/gyach-photos.c:1629
+msgid "Stop slideshow"
+msgstr "Detener Carrusel de Imágenes"
+
+#: ../src/plugins/gyach-photos.c:1081 ../src/plugins/gyach-photos.c:1302
+msgid "The photo album could not be loaded."
+msgstr "El álbum de fotos no se podría cargar."
+
+#: ../src/plugins/gyach-photos.c:1665
+msgid "Next picture"
+msgstr "Próxima Foto"
+
+#: ../src/plugins/gyach-photos.c:1494 ../src/plugins/gyach-photos.c:1602
+msgid "Select a photo album"
+msgstr "Seleccionar un álbum de fotos"
+
+#: ../src/plugins/gyach-photos.c:1421
+msgid "File could not be saved."
+msgstr "El fichero no podía ser guardado."
+
+#: ../src/plugins/gyach-photos.c:2002
+msgid " Browse My Photo Albums... "
+msgstr " Ver mis álbumes de fotos... "
+
+#: ../src/plugins/gyach-photos.c:1824
+msgid "has declined the invitation to view your photo album."
+msgstr "ha rechazado la invitación a tu álbum de fotos."
+
+#: ../src/plugins/gyach-photos.c:1619
+msgid "Start slideshow"
+msgstr "Iniciar Carrusel de Imágenes"
+
+#: ../src/plugins/gyach-photos.c:1574
+msgid "Yahoo Photos website"
+msgstr "Sitio Web de Fotos de Yahoo"
+
+#: ../src/plugins/gyach-photos.c:1706
+msgid "has attempted to share a Yahoo photo album."
+msgstr "ha tratado de compartir un álbum de fotos de Yahoo."
+
+#: ../src/plugins/gyach-photos.c:1638
+msgid "View large-sized image"
+msgstr "Ver la versión grande de la foto"
+
+#: ../src/plugins/gyach-photos.c:1136 ../src/plugins/gyach-photos.c:1142
+msgid "Select A Photo Album..."
+msgstr "Seleccionar un álbum de fotos..."
+
+#: ../src/plugins/gyach-photos.c:1363 ../src/plugins/gyach-photos.c:1573
+#: ../src/plugins/gyach-photos.c:1961
+msgid "Y! Photos"
+msgstr "Fotos de Y!"
+
+#: ../src/plugins/gyach-photos.c:1647
+msgid "Save"
+msgstr "Guardar"
+
+#: ../src/plugins/gyach-photos.c:1656
+msgid "Previous picture"
+msgstr "Foto Anterior"
+
+#: ../src/plugins/gyach-photos.c:1707
+msgid "For security reasons, sharing a Yahoo photo album is restricted to users who are friends or temporary friends."
+msgstr "Para cuestiones de seguridad, compartiendo un álbum de fotos de Yahoo es restringido a usuarios que son amigos o amigos temporarios."
+
+#: ../src/plugins/gyach-photos.c:1934
+msgid "has accepted the invitation to view a photo album."
+msgstr "ha aceptado la invitación a tu álbum de fotos."
+
+msgid "Share a photo album..."
+msgstr " Compartir un álbum de fotos... "
+
+msgid "The file server is used when you send files to other users or share a buddy image in a PM window."
+msgstr "El servidor de ficheros se utiliza cuando usted manda ficheros a otros usuarios o comparte una imagen en una ventana PM."
+
+msgid "The user has declined to view your buddy image or is refusing to send their own."
+msgstr "El usuario ha rechazado su imagen o se niega a mandar su propio."
+
+msgid "This font is used for the chat and PM\n"
+"messages you send to other users."
+msgstr "Esta fuente se utiliza para mensajes de charla\n"
+"y mensajes privados que envía a otros usuarios."
+
+msgid "This font is used for timestamps, informational messages,\n"
+"and as the default font for incoming messages."
+msgstr "Esta fuente se utiliza para fechas, mensajes informativos,\n"
+"y como la fuente principal para los mensajes entrantes."
+
+msgid "Your buddy image has been offered to the user."
+msgstr "Su imagen ha sido ofrecida al usuario."
+
+msgid "Your buddy image has been sent."
+msgstr "Su imagen se ha mandado."
+
+msgid "Latest News"
+msgstr "Ultimas Noticias"
+
+msgid "Message\n"
+"Font"
+msgstr "Fuente de\n"
+"Mensajes"
+
+msgid "Display\n"
+"Font"
+msgstr "Fuente de\n"
+"Pantalla"
+
+msgid "Check for New Versions and News..."
+msgstr "Buscar Versiones y Noticias Nuevas..."
+
+msgid "Favorite Quote"
+msgstr "Cita Favorita"
+
+msgid "File Server:"
+msgstr "Servidor de Ficheros:"
+
+msgid "From:"
+msgstr "De:"
+
+msgid "Hobbies"
+msgstr "Pasatiempos"
+
+msgid "Identities"
+msgstr "Identidades"
+
+msgid "Invalid Port."
+msgstr "Puerto Inválido."
+
+msgid "Allow users to 'buzz' me"
+msgstr "Otros usuarios pueden mandarme un 'buzz'"
+
+msgid "Apply this font to the buddy list and address book\n"
+"(Disabling requires the program to be restarted.)"
+msgstr "Aplicar esta fuente a la lista de amigos y la libreta de\n"
+"direcciones (Inhabilitarlo requiere el programa ser recomenzado.)"
+
+#: ../src/callbacks.c:738
+msgid ""
+"The following server uses the 'web login'\n"
+"connection method (Java Chat):"
+msgstr ""
+"El servidor siguiente utiliza el método de\n"
+"conexión 'web login' (Charla de JAVA):"
+
+#: ../src/callbacks.c:976
+msgid ""
+"This is an experimental, backup connection method,\n"
+"supporting only chat rooms. This server\n"
+"does not allow you to login as invisible, use conferences\n"
+", change your away status, view webcams, or add/remove\n"
+"buddies on your buddy list. Several other major\n"
+"features may also be unavailable. Continue?"
+msgstr ""
+"Esto es un método de conexión experimental apoyando\n"
+"sólo las salas de charla. Este servidor no le permite unirse\n"
+"sin ser visto, visitar las conferencias, cambiar su mensajes\n" 
+"de ausencia, ver cámaras, o modificar su lista de amigos.\n" 
+"Varias otras cosas también pueden ser no disponibles.\n"
+"¿Desea seguir?"
+
+msgid "Parenting Tips"
+msgstr "Consejos para Padres"
+
+msgid "Diet Tracker"
+msgstr "Monitor de Dieta"
+
+msgid "Pet Tips"
+msgstr "Consejos de Animales Domésticos"
+
+msgid "Ask the Doctor"
+msgstr "Preguntale al Doctor"
+
+msgid "Dummies eTips"
+msgstr "Consejos Técnicos para Pendejos"
+
+msgid "Asthma Watch"
+msgstr "Avisos de asma"
+
+msgid "Word of the Day"
+msgstr "Palabra del Día"
+
+msgid "Gossip"
+msgstr "Chisme"
+
+msgid "Y! Links"
+msgstr "Enlaces de Y!"
+
+msgid "Yahoo News Alerts"
+msgstr "Boletines de Noticias de Yahoo"
+
+msgid "is now immune from auto-muting."
+msgstr "es inmune de ser silenciado automáticamente"
+
+msgid " Do Not Auto-Mute "
+msgstr " No Lo/La Silenciar Automáticamente "
+
+msgid "could not be added to your buddy list."
+msgstr "no podría ser añadida a su lista de amigos."
+
+msgid "could not be removed from your buddy list."
+msgstr "no podría ser quitada de su lista de amigos."
+
+msgid "could not be added to the ignore list."
+msgstr "no podría ser añadida a su lista de usuarios ignorados."
+
+msgid "could not be removed from the ignore list."
+msgstr "no podría ser quitada de su lista de usuarios ignorados."
+
+msgid "Gyach-E received no response from Yahoo's servers."
+msgstr "Gyach-E no recibió respuesta de los servidores de Yahoo."
+
+msgid "Yahoo's servers may be down or malfunctioning. Please try again later."
+msgstr "Los servidores de Yahoo quizás estén indisponibles o fallando. Por favor prueba otra vez más tarde."
+
+msgid "This feature is not available when connected using the WEBCONNECT or YCHT servers."
+msgstr "Esta herramienta no está disponible cuando está conectada usando los servidores WEBCONNECT or YCHT."
+
+msgid "address book contacts loaded"
+msgstr  "contactos cargados"
+
+msgid "You cannot rename or delete the selected buddy group."
+msgstr "Usted no puede renombrar o eliminar al grupo seleccionado."
+
+# UnTRANSLATED
+ 
+msgid "Full Tab Completion List"
+msgstr ""
+
+

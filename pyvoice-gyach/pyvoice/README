@@ -1,0 +1,203 @@
+##############################
+  	pY! Voice Chat README FILE
+##############################
+
+  pY! Voice Chat 
+  
+  Copyright (c) 2003-2004 Erica Andrews
+  PhrozenSmoke [-AT-] yahoo.com
+  http://phpaint.sourceforge.net/pyvoicechat/
+
+  The first Linux client for Yahoo!
+  voice chat.
+
+  Neither pY! Voice Chat nor its author
+  are in anyway endorsed by or 
+  affiliated with Yahoo! (tm) or 
+  DSP Group's TrueSpeech (tm).
+  Yahoo! (tm) is a registered 
+  trademark of Yahoo! 
+  Communications.  TrueSpeech (tm)
+  is a registered trademark of 
+  DSP Group. The TrueSpeech (tm)
+  codec and format are patented 
+  by DSP Group.
+
+
+  This program is distributed free
+  of charge (open source) under the 
+  terms of the GNU General Public 
+  License
+
+
+
+NO TECHNICAL SUPPORT
+	NO Technical Support of ANY kind is provided for this application. You are ON 
+	your own.  Can't get it to run on your system?  Too bad.  However, I will 
+	accept bug reports and language translations.  And, a 'bug report' is NOT 
+	'I can't get it to run...'.   ONLY send 'bug reports' if you can localize the problem 
+	to one of the following:
+		Network communications - UDP/TCP
+		RTP or other network packet handling
+		User interface problems
+		TrueSpeech encoding/decoding problems
+		ESound playback/recording problems
+		Memory leaks
+		Unexplained crashes that occur AFTER the pY! Voice Chat main window has 
+		shown to the screen
+	Errors of the type 'import error: no module named...' are NOT bugs, but problems 
+	with your Python configuration and will be IGNORED if e-mailed to me.  Learn 
+	about Python and installing Python modules properly at http://www.python.org. 
+	They have lots of documentation: READ IT!  DO NOT e-mail me with questions 
+	or problems with your Gtk or PyGtk configuration.
+
+
+
+
+CONTENTS
+	pyvoice.py  -  Network, RTP, and sound functionality library.
+	pyvoiceui.py  -  Graphical user interface module.  (for Gtk-2/PyGtk-2)
+	pyvoiceui-Gtk1.py  -  Graphical user interface module.  (for Gtk-1/PyGtk-1 - UNMAINTAINED)
+	PyTSP -  library for reading/writing TrueSpeech sound data
+	PyESD (embedded in PyTSP) - library for playing/recoring on ESound  (Enlightenment 
+	Sound Daemon)
+
+MINIMUM SYSTEM REQUIREMENTS
+	1. A COMPILED version of PyTSP (with the _pytsp.so library)
+	2. PyGtk-2 (version 1.99/2.00) or PyGtk-1 (version 0.6.9), the default setup is to use PyGtk-2.  Please be aware that while, at last check, the PyGtk-1 interface was working, it is no longer maintained.  The PyGtk-2/Gtk-2 interface is 'pyvoiceui.py', and the old PyGtk-1 interface
+is 'pyvoiceui-Gtk1.py'
+	3. Python version 2.2 or better
+	4. ESound (Enlightenment Sound Daemon) version 0.2.28 or better, needed by PyTSP. 
+	    Other sound systems such as OSS, Alsa, SDL, and YIFF are NOT supported.
+	    I do not use them. I think they suck.  I use ESound almost exclusively. I dislike Alsa 
+	    and OSS and have no intention of adding support for sound systems I don't use.
+	    So, either get ESound (most Gnome and IceWM users already have it), or adapt 
+	    the PyTSP code to use the sound system you want, or move on.  DO NOT e-mail 
+	    me requesting that I add support for other sound systems: I wrote this application 
+	    for ME, so you can re-write it for YOU.
+	5. A pY! Voice Chat-aware Yahoo chat client  (currently, the only one I 
+	    know of is my own GYach Enhanced client.)
+	6. The DSP Group TrueSpeech codecs  (tssoft32.acm, tsd32.dll) placed in the appropriate 
+	    location, normal /usr/lib/win32, or /usr/local/lib/win32 - needed by PyTSP.  NOTE:
+	    if these codecs are NOT in the right location, PyTSP (and pY! Voice Chat) will 
+	    crash or fail to function properly.
+
+ADDITIONAL SYSTEM REQUIREMENTS
+	If you need to recompile PyTSP for your system, execute './Build' in the pytsp 
+	sub-directory.  You should see the 'README.pytsp' and 'README.pyesd' files 
+	for more information on the system requirements for compiling the PyTSP library.
+
+RUNNING pY! Voice Chat
+	To run pY! Voice Chat, run the 'pyvoice' executable or the 'pyvoiceui.py' executable.
+	If you get an error like "import error: no module named gtk...', (or GDK, or GTK, etc.) 
+	it means you do NOT have PyGtk properly installed: This is YOUR problem, so do NOT 
+	e-mail me about this.  NOTE: You should only run pY! Voice Chat after you have 
+	join a Yahoo! chat room with voice chat enabled using a pY! Voice Chat-aware client 
+	like GYach Enhanced. 
+
+KNOWN BUGS AND LIMITATIONS
+	Recording and sending sound to the Yahoo voice chat servers does work; however, 
+	many people have reported the mic sounds like it 'breaks up' alot.  I'm working on this.
+	Voice chat for PMs and private conference rooms (not regular chat rooms) is still 
+	considered very experimental.  When quitting pY! Voice Chat, you may see 'Gtk Critical' 
+	warnings on the console - these are harmless, but they are ugly.  I'm working on it.
+
+I MAKE no guarantee that I will make future releases of pY! Voice Chat.  It's very possible that this may be the first, last and only release of pY! Voice Chat, as my intentions are to be generous enough to show people HOW to connect to Yahoo's voice chat servers, but after that, I plan on just maintaining my personal copy of the code.  Everybody else may very well be on their own.  (This means, if Yahoo changes the protocol and you can't connect anymore - FIX your code instead of whining to me, I'll only be maintaining my own copy.) However, I will definitely be willing to release language translations anyone wishes to contribute.
+
+TRANSLATIONS
+	Currently pY! Voice Chat supports 2 languages: English and Spanish.  If you are 
+	familiar with gettext, you may make new language translations using the 'pyvoice.pot' 
+	translation catalogue in the './locale/' sub-directory.  Your translated catalogue 
+	should be placed in the appropriate sub-directory of the './locale/' directory. The 
+	'appropriate sub-directory' is the lower-case of the first 2 letters of your locale name: 
+	Examples:  
+		locale: 'es_MX' ->  directory: 'es'
+		locale: 'ru_RU' ->  directory: 'ru'
+	If you wish to have your language translation added to pY! Voice Chat, send your 
+	UNCOMPILED 'pyvoice.po' file in a .gz, .zip, .tar.gz, or .tar.bz2 file to:
+		PhrozenSmoke [-AT-] yahoo.com
+	Also, corrections to the Spanish translation are welcomed.
+
+
+PyTSP and PyESD are:
+	  Copyright (c) 2003-2004 Erica Andrews
+	  PhrozenSmoke [-AT-] yahoo.com
+	    http://phpaint.sourceforge.net/pyvoicechat/
+	  License: GNU General Public License
+
+See the 'README.pytsp' file in the 'pytsp' sub-directory for more information on PyTSP.
+See the 'README.pyesd' file in the 'pytsp' sub-directory for more information on PyESD.
+
+
+
+FREQUENTLY ASKED QUESTIONS (Well...potentially):
+
+	Where can I get the TrueSpeech codecs?
+		A copy of the codecs should be included with the PyTSP library included
+		with pY! Voice Chat.  However, you can grab them off most Windows 
+		computers in the C:\windows or C:\windows\system directories.  Also,
+		you can check the pY! Voice Chat web site
+		(http://phpaint.sourceforge.net/pyvoicechat/) and the MPlayer 
+		web site (http://www.mplayerhq.hu).
+
+	Why TrueSpeech?
+		Because it's what Yahoo uses to send/receive voice chat communications.
+
+	Why ESound? (and not Alsa, SDL, OSS, YIFF, etc....)
+		Because I use ESound and I wrote this application to please ME, not 
+		the rest of the world.
+
+	Where can I get ESound?
+		Try the FTP site for the 'gnome.org' site if you need the source for ESound 
+		(aka 'esd').
+
+	Where can I get PyGtk?
+		Google it!  I think it's on the 'gnome.org' site for the source package, and 
+		www.rpmfind.net for binary packages.
+
+	Where can I get Gtk+?
+		www.gtk.org
+
+	Where can I get 'GYach Enhanced'?
+		  http://phpaint.sourceforge.net/pyvoicechat/
+
+	Can I use other Yahoo chat clients with pY! Voice Chat?
+		Sure, if you re-write them to work with pY! Voice Chat?
+
+	Why isn't pY! Voice Chat written in C/C++?
+		I think both languages suck and are past their prime, and I use as little of both 
+		possible.  Their error-catching sucks, leading to nasty crashes, since both 
+		seem to assume that a HUMAN programmer knows how to write a program 
+		with NO human errors (impossible).  I'm not among the arrogant who believe 
+		any human can write a bug-free program, so I prefer Python because of its
+		strong error-catching capabilities.  Also, Python programs crash MUCH less 
+		than C/C++.   Also, in Python I can do in 5 lines what it may take 
+		15-20 lines to do in C/C++.  Those languages are too inefficiently structurally 
+		for what I was trying to do:  Get a voice chat app up and running FAST.  If 
+		I had my way, the whole setup would be re-written in Python, from GYach 
+		Enhanced right down to PyESD and PyTSP.
+
+	But C/C++ is FAST!
+		So is death due to a snapped bungee cord: That doesn't make the 
+		idea a FAVORABLE one.
+
+	Any plans to re-write pY! Voice Chat in another programming language?
+		Such as C, C++, Perl?   NOPE.
+
+	Any plans to port pY! Voice Chat to PyGtk for Gtk+2?
+		YUP.  When I get good and damn ready.  8-)  Honestly, I would like 
+		both GYach Enhanced and pY! Voice Chat to be using the same GUI, so 
+		pY! Voice Chat will be ported to PyGtk-2/Gtk-2 when I feel the 
+		FUNCTIONALITY of pY! Voice Chat is more stable and I find the time 
+		to upgrade from PyGtk-1 to PyGtk-2 (whenever that will be).
+
+
+
+A CHEAP PLUG
+	My other software sites:
+		IceWM Control Panel:  http://icesoundmanager.sourceforge.net
+		Pythonol:  http://pythonol.sourceforge.net
+		GAnim8:  http://ganim8.sourceforge.net
+		PHPaint:  http://phpaint.sourceforge.net  (unmaintained)
+
+

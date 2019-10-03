@@ -1,0 +1,67 @@
+#######################################
+#  pY! Voice Chat - pyvoice.py library
+#  
+#  Copyright (c) 2003-2004 Erica Andrews
+#  PhrozenSmoke [-AT-] yahoo.com
+#  http://phpaint.sourceforge.net/pyvoicechat/
+#
+#  The first Linux client for Yahoo!
+#  voice chat.
+#
+#  Network, RTP, and sound functionality
+#  library.
+#  
+#  Neither pY! Voice Chat nor its author
+#  are in anyway endorsed by or 
+#  affiliated with Yahoo! (tm) or 
+#  DSP Group's TrueSpeech (tm).
+#  Yahoo! (tm) is a registered 
+#  trademark of Yahoo! 
+#  Communications.  TrueSpeech (tm)
+#  is a registered trademark of 
+#  DSP Group. The TrueSpeech (tm)
+#  codec and format are patented 
+#  by DSP Group.
+#  
+#  This program is distributed free
+#  of charge (open source) under the 
+#  terms of the GNU General Public 
+#  License
+#######################################
+
+#######################################
+#  pY! Voice Chat - pyvoiceui.py user interface module
+#  
+#  Copyright (c) 2003-2004 Erica Andrews
+#  PhrozenSmoke [-AT-] yahoo.com
+#  http://phpaint.sourceforge.net/pyvoicechat/
+#
+#  The first Linux client for Yahoo!
+#  voice chat.
+#
+#  Graphical user interface module.
+#  A frontend to the pyvoice.py library.
+#  User interface: Gtk+ via PyGtk.
+#  Neither Gnome nor PyGnome is 
+#  required.
+#  
+#  Neither pY! Voice Chat nor its author
+#  are in anyway endorsed by or 
+#  affiliated with Yahoo! (tm) or 
+#  DSP Group's TrueSpeech (tm).
+#  Yahoo! (tm) is a registered 
+#  trademark of Yahoo! 
+#  Communications.  TrueSpeech (tm)
+#  is a registered trademark of 
+#  DSP Group. The TrueSpeech (tm)
+#  codec and format are patented 
+#  by DSP Group.
+#  
+#  This program is distributed free
+#  of charge (open source) under the 
+#  terms of the GNU General Public 
+#  License
+#######################################
+
+
+

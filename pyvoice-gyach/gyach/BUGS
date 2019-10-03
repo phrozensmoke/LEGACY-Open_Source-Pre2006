@@ -1,0 +1,16 @@
+Known Bugs
+----------
+
+* Webcam support is VERY new (it's just been added); I haven't seen any nasty crashes, but that doesn't mean it isn't possible.
+
+* The fader support is still considered somewhat experimental, you may occasionally see 'escape character' code on the chat screen or missing characters or 'empty' lines.  Fader code is beginning to stabilize, and 
+kinks are worked out as I have time.
+
+* My Yahoo! content support seems fairly stable, with one known problem: The margins on some of the rendered HTML are too narrow
+
+*  Font configuration is hard-coded in fonts.c and fonts.h.  If you don't have the fonts installed, you will get Gtk Warnings.  Either install all of the fonts, rewrite fonts.c to suit you, or turn 'use other users fonts' off.
+
+*  Utf-8 warnings happen from time to time when running the Gtk-2 version, and a 'Utf-8' warning is often shown on the console when opening the 'Setup' window.
+
+* Py Voice Chat:  Leaving a room with voice chat (with Py Voice Chat running and connected) and going to a room with NO voice chat seems to continue allowing you to 'listen' in on the room with voice chat you just left - allowing for eavesdropping  *sneaky smile* - not really a bug, more like a 'feature'.
+

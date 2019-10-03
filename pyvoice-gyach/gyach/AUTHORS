@@ -1,0 +1,84 @@
+GYACH EHANCHED
+
+Gyach Enhanced is a Yahoo! chat program with a GTK+ interface.  It is a highly ENHANCED version of the original GYach (an unofficial 'fork').  
+
+GYach Enhanced is written by:
+	Erica Andrews   (PhrozenSmoke ['at] yahoo.com)
+	Copyright (c)  2003-2004  Erica Andrews
+
+
+
+
+____________________________________________
+ORIGINAL GYACH
+
+Gyach is a Yahoo! chat program with a GTK+ interface.  It was written and
+is maintained by:
+
+	Chris Pinkham  <cpinkham@corp.infi.net>  <buy_more_pepsi@yahoo.com>
+
+	Gyach is Copyright 2000-2002 by Chris Pinkham.
+
+
+
+------------------------------------------------------------------------------
+gtkyahoo
+
+A lot of information and a few display functions were also gleaned from the
+GTKyahoo yahoo messenger/pager program by Nathan Neulinger <nneul@umr.edu>.
+GTKyahoo is available at: http://www.umr.edu/~nneul/
+GTKyahoo code is Copyright by Nathan Neulinger and released under the GPL.
+
+The status icons are from GTKyahoo as is yahoolib.h.  I plan on enhancing
+yahoolib to support yahoo chat and returning the changes back to the yahoolib
+author in the future.
+
+The src/yahoolib.h and src/yahoolib.c files are also from the GTKyahoo
+package, the license and copyright for those files is contained within them.
+
+------------------------------------------------------------------------------
+parsecfg
+
+The parsecfg source for the config file parser is Copyright Yuuki Ninomiya
+and is available under the GPL.  Here is his contact information:
+
+	Email:           gm@smn.enjoy.ne.jp
+    Lastest Version: http://www.enjoy.ne.jp/~gm/program/parsecfg/
+	HomePage       : http://www.enjoy.ne.jp/~gm/index_en.html
+
+------------------------------------------------------------------------------
+md5 code
+
+The md5 code for YMSG authentication comes by way of curphoo by way of
+gaim.  Curphoo is a text-mode python Yahoo! chat client.  Gaim is a
+yahoo/aol/etc. messenger client.  All the code is covered by the GPL
+and remains so and copyright by the original authors.  The included
+files are: yahoo_md5.c, yahoo_md5.h, yahoo_crypt.c, md5.c, and md5.h.
+
+	HomePage (gaim)   : http://gaim.sourceforge.net/
+	HomePage (curphoo): http://www.waduck.com/~curphoo/
+
+------------------------------------------------------------------------------
+yahmini
+
+Gyach is based upon a CLI program called yahmini which was written by
+David J. Binette (MasterDeep) and ported to *nix by ronin_aurora_eagle.
+The yahmini code has been extensively modified and will hopefully be broken
+out into a library of routines at some point in time.  Yahmini
+is Copyright by David J. Binette.  Yahmini is available at:
+
+	http://www.stas.net/deep/files/yahmini/
+
+	"Yahmini, with PMs, Invite, Join, Goto, Think, Dice, Colors (with
+		ansi.sys) and more, all in 11776 bytes
+		http://www.stas.net/deep/files/yahmini/"...  David J. Binnette
+
+David has granted permission for the use of yahmini source code within this
+program but he still retains copyright on portions he wrote.
+
+NOTE: As of Gyach v0.8.0, virtually all yahmini code has been replaced since
+Gyach has been converted to work with Yahoo's new YMSG protocol instead of
+the old YCHT protocol.
+
+NOTE2: All yahmini code has now been eliminated from Gyach.
+

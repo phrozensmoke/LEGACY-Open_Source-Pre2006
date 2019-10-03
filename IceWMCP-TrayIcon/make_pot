@@ -1,0 +1,1 @@
+pygettext -o icewmcp-trayicon.pot trayicon.c

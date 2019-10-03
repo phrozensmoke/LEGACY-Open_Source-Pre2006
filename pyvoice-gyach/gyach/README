@@ -1,0 +1,97 @@
+
+
+
+
+THIS IS THE README FILE FROM THE ORIGINAL GYACH, 
+NOT GYACH ENHANCED.  I'VE KEPT IT HERE IN CASE 
+ANYBODY FINDS THIS INFORMATION USEFUL.  SOME OF IT
+APPLIES TO GYACH ENHANCED, SOME DOES NOT. FOR 
+INFORMATION ON GYACH ENHANCED, SEE THE 
+'PHROZEN_SMOKE_README.txt'.
+
+
+
+
+
+Gyach is a Yahoo! chat program with a GTK+ interface.  It was originally
+based upon the yahmini program (see AUTHORS file).  All yahmini code
+has since been replaced.  Gyach was written for a few reasons:
+
+    1 - I run Linux at home and I couldn't stand the yahoo java interface.
+    2 - I didn't want to run qt unless absolutely necessary.
+    3 - I wanted to occasionally have something a little more fancy than
+	the text-based interface that a few others are working on.
+    4 - I'm impatient and didn't want to wait for someone else to write a
+	simple GTK-based interface.
+
+So, I got the source to yahmini and created a GTK+ interface for it using
+Glade.  Functionality was limited in the early stages, but I continue to
+add new features.  Yahmini code has now been totally replaced as well as
+conversion from Yahoo's older YCHT protocol to their newer YMSG protocol.
+
+Current features:
+
+    * Auto-updated userlist of chatters in the current room.
+    * The following commands are supported:
+	/away   /follow     /alias     /invite     /mute
+	/goto   /ignore     /unalias   /tell       /unmute
+	/join   /unignore   /cls       /roll       /history
+	/quit   /think      /clear     /autoaway   /exec
+	/tell   /invite     /profile   /regex      /friends
+	/friend /execlocal
+    * Supports Aliases (with different emote/alias for everyone or individual).
+    * Send/receive PMs.
+    * PM chat in separate windows.
+    * Editable list of favorite rooms.
+    * Supports list of usernames to use to login.
+	* Supports connect/disconnect/auto-reconnect.
+
+A sample gyachrc file is included in this directory.  You can copy that
+to ~/.gyach/gyachrc. A generic aliases.dat file will be created for you
+when you first run Gyach.
+
+Also included are sample ignore lists and regex files (sample.ignore.list
+and sample.ignore.regex respectively).
+
+To see a list of items planned or currently being worked on, look at the
+TODO file in this directory.
+
+------------------------------------------------------------------------------
+Graphical "Emoticons" aka Smileys
+
+As of version 0.9.0, Gyach supports graphical emoticons (aka smileys) if you
+compile Gyach with Gtk v2.x support.  Gyach v0.9.0 and up supports
+Gtk v2 and uses the GtkTextView widget instead of the older GtkText widget.
+GtkTextView supports inline images so smileys and avatars can be displayed
+right along with the text.
+
+As of version 0.9.1, png emoticon/smileys are included with Gyach and are
+installed by default in /usr/local/share/gyach/smileys.  You can override
+the built-in smileys by putting your own files in ~/.yahoorc/gyach/smileys.
+
+The emoticon/smiley files should be located in ~/.yahoorc/gyach/smileys (or
+./smileys/ for cygwin users) and should be named as indicated above (01.png,
+02.png, etc.).  Once you place the files in Gyach and turn on the
+"Show Emoticons" option in the setup screen, you should start seeing graphical
+smileys displayed instead of the :) characters.  Gyach also has
+a window to make sending graphical smileys easier.  You can get to it by
+clicking on the "colored" button on the toolbar.
+------------------------------------------------------------------------------
+
+Gyach has been tested on:
+
+	RedHat v5.x, v6.x, v7.x, v8.x
+	SuSE v6.4 & v7.0
+	Mandrake v7.x, v8.x, v9.x
+	DragonLinux v2.1
+	Debian 2.x, 3.x
+	Gentoo Linux 1.2, 1.4
+	FreeBSD 4.1.1   (see README.FreeBSD)
+	NetBSD v?   (see README.NetBSD)
+	OpenBSD v?
+	Solaris 8 for Intel/x86 (gcc & gtk v1.2.8)
+	Solaris 9 for SPARC w/ (gcc, gtk v1.2.10, & make installed)
+	Mac OS X   (see README.MacOSX)
+	Windows 98, NT, 2000 under CygWin (see README.Win32 for requirements)
+
+

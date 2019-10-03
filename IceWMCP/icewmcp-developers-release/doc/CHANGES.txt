@@ -1,0 +1,263 @@
+CHANGE LOG:  IceWM Control Panel
+
+NOTE:  This is a partial ChangeLog containing the 
+latest changes in this release only.  For a FULL  history 
+of changes through all versions, visit:
+
+http://icesoundmanager.sourceforge.net/changelog.php
+______________________________________________
+______________________________________________
+
+
+VERSION 2.4 - 5/27/2003 - 6/22/2003
+
+The focus of this release is translation additions, locale improvements, bug fixes, and IceWM 1.2.8 compatibility.
+
+
+SUMMARY OF CHANGES:
+	Full Traditional Chinese translation added (zh_TW); Big thanks to Chao-Hsiung Liao  (pesder.liao['at']msa.hinet.net)
+	Partial Finnish translation added (IceMe only); Big thanks to Petteri Aimonen (Pyrmiö Group) (jpa['at']pyrmio.org).
+	Lots of Russian language translation updates; Big thanks to Vasiliy Leushin (basileus['at']newmail.ru)
+	A full set of Russian help files have been added; Big thanks to Roman Shiryaev  (mih_val['at']mail.ru) and Vasiliy Leushin (basileus['at']newmail.ru)
+	PhrozenClock is now more accomodating of diverse systems and any critical start-up errors.  There is a major bug-fix for PhrozenClock.
+	The following tools can now be run as 'root' by selecting 'Run As Root' on the 'File' menu: IceMe, IcePref2, IceWMCPWinOptions, IceWMCPKeyboard, IceWMCPMouse,  IceWMCPWallpaper, IceSoundManager
+	Several character display improvements when running under locales that need special fontsets. (Fixed Russian locale display bug on Mandrake - hopefully.)
+	IcePref2 is now completely compatible with IceWM 1.2.8.
+	File selection dialog boxes are now more keyboard-friendly.
+
+
+IMPORTANT WARNINGS ABOUT THIS RELEASE:
+	WARNING: Users of IceWM 1.2.7 using the latest version of IcePref2 may find their "Windows" keys suddenly stop working after using IcePref2.  This means that you need to UPGRADE to IceWM 1.2.8, or downgrade to IceWMCP 2.3 if the 'Windows' key-binding is important to you.  This is due to a change in IceWM.
+	WARNING: For some unknown reason, the latest version of IceWM (1.2.8) has eliminated the 'KeySysRun' key-binding option.   This is bad since it eliminates the key binding for the 'Run...' command.  Work-around: Run IceWMCP Keyboard, click 'Shortcut Keys' and create a key binding for the 'Run...' command if you would like.  This is due to a change in IceWM.
+
+
+
+IceWMCP         (IceWMCP.py):
+	- Version is now 2.4
+	- Traditional Chinese gettext translation added (locale zh_TW); Big thanks to Chao-Hsiung Liao  (pesder.liao['at']msa.hinet.net)
+	- Russian help file added: Big thanks to Vasiliy Leushin (basileus['at']newmail.ru)
+	- Russian translation updates; Big thanks to Vasiliy Leushin (basileus['at']newmail.ru)
+	- Full set of Traditional Chinese .cpl control panel applets added (locale zh_TW); Big thanks to Chao-Hsiung Liao  (pesder.liao['at']msa.hinet.net)
+	- Locale/translation cleanups: removed duplicate and obsolete msgid's from .pot file, removed duplicate and obsolete msgid's from .po/.mo translation catalogs
+	- Russian locale bug fix:  Applets now load an appropriate 'cronyx' font when running under the Russian locale, instead of calling a font 'wildcard' load of any random Helvetica font; This should help fix a bug reported by Vasya (Vasiliy Leushin [basileus['at']newmail.ru])  where some Mandrake users had trouble displaying just the Russian applets while everything else in IceWMCP showed up fine
+	- Finnish support/improvement: IceWMCP now loads an appropriate 'iso8859-15' Helvetica font when running under the Finnish locale, instead of calling a font 'wildcard' load of any random Helvetica font;  This should aid in proper character rendering for control panel applets when running under the Finnish locale.  (Though Finnish translation for the control panel itself is not yet available.)
+	- Chinese (Traditional) support:  IceWM now loads appropriate Big-5 fonts when running under the zh_TW Chinese locale.  This should aid in proper character rendering for control panel applets when running under the Chinese locale. 
+	- Special fonts for non-English locales will not be set if no applets for that locale are available (since IceWMCP then defaults to loading the English lang. applets which may not be visible using a non-English font)
+
+
+
+IceWMCP-Common        (icewmcp_common.py):
+	- Version is now 2.4
+	- Updated the common 'credits' window to include credits for Petteri Aimonen for the Finnish translation of IceMe
+	- Updated the common 'credits' window to include credits for Chao-Hsiung Liao for the Traditional Chinese translation
+	- Methods displayHelp and commonAbout now return the window shown (only useful to developers), but is now needed by PhrozenClock when a start-up critical error occurs (for showing a help file then quitting)
+	- Added a development feature (mostly useful for developers), but may also be useful for regular users: variable FORCE_LOCALE, to allow IceWMCP programs to be forced to run in a certain language/locale without having to change the LANG/LANGUAGE environment variables
+	-  Added common translatable string 'RUN_AS_ROOT' for use on menus of programs that have 'run-as-root' functionality.
+	- Added 'Run As Root' to translation catalog icewmcp.pot, with a translation made for the Spanish icewmcp.mo catalog.
+	- Added common/shared file selection functionality, with new methods and variables: ICEWMCP_FILE_WIN, ICEWMCP_LAST_FILE, FILE_SELECTOR_TITLE, CLOSE_FILE_SELECTOR, GET_SELECTED_FILE, SET_SELECTED_FILE, SELECT_A_FILE ; Almost all file selection dialogs throughout IceWMCP programs will be migrating to the new 'shared' file selection dialog, for consistent look, feel, and functionality (and to ensure all file selection dialogs are 'keyboard friendly' and close when 'Esc' is pressed.) - also reduces repetititive coding in of file selection functionality, and aids in the new functionality in many programs allowing you to open random configuration files
+	- Added shared locale fonts/fontsets dictionary 'font_lang_dict', so applications that need to load fonts in non-English locales requiring special fonts will load appropriate fonts instead of 'wildcard' fonts which may corrupt the character display  (greatly helps the Russian and Trad. Chinese translations)
+	- Development touch up: Moved 'rundlg' method and 'import IceWMCPRun' back to the very end of the common library where it belongs
+
+
+IceSoundManager        (icesound.py):
+	- Version is now 2.4
+	- Traditional Chinese translation added (locale zh_TW); Big thanks to Chao-Hsiung Liao  (pesder.liao['at']msa.hinet.net)
+	- Russian help file added: Big thanks to Vasiliy Leushin (basileus['at']newmail.ru)
+	- Russian translation updates; Big thanks to Vasiliy Leushin (basileus['at']newmail.ru)
+	- Added new 'Run As Root' functionality; useful for system admins wanting to configure system-wide sound events in the global IceWM sounds directory; added new method 'run_as_root'
+	- Added 'File -> Run As Root' to the menu
+	- A few Spanish locale corrections
+	- Updates and corrections to the Spanish and English help files and docs; added help sections for the new 'Run As Root' feature
+	- 'showStatus' method now uses 'gtk.timeout'
+
+
+IceWMCP System and Hardware        (IceWMCPSystem.py):
+	- Version is now 1.2-beta
+	- Traditional Chinese translation added (locale zh_TW); Big thanks to Chao-Hsiung Liao  (pesder.liao['at']msa.hinet.net)
+	- Russian language support is now available: Big thanks to Vasiliy Leushin (basileus['at']newmail.ru) for contributing the Russian language translation
+	- Locale support improvement: Improved character display for non-English locales that require special fonts by loading fonts/fontsets appropriate for the locale (when necessary), instead of loading 'wildcard' fonts which may corrupt the character display  (greatly helps the Russian and Trad. Chinese translations)
+
+
+
+IceMe  (IceMe.py):
+	- Version is now 2.4
+	- Traditional Chinese translation added (locale zh_TW); Big thanks to Chao-Hsiung Liao  (pesder.liao['at']msa.hinet.net) for the contribution
+	- Finnish language translation added; Big thanks to Petteri Aimonen (Pyrmiö Group) (jpa['at']pyrmio.org)
+	- Russian help file added: Big thanks to Roman Shiryaev  (mih_val['at']mail.ru)
+	- Russian translation updates; Big thanks to Vasiliy Leushin (basileus['at']newmail.ru) 
+	- Russian locale bug fix: IceMe now loads an appropriate 'cronyx' font when running under the Russian locale, instead of calling a font 'wildcard' load of any random Helvetica font; This should help fix a bug reported by Vasya (Vasiliy Leushin [basileus['at']newmail.ru])  where some Mandrake users had trouble displaying Russian characters for some of the items at the bottom of the IceMe menu ('Toolbar', 'Clipboard', etc.)
+	- Finnish locale improvement: IceMe now loads an appropriate 'iso8859-15' Helvetica font when running under the Finnish locale, instead of calling a font 'wildcard' load of any random Helvetica font;  This should aid in proper character rendering for some of the items at the bottom of the IceMe menu ('Toolbar', 'Clipboard', etc.)
+	- Added "Run As Root" functionality with new methods in IceMe.py 'initCustomDir' (arbitrary loading of directories) and 'run_as_root':  This should be useful for system admins needing to edit menu, programs, and toolbar files for IceWM in the system configuration directory
+	- Added 'File -> Run As Root' to the menu, for root functionality for system admins
+	- Changed command line options '--ignore-home' to '--run-as-root'  (though command line options aren't really used, no need - but this was done for consistency)
+	- Added support for opening/editing ANY IceWM 'menu' file in any directory on the system (may require root privileges.):  With new methods in IceMe.py  'openCustomDir' and 'openCustomDirCB' - Useful for 'root' and other priviledged users, or users with access to more than one IceWM 'menu' file...or when the menu file that needs to be edited is neither in the 'home' directory or in the 'system' IceWM directory, but somewhere else on the system.
+	- Added 'File -> Open IceWM Menu File' to the menu, for functionality supporting opening/editing random IceWM menu files in random directories
+	- Added keyboard shortcut 'Ctrl+0', for functionality supporting opening/editing random IceWM menu files in random directories 
+	- Added translatable string 'Open IceWM Menu File' to the iceme.pot gettext catalog.
+	- Added Spanish translation for 'Open IceWM Menu File' to the Spanish IceMe translation catalog
+	- Updated Spanish and English language help files to include new info on the 'Run As Root' and 'Open IceWM Menu File' features
+	- Updated the copyright information that appears in the 'About' box.
+	- Changed methods "on_command_button_clicked" and "file_ok_close" to use new common file selection functionality in 'icewmcp_common' instead for uniform file selection, look, feel, and behavior
+	- Code cleanup: removed method "file_cancel" (no longer needed)
+	- Keyboard support improvement: All file selection dialog boxes can now be closed by simply pressing 'Esc'
+	- Added variable 'i_am_root' and rewrote method 'icewmcpKeyEdit' for "run as root" support; so the IceWMCPKeyEdit tool inside IceMe loads the appropriate 'keys' files based on whether IceMe is running as 'root' or not.
+
+
+IcePref2       (icepref.py):
+	- Version is now 3.0
+	- Traditional Chinese translation added (locale zh_TW); Big thanks to Chao-Hsiung Liao  (pesder.liao['at']msa.hinet.net)
+	- Russian help file added: Big thanks to Roman Shiryaev  (mih_val['at']mail.ru)
+	- Russian translation updates; Big thanks to Vasiliy Leushin (basileus['at']newmail.ru) 
+	- Locale/translation cleanups: removed duplicate and obsolete msgid's from .pot file, removed duplicate and obsolete msgid's from .po/.mo translation catalogs
+	- Full compatibility with IceWM 1.2.8 (just released)
+	- Added support for new IceWM 1.2.8 preferences option 'EnableAddressBar' in the 'AddressBar' section
+	- Removed (temporarily??) the 'KeySysRun' option from the 'Key Bindings' section since IceWM 1.2.8 seems to no longer support the option and considers it a 'bad option'.  It is  bad that IceWM has removed the 'KeySysRun' option since it eliminates the key binding for the 'Run...' command.  Work-around: Run IceWMCP Keyboard, click 'Shortcut Keys' and create a key binding for the 'Run...' command if you would like. 
+	- No longer supporting both the old and new "Windows" key options (ModMetaIsCtrlAlt/ModSuperIsCtrlAlt).  Converted completely over to the new official Windows key option name 'ModSuperIsCtrlAlt' as of IceWM 1.2.8.  The old key for 'ModMetaIsCtrlAlt' in IceWM 1.2.7 and before is no longer supported.  For IceWM 1.2.8 users, this will eliminate the console warning about the 'deprecated option' when starting IceWM.  WARNING: Users of IceWM 1.2.7 using the latest version of IcePref2 may find their "Windows" keys suddenly stop working after using IcePref2 - this means that you need to UPGRADE to IceWM 1.2.8, or downgrade to IceWMCP 2.3 if the 'Windows' key-binding is important to you.
+	- 2 additions to the IcePref2 gettext foreign language support catalog; 2 additions to Spanish translations catalog; 1 addition to the Russian translations catalog
+	- Minor documentation updates (nothing major)
+	- Changed methods "ok" and "select"  in the 'File' class to use new common file selection functionality in 'icewmcp_common' instead for uniform file selection, look, feel, and behavior
+	- Keyboard support improvement: All file selection dialog boxes can now be closed by simply pressing 'Esc'
+	- Added "Run As Root" functionality, useful for people with 'root' access such as sys admins: added new methods 'run_as_root' and "run_as_root_cb' to the 'Application' class; added 'File -> Run As Root' to the menu
+	- Keyboard shortcut change: Change the keyboard shortcut combo for 'File -> Reload Preferences File' from Ctrl+O to Ctrl+P  (to accomodate new "open file" functionality)
+	- Added new functionality for opening ANY 'preferences' file anywhere on the system, with new methods 'open_preference_file' and 'open_preference_file_cb' in the 'Application' class.
+	- Added 'File -> Open IceWM Preferences File...' to the menu
+	- New keyboard shortcut assigned:  Ctrl+O runs 'File -> Open IceWM Preferences File...'
+	- Updated Spanish and English language help files to include new info on the 'Run As Root' and 'Open IceWM Preferences File' features
+	- A few Spanish locale corrections
+
+
+IcePref2-TD            (icepref_td.py):
+	- Version is now 2.4
+	- Traditional Chinese translation added (locale zh_TW); Big thanks to Chao-Hsiung Liao  (pesder.liao['at']msa.hinet.net)
+	- Russian help file added: Big thanks to Roman Shiryaev  (mih_val['at']mail.ru)
+	- Russian translation updates; Big thanks to Vasiliy Leushin (basileus['at']newmail.ru) 
+	- Spanish translation improvements (added a couple of missing translations)
+	- Locale/translation cleanups: removed duplicate and obsolete msgid's from .pot file, removed duplicate and obsolete msgid's from .po/.mo translation catalogs
+	- Code Cleanup: Removed method "file_cancel" from class Application (no longer needed)
+	- Changed methods "ok" and "select"  in the 'File' class to use new common file selection functionality in 'icewmcp_common' instead for uniform file selection, look, feel, and behavior
+	- Changed method "ok"   in the 'ImageWidget' class to use new common file selection functionality in 'icewmcp_common' instead for uniform file selection, look, feel, and behavior
+	- Changed methods "select_a_file", "newThemeFileSetCB", and "openThemeCB"  in the 'Application' class to use new common file selection functionality in 'icewmcp_common' instead for uniform file selection, look, feel, and behavior
+	- Keyboard support improvement: All file selection dialog boxes can now be closed by simply pressing 'Esc'
+
+
+IceWMCP-Keyboard        (IceWMCPKeyboard.py):
+	- Version is now 2.4
+	- Traditional Chinese translation added (locale zh_TW); Big thanks to Chao-Hsiung Liao  (pesder.liao['at']msa.hinet.net)
+	- Russian help file added: Big thanks to Vasiliy Leushin (basileus['at']newmail.ru)
+	- Russian translation updates; Big thanks to Vasiliy Leushin (basileus['at']newmail.ru) 
+	- Removed (temporarily??) the 'KeySysRun' option from the 'IceWM Keys' section since IceWM 1.2.8 seems to no longer support the option and considers it a 'bad option'.  It is  bad that IceWM has removed the 'KeySysRun' option since it eliminates the key binding for the 'Run...' command.  Work-around: Click the 'Shortcut Keys' tab and create a key binding for the 'Run...' command if you would like. 
+	- In 'keypanel' class (IceWMCPKeyEdit): Changed methods "selectfile" and "fileok" to use new common file selection functionality in 'icewmcp_common' instead for uniform file selection, look, feel, and behavior
+	- In 'keypanel' class (IceWMCPKeyEdit): Code cleanup: removed method "filecancel" (no longer needed)
+	- Keyboard support improvement: All file selection dialog boxes can now be closed by simply pressing 'Esc'
+	- Added "Run As Root" functionality, useful for people with 'root' access such as sys admins: added new method 'run_as_root' to 'keywin' class'; added 'run_as_root' method to the 'keypanel' (IceWMCPKeyEdit) class ; added 'File -> Run As Root' to the menu in the 'keywin' class.  NOTE: Since setting the keyboard speed, bell, and repeat rate uses 'xset', that portion still remains per-user instead of 'system wide'; however, running as 'root' allows editing of 'system wide'  IceWM key bindings and shortcut keys
+	- Updated Spanish and English language help files to include new info on the 'Run As Root'  feature
+	- Minor changes to the '__init__' and 'loadUp' methods for IceMe compatibility and 'run as root' support
+
+
+PhrozenClock  (phrozenclock.py):
+	- Version is now 2.4
+	- Russian translation updates; Big thanks to Vasiliy Leushin (basileus['at']newmail.ru) 
+	- Traditional Chinese translation added (locale zh_TW); Big thanks to Chao-Hsiung Liao  (pesder.liao['at']msa.hinet.net)
+	- Russian help file added: Big thanks to Roman Shiryaev  (mih_val['at']mail.ru)
+	- Added support for the following environment variables if they exist: TZDEFAULT, TZ, and TZDIR, these environment variables are now checked FIRST before anything else if they are set in the environment  (example: TZDEFAULT=/etc/zoneinfo/localtime, TZDIR=/usr/local/lib/zoneinfo), some systems use these environment variables, but you can also use them as an easy way to control where PhrozenClook looks for time zone data without having to edit the phrozenclock.py script anymore.  TZ and TZDEFAULT are generally the same thing.  (S0, you can set either TZDEFAULT=/etc/zoneinfo/localtime or TZ=/etc/zoneinfo/localtime .)
+	- Added variable self.ZONE_DIRS and updated method locateZoneinfo() to look for the 'zoneinfo' directory in a more accomodating manner from a common list of 'zoneinfo' directories from many different *nix distributions, default is still /usr/share/zoneinfo/, but now probing is done if this is not correct
+	- Added variable self.LOCALTIME_FILES and new  method locateLocaltimeFile() to look for the 'localtime' file in a more accomodating manner from a common list from many different *nix distributions, default is still /etc/localtime, but now probing is done if this is not correct
+	- Added variable self.TIMEZONE_FILES and new  method locateTimezoneFile() to look for the 'timezone' file in a more accomodating manner from a common list from many different *nix distributions, default is still /etc/timezone, but now probing is done if this is not correct
+	- MAJOR startup improvment / Usability improvement:  If startup fails because the 'zoneinfo' directory could not be located, the user is now referred to the 'Environment Variables' section in the 'Help' file about setting the newly supported environment variables, the help file is then shown for the user to read - This is much better than the old method where the app just 'quit' with a 'critical error' and left the user with little or no information, also, it helps the user avoid having to edit the phrozenclock.py script.  This should be a big bonus for newbies and regular desktop users not familiar with coding.
+	- Bug Fix / System Safety Enhancement:  Added variable self.IGNORE_EXT and method isGlibc to distguish between standard Glibc 'zoneinfo' directory data and the .ics format 'zoneinfo' data commonly used in some applications such as Gnome Ximian's Evolution.  Every attempt is now made to ignore directories that have .ics format zoneinfo data instead of the standard Glibc zoneinfo data, since accidently linking .ics format timezones to 'localtime' when Glibc expects to find 'standard' format can create HUGE problems, and at the very least, screw up the system time.  I don't know of any Glibc versions that use .ics format anyways, so every attempt is now made to avoid feeding bogus .ics format zoneinfo files into 'localtime' (/etc/localtime).
+	- Updates to Spanish and English help files: to include info about .ics format zoneinfo data not being supported and why, and info about new support for environment variables.
+	- Updates to Spanish language locale support and icewmcp.pot locale file to add info in the 'critical error' startup message referring the user to the 'Environment Variables' section of the help file if something goes wrong.
+	- A few Spanish locale corrections
+
+
+IceWMCP-Mouse        (IceWMCPMouse.py):
+	- Version is now 2.4
+	- Traditional Chinese translation added (locale zh_TW); Big thanks to Chao-Hsiung Liao  (pesder.liao['at']msa.hinet.net)
+	- Russian help file added: Big thanks to Vasiliy Leushin (basileus['at']newmail.ru)
+	- Russian translation updates; Big thanks to Vasiliy Leushin (basileus['at']newmail.ru) 
+	- Keyboard support improvement: All file selection dialog boxes can now be closed by simply pressing 'Esc'
+	- Added "Run As Root" functionality, useful for people with 'root' access such as sys admins: added new method 'run_as_root' to 'mousewin' class'; added 'run_as_root' method to the 'cursortab' (IceWMCPCursors) class ; added 'File -> Run As Root' to the menu in the 'mousewin' class.  NOTE: Since setting the mouse speed uses 'xset', that remains per-user instead of 'system-wide'; However, running as 'root' allows you to configure system-wide cursors and system-wide IceWM-specific mouse behavior
+	- Updated Spanish and English language help files to include new info on the 'Run As Root'  feature
+
+
+IceWMCP-Wallpaper    (IceWMCPWallpaper.py):
+	- Version is now 2.4
+	- Traditional Chinese translation added (locale zh_TW); Big thanks to Chao-Hsiung Liao  (pesder.liao['at']msa.hinet.net)
+	- Russian help file added: Big thanks to Vasiliy Leushin (basileus['at']newmail.ru)
+	- Russian translation updates; Big thanks to Vasiliy Leushin (basileus['at']newmail.ru) 
+	- Changed methods "selectfile" and "fileok" to use new common file selection functionality in 'icewmcp_common' instead for uniform file selection, look, feel, and behavior
+	- Code cleanup: removed method "filecancel" (no longer needed)
+	- Keyboard support improvement: All file selection dialog boxes can now be closed by simply pressing 'Esc'
+	- Added "Run As Root" functionality, useful for people with 'root' access such as sys admins: added new method 'run_as_root'; added 'File -> Run As Root' to the menu
+	- Updated Spanish and English language help files to include new info on the 'Run As Root'  feature
+
+
+IceWMCP-WinOptions          (IceWMCPWinOptions.py):
+	- Version is now 2.4
+	- Traditional Chinese translation added (locale zh_TW); Big thanks to Chao-Hsiung Liao  (pesder.liao['at']msa.hinet.net)
+	- Russian help file added: Big thanks to Vasiliy Leushin (basileus['at']newmail.ru)
+	- Russian translation updates; Big thanks to Vasiliy Leushin (basileus['at']newmail.ru) 
+	- Changed methods "selectfile" and "fileok" to use new common file selection functionality in 'icewmcp_common' instead for uniform file selection, look, feel, and behavior
+	- Code cleanup: removed method "filecancel" (no longer needed)
+	- Keyboard support improvement: All file selection dialog boxes can now be closed by simply pressing 'Esc'
+	- Added "Run As Root" functionality, useful for people with 'root' access such as sys admins: added new method 'run_as_root'; added 'File -> Run As Root' to the menu
+	- Updated Spanish and English language help files to include new info on the 'Run As Root'  feature
+
+
+IceWMCP_GtkPCCard     (IceWMCP_GtkPCCard.py):
+	- Version is now 1.3
+	- Traditional Chinese translation added (locale zh_TW); Big thanks to Chao-Hsiung Liao  (pesder.liao['at']msa.hinet.net)
+	- Russian help file added: Big thanks to Vasiliy Leushin (basileus['at']newmail.ru)
+	- Russian translation updates; Big thanks to Vasiliy Leushin (basileus['at']newmail.ru) 
+
+
+IceWMCPRun  (IceWMCPRun.py):
+	- Version is now 2.4
+	- Traditional Chinese translation added (locale zh_TW); Big thanks to Chao-Hsiung Liao  (pesder.liao['at']msa.hinet.net)
+	- Russian translation updates; Big thanks to Vasiliy Leushin (basileus['at']newmail.ru) 
+	- Code Cleanup: Removed method 'doFsHide' (no longer needed)
+	- Changed methods "showFileSel" and "grabFile" to use new common file selection functionality in 'icewmcp_common' instead for uniform file selection, look, feel, and behavior
+	- Keyboard support improvement: All file selection dialog boxes can now be closed by simply pressing 'Esc'
+
+
+IceWMCP-GtkIconSelection       (IceWMCPGtkIconSelection.py):
+	- Version is now 2.4
+	- Traditional Chinese translation added (locale zh_TW); Big thanks to Chao-Hsiung Liao  (pesder.liao['at']msa.hinet.net)
+	- Russian translation updates; Big thanks to Vasiliy Leushin (basileus['at']newmail.ru) 
+
+
+IceWMCP-BugReport        (IceWMCP_BugReport.py):
+	- Version is now 2.4
+	- Traditional Chinese translation added (locale zh_TW); Big thanks to Chao-Hsiung Liao  (pesder.liao['at']msa.hinet.net)
+	- Russian translation added: Thank you to Vasiliy Leushin (basileus['at']newmail.ru) 
+
+
+PySpool  (pyspool.py, pyprintcommon.py):
+	- Version is now 0.2.3
+	- Traditional Chinese translation added (locale zh_TW); Big thanks to Chao-Hsiung Liao  (pesder.liao['at']msa.hinet.net)
+	- Russian help file added: Big thanks to Roman Shiryaev  (mih_val['at']mail.ru)
+	- Russian translation updates; Big thanks to Vasiliy Leushin (basileus['at']newmail.ru) 
+	- IceWMCP install packages and RPMs now create executable named 'IceWMCP-PySpool' for launching PySpool from outide of the control panel
+
+	
+
+
+TODO     (My personal reminders - pay no attention to the woman behind the curtain):  
+	- A guy is working on a possible Gtk2/PyGtk2 port - monitor it. (Screenshots look good:  6/19/2003)
+	- Still waiting for upcoming Finnish translations from Petteri, iceme already done: rest to come - 6/22/2003: Have not heard anything from him since 5/28 - guess he quit ??
+	- PRIORITY: Speed up IceMe start-up (play with speed of icon loading)
+	- PRIORITY: Resolve menu issues with the 'Run As Root' menu checkboxes, sometimes the menu seems to 'stick' and hold the focus after toggling "Run As Root" on/off; find a way for the menu to release the focus immediately after 'Run As Root' is clicked.
+	- All file selection dialog boxes have been ported to the new 'common' file selection format in 'icewmcp_common' EXCEPT for IceSoundManager which requires alot of intricate callbacks (maybe port to 'common' format later? leave as-is?)
+	- PhrozenClock:  Find a way to read and understand /etc/localtime even if its a 'hard file' instead of a symlink: This means we have to learn to read glibc's binary format for zoneinfo data, if possible
+	- PhrozenClock:  Is there a need to support multiple 'localtime' and 'timezone' file locations for PhrozenClock? Do some systems use more than one location for these files and need them 'synched'?
+	- New control panel applet under consideration:  Maybe a small EnergyStar/DPMS applet? (using xset)
+	- New control panel applet under consideration:  Some type of 'font manager' or third-party font tool???  ...maybe hard to implement 'uniform' font installation under X, but at least an applet for viewing installed fonts??
+	- Is there a better way to handle the drag-n-drop support for the 'color buttons' in IcePref2 and Theme Designer?  Currently unable to handle the 'native unicode' junk returned the 'application/x-color' GtkSelectionData.data object - so letting it get handled by a hidden GtkColorSelectionDialog (global COLOR_HOLDER):
+			# I tried this:
+			#    import codecs
+			#    uni=codecs.utf_16_decode(drago[4].data)
+			# creates a tuple with a useless 'unicode' string that Python can do nothing with
+			# In fact, it can't even be turned into a string with str() - You can print the 
+			# tuple to stdout, but not the 'unicode' string at element '0' in the tuple
+- 	IceWM change log to monitor: IceWM 1.2.8 (changelog on CVS server:  http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/*checkout*/icewm/icewm-1.2/CHANGES?rev=HEAD&content-type=text/plain)
+

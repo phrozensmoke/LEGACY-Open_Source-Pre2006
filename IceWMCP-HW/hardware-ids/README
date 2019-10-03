@@ -1,0 +1,1 @@
+These are the hardware ids needed for the file [HARDWARE_DIR]hd.ids. Extract with the command 'tar -xIf hd.ids.tar.bz2', and move the hd.ids file to HARDWARE_DIR (as defined in /src/hd/hd.h).

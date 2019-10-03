@@ -1,0 +1,2 @@
+rm -f pYVoiceChat-*.tar.bz2
+tar -cjf pYVoiceChat-0.3.5.tar.bz2 ./pyvoice/*

@@ -1,0 +1,5 @@
+# Ice Control Panel Applet
+Name=IceWM\nKeys
+Exec=[PHROZEN-INTERNAL]IceWMCPKeyEdit.py
+Icon=icewmcp-keyedit.png
+Hint=Control IceWM Hot Keys

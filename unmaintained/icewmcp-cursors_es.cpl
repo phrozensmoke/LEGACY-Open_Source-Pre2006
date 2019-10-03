@@ -1,0 +1,5 @@
+# Ice Control Panel Applet
+Name=Punteros\nde IceWM
+Exec=[PHROZEN-INTERNAL]IceWMCPCursors.py
+Icon=icewmcp-cursors.png
+Hint=Configuración de Punteros IceWM

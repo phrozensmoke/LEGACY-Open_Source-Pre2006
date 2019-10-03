@@ -1,0 +1,2 @@
+rm -f gyachE-Media-Package-*.tar.bz2
+tar -cjf gyachE-Media-Package-0.2.tar.bz2 /usr/local/share/gyach/audibles/ /usr/local/share/gyach/tuxvironments/ 

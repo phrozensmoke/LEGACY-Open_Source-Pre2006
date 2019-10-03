@@ -1,0 +1,2 @@
+rm -f gyach-enhanced_pyvoice-binary-*.tar.bz2
+tar -cjf gyach-enhanced_pyvoice-binary-1.0.7-i586.tar.bz2 /usr/local/share/gyach/doc/   /usr/local/share/gyach/locale/ /usr/local/share/gyach/pixmaps/ /usr/local/share/gyach/pyvoice/ /usr/local/share/gyach/smileys/ /usr/local/share/gyach/sounds/ /usr/local/bin/gyach  /usr/lib/win32/tssoft32.acm /usr/lib/win32/tsd32.dll /usr/local/share/gyach/plugins/gyach-photos.so

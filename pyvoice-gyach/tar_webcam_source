@@ -1,0 +1,2 @@
+rm -f gyachE-Webcam-Utilities-*source*.tar.bz2
+tar -cjf gyachE-Webcam-Utilities-0.4-source.tar.bz2 ./gyach/config.h  ./gyach/config.h.backup ./gyach/src/gytreeview.h ./gyach/src/gytreeview.c  ./gyach/src/webcam/*.c ./gyach/src/webcam/*.h ./gyach/src/webcam/*.py ./gyach/src/webcam/*.txt ./gyach/src/webcam/Makefile* ./gyach/src/webcam/mkinstalldirs ./gyach/pixmaps/gyach-icon.xpm ./gyach/pixmaps/status_here.xpm ./gyach/pixmaps/status_here_male.xpm

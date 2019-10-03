@@ -1,0 +1,73 @@
+#! /usr/bin/env python
+import os
+
+FROM_DIR="/Compile/cvs/pythonol/"
+TO_DIR="/Pythonol-Install/"
+INSTALL_SHIELD_DIR="/Compile/cvs/pythonol/PyInstallshield/"
+
+myfiles=[]
+mydirs=[]
+INSTALL_SHIELD=['PyInstallShield', 'INSTALL-ME.sh']
+
+
+
+REMOVES=['/','datafiles/','dictionary/','docs/','festival/','icons/','pixmaps/','sqlite','theme/','user-doc/','*.py','*.pyc','*.pyo','*.png','*.gif','*.jpg', '*.ico']
+
+REMOVES=REMOVES+INSTALL_SHIELD
+
+IGNORED=['CreatePot','Root','Entries','Repository','CVS','PyInstallShield','make_file_list','make_file_list2','file_list.txt','INSTALL-ME.sh','dir.xpm','next.xpm','close.xpm','make_ice_real','install-config.txt', 'PyInstallshield','PyPrint','.cvsignore', 'gtkrc-personal','install-config_packages.txt','pythonol.spec','pybabel.spec','build_rpm'] +['dictionary.db','dictionary-mature.db', 'dictionary-idioms.db','thesaurus-cats.db']
+
+IGNORED=IGNORED+ ['PyBabelPhish']+['Makefile','build.sh', 'PySQLite-0.5.0-for-Windows.tar.gz','libsqlite.a.dev-lib','INSTALL-README.txt','encode.c','sqlite.h','_sqlite.c','strsep.c','strsep.h','libsqlite.la']
+
+
+def makefilelist(*args):
+	print "Listing files"
+	os.path.walk(FROM_DIR,doit,None)
+	print "Writing 'make_ice_real' script..."
+	f=open("make_ice_real","w")
+	for yy in REMOVES:
+		f.write("rm -fr "+TO_DIR+yy+"\n")
+	f.write("mkdir "+TO_DIR+" &> /dev/null\n")
+	for yy in mydirs:
+		f.write("mkdir "+TO_DIR+yy+" &> /dev/null\n")
+	for yy in INSTALL_SHIELD:
+		f.write("cp -f "+INSTALL_SHIELD_DIR+yy+" "+TO_DIR+yy+"\n")
+	for yy in myfiles:
+		f.write("cp -f \""+FROM_DIR+yy+"\"  \""+TO_DIR+yy+"\"\n")	
+	f.write("convert "+FROM_DIR+"pixmaps/title.gif "+TO_DIR+"install-pix.gif\n")
+	f.write("cp -f  pythonol-install-config.txt  "+TO_DIR+"install-config.txt\n")
+	f.write("rm -f "+TO_DIR+"*.pyc\n")
+	f.write("rm -f "+TO_DIR+"*.pyo\n")
+	f.write("cp -f make_file_list   "+TO_DIR+"\n")
+	f.write("rm -f "+TO_DIR+"licenses/GPL\n")
+	f.write("cd "+TO_DIR+"\n")
+	f.write("./make_file_list\n")
+	f.write("rm -f "+TO_DIR+"make_file_list\n")
+	f.write("echo DONE\n")
+	f.flush()
+	f.close()
+	ff=os.popen("chmod 755 make_ice_real")
+	ff.readlines()
+	ff=os.popen("./make_ice_real")
+	ff.readlines()
+	print "Done."
+	
+
+def doit(arg,dirname,fnames):
+	for ii in IGNORED:
+		if dirname.find(ii)>-1: return
+	fnames.sort()
+	for ii in fnames:
+		if ii in IGNORED: continue
+		if ii.endswith(".pyc"): continue
+		if ii.endswith(".pyo"): continue
+		filename=dirname+"/"+ii
+		if os.path.isdir(filename): 
+			mydirs.append(filename.replace(FROM_DIR,"")+"/")
+			continue
+		filename=filename.replace(".//","").replace("./","").replace("//","/")
+		myfiles.append(filename.replace(FROM_DIR,""))
+	 
+
+if __name__ == "__main__":
+	makefilelist()

@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"PO-Revision-Date: Mon Jan  5 16:35:46 2004\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Generated-By: pygettext.py 1.1\n"
+
+
+#: trayicon.c:485
+msgid "IceWM Theme Designer"
+msgstr ""
+
+#: trayicon.c:404
+msgid "About"
+msgstr ""
+
+#: trayicon.c:598
+msgid "Dialogs"
+msgstr ""
+
+#: trayicon.c:605
+msgid "Key Bindings"
+msgstr ""
+
+#: trayicon.c:447
+msgid "IceWMCP Tray Icon"
+msgstr ""
+
+#: trayicon.c:682
+msgid "Windows"
+msgstr ""
+
+#: trayicon.c:738
+msgid "IceWM Control Panel"
+msgstr ""
+
+#: trayicon.c:591 trayicon.c:698
+msgid "Desktop"
+msgstr ""
+
+#: trayicon.c:612 trayicon.c:704
+msgid "Menus"
+msgstr ""
+
+#: trayicon.c:661
+msgid "Theme"
+msgstr ""
+
+#: trayicon.c:466
+msgid "Close IceWMCP Tray Icon"
+msgstr ""
+
+#: trayicon.c:561
+msgid "IceWM Preferences"
+msgstr ""
+
+#: trayicon.c:534
+msgid "PC Cards"
+msgstr ""
+
+#: trayicon.c:647
+msgid "Task Bar"
+msgstr ""
+
+#: trayicon.c:540
+msgid "Printer Queue"
+msgstr ""
+
+#: trayicon.c:668
+msgid "Title Bars"
+msgstr ""
+
+#: trayicon.c:491
+msgid "Icon Browser"
+msgstr ""
+
+#: trayicon.c:518
+msgid "System Configuration"
+msgstr ""
+
+#: trayicon.c:504
+msgid "Find Files"
+msgstr ""
+
+#: trayicon.c:626 trayicon.c:710
+msgid "Mouse"
+msgstr ""
+
+#: trayicon.c:417
+msgid "OK"
+msgstr ""
+
+#: trayicon.c:675
+msgid "Tool Tips"
+msgstr ""
+
+#: trayicon.c:633
+msgid "Quick Switch"
+msgstr ""
+
+#: trayicon.c:722
+msgid "Sound Events"
+msgstr ""
+
+#: trayicon.c:476
+msgid "Tools"
+msgstr ""
+
+#: trayicon.c:728
+msgid "Window Options"
+msgstr ""
+
+#: trayicon.c:619
+msgid "Miscellaneous"
+msgstr ""
+
+#: trayicon.c:528
+msgid "EnergyStar"
+msgstr ""
+
+#: trayicon.c:654
+msgid "Task Bar Applets"
+msgstr ""
+
+#: trayicon.c:689
+msgid "Workspaces"
+msgstr ""
+
+#: trayicon.c:522
+msgid "Date & Time"
+msgstr ""
+
+#: trayicon.c:456
+msgid "About IceWMCP Tray Icon"
+msgstr ""
+
+#: trayicon.c:640
+msgid "Scroll Bars"
+msgstr ""
+
+#: trayicon.c:716
+msgid "Keyboard"
+msgstr ""
+
+#: trayicon.c:748
+msgid "IceWMCP Tray"
+msgstr ""
+
+#: trayicon.c:550
+msgid "System & Hardware"
+msgstr ""
+
+#: trayicon.c:565
+msgid "Configuration"
+msgstr ""
+
+#: trayicon.c:584
+msgid "Address Bar"
+msgstr ""
+
+#: trayicon.c:413
+msgid "A simple tray icon for icewmtray and other FreeDesktop.org-compliant system trays."
+msgstr ""
+

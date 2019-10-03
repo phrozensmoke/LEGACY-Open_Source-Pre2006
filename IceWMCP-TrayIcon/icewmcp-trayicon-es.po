@@ -1,0 +1,172 @@
+#DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: IceWMCP TrayIcon 0.1\n"
+"POT-Creation-Date: 2003-05-11 11:35+0100\n"
+"PO-Revision-Date: 2004-01-05 15:51+0400\n"
+"Last-Translator: Erica Andrews <PhrozenSmoke@yahoo.com>\n"
+"Language-Team: SPANISH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: trayicon.c:485
+msgid "IceWM Theme Designer"
+msgstr "Diseñador de Temas de IceWM"
+
+#: trayicon.c:404
+msgid "About"
+msgstr "Acerca De"
+
+#: trayicon.c:598
+msgid "Dialogs"
+msgstr "Diálogos"
+
+#: trayicon.c:605
+msgid "Key Bindings"
+msgstr "Teclas"
+
+#: trayicon.c:682
+msgid "Windows"
+msgstr "Ventanas"
+
+#: trayicon.c:738
+msgid "IceWM Control Panel"
+msgstr "Panel de Control de IceWM"
+
+#: trayicon.c:591 trayicon.c:698
+msgid "Desktop"
+msgstr "Escritorio"
+
+#: trayicon.c:612 trayicon.c:704
+msgid "Menus"
+msgstr "Menús"
+
+#: trayicon.c:661
+msgid "Theme"
+msgstr "Temas"
+
+#: trayicon.c:561
+msgid "IceWM Preferences"
+msgstr "Preferencias de IceWM"
+
+#: trayicon.c:534
+msgid "PC Cards"
+msgstr "Tarjetas PC (PCMCIA)"
+
+#: trayicon.c:647
+msgid "Task Bar"
+msgstr "Barra de Tareas"
+
+#: trayicon.c:540
+msgid "Printer Queue"
+msgstr "Cola de Impresión"
+
+#: trayicon.c:668
+msgid "Title Bars"
+msgstr "Barras de Título"
+
+#: trayicon.c:491
+msgid "Icon Browser"
+msgstr "Navegador de Iconos"
+
+#: trayicon.c:518
+msgid "System Configuration"
+msgstr "Configuración del Sistema"
+
+#: trayicon.c:504
+msgid "Find Files"
+msgstr "Buscar Ficheros"
+
+#: trayicon.c:626 trayicon.c:710
+msgid "Mouse"
+msgstr "Ratón"
+
+#: trayicon.c:417
+msgid "OK"
+msgstr "ACEPTAR"
+
+#: trayicon.c:675
+msgid "Tool Tips"
+msgstr "ToolTips (Indirectas)"
+
+#: trayicon.c:633
+msgid "Quick Switch"
+msgstr "Cambio-Rápido"
+
+#: trayicon.c:722
+msgid "Sound Events"
+msgstr "Eventos Sonido"
+
+#: trayicon.c:476
+msgid "Tools"
+msgstr "Herramientas"
+
+#: trayicon.c:728
+msgid "Window Options"
+msgstr "Opciones de Ventana"
+
+#: trayicon.c:619
+msgid "Miscellaneous"
+msgstr "Misceláneo"
+
+#: trayicon.c:528
+msgid "EnergyStar"
+msgstr "EnergyStar"
+
+#: trayicon.c:654
+msgid "Task Bar Applets"
+msgstr "Applets de la Barra de Tareas"
+
+#: trayicon.c:689
+msgid "Workspaces"
+msgstr "Espacios de Trabajo"
+
+#: trayicon.c:522
+msgid "Date & Time"
+msgstr "Fecha y Hora"
+
+#: trayicon.c:640
+msgid "Scroll Bars"
+msgstr "Barras de Enrollar"
+
+#: trayicon.c:716
+msgid "Keyboard"
+msgstr "Teclado"
+
+#: trayicon.c:550
+msgid "System & Hardware"
+msgstr "Sistema y Hardware"
+
+#: trayicon.c:565
+msgid "Configuration"
+msgstr "Configuración"
+
+#: trayicon.c:584
+msgid "Address Bar"
+msgstr "Barra de Direcciónes"
+
+#: trayicon.c:456
+msgid "About IceWMCP Tray Icon"
+msgstr "Acerca del Icono de Bandeja IceWMCP"
+
+#: trayicon.c:748
+msgid "IceWMCP Tray"
+msgstr "Icono de Bandeja IceWMCP"
+
+#: trayicon.c:447
+msgid "IceWMCP Tray Icon"
+msgstr "Icono de Bandeja IceWMCP"
+
+#: trayicon.c:466
+msgid "Close IceWMCP Tray Icon"
+msgstr "Cerrar el Icono de Bandeja IceWMCP"
+
+#: trayicon.c:413
+msgid "A simple tray icon for icewmtray and other FreeDesktop.org-compliant system trays."
+msgstr "Un icono en la barra de tareas para 'icewmtray' y otras bandejas de sistema que apoyan el estándar de NetWM/FreeDesktop.org."
+

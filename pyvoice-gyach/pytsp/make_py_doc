@@ -1,0 +1,2 @@
+python /usr/lib/python2.2/pydoc.py -w pytsp
+python /usr/lib/python2.2/pydoc.py -w pyesd

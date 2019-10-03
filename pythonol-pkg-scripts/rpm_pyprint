@@ -1,0 +1,3 @@
+rm -f PyPrint*.rpm
+rpm -bb --buildroot=/usr/src/BUILDROOT --target noarch pyprint.spec
+mv /usr/src/packages/RPMS/noarch/PyPrint*.rpm /Compile/distro/pythonol/

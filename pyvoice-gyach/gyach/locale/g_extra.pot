@@ -1,0 +1,49 @@
+# Extra translations, copy and paste into gyach.pot, these are from callbacks.c
+# and elsewhere
+
+msgid "Join Room"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "YES"
+msgstr ""
+
+msgid "NO"
+msgstr ""
+
+msgid "Are you sure you want to remove this buddy?"
+msgstr ""
+
+msgid "Add Buddy"
+msgstr ""
+
+msgid "User is not online."
+msgstr ""
+
+msgid "Join Conference"
+msgstr ""
+
+msgid "Decline Invitation"
+msgstr ""
+
+msgid "Invite"
+msgstr ""
+
+msgid "Rename"
+msgstr ""
+
+msgid "Group"
+msgstr ""
+
+msgid "XMMS: What's Playing?"
+msgstr ""
+
+
+
+
+

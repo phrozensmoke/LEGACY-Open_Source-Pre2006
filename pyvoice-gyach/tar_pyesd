@@ -1,0 +1,2 @@
+rm -f pyesd*.tar.bz2
+tar -cjf pyesd-0.2.tar.bz2 ./pytsp/pye*.h ./pytsp/pye*.c ./pytsp/pye*.i ./pytsp/Build.pyesd  ./pytsp/pye*.py  ./pytsp/README.pyesd ./pytsp/_pyesd.so ./pytsp/AUTHORS ./pytsp/LICENSE ./pytsp/pyesd.html

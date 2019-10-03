@@ -1,0 +1,3 @@
+rm -f GyachE-Encryption-Plugins*.rpm
+rpm -bb --buildroot=/usr/src/BUILDROOT --target i586-Linux gyache-encrypt.spec
+mv /usr/src/packages/RPMS/i586/Gyach*.rpm ./

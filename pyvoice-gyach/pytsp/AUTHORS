@@ -1,0 +1,42 @@
+/* ******************************
+  * PyTrueSpeech
+  * Copyright (c) 2003 Erica Andrews
+  * <PhrozenSmoke ['at'] yahoo.com>
+  * http://phpaint.sourceforge.net/pyvoicechat/
+  * License: GNU General Public License
+  *
+  * A Python-wrapped library for 
+  * converting between raw sound
+  * and DSP's Group's TrueSpeech format
+  * and playing TrueSpeech sound over
+  * ESound.  This library relies on PyESD
+  * for playback over ESD.  This library
+  * uses highly modified versions of 
+  * code provided by Piotr Karwasz and 
+  * Robert Brewer for loading
+  * the TrueSpeech codecs with MPlayer's
+  * version of 'wine lib'.
+  *
+****************************** */
+
+/* ******************************
+  * PyESD
+  * Copyright (c) 2003 Erica Andrews
+  * <PhrozenSmoke ['at'] yahoo.com>
+  * http://phpaint.sourceforge.net/pyvoicechat/
+  * License: GNU General Public License
+  *
+  * A Python-wrapped library for 
+  * playing raw sound over the ESound
+  * daemon. This library also facilitates 
+  * recording raw sound from  
+  * ESound. Also, this library allows you
+  * get basic, useful information about 
+  * the ESound Daemon being used.
+  * for playback over ESD.  This library
+  * uses highly modified versions of 
+  * MPlayer's 'ao_esd.c' module and 
+  * the 'main.c' module from Gnome's 
+  * Vumeter application.
+  *
+****************************** */

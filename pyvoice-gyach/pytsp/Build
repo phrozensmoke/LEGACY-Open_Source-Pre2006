@@ -1,0 +1,16 @@
+./Build.pyesd
+
+echo "Compiling pytruespeech.c"
+make
+
+
+echo "Running swig for pytsp"
+swig -python -shadow pytsp.i
+
+echo "Compiling swig Python wrapper for pytsp"
+gcc -c pytsp_wrap.c -I/usr/include/python2.2
+
+echo "Building Python shared library for pytsp"
+gcc --shared pytsp_wrap.o pytruespeech.o  pyesd_wrap.o pyesd.o libloader.a  -Xlinker -Bdynamic -Xlinker -rpath .  -Xlinker -rpath /usr/lib -Xlinker -rpath /usr/X11R6/lib -Xlinker -rpath /usr/local/lib -L.  `esd-config --libs`    -o pytspc.so  
+
+strip -s pytspc.so  

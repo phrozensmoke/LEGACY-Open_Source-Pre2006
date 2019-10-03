@@ -1,0 +1,4049 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"PO-Revision-Date: Sun Apr 03 02:59:33 2005\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Generated-By: pygettext.py 1.1\n"
+
+
+#: ../src/packet_handler.c:5847
+msgid "removed from permanent Yahoo ignore list"
+msgstr ""
+
+#: ../src/packet_handler.c:6112 ../src/packet_handler.c:6163
+msgid "News Bulletin"
+msgstr ""
+
+#: ../src/setupwindow2.c:1398
+msgid "URL from user not in room"
+msgstr ""
+
+#: ../src/setupwindow2.c:600
+msgid ""
+"Sending PM or chat comment\n"
+"when away brings you back"
+msgstr ""
+
+#: ../src/interface.c:561 ../src/pmwindow.c:973
+msgid "Start A Conference"
+msgstr ""
+
+#: ../src/callbacks.c:749
+msgid ""
+"This is an experimental, backup connection method.\n"
+"This server does not allow you to login as invisible, change\n"
+"your away status, or add/remove\n"
+"buddies on your buddy list. Several other major\n"
+"features may also be unavailable. Continue?"
+msgstr ""
+
+#: ../src/webcam/gyacheupload-main.c:159 ../src/webcam/gyacheupload-ui.c:137
+msgid "Not Broadcasting"
+msgstr ""
+
+#: ../src/setupwindow2.c:800
+msgid ""
+"Color &\n"
+"Font"
+msgstr ""
+
+#: ../src/webcam/gyacheupload-ui.c:1288
+msgid "Permissions"
+msgstr ""
+
+#: ../src/setupwindow2.c:1263 ../src/trayicon.c:550
+msgid "All Yahoo! users"
+msgstr ""
+
+#: ../src/htmlrender.c:481 ../src/htmlrender.c:738
+msgid "My Photos"
+msgstr ""
+
+#: ../src/interface.c:485 ../src/trayicon.c:768
+msgid " Yahoo! Mail "
+msgstr ""
+
+#: ../src/packet_handler.c:1490
+msgid "Not currently connected to Yahoo!."
+msgstr ""
+
+#: ../src/conference.c:768
+msgid "Messages sent."
+msgstr ""
+
+#: ../src/interface.c:1966 ../src/interface.c:1971 ../src/pmwindow.c:925
+#: ../src/pmwindow.c:928 ../src/setupwindow2.c:1742 ../src/setupwindow2.c:2079
+msgid " Save "
+msgstr ""
+
+#: ../src/commands.c:269
+msgid "Following user"
+msgstr ""
+
+#: ../src/htmlrender.c:463 ../src/htmlrender.c:725
+msgid "Sports Team News"
+msgstr ""
+
+#: ../src/interface.c:517 ../src/interface.c:2369 ../src/trayicon.c:727
+msgid "Room List"
+msgstr ""
+
+#: ../src/callbacks.c:3562
+msgid ""
+"Would you like to remove yourself\n"
+"from this person's buddy list?"
+msgstr ""
+
+#: ../src/setupwindow2.c:1690 ../src/setupwindow2.c:1731
+msgid "* right-click mouse on list for edit menu *"
+msgstr ""
+
+#: ../src/setupwindow2.c:749
+msgid "Bold"
+msgstr ""
+
+#: ../src/conference.c:162
+msgid "Invite to Chat Room"
+msgstr ""
+
+#: ../src/htmlrender.c:486 ../src/htmlrender.c:758
+msgid "Pet Tips"
+msgstr ""
+
+#: ../src/webcam/gyachewebcam.c:827 ../src/webcam/pywebcam.py:699
+#: ../src/webcam/gyacheupload-ui.c:1250
+msgid "Pause Video"
+msgstr ""
+
+#: ../src/setupwindow2.c:1532
+msgid ""
+"Save password in \n"
+"configuration file"
+msgstr ""
+
+#: ../src/setupwindow2.c:560
+msgid "Status changes"
+msgstr ""
+
+#: ../src/interface.c:1772 ../src/interface.c:1776 ../src/roomui.c:199
+#: ../src/roomui.c:200 ../src/pmwindow.c:1059 ../src/pmwindow.c:1061
+msgid " Close "
+msgstr ""
+
+#: ../src/interface.c:2223
+msgid "Remove Buddy"
+msgstr ""
+
+#: ../src/packet_handler.c:2505 ../src/packet_handler.c:2516
+#: ../src/packet_handler.c:2533
+msgid "email(s)"
+msgstr ""
+
+#: ../src/webcam/gyacheupload-ui.c:1239
+msgid "Camera Properties..."
+msgstr ""
+
+#: ../src/yab.c:1225 ../src/yab.c:1272
+msgid "Zip Code:"
+msgstr ""
+
+#: ../src/plugins.c:412 ../src/plugins.c:462 ../src/plugins.c:510
+msgid "An error occurred initiating the plugin."
+msgstr ""
+
+#: ../src/packet_handler.c:5090
+msgid "Available Until"
+msgstr ""
+
+#: ../src/interface.c:3922
+msgid "I am NO longer permanently offline to this user:"
+msgstr ""
+
+#: ../src/callbacks.c:4729 ../src/webcam/main.c:140
+#: ../src/webcam/gyachewebcam.c:900 ../src/webcam/gyachewebcam.c:901
+#: ../src/webcam/pywebcam.py:725 ../src/webcam/gyacheupload-main.c:157
+msgid "Webcam"
+msgstr ""
+
+#: ../src/setupwindow2.c:991
+msgid "Room List Options:"
+msgstr ""
+
+#: ../src/interface.c:270
+msgid "Log to File"
+msgstr ""
+
+#: ../src/plugins.c:306
+msgid "Plugin"
+msgstr ""
+
+#: ../src/setupwindow2.c:1657
+msgid "Yahoo Logins"
+msgstr ""
+
+#: ../src/interface.c:2427
+msgid "Buddies"
+msgstr ""
+
+#: ../src/interface.c:355 ../src/interface.c:3402
+msgid " Send File to User... "
+msgstr ""
+
+#: ../src/interface.c:943
+msgid "Emotes"
+msgstr ""
+
+#: ../src/interface.c:555
+msgid "Create Room..."
+msgstr ""
+
+#: ../src/htmlrender.c:465 ../src/htmlrender.c:744
+msgid "My Invitations"
+msgstr ""
+
+#: ../src/conference.c:1324
+msgid "Not currently connected to conference."
+msgstr ""
+
+#: ../src/pmwindow.c:895 ../src/pmwindow.c:898
+msgid " TUXVironment... "
+msgstr ""
+
+#: ../src/webcam/gyachewebcam.c:152 ../src/webcam/pywebcam.py:287
+msgid "The user has stopped broadcasting."
+msgstr ""
+
+#: ../src/setupwindow2.c:555 ../src/trayicon.c:660
+msgid "Faders"
+msgstr ""
+
+#: ../src/setupwindow2.c:1561
+msgid "Use my web browser to view profiles"
+msgstr ""
+
+#: ../src/users.c:1492
+msgid "Home Page"
+msgstr ""
+
+#: ../src/pmwindow.c:636
+msgid "Share my image"
+msgstr ""
+
+#: ../src/packet_handler.c:3890
+msgid "Ignored PM from User NOT in the Room"
+msgstr ""
+
+#: ../src/packet_handler.c:5181 ../src/packet_handler.c:5197
+msgid "has stopped playing in Yahoo! Games."
+msgstr ""
+
+#: ../src/setupwindow2.c:1443
+msgid "Auto-login at startup"
+msgstr ""
+
+#: ../src/packet_handler.c:4165
+msgid "The user is invisible"
+msgstr ""
+
+#: ../src/htmlrender.c:456 ../src/htmlrender.c:715
+msgid "E-Mail Preview"
+msgstr ""
+
+#: ../src/interface.c:2805 ../src/interface.c:2806 ../src/interface.c:3714
+#: ../src/interface.c:3716 ../src/interface.c:3895 ../src/interface.c:3896
+#: ../src/interface.c:3913 ../src/interface.c:3914 ../src/interface.c:3931
+#: ../src/interface.c:3932 ../src/interface.c:3944 ../src/interface.c:3946
+#: ../src/interface.c:4104 ../src/interface.c:4105 ../src/profname.c:419
+#: ../src/profname.c:420 ../src/fader.c:1585 ../src/fader.c:1587
+#: ../src/tuxvironments.c:353 ../src/tuxvironments.c:354
+#: ../src/webcam/gyachewebcam.c:710 ../src/webcam/pywebcam.py:630
+#: ../src/webcam/pywebcam.py:631 ../src/webcam/gyacheupload-ui.c:847
+msgid "OK"
+msgstr ""
+
+#: ../src/setupwindow2.c:1033
+msgid "Bottom Toolbar"
+msgstr ""
+
+#: ../src/setupwindow2.c:869
+msgid "Highlight Friends names when they comment"
+msgstr ""
+
+#: ../src/profname.c:366
+msgid "Edit My Profiles"
+msgstr ""
+
+#: ../src/interface.c:1386
+msgid " Follow "
+msgstr ""
+
+#: ../src/setupwindow2.c:755
+msgid "Italics"
+msgstr ""
+
+#: ../src/pmwindow.c:910 ../src/pmwindow.c:913
+msgid " Send File... "
+msgstr ""
+
+#: ../src/htmlrender.c:471 ../src/htmlrender.c:734
+msgid "New Movie Releases"
+msgstr ""
+
+#: ../src/packet_handler.c:5603
+msgid "is attempting to view your shared files (peer-to-peer)."
+msgstr ""
+
+#: ../src/packet_handler.c:6625
+msgid "no longer sees you as PERMANENTLY offline"
+msgstr ""
+
+#: ../src/htmlrender.c:425 ../src/htmlrender.c:773
+msgid "Horoscope - Aries"
+msgstr ""
+
+#: ../src/interface.c:1831
+msgid "New..."
+msgstr ""
+
+#: ../src/packet_handler.c:1268
+msgid "The user is in Yahoo! Chat."
+msgstr ""
+
+#: ../src/interface.c:261 ../src/trayicon.c:794
+#: ../src/webcam/gyachewebcam.c:845 ../src/webcam/pywebcam.py:702
+#: ../src/webcam/gyacheupload-ui.c:1268
+msgid "Disconnect"
+msgstr ""
+
+#: ../src/htmlrender.c:478 ../src/htmlrender.c:746
+msgid "Saved Searches"
+msgstr ""
+
+#: ../src/setupwindow2.c:906
+msgid ""
+"In chat rooms, try to mute all of the\n"
+"following users (You must leave and\n"
+"re-enter the room) :"
+msgstr ""
+
+#: ../src/plugins/gyach-photos.c:1519
+msgid "File could not be saved."
+msgstr ""
+
+#: ../src/callbacks.c:4097
+msgid "Normal icon"
+msgstr ""
+
+#: ../src/webcam.c:153
+msgid "The Gyach Enhanced external webcam viewer could not be found"
+msgstr ""
+
+#: ../src/packet_handler.c:4741
+msgid "The user is still in Yahoo! Chat. (invisible)"
+msgstr ""
+
+#: ../src/profname.c:412
+msgid "Default ID to be used for messages, chats, conferences, files, and invitations."
+msgstr ""
+
+#: ../src/setupwindow2.c:964
+msgid "Enable command history (lines)"
+msgstr ""
+
+#: ../src/interface.c:1560
+msgid "Enter Login Information: "
+msgstr ""
+
+#: ../src/profname.c:403
+msgid "Create/Edit Profiles"
+msgstr ""
+
+#: ../src/setupwindow2.c:694
+msgid "Orange"
+msgstr ""
+
+#: ../src/pmwindow.c:641
+msgid "Don't share my image"
+msgstr ""
+
+#: ../src/interface.c:436 ../src/trayicon.c:600
+msgid " Flooders/Booters... "
+msgstr ""
+
+#: ../src/yab.c:1185
+msgid "Pager #:"
+msgstr ""
+
+#: ../src/users.c:1400
+msgid "Sorry, this is an adult profile."
+msgstr ""
+
+#: ../src/interface.c:595 ../src/interface.c:2395 ../src/trayicon.c:736
+msgid "Enable Voice Chat"
+msgstr ""
+
+#: ../src/tuxvironments.c:199
+msgid "TUXVironment is not supported"
+msgstr ""
+
+#: ../src/callbacks.c:5204 ../src/callbacks.c:5222
+msgid "This feature is only available for friends."
+msgstr ""
+
+#: ../src/interface.c:3904
+msgid "I am permanently offline to this user:"
+msgstr ""
+
+#: ../src/interface.c:1671 ../src/interface.c:1673 ../src/interface.c:1973
+#: ../src/interface.c:1978 ../src/interface.c:2118 ../src/interface.c:2119
+#: ../src/roomui.c:406 ../src/roomui.c:407 ../src/roomui.c:524
+#: ../src/roomui.c:525 ../src/pmwindow.c:1238 ../src/pmwindow.c:1239
+#: ../src/setupwindow2.c:1747 ../src/setupwindow2.c:2085
+msgid " Cancel "
+msgstr ""
+
+#: ../src/interface.c:4027
+msgid "Share my avatar"
+msgstr ""
+
+#: ../src/interface.c:664 ../src/trayicon.c:486
+msgid "Stepped Out"
+msgstr ""
+
+#: ../src/interface.c:366
+msgid " View Photo Album... "
+msgstr ""
+
+#: ../src/conference.c:1885
+msgid "Conference Error"
+msgstr ""
+
+#: ../src/webcam.c:57
+msgid "Sorry, You have the webcam feature disabled."
+msgstr ""
+
+#: ../src/htmlrender.c:482 ../src/htmlrender.c:762
+msgid "City Guide"
+msgstr ""
+
+#: ../src/interface.c:1658 ../src/interface.c:1662
+msgid "No chat room"
+msgstr ""
+
+#: ../src/interface.c:4015 ../src/interface.c:4016
+msgid "Browse..."
+msgstr ""
+
+#: ../src/interface.c:3878
+msgid "Allow Yahoo! websites to show when I'm online."
+msgstr ""
+
+#: ../src/interface.c:385 ../src/interface.c:1398 ../src/interface.c:3433
+#: ../src/pmwindow.c:958
+msgid " Send Webcam Invitation... "
+msgstr ""
+
+#: ../src/conference.c:1504
+msgid "Members in this conference"
+msgstr ""
+
+#: ../src/users.c:1481
+msgid "Age"
+msgstr ""
+
+#: ../src/setupwindow2.c:1316
+msgid "Auto-Ignore"
+msgstr ""
+
+#: ../src/packet_handler.c:2903 ../src/packet_handler.c:3235
+#: ../src/packet_handler.c:3253
+msgid "the room"
+msgstr ""
+
+#: ../src/interface.c:753
+msgid "Check for New Versions and News..."
+msgstr ""
+
+#: ../src/setupwindow2.c:1278
+msgid "Ignore guest & @sbcglobal.net users"
+msgstr ""
+
+#: ../src/interface.c:736
+msgid "About GYach Enhanced..."
+msgstr ""
+
+#: ../src/webcam/gyacheupload-ui.c:968
+msgid "Fix Color"
+msgstr ""
+
+#: ../src/roomui.c:364 ../src/pmwindow.c:888 ../src/pmwindow.c:891
+msgid " Voice Chat "
+msgstr ""
+
+#: ../src/setupwindow2.c:1568
+msgid ""
+"Default Browser Command\n"
+"(use %s for URL):"
+msgstr ""
+
+#: ../src/yahoochat.c:1399
+msgid "File could not be opened"
+msgstr ""
+
+#: ../src/htmlrender.c:457 ../src/htmlrender.c:719
+msgid "Top Headline"
+msgstr ""
+
+#: ../src/pmwindow.c:1182
+msgid "Yahoo! Instant Message"
+msgstr ""
+
+#: ../src/interface.c:2218 ../src/interface.c:3446
+msgid "Join User In Room"
+msgstr ""
+
+#: ../src/packet_handler.c:5246
+msgid "The room you tried to create could not be created."
+msgstr ""
+
+#: ../src/interface.c:411
+msgid " Manage Profile Names... "
+msgstr ""
+
+#: ../src/htmlrender.c:488 ../src/htmlrender.c:759
+msgid "Dummies eTips"
+msgstr ""
+
+#: ../src/ignore.c:436
+msgid "ignoring"
+msgstr ""
+
+#: ../src/plugins.c:204 ../src/plugins.c:210
+msgid "No plugins loaded."
+msgstr ""
+
+#: ../src/conference.c:218
+msgid "Invitation List"
+msgstr ""
+
+#: ../src/interface.c:1448
+msgid "Copy name"
+msgstr ""
+
+#: ../src/interface.c:532 ../src/roomui.c:563
+msgid "Add To Favorites"
+msgstr ""
+
+#: ../src/setupwindow2.c:1405
+msgid "First Post is a PM"
+msgstr ""
+
+#: ../src/yab.c:1490
+msgid "Home"
+msgstr ""
+
+#: ../src/roomui.c:384 ../src/roomui.c:385
+msgid " Create Room "
+msgstr ""
+
+#: ../src/yab.c:1305
+msgid "Comments #1:"
+msgstr ""
+
+#: ../src/packet_handler.c:5430 ../src/packet_handler.c:5453
+#: ../src/packet_handler.c:5456
+msgid "peer-to-peer capability check."
+msgstr ""
+
+#: ../src/packet_handler.c:5103
+msgid "A file has been sent to you.  Please check the window named 'Chat'."
+msgstr ""
+
+#: ../src/packet_handler.c:4663
+msgid ""
+"has logged OFF\n"
+"[You are now invisible]"
+msgstr ""
+
+#: ../src/profname.c:374
+msgid "Your primary Yahoo ID is"
+msgstr ""
+
+#: ../src/packet_handler.c:6897
+msgid "Your buddy image has been uploaded"
+msgstr ""
+
+#: ../src/gyach_int.c:117
+msgid "Send your text in Bold"
+msgstr ""
+
+#: ../src/htmlrender.c:792 ../src/htmlrender.c:793
+msgid " Hide "
+msgstr ""
+
+#: ../src/plugins.c:420 ../src/plugins.c:472 ../src/plugins.c:518
+msgid "No function named \"my_init\" defined in module."
+msgstr ""
+
+#: ../src/setupwindow2.c:1094
+msgid "Open separate windows for PM chats"
+msgstr ""
+
+#: ../src/interface.c:928
+msgid "Last Comment"
+msgstr ""
+
+#: ../src/interface.c:2219
+msgid "Invite User To Room"
+msgstr ""
+
+#: ../src/packet_handler.c:4168
+msgid "The user is hiding which game room they are in"
+msgstr ""
+
+#: ../src/setupwindow2.c:1623
+msgid "Show A Popup Window When:"
+msgstr ""
+
+#: ../src/gyach.c:1502 ../src/packet_handler.c:2964
+msgid "Current Room"
+msgstr ""
+
+#: ../src/interface.c:945
+msgid "Cmd Format #2"
+msgstr ""
+
+#: ../src/interface.c:944
+msgid "Cmd Format #1"
+msgstr ""
+
+#: ../src/friends.c:431
+msgid "RED"
+msgstr ""
+
+#: ../src/interface.c:799
+msgid "On  "
+msgstr ""
+
+#: ../src/interface.c:609 ../src/interface.c:2211 ../src/interface.c:2346
+#: ../src/trayicon.c:424
+msgid "Status"
+msgstr ""
+
+#: ../src/setupwindow2.c:920
+msgid "Females"
+msgstr ""
+
+#: ../src/setupwindow2.c:595
+msgid "Away Status:"
+msgstr ""
+
+#: ../src/friends.c:398
+msgid "Current Buddy List"
+msgstr ""
+
+#: ../src/setupwindow2.c:1116
+msgid "PM windows have scrollable typing area"
+msgstr ""
+
+#: ../src/roomlist.c:633 ../src/roomlist.c:852 ../src/roomui.c:165
+msgid "Loading Room List..."
+msgstr ""
+
+#: ../src/packet_handler.c:1799
+msgid "Would you like to allow this user to add you to their buddy list?"
+msgstr ""
+
+#: ../src/setupwindow2.c:1644 ../src/trayicon.c:615
+msgid "Options"
+msgstr ""
+
+#: ../src/htmlrender.c:477 ../src/htmlrender.c:764
+msgid "Automobiles"
+msgstr ""
+
+#: ../src/setupwindow2.c:1002
+msgid "Cache room list"
+msgstr ""
+
+#: ../src/callbacks.c:1707
+msgid "Edit Yahoo Login"
+msgstr ""
+
+#: ../src/packet_handler.c:4463
+msgid "A user has sent you their personal contact information.  Please check the window named 'Chat'."
+msgstr ""
+
+#: ../src/packet_handler.c:6424
+msgid "Has cancelled the Game Invitation"
+msgstr ""
+
+#: ../src/profname.c:398 ../src/profname.c:399
+msgid "Deactivate ID"
+msgstr ""
+
+#: ../src/gyach_int.c:149
+msgid "Select Color"
+msgstr ""
+
+#: ../src/plugins/gyach-photos.c:1754
+msgid "Previous picture"
+msgstr ""
+
+#: ../src/packet_handler.c:2598
+msgid "Chat Error: You are not currently in a chat room."
+msgstr ""
+
+#: ../src/htmlrender.c:469 ../src/htmlrender.c:763
+msgid "Community Service"
+msgstr ""
+
+#: ../src/setupwindow2.c:1587
+msgid "Opera"
+msgstr ""
+
+#: ../src/friends.c:1066
+msgid "has been removed from your TEMPORARY buddy list"
+msgstr ""
+
+#: ../src/setupwindow2.c:545
+msgid "Fonts"
+msgstr ""
+
+#: ../src/roomui.c:114 ../src/roomui.c:115
+msgid " Reload "
+msgstr ""
+
+#: ../src/roomui.c:342
+msgid "Room Topic:"
+msgstr ""
+
+#: ../src/interface.c:247 ../src/webcam/gyachewebcam.c:821
+#: ../src/webcam/pywebcam.py:698 ../src/webcam/pywebcam.py:699
+#: ../src/webcam/pywebcam.py:700 ../src/webcam/pywebcam.py:701
+#: ../src/webcam/pywebcam.py:702 ../src/webcam/pywebcam.py:703
+#: ../src/webcam/pywebcam.py:704 ../src/webcam/gyacheupload-ui.c:1232
+msgid "Connection"
+msgstr ""
+
+#: ../src/interface.c:1901
+msgid "Emote Name:"
+msgstr ""
+
+#: ../src/setupwindow2.c:1042
+msgid "Buttons shown on PM windows:"
+msgstr ""
+
+#: ../src/voice_chat.c:166 ../src/voice_chat.c:206
+msgid "Voice chat has been enabled.  Start pY! Voice Chat."
+msgstr ""
+
+#: ../src/packet_handler.c:3071 ../src/packet_handler.c:3078
+msgid "Members in this room"
+msgstr ""
+
+#: ../src/interface.c:4087 ../src/interface.c:4088
+msgid "Delete All Avatars"
+msgstr ""
+
+#: ../src/interface.c:380 ../src/pmwindow.c:953
+msgid " Start My Webcam... "
+msgstr ""
+
+#: ../src/roomui.c:295
+msgid "Create in Category:"
+msgstr ""
+
+#: ../src/setupwindow2.c:1634
+msgid "A user buzzes me"
+msgstr ""
+
+#: ../src/users.c:1484
+msgid "Marital Status"
+msgstr ""
+
+#: ../src/setupwindow2.c:1234 ../src/trayicon.c:574
+msgid "Do not accept any sent files"
+msgstr ""
+
+#: ../src/webcam/gyacheupload-ui.c:1305
+msgid "Automatically Deny All Except Friends"
+msgstr ""
+
+#: ../src/interface.c:1365 ../src/pmwindow.c:869 ../src/pmwindow.c:872
+msgid " Profile "
+msgstr ""
+
+#: ../src/packet_handler.c:3928 ../src/packet_handler.c:3999
+#: ../src/packet_handler.c:5322 ../src/packet_handler.c:5333
+#: ../src/packet_handler.c:5343 ../src/packet_handler.c:5352
+msgid "LOGIN FAILED!"
+msgstr ""
+
+#: ../src/interface.c:3698
+msgid "Permanently Offline"
+msgstr ""
+
+#: ../src/htmlrender.c:429 ../src/htmlrender.c:777
+msgid "Horoscope - Virgo"
+msgstr ""
+
+#: ../src/ignore.c:712
+msgid ""
+"Edit your list of permenantly ignored users.\n"
+"This list is stored on Yahoo's servers,\n"
+"separate from Gyach Enhanced's local ignore list."
+msgstr ""
+
+#: ../src/packet_handler.c:5916
+msgid "Please check the window named 'Chat'."
+msgstr ""
+
+#: ../src/setupwindow2.c:1226
+msgid "Privacy and Security:"
+msgstr ""
+
+#: ../src/interface.c:702
+msgid "Yahoo News Alerts"
+msgstr ""
+
+#: ../src/htmlrender.c:464 ../src/htmlrender.c:729
+msgid "Currency Rates"
+msgstr ""
+
+#: ../src/commands.c:447
+msgid "Auto-Away timer set to"
+msgstr ""
+
+#: ../src/yahoochat.c:1408
+msgid "File is too large"
+msgstr ""
+
+#: ../src/setupwindow2.c:886
+msgid "Send Avatar:"
+msgstr ""
+
+#: ../src/interface.c:283
+msgid " Find Text... "
+msgstr ""
+
+#: ../src/users.c:1400 ../src/users.c:1413
+msgid "You will need to view this profile with your web browser."
+msgstr ""
+
+#: ../src/packet_handler.c:2058
+msgid "Setting status to Online..."
+msgstr ""
+
+#: ../src/conference.c:1317
+msgid "You have left the conference."
+msgstr ""
+
+#: ../src/roomui.c:363
+msgid "Enable Voice in Room"
+msgstr ""
+
+#: ../src/webcam/gyacheupload-ui.c:959
+msgid "Contrast:"
+msgstr ""
+
+#: ../src/htmlrender.c:458 ../src/htmlrender.c:732
+msgid "Movie Showtimes"
+msgstr ""
+
+#: ../src/htmlrender.c:466 ../src/htmlrender.c:745
+msgid "Notepad"
+msgstr ""
+
+#: ../src/setupwindow2.c:1212
+msgid ""
+"Messages &\n"
+"Personal"
+msgstr ""
+
+#: ../src/setupwindow2.c:1124 ../src/trayicon.c:665
+msgid "Enable TUXVironments"
+msgstr ""
+
+#: ../src/webcam/gyachewebcam.c:690
+msgid "Webcam Viewer"
+msgstr ""
+
+#: ../src/setupwindow2.c:629
+msgid "Be right back"
+msgstr ""
+
+#: ../src/plugins/gyach-photos.c:1763
+msgid "Next picture"
+msgstr ""
+
+#: ../src/webcam/gyachewebcam.c:103 ../src/webcam/pywebcam.py:669
+msgid "Not Connected"
+msgstr ""
+
+#: ../src/interface.c:2712 ../src/trayicon.c:956 ../src/trayicon.c:1000
+#: ../src/trayicon.c:1016
+msgid "Friends"
+msgstr ""
+
+#: ../src/yab.c:1195
+msgid "Alt. E-mail:"
+msgstr ""
+
+#: ../src/interface.c:442 ../src/trayicon.c:606
+msgid " Temporary Friends... "
+msgstr ""
+
+#: ../src/packet_handler.c:3504
+msgid "Private Message Error"
+msgstr ""
+
+#: ../src/yahoochat.c:1389
+msgid "File does not exist"
+msgstr ""
+
+#: ../src/callbacks.c:721
+msgid "Invalid Port."
+msgstr ""
+
+#: ../src/interface.c:659 ../src/trayicon.c:480
+msgid "Out To Lunch"
+msgstr ""
+
+#: ../src/interface.c:541 ../src/interface.c:2381 ../src/trayicon.c:700
+msgid " Join Chat Room... "
+msgstr ""
+
+#: ../src/commands.c:795
+msgid "Last users to leave the room"
+msgstr ""
+
+#: ../src/commands.c:234
+msgid "You can't follow yourself."
+msgstr ""
+
+#: ../src/plugins/gyach-photos.c:2014
+msgid "has invited you to view a photo album. Would you like to accept the invitation?"
+msgstr ""
+
+#: ../src/users.c:204 ../src/users.c:561 ../src/packet_handler.c:3331
+msgid "Sex: Female"
+msgstr ""
+
+#: ../src/interface.c:926
+msgid "Alias"
+msgstr ""
+
+#: ../src/plugins/gyach-photos.c:2113
+msgid " Browse My Photo Albums... "
+msgstr ""
+
+#: ../src/yab.c:1414 ../src/plugins/gyach-photos.c:1519
+msgid "File successfully saved."
+msgstr ""
+
+#: ../src/commands.c:447
+msgid "minute(s)"
+msgstr ""
+
+#: ../src/yab.c:1501 ../src/yab.c:1502 ../src/yab.c:1772 ../src/yab.c:1773
+msgid "Save As..."
+msgstr ""
+
+#: ../src/setupwindow2.c:1466
+msgid "Proxy Server: "
+msgstr ""
+
+#: ../src/yab.c:1763 ../src/yab.c:1764
+msgid "View"
+msgstr ""
+
+#: ../src/yab.c:1205 ../src/yab.c:1282
+msgid "Website:"
+msgstr ""
+
+#: ../src/packet_handler.c:2334
+msgid "WEBCAM"
+msgstr ""
+
+#: ../src/conference.c:160
+msgid "Create a Conference"
+msgstr ""
+
+#: ../src/roomlist.c:682
+msgid "Yahoo Rooms"
+msgstr ""
+
+#: ../src/interface.c:465 ../src/interface.c:4043 ../src/interface.c:4044
+msgid "Edit / Create Avatar..."
+msgstr ""
+
+#: ../src/interface.c:1579 ../src/pmwindow.c:1199
+msgid "Username: "
+msgstr ""
+
+#: ../src/roomlist.c:807
+msgid "Retrieving Room List..."
+msgstr ""
+
+#: ../src/setupwindow2.c:511
+msgid "Webcam Device:"
+msgstr ""
+
+#: ../src/callbacks.c:747
+msgid ""
+"The following server uses the 'web login'\n"
+"connection method (Java Chat):"
+msgstr ""
+
+#: ../src/htmlrender.c:484 ../src/htmlrender.c:757
+msgid "Parenting Tips"
+msgstr ""
+
+#: ../src/webcam/gyacheupload-ui.c:936
+msgid "Apply"
+msgstr ""
+
+#: ../src/callbacks.c:4754
+msgid "Identities"
+msgstr ""
+
+#: ../src/setupwindow2.c:1240
+msgid "Enable basic boot prevention"
+msgstr ""
+
+#: ../src/callbacks.c:1590
+msgid "Add Yahoo Login:"
+msgstr ""
+
+#: ../src/profname.c:381
+msgid "You cannot activate or deactivate IDs while you are invisible."
+msgstr ""
+
+#: ../src/pmwindow.c:574
+msgid "Hide"
+msgstr ""
+
+#: ../src/packet_handler.c:4800 ../src/packet_handler.c:4809
+msgid "Invisible - Stealth Settings"
+msgstr ""
+
+#: ../src/webcam/gyachewebcam.c:332 ../src/webcam/gyachewebcam.c:344
+#: ../src/webcam/gyachewebcam.c:351 ../src/webcam/gyacheupload-ui.c:466
+#: ../src/webcam/gyacheupload-ui.c:478 ../src/webcam/gyacheupload-ui.c:485
+msgid "Could not connect to webcam host"
+msgstr ""
+
+#: ../src/callbacks.c:1588
+msgid "Add User To Ignore:"
+msgstr ""
+
+#: ../src/packet_handler.c:4912 ../src/packet_handler.c:4924
+msgid "You have been invited to"
+msgstr ""
+
+#: ../src/webcam/gyacheupload-ui.c:925 ../src/webcam/gyacheupload-ui.c:933
+msgid "GYach Enhanced: Camera Properties"
+msgstr ""
+
+#: ../src/packet_handler.c:2977
+msgid "You are now in"
+msgstr ""
+
+#: ../src/plugins/gyach-photos.c:1736
+msgid "View large-sized image"
+msgstr ""
+
+#: ../src/setupwindow2.c:668
+msgid "Blue"
+msgstr ""
+
+#: ../src/htmlrender.c:480 ../src/htmlrender.c:756
+msgid "Tips"
+msgstr ""
+
+#: ../src/setupwindow2.c:880 ../src/trayicon.c:670
+msgid "Show Avatars"
+msgstr ""
+
+#: ../src/setupwindow2.c:1231 ../src/trayicon.c:566
+msgid ""
+"Do not allow anyone who\n"
+"is not a friend to add me\n"
+"to their friend's list"
+msgstr ""
+
+#: ../src/packet_handler.c:1721
+msgid "has sent you a voice chat invitation."
+msgstr ""
+
+#: ../src/setupwindow2.c:459 ../src/trayicon.c:646
+msgid "Show animated smileys"
+msgstr ""
+
+#: ../src/tuxvironments.c:207
+msgid "TUXVironment loaded"
+msgstr ""
+
+#: ../src/packet_handler.c:4795
+msgid "The user used Stealth settings to be invisible."
+msgstr ""
+
+#: ../src/setupwindow2.c:1273
+msgid "Spam Protection:"
+msgstr ""
+
+#: ../src/interface.c:1425
+msgid " Un-Ignore "
+msgstr ""
+
+#: ../src/yab.c:1190
+msgid "Other #:"
+msgstr ""
+
+#: ../src/yab.c:1510 ../src/yab.c:1511
+msgid "Save Changes"
+msgstr ""
+
+#: ../src/interface.c:619 ../src/callbacks.c:4100 ../src/trayicon.c:432
+msgid "Here"
+msgstr ""
+
+#: ../src/users.c:471 ../src/packet_handler.c:3353
+msgid "Cam: ?"
+msgstr ""
+
+#: ../src/setupwindow2.c:744
+msgid "Effects"
+msgstr ""
+
+#: ../src/yab.c:1320
+msgid "Comments #4:"
+msgstr ""
+
+#: ../src/webcam/gyachewebcam.c:136 ../src/webcam/pywebcam.py:274
+msgid "The user has denied you viewing permission."
+msgstr ""
+
+#: ../src/packet_handler.c:5690
+msgid "Warning: You will probably be unable to download this peer-to-peer file.  GYach Enhanced will instruct Yahoo! to re-send you the file using the File Transfer system instead.  The re-sent file arrive within a few minutes, depending on the file size."
+msgstr ""
+
+#: ../src/yab.c:1290
+msgid "Birthday:"
+msgstr ""
+
+#: ../src/interface.c:654 ../src/trayicon.c:474
+msgid "On Vacation"
+msgstr ""
+
+#: ../src/interface.c:3872
+msgid "Allow users to see when I am in Games."
+msgstr ""
+
+#: ../src/setupwindow2.c:736
+msgid ""
+"This font is used for the chat and PM\n"
+"messages you send to other users."
+msgstr ""
+
+#: ../src/interface.c:567 ../src/interface.c:2387 ../src/interface.c:3456
+#: ../src/pmwindow.c:968
+msgid "Invite User to Room or Conference..."
+msgstr ""
+
+#: ../src/packet_handler.c:6313
+msgid "attempted to start an encrypted instant messaging session"
+msgstr ""
+
+#: ../src/setupwindow2.c:1435
+msgid "Connection Options:"
+msgstr ""
+
+#: ../src/setupwindow2.c:1084 ../src/trayicon.c:633
+msgid "Enable Audibles"
+msgstr ""
+
+#: ../src/setupwindow2.c:453 ../src/trayicon.c:641
+msgid "Show smileys"
+msgstr ""
+
+#: ../src/plugins.c:215
+msgid "Loaded plugins"
+msgstr ""
+
+#: ../src/ignore.c:706
+msgid ""
+"Edit the list of flooders/booters.\n"
+"A user is designated as a Flooder\n"
+"if it appears they are trying to harass you\n"
+"or boot you, and significant steps are taken\n"
+"to reduce their ability to communicate\n"
+"with you. You may remove users from this list."
+msgstr ""
+
+#: ../src/htmlrender.c:476 ../src/htmlrender.c:750
+msgid "Allergy Watch"
+msgstr ""
+
+#: ../src/packet_handler.c:409 ../src/packet_handler.c:6874
+msgid "Your buddy image has been offered to the user."
+msgstr ""
+
+#: ../src/setupwindow2.c:1527
+msgid "Save Settings Options:"
+msgstr ""
+
+#: ../src/conference.c:242 ../src/conference.c:296 ../src/conference.c:297
+#: ../src/ignore.c:754 ../src/ignore.c:755 ../src/fader.c:1524
+msgid "Add"
+msgstr ""
+
+#: ../src/setupwindow2.c:679
+msgid "Yellow"
+msgstr ""
+
+#: ../src/packet_handler.c:2933
+msgid "The chat room is full. Please try again later."
+msgstr ""
+
+#: ../src/webcam/gyacheupload-ui.c:132
+msgid "Broadcasting  [Paused]"
+msgstr ""
+
+#: ../src/setupwindow2.c:1009
+msgid ""
+"Chat &\n"
+"Conferences"
+msgstr ""
+
+#: ../src/callbacks.c:1699
+msgid "Edit Friend"
+msgstr ""
+
+#: ../src/ignore.c:685
+msgid "Temporary Friends List"
+msgstr ""
+
+#: ../src/plugins.c:241
+msgid "Plugin Loaded"
+msgstr ""
+
+#: ../src/setupwindow2.c:1323
+msgid "Auto-Mute"
+msgstr ""
+
+#: ../src/packet_handler.c:1588 ../src/packet_handler.c:1591
+msgid "The user is not currently in a chat room."
+msgstr ""
+
+#: ../src/packet_handler.c:1698
+msgid "Voice chat will be disabled in any other rooms or conferences."
+msgstr ""
+
+#: ../src/packet_handler.c:5197 ../src/packet_handler.c:5453
+msgid "Invisible Buddy"
+msgstr ""
+
+#: ../src/pmwindow.c:393
+msgid "The session is already using this encryption."
+msgstr ""
+
+#: ../src/callbacks.c:749
+msgid ""
+"This is an experimental, backup connection method,\n"
+"supporting only chat rooms. This server\n"
+"does not allow you to login as invisible, use conferences\n"
+", change your away status, view webcams, or add/remove\n"
+"buddies on your buddy list. Several other major\n"
+"features may also be unavailable. Continue?"
+msgstr ""
+
+#: ../src/setupwindow2.c:1412
+msgid "First Post is a URL"
+msgstr ""
+
+#: ../src/setupwindow2.c:1597
+msgid "Flash Player Command: "
+msgstr ""
+
+#: ../src/htmlrender.c:450 ../src/htmlrender.c:724
+msgid "Sports"
+msgstr ""
+
+#: ../src/yahoochat.c:280 ../src/yahoochat.c:306
+msgid "You have been disconnected from Yahoo!"
+msgstr ""
+
+#: ../src/conference.c:1821
+msgid "You have been invited to the conference"
+msgstr ""
+
+#: ../src/packet_handler.c:1574 ../src/packet_handler.c:1575
+msgid "Could not login: Connection timed out."
+msgstr ""
+
+#: ../src/htmlrender.c:470 ../src/htmlrender.c:721
+msgid "RSS Newsfeeds"
+msgstr ""
+
+#: ../src/setupwindow2.c:535
+msgid "Show the following from other users:"
+msgstr ""
+
+#: ../src/packet_handler.c:3536
+msgid "The user is currently IDLE and might not receive your message."
+msgstr ""
+
+#: ../src/plugins/gyach-photos.c:1745
+msgid "Save"
+msgstr ""
+
+#: ../src/webcam/main.c:67 ../src/webcam/gyacheupload-main.c:78
+msgid "You have been disconnected from the Yahoo webcam server."
+msgstr ""
+
+#: ../src/htmlrender.c:808 ../src/htmlrender.c:809
+msgid " Edit My Yahoo! "
+msgstr ""
+
+#: ../src/pmwindow.c:328 ../src/packet_handler.c:6226
+#: ../src/packet_handler.c:6249 ../src/packet_handler.c:6313
+msgid "Encrypted session stopped."
+msgstr ""
+
+#: ../src/setupwindow2.c:1087
+msgid "Enable Web Searches"
+msgstr ""
+
+#: ../src/interface.c:4064 ../src/pmwindow.c:587
+msgid "Medium"
+msgstr ""
+
+#: ../src/setupwindow2.c:1050
+msgid "Private Message Options:"
+msgstr ""
+
+#: ../src/conference.c:219
+msgid "Recipients"
+msgstr ""
+
+#: ../src/setupwindow2.c:996
+msgid ""
+"Auto-close room list\n"
+"window when joining"
+msgstr ""
+
+#: ../src/setupwindow2.c:820
+msgid "Force text to lowercase"
+msgstr ""
+
+#: ../src/packet_handler.c:5010 ../src/packet_handler.c:5666
+msgid "Ignored file sent from"
+msgstr ""
+
+#: ../src/packet_handler.c:6715 ../src/packet_handler.c:6784
+msgid "Your avatar has been updated."
+msgstr ""
+
+#: ../src/plugins/gyach-photos.c:1935
+msgid "has declined the invitation to view your photo album."
+msgstr ""
+
+#: ../src/conference.c:207
+msgid ""
+"Select friends from the list on the left and click \"Add\" to invite them to your\n"
+"conference. To add somebody who is not on the list, type his or her Yahoo!\n"
+"ID in the box and click \"Add\"."
+msgstr ""
+
+#: ../src/webcam/gyachewebcam.c:100 ../src/webcam/pywebcam.py:671
+msgid "Connected"
+msgstr ""
+
+#: ../src/htmlrender.c:504 ../src/htmlrender.c:731
+msgid "TV Guide"
+msgstr ""
+
+#: ../src/setupwindow2.c:689
+msgid "Cyan"
+msgstr ""
+
+#: ../src/yab.c:1238
+msgid "Company:"
+msgstr ""
+
+#: ../src/setupwindow2.c:1037 ../src/yab.c:1458
+msgid "Contact Information:"
+msgstr ""
+
+#: ../src/setupwindow2.c:1581
+msgid "Netscape"
+msgstr ""
+
+#: ../src/packet_handler.c:4903
+msgid "None"
+msgstr ""
+
+#: ../src/webcam/gyacheupload-ui.c:1297
+msgid "Automatically Allow All Friends To View"
+msgstr ""
+
+#: ../src/interface.c:490
+msgid " Yahoo! Games "
+msgstr ""
+
+#: ../src/setupwindow2.c:491
+msgid "Webcam Viewer:"
+msgstr ""
+
+#: ../src/yab.c:1547
+msgid "Work"
+msgstr ""
+
+#: ../src/packet_handler.c:3232 ../src/packet_handler.c:3250
+msgid "has entered"
+msgstr ""
+
+#: ../src/callbacks.c:427 ../src/callbacks.c:1461
+msgid "The following room has been added to your favorites list"
+msgstr ""
+
+#: ../src/webcam/gyacheupload-ui.c:1336
+msgid "About GYach-E Webcam Broadcaster..."
+msgstr ""
+
+#: ../src/setupwindow2.c:1637
+msgid "New mail arrives"
+msgstr ""
+
+#: ../src/interface.c:1667 ../src/interface.c:1669
+msgid " Login "
+msgstr ""
+
+#: ../src/setupwindow2.c:1615 ../src/setupwindow2.c:1615
+msgid "The Flash player command allows you to view  such things as avatar animations. Suggested commands are 'gflashplayer' and 'swf_play'."
+msgstr ""
+
+#: ../src/conference.c:248 ../src/setupwindow2.c:111 ../src/setupwindow2.c:111
+#: ../src/setupwindow2.c:2000 ../src/ignore.c:734 ../src/ignore.c:736
+#: ../src/fader.c:1534 ../src/fader.c:1536 ../src/yab.c:1778 ../src/yab.c:1779
+msgid "Delete"
+msgstr ""
+
+#: ../src/packet_handler.c:6732
+msgid "The user has deleted their avatar."
+msgstr ""
+
+#: ../src/setupwindow2.c:578 ../src/setupwindow2.c:1545
+msgid "Miscellaneous Options:"
+msgstr ""
+
+#: ../src/setupwindow2.c:1590
+msgid "Konquerer"
+msgstr ""
+
+#: ../src/packet_handler.c:1988
+msgid "has been removed from your buddy list"
+msgstr ""
+
+#: ../src/fader.c:1548
+msgid "Style:"
+msgstr ""
+
+#: ../src/interface.c:3830
+msgid "Your account has been temporarily locked due to too many failed login attempts. Please type the word shown below to unlock your account:"
+msgstr ""
+
+#: ../src/webcam/gyacheupload-ui.c:1107
+msgid "NO"
+msgstr ""
+
+#: ../src/users.c:540 ../src/packet_handler.c:3304
+msgid "Location: "
+msgstr ""
+
+#: ../src/htmlrender.c:460 ../src/htmlrender.c:769
+msgid "My Horoscope"
+msgstr ""
+
+#: ../src/setupwindow2.c:1191 ../src/yab.c:1165 ../src/yab.c:1255
+msgid "Work #:"
+msgstr ""
+
+#: ../src/interface.c:624 ../src/trayicon.c:438
+msgid "Be Right Back"
+msgstr ""
+
+#: ../src/interface.c:2478 ../src/callbacks.c:4721
+#: ../src/packet_handler.c:2340
+msgid "Chat"
+msgstr ""
+
+#: ../src/callbacks.c:539
+msgid "QUICK PROFILE"
+msgstr ""
+
+#: ../src/yab.c:1785 ../src/yab.c:1786
+msgid "IM"
+msgstr ""
+
+#: ../src/htmlrender.c:452 ../src/htmlrender.c:743
+msgid "Bookmarks"
+msgstr ""
+
+#: ../src/users.c:1485
+msgid "Occupation"
+msgstr ""
+
+#: ../src/pmwindow.c:798 ../src/pmwindow.c:801
+msgid " Audibles "
+msgstr ""
+
+#: ../src/packet_handler.c:4267
+msgid "Ignored webcam invitation acceptance message from"
+msgstr ""
+
+#: ../src/setupwindow2.c:520
+msgid "Enable Tray Icon"
+msgstr ""
+
+#: ../src/setupwindow2.c:923
+msgid "Unknown Gender"
+msgstr ""
+
+#: ../src/setupwindow2.c:894 ../src/setupwindow2.c:894
+#: ../src/setupwindow2.c:895 ../src/setupwindow2.c:895
+msgid "CheetaChat Avatars"
+msgstr ""
+
+#: ../src/packet_handler.c:5911 ../src/packet_handler.c:5916
+msgid "You should check your Yahoo Calendar"
+msgstr ""
+
+#: ../src/setupwindow2.c:658
+msgid "Black"
+msgstr ""
+
+#: ../src/callbacks.c:4687 ../src/callbacks.c:4688 ../src/callbacks.c:4689
+msgid "The user is not in a game room."
+msgstr ""
+
+#: ../src/packet_handler.c:7146
+msgid "The user has declined to view your buddy image or is refusing to send their own."
+msgstr ""
+
+#: ../src/packet_handler.c:2900
+msgid "has left"
+msgstr ""
+
+#: ../src/users.c:1491
+msgid "Favorite Quote"
+msgstr ""
+
+#: ../src/packet_handler.c:7166
+msgid "Your buddy image has been sent."
+msgstr ""
+
+#: ../src/setupwindow2.c:1440
+msgid "Packet debugging"
+msgstr ""
+
+#: ../src/packet_handler.c:4730
+msgid "The user is still in Yahoo! Games. (invisible)"
+msgstr ""
+
+#: ../src/setupwindow2.c:1243
+msgid ""
+"Advanced boot prevention -\n"
+"pre-emptive strikes against\n"
+"users trying to boot me"
+msgstr ""
+
+#: ../src/packet_handler.c:6249
+msgid "does not have support for the requested encryption."
+msgstr ""
+
+#: ../src/setupwindow2.c:1584
+msgid "Mozilla"
+msgstr ""
+
+#: ../src/packet_handler.c:1900 ../src/packet_handler.c:1903
+#: ../src/packet_handler.c:5334 ../src/packet_handler.c:5375
+#: ../src/packet_handler.c:5377
+msgid "Invalid User."
+msgstr ""
+
+#: ../src/setupwindow2.c:1306
+msgid "Auto-Ignore/Auto-Mute Triggers:"
+msgstr ""
+
+#: ../src/packet_handler.c:5590
+msgid "has stopped trying to view your shared files (peer-to-peer)."
+msgstr ""
+
+#: ../src/packet_handler.c:942
+msgid "is now visible"
+msgstr ""
+
+#: ../src/friends.c:228
+msgid "could not be removed from your buddy list."
+msgstr ""
+
+#: ../src/ignore.c:682
+msgid "Yahoo Ignore List"
+msgstr ""
+
+#: ../src/users.c:1480
+msgid "Nickname"
+msgstr ""
+
+#: ../src/callbacks.c:1703
+msgid "Edit Ignored User"
+msgstr ""
+
+#: ../src/htmlrender.c:432 ../src/htmlrender.c:780
+msgid "Horoscope - Sagittarius"
+msgstr ""
+
+#: ../src/yab.c:1849
+msgid "Address Book"
+msgstr ""
+
+#: ../src/callbacks.c:3950 ../src/conference.c:1176
+#: ../src/packet_handler.c:3040
+msgid "Enabled"
+msgstr ""
+
+#: ../src/interface.c:1596
+msgid "Room: "
+msgstr ""
+
+#: ../src/interface.c:339 ../src/interface.c:3372
+msgid " View Game Scores... "
+msgstr ""
+
+#: ../src/setupwindow2.c:846
+msgid "Transparent Background (EXPERIMENTAL)"
+msgstr ""
+
+#: ../src/htmlrender.c:804
+msgid "Zoom Out"
+msgstr ""
+
+#: ../src/setupwindow2.c:812
+msgid "Chat Text Display:"
+msgstr ""
+
+#: ../src/packet_handler.c:4445
+msgid "CONTACT INFORMATION"
+msgstr ""
+
+#: ../src/interface.c:1875
+msgid "Edit Emote"
+msgstr ""
+
+#: ../src/setupwindow2.c:612
+msgid "Auto-away timer  (in minutes)"
+msgstr ""
+
+#: ../src/interface.c:3005
+msgid "Select A File"
+msgstr ""
+
+#: ../src/callbacks.c:435
+msgid "You cannot add a conference room to your favorites list"
+msgstr ""
+
+#: ../src/setupwindow2.c:784
+msgid ""
+"Apply this font to the buddy list and address book\n"
+"(Disabling requires the program to be restarted.)"
+msgstr ""
+
+#: ../src/callbacks.c:1586
+msgid "Add Ignore Regex:"
+msgstr ""
+
+#: ../src/packet_handler.c:5323
+msgid "INCORRECT PASSWORD"
+msgstr ""
+
+#: ../src/roomui.c:185 ../src/roomui.c:190 ../src/roomui.c:514
+#: ../src/roomui.c:515
+msgid " Join Room "
+msgstr ""
+
+#: ../src/interface.c:2098 ../src/interface.c:2099
+msgid "Case Sensitive"
+msgstr ""
+
+#: ../src/setupwindow2.c:778
+msgid ""
+"This font is used for timestamps, informational messages,\n"
+"and as the default font for incoming messages."
+msgstr ""
+
+#: ../src/packet_handler.c:1485
+msgid "Online for"
+msgstr ""
+
+#: ../src/setupwindow2.c:1300
+msgid "Suppress multiple consecutive posts"
+msgstr ""
+
+#: ../src/packet_handler.c:2538 ../src/packet_handler.c:2543
+msgid "New mail from"
+msgstr ""
+
+#: ../src/interface.c:1379 ../src/pmwindow.c:1006
+msgid " Add As Temporary Friend "
+msgstr ""
+
+#: ../src/interface.c:255 ../src/trayicon.c:786
+#: ../src/webcam/gyachewebcam.c:836 ../src/webcam/pywebcam.py:701
+#: ../src/webcam/gyacheupload-ui.c:1259
+msgid "Connect"
+msgstr ""
+
+#: ../src/setupwindow2.c:764
+msgid ""
+"Message\n"
+"Font"
+msgstr ""
+
+#: ../src/interface.c:742
+msgid "Plugins"
+msgstr ""
+
+#: ../src/interface.c:3293 ../src/interface.c:3294 ../src/interface.c:3726
+#: ../src/interface.c:3728 ../src/interface.c:3804 ../src/interface.c:3805
+#: ../src/interface.c:3957 ../src/interface.c:3959 ../src/interface.c:4112
+#: ../src/interface.c:4113 ../src/conference.c:331 ../src/conference.c:332
+#: ../src/fader.c:1589 ../src/fader.c:1591 ../src/tuxvironments.c:359
+#: ../src/tuxvironments.c:360 ../src/yab.c:1592 ../src/yab.c:1593
+#: ../src/plugins/gyach-photos.c:1377 ../src/plugins/gyach-photos.c:1378
+msgid "Cancel"
+msgstr ""
+
+#: ../src/callbacks.c:3972 ../src/commands.c:182
+msgid "Denied buddy list privileges for"
+msgstr ""
+
+#: ../src/users.c:1483 ../src/roomui.c:68 ../src/roomui.c:98
+#: ../src/plugins.c:306
+msgid "Location"
+msgstr ""
+
+#: ../src/setupwindow2.c:977
+msgid "Filter Command:"
+msgstr ""
+
+#: ../src/callbacks.c:1701
+msgid "Edit Ignore Regex"
+msgstr ""
+
+#: ../src/setupwindow2.c:762 ../src/setupwindow2.c:791
+msgid "abcdefghijk ABCDEFGHIJK GYach Enhanced 1234567890"
+msgstr ""
+
+#: ../src/packet_handler.c:6641
+msgid "now sees you as offline"
+msgstr ""
+
+#: ../src/interface.c:1415 ../src/pmwindow.c:1048 ../src/pmwindow.c:1051
+msgid " Ignore "
+msgstr ""
+
+#: ../src/setupwindow2.c:477 ../src/trayicon.c:623
+msgid "Enable sound events"
+msgstr ""
+
+#: ../src/setupwindow2.c:1491
+msgid "Enable Messenger-6 features"
+msgstr ""
+
+#: ../src/setupwindow2.c:704
+msgid "Custom"
+msgstr ""
+
+#: ../src/profname.c:374
+msgid "You are logged in as"
+msgstr ""
+
+#: ../src/webcam/gyacheupload-ui.c:1347
+msgid "Unknown Camera"
+msgstr ""
+
+#: ../src/yab.c:1544
+msgid "Other"
+msgstr ""
+
+#: ../src/interface.c:2093
+msgid "Find:"
+msgstr ""
+
+#: ../src/packet_handler.c:4305
+msgid "Ignored webcam invitation decline message from"
+msgstr ""
+
+#: ../src/htmlrender.c:461 ../src/htmlrender.c:739
+msgid "My Briefcase"
+msgstr ""
+
+#: ../src/interface.c:2222
+msgid "Add Buddy..."
+msgstr ""
+
+#: ../src/yab.c:1180
+msgid "Fax #:"
+msgstr ""
+
+#: ../src/setupwindow2.c:1257 ../src/trayicon.c:540
+msgid "Friends/Buddies"
+msgstr ""
+
+#: ../src/packet_handler.c:942
+msgid "Invisible buddy"
+msgstr ""
+
+#: ../src/callbacks.c:482
+msgid "About GYach Enhanced"
+msgstr ""
+
+#: ../src/interface.c:1823
+msgid "Delete..."
+msgstr ""
+
+#: ../src/conference.c:1799 ../src/webcam/gyacheupload-ui.c:1445
+#: ../src/webcam/gyacheupload-ui.c:1499 ../src/webcam/gyacheupload-ui.c:1563
+msgid "Users"
+msgstr ""
+
+#: ../src/htmlrender.c:472 ../src/htmlrender.c:735
+msgid "New Video Releases"
+msgstr ""
+
+#: ../src/packet_handler.c:5344
+msgid "DUPLICATE YAHOO! SCREEN NAMES LOGGED IN"
+msgstr ""
+
+#: ../src/conference.c:226
+msgid "List of Friends Online"
+msgstr ""
+
+#: ../src/callbacks.c:4733
+msgid "SMS (Cell Phone)"
+msgstr ""
+
+#: ../src/htmlrender.c:475 ../src/htmlrender.c:727
+msgid "Stock Market Summary"
+msgstr ""
+
+#: ../src/packet_handler.c:1626
+msgid "The user did not receive your voice chat invitation because they are either unavailable or have their privacy settings configured to block you."
+msgstr ""
+
+#: ../src/interface.c:318 ../src/interface.c:1351 ../src/interface.c:2354
+#: ../src/conference.c:166 ../src/trayicon.c:752
+msgid " Instant Message "
+msgstr ""
+
+#: ../src/ignore.c:691
+msgid "GYach Enhanced Ignore List"
+msgstr ""
+
+#: ../src/roomui.c:333
+msgid "Room Name:"
+msgstr ""
+
+#: ../src/htmlrender.c:449 ../src/htmlrender.c:717
+msgid "Weather"
+msgstr ""
+
+#: ../src/packet_handler.c:4598
+msgid "You are no longer invisible"
+msgstr ""
+
+#: ../src/setupwindow2.c:663
+msgid "Red"
+msgstr ""
+
+#: ../src/packet_handler.c:6416
+msgid "Has accepted your Game Invitation"
+msgstr ""
+
+#: ../src/interface.c:669 ../src/friends.c:1147 ../src/packet_handler.c:925
+#: ../src/packet_handler.c:4660 ../src/packet_handler.c:4800
+#: ../src/packet_handler.c:4809 ../src/trayicon.c:492
+msgid "Invisible"
+msgstr ""
+
+#: ../src/interface.c:1441
+msgid " Do Not Auto-Mute "
+msgstr ""
+
+#: ../src/packet_handler.c:1850 ../src/packet_handler.c:1865
+msgid "has declined to be added to your buddy list."
+msgstr ""
+
+#: ../src/setupwindow2.c:1081
+msgid "Allow users to 'buzz' me"
+msgstr ""
+
+#: ../src/interface.c:3762 ../src/setupwindow2.c:1023
+msgid "Audibles"
+msgstr ""
+
+#: ../src/setupwindow2.c:1718
+msgid "Regex to Auto-ignore"
+msgstr ""
+
+#: ../src/packet_handler.c:3948 ../src/packet_handler.c:3956
+msgid "Instant Message from"
+msgstr ""
+
+#: ../src/setupwindow2.c:876
+msgid ""
+"Highlight my name in the list of\n"
+"chat room members"
+msgstr ""
+
+#: ../src/packet_handler.c:4498
+msgid " [TYPING]"
+msgstr ""
+
+#: ../src/interface.c:1653 ../src/interface.c:1656
+msgid "Login as invisible"
+msgstr ""
+
+#: ../src/setupwindow2.c:1694
+msgid ""
+"Accounts,\n"
+"Rooms,\n"
+"Friends"
+msgstr ""
+
+#: ../src/setupwindow2.c:1045
+msgid "(Changes affect new PM windows.)"
+msgstr ""
+
+#: ../src/plugins/gyach-photos.c:1672
+msgid "Yahoo Photos website"
+msgstr ""
+
+#: ../src/setupwindow2.c:1606
+msgid "MP3 Player Command: "
+msgstr ""
+
+#: ../src/setupwindow2.c:1488
+msgid "Activate my profile names"
+msgstr ""
+
+#: ../src/callbacks.c:4250
+msgid "Would you like to add this user to your buddy list?"
+msgstr ""
+
+#: ../src/interface.c:4082
+msgid "Show my avatar on friends' buddy lists"
+msgstr ""
+
+#: ../src/setupwindow2.c:1452
+msgid "Ping keepalive (time in minutes)"
+msgstr ""
+
+#: ../src/interface.c:395
+msgid "Show My Webcam Is On In Chat Rooms"
+msgstr ""
+
+#: ../src/interface.c:4037 ../src/interface.c:4038
+msgid "Refresh View"
+msgstr ""
+
+#: ../src/packet_handler.c:4428
+msgid "Ignored personal contact information from"
+msgstr ""
+
+#: ../src/packet_handler.c:6625
+msgid "now sees you as PERMANENTLY offline"
+msgstr ""
+
+#: ../src/interface.c:4060
+msgid "Display Image Size:"
+msgstr ""
+
+#: ../src/packet_handler.c:3700
+msgid "Ignored BUZZ from user"
+msgstr ""
+
+#: ../src/setupwindow2.c:926
+msgid "Users Under 18"
+msgstr ""
+
+#: ../src/yab.c:1215 ../src/yab.c:1262
+msgid "City:"
+msgstr ""
+
+#: ../src/commands.c:272
+msgid "Not currently following anyone."
+msgstr ""
+
+#: ../src/htmlrender.c:424 ../src/htmlrender.c:772
+msgid "Horoscope - Taurus"
+msgstr ""
+
+#: ../src/yahoochat.c:1409
+msgid "Maximum Allowed File Size"
+msgstr ""
+
+#: ../src/htmlrender.c:423 ../src/htmlrender.c:771
+msgid "Horoscope - Pisces"
+msgstr ""
+
+#: ../src/roomlist.c:768 ../src/callbacks.c:1496
+msgid "---- downloading list ----"
+msgstr ""
+
+#: ../src/htmlrender.c:490 ../src/htmlrender.c:760
+msgid "Word of the Day"
+msgstr ""
+
+#: ../src/interface.c:1621
+msgid "Server: "
+msgstr ""
+
+#: ../src/packet_handler.c:3875
+msgid "Ignored PM from Friend"
+msgstr ""
+
+#: ../src/interface.c:274
+msgid "Packet Debugging"
+msgstr ""
+
+#: ../src/interface.c:3659
+msgid "sees me as"
+msgstr ""
+
+#: ../src/ignore.c:709
+msgid ""
+"Edit Gyach Enhanced's list of ignored users.\n"
+"This list is stored locally on your computer."
+msgstr ""
+
+#: ../src/packet_handler.c:1240 ../src/packet_handler.c:1294
+#: ../src/packet_handler.c:1297
+msgid "has logged ON"
+msgstr ""
+
+#: ../src/interface.c:2210 ../src/packet_handler.c:1238
+#: ../src/packet_handler.c:4209 ../src/packet_handler.c:4716
+#: ../src/packet_handler.c:5129 ../src/packet_handler.c:5177
+msgid "Buddy"
+msgstr ""
+
+#: ../src/packet_handler.c:1530
+msgid "(Attempting to reconnect)"
+msgstr ""
+
+#: ../src/yahoochat.c:1642
+msgid "File successfully sent"
+msgstr ""
+
+#: ../src/setupwindow2.c:480 ../src/trayicon.c:676
+msgid "Show buddy list avatars"
+msgstr ""
+
+#: ../src/yab.c:780
+msgid "address book contacts loaded"
+msgstr ""
+
+#: ../src/callbacks.c:4671 ../src/callbacks.c:4672 ../src/callbacks.c:5203
+#: ../src/callbacks.c:5221
+msgid "The user has no avatar."
+msgstr ""
+
+#: ../src/users.c:199 ../src/users.c:552 ../src/packet_handler.c:3320
+msgid "Sex: Male"
+msgstr ""
+
+#: ../src/packet_handler.c:4844
+msgid "Could not send invitation"
+msgstr ""
+
+#: ../src/interface.c:970 ../src/interface.c:3156
+msgid "Colors & Emoticons"
+msgstr ""
+
+#: ../src/interface.c:4005
+msgid "Share my photo:"
+msgstr ""
+
+#: ../src/bootprevent.c:351 ../src/bootprevent.c:363
+msgid "is now designated as a FLOODER. This person is trying to BOOT you."
+msgstr ""
+
+#: ../src/htmlrender.c:487 ../src/htmlrender.c:752
+msgid "Ask the Doctor"
+msgstr ""
+
+#: ../src/webcam/gyacheupload-ui.c:1308
+msgid "Automatically Deny Anonymous Users"
+msgstr ""
+
+#: ../src/packet_handler.c:2505 ../src/packet_handler.c:2514
+#: ../src/packet_handler.c:2533
+msgid "You have"
+msgstr ""
+
+#: ../src/commands.c:244
+msgid "is not in this room.  User can not be followed."
+msgstr ""
+
+#: ../src/users.c:1482
+msgid "Sex"
+msgstr ""
+
+#: ../src/packet_handler.c:4946
+msgid "You have left the Yahoo chat area."
+msgstr ""
+
+#: ../src/interface.c:333 ../src/interface.c:2361 ../src/trayicon.c:760
+msgid " Get Profile... "
+msgstr ""
+
+#: ../src/interface.c:4094 ../src/interface.c:4095
+msgid "Delete All Buddy Images"
+msgstr ""
+
+#: ../src/packet_handler.c:6379
+msgid "Ignored Game Invitation from user"
+msgstr ""
+
+#: ../src/setupwindow2.c:684
+msgid "Purple"
+msgstr ""
+
+#: ../src/setupwindow2.c:404
+msgid "Support html tags"
+msgstr ""
+
+#: ../src/packet_handler.c:4887
+msgid "Ignored chat invitation from"
+msgstr ""
+
+#: ../src/callbacks.c:3947 ../src/conference.c:1173
+#: ../src/packet_handler.c:3036
+msgid "Voice Chat"
+msgstr ""
+
+#: ../src/callbacks.c:1645 ../src/callbacks.c:1793 ../src/callbacks.c:3551
+#: ../src/friends.c:322 ../src/ignore.c:998 ../src/ignore.c:1051
+msgid "This feature is not available when connected using the WEBCONNECT or YCHT servers."
+msgstr ""
+
+#: ../src/roomlist.c:644 ../src/roomlist.c:715 ../src/roomlist.c:844
+#: ../src/roomlist.c:860
+msgid "Could not load the room list"
+msgstr ""
+
+#: ../src/yab.c:1801 ../src/yab.c:1802
+msgid "Load"
+msgstr ""
+
+#: ../src/users.c:469 ../src/users.c:523 ../src/packet_handler.c:3284
+#: ../src/packet_handler.c:3299
+msgid "Age: ?, "
+msgstr ""
+
+#: ../src/interface.c:1587
+msgid "Password: "
+msgstr ""
+
+#: ../src/plugins/gyach-photos.c:1135 ../src/plugins/gyach-photos.c:1400
+msgid "The photo album could not be loaded."
+msgstr ""
+
+#: ../src/setupwindow2.c:1282 ../src/trayicon.c:558
+msgid "Enable spam protection (PM & Chat)"
+msgstr ""
+
+#: ../src/webcam/pywebcam.py:443
+msgid "Network connection failed."
+msgstr ""
+
+#: ../src/packet_handler.c:5500
+msgid "has disabled IMVironments"
+msgstr ""
+
+#: ../src/users.c:179 ../src/users.c:190
+msgid "Quick profile is not available."
+msgstr ""
+
+#: ../src/webcam/pywebcam.py:672
+msgid "Disconnected"
+msgstr ""
+
+#: ../src/setupwindow2.c:485
+msgid "Enable Webcam Features"
+msgstr ""
+
+#: ../src/yab.c:1200
+msgid "Alt. E-mail #2:"
+msgstr ""
+
+#: ../src/packet_handler.c:1483
+msgid "Disconnected from Yahoo!    See Ya!"
+msgstr ""
+
+#: ../src/setupwindow2.c:1476
+msgid "Proxy Port: "
+msgstr ""
+
+#: ../src/interface.c:4067 ../src/pmwindow.c:592
+msgid "Large"
+msgstr ""
+
+#: ../src/plugins/gyach-photos.c:1805
+msgid "For security reasons, sharing a Yahoo photo album is restricted to users who are friends or temporary friends."
+msgstr ""
+
+#: ../src/callbacks.c:2549
+msgid "Are you sure you want to ignore this and close this window?"
+msgstr ""
+
+#: ../src/htmlrender.c:467 ../src/htmlrender.c:748
+msgid "Fitness"
+msgstr ""
+
+#: ../src/setupwindow2.c:1288
+msgid "Auto-Ignore/Auto-Mute Rules:"
+msgstr ""
+
+#: ../src/htmlrender.c:489 ../src/htmlrender.c:751
+msgid "Asthma Watch"
+msgstr ""
+
+#: ../src/pmwindow.c:326 ../src/pmwindow.c:409 ../src/tuxvironments.c:171
+#: ../src/tuxvironments.c:282 ../src/tuxvironments.c:343
+msgid "[NONE]"
+msgstr ""
+
+#: ../src/interface.c:695 ../src/trayicon.c:519
+msgid "New Custom Message..."
+msgstr ""
+
+#: ../src/packet_handler.c:1958
+msgid "has been added to your buddy list"
+msgstr ""
+
+#: ../src/interface.c:4055
+msgid "Show display images in IM windows"
+msgstr ""
+
+#: ../src/packet_handler.c:4854
+msgid "User has been invited to"
+msgstr ""
+
+#: ../src/interface.c:712 ../src/interface.c:725
+#: ../src/webcam/gyachewebcam.c:865 ../src/webcam/pywebcam.py:705
+#: ../src/webcam/pywebcam.py:706 ../src/webcam/gyacheupload-ui.c:1328
+msgid "Help"
+msgstr ""
+
+#: ../src/interface.c:989 ../src/interface.c:992 ../src/interface.c:2112
+#: ../src/interface.c:2113 ../src/pmwindow.c:858 ../src/pmwindow.c:861
+msgid " Clear "
+msgstr ""
+
+#: ../src/packet_handler.c:5051 ../src/packet_handler.c:5690
+msgid "bytes"
+msgstr ""
+
+#: ../src/packet_handler.c:3045
+msgid "Disabled"
+msgstr ""
+
+#: ../src/yab.c:1315
+msgid "Comments #3:"
+msgstr ""
+
+#: ../src/conference.c:205
+msgid ""
+"You can send short instant messages to up to 8 users at once.\n"
+"Select friends from the list on the left and click \"Add\" to add them to the\n"
+"list of recipients. To add somebody who is not on the list, type his or her Yahoo!\n"
+"ID in the box and click \"Add\"."
+msgstr ""
+
+#: ../src/webcam/main.c:142 ../src/webcam/pywebcam.py:670
+#: ../src/webcam/gyacheupload-ui.c:128
+msgid "Connecting..."
+msgstr ""
+
+#: ../src/profname.c:395 ../src/profname.c:396
+msgid "Activate ID"
+msgstr ""
+
+#: ../src/interface.c:1815 ../src/fader.c:1530 ../src/fader.c:1532
+msgid "Edit..."
+msgstr ""
+
+#: ../src/webcam/gyacheupload-ui.c:1104
+msgid "YES"
+msgstr ""
+
+#: ../src/interface.c:344 ../src/interface.c:3420
+msgid " Send My Contact Information... "
+msgstr ""
+
+#: ../src/friends.c:248
+msgid "could not be added to your buddy list."
+msgstr ""
+
+#: ../src/gyach.c:1508
+msgid "ignored"
+msgstr ""
+
+#: ../src/interface.c:748
+msgid "Y! Links"
+msgstr ""
+
+#: ../src/callbacks.c:3920 ../src/packet_handler.c:1689
+msgid "has enabled voice chat."
+msgstr ""
+
+#: ../src/interface.c:1807 ../src/conference.c:319 ../src/conference.c:320
+msgid "Send"
+msgstr ""
+
+#: ../src/interface.c:1435
+msgid " Un-Mute "
+msgstr ""
+
+#: ../src/interface.c:460 ../src/pmwindow.c:541
+msgid "Edit My Display Image..."
+msgstr ""
+
+#: ../src/packet_handler.c:6677
+msgid "You are now sharing your buddy list avatar."
+msgstr ""
+
+#: ../src/users.c:1478
+msgid "Yahoo! ID"
+msgstr ""
+
+#: ../src/plugins/gyach-photos.c:1222 ../src/plugins/gyach-photos.c:1228
+msgid "Select A Photo Album..."
+msgstr ""
+
+#: ../src/packet_handler.c:6226
+msgid "has stopped encrypting the instant message session."
+msgstr ""
+
+#: ../src/packet_handler.c:735
+msgid "Ignored offline private message from"
+msgstr ""
+
+#: ../src/setupwindow2.c:1640
+msgid "News bulletins arrive"
+msgstr ""
+
+#: ../src/htmlrender.c:433 ../src/htmlrender.c:781
+msgid "Horoscope - Capricorn"
+msgstr ""
+
+#: ../src/roomlist.c:651
+msgid "User Rooms"
+msgstr ""
+
+#: ../src/setupwindow2.c:523
+msgid "Enable Addressbook"
+msgstr ""
+
+#: ../src/users.c:200 ../src/users.c:205 ../src/users.c:211 ../src/users.c:555
+#: ../src/users.c:564 ../src/users.c:574 ../src/packet_handler.c:3324
+#: ../src/packet_handler.c:3334 ../src/packet_handler.c:3343
+msgid "Cam: Yes"
+msgstr ""
+
+#: ../src/yahoochat.c:2099
+msgid "NONE"
+msgstr ""
+
+#: ../src/roomui.c:277
+msgid "Create Chat Room"
+msgstr ""
+
+#: ../src/gyach.c:1514
+msgid "muted"
+msgstr ""
+
+#: ../src/conference.c:1793
+msgid "has invited you to the conference"
+msgstr ""
+
+#: ../src/packet_handler.c:6313
+msgid "Your system does not support this encryption or you have encryption disabled."
+msgstr ""
+
+#: ../src/ignore.c:407
+msgid "no longer ignoring"
+msgstr ""
+
+#: ../src/webcam/gyacheupload-ui.c:1294
+msgid "Automatically Allow All Users To View"
+msgstr ""
+
+#: ../src/setupwindow2.c:1169 ../src/yab.c:1151
+msgid "E-mail:"
+msgstr ""
+
+#: ../src/yab.c:1243
+msgid "Title:"
+msgstr ""
+
+#: ../src/yahoochat.c:1927
+msgid "Thanks, but no thanks."
+msgstr ""
+
+#: ../src/setupwindow2.c:570
+msgid "Entering/leaving Timestamps"
+msgstr ""
+
+#: ../src/interface.c:2227 ../src/interface.c:3362
+msgid "Info"
+msgstr ""
+
+#: ../src/profname.c:412
+msgid "Names available"
+msgstr ""
+
+#: ../src/pmwindow.c:187
+msgid "Logging PM to file"
+msgstr ""
+
+#: ../src/packet_handler.c:4357
+msgid "Ignored webcam invitation from"
+msgstr ""
+
+#: ../src/setupwindow2.c:1158 ../src/yab.c:1140
+msgid "Last Name:"
+msgstr ""
+
+#: ../src/friends.c:619 ../src/friends.c:1148
+msgid "invisible"
+msgstr ""
+
+#: ../src/packet_handler.c:1790
+msgid "has added you to their buddy list."
+msgstr ""
+
+#: ../src/roomui.c:359 ../src/roomui.c:360
+msgid "Private  (Room will not appear in Room list)"
+msgstr ""
+
+#: ../src/plugins.c:531
+msgid "Cannot resolve symbol \"encrypt_message\"."
+msgstr ""
+
+#: ../src/packet_handler.c:4790
+msgid "The user is still on Yahoo! Messenger. (invisible)"
+msgstr ""
+
+#: ../src/setupwindow2.c:1297
+msgid "Display messages before auto-ignoring"
+msgstr ""
+
+#: ../src/packet_handler.c:5133 ../src/packet_handler.c:5141
+#: ../src/packet_handler.c:5148
+msgid "has started playing in Yahoo! Games."
+msgstr ""
+
+#: ../src/packet_handler.c:6420
+msgid "Has declined your Game Invitation"
+msgstr ""
+
+#: ../src/callbacks.c:4108
+msgid "Idle icon"
+msgstr ""
+
+#: ../src/interface.c:1919
+msgid "Cmd Version 2:"
+msgstr ""
+
+#: ../src/packet_handler.c:5047 ../src/packet_handler.c:5690
+msgid "File size"
+msgstr ""
+
+#: ../src/setupwindow2.c:948 ../src/setupwindow2.c:1027
+msgid "Send / Erase"
+msgstr ""
+
+#: ../src/packet_handler.c:4718 ../src/packet_handler.c:4806
+#: ../src/packet_handler.c:4829
+msgid "has logged OFF"
+msgstr ""
+
+#: ../src/setupwindow2.c:674
+msgid "Green"
+msgstr ""
+
+#: ../src/webcam/pywebcam.py:455 ../src/webcam/pywebcam.py:460
+msgid "Could not open TCP socket"
+msgstr ""
+
+#: ../src/setupwindow2.c:956
+msgid "Outgoing Messages:"
+msgstr ""
+
+#: ../src/setupwindow2.c:565
+msgid "Entering/leaving"
+msgstr ""
+
+#: ../src/interface.c:774 ../src/interface.c:778 ../src/trayicon.c:961
+#: ../src/trayicon.c:993 ../src/trayicon.c:1017
+msgid "E-mail Messages"
+msgstr ""
+
+#: ../src/interface.c:3886
+msgid "Remove my name from this user's buddy list:"
+msgstr ""
+
+#: ../src/htmlrender.c:454 ../src/htmlrender.c:766
+msgid "Travel"
+msgstr ""
+
+#: ../src/roomui.c:493 ../src/setupwindow2.c:1666
+msgid "Favorite Rooms"
+msgstr ""
+
+#: ../src/commands.c:665
+msgid "online for"
+msgstr ""
+
+#: ../src/packet_handler.c:1911 ../src/packet_handler.c:1914
+msgid "Buddy already exists."
+msgstr ""
+
+#: ../src/gyach.c:1424 ../src/gyach.c:1483 ../src/packet_handler.c:5375
+msgid "Could not connect to Yahoo!"
+msgstr ""
+
+#: ../src/callbacks.c:527
+msgid "QUICK PROFILES ARE NOT AVAILABLE IN CONFERENCE ROOMS."
+msgstr ""
+
+#: ../src/interface.c:2712 ../src/interface.c:3675 ../src/users.c:1486
+#: ../src/trayicon.c:914 ../src/trayicon.c:956 ../src/trayicon.c:1000
+#: ../src/trayicon.c:1016
+msgid "Online"
+msgstr ""
+
+#: ../src/packet_handler.c:2034
+msgid "Logging in to chat server..."
+msgstr ""
+
+#: ../src/pmwindow.c:347
+msgid "Encryption is not currently enabled."
+msgstr ""
+
+#: ../src/interface.c:644 ../src/trayicon.c:462
+msgid "Not In The Office"
+msgstr ""
+
+#: ../src/fader.c:1513
+msgid "Maximum Colors"
+msgstr ""
+
+#: ../src/interface.c:476 ../src/interface.c:3385 ../src/pmwindow.c:617
+msgid "View avatar animation"
+msgstr ""
+
+#: ../src/yab.c:1210 ../src/yab.c:1248
+msgid "Address:"
+msgstr ""
+
+#: ../src/yab.c:1295
+msgid "Anniversary:"
+msgstr ""
+
+#: ../src/setupwindow2.c:1709
+msgid "Ignored Users"
+msgstr ""
+
+#: ../src/ignore.c:576
+msgid "muting"
+msgstr ""
+
+#: ../src/setupwindow2.c:1090
+msgid ""
+"When possible, show chat 'nicknames' instead\n"
+"of screen names in messages"
+msgstr ""
+
+#: ../src/voice_chat.c:137
+msgid "Voice chat is not available in this room."
+msgstr ""
+
+#: ../src/webcam/gyachewebcam.c:162
+msgid "The webcam connection has been closed."
+msgstr ""
+
+#: ../src/setupwindow2.c:1421 ../src/trayicon.c:528
+msgid "Protection"
+msgstr ""
+
+#: ../src/yahoochat.c:1472 ../src/yahoochat.c:1493 ../src/yahoochat.c:1503
+#: ../src/util.c:1214 ../src/util.c:1217 ../src/util.c:1237 ../src/util.c:1240
+#: ../src/util.c:1253 ../src/util.c:1256
+msgid "Could not connect to server"
+msgstr ""
+
+#: ../src/webcam/gyacheupload-ui.c:965
+msgid "Color:"
+msgstr ""
+
+#: ../src/interface.c:431 ../src/trayicon.c:593
+msgid " Yahoo! Ignore List... "
+msgstr ""
+
+#: ../src/tuxvironments.c:380
+msgid "Select a TUXVironment:"
+msgstr ""
+
+#: ../src/users.c:1490
+msgid "Latest News"
+msgstr ""
+
+#: ../src/htmlrender.c:430 ../src/htmlrender.c:778
+msgid "Horoscope - Libra"
+msgstr ""
+
+#: ../src/plugins.c:541
+msgid "Cannot resolve symbol \"decrypt_message\"."
+msgstr ""
+
+#: ../src/webcam/gyachewebcam.c:125 ../src/webcam/gyacheupload-ui.c:160
+msgid "Unknown Error"
+msgstr ""
+
+#: ../src/interface.c:927
+msgid "Screen Name"
+msgstr ""
+
+#: ../src/setupwindow2.c:1446
+msgid "Auto-reconnect if disconnected"
+msgstr ""
+
+#: ../src/gyach_int.c:127
+msgid "Send your text in italic"
+msgstr ""
+
+#: ../src/ignore.c:688
+msgid "Flooder/Booter List"
+msgstr ""
+
+#: ../src/packet_handler.c:2574
+msgid "You have mail."
+msgstr ""
+
+#: ../src/friends.c:443
+msgid "Temporary Friends"
+msgstr ""
+
+#: ../src/setupwindow2.c:836
+msgid "Limit text box size (in Kilobytes)"
+msgstr ""
+
+#: ../src/conference.c:785 ../src/conference.c:805 ../src/conference.c:840
+msgid "Invitation sent."
+msgstr ""
+
+#: ../src/webcam.c:218
+msgid "The yahoo user '%s' has invited you to view their webcam. Do you want to accept?"
+msgstr ""
+
+#: ../src/interface.c:4000
+msgid "Don't share a display image"
+msgstr ""
+
+#: ../src/ignore.c:560
+msgid "no longer muting"
+msgstr ""
+
+#: ../src/htmlrender.c:789 ../src/htmlrender.c:790
+msgid " View "
+msgstr ""
+
+#: ../src/packet_handler.c:1696
+msgid "Would you like to enable voice chat for this user?"
+msgstr ""
+
+#: ../src/webcam.c:105
+msgid "The Gyach Enhanced external webcam broadcaster could not be found"
+msgstr ""
+
+#: ../src/setupwindow2.c:456
+msgid "Show SmileyCentral smileys (web)"
+msgstr ""
+
+#: ../src/webcam/gyachewebcam.c:157 ../src/webcam/pywebcam.py:291
+msgid "The user has cancelled viewing permission."
+msgstr ""
+
+#: ../src/setupwindow2.c:852
+msgid ""
+"Transparent Shading\n"
+"(R,G,B)"
+msgstr ""
+
+#: ../src/setupwindow2.c:817
+msgid "Display timestamp with messages"
+msgstr ""
+
+#: ../src/interface.c:583 ../src/trayicon.c:709
+msgid "Rejoin Current Chat Room"
+msgstr ""
+
+#: ../src/conference.c:241
+msgid "Add >>"
+msgstr ""
+
+#: ../src/setupwindow2.c:631
+msgid "General"
+msgstr ""
+
+#: ../src/gyach_int.c:149 ../src/setupwindow2.c:550
+msgid "Colors"
+msgstr ""
+
+#: ../src/pmwindow.c:447
+msgid "Select An Encryption Method:"
+msgstr ""
+
+#: ../src/callbacks.c:1592 ../src/callbacks.c:1595
+msgid "Add Favorite Room:"
+msgstr ""
+
+#: ../src/friends.c:230 ../src/friends.c:250 ../src/ignore.c:946
+#: ../src/ignore.c:966
+msgid "Yahoo's servers may be down or malfunctioning. Please try again later."
+msgstr ""
+
+#: ../src/htmlrender.c:479 ../src/htmlrender.c:767
+msgid "Forums"
+msgstr ""
+
+#: ../src/roomui.c:361 ../src/roomui.c:362
+msgid "Users can join the room only if I invite them"
+msgstr ""
+
+#: ../src/callbacks.c:4578 ../src/friends.c:328
+msgid "Group:"
+msgstr ""
+
+#: ../src/interface.c:629 ../src/callbacks.c:4104 ../src/trayicon.c:444
+msgid "Busy"
+msgstr ""
+
+#: ../src/setupwindow2.c:1202 ../src/yab.c:1173
+msgid "Mobile #:"
+msgstr ""
+
+#: ../src/ignore.c:964
+msgid "could not be added to the ignore list."
+msgstr ""
+
+#: ../src/callbacks.c:5277 ../src/callbacks.c:5302 ../src/callbacks.c:5360
+#: ../src/callbacks.c:5420 ../src/callbacks.c:5433
+msgid "The image could not be loaded."
+msgstr ""
+
+#: ../src/htmlrender.c:459 ../src/htmlrender.c:733
+msgid "New Music Releases"
+msgstr ""
+
+#: ../src/packet_handler.c:6429
+msgid "This feature is not yet supported by Gyach-E. If you wish to join this user in the game room, login to http://games.yahoo.com."
+msgstr ""
+
+#: ../src/interface.c:3654
+msgid "Stealth Settings"
+msgstr ""
+
+#: ../src/plugins.c:358
+msgid "Cannot resolve symbol \"plugin_info\"."
+msgstr ""
+
+#: ../src/setupwindow2.c:583
+msgid "Show the 'quick access' toolbar (requires restart)"
+msgstr ""
+
+#: ../src/webcam/gyacheupload-ui.c:962
+msgid "Brightness:"
+msgstr ""
+
+#: ../src/commands.c:668
+msgid "You don't appear to be online at the moment."
+msgstr ""
+
+#: ../src/packet_handler.c:2007
+msgid "CONNECTED: type /help for help"
+msgstr ""
+
+#: ../src/setupwindow2.c:586
+msgid "Tabs on the bottom (requires restart)"
+msgstr ""
+
+#: ../src/interface.c:3687 ../src/trayicon.c:914
+msgid "Offline"
+msgstr ""
+
+#: ../src/interface.c:1713
+msgid "Yahoo! User Profile"
+msgstr ""
+
+#: ../src/setupwindow2.c:1031
+msgid "Top Toolbar"
+msgstr ""
+
+#: ../src/interface.c:2221 ../src/interface.c:3367 ../src/yab.c:1789
+#: ../src/yab.c:1790
+msgid "Profile"
+msgstr ""
+
+#: ../src/friends.c:1115
+msgid "has been added to your TEMPORARY buddy list"
+msgstr ""
+
+#: ../src/plugins.c:438 ../src/plugins.c:479 ../src/plugins.c:557
+msgid "Successfully loaded."
+msgstr ""
+
+#: ../src/packet_handler.c:5353
+msgid "YOUR YAHOO! ACCOUNT HAS BEEN LOCKED BECAUSE OF TOO MANY FAILED LOGIN ATTEMPTS"
+msgstr ""
+
+#: ../src/webcam/gyachewebcam.c:98
+msgid "Requesting Permission..."
+msgstr ""
+
+#: ../src/htmlrender.c:426 ../src/htmlrender.c:774
+msgid "Horoscope - Gemini"
+msgstr ""
+
+#: ../src/interface.c:1430
+msgid " Mute "
+msgstr ""
+
+#: ../src/profname.c:402
+msgid "Create or Edit Profiles"
+msgstr ""
+
+#: ../src/setupwindow2.c:1498
+msgid "File Server:"
+msgstr ""
+
+#: ../src/packet_handler.c:6293 ../src/packet_handler.c:6332
+msgid "Encrypted session started."
+msgstr ""
+
+#: ../src/interface.c:526 ../src/interface.c:2375 ../src/trayicon.c:721
+msgid "Favorites"
+msgstr ""
+
+#: ../src/commands.c:808
+msgid "Full Tab Completion List"
+msgstr ""
+
+#: ../src/yab.c:1220 ../src/yab.c:1267
+msgid "State:"
+msgstr ""
+
+#: ../src/htmlrender.c:500 ../src/htmlrender.c:742
+msgid "Game Scores"
+msgstr ""
+
+#: ../src/interface.c:2000 ../src/packet_handler.c:5037
+#: ../src/packet_handler.c:5690
+msgid "File name"
+msgstr ""
+
+#: ../src/setupwindow2.c:95 ../src/setupwindow2.c:95
+#: ../src/setupwindow2.c:1992
+msgid "Insert"
+msgstr ""
+
+#: ../src/setupwindow2.c:1108 ../src/trayicon.c:652
+msgid "Show Buddy Images"
+msgstr ""
+
+#: ../src/friends.c:424
+msgid "No friends on your list."
+msgstr ""
+
+#: ../src/callbacks.c:4298
+msgid "Room"
+msgstr ""
+
+#: ../src/setupwindow2.c:938
+msgid "Buttons shown on the chat window:"
+msgstr ""
+
+#: ../src/interface.c:601 ../src/interface.c:2401 ../src/trayicon.c:742
+msgid "Launch pY! Voice Chat"
+msgstr ""
+
+#: ../src/webcam/gyacheupload-ui.c:1302
+msgid "Automatically Deny All Users"
+msgstr ""
+
+#: ../src/setupwindow2.c:1131
+msgid "Allow PM Encryption (plugin)"
+msgstr ""
+
+#: ../src/setupwindow2.c:399
+msgid "Graphics & Multimedia:"
+msgstr ""
+
+#: ../src/setupwindow2.c:1180 ../src/yab.c:1157
+msgid "Home #:"
+msgstr ""
+
+#: ../src/interface.c:3480
+msgid "Stealth Settings..."
+msgstr ""
+
+#: ../src/interface.c:680 ../src/interface.c:2618 ../src/gyach.c:1942
+#: ../src/callbacks.c:4109 ../src/callbacks.c:4715
+#: ../src/packet_handler.c:2272 ../src/trayicon.c:504
+msgid "Idle"
+msgstr ""
+
+#: ../src/plugins.c:306
+msgid "could not be loaded because of an error"
+msgstr ""
+
+#: ../src/setupwindow2.c:1252 ../src/trayicon.c:537
+msgid ""
+"Accept Private Messages,\n"
+"Invitations, and Files From:"
+msgstr ""
+
+#: ../src/setupwindow2.c:411
+msgid "Scale Text:"
+msgstr ""
+
+#: ../src/interface.c:510 ../src/trayicon.c:692
+msgid "Rooms"
+msgstr ""
+
+#: ../src/packet_handler.c:2524
+msgid "E-mail Preview"
+msgstr ""
+
+#: ../src/setupwindow2.c:1138
+msgid ""
+"You can send your personal\n"
+"information for other users to save\n"
+"in their Yahoo! addressbook."
+msgstr ""
+
+#: ../src/setupwindow2.c:1631
+msgid "A buddy goes offline"
+msgstr ""
+
+#: ../src/users.c:556 ../src/users.c:565 ../src/users.c:575
+#: ../src/packet_handler.c:3326 ../src/packet_handler.c:3336
+#: ../src/packet_handler.c:3345
+msgid "Cam: No"
+msgstr ""
+
+#: ../src/callbacks.c:4103
+msgid "Busy icon"
+msgstr ""
+
+#: ../src/interface.c:2790 ../src/interface.c:3617
+#: ../src/webcam/gyachewebcam.c:697 ../src/webcam/gyacheupload-ui.c:834
+msgid "GYach Enhanced: Message"
+msgstr ""
+
+#: ../src/setupwindow2.c:950
+msgid "(requires restart)"
+msgstr ""
+
+#: ../src/pmwindow.c:902 ../src/pmwindow.c:905
+msgid " Encryption... "
+msgstr ""
+
+#: ../src/interface.c:547
+msgid " Join User In Chat Room... "
+msgstr ""
+
+#: ../src/interface.c:471 ../src/interface.c:3380 ../src/pmwindow.c:612
+msgid "View full-size avatar"
+msgstr ""
+
+#: ../src/profname.c:374
+msgid "You can disable any of your alternate IDs by selecting the ID and clicking 'Deactivate ID'.  Disabling an ID will turn it offline."
+msgstr ""
+
+#: ../src/setupwindow2.c:1556
+msgid "Use builtin profile viewer (Window)"
+msgstr ""
+
+#: ../src/interface.c:418
+msgid "Tools"
+msgstr ""
+
+#: ../src/setupwindow2.c:1101
+msgid "Auto-raise PM window when message received"
+msgstr ""
+
+#: ../src/gyach_int.c:137
+msgid "Send your text in underline"
+msgstr ""
+
+#: ../src/conference.c:303 ../src/setupwindow2.c:1065
+msgid "Message:"
+msgstr ""
+
+#: ../src/interface.c:686 ../src/trayicon.c:510
+msgid "Custom Message"
+msgstr ""
+
+#: ../src/setupwindow2.c:1294
+msgid "Never auto-ignore/auto-mute a friend"
+msgstr ""
+
+#: ../src/callbacks.c:747
+msgid ""
+"The following server uses the 'web login'\n"
+"connection method:"
+msgstr ""
+
+#: ../src/pmwindow.c:990
+msgid "Share a photo album..."
+msgstr ""
+
+#: ../src/webcam/gyachewebcam.c:873
+msgid "About GYach-E Webcam Viewer..."
+msgstr ""
+
+#: ../src/setupwindow2.c:1628
+msgid "A buddy comes online"
+msgstr ""
+
+#: ../src/ignore.c:703
+msgid ""
+"Edit your list of temporary friends.\n"
+"Adding a user as a temporary friend allows\n"
+"them to send you messages, invitations, and files,\n"
+"without having to open your PMs to everyone,\n"
+"and without having to add them to your real buddy list."
+msgstr ""
+
+#: ../src/plugins/gyach-photos.c:1727
+msgid "Stop slideshow"
+msgstr ""
+
+#: ../src/callbacks.c:4578 ../src/friends.c:328
+msgid "Group"
+msgstr ""
+
+#: ../src/gyach.c:1500 ../src/conference.c:835 ../src/conference.c:1497
+#: ../src/packet_handler.c:1724
+msgid "Conference Room"
+msgstr ""
+
+#: ../src/packet_handler.c:6677
+msgid "You are no longer sharing your buddy list avatar."
+msgstr ""
+
+#: ../src/packet_handler.c:3414
+msgid "Web Search"
+msgstr ""
+
+#: ../src/interface.c:2225 ../src/interface.c:3415 ../src/pmwindow.c:981
+msgid "Edit Contact Information..."
+msgstr ""
+
+#: ../src/packet_handler.c:5605
+msgid "[FEATURE NOT SUPPORTED]"
+msgstr ""
+
+#: ../src/htmlrender.c:473 ../src/htmlrender.c:740
+msgid "Jobs"
+msgstr ""
+
+#: ../src/conference.c:1380
+msgid "has left the conference."
+msgstr ""
+
+#: ../src/setupwindow2.c:917
+msgid "Males"
+msgstr ""
+
+#: ../src/ignore.c:944
+msgid "could not be removed from the ignore list."
+msgstr ""
+
+#: ../src/setupwindow2.c:465
+msgid ""
+"Maximum simultaneous\n"
+"animated smileys"
+msgstr ""
+
+#: ../src/friends.c:428
+msgid "friends online in"
+msgstr ""
+
+#: ../src/interface.c:293
+msgid "Save Current Text"
+msgstr ""
+
+#: ../src/interface.c:4080
+msgid "Show avatars on my buddy list"
+msgstr ""
+
+#: ../src/interface.c:3985
+msgid "My Display Image"
+msgstr ""
+
+#: ../src/packet_handler.c:4371
+msgid "webcam invitation from"
+msgstr ""
+
+#: ../src/users.c:472 ../src/users.c:571 ../src/packet_handler.c:3340
+#: ../src/packet_handler.c:3352
+msgid "Sex: ?"
+msgstr ""
+
+#: ../src/htmlrender.c:496 ../src/htmlrender.c:720
+msgid "News"
+msgstr ""
+
+#: ../src/setupwindow2.c:1460
+msgid "Connect via Proxy"
+msgstr ""
+
+#: ../src/setupwindow2.c:2059
+msgid "Edit Ignore Item"
+msgstr ""
+
+#: ../src/callbacks.c:5350
+msgid "The image could not be converted to a 96x96 .PNG image."
+msgstr ""
+
+#: ../src/setupwindow2.c:1237 ../src/trayicon.c:579
+msgid "Automatically reject all invitations"
+msgstr ""
+
+#: ../src/packet_handler.c:6469 ../src/packet_handler.c:6487
+msgid "Ignored Audible Animation from user"
+msgstr ""
+
+#: ../src/callbacks.c:791 ../src/packet_handler.c:5375
+#: ../src/packet_handler.c:5377
+msgid "Incorrect password."
+msgstr ""
+
+#: ../src/interface.c:706 ../src/setupwindow2.c:372 ../src/trayicon.c:774
+msgid "Setup"
+msgstr ""
+
+#: ../src/packet_handler.c:1662
+msgid "Ignored voice chat invitation from"
+msgstr ""
+
+#: ../src/packet_handler.c:768
+msgid "Offline Message"
+msgstr ""
+
+#: ../src/conference.c:1757
+msgid "Ignored conference invitation from"
+msgstr ""
+
+#: ../src/packet_handler.c:6293 ../src/packet_handler.c:6332
+msgid "has enabled encrypted instant messaging."
+msgstr ""
+
+#: ../src/interface.c:3393
+msgid "Buzz"
+msgstr ""
+
+#: ../src/interface.c:811 ../src/gyach_int.c:166 ../src/gyach_int.c:166
+#: ../src/setupwindow2.c:718 ../src/fader.c:1373 ../src/fader.c:1503
+#: ../src/fader.c:1511
+msgid "Configuration: Text Effects"
+msgstr ""
+
+#: ../src/htmlrender.c:485 ../src/htmlrender.c:754
+msgid "Diet Tracker"
+msgstr ""
+
+#: ../src/plugins/gyach-photos.c:2045
+msgid "has accepted the invitation to view a photo album."
+msgstr ""
+
+#: ../src/interface.c:374 ../src/interface.c:1393 ../src/interface.c:2220
+#: ../src/interface.c:3428 ../src/pmwindow.c:947
+#: ../src/webcam/gyachewebcam.c:793
+msgid " View Webcam... "
+msgstr ""
+
+#: ../src/roomui.c:461
+msgid "Favorite Yahoo! Rooms"
+msgstr ""
+
+#: ../src/interface.c:639 ../src/trayicon.c:456
+msgid "Not At My Desk"
+msgstr ""
+
+#: ../src/packet_handler.c:914
+msgid "The user is no longer connected through the SMS cell phone service and can now receive regular sized messages."
+msgstr ""
+
+#: ../src/conference.c:181
+msgid "Room:"
+msgstr ""
+
+#: ../src/packet_handler.c:5033
+msgid "has sent you a file using the file transfer system."
+msgstr ""
+
+#: ../src/pmwindow.c:568
+msgid "Show"
+msgstr ""
+
+#: ../src/interface.c:426 ../src/trayicon.c:587
+msgid " Gyach Enhanced Ignore List... "
+msgstr ""
+
+#: ../src/roomui.c:141
+msgid "Yahoo! Room List"
+msgstr ""
+
+#: ../src/plugins/gyach-photos.c:1804
+msgid "has attempted to share a Yahoo photo album."
+msgstr ""
+
+#: ../src/packet_handler.c:4210
+msgid "is in Yahoo! game room"
+msgstr ""
+
+#: ../src/htmlrender.c:468 ../src/htmlrender.c:749
+msgid "Health"
+msgstr ""
+
+#: ../src/gyach_int.c:179 ../src/gyach_int.c:179
+msgid "Font"
+msgstr ""
+
+#: ../src/packet_handler.c:5903 ../src/packet_handler.c:5904
+msgid "Unknown Yahoo Calendar Event"
+msgstr ""
+
+#: ../src/pmwindow.c:918 ../src/pmwindow.c:921
+msgid " Join In Chat "
+msgstr ""
+
+#: ../src/interface.c:302 ../src/trayicon.c:804
+#: ../src/webcam/gyachewebcam.c:856 ../src/webcam/pywebcam.py:704
+#: ../src/webcam/gyacheupload-ui.c:1279
+msgid "Quit"
+msgstr ""
+
+#: ../src/setupwindow2.c:873
+msgid ""
+"Highlight the names of my friends\n"
+"in the list of chat room members"
+msgstr ""
+
+#: ../src/interface.c:361 ../src/interface.c:3407
+msgid " View Shared Files... "
+msgstr ""
+
+#: ../src/setupwindow2.c:1075
+msgid "Display timestamp with PM messages"
+msgstr ""
+
+#: ../src/pmwindow.c:447
+msgid "Encryption"
+msgstr ""
+
+#: ../src/packet_handler.c:4653
+msgid "You are now invisible"
+msgstr ""
+
+#: ../src/tuxvironments.c:380
+msgid "TUXVironment"
+msgstr ""
+
+#: ../src/setupwindow2.c:793
+msgid ""
+"Display\n"
+"Font"
+msgstr ""
+
+#: ../src/yab.c:1300
+msgid "Notes:"
+msgstr ""
+
+#: ../src/callbacks.c:1705 ../src/callbacks.c:1710
+msgid "Edit Favorite Room"
+msgstr ""
+
+#: ../src/ignore.c:1122
+msgid "is now immune from auto-muting."
+msgstr ""
+
+#: ../src/interface.c:981 ../src/interface.c:984 ../src/pmwindow.c:848
+#: ../src/pmwindow.c:851 ../src/pmwindow.c:1230 ../src/pmwindow.c:1231
+msgid " Send "
+msgstr ""
+
+#: ../src/interface.c:1373 ../src/pmwindow.c:1000
+msgid " Add To Friends "
+msgstr ""
+
+#: ../src/conference.c:1617
+msgid "has declined to join the conference."
+msgstr ""
+
+#: ../src/packet_handler.c:6137
+msgid "See the 'My Yahoo' window for more information."
+msgstr ""
+
+#: ../src/users.c:1487
+msgid "Email"
+msgstr ""
+
+#: ../src/setupwindow2.c:1676
+msgid "Friend"
+msgstr ""
+
+#: ../src/gyach.c:1504
+msgid "users"
+msgstr ""
+
+#: ../src/interface.c:500
+msgid " Report Abuse... "
+msgstr ""
+
+#: ../src/conference.c:322 ../src/conference.c:323
+msgid "Invite"
+msgstr ""
+
+#: ../src/interface.c:2124 ../src/interface.c:2125
+msgid " Next "
+msgstr ""
+
+#: ../src/packet_handler.c:6715 ../src/packet_handler.c:6784
+msgid "Your avatar has been deleted."
+msgstr ""
+
+#: ../src/interface.c:2217 ../src/interface.c:3357
+msgid "Instant Message"
+msgstr ""
+
+#: ../src/htmlrender.c:474 ../src/htmlrender.c:722
+msgid "Lotto Results"
+msgstr ""
+
+#: ../src/plugins.c:563
+msgid "Unknown and unhandled encryption plugin type."
+msgstr ""
+
+#: ../src/users.c:1493
+msgid "Cool Links"
+msgstr ""
+
+#: ../src/yab.c:1310
+msgid "Comments #2:"
+msgstr ""
+
+#: ../src/pmwindow.c:789 ../src/setupwindow2.c:946 ../src/setupwindow2.c:1025
+msgid "Smileys"
+msgstr ""
+
+#: ../src/interface.c:1910
+msgid "Cmd Version 1:"
+msgstr ""
+
+#: ../src/gyach.c:1955 ../src/packet_handler.c:2411
+#: ../src/packet_handler.c:2428
+msgid "is back"
+msgstr ""
+
+#: ../src/plugins/gyach-photos.c:1461 ../src/plugins/gyach-photos.c:1671
+#: ../src/plugins/gyach-photos.c:2072
+msgid "Y! Photos"
+msgstr ""
+
+#: ../src/htmlrender.c:431 ../src/htmlrender.c:779
+msgid "Horoscope - Scorpio"
+msgstr ""
+
+#: ../src/htmlrender.c:462 ../src/htmlrender.c:753
+msgid "Recipes"
+msgstr ""
+
+#: ../src/setupwindow2.c:699
+msgid "Gray"
+msgstr ""
+
+#: ../src/interface.c:798 ../src/interface.c:805
+msgid "Fader:  "
+msgstr ""
+
+#: ../src/interface.c:3557
+msgid "Rename..."
+msgstr ""
+
+#: ../src/users.c:1489
+msgid "Hobbies"
+msgstr ""
+
+#: ../src/packet_handler.c:374 ../src/packet_handler.c:375
+#: ../src/packet_handler.c:4500 ../src/packet_handler.c:4502
+#: ../src/packet_handler.c:4522
+msgid "[TYPING]"
+msgstr ""
+
+#: ../src/gyach.c:1939 ../src/gyach.c:1942 ../src/gyach.c:1944
+#: ../src/packet_handler.c:2403 ../src/packet_handler.c:2428
+msgid "is away"
+msgstr ""
+
+#: ../src/bootprevent.c:303
+msgid "is no longer designated as a FLOODER"
+msgstr ""
+
+#: ../src/htmlrender.c:491 ../src/htmlrender.c:736
+msgid "Gossip"
+msgstr ""
+
+#: ../src/yab.c:1230 ../src/yab.c:1277
+msgid "Country:"
+msgstr ""
+
+#: ../src/webcam/gyachewebcam.c:474 ../src/webcam/pywebcam.py:343
+msgid "The user does not have their webcam online."
+msgstr ""
+
+#: ../src/interface.c:2436 ../src/interface.c:2446 ../src/htmlrender.c:710
+msgid "My Yahoo!"
+msgstr ""
+
+#: ../src/conference.c:1821 ../src/packet_handler.c:4925
+msgid "by"
+msgstr ""
+
+#: ../src/callbacks.c:1584
+msgid "Add Friend:"
+msgstr ""
+
+#: ../src/setupwindow2.c:1535
+msgid ""
+"Remember main window\n"
+"position & size"
+msgstr ""
+
+#: ../src/htmlrender.c:428 ../src/htmlrender.c:776
+msgid "Horoscope - Leo"
+msgstr ""
+
+#: ../src/setupwindow2.c:1508 ../src/setupwindow2.c:1508
+msgid "The file server is used when you send files to other users or share a buddy image in a PM window."
+msgstr ""
+
+#: ../src/htmlrender.c:422 ../src/htmlrender.c:770
+msgid "Horoscope - Aquarius"
+msgstr ""
+
+#: ../src/callbacks.c:4725 ../src/packet_handler.c:2345
+#: ../src/htmlrender.c:514 ../src/htmlrender.c:514
+msgid "Games"
+msgstr ""
+
+#: ../src/conference.c:1620 ../src/conference.c:1805 ../src/conference.c:1824
+#: ../src/packet_handler.c:1803 ../src/packet_handler.c:1853
+#: ../src/packet_handler.c:1867 ../src/packet_handler.c:4897
+#: ../src/packet_handler.c:5059 ../src/packet_handler.c:5690
+msgid "Message"
+msgstr ""
+
+#: ../src/interface.c:324
+msgid " Send Instant Message to Many... "
+msgstr ""
+
+#: ../src/pmwindow.c:880 ../src/pmwindow.c:883
+msgid " Buzz "
+msgstr ""
+
+#: ../src/packet_handler.c:2158
+msgid "You are permanently 'offline' to"
+msgstr ""
+
+#: ../src/packet_handler.c:4278
+msgid "has accepted your webcam invitation"
+msgstr ""
+
+#: ../src/interface.c:634 ../src/trayicon.c:450
+msgid "Not At Home"
+msgstr ""
+
+#: ../src/packet_handler.c:5910 ../src/packet_handler.c:5916
+msgid "Yahoo Calendar Event"
+msgstr ""
+
+#: ../src/interface.c:2458 ../src/interface.c:2468
+msgid "Contacts"
+msgstr ""
+
+#: ../src/packet_handler.c:3545
+msgid "The user is currently AWAY and might not receive your message."
+msgstr ""
+
+#: ../src/callbacks.c:4710
+msgid "Away"
+msgstr ""
+
+#: ../src/interface.c:3451
+msgid "Join User In Game Room"
+msgstr ""
+
+#: ../src/setupwindow2.c:1073
+msgid "Sorry, I'm away right now, but I'll respond as soon as I get back."
+msgstr ""
+
+#: ../src/webcam/gyacheupload-ui.c:956
+msgid "Hue:"
+msgstr ""
+
+#: ../src/interface.c:649 ../src/trayicon.c:468
+msgid "On The Phone"
+msgstr ""
+
+#: ../src/htmlrender.c:427 ../src/htmlrender.c:775
+msgid "Horoscope - Cancer"
+msgstr ""
+
+#: ../src/yab.c:1454
+msgid "Contact Information"
+msgstr ""
+
+#: ../src/setupwindow2.c:603
+msgid "Broadcast my status changes in chats / conferences"
+msgstr ""
+
+#: ../src/yab.c:1135
+msgid "Middle Name:"
+msgstr ""
+
+#: ../src/packet_handler.c:1294
+msgid ""
+"has logged ON\n"
+"[is now visible]"
+msgstr ""
+
+#: ../src/setupwindow2.c:622
+msgid "Custom Away Msg.: "
+msgstr ""
+
+#: ../src/webcam/gyacheupload-ui.c:1090
+msgid "Do you wish to allow this user to view your webcam?"
+msgstr ""
+
+#: ../src/profname.c:287
+msgid "My Yahoo! ID:"
+msgstr ""
+
+#: ../src/conference.c:247
+msgid "<< Remove"
+msgstr ""
+
+#: ../src/interface.c:2224
+msgid "Send File..."
+msgstr ""
+
+#: ../src/yab.c:1713
+msgid "An error occurred deleting the addressbook item."
+msgstr ""
+
+#: ../src/packet_handler.c:6572
+msgid "[Audible]"
+msgstr ""
+
+#: ../src/callbacks.c:4080
+msgid "Away message"
+msgstr ""
+
+#: ../src/callbacks.c:4160 ../src/callbacks.c:4213 ../src/callbacks.c:4347
+#: ../src/callbacks.c:4365 ../src/callbacks.c:4409 ../src/callbacks.c:4425
+#: ../src/callbacks.c:4625 ../src/callbacks.c:5612 ../src/commands.c:243
+#: ../src/conference.c:293 ../src/packet_handler.c:1715
+#: ../src/packet_handler.c:5025 ../src/packet_handler.c:5426
+#: ../src/packet_handler.c:5586 ../src/packet_handler.c:5599
+#: ../src/packet_handler.c:5690 ../src/ignore.c:678 ../src/ignore.c:751
+msgid "User"
+msgstr ""
+
+#: ../src/packet_handler.c:6413
+msgid "Has sent you a Game Invitation"
+msgstr ""
+
+#: ../src/setupwindow2.c:929
+msgid "Unknown Age"
+msgstr ""
+
+#: ../src/tuxvironments.c:88
+msgid "TUXVironment is not available"
+msgstr ""
+
+#: ../src/conference.c:828 ../src/conference.c:1490
+msgid "You are now in the conference named"
+msgstr ""
+
+#: ../src/friends.c:229 ../src/friends.c:249 ../src/ignore.c:945
+#: ../src/ignore.c:965
+msgid "Gyach-E received no response from Yahoo's servers."
+msgstr ""
+
+#: ../src/setupwindow2.c:1613 ../src/setupwindow2.c:1613
+msgid "The MP3 player command allows you to listen to such things as Audibles. You should use a command-line MP3 player such as 'mplayer' or 'mpg123'."
+msgstr ""
+
+#: ../src/conference.c:1446
+msgid "has joined the conference."
+msgstr ""
+
+#: ../src/interface.c:2064
+msgid "Gyach Enhanced: Find"
+msgstr ""
+
+#: ../src/yab.c:1727
+msgid "Are you sure you want to DELETE this address book item?"
+msgstr ""
+
+#: ../src/interface.c:495 ../src/packet_handler.c:6153
+msgid " My News Alerts "
+msgstr ""
+
+#: ../src/callbacks.c:412 ../src/callbacks.c:1448
+msgid "The following room is already in your favorites list"
+msgstr ""
+
+#: ../src/interface.c:2859 ../src/webcam/gyacheupload-ui.c:1082
+msgid "GYach Enhanced: Question"
+msgstr ""
+
+#: ../src/interface.c:4057
+msgid "Only friends may view and share display images"
+msgstr ""
+
+#: ../src/plugins.c:431
+msgid "Cannot resolve symbol \"yahoo_process_auth_alternate\"."
+msgstr ""
+
+#: ../src/yahoochat.c:1818 ../src/yahoochat.c:1875
+msgid "You are invited to join my conference."
+msgstr ""
+
+#: ../src/interface.c:450
+msgid " Yahoo! Privacy Settings... "
+msgstr ""
+
+#: ../src/packet_handler.c:4535 ../src/packet_handler.c:4634
+#: ../src/packet_handler.c:4843
+msgid "Error"
+msgstr ""
+
+#: ../src/interface.c:4061 ../src/pmwindow.c:582
+msgid "Small"
+msgstr ""
+
+#: ../src/webcam/gyacheupload-ui.c:1554
+msgid "Remove User"
+msgstr ""
+
+#: ../src/packet_handler.c:899
+msgid "The user is connected through SMS and will receive your message on a cell phone. Your message can be up to 152 characters."
+msgstr ""
+
+#: ../src/interface.c:1359
+msgid " Quick Profile "
+msgstr ""
+
+#: ../src/setupwindow2.c:450
+msgid ""
+"Support pY! Voice voice\n"
+"chat features"
+msgstr ""
+
+#: ../src/yab.c:1124
+msgid "ID:"
+msgstr ""
+
+#: ../src/htmlrender.c:799
+msgid "Zoom In"
+msgstr ""
+
+#: ../src/packet_handler.c:6641
+msgid "now sees you as online"
+msgstr ""
+
+#: ../src/tuxvironments.c:181 ../src/tuxvironments.c:291
+msgid "TUXVironments are not currently enabled"
+msgstr ""
+
+#: ../src/plugins.c:486
+msgid "Unknown and unhandled plugin type."
+msgstr ""
+
+#: ../src/plugins/gyach-photos.c:1717
+msgid "Start slideshow"
+msgstr ""
+
+#: ../src/interface.c:402 ../src/interface.c:2228 ../src/interface.c:3464
+#: ../src/interface.c:3564
+msgid "Refresh Buddy List"
+msgstr ""
+
+#: ../src/interface.c:1542
+msgid "Gyach Enhanced: Yahoo! Login"
+msgstr ""
+
+#: ../src/pmwindow.c:148
+msgid "Stopped logging PM to file"
+msgstr ""
+
+#: ../src/webcam/gyachewebcam.c:911 ../src/webcam/pywebcam.py:728
+#: ../src/webcam/pywebcam.py:729 ../src/webcam/gyacheupload-ui.c:939
+#: ../src/webcam/gyacheupload-ui.c:1377 ../src/plugins/gyach-photos.c:1471
+#: ../src/plugins/gyach-photos.c:1472 ../src/plugins/gyach-photos.c:1678
+#: ../src/plugins/gyach-photos.c:1679
+msgid "Close"
+msgstr ""
+
+#: ../src/yab.c:1750
+msgid "Name"
+msgstr ""
+
+#: ../src/setupwindow2.c:1059
+msgid ""
+"Automatically reply to private messages\n"
+"when I'm away"
+msgstr ""
+
+#: ../src/interface.c:2226 ../src/interface.c:3471
+msgid "Move to group..."
+msgstr ""
+
+#: ../src/roomui.c:356 ../src/roomui.c:357
+msgid "Public  (Room will appear in Room list for everyone to join)"
+msgstr ""
+
+#: ../src/packet_handler.c:3934 ../src/packet_handler.c:4005
+msgid "[Game Message]"
+msgstr ""
+
+#: ../src/interface.c:1453
+msgid "Copy nick name"
+msgstr ""
+
+#: ../src/plugins/gyach-photos.c:1592 ../src/plugins/gyach-photos.c:1700
+msgid "Select a photo album"
+msgstr ""
+
+#: ../src/htmlrender.c:451 ../src/htmlrender.c:741
+msgid "Calendar"
+msgstr ""
+
+#: ../src/pmwindow.c:359
+msgid "Requesting encrypted session..."
+msgstr ""
+
+#: ../src/interface.c:3857 ../src/interface.c:3866
+msgid "Yahoo! Privacy Settings"
+msgstr ""
+
+#: ../src/interface.c:674 ../src/trayicon.c:498
+msgid "Auto-Away"
+msgstr ""
+
+#: ../src/packet_handler.c:6753
+msgid "The user has changed their avatar."
+msgstr ""
+
+#: ../src/setupwindow2.c:843
+msgid "Indent wrapped lines"
+msgstr ""
+
+#: ../src/interface.c:309
+msgid "Actions"
+msgstr ""
+
+#: ../src/yab.c:1457 ../src/yab.c:1759 ../src/yab.c:1760
+msgid "New"
+msgstr ""
+
+#: ../src/packet_handler.c:5690
+msgid "has sent you a file using peer-to-peer."
+msgstr ""
+
+#: ../src/webcam/pywebcam.py:706
+msgid "About pY! WebCam..."
+msgstr ""
+
+#: ../src/setupwindow2.c:1260 ../src/trayicon.c:545
+msgid "Users in current room"
+msgstr ""
+
+#: ../src/packet_handler.c:4315 ../src/packet_handler.c:4323
+msgid "has declined your webcam invitation"
+msgstr ""
+
+#: ../src/setupwindow2.c:1359
+msgid ""
+"Duplicate chat\n"
+"messages, invitations,\n"
+"and file transfers in a row"
+msgstr ""
+
+#: ../src/interface.c:1420
+msgid " Ignore & BROADCAST "
+msgstr ""
+
+#: ../src/setupwindow2.c:1147 ../src/yab.c:1129
+msgid "First Name:"
+msgstr ""
+
+#: ../src/packet_handler.c:1262
+msgid "The user is in Yahoo! Games."
+msgstr ""
+
+#: ../src/main.c:1159 ../src/yahoochat.c:278 ../src/yahoochat.c:304
+#: ../src/webcam/main.c:67 ../src/webcam/gyacheupload-main.c:78
+msgid "You have been disconnected from Yahoo!: Broken pipe."
+msgstr ""
+
+#: ../src/htmlrender.c:455 ../src/htmlrender.c:728
+msgid "Portfolios"
+msgstr ""
+
+#: ../src/htmlrender.c:453 ../src/htmlrender.c:765
+msgid "Auctions"
+msgstr ""
+
+#: ../src/trayicon.c:684
+msgid "Disable Tray Icon"
+msgstr ""
+
+#: ../src/users.c:1488
+msgid "Last Updated"
+msgstr ""
+
+#: ../src/profname.c:287
+msgid "Alternate IDs:"
+msgstr ""
+
+#: ../src/packet_handler.c:5832
+msgid "added to permanent Yahoo ignore list"
+msgstr ""
+
+#: ../src/users.c:1479
+msgid "Real Name"
+msgstr ""
+
+#: ../src/pmwindow.c:708
+msgid "From:"
+msgstr ""
+
+#: ../src/packet_handler.c:1922 ../src/packet_handler.c:1925
+msgid "Buddy could not be added."
+msgstr ""
+
+#: ../src/setupwindow2.c:1078 ../src/trayicon.c:628
+msgid "Enable PM sound events"
+msgstr ""
+
+#: ../src/interface.c:576 ../src/trayicon.c:715
+msgid "Leave Room or Conference"
+msgstr ""
+
+#: ../src/setupwindow2.c:103 ../src/setupwindow2.c:103
+#: ../src/setupwindow2.c:2008 ../src/setupwindow2.c:2049 ../src/yab.c:1767
+#: ../src/yab.c:1768
+msgid "Edit"
+msgstr ""
+
+#: ../src/packet_handler.c:3920 ../src/packet_handler.c:3991
+msgid "[System Message]"
+msgstr ""
+
+#: ../src/yab.c:1795 ../src/yab.c:1796
+msgid "My Info"
+msgstr ""
+
+#: ../src/setupwindow2.c:1551
+msgid "Use builtin profile viewer (My Yahoo)"
+msgstr ""
+
+#: ../src/pmwindow.c:692
+msgid "Yahoo! Private Message"
+msgstr ""
+
+#: ../src/packet_handler.c:3882
+msgid "Ignored PM from User in Room"
+msgstr ""
+
+#: ../src/conference.c:203
+msgid ""
+"Select friends from the list on the left and click \"Add\" to invite them to the\n"
+"chat room. To add somebody who is not on the list, type his or her Yahoo!\n"
+"ID in the box and click \"Add\"."
+msgstr ""
+
+#: ../src/setupwindow2.c:606
+msgid ""
+"Send and receive status messages\n"
+"in the same language as my LOCALE"
+msgstr ""
+
+#: ../src/packet_handler.c:5076 ../src/packet_handler.c:5690
+msgid "Download"
+msgstr ""
+
+#: ../src/setupwindow2.c:826
+msgid "Maximum line feeds per message"
+msgstr ""
+
+#: ../src/webcam/gyacheupload-ui.c:827
+msgid "Webcam Broadcaster"
+msgstr ""
+
+#: ../src/packet_handler.c:5505
+msgid "has enabled IMVironment"
+msgstr ""
+
+#: ../src/setupwindow2.c:999
+msgid "List adult rooms in room list"
+msgstr ""
+
+#: ../src/setupwindow2.c:1735
+msgid ""
+"Ignored\n"
+"Users"
+msgstr ""
+
+#: ../src/voice_chat.c:149 ../src/voice_chat.c:189
+msgid "Voice chat: could not open file for writing"
+msgstr ""
+
+#: ../src/users.c:470 ../src/packet_handler.c:3306
+msgid "Location: ?, "
+msgstr ""
+
+#: ../src/setupwindow2.c:653 ../src/setupwindow2.c:723
+msgid "Color"
+msgstr ""
+
+#: ../src/users.c:526 ../src/packet_handler.c:3288
+msgid "Age: "
+msgstr ""
+
+#: ../src/packet_handler.c:2051 ../src/packet_handler.c:4952
+msgid "Not currently connected to chat."
+msgstr ""
+
+#: ../src/interface.c:2106 ../src/interface.c:2107
+msgid " Find "
+msgstr ""
+
+#: ../src/yab.c:1146
+msgid "Nick Name:"
+msgstr ""
+
+#: ../src/callbacks.c:1336 ../src/gyach_int_text.c:716 ../src/pmwindow.c:167
+#: ../src/yab.c:1392
+msgid "Error opening file for saving."
+msgstr ""
+
+#: ../src/webcam/gyacheupload-ui.c:134
+msgid "Broadcasting"
+msgstr ""
+
+#: ../src/yab.c:1062
+msgid "An error occurred updating the addressbook item."
+msgstr ""
+
+#: ../src/packet_handler.c:4144
+msgid "Yahoo! Games"
+msgstr ""
+
+#: ../src/roomui.c:353
+msgid "Access:"
+msgstr ""
+
+#: ../src/setupwindow2.c:752
+msgid "Underline"
+msgstr ""
+
+#: ../src/interface.c:3875
+msgid "Allow users to see my Game high scores."
+msgstr ""
+
+msgid "Join Room"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "YES"
+msgstr ""
+
+msgid "You cannot rename or delete the selected buddy group."
+msgstr ""
+
+msgid "NO"
+msgstr ""
+
+msgid "Are you sure you want to remove this buddy?"
+msgstr ""
+
+msgid "Add Buddy"
+msgstr ""
+
+msgid "User is not online."
+msgstr ""
+
+msgid "Join Conference"
+msgstr ""
+
+msgid "Decline Invitation"
+msgstr ""
+
+msgid "Invite"
+msgstr ""
+
+msgid "Rename"
+msgstr ""
+
+msgid "Group"
+msgstr ""
+
+msgid "XMMS: What's Playing?"
+msgstr ""

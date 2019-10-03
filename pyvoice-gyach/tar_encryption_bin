@@ -1,0 +1,2 @@
+rm -f gyachE-Encryption-Plugins-*i586*.tar.bz2
+tar -cjf gyachE-Encryption-Plugins-0.2-i586.tar.bz2  /usr/local/share/gyach/plugins/gyach-blowfish.so  /usr/local/share/gyach/plugins/gyach-gpgme.so  /usr/local/share/gyach/plugins/gyach-mcrypt.so 

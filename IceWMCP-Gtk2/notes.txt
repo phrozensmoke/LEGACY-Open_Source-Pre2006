@@ -1,0 +1,935 @@
+constants.py
+DndCTree.py
+IceMenuTree.py
+IceMe.py
+icepref.py
+icepref_search.py
+icepref_td.py
+icesound.py
+ICEWMCP_BugReport.py
+icewmcp_common.py
+IceWMCP_Dialogs.py
+icewmcp_dnd.py
+IceWMCPGtkIconSelection.py
+IceWMCP_GtkPCCard.py
+IceWMCPKeyboard.py
+IceWMCPMouse.py
+IceWMCP.py
+IceWMCPRun.py
+ICEWMCP_URLRead.py
+IceWMCPWallpaper.py
+IceWMCPWinOptions.py
+IconSelectionDialog.py
+launcher.py
+MenuParser.py
+phrozenclock.py
+Preferences.py
+PreviewWindow.py
+pyprintcommon.py
+pyspool.py
+DndCTree.py:    def __init__(self, cols=1, tree_col=0, titles=None): ##DJM?!, _obj=None):
+DndCTree.py:    def cb_drag_data_get(self, widget, context, data, info, time):
+DndCTree.py:    def cb_drag_begin(self, widget, context):
+DndCTree.py:    def cb_drag_motion(self, widget, context, x, y, time):
+DndCTree.py:    def cb_drag_data_received(self, widget, context, x, y, data, info, time):
+DndCTree.py:    def cb_drag_end(self, widget, context):
+DndCTree.py:    def set_selection_mode(self, mode):
+DndCTree.py:    def column_titles_show(self):
+DndCTree.py:    def column_titles_hide(self):
+DndCTree.py:    def move_is_permitted(self, source_node, target_node,
+DndCTree.py:        operation takes place. The default implementation always returns 1.
+DndCTree.py:def test():
+DndCTree.py:    window.set_default_size(300, 300)
+IceMenuTree.py:    def __init__(self, app):
+IceMenuTree.py:    def on_tree_expand(self, tree, node):
+IceMenuTree.py:    def init(self, menufile = None, programsfile = None, toolbarfile = None):
+IceMenuTree.py:    def __insertMenu(self, parent, menuparser):
+IceMenuTree.py:    def __insertSep(self, parent, sibling, inactive = FALSE):
+IceMenuTree.py:    def __insertNode(self, parent, sibling,
+IceMenuTree.py:    def insertNode(self, node, type, text, iconname, command):
+IceMenuTree.py:    def getNodeName(self, node):
+IceMenuTree.py:    def getNodeCommand(self, node):
+IceMenuTree.py:    def __getNodeText(self, node, col):
+IceMenuTree.py:    def setNodeName(self, node, name):
+IceMenuTree.py:    def setNodeCommand(self, node, name):
+IceMenuTree.py:    def __setNodeText(self, node, name, col):
+IceMenuTree.py:    def getNodeIcon(self, node):
+IceMenuTree.py:    def setNodeIcon(self, node, pix, mask):
+IceMenuTree.py:    def getNodeUpperSibling(self, node):
+IceMenuTree.py:    def isSeparator(self, node):
+IceMenuTree.py:    def isInactive(self, node):
+IceMenuTree.py:    def getNodeType(self, node):
+IceMenuTree.py:    def setNodeType(self, node, type):
+IceMenuTree.py:    def getNodeIconName(self, node):
+IceMenuTree.py:    def setNodeIconName(self, node, iconname):
+IceMenuTree.py:    def getMainMenuNode(self):
+IceMenuTree.py:    def getProgramsNode(self):
+IceMenuTree.py:    def getToolbarNode(self):
+IceMenuTree.py:    def isOnClipboard(self, node):
+IceMenuTree.py:    def canMoveUp(self, node):
+IceMenuTree.py:    def canMoveDown(self, node):
+IceMenuTree.py:    def canDelete(self, node):
+IceMenuTree.py:    def canInsertOn(self, node):
+IceMenuTree.py:    def move_is_permitted(self, source_node, target_node,
+IceMenuTree.py:    def cut(self, node):
+IceMenuTree.py:    def copy(self, node):
+IceMenuTree.py:    def paste(self, node):
+IceMenuTree.py:    def delete(self, node):
+IceMenuTree.py:    def hasPasteData(self):
+IceMenuTree.py:    def __copy_recursive(self, target_node,
+IceMe.py:    def __init__(self, preferences):
+IceMe.py:        self.set_default_size(gtk.gdk.screen_width()-140, 
+IceMe.py:    def initAll(self,*args):
+IceMe.py:    def __initToolTips(self):
+IceMe.py:    def __initTree(self):
+IceMe.py:    def __initMenu(self):
+IceMe.py:    def __getTbButton(self, name, pic, callback, tooltip):
+IceMe.py:    def __initToolbar(self):
+IceMe.py:            _("Edit shortcuts")) ## changed to launch IceWMCP-KeyEdit, default editor crashed on startup, 2/21/2003
+IceMe.py:    def icewmcpKeyEdit(self,*args):
+IceMe.py:    def icewmcpIcePref2(self,*args):
+IceMe.py:    def __initIcePref(self):
+IceMe.py:    def appendIconPath(self,ipath): # changed 2.21.2003 - PhrozenSmoke
+IceMe.py:    def __initIconCache(self, icon_paths):  # changed 2.21.2003 - PhrozenSmoke
+IceMe.py:      # load some default icons:
+IceMe.py:    def __updateWidgets(self):
+IceMe.py:    def getCachedIcon(self, shortname):
+IceMe.py:    def setIconButton(self, shortname):
+IceMe.py:    def setStatus(self, text):
+IceMe.py:    def writeTree(self):
+IceMe.py:    def openMenufile(self, short_filename, full_filename, errmsgs):
+IceMe.py:    def writeSubTree(self, fd, node, level=0):
+IceMe.py:    def on_tree_drag_begin(self, widget, context):
+IceMe.py:    def on_tree_drag_end(self, widget, context):
+IceMe.py:    def on_tree_select_row(self, tree, node, col):
+IceMe.py:    def on_command_button_clicked(self, *args): # re-written 4.3.2003, Erica Andrews, eliminated gtk.Extra dep.
+IceMe.py:    def file_ok_close(self, *args):  # added 4.3.2003, Erica Andrews
+IceMe.py:    def file_cancel(self, *args):  # added 4.3.2003, Erica Andrews
+IceMe.py:    def on_icon_button_clicked(self, button):
+IceMe.py:            def getPictureList(self):
+IceMe.py:    def setDrag(self,*args): # drag-n-drop support, added 2.23.2003
+IceMe.py:    def on_name_changed(self, namefield):
+IceMe.py:    def on_command_changed(self, commandfield):
+IceMe.py:    def on_icon_name_focus_out_event(self, iconnamefield, event):
+IceMe.py:    def on_is_restart_toggled(self, button):
+IceMe.py:    def on_save(self, x=None, y=None):
+IceMe.py:    def on_revert(self, x=None, y=None):
+IceMe.py:    def on_preview(self, x=None, y=None):
+IceMe.py:    def on_icepref(self, x=None, y=None):
+IceMe.py:    def on_about(self, x=None, y=None):
+IceMe.py:    def on_new_entry(self, button):
+IceMe.py:    def on_new_submenu(self, button):
+IceMe.py:    def on_new_sep(self, button):
+IceMe.py:    def on_move_up(self, button):
+IceMe.py:    def on_move_down(self, button):
+IceMe.py:    def on_cut(self, x=None, y=None):
+IceMe.py:    def on_copy(self, x=None, y=None):
+IceMe.py:    def on_paste(self, x=None, y=None):
+IceMe.py:    def on_delete(self, x=None, y=None):
+IceMe.py:def usage():
+IceMe.py:def main():
+icepref.py:def donada(*args): # does nothing, just a 'dummy' method for the Splash screen, app=Application() does all the real work
+icepref.py:# these define the types of configuration widgets
+icepref.py:# these define the indexes for the data in DEFAULTS and self.settings
+icepref.py:## default behavior is to show ALL modules and tabs
+icepref.py:# widget to be used, the parameter's default value (as a string), the title/label
+icepref.py:        'Theme': [THEME, '"icedesert/default.theme"', 'IceWM Themes'],
+icepref.py:# This list defines the order in which options will be output to the
+icepref.py:def breakTitle(somestr,sstopper=30):
+icepref.py:# This class defines the standard style of labels used in many other classes
+icepref.py:    def __init__(self, title,sstopper=30):
+icepref.py:    def __init__(self, titlebar, title):
+icepref.py:    def init_widgets(self, title):
+icepref.py:    def init_buttons(self):
+icepref.py:    def button_cb(self, object=None, data=None):
+icepref.py:    def __init__(self, title='', value=''):
+icepref.py:    def init_widgets(self, title):
+icepref.py:    def set_value(self, value):
+icepref.py:    def get_value(self):
+icepref.py:    def __init__(self, title='', value=''):
+icepref.py:    def init_widgets(self, title):
+icepref.py:    def set_value(self, value):
+icepref.py:    def get_value(self):
+icepref.py:    def __init__(self, title='', min=0, max=100, value=0):
+icepref.py:    def init_widgets(self, title, min, max):
+icepref.py:    def set_value(self, value):
+icepref.py:    def get_value(self):
+icepref.py:    def __init__(self, title, value):
+icepref.py:    def init_constants(self):
+icepref.py:    def init_widgets(self, title):
+icepref.py:    def set_value(self, value):
+icepref.py:    def get_value(self):
+icepref.py:def setDrag(*args): # drag-n-drop support, added 2.23.2003
+icepref.py:    def __init__(self,warn_type=0,restart_cmd=None,save_cmd=None):
+icepref.py:    def generatePreview(self,*args): # added 3.14.2003 - auto generation of theme preview.jpg files 
+icepref.py:    def generatePreviewStep2(self,*args):
+icepref.py:    def applyTheme(self,*args):
+icepref.py:    def aboutThemes(self,*args):
+icepref.py:    def update_image(self,image_file):
+icepref.py:    def __init__(self, title='', value='',image_previewer=None):
+icepref.py:    def init_widgets(self, title):
+icepref.py:    def set_value(self, value):
+icepref.py:    def get_value(self):
+icepref.py:    def cancel(self, data=None):
+icepref.py:    def select(self, data=None):
+icepref.py:    def init_widgets(self, title):
+icepref.py:    def setColor(self,*args):
+icepref.py:    def updateColorProperties(self, r, g, b): # new method,functionality separation, 5.16.2003
+icepref.py:    def ok(self, data=None):
+icepref.py:    def init_widgets(self, title):
+icepref.py:    def set_value(self, value):
+icepref.py:    def set_sample(self, value):
+icepref.py:    def select(self, data=None):
+icepref.py:    def ok(self, data=None):
+icepref.py:    def update(self, widget, data=None):
+icepref.py:    def select(self, data=None):
+icepref.py:    def ok(self, data=None):
+icepref.py:    def ok(self, data=None):
+icepref.py:    def __init__(self, title, value, num):
+icepref.py:    def init_widgets(self, title):
+icepref.py:    def divide(self, string):
+icepref.py:    def set_value(self, value):
+icepref.py:    def get_value(self):
+icepref.py:    def __init__(self, full_path):
+icepref.py:    def init_vars(self, full_path):
+icepref.py:        # default description: "nice - default" or "axxrom1.1 - spring", etc
+icepref.py:            if not addon=="default": self.name=self.name+" ["+addon+"]"
+icepref.py:    def __init__(self, title='', value='',Image_prev=None):
+icepref.py:    def init_theme_list(self):
+icepref.py:    def extract_theme_files(self, subdir_list):
+icepref.py:    def append_theme(self, theme):
+icepref.py:    def set_value(self, value):      
+icepref.py:    def get_value(self):
+icepref.py:    def init_widgets(self, title):
+icepref.py:    def clist_cb(self, widget, row, col, event):
+icepref.py:    def __init__(self, title='', value=''):
+icepref.py:    def init_widgets(self, title):
+icepref.py:    def init_options(self):
+icepref.py:    def create_menu(self):
+icepref.py:    def menu_cb(self, widget, data):
+icepref.py:    def set_value(self, value):
+icepref.py:    def get_value(self):
+icepref.py:    def init_options(self):
+icepref.py:    def init_options(self):
+icepref.py:    def __init__(self, argv):
+icepref.py:        self.set_default_size(gtk.screen_width()-100, gtk.screen_height()-150)
+icepref.py:    def mainloop(self):
+icepref.py:    def determine_os(self):
+icepref.py:    def find_global_preferences(self):
+icepref.py:    def find_local_preferences(self):
+icepref.py:    def init_settings(self):
+icepref.py:    def update_widgets(self, data=None):
+icepref.py:    # options which are commented out should still be read as the new default
+icepref.py:    def analyze(self, string):
+icepref.py:    def get_current_settings(self, data=None):
+icepref.py:    def save_current_settings(self, *data):
+icepref.py:                    if self.settings.has_key(name): # added 5.5.2003, fall back to default
+icepref.py:    def restart(self, widget=None, data=None):
+icepref.py:        # if it will work on all systems. It definitely doesn't work on FreeBSD--
+icepref.py:    def ok(self, data=None):
+icepref.py:    def about_cb(self, *data):
+icepref.py:    def set_file_settings(self, *data):
+icepref.py:    # returns self.settings to the default values--doesn't work quite right
+icepref.py:    def set_default_settings(self, *data):
+icepref.py:    def run_iceme(self, *args):
+icepref.py:    def run_ism(self, *args):
+icepref.py:    def run_icecp(self, *args):
+icepref.py:    def run_icetd(self, *args):
+icepref.py:    def init_menu(self):
+icepref.py:                [_('/File/Reset _Defaults'), '<control>D', self.set_default_settings, 0, ''],
+icepref.py:    def switchTab(self,*args):
+icepref.py:    def init_notebook(self):
+icepref.py:    def widget_chooser(self, item,Image_prev=None):
+icepref.py:    def init_buttons(self):    
+icepref.py:                    [_('Defaults'), self.set_default_settings,_('Reset default values')],
+icepref.py:    def __init__(self, pull_tab="Mouse"):
+icepref.py:    def get_tab(self):
+icepref.py:def run():
+icepref_search.py:def hideSearch(*args):
+icepref_search.py:def showSearchWindow(pair_list):
+icepref_search.py:def search_tabs(keyword, tab_list, default_dict):
+icepref_search.py:                                        if default_dict.has_key(mj): 
+icepref_search.py:                                                prop=default_dict[mj][2]
+icepref_search.py:                                if (default_dict[mj][2].lower().find(keyword.lower())>-1) or (_(default_dict[mj][2]).lower().find(keyword.lower())>-1):
+icepref_search.py:                                        if default_dict.has_key(mj): 
+icepref_search.py:                                                prop=default_dict[mj][2]
+icepref_search.py:def runSearch(*args):
+icepref_search.py:def runSearchDialog(*args):
+icepref_td.py:def donada(*args):  # does nothing, just a 'dummy' method for the Splash screen, app=Application() does all the real work
+icepref_td.py:# these define the types of configuration widgets
+icepref_td.py:# these define the indexes for the data in DEFAULTS and self.settings
+icepref_td.py:		'Theme': [THEME, '"mytheme/default.theme"', 'IceWM Themes'],
+icepref_td.py:# This list defines the order in which options will be output to the
+icepref_td.py:def breakTitle(somestr,sstopper=30):
+icepref_td.py:# This class defines the standard style of labels used in many other classes
+icepref_td.py:	def __init__(self, title,sstopper=30):
+icepref_td.py:	def __init__(self, titlebar, title):
+icepref_td.py:	def init_widgets(self, title):
+icepref_td.py:	def init_buttons(self):
+icepref_td.py:	def button_cb(self, object=None, data=None):
+icepref_td.py:	def __init__(self, title='', value=''):
+icepref_td.py:	def init_widgets(self, title):
+icepref_td.py:	def set_value(self, value):
+icepref_td.py:	def get_value(self):
+icepref_td.py:	def __init__(self, title='', value=''):
+icepref_td.py:	def init_widgets(self, title):
+icepref_td.py:	def set_value(self, value):
+icepref_td.py:	def get_value(self):
+icepref_td.py:	def __init__(self, title='', min=0, max=100, value=0):
+icepref_td.py:	def init_widgets(self, title, min, max):
+icepref_td.py:	def set_value(self, value):
+icepref_td.py:	def get_value(self):
+icepref_td.py:def setDrag(*args): # drag-n-drop support, added 2.23.2003
+icepref_td.py:	def __init__(self,warn_type=0,restart_cmd=None,save_cmd=None):
+icepref_td.py:	def generatePreview(self,*args):  # added 3.14.2003 - auto generation of theme preview.jpg files 
+icepref_td.py:	def generatePreviewStep2(self,*args):
+icepref_td.py:	def update_image(self,image_file):
+icepref_td.py:	def im_convert(self,imfile,tofile,some_entry):
+icepref_td.py:	def __init__(self, title='', value='',image_previewer=None):
+icepref_td.py:	def init_widgets(self, title):
+icepref_td.py:	def set_value(self, value):
+icepref_td.py:	def get_value(self):
+icepref_td.py:	def cancel(self, data=None):
+icepref_td.py:	def select(self, data=None):
+icepref_td.py:	def init_widgets(self, title):
+icepref_td.py:	def setColor(self,*args):
+icepref_td.py:	def set_value(self, value):
+icepref_td.py:	def updateColorProperties(self, r, g, b): # new method,functionality separation, 5.16.2003
+icepref_td.py:	def ok(self, data=None):
+icepref_td.py:	def init_widgets(self, title):
+icepref_td.py:	def set_value(self, value):
+icepref_td.py:	def set_sample(self, value):
+icepref_td.py:	def select(self, data=None):
+icepref_td.py:	def ok(self, data=None):
+icepref_td.py:	def update(self, widget, data=None):
+icepref_td.py:	def __init__(self,title="",value="",im_previewer=None):
+icepref_td.py:	def select(self, data=None):
+icepref_td.py:	def ok(self, data=None):
+icepref_td.py:	def __init__(self, title='', value='',image_previewer=None):
+icepref_td.py:	def init_widgets(self, title):		
+icepref_td.py:	def run_conv(self,value):
+icepref_td.py:	def ok(self, data=None):
+icepref_td.py:	def do_del(self,*args):
+icepref_td.py:	def do_edit(self,*args):
+icepref_td.py:	def __init__(self, full_path):
+icepref_td.py:	def init_vars(self, full_path):
+icepref_td.py:		# default description:  "nice - default"  or "axxrom1.1 - spring", etc
+icepref_td.py:			if not addon=="default":  self.name=self.name+"  ["+addon+"]"
+icepref_td.py:	def __init__(self, title='', value='',Image_prev=None):
+icepref_td.py:	def init_theme_list(self):
+icepref_td.py:	def extract_theme_files(self, subdir_list):
+icepref_td.py:	def append_theme(self, theme):
+icepref_td.py:	def set_value(self, value):	    
+icepref_td.py:	def get_value(self):
+icepref_td.py:	def init_widgets(self, title):
+icepref_td.py:	def clist_cb(self, widget, row, col, event):
+icepref_td.py:	def __init__(self, title='', value=''):
+icepref_td.py:	def init_widgets(self, title):
+icepref_td.py:	def init_options(self):
+icepref_td.py:	def create_menu(self):
+icepref_td.py:	def set_value(self, value):
+icepref_td.py:	def get_value(self):
+icepref_td.py:	def __init__(self, argv):
+icepref_td.py:		self.set_default_size(gtk.screen_width()-100, gtk.screen_height()-150)
+icepref_td.py:		self.set_default_size(gtk.screen_width()-150, gtk.screen_height()-280)
+icepref_td.py:	def mainloop(self):
+icepref_td.py:	def determine_os(self):
+icepref_td.py:	def find_global_preferences(self):    
+icepref_td.py:	def init_settings(self):
+icepref_td.py:	def update_widgets(self, data=None):
+icepref_td.py:	# options which are commented out should still be read as the new default
+icepref_td.py:	def analyze(self, string):
+icepref_td.py:	def get_current_settings(self, data=None):	    
+icepref_td.py:			# added 1.26.2003 - dont erase default value if the current value is set to nothing (i.e. "")
+icepref_td.py:	def save_current_settings(self, *data):
+icepref_td.py:					if self.settings.has_key(name):  # added 5.5.2003, fall back to default
+icepref_td.py:	def restart(self, widget=None, data=None):
+icepref_td.py:	def ok(self, data=None):
+icepref_td.py:	def about_cb(self, *data):
+icepref_td.py:	def set_file_settings(self, *data):
+icepref_td.py:	# returns self.settings to the default values--doesn't work quite right
+icepref_td.py:	def set_default_settings(self, *data):
+icepref_td.py:	def run_iceme(self, *args):
+icepref_td.py:	def run_ism(self, *args):
+icepref_td.py:	def run_icecp(self, *args):
+icepref_td.py:	def run_icepref(self, *args):
+icepref_td.py:	def init_menu(self):
+icepref_td.py:	def switchTab(self,*args):
+icepref_td.py:	def init_notebook(self):
+icepref_td.py:	def widget_chooser(self, item,Image_prev=None):
+icepref_td.py:	def makeNeededDirs(self,some_path): # make relevant theme directories if they dont exist
+icepref_td.py:	def newThemeAsk(self,*args):
+icepref_td.py:		w.set_default_size(375,-2)
+icepref_td.py:	def file_cancel(self,*args):
+icepref_td.py:	def select_a_file(self, file_sel_cb,widget=None,title=_("Select a file...")):
+icepref_td.py:	def newThemeFileSet(self,*args):
+icepref_td.py:	def newThemeFileSetCB(self,*args):
+icepref_td.py:	def hideNewTheme(self,*args):
+icepref_td.py:	def newTheme(self,*args):
+icepref_td.py:		CONFIG_FILE=CONFIG_THEME_PATH+"default.theme"
+icepref_td.py:	def openTheme(self,*args):
+icepref_td.py:	def openThemeCB(self,*args):
+icepref_td.py:	def openThemeFile(self,tfile):
+icepref_td.py:	def set_status(self,some_text):
+icepref_td.py:	def init_buttons(self):	
+icepref_td.py:def run():
+icesound.py:global audio_defaults
+icesound.py:audio_defaults={"oss_dev":"/dev/dsp","yiff_host":"localhost","yiff_port":"9433","yiff_auto":"1","esd_host":"localhost","esd_port":"16001","interface":"esd","esd_local":1}
+icesound.py:def getServerExec(*args):
+icesound.py:def getServerExecShort(*args):
+icesound.py:def getSuggestedCommandLine(*args):
+icesound.py:   global audio_defaults
+icesound.py:   def_se=getServerExec()+" -i ESD -S localhost:16001 -v -s "+wavd+" &"
+icesound.py:     def_se=getServerExec()+" -i ESD -S localhost:16001 -v -s "+wavd+" &"
+icesound.py:     if audio_defaults.has_key("interface"):
+icesound.py:       iface=str(audio_defaults["interface"]).lower()
+icesound.py:         if audio_defaults.has_key("oss_dev"): se=se+" -D "+str(audio_defaults["oss_dev"])
+icesound.py:	 if audio_defaults.has_key("esd_local"):
+icesound.py:		if str(audio_defaults["esd_local"])=="1": 
+icesound.py:         	if audio_defaults.has_key("esd_host"): 
+icesound.py:			se=se+" -S "+str(audio_defaults["esd_host"])+":"
+icesound.py:         		if audio_defaults.has_key("esd_port"): 
+icesound.py:           			se=se+str(audio_defaults["esd_port"])
+icesound.py:         if audio_defaults.has_key("yiff_host"): se=se+" -S "+str(audio_defaults["yiff_host"])+":"
+icesound.py:         if audio_defaults.has_key("yiff_port"): 
+icesound.py:           se=se+str(audio_defaults["yiff_port"])
+icesound.py:         if audio_defaults.has_key("yiff_auto"): 
+icesound.py:           if str(audio_defaults["yiff_auto"])=="1":
+icesound.py:       return def_se
+icesound.py:     #return def_se
+icesound.py:    def __init__ (self) :
+icesound.py:def getPixmapButton (iwin,picon,btext) :  
+icesound.py:def getPixmapVBox(iwin,picon,btext):
+icesound.py:def getIconButton (iwin,picon,lab="?") :  
+icesound.py:def showStatus(statustext,*args):
+icesound.py:def hideit(*args):
+icesound.py:    def __init__ (self) :
+icesound.py:def hideo(*args):
+icesound.py:def showOptions(*args):
+icesound.py:def hideOptions(*args):
+icesound.py:    def __init__ (self) :
+icesound.py:    def setHelpText(self, helpstuff):
+icesound.py:      self.helptext.insert_defaults("\n"+str(helpstuff))
+icesound.py:    def appendHelpText(self, helpstuff):
+icesound.py:       self.helptext.insert_defaults("\n"+str(helpstuff))
+icesound.py:    def hideh(self,*args):      
+icesound.py:def showModalHelp(helpText="Help text here.",*args):
+icesound.py:def showGenericHelp(*args):
+icesound.py:def showCmdHelp(*args):
+icesound.py:def showTerminalHelp(*args):
+icesound.py:  showModalHelp(_("If CHECKED, your Ice Sound Server will be started in a terminal window.  The terminal application to be used is determined by the value of your $TERM environment variable (generally, xterm, gnome-terminal, kterm, or eterm).  You can determine the terminal application used to launch your Ice Sound Server, by setting the environment variable $TERM.  Type 'echo $TERM' to see what your default terminal application is.  NOTE: Your default terminal application in $TERM must accept the -e command line option and must understand it in a way similiar to xterm  for this option to work.  The only exception to this rule is gnome-terminal."))
+icesound.py:def showAutoHelp(*args):
+icesound.py:def showCopyHelp(*args):
+icesound.py:  showModalHelp(_("This option determines whether your .wav sounds will be LINKED or COPIED into your IceSound Server's Wav Storage Directory (as defined under the menu 'IceSound Server' -> 'Wav Directory'.  Leave this option UNCHECKED if you would rather your files be LINKED into your IceSound Server's Wav Storage Directory.  (This will save disk space, but your sound events will not play if you move/delete the original files.  Be sure to keep your sound themes current if you choose this method.)   CHECK this option if you would rather your .wav sounds be COPIED to your IceSound Server's Wav Storage Directory.  (This method uses more disk space, but ensures that your sound events will be unaffected should you move/delete the original .wav files.)  Which method you choose is up to you."))
+icesound.py:def showPlayHelp(*args):
+icesound.py:  showModalHelp(_("If you want to be able to PLAY your sounds in Ice Sound Manager, you must enter the command to launch a .wav sound player on your system.  Most people should be able to use the default command.  However, you may want or need to change this command.   NOTE:  Any command line you enter MUST contain the string '%f' somewhere in the command line  (this signifies where the .wav's filename should go in the command line.)  It is YOUR job to know or find out what command line to use to launch your .wav player.  If you fail to include '%f' in your command line, you will see an error message on the status bar when you attempt to play your sounds.  I personally suggest you use a command line that opens a fast, console-based .wav player (like wavplay) for the sake of speed. "))
+icesound.py:def showEditHelp(*args):
+icesound.py:  showModalHelp(_("If you want to be able to EDIT your sounds in Ice Sound Manager, you must enter the command to launch a .wav sound editor on your system.  Most people should be able to use the default command, IF they have the Sweep sound editor installed.  However, you may want or need to change this command.   NOTE:  Any command line you enter MUST contain the string '%f' somewhere in the command line  (this signifies where the .wav's filename should go in the command line.)  It is YOUR job to know or find out what command line to use to launch your .wav editor.  If you fail to include '%f' in your command line, you will see an error message on the status bar when you attempt to edit your sounds."))
+icesound.py:def showBugHelp(*args):
+icesound.py:def showServerHelp(*args):
+icesound.py:def showScriptHelp(*args):
+icesound.py:def showAbout(*args):
+icesound.py:    def __init__ (self) :
+icesound.py:    def setHelpText(self, helpstuff):
+icesound.py:      self.htext.insert_defaults(str(helpstuff))
+icesound.py:def hideDir(*args):
+icesound.py:def askExec(*args):
+icesound.py:def updateExec(*args):
+icesound.py:def doExecDia(*args):
+icesound.py:def execFile(*args):
+icesound.py:def execCancel(*args):
+icesound.py:def checkExec(fname,defname=""):
+icesound.py:    return defname
+icesound.py:    return defname
+icesound.py:def askWavDir(*args):
+icesound.py:def updateWavDir(*args):
+icesound.py:def setWavDir(wdir,*args):
+icesound.py:def doWavDia(*args):
+icesound.py:def wavFile(*args):
+icesound.py:def wavCancel(*args):
+icesound.py:def extractDirectory(fname):
+icesound.py:def createFileSel(winTitle,ok_method,cancel_method,*args):
+icesound.py:def grabFile(*args):   
+icesound.py:def doFsHide(*args):
+icesound.py:def showFileSelection(winTitle,ok_method,cancel_method,*args):
+icesound.py:    def __init__ (self) :
+icesound.py:def showThemeWindow(*args):
+icesound.py:def hideThemeWindow(*args):
+icesound.py:def chooseThemeFile(*args):
+icesound.py:def themeFile(*args):
+icesound.py:def themeCancel(*args):
+icesound.py:def saveTheme(*args):
+icesound.py:def saveThemeFile(*args):
+icesound.py:def disableSoundEvent(sevt,refresh=1,doSave=1,doCheck=1,quiet=0,*args):
+icesound.py:def enableSoundEvent(sevt,*args):
+icesound.py:def checkEnable(*args):
+icesound.py:def isDisabled(sevt,*args):
+icesound.py:def getSoundForEvent(sevt,fixit=0,*args):
+icesound.py:def setSoundForEvent(sevt,sfile,refresh=1,doSave=1,doCheck=1,*args):
+icesound.py:def registerWav(fromFile,toFile,link=1): # put the wav on the file system
+icesound.py:def deregisterWav(wavFile):
+icesound.py:def getSoundEventForDesc(desc,*args):
+icesound.py:def showSoundEvent(quiet=0,*args):
+icesound.py:def showSoundShort(csound,*args):
+icesound.py:def doNoSound(*args):
+icesound.py:def changeSound(*args):
+icesound.py:def doSoundDia(*args):
+icesound.py:def soundFile(*args):
+icesound.py:def soundCancel(*args):
+icesound.py:def checkFile(fname,*args):
+icesound.py:def playSound(*args):
+icesound.py:def stopSound(*args):
+icesound.py:def editSound(*args):
+icesound.py:def showSoundSetError(serrors,*args):
+icesound.py:def isTheme(ttext,*args):
+icesound.py:def searchForThemes(*args):
+icesound.py:def loadTheme(fname,quiet=0,refresh=1,*args):
+icesound.py:def updateThemes(*args):
+icesound.py:def associateTheme(tname,tfile,*args):
+icesound.py:def showThemeLoad(*args):
+icesound.py:def doThemeLoadDia(*args):
+icesound.py:def lthemeFile(*args):
+icesound.py:def lthemeCancel(*args):
+icesound.py:def selectTheme(*args):
+icesound.py:def blockSignals(*args):
+icesound.py:def unblockSignals(refresh=1,*args):
+icesound.py:    def __init__ (self) :
+icesound.py:def showAudio(*args):
+icesound.py:   global audio_defaults
+icesound.py:def closeAudio(*args):
+icesound.py:    global audio_defaults
+icesound.py:def saveAudioOptions(*args):
+icesound.py:   global audio_defaults
+icesound.py:       for i in audio_defaults.keys():
+icesound.py:         f.write(str(i).strip().lower()+"="+str(audio_defaults[i]).strip().lower()+"\n")
+icesound.py:def loadAudioOptions(*args):
+icesound.py:   global audio_defaults
+icesound.py:def showAudioHelp(*args):
+icesound.py:def setAudioProp(propname,propval):
+icesound.py:   global audio_defaults
+icesound.py:   if audio_defaults.has_key(str(propname).strip().lower()):
+icesound.py:       audio_defaults[str(propname).strip().lower()]=str(propval).strip().lower()
+icesound.py:def doAudioToggle(*args):
+icesound.py:def setAudioDefaults(*args):
+icesound.py:   global audio_defaults
+icesound.py:   icea.oss.set_active(str(audio_defaults["interface"])=="oss")
+icesound.py:   icea.yiff.set_active(str(audio_defaults["interface"])=="yiff")
+icesound.py:   icea.host2text.set_text(audio_defaults["yiff_host"])
+icesound.py:   icea.port2text.set_text(audio_defaults["yiff_port"])
+icesound.py:   icea.autocheck.set_active(str(audio_defaults["yiff_auto"])=="1")
+icesound.py:   icea.localcheck.set_active(str(audio_defaults["esd_local"])=="1")
+icesound.py:   icea.devtext.set_text(audio_defaults["oss_dev"])
+icesound.py:   icea.host1text.set_text(audio_defaults["esd_host"])
+icesound.py:   icea.port1text.set_text(audio_defaults["esd_port"])
+icesound.py:def fileExists(fname, *args):
+icesound.py:    def __init__ (self) :
+icesound.py:    def setHelpText(self, helpstuff):
+icesound.py:      self.helptext.insert_defaults(str(helpstuff))
+icesound.py:def runSetup(*args):
+icesound.py:def returnSetup(*args):
+icesound.py:def setupFiles(*args):
+icesound.py:def savePreferences(*args):
+icesound.py:def loadPreferences(*args):
+icesound.py:def loadOptions(*args):
+icesound.py:def saveOptions(*args):
+icesound.py:def startServer(*args):
+icesound.py:def clearESDCache(*args):
+icesound.py:def stopServer(*args):
+icesound.py:   global audio_defaults
+icesound.py:     iface=str(audio_defaults["interface"]).lower()
+icesound.py:def applySoundTheme(*args):
+icesound.py:def serverIsRunning(*args):
+icesound.py:def getServerVersion(*args):
+icesound.py:def refreshServer(*args):
+icesound.py:def quit (*args) :
+icesound.py:def run () :
+icesound.py:def t_start():    
+ICEWMCP_BugReport.py:def sendEmail(msgtext,sserver,from_addie):
+ICEWMCP_BugReport.py:def getSysInfo(*args): # gather useful system information for bug-reporting, info users always fail to send
+ICEWMCP_BugReport.py:def sendBugReport(*args):
+ICEWMCP_BugReport.py:def file_bug_report(app_num=5000,*args):
+ICEWMCP_BugReport.py:	#sctext.insert_defaults(app_name)   # for testing
+ICEWMCP_BugReport.py:	sctext1.insert_defaults(getSysInfo())
+ICEWMCP_BugReport.py:	bugwin.set_default_size(395,460)
+icewmcp_common.py:def getBaseDir() :
+icewmcp_common.py:def getPixDir() :
+icewmcp_common.py:def getDocDir() :
+icewmcp_common.py:def getLocaleDir():
+icewmcp_common.py:            return ""  # default to no sub-directory at all
+icewmcp_common.py:def getHelpDir():
+icewmcp_common.py:def getHelpDirLocale():
+icewmcp_common.py:def loadImage(picon,windowval):
+icewmcp_common.py:def loadScaledImage(picon,newheight=40,newwidth=40):  # added in version 0.3, gdkpixbup support, load png, xpm, or gif, allow scaling of images
+icewmcp_common.py:def getIceWMPrivConfigPath():  # implemented in 0.3 - check environ variable, though who really uses this variable?
+icewmcp_common.py:def getIceWMConfigPath():  # new in version 0.3, search for IceWM global config path in likely locations
+icewmcp_common.py:    MY_ICEWM_PATH="/usr/X11R6/lib/X11/icewm/"  # we didnt find the path, use a default
+icewmcp_common.py:def getImage(im_file,lab_err=DIALOG_TITLE) : # GdkImlib Image loading
+icewmcp_common.py:def msg_info(wintitle,message):
+icewmcp_common.py:def msg_warn(wintitle,message):
+icewmcp_common.py:def msg_err(wintitle,message):
+icewmcp_common.py:def msg_confirm(wintitle,message,d_ok=DIALOG_OK,d_cancel=DIALOG_CANCEL):
+icewmcp_common.py:def closeUpdateWin(*args):
+icewmcp_common.py:def checkSoftUpdate(*args):
+icewmcp_common.py:        w.set_default_size(430,200)
+icewmcp_common.py:def keyPressClose(widget, event,*args):
+icewmcp_common.py:def calculateSegment(rgb_seg):
+icewmcp_common.py:def getRGBForHex(hexstr):
+icewmcp_common.py:def renderHelp(texta,mesg):
+icewmcp_common.py:def commonAbout(wintitle,mesg,with_copy=1,logo="icewmcp_short.png",new_line=" ",editable=0,is_help=0) :
+icewmcp_common.py:#    else: sctext.insert_defaults(abouttext)
+icewmcp_common.py:    if is_help==1: aboutwin.set_default_size(365,400)
+icewmcp_common.py:    else: aboutwin.set_default_size(365,290)
+icewmcp_common.py:    #aboutwin.set_default_size(375,375)
+icewmcp_common.py:def displayHelp(appnum=7777,*args):
+icewmcp_common.py:def show_credits(*args):
+icewmcp_common.py:import IceWMCPRun    # THis should always be the last function defined in this module
+icewmcp_common.py:def rundlg(*args):  # new in versin 1.1, global access to a 'Run...' dialog 
+icewmcp_common.py:SPLASH_LOGO=getBaseDir()+"icewmcp_short.png"    # a default Splash logo
+icewmcp_common.py:def setSplash(splash_meth,splash_text=translateCP("Loading")+"..." ,splash_logo=getBaseDir()+"icewmcp_short.png"):
+icewmcp_common.py:def hideSplash(*args):
+icewmcp_common.py:def __initSplash(*args):
+icewmcp_common.py:def showSplash(with_time=1,*args):
+IceWMCP_Dialogs.py:    def __init__(self, 
+IceWMCP_Dialogs.py:                # the first button will always be the default button:
+IceWMCP_Dialogs.py:        self.default = buttons[0]
+IceWMCP_Dialogs.py:    def quit(self, *args):
+IceWMCP_Dialogs.py:    def __click(self, button):
+IceWMCP_Dialogs.py:    def __press(self, widget, event):
+IceWMCP_Dialogs.py:            self.ret = self.default
+IceWMCP_Dialogs.py:def message(title="Message", message="", buttons=("Ok",),
+IceWMCP_Dialogs.py:":. c #d3def0",
+icewmcp_dnd.py:def addDragSupport(widget, drag_callback): 
+icewmcp_dnd.py:def initColorDrag():  # mainly for IcePref2, IcePref-TD, and IceWMCPWallpaper - 'color buttons'
+icewmcp_dnd.py:    def setDrag2(*args): # drag-n-drop callback, added 5.16.2003, drag-n-drop support for 'color buttons'
+icewmcp_dnd.py:    def addDragSupportColor(widget): # drag-n-drop support, added 5.15.2003 , for color buttons
+IceWMCPGtkIconSelection.py:def findIcons(paths):    # added as separate method by Erica Andrews
+IceWMCPGtkIconSelection.py:    def __init__(self, num_columns=8,my_paths=[],update_meth=None):
+IceWMCPGtkIconSelection.py:    def initGUI(self):
+IceWMCPGtkIconSelection.py:        self.set_default_size(400, 390)
+IceWMCPGtkIconSelection.py:    def saveMyIcons(self,some_line):
+IceWMCPGtkIconSelection.py:    def closeIconSetWin(self,*args):
+IceWMCPGtkIconSelection.py:    def showIconsPath2(self,some_str,reload_meth):
+IceWMCPGtkIconSelection.py:		w.set_default_size(430,200)
+IceWMCPGtkIconSelection.py:    def __initIcons(self):
+IceWMCPGtkIconSelection.py:    def setDragAway(self,*args):
+IceWMCPGtkIconSelection.py:    def addDragSupport(self,swidget):
+IceWMCPGtkIconSelection.py:    def __addButton(self, group, name, filename, pix, mask):
+IceWMCPGtkIconSelection.py:    def __fillTable(self):
+IceWMCPGtkIconSelection.py:    def __setSelectedIcon(self, name):
+IceWMCPGtkIconSelection.py:    def getSelectedIcon(self, default_selected_icon_name = None):
+IceWMCPGtkIconSelection.py:        #self.__setSelectedIcon(default_selected_icon_name)  # commented out by Erica Andrews
+IceWMCPGtkIconSelection.py:    def getPictureList(self):
+IceWMCPGtkIconSelection.py:    def showIconsPath(self,*args):  # added here by Erica Andrews
+IceWMCPGtkIconSelection.py:    def do_close(self, button = None):  # modified here by Erica Andrews
+IceWMCPGtkIconSelection.py:    def do_ok(self, button = None):  # modified here by Erica Andrews
+IceWMCPGtkIconSelection.py:    def do_reload(self, button=None):
+IceWMCPGtkIconSelection.py:    def on_columns_changed(self, x):
+IceWMCPGtkIconSelection.py:    def on_iconbutton_clicked(self, button):
+IceWMCPGtkIconSelection.py:    def on_iconbutton_pressed(self, button, event):
+IceWMCPGtkIconSelection.py:    def on_delete(self, win, event):
+IceWMCPGtkIconSelection.py:    def on_key(self, widget, keyevent):
+IceWMCPGtkIconSelection.py:def create_dlg(MY_PATHS,update_meth=None):
+IceWMCPGtkIconSelection.py:        def getPictureList(self):
+IceWMCPGtkIconSelection.py:def show_dlg(x):
+IceWMCPGtkIconSelection.py:default_icon_paths=(getIceWMConfigPath()+"icons","/usr/share/icons","/usr/share/pixmaps","/opt/kde3/share/icons","/usr/share/icons/hicolor/48x48/apps","/usr/share/icons/hicolor/48x48/devices","/usr/share/icons/hicolor/48x48/filetypes","/usr/share/icons/hicolor/48x48/mimetypes","/usr/share/icons/special","/usr/share/icons/special/sky","/usr/share/icons/special/desk","/usr/share/icons/special/mimetypes","/usr/share/icons/faux","/usr/share/pixmaps/mc","/usr/share/IceControlPanel/applet-icons","/usr/share/IceControlPanel/pixmaps","/usr/local/share/icons") 
+IceWMCPGtkIconSelection.py:#default_icon_paths=("/usr/X11R6/lib/X11/icewm/icons","/usr/share/icons/faux") 
+IceWMCPGtkIconSelection.py:def getMyIcons():
+IceWMCPGtkIconSelection.py:		return default_icon_paths
+IceWMCPGtkIconSelection.py:def run_icons(updater=None):  # commandline 
+IceWMCP_GtkPCCard.py:    def __init__(self) :
+IceWMCP_GtkPCCard.py:	gtkpccardwin.set_default_size(-2,440)
+IceWMCP_GtkPCCard.py:    def doQuit(self,*args) :
+IceWMCP_GtkPCCard.py:    def doAbout(self,*args) :
+IceWMCP_GtkPCCard.py:    def getSocketCount(self):
+IceWMCP_GtkPCCard.py:    def addWidgets(self):
+IceWMCP_GtkPCCard.py:  def __init__(self):
+IceWMCP_GtkPCCard.py:  def clearText(self):
+IceWMCP_GtkPCCard.py:  def showMessage(self,mess):
+IceWMCP_GtkPCCard.py:  def insertFact(self,mess):
+IceWMCP_GtkPCCard.py:    self.infobox.insert_defaults(str(mess)+"\n")
+IceWMCP_GtkPCCard.py:  def setSocketNum(self,num):
+IceWMCP_GtkPCCard.py:  def loadFacts(self,num):
+IceWMCP_GtkPCCard.py:  def eject(self,*args):
+IceWMCP_GtkPCCard.py:  def suspend(self,*args):
+IceWMCP_GtkPCCard.py:  def resume(self,*args):
+IceWMCP_GtkPCCard.py:  def insert(self,*args):
+IceWMCP_GtkPCCard.py:  def reset(self,*args):
+IceWMCP_GtkPCCard.py:def run(doquit=1) :
+IceWMCPKeyboard.py:def restart_ice(*args) :
+IceWMCPKeyboard.py:def doQuit(*args):
+IceWMCPKeyboard.py:def reapplySettings1(*args):
+IceWMCPKeyboard.py:def reapplySettings(*args):
+IceWMCPKeyboard.py:    def createPanel(self,with_logo=1):
+IceWMCPKeyboard.py:    def __init__(self,noclose=0,start_prog=None) :
+IceWMCPKeyboard.py:        self.start_comment="# This is an example for IceWM's hotkey definition file.\n#\n# Place your variants in /usr/X11R6/lib/X11/icewm or in $HOME/.icewm\n# since modifications to this file will be discarded when you\n# (re)install icewm.\n#\n# A list of all valid keyboard symbols can be found in\n# /usr/include/X11/keysym.h, keysymdefs.h,XF86keysym.h, ...\n# You'll have to omit XK_ prefixs and to replace XF86XK_ prefixes by\n# XF86. Valid modifiers are Alt, Ctrl, Shift, Meta, Super and Hyper.\n#\n#\n#\n\n"
+IceWMCPKeyboard.py:    def createWindow(self):
+IceWMCPKeyboard.py:        wallwin.set_default_size(-2,440)
+IceWMCPKeyboard.py:    def loadUp(self,*args) :
+IceWMCPKeyboard.py:    def doQuit(self,*args) :
+IceWMCPKeyboard.py:    def build_key(self,*args):
+IceWMCPKeyboard.py:    def set_key(self,*args):
+IceWMCPKeyboard.py:    def add_key(self,*args):
+IceWMCPKeyboard.py:    def del_key(self,*args):
+IceWMCPKeyboard.py:    def new_key1(self,*args):
+IceWMCPKeyboard.py:    def new_key2(self,*args):
+IceWMCPKeyboard.py:    def new_key(self,desense=0):
+IceWMCPKeyboard.py:    def clist_cb(self,widget, row, col, event):
+IceWMCPKeyboard.py:    def display_keys(self,key_dict):
+IceWMCPKeyboard.py:    def parseLineList(self,string_list):
+IceWMCPKeyboard.py:    def get_keys(self,*args) :
+IceWMCPKeyboard.py:    def openKey(self, *args):
+IceWMCPKeyboard.py:    def openProg(self, *args):
+IceWMCPKeyboard.py:    def selectfile(self, program=1):
+IceWMCPKeyboard.py:    def fileok(self, *args):
+IceWMCPKeyboard.py:    def filecancel(self,*args):
+IceWMCPKeyboard.py:    def doSave(self,*args):
+IceWMCPKeyboard.py:    def restart_ice(self,*args) :
+IceWMCPKeyboard.py:    def setStatus(self,stattext):
+IceWMCPKeyboard.py:    def backup(self,file_name): # create backup of prefs file before editing
+IceWMCPKeyboard.py:    def do_about(self,*args):  # this method is needed for when running under IceMe
+IceWMCPKeyboard.py:    def test_key(self,*args):
+IceWMCPKeyboard.py:    def get_exec_short(self,exec_short):
+IceWMCPKeyboard.py:    def is_on_path(self,exec_name):  # new in version 1.2, check to see if an executable is on the path
+IceWMCPKeyboard.py:    def __init__(self) :
+IceWMCPKeyboard.py:    def doReset(self,*args) : # reset to a reasonable speed
+IceWMCPKeyboard.py:    def doApply(self,*args) : # set to desired speed
+IceWMCPKeyboard.py:    def __init__(self) :
+IceWMCPKeyboard.py:    def runTest(self,*args) :
+IceWMCPKeyboard.py:    def doReset(self,*args) : # reset to a reasonable speed
+IceWMCPKeyboard.py:    def doApply(self,*args) : # click and beep
+IceWMCPKeyboard.py:    def __init__(self) :
+IceWMCPKeyboard.py:        cwin.set_default_size(435,500)
+IceWMCPKeyboard.py:    def openKey(self,*args):
+IceWMCPKeyboard.py:    def do_about(self,*args):
+IceWMCPKeyboard.py:def run(doquit=1) :
+IceWMCPMouse.py:def restart_ice(*args) :
+IceWMCPMouse.py:def doQuit(*args):
+IceWMCPMouse.py:    def __init__(self) :
+IceWMCPMouse.py:    def doReset(self,*args) : # reset to a reasonable speed
+IceWMCPMouse.py:    def doApply(self,*args) : # set to desired speed
+IceWMCPMouse.py:    def doSafe(self,*args):
+IceWMCPMouse.py:    def resetSafe(self,*args):
+IceWMCPMouse.py:    def closeSafe(self,*args):
+IceWMCPMouse.py:    def checkSafe(self,*args):
+IceWMCPMouse.py:    def __init__(self,cwin):
+IceWMCPMouse.py:	#cwin.set_default_size(420,470)
+IceWMCPMouse.py:    def __init__(self) :
+IceWMCPMouse.py:	cwin.set_default_size(410,480)
+IceWMCPMouse.py:    def do_about(self,*args):
+IceWMCPMouse.py:def run(doquit=1) :
+IceWMCP.py:    def __init__(self,use_loader=0) :
+IceWMCP.py:    #controlwin.set_default_size(450,375)
+IceWMCP.py:    def saveView(self):  # added in version 0.3
+IceWMCP.py:    def readView(self):  # added in version 0.3
+IceWMCP.py:    def listView(self,*args) :  # added in version 0.3
+IceWMCP.py:    def iconView(self,*args) :  # added in version 0.3
+IceWMCP.py:    def columnView(self,*args) :  # added in version 2.3
+IceWMCP.py:    def showConfig(self,*args) :
+IceWMCP.py:    confwin.set_default_size(275,400)
+IceWMCP.py:    def saveConfig(self,*args) :
+IceWMCP.py:    def destroyConfig(self,*args) :
+IceWMCP.py:    def doToggle(self,*args) :
+IceWMCP.py:    def saveIgnoreList(self,*args) :
+IceWMCP.py:    def loadIgnoreList(self,*args) :
+IceWMCP.py:    def doQuit(self,*args) :
+IceWMCP.py:    def doAbout(self,*args) :
+IceWMCP.py:    def refreshAppletView(self,*args) :
+IceWMCP.py:        self.controlwin.set_default_size(385,395)
+IceWMCP.py:        self.controlwin.set_default_size(500,395)
+IceWMCP.py:        self.controlwin.set_default_size(450,395)
+IceWMCP.py:    def displayApplets(self,applet_dict) :
+IceWMCP.py:    def loadApplets(self,list_view=0) :  # load .cpl files
+IceWMCP.py:            APPLET_DIRECTORY=getBaseDir()+"applets"+os.sep   # default is top applet directory, English
+IceWMCP.py:        a_icon="default.xpm"
+IceWMCP.py:    def checkAvail(self,to_run) :  # added, 5/6/2003 - check for availability of applet programs
+IceWMCP.py:    def runApplet(self,*args) :
+IceWMCP.py:    def getCPIcon(self,micon,mdesc,mexec,mtooltip,listvw=0) :
+IceWMCP.py:    if p==None: p=loadScaledImage(getBaseDir()+"applet-icons"+os.sep+"default.xpm",newh,newwidth)
+IceWMCP.py:def run(use_load=0) :
+IceWMCPRun.py:  def __init__ (self) :
+IceWMCPRun.py:    runwindow.set_default_size(415,-2)
+IceWMCPRun.py:  def showFileSel(self,*args):
+IceWMCPRun.py:  def doFsHide(self,*args):
+IceWMCPRun.py:  def grabFile(self,*args):   
+IceWMCPRun.py:  def runCommand(self,*args):
+IceWMCPRun.py:  def addCommand(self,rcmd):
+IceWMCPRun.py:  def updateCombo(self):
+IceWMCPRun.py:  def saveCommands(self):
+IceWMCPRun.py:  def loadCommands(self):
+IceWMCPRun.py:  def quitit(self,*args):
+ICEWMCP_URLRead.py:def __parseUrl(my_url):
+ICEWMCP_URLRead.py:def openUrl(my_url,user_name=None,doGet=1,_params={},_referer="http://icesoundmanager.sourceforge.net"):
+ICEWMCP_URLRead.py:def __readPage(my_url,user_name=None,doGet=1,_params={},_referer="http://icesoundmanager.sourceforge.net"):
+IceWMCPWallpaper.py:    def __init__(self) :
+IceWMCPWallpaper.py:	wallwin.set_default_size(690, -2)
+IceWMCPWallpaper.py:    def setDrag(self,*args): # drag-n-drop support, added 2.23.2003
+IceWMCPWallpaper.py:    def about_cb(self,*args) :
+IceWMCPWallpaper.py:    def ok_quit(self,*args) :
+IceWMCPWallpaper.py:    def restart_ice(self,*args) :
+IceWMCPWallpaper.py:    def save_prefs(self,*args) :
+IceWMCPWallpaper.py:    def set_prefs(self,*args) :
+IceWMCPWallpaper.py:    def get_prefs(self,*args) :
+IceWMCPWallpaper.py:    def doQuit(self,*args) :
+IceWMCPWallpaper.py:    def selectcol(self, *args):
+IceWMCPWallpaper.py:    def colcancel(self,*args):
+IceWMCPWallpaper.py:    def colok(self, *args):
+IceWMCPWallpaper.py:    def selectfile(self, *args):
+IceWMCPWallpaper.py:    def fileok(self, *args):
+IceWMCPWallpaper.py:    def filecancel(self,*args):
+IceWMCPWallpaper.py:    def editWall(self, *args):  # added 5.10.2003, feature to launch Gimp for editing
+IceWMCPWallpaper.py:    def clist_cb(self, widget, row, col, event):
+IceWMCPWallpaper.py:    def displayImage(self,*args):
+IceWMCPWallpaper.py:    def reloadImages(self, *args):
+IceWMCPWallpaper.py:    def update_image(self,image_file,tile=0):
+IceWMCPWallpaper.py:	def __init__(self,select_method,col_entry):
+IceWMCPWallpaper.py:	def setColor(self,*args):
+IceWMCPWallpaper.py:	def updateColorProperties(self, r, g, b): # new method,functionality separation, 5.16.2003
+IceWMCPWallpaper.py:	def ok(self, raw_values):
+IceWMCPWallpaper.py:	def set_value(self, value):
+IceWMCPWallpaper.py:def run() :
+IceWMCPWinOptions.py:    def __init__(self) :
+IceWMCPWinOptions.py:	self.windefaults={'allWorkspaces':0,'startFullscreen':0,'startMaximized':0,'startMaximizedVert':0,'startMaximizedHorz':0,'startMinimized':0,'ignoreWinList':0,'ignoreTaskBar':0,'ignoreQuickSwitch':0,'fullKeys':0,'fMove':1,'fResize':1,'fClose':1,'fMinimize':1, 'fMaximize':1,'fHide':1,'fRollup':1,'dTitleBar':1,'dSysMenu':1,'dBorder':1,'dResize':1,'dClose':1,'dMinimize':1,'dMaximize':1,'dHide':1,'dRollup':1,'dDepth':1,'ignorePositionHint':0,'doNotFocus':0, 'noFocusOnAppRaise':0,'ignoreNoFocusHint':0,'doNotCover':0,'nonICCCMconfigureRequest':0,"tray":"Ignore","geometry":"","layer":self.LAYER_NORMAL,"icon":"","workspace":"[DEFAULT]"}
+IceWMCPWinOptions.py:		ck.set_active(self.windefaults[ii])
+IceWMCPWinOptions.py:	wallwin.set_default_size(565,600)
+IceWMCPWinOptions.py:    def loadUp(self,*args) :
+IceWMCPWinOptions.py:    def show_keys(self,*args) :
+IceWMCPWinOptions.py:    def backup(self,file_name): # create backup of prefs file before editing
+IceWMCPWinOptions.py:    def restart_ice(self,*args) :
+IceWMCPWinOptions.py:    def setStatus(self,stattext):
+IceWMCPWinOptions.py:    def doQuit(self,*args) :
+IceWMCPWinOptions.py:    def parseWinOpt(self,some_string) :
+IceWMCPWinOptions.py:    def createDefaults(self,mywmclass):
+IceWMCPWinOptions.py:		for ii in self.windefaults.keys():
+IceWMCPWinOptions.py:			d[ii]=self.windefaults[ii]
+IceWMCPWinOptions.py:    def parseLineList(self,string_list):
+IceWMCPWinOptions.py:    def get_keys(self,*args) :
+IceWMCPWinOptions.py:	try: # this happens if we got an empty prefs file - try system default
+IceWMCPWinOptions.py:    def clist_unselect(self,*args):
+IceWMCPWinOptions.py:    def clist_cb(self,widget, row, col, event):
+IceWMCPWinOptions.py:				else: self.winwidgets[ival].set_active(self.windefaults[ival])
+IceWMCPWinOptions.py:    def setDrag(self,*args): # drag-n-drop support, added 3.14.2003
+IceWMCPWinOptions.py:    def run_image_update(self,imfile):
+IceWMCPWinOptions.py:    def openIcon(self,*args):
+IceWMCPWinOptions.py:    def update_image(self,image_file):
+IceWMCPWinOptions.py:    def openKey(self, *args):
+IceWMCPWinOptions.py:    def show_addkey(self,*args):
+IceWMCPWinOptions.py:    def grab_wmclass(self,*args):
+IceWMCPWinOptions.py:    def add_key(self,*args):
+IceWMCPWinOptions.py:    def set_key(self,*args):
+IceWMCPWinOptions.py:    def del_key(self,*args):
+IceWMCPWinOptions.py:    def selectfile(self, program=1):
+IceWMCPWinOptions.py:    def fileok(self, *args):
+IceWMCPWinOptions.py:    def filecancel(self,*args):
+IceWMCPWinOptions.py:    def doSave(self,*args):	
+IceWMCPWinOptions.py:					# dont write default stuff - wastes space
+IceWMCPWinOptions.py:					if self.windefaults.has_key(str(jj)):
+IceWMCPWinOptions.py:						if str(self.windefaults[str(jj)])==str(kdict[jj]): continue
+IceWMCPWinOptions.py:    def do_about(self,*args):
+IceWMCPWinOptions.py:def run() :
+IconSelectionDialog.py:    def __init__(self, num_columns=10):
+IconSelectionDialog.py:    def destroy(self,*args):
+IconSelectionDialog.py:    def initGUI(self):
+IconSelectionDialog.py:        self.set_default_size(400, 390)
+IconSelectionDialog.py:    def __initIcons(self):
+IconSelectionDialog.py:    def __addButton(self, group, name, filename, pix, mask):
+IconSelectionDialog.py:    def __fillTable(self):
+IconSelectionDialog.py:    def __setSelectedIcon(self, name):
+IconSelectionDialog.py:    def getSelectedIcon(self, default_selected_icon_name = None):
+IconSelectionDialog.py:        self.__setSelectedIcon(default_selected_icon_name)
+IconSelectionDialog.py:    def getPictureList(self):
+IconSelectionDialog.py:    def do_close(self, button = None):
+IconSelectionDialog.py:    def do_ok(self, button = None):
+IconSelectionDialog.py:    def do_reload(self, button):
+IconSelectionDialog.py:    def on_columns_changed(self, x):
+IconSelectionDialog.py:    def on_iconbutton_clicked(self, button):
+IconSelectionDialog.py:    def on_iconbutton_pressed(self, button, event):
+IconSelectionDialog.py:    def on_delete(self, win, event):
+IconSelectionDialog.py:    def on_key(self, widget, keyevent):
+IconSelectionDialog.py:def create_dlg():
+IconSelectionDialog.py:        def getPictureList(self):
+IconSelectionDialog.py:def show_dlg(x):
+IconSelectionDialog.py:def test():
+IconSelectionDialog.py:    win.set_default_size(80,20)
+MenuParser.py:    def __init__(self, filename):
+MenuParser.py:    def __getNextLine(self):
+MenuParser.py:    def getNextEntry(self):
+MenuParser.py:    def __parseWord(self, s, start=0):
+MenuParser.py:    def __parseProg(self, s):
+MenuParser.py:    def __parseMenu(self, s):
+MenuParser.py:def prettyprint(filename):
+phrozenclock.py:    def __init__(self) :
+phrozenclock.py:    def locateZoneinfo(self) :
+phrozenclock.py:    def getCurrentTZName(self) :
+phrozenclock.py:    def showTime(self) :
+phrozenclock.py:    def showError(self,message_text):
+phrozenclock.py:    def showMessage(self,message_text):
+phrozenclock.py:    def loadTime(self,with_zone=0,with_time=0):
+phrozenclock.py:    def loadTimeDay(self):
+phrozenclock.py:    def loadTimeClock(self,realtime=None):
+phrozenclock.py:    def stopUpdates(self,*args):
+phrozenclock.py:    def startUpdates(self):
+phrozenclock.py:    def stopDayUpdates(self,*args):
+phrozenclock.py:    def startDayUpdates(self):
+phrozenclock.py:    def loadTimeZones(self):
+phrozenclock.py:    def grabZones(self,arg,zdir,zfiles):
+phrozenclock.py:    def doReset(self,with_zone=1,activate=1,*args):
+phrozenclock.py:    def applyDate(self,set_zone=0,*args):
+phrozenclock.py:    def showTZWarning(self):
+phrozenclock.py:    def applyZone(self,*args):
+phrozenclock.py:    def applyQuit(self,*args):
+phrozenclock.py:    def doAbout(self,*args):
+phrozenclock.py:def doQuit(*args):
+phrozenclock.py:def run() :
+Preferences.py:    def __init__(self, args):
+Preferences.py:		>      def join(a, *p):   """
+Preferences.py:	# from 'icewmcp_common.py', this at least returns a default non-null value if all else fails
+Preferences.py:    def getErrorCode(self):
+Preferences.py:    def getHelpOption(self):
+Preferences.py:    def getIgnoreHomeOption(self):
+Preferences.py:    def getIconPaths(self):
+Preferences.py:    def getPreferences(self, *args):
+Preferences.py:            { 'Theme' : '"microGUI/default.theme"',
+Preferences.py:    def getIceWMFile(self, name, for_read_only=1):
+Preferences.py:    def canRead(self, path, file=None):
+Preferences.py:    def appendDir(self, where, what):
+Preferences.py:def test():
+PreviewWindow.py:    def __init__(self, text, pix, mask):
+PreviewWindow.py:    def __init__(self, tree, empty_pix, empty_mask):
+PreviewWindow.py:        self.set_default_size(400, -1)
+PreviewWindow.py:    def close(self, x=None, y=None):
+PreviewWindow.py:    def createMenu(self, menu, node, toolbar=0):
+PreviewWindow.py:    def command_ok(self, command_string):
+PreviewWindow.py:    def on_menu_activate(self, menuitem):
+pyprintcommon.py:def launch(launch_command):
+pyprintcommon.py:def showMessage(message_text,wintitle="PyPrint"):
+pyprintcommon.py:def showConfirm(message_text,wintitle="PyPrint"):
+pyprintcommon.py:def showAbout(message_text,myappname="PyPrint"):
+pyprintcommon.py:def readOSLines(os_popen_cmd):
+pyprintcommon.py:def getPrinterNames() :
+pyprintcommon.py:def isOnPath(binary):
+pyprintcommon.py:def getPixmapButton (picon,btext,windowval) :  
+pyprintcommon.py:def loadImage(picon,windowval):
+pyprintcommon.py:def getPixmapVBox(picon,btext,windowval):
+pyprintcommon.py:def showHelp(helptext,wintitle="PyPrint"):
+pyspool.py:    def __init__(self) :
+pyspool.py:    def changeView(self,*args) :
+pyspool.py:    def startUpdates(self,*args) :	
+pyspool.py:    def stopUpdates(self,*args) :	
+pyspool.py:    def makeSelection(self,clist=None,crow=-1,*args) :
+pyspool.py:    def cancelJob(self,*args) :
+pyspool.py:    def autoLoad(self,*args) :	
+pyspool.py:    def loadDetailsR(self,*args) :		
+pyspool.py:    def loadDetails(self,*args) :
+pyspool.py:    def loadInfoDefaults(self) :
+pyspool.py:    def clearInfo(self) :
+pyspool.py:    def loadInfo(self,readit) :
+pyspool.py:    def loadPrinterNames(self) :
+pyspool.py:    def readPrinterInfo(self) :
+pyspool.py:    def loadQueue(self,xreadlines_list) :	
+pyspool.py:    def showMessage(self,message_text):
+pyspool.py:    def showConfirm(self,message_text):
+pyspool.py:    def doAbout(self,*args):
+pyspool.py:    def runPyPrint(self,*args):
+pyspool.py:    def doQuit(self,*args) :
+pyspool.py:    def checkPath(self) :
+pyspool.py:def run() :

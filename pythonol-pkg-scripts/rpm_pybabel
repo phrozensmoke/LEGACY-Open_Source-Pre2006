@@ -1,0 +1,3 @@
+rm -f PyBabel*.rpm
+rpm -bb --buildroot=/usr/src/BUILDROOT --target noarch pybabel.spec
+mv /usr/src/packages/RPMS/noarch/PyBabel*.rpm /Compile/distro/pythonol/
