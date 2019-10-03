@@ -1,0 +1,52 @@
+[PHTITLE]OTHER FUTURE TENSES
+
+One can use the future perfect, the future progressive, and the future perfect progressive to make certain emphasis in meaning beyond what the simple future tense conveys. For example:
+
+[PH-HI]Simple Future:[/PH-HI]
+	Yo veré.   (I will look.)  - Sometime, for sometime.
+	* See the "Future Tense" help file for more information.
+
+
+[PHSECTION]FUTURE PROGRESSIVE:                                                                  
+	Yo estaré viendo.  (I will be looking.)  -  Continued process
+
+[PH-HI]To form the Future Progressive tense, use the simple future tense of 'estar' + a present participle:[/PH-HI] 
+          estaré / estarás / estará / estaremos / estaréis / estarán    + present participle
+
+     Yo estaré caminando      [I will be walking.]
+     Tú estarás caminando      [You will be walking.]
+     Ella / Él / Usted estará caminando      [She will be walking.]
+     Nosotros estaremos caminando      [We will be walking.]
+     Vosotros estaréis caminando      [You all will be walking.]
+     Ellos / Ustedes estarán caminando      [They will be walking.] 
+
+
+
+[PHSECTION]FUTURE PERFECT:                                                                    
+	Yo habré visto.  (I will have looked (by the time...))
+
+[PH-HI]To form the Future Perfect tense, use the simple future tense of 'haber' and a past participle:[/PH-HI] 
+          habré / habrás / habrá / habremos / habréis / habrán   + past participle  
+
+     Yo habré caminado      [I will have walked.]
+     Tú habrás caminado      [You will have walked.]
+     Ella / Él / Usted habrá caminado      [She will have walked.]
+     Nosotros habremos caminado      [We will have walked.]
+     Vosotros habréis caminado      [You all will have walked.]
+     Ellos / Ustedes habrán caminado      [They will have walked.]
+
+
+
+[PHSECTION]FUTURE PERFECT PROGRESSIVE:                                                                    
+	Yo habré estado viendo.  (I will have been looking. (by the time...))  -  Continued process
+
+[PH-HI]To form the Future Perfect Progressive tense, use the simple future tense of 'haber' + 'estado' + a present participle:[/PH-HI] 
+          habré / habrás / habrá / habremos / habréis / habrán   + 'estado' + present participle
+
+     Yo habré estado caminando      [I will have been walking.]
+     Tú habrás estado caminando      [You will have been walking.]
+     Ella / Él / Usted habrá estado caminando      [She will have been walking.]
+     Nosotros habremos estado caminando      [We will have been walking.]
+     Vosotros habréis estado caminando      [You all will have been walking.]
+     Ellos / Ustedes habrán estado caminando      [They will have been walking.]
+                                                                    

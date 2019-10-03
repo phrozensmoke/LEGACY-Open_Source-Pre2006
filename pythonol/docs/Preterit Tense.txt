@@ -1,0 +1,19 @@
+[PHTITLE]PRETERIT TENSE
+
+[PH-HI]Use the preterit when talking about something that has already happened.[/PH-HI]
+  
+[PH-HI]To denote an action which was performed and completed in the past:[/PH-HI]
+	El Sr. Vegas llegó a la convención el martes.  
+	Mr. Vegas arrived at the convention on Tuesday.
+
+[PH-HI]To express the beginning of a past action:[/PH-HI]
+	La clase comenzó a las 9:00.  
+	The class began at 9 o'clock.
+
+[PH-HI]To express the end of the past action:[/PH-HI]
+	La convención terminó el viernes.  
+	The convention ended on Friday.
+
+[PH-HI]To express an action which occurred over a specific period of time:[/PH-HI]
+	La convención duró cuatro días.  
+	The convention lasted for four days.

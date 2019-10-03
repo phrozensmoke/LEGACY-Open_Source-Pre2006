@@ -1,0 +1,35 @@
+[PHTITLE]ALPHABETS
+
+A:  a
+B:  be
+C:  se
+CH:  che
+D:  de
+E:  e
+F:  efe
+G:  ge
+H:  hache
+I:  i
+J:  jota
+K:  ka
+L:  ele
+LL:  elle
+M:  eme
+N:  ene
+Ñ:  enye
+O:  o
+P:  pe
+Q:  cu
+R:  ere
+RR:  erre
+S:  ese
+T:  te
+U:  u
+V:  be
+W:  doble be
+X:  equis
+Y:  i griega
+Z:  zeta
+
+
+Note that the "CH", "LL" and "RR" are named as single letters.

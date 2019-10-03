@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GAnim8 Conversion Tool-0.2b\n"
+"POT-Creation-Date: 2003-01-05 11:35+0100\n"
+"PO-Revision-Date: 2003-01-05 15:51+0400\n"
+"Last-Translator: Erica Andrews <PhrozenSmoke@yahoo.com>\n"
+"Language-Team: SPANISH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Exit"
+msgstr ""
+
+msgid "About..."
+msgstr ""
+
+msgid "About"
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Convert TO:"
+msgstr ""
+
+msgid "Convert FROM:"
+msgstr ""
+
+msgid "Convert the image"
+msgstr ""
+
+msgid "CONVERT"
+msgstr ""
+
+msgid "Compress GIF"
+msgstr ""
+
+msgid "Browse..."
+msgstr ""
+
+msgid "Compress the GIF (if applicable)\nRequires the optional Gifsicle program to be on your path."
+msgstr ""
+
+msgid "Select the image format to convert TO"
+msgstr ""
+
+msgid "Select the image format to convert FROM"
+msgstr ""
+
+msgid "Select the image you wish to convert"
+msgstr ""
+
+msgid "Select the file to save the new image to"
+msgstr ""
+
+msgid "Select A File..."
+msgstr ""
+
+msgid "Your image was successfully converted, but is not previewable with GdkImlib."
+msgstr ""
+
+msgid "The 'gifsicle' binary from Gifsicle was not found on your PATH.\nThe gAnim8 Conversion Tool requires Gifsicle to compress GIFs.\nIf you do not have Gifsicle, you may still convert images, but cannot compress GIFs.\nGifsicle can be downloaded from: http://www.lcdf.org/gifsicle/ .\nGIF compression is an OPTIONAL feature of the gAnim8 Conversion Tool."
+msgstr ""
+
+msgid "An unknown error occurred compressing your GIF file with Gifsicle.\nReverting back to your original, uncompressed GIF file."
+msgstr ""
+
+msgid "GIF Compressed"
+msgstr ""
+
+msgid "bytes"
+msgstr ""
+
+msgid "Image converted"
+msgstr ""
+
+msgid "YES"
+msgstr ""
+
+msgid "NO"
+msgstr ""
+
+msgid "Canceled."
+msgstr ""
+
+msgid "Done."
+msgstr ""
+
+msgid "Converting....please wait."
+msgstr ""
+
+msgid "The selected file already exists"
+msgstr ""
+
+msgid "Do you wish to overwrite it?"
+msgstr ""
+
+msgid "Done. Image conversion failed."
+msgstr ""
+
+msgid "Your image was successfully converted with the following warnings/messages"
+msgstr ""
+
+msgid "Problem Converting"
+msgstr ""
+
+msgid "The 'convert' binary from the ImageMagick program is NOT on your PATH\nImageMagick's 'convert' utility is required for all image conversions and must be on your PATH.\nImageMagick 5.2.3 or better is required. Version 5.4.6.1 or better is recommended.\nYou can find versions of ImageMagick on speakeasy.rpmfind.net or www.imagemagick.org ."
+msgstr ""
+
+msgid "Be sure you have selected the correct 'Convert FROM' format.\nBe sure that you have the 'convert' binary from ImageMagick\n(version 5.2.3 or better) on your PATH."
+msgstr ""
+
+msgid "No file specified to convert FROM"
+msgstr ""
+
+msgid "No file specified to convert TO"
+msgstr ""
+
+msgid "The file you are trying to convert FROM does not exist"
+msgstr ""
+
+msgid "No FORMAT specified to convert FROM"
+msgstr ""
+
+msgid "No FORMAT specified to convert TO"
+msgstr ""
+
+msgid "The file to convert TO is a directory, not a file"
+msgstr ""
+
+msgid "The file to convert FROM is a directory, not a file"
+msgstr ""
+
+msgid "An unknown error occurred: Conversion failed."
+msgstr ""
+
+msgid "\nConversion failed:\nImageMagick may require a supplemental library for this conversion.\nPlease check the ImageMagick documentation for the requirements for converting this format."
+msgstr ""
+
+msgid "Copyright 2003 by Erica Andrews. All rights reserved."
+msgstr ""

@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GAnim8 Conversion Tool-0.2b\n"
+"POT-Creation-Date: 2003-01-05 11:35+0100\n"
+"PO-Revision-Date: 2003-02-15 15:51+0400\n"
+"Last-Translator: Erica Andrews <PhrozenSmoke@yahoo.com>\n"
+"Language-Team: SPANISH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Exit"
+msgstr "Salir"
+
+msgid "About..."
+msgstr "Acerca de..."
+
+msgid "About"
+msgstr "Acerca de"
+
+msgid "File"
+msgstr "Archivo"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "Convert TO:"
+msgstr "Convertir A:"
+
+msgid "Convert FROM:"
+msgstr "Convertir DE:"
+
+msgid "Convert the image"
+msgstr "Convertir la imagen"
+
+msgid "CONVERT"
+msgstr "CONVERTIR"
+
+msgid "Compress GIF"
+msgstr "Comprimir GIF"
+
+msgid "Browse..."
+msgstr "Elegir..."
+
+msgid "Compress the GIF (if applicable)\nRequires the optional Gifsicle program to be on your path."
+msgstr "Comprimir el GIF. Se requiere Gifsicle."
+
+msgid "Select the image format to convert TO"
+msgstr "Seleccione el formato de la imagen que usted desea guardar la imagen como"
+
+msgid "Select the image format to convert FROM"
+msgstr "Seleccione el formato de la imagen que usted desea convertir de"
+
+msgid "Select the image you wish to convert"
+msgstr "Seleccione la imagen que usted desea convertir"
+
+msgid "Select the file to save the new image to"
+msgstr "Seleccione un archivo para guardar la imagen como"
+
+msgid "Select A File..."
+msgstr "Seleccione un archivo..."
+
+msgid "Your image was successfully converted, but is not previewable with GdkImlib."
+msgstr "Su imagen transformada ha sido creada con éxito, pero no puede ser visto de antemano con GdkImlib."
+
+msgid "The 'gifsicle' binary from Gifsicle was not found on your PATH.\nThe gAnim8 Conversion Tool requires Gifsicle to compress GIFs.\nIf you do not have Gifsicle, you may still convert images, but cannot compress GIFs.\nGifsicle can be downloaded from: http://www.lcdf.org/gifsicle/ .\nGIF compression is an OPTIONAL feature of the gAnim8 Conversion Tool."
+msgstr "El 'gifsicle' binario de Gifsicle no fue encontrado en su $PATH.  gAnim8 Conversion Tool requiere Gifsicle para comprimir GIFs.\nSi usted no tiene Gifsicle, usted puede guardar sus imágenes como GIFs SIN COMPRIMIR.  Gifsicle se puede descargar de:  http://www.lcdf.org/gifsicle/.  La compresión del GIF es una característica OPCIONAL de gAnim8 Conversion Tool."
+
+msgid "An unknown error occurred compressing your GIF file with Gifsicle.\nReverting back to your original, uncompressed GIF file."
+msgstr "Un error desconocido ocurrió mientras que comprime su GIF con la programa Gifsicle:  Invirtiendo de nuevo a su imagen original, sin comprimir del GIF."
+
+msgid "GIF Compressed"
+msgstr "El GIF fue comprimido"
+
+msgid "bytes"
+msgstr "octetos"
+
+msgid "Image converted"
+msgstr "La imagen transformada"
+
+msgid "YES"
+msgstr "Sí"
+
+msgid "NO"
+msgstr "No"
+
+msgid "Canceled."
+msgstr "Cancelado."
+
+msgid "Done."
+msgstr "Hecho."
+
+msgid "Converting....please wait."
+msgstr "Se está convirtiendo...espera por favor"
+
+msgid "The selected file already exists"
+msgstr "El archivo seleccionado existe ya."
+
+msgid "Do you wish to overwrite it?"
+msgstr "Usted desea sobreescribirlo?"
+
+msgid "Done. Image conversion failed."
+msgstr "Hecho:  No podía convertirla."
+
+msgid "Your image was successfully converted with the following warnings/messages"
+msgstr "Su imagen ha sido guardada con éxito con los mensajes siguientes"
+
+msgid "Problem Converting"
+msgstr "Había un ERROR"
+
+msgid "The 'convert' binary from the ImageMagick program is NOT on your PATH\nImageMagick's 'convert' utility is required for all image conversions and must be on your PATH.\nImageMagick 5.2.3 or better is required. Version 5.4.6.1 or better is recommended.\nYou can find versions of ImageMagick on speakeasy.rpmfind.net or www.imagemagick.org ."
+msgstr "No se podía encontrar el binario 'convert' de la programa ImageMagick en su $PATH. Se requiere el binario 'convert' para convertir la imagenes, y el binario 'convert' debe estar en su $PATH.  Hay que descargar una copia de ImageMagick de la red: speakeasy.rpmfind.net o www.imagemagick.org."
+
+msgid "Be sure you have selected the correct 'Convert FROM' format.\nBe sure that you have the 'convert' binary from ImageMagick\n(version 5.2.3 or better) on your PATH."
+msgstr "Sea seguro que usted ha seleccionado el formato de la imagen para convertir DE cuidadosamente. Sea seguro que usted tiene el 'convert' binario de ImageMagick (la versión 5,2,3 o mejora) en su $PATH."
+
+msgid "No file specified to convert FROM"
+msgstr "No seleccionó el archivo que desea convertir DE"
+
+msgid "No file specified to convert TO"
+msgstr "No seleccionó el archivo que desea convertir A"
+
+msgid "The file you are trying to convert FROM does not exist"
+msgstr "El archivo seleccionado no existe"
+
+msgid "No FORMAT specified to convert FROM"
+msgstr "No seleccionó el formato de la imagen que desea convertir DE"
+
+msgid "No FORMAT specified to convert TO"
+msgstr "No seleccionó el formato de la imagen que desea convertir A"
+
+msgid "The file to convert TO is a directory, not a file"
+msgstr "Seleccionó un directorio en vez de un ARCHIVO para 'Convertir A'"
+
+msgid "The file to convert FROM is a directory, not a file"
+msgstr "Seleccionó un directorio en vez de un ARCHIVO para 'Convertir DE'"
+
+msgid "An unknown error occurred: Conversion failed."
+msgstr "Había un error desconocido: No podía convertirla."
+
+msgid "\nConversion failed:\nImageMagick may require a supplemental library for this conversion.\nPlease check the ImageMagick documentation for the requirements for converting this format."
+msgstr "\nNo podía convertirla:\nEs posible que ImageMagick necesite otras herramientas para convertir la imagen. Por favor, lea la documentación de ImageMagick para más información."
+
+msgid "Copyright 2003 by Erica Andrews. All rights reserved."
+msgstr "Copyright 2003 - Erica Andrews. Todos los derechos reservados."
+

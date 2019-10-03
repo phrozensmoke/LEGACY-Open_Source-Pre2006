@@ -1,0 +1,23 @@
+[PHTITLE]INTERROGATIVE PRONOUNS
+
+[PH-HI]These are the pronouns used when asking questions.[/PH-HI]
+
+[PH-HI]¿Quién?:[/PH-HI]  Who?
+[PH-HI]¿Quiénes?:[/PH-HI]  Who? (plural)
+[PH-HI]¿A quién?:[/PH-HI]  Whom?
+[PH-HI]¿A quiénes?:[/PH-HI]  Whom? (plural)
+[PH-HI]¿Qué?:[/PH-HI]  What?  (asking for information, the definition or identification of something)
+[PH-HI]¿Cuál?:[/PH-HI] Which (one)?
+[PH-HI]¿Cuáles?:[/PH-HI] Which (ones)?
+
+[PH-HI]Examples:[/PH-HI]
+¿Quién rompió la vantana?: Who broke the window?
+¿Quiénes van contigo?:  Who (all) is going with you?
+¿A quién ves en el espejo?: Whom do you see in the mirror?
+¿Qué es esto?:  What is this (thing)?
+¿Qué hace usted?:  What are you doing?
+¿Qué quiere decir 'anda'?:  What does 'anda' mean?
+¿Cuál prefieres? ¿El rojo?:   Which one do you prefer? The red one?
+¿Cuál es tu número de teléfono?:  What is your phone number?
+¿Cuál es su lugar de nacimiento?:  What is your place of birth?
+¿Cuál es su nacionalidad?:  What is her nationaliity?

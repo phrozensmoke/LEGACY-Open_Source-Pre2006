@@ -1,0 +1,53 @@
+[PHTITLE]DAYS OF THE WEEK
+
+Note:  In Spanish, the days of the week are NOT capitalized as they are in English.  Also, ALL the days of the week in Spanish are masculine nouns.
+
+[PHSECTION]The 7 days of the week:
+	Sunday:  domingo   (el domingo)
+	Monday:  lunes   (el lunes)
+	Tuesday:  martes   (el martes)
+	Wednesday:  miercoles   (el miercoles)
+	Thursday:  jueves   (el jueves)
+	Friday:  viernes   (el viernes)
+	Saturday:  sabado   (el sabado)
+
+
+[PHSECTION]Other useful 'day' vocabulary:
+	Today:  hoy
+	Tomorrow:  mañana
+	Yesterday:  ayer
+	The day before yesterday:  anteayer
+	The day after tomorrow:  pasado mañana
+	Everyday:  todos los días
+	Every other day:  un día sí y otro no
+
+
+To say that something will happen on a certain day, include the 'el':
+	Llegarás el miercoles.  (You will arrive on Wednesday.)
+	Llegará el domingo.  (He will arrive on Sunday.)
+
+
+To say that something happens routinely on a certain day, include 'los':
+	Ella patina los lunes.  (She skates on Mondays.)
+	Yo boxeo los viernes.  (I box on Fridays.)
+	No trabajamos los domingos.  (We don't work on Sundays.)
+
+
+To say that something happens 'every Friday', 'every Sunday', etc., include 'todos los':
+	Ella patina todos los lunes.  (She skates every Monday.)
+	Yo boxeo todos los viernes.  (I box every Friday.)
+	Ellos manejan todos los sabados.  (They drive every Saturday.)
+
+
+To say that something happens every single day, use 'todos los dias':
+	Ella patina todos los días.  (She skates everyday.)
+	Camino todos los días.  (I walk everyday.)
+
+
+To say that something happens every other day, use 'un día sí y otro no':
+	Ella patina un día sí y otro no.  (She skates every other day.)
+
+
+To say 'last Monday', 'last Wednesday', etc., use 'pasado' after the day of the week:
+	Mi sobrina nació el lunes pasado.  (My niece was born last Monday.)
+	Ellos trabajaron el sabado pasado.  (They worked last Saturday.)

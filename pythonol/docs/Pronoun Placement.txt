@@ -1,0 +1,86 @@
+[PHTITLE]PLACEMENT OF PRONOUNS IN SPANISH SENTENCES
+
+ 
+[PHSECTION]OBJECT PRONOUNS - DIRECT, INDIRECT, AND REFLEXIVE:
+
+The only possibly confusing ones are 3rd person pronouns. They are lo/la/los/las (direct), le/les (indirect), and se (reflexive).
+ 
+Direct pronouns answer the questions ¿qué? and ¿quién? (what? and who?), while indirect ones answer the question ¿a quién?  (for whom? and to whom?). 
+
+Reflexive pronouns show that the person doing action is the person who the action is directed at. 
+
+Indirect pronouns are in fact identical to reflexive ones -- except that the recipient of the action is different from its performer. 
+
+Direct pronoun 'lo' can also refer to actions, situations or ideas in general. In such a case it expresses the English word 'it' or 'that'. 
+
+
+
+[PHSECTION]PRONOUN PLACEMENT - WITH ONE PRONOUN:
+
+  After 'no' and before the conjugated verb: 
+   	Lo hice el lunes pasado.  -  I did it last Monday.
+   	No te presto el coche.  -  I am not lending you the car.
+   	Me ducho todos las tardes. -  I shower every afternoon.
+
+ After 'no' and before a negative command/imperative: 
+   	No lo lea Ud. -  Don't read it.
+   	No me dé su número de teléfono ahora. -  Don't give me your telephone number right now.
+   	No se siente.  -  Don't sit.
+
+ After and attached to an infinitive: 
+   	Voy a hacerlo el lunes. -  I am going to do it Monday.
+   	Voy a guardarte el asiento. -  I am going to guard your seat for you.
+   	Tengo que ducharme mañana.  - I have to shower tomorrow
+
+ After and attached to an affirmative (positive) command: 
+   	Léalo, por favor. -  Read it, please.
+   	Sírvanos un café, por favor. -  Serve us some coffee, please.
+   	Siéntose, por favor.  -  Sit down, please.
+
+ After and attached to a present participle: 
+   	Estoy comiendolo.  -  I am eating it.
+   	Estoy escribiendole una carta a Marisol.  -  I am writing a letter to Marisol.
+   	Pablo está bañándose.  -  Pablo is bathing.
+
+
+
+[PHSECTION]PRONOUN PLACEMENT - WITH TWO PRONOUNS:
+
+ When there are both direct and indirect pronouns,  the order is: indirect pronoun -> direct pronoun, and nothing  should come between them. The rules for placement  with respect to the verb remain the same.
+
+   	Te lo preparo ahora mismo. 
+   	Sí, acaban de dármelo. 
+   
+ When both the direct and indirect pronoun begin with 'L', indirect pronoun le/les becomes 'se'.
+   	Le compra unos zapatos. --> Se los compra.  
+
+ When the indirect pronoun is 'me', 'te' or 'nos', only the pronoun is used. Adding 'a mí', 'a ti' or 'a nos' would be over-emphatic. 
+ 
+ 	Mama me compró un carro. -  Correct. 
+ 	Mama me compró un carro a mí. -  Over-emphatic.  
+ 	Mama compró un carro a mí. -   Incorrect -- me is missing.
+ 	Mama compró un carro. -  Correct -- there is no emphasis on for whom the car is bought.
+
+   
+ When the indirect object is 'le' (or 'se'), either the pronoun only or the pronoun and the noun are used. Adding the noun or
+ pronoun object of preposition is often necessary to clarify the meaning, since le/se may correspond to to/for you (formal --
+ singular or plural), him, her, them. 
+ 
+  	Mama le compró un carro. 
+  	Mama le compró un carro a Oscar. 
+  	Mama les compró un carro a Oscar y Julia. 
+  	Se las doy a Ud./él/ella/Uds./ellos/ellas. 
+ 
+
+ When pronouns are being attached to a verb (present participle or affirmative command), it is necessary to add accents over the
+ stressed sylllable to maintain the pronunciation: 
+ 
+  	Pablo se está bañando. 
+  	Lea el texto, por favor.
+    	Pablo está bañándose. 
+    	Léalo, por favor. 
+
+
+ When pronouns are being attached to an infinitive there is no need for an accent. Since an infinitve ends in 'r', the stress falls on
+ the last syllable. When a pronoun is attached, the stress will fall on the next-to-the-last syllable (which is the same one), since
+ all pronouns are monosyllables and end either in a vowel or in s. 

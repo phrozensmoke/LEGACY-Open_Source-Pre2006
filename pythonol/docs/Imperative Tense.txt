@@ -1,0 +1,48 @@
+[PHTITLE]IMPERATIVE TENSE
+
+
+[PH-HI]The Imperative, also known as the 'positive command', tense tells a person what to do.  Positive commands are formed as follows:[/PH-HI] 
+          
+	Yo:  (does not exist)  
+	Tú:  3rd person singular of present indicative   
+	Ella / Él / Usted:   3rd person singular of present subjunctive
+	Nosotros  / Nosotras:   1st person plural of present subjunctive  
+	Vosotros / Vosotras:   Infinitive with -r replaced by -d*   
+	Ellos / Ellas / Ustedes:   3rd person plural of present subjunctive
+
+
+[PH-HI]Examples:[/PH-HI]
+	¡Dejame en paz!   (Leave me alone!)
+	¡Digame!  (Tell me!)
+	¡Di la verdad!   (Tell the truth!)   
+	¡Hazlo!  (Do it!)
+	¡Vete de aquí!  (Get away from here!)
+
+
+
+[PH-HI]Some irregular 'Tú' forms of the imperative include:[/PH-HI]
+
+	decir:   
+		Imperative: ¡Di la verdad!      
+		Negative: ¡No digas nada!  
+	hacer:   
+		Imperative: ¡Hazlo!      
+		Negative: ¡No hagas eso!  
+	ir(se):   
+		Imperative: ¡Vete de aquí!    
+		Negative: ¡No te vayas!  
+	poner:   
+		Imperative: ¡Pon tu chaqueta en al armario!    
+		Negative: ¡No pongas el vaso allí!   
+	salir:   
+		Imperative: ¡Sal inmediamente!     
+		Negative: ¡No salgas!  
+	ser:   
+		Imperative: ¡Sé bueno!     
+		Negative: ¡No seas malo!  
+	tener:   		
+		Imperative: ¡Ten cuidado!     
+		Negative: ¡No tengas miedo! 
+	venir:   
+		Imperative: ¡Ven aquí!   
+		Negative: ¡No vengas todavía!

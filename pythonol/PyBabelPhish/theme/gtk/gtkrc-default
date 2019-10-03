@@ -1,0 +1,8 @@
+#set a nice theme
+include "./plain-grey/gtk-2.0/gtkrc"
+
+# set some basic colors
+include "basic-look-gtkrc"
+
+# font settings
+include "font-gtkrc"

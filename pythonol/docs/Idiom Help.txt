@@ -1,0 +1,42 @@
+[PHTITLE]IDIOM HELP
+Pythoñol's idioms database contains thousands of common phrases, expressions, and nouns.
+
+Click the [PH-HI]'Idioms'[/PH-HI] tab.
+
+[PHSECTION]LIST ENGLISH IDIOMS:
+Click the [PH-HI]'List English Idioms'[/PH-HI] button to show ALL of the idioms in Pythoñol's database, using an [PH-HI]English-to-Spanish[/PH-HI] translation scheme. The idioms will be listed in alphabetical order.
+
+[PHSECTION]SAVE TO FILE:
+The [PH-HI]'Save To File'[/PH-HI] feature is a quick and easy way to save retrieved idioms to a plain text file.  Simply click the [PH-HI]'Save To File'[/PH-HI] button, select a file name to save to, and click [PH-HI]'Ok'[/PH-HI].  The idioms found for the selected word or term will be saved to file for your future reference.
+
+[PHSECTION]LIST SPANISH IDIOMS:
+Click the [PH-HI]'List Spanish Idioms'[/PH-HI] button to show ALL of the idioms in Pythoñol's database, using a [PH-HI]Spanish-to-English[/PH-HI] translation scheme. The idioms will be listed in alphabetical order.
+
+[PHSECTION]KEYWORD  / PHRASE:
+The [PH-HI]'Keyword / Phrase:'[/PH-HI] text field is where you type in the word or term you wish to lookup in the idioms database.  You can also select previously used words and terms from the drop-down list.  The drop-down list stores a 'history' of up to 30 previously used words and terms.
+
+[PHSECTION]SEARCH BUTTON:
+Clicking the [PH-HI]'Search'[/PH-HI] button tells Pythoñol to search for the word or term you have entered in the [PH-HI]'Keyword / Phrase:'[/PH-HI] field (described above).  Pythoñol will display all possible matches, including both English-to-Spanish and Spanish-to-English matches.
+
+[PHSECTION]SPANISH LETTERS TOOLBAR:
+The [PH-HI]Spanish Letters Toolbar[/PH-HI] contains several commonly-used, accented Spanish letters, not generally found on standard American keyboards.  Clicking one of the letters on the Spanish Letters Toolbar will insert that accented letter into the [PH-HI]'Keyword / Phrase:'[/PH-HI] text field at the cursor position.  This feature has been provided to help eliminate the need for an external 'character map' application.
+
+[PHSECTION]View Page:
+To view a particular page of idioms, select the page number you wish to view from the drop-down list named [PH-HI]'View Page:'[/PH-HI], then click the [PH-HI]'Show Page'[/PH-HI] button.  The thousands of idioms available are organized alphabetically and divided among many pages.
+
+
+[PHSECTION]SEARCHING THE IDIOM DATABASE:
+The steps for searching the idiom database are very simple:
+
+1.  Type in the word or term you wish to search for into the [PH-HI]'Keyword / Phrase:'[/PH-HI] text field, or select a previously used verb or term from the drop-down list.
+
+2.  Use the [PH-HI]Spanish Letters Toolbar[/PH-HI], as needed, to insert accented Spanish letters into the [PH-HI]'Keyword / Phrase:'[/PH-HI] text field.
+
+3.  Click the [PH-HI]'Search'[/PH-HI] button.   Any idioms matching your word or term will be displayed in the idioms window.
+
+4.  If you wish to save the idioms for this search to a file, click the [PH-HI]'Save To File'[/PH-HI] button, enter a file name, and click [PH-HI]'Ok'[/PH-HI].  Your idiom matches for the selected word or phrase will be saved for your future reference.
+
+5.  If you are running a Linux/Unix version of Pythoñol, and have an LRPng/LPR-based spooler system on your computer, you may [PH-HI]print[/PH-HI] the results by clicking [PH-HI]'File' -> 'Print...'[/PH-HI] on the Pythoñol main menu.  (Sorry, Windows users!)   See [PH-HI]'Help' --> 'Help...'[/PH-HI] on the menu for more information on printing in Pythoñol.
+
+
+If you have the [PH-HI]Festival text-to-speech[/PH-HI] extension installed and usable, you may hear the words pronounced by clicking the light blue [PH-HI]'Play'[/PH-HI] button, generally located to the left of your screen.  Click [PH-HI]'Help' -> 'Festival Text-to-Speech Help...'[/PH-HI] on the menu for more information.

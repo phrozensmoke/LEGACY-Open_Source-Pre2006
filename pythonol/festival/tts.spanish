@@ -1,0 +1,28 @@
+#! /bin/bash
+
+
+# If you install festival from a source distribution or any other 
+# distribution other than the 'festival-extension' you should change the 
+# line below, so that './festival' points to the full path of your festival 
+# binary, and so that the '--libdir' value points to the full path of your  
+# festival 'lib' directory.  In addition, you should have the spanish voice 
+# files from festival installed in your festival installation directory. At 
+# last check, these files were available at:
+# (http://www.cstr.ed.ac.uk/download/festival/1.4.3/), in a file named:
+#    'festvox_ellpc11k.tar.gz'
+
+#  User of Windows or any other non-POSIX system will have to 
+#  change the command, and this script, completely
+
+# Below is a simple script to feed text to the festival text-to-speech 
+# engine for pronunciation
+
+#  If you encounter problems playing sounds, check the Festival FAQ at
+# http://www.cstr.ed.ac.uk/cgi-bin/lists.cgi?config=festival_faq
+
+./festival --libdir ./lib/ --language spanish --pipe
+
+
+
+# This line is no longer used and is obsolete - please ignore
+# echo "(SayText \""$*"\")" | ./festival --libdir ./lib/ --language spanish --pipe

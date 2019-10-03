@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GAnim8 -PyPrint Module 0.1a\n"
+"POT-Creation-Date: 2003-02-16 11:35+0100\n"
+"PO-Revision-Date: 2003-02-16 15:51+0400\n"
+"Last-Translator: Erica Andrews <PhrozenSmoke@yahoo.com>\n"
+"Language-Team: SPANISH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "OK"
+msgstr ""
+
+msgid "Select A File To Print"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid ": Print A Document"
+msgstr ""
+
+msgid "/ _File"
+msgstr ""
+
+msgid "/ _File/_Close"
+msgstr ""
+
+msgid "/_Help"
+msgstr ""
+
+msgid "/_Help/_About PyPrint..."
+msgstr ""
+
+msgid "File:"
+msgstr ""
+
+msgid "Printer:"
+msgstr ""
+
+msgid "Browse..."
+msgstr ""
+
+msgid "Refresh Printer List"
+msgstr ""
+
+msgid "Pages:    "
+msgstr ""
+
+msgid "All pages"
+msgstr ""
+
+msgid "Selected pages:"
+msgstr ""
+
+msgid "# of Copies:"
+msgstr ""
+
+msgid "Print As:"
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "Print Preview  (ghostview)"
+msgstr ""
+
+msgid "Close Print Preview"
+msgstr ""
+
+msgid "Print Now!"
+msgstr ""
+
+msgid "CANCEL"
+msgstr ""
+
+msgid "EXPERIMENTAL: PyPrint supports only local LPRng/LPR-based printers."
+msgstr ""
+
+msgid "Sorry, you don't have the 'ghostview' executable on your PATH.\nYou need to either install ghostview or\nedit the pyprint.py script to use another Postscript-capable viewer (ggv, kghostview, etc)."
+msgstr ""
+
+msgid "Sorry, you cannot print with PyPrint because the executable\n'lpr' is not on your PATH."
+msgstr ""
+
+msgid "No printers available for printing!\nPrinters must be registered with lpr/lpd to be usable by PyPrint."
+msgstr ""
+
+msgid "psselect: There was an error extracting the 'Selected Pages' from this file.\nThe warnings and errors (if any) were as follows:"
+msgstr ""
+
+msgid "Sorry, you don't have the executable 'a2ps' on your system.\nCannot print or preview as 'Image'."
+msgstr ""
+
+msgid "a2ps: There was an error converting the selected file to Postscript for printing.\nThe warnings and errors (if any) were as follows:"
+msgstr ""
+
+msgid "NO PRINTERS FOUND"
+msgstr ""
+
+msgid "Sorry, you do not have the 'psselect' executable in your PATH.\nWithout 'psselect', you may only print ALL pages (the entire document)."
+msgstr ""
+
+msgid "The # of Copies field must be at least 1."
+msgstr ""
+
+msgid "The # of Copies field must contain a NUMBER (1 or above)."
+msgstr ""
+
+msgid "The 'Selected Pages' field may only contain numbers, commas, and hypens."
+msgstr ""
+
+msgid "Invalid value for 'Selected Pages'.\nPage ranges cannot start with 0, but can start with 1."
+msgstr ""
+
+msgid "Invalid value for 'Selected Pages'.\nThis value may not START or END with a hypen."
+msgstr ""
+
+msgid "Invalid value for 'Selected Pages'.\nThis value may not START or END with a comma."
+msgstr ""
+
+msgid "Invalid value for 'Selected Pages'."
+msgstr ""
+
+msgid " ERROR creating a temporary file for printing! \n Printing cannot continue. "
+msgstr ""

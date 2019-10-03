@@ -1,0 +1,13 @@
+[PHTITLE]TRANSLATION EXERCISE
+
+You will be given a sentence or phrase to translate.  Type the best translation you can for the sentence or phrase.  When you are done, click the [PH-HI]'Show The Answer!'[/PH-HI] button.   (Be aware that not all of the translations retrieved from the translation service are 100% correct.  So, do not feel discouraged if the answer you provided does not exactly match the answer in the [PH-HI]'Answer'[/PH-HI] box.)  You may then start a new translation exercise by clicking the [PH-HI]'Next Sentence'[/PH-HI] button.  [PH-HI]The translation exercise supports 3 levels of difficulty ('Short sentences', 'Medium sentences', and 'Long sentences').[/PH-HI]  You may change to a new level of difficulty by selecting your desired level of difficulty from the drop-down menu and, then, clicking the [PH-HI]'Next Sentence'[/PH-HI] button.  
+
+[PH-HI]NOTE:  To use the 'Translation Exercise' feature, you must have a working internet connection and be currently connected to the internet. [/PH-HI]
+
+[PHSECTION]['Settings' Menu]
+[PH-HI]'Change Translation Service...' :[/PH-HI]
+	Click [PH-HI]'Change Translation Service...'[/PH-HI] on the [PH-HI]'Settings'[/PH-HI] menu to select the translation service you wish to use.  The translation service chosen here will be used for retrieving translations in both the [PH-HI]'Translate'[/PH-HI] section and the [PH-HI]'Translation Exercise'[/PH-HI] section.  It is a good idea to change the selected 'Translation Service' if you are receiving repeated error messages indicating that a translation could not be retrieved, or if you feel that you are receiving too many errors in the translations being retrieved.
+
+If you have the [PH-HI]Festival text-to-speech[/PH-HI] extension installed and usable, you may hear the words pronounced by clicking the light blue [PH-HI]'Play'[/PH-HI] button, generally located to the left of your screen.  Click [PH-HI]'Help' -> 'Festival Text-to-Speech Help...'[/PH-HI] on the menu for more information.
+
+

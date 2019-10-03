@@ -1,0 +1,42 @@
+[PHTITLE]THESAURUS HELP
+
+The thesaurus is for finding synonyms for Spanish and English words and phrases.  Please note that, right now, the thesaurus can only return [PH-HI]SYNONYMS, not antonyms.[/PH-HI]  Support for antonyms is planned for the future.
+
+Click the [PH-HI]'Thesaurus'[/PH-HI] tab.
+
+
+[PHSECTION]SAVE TO FILE:
+The [PH-HI]'Save To File'[/PH-HI] feature is a quick and easy way to save retrieved thesaurus results to a plain text file.  Simply click the [PH-HI]'Save To File'[/PH-HI] button, select a file name to save to, and click [PH-HI]'Ok'[/PH-HI]. The thesaurus matches found for the selected word or term will be saved to file for your future reference.
+
+[PHSECTION]SPANISH:
+Click the [PH-HI]'Spanish'[/PH-HI] option if the word or term you are searching for is in [PH-HI]Spanish[/PH-HI].
+
+[PHSECTION]ENGLISH:
+Click the [PH-HI]'English'[/PH-HI] option if the word or term you are searching for is in [PH-HI]English[/PH-HI].
+
+[PHSECTION]WORD  / PHRASE:
+The [PH-HI]'Word / Phrase:'[/PH-HI] text field is where you type in the word or term you wish to lookup in the thesaurus.  You can also select previously used words and terms from the drop-down list.  The drop-down list stores a 'history' of up to 30 previously used words and terms.
+
+[PHSECTION]FIND SYNONYMS:
+Clicking the [PH-HI]'Find Synonyms!'[/PH-HI] button tells Pythoñol to search for the word or term you have entered in the [PH-HI]'Word / Phrase:'[/PH-HI] field (described above).  Pythoñol will display any matches believed to be possible synonyms for your word or term.
+
+[PHSECTION]SPANISH LETTERS TOOLBAR:
+The [PH-HI]Spanish Letters Toolbar[/PH-HI] contains several commonly-used, accented Spanish letters, not generally found on standard American keyboards.  Clicking one of the letters on the Spanish Letters Toolbar will insert that accented letter into the [PH-HI]'Word / Phrase:'[/PH-HI] text field at the cursor position.  This feature has been provided to help eliminate the need for an external 'character map' application.
+
+
+[PHSECTION]SEARCHING THE THESAURUS:
+The steps for searching the thesaurus are very simple:
+
+1.  Type in the word or term you wish to search for into the [PH-HI]'Word / Phrase:'[/PH-HI] text field, or select a previously used verb or term from the drop-down list.
+
+2.  Use the [PH-HI]Spanish Letters Toolbar[/PH-HI], as needed, to insert accented Spanish letters into the [PH-HI]'Word / Phrase:'[/PH-HI] text field.
+
+3.  [PH-HI]Select the appropriate language for the word or term you entered in Step #1.[/PH-HI]  If the word or phrase you are searching for is in Spanish, select the [PH-HI]'Spanish'[/PH-HI] option.  Otherwise, select the [PH-HI]'English'[/PH-HI] option. You may search for either English or Spanish synonyms, but not both at the same time.
+
+4.  Click the [PH-HI]'Find Synonyms!'[/PH-HI] button.   Any thesaurus results matching your word or term will be displayed in the thesaurus window.
+
+5.  If you wish to save the thesaurus matches for this search to a file, click the [PH-HI]'Save To File'[/PH-HI] button, enter a file name, and click [PH-HI]'Ok'[/PH-HI].  Your thesaurus matches for the selected word or phrase will be saved for your future reference.
+
+6.  If you are running a Linux/Unix version of Pythoñol, and have an LRPng/LPR-based spooler system on your computer, you may [PH-HI]print[/PH-HI] the results by clicking [PH-HI]'File' -> 'Print...'[/PH-HI] on the Pythoñol main menu.  (Sorry, Windows users!)   See [PH-HI]'Help' --> 'Help...'[/PH-HI] on the menu for more information on printing in Pythoñol.
+
+If you have the [PH-HI]Festival text-to-speech[/PH-HI] extension installed and usable, you may hear the words pronounced by clicking the light blue [PH-HI]'Play'[/PH-HI] button, generally located to the left of your screen.  Click [PH-HI]'Help' -> 'Festival Text-to-Speech Help...'[/PH-HI] on the menu for more information.

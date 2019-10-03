@@ -1,0 +1,16 @@
+[PHTITLE]ACKNOWLEDGMENTS
+
+This product includes software developed by the PySQLite Sourceforge Team.
+
+Pythoñol uses the following third-party software:
+	SQLite : http://www.sqlite.org/	  (Public Domain)
+
+	PySQLite : http://pysqlite.sourceforge.net  (Open Source)
+
+	Festival : http://www.cstr.ed.ac.uk/projects/festival/ (depending which version of this software you run)
+
+
+
+Some versions of PyBabelPhish MAY make use of the following third-party software:
+
+	Festival : http://www.cstr.ed.ac.uk/projects/festival/ (depending which version of this software you run)

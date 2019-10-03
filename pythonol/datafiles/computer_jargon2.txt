@@ -1,0 +1,707 @@
+[PHTITLE]INTERNET AND COMPUTER TERMS - Part 2
+
+ [PH-HI]facility[/PH-HI]    instalación, equipo
+ [PH-HI]failure[/PH-HI]    fallo
+ [PH-HI]fanfold paper[/PH-HI]    papel continuo
+ [PH-HI]far field[/PH-HI]    campo lejano
+ [PH-HI]fault-tolerant system[/PH-HI]    sistema tolerante a fallos
+ [PH-HI]faulty file[/PH-HI]    archivo defectuoso
+ [PH-HI]fax (facsimile)[/PH-HI]    fax
+ [PH-HI]fax-modem[/PH-HI]    fax-módem, pc fax
+ [PH-HI]feature[/PH-HI]    característica, función
+ [PH-HI]federal communications commission (fcc)[/PH-HI]    comisión federal (norteamericana) de comunicaciones
+ [PH-HI]feedback[/PH-HI]    realimentación, retroalimentación
+ [PH-HI]feedback circuit[/PH-HI]    circuito de realimentación
+ [PH-HI]feedthrough insulator[/PH-HI]    aislador de paso
+ [PH-HI]fiber digital device interface (fddi)[/PH-HI]    dispositivo de interfaz de fibra digital
+ [PH-HI]fiber distributed data interface (fddi)[/PH-HI]    interfaz de datos distribuido por fibra
+ [PH-HI]field[/PH-HI]    campo
+ [PH-HI]file[/PH-HI]    fichero
+ [PH-HI]file allocation table (fat)[/PH-HI]    tabla de asignación de archivos
+ [PH-HI]file attribute[/PH-HI]    atributo de fichero
+ [PH-HI]file backup[/PH-HI]    copia de seguridad de un fichero
+ [PH-HI]file control block (fcb)[/PH-HI]    bloque de control de ficheros
+ [PH-HI]file format[/PH-HI]    formato de fichero
+ [PH-HI]file log[/PH-HI]    archivo del registro
+ [PH-HI]file manager[/PH-HI]    administrador de archivos
+ [PH-HI]file transfer[/PH-HI]    transferencia de ficheros
+ [PH-HI]file, to[/PH-HI]    archivar
+ [PH-HI]filename[/PH-HI]    nombre de archivo
+ [PH-HI]filing[/PH-HI]    clasificación, catalogación
+ [PH-HI]filter[/PH-HI]    filtro
+ [PH-HI]filter core[/PH-HI]    alma de filtro
+ [PH-HI]find, to[/PH-HI]    buscar
+ [PH-HI]finite[/PH-HI]    finito
+ [PH-HI]firm[/PH-HI]    empresa
+ [PH-HI]firmware[/PH-HI]    memoria fija
+ [PH-HI]first-in,first-out (fifo)[/PH-HI]    primero en entrar, primero en salir
+ [PH-HI]fit[/PH-HI]    ajuste
+ [PH-HI]five-part forms[/PH-HI]    original y 4 copias
+ [PH-HI]fix (federal interagency exchange)[/PH-HI]    inter-agencia federal de intercambio
+ [PH-HI]fixed spacing[/PH-HI]    espaciado fijo
+ [PH-HI]flag[/PH-HI]    indicador, bandera
+ [PH-HI]flag notifier[/PH-HI]    notificador de indicador
+ [PH-HI]flat[/PH-HI]    sin relieve, llano, plano
+ [PH-HI]flat panel touch screen[/PH-HI]    pantalla táctil, pantalla de tacto
+ [PH-HI]flat-panel display[/PH-HI]    pantalla plana
+ [PH-HI]flatbed plotter[/PH-HI]    trazador plano
+ [PH-HI]flicker[/PH-HI]    parpadeo
+ [PH-HI]flip flop[/PH-HI]    flip - flop
+ [PH-HI]floppy disk[/PH-HI]    disco flexible, disquete
+ [PH-HI]floppy disk drive (fdd)[/PH-HI]    unidad de disco flexible, unidad de disquetes
+ [PH-HI]floppy drive[/PH-HI]    disquetera
+ [PH-HI]flowchart[/PH-HI]    diagrama de flujo
+ [PH-HI]fluctuation[/PH-HI]    fluctuación
+ [PH-HI]flush right[/PH-HI]    alineación por la derecha
+ [PH-HI]flush, to[/PH-HI]    vaciar
+ [PH-HI]focus[/PH-HI]    enfoque
+ [PH-HI]folder[/PH-HI]    carpeta
+ [PH-HI]folder log[/PH-HI]    carpeta del registro
+ [PH-HI]font[/PH-HI]    tipo de letra, fuente
+ [PH-HI]font cartridge[/PH-HI]    cartucho de tipos de letra
+ [PH-HI]footer[/PH-HI]    pie de página
+ [PH-HI]foreground[/PH-HI]    primer plano, frente
+ [PH-HI]foreground color[/PH-HI]    color de primer plano
+ [PH-HI]foreground program[/PH-HI]    programa prioritario
+ [PH-HI]form feed[/PH-HI]    avance, alimentación de página
+ [PH-HI]format[/PH-HI]    formato
+ [PH-HI]forms parking[/PH-HI]    aparcamiento de papel
+ [PH-HI]forward slash[/PH-HI]    barra diagonal
+ [PH-HI]fourth-generation language (4gl)[/PH-HI]    lenguaje de cuarta generación (l4g)
+ [PH-HI]fpu (floating-point unit)[/PH-HI]    unidad de coma flotante
+ [PH-HI]fractal[/PH-HI]    fractal
+ [PH-HI]fraction[/PH-HI]    fracción
+ [PH-HI]fragmentation[/PH-HI]    fragmentación
+ [PH-HI]frame[/PH-HI]    trama, estructura
+ [PH-HI]frame, to[/PH-HI]    encuadrar, enmarcar
+ [PH-HI]freenet[/PH-HI]    red gratuita
+ [PH-HI]freeware[/PH-HI]    software gratuito
+ [PH-HI]freeze, to[/PH-HI]    inmovilizar, congelar
+ [PH-HI]frequency[/PH-HI]    frecuencia
+ [PH-HI]frequency modulation[/PH-HI]    modulación de frecuencia
+ [PH-HI]frequency shift[/PH-HI]    desplazamiento de frecuencia
+ [PH-HI]frequently asked questions (faq)[/PH-HI]    preguntas formuladas frecuentemente
+ [PH-HI]friction feed[/PH-HI]    alimentación de fricción
+ [PH-HI]front end of a compiler[/PH-HI]    etapa inicial de un compilador
+ [PH-HI]front-end processor[/PH-HI]    procesador frontal
+ [PH-HI]fs (frame status)[/PH-HI]    estado de la trama
+ [PH-HI]ftam (file transfer, access and management)[/PH-HI]    transferencia, acceso y gestión de ficheros
+ [PH-HI]ftp (file transfer protocol)[/PH-HI]    protocolo de transferencia de ficheros
+ [PH-HI]full[/PH-HI]    completo, total, lleno
+ [PH-HI]full-screen[/PH-HI]    pantalla completa
+ [PH-HI]fully distributed network[/PH-HI]    red totalmente distribuida
+ [PH-HI]fully qualified domain name (fqdn)[/PH-HI]    nombre de dominio totalmente calificado
+ [PH-HI]fuse[/PH-HI]    fusible
+ [PH-HI]fuzzy computer[/PH-HI]    ordenador difuso
+ [PH-HI]fuzzy logic[/PH-HI]    lógica difusa
+ [PH-HI]fw (forward)[/PH-HI]    reenviar (rv)
+ [PH-HI]hack, to[/PH-HI]    piratear, sabotear, hackear
+ [PH-HI]hacker[/PH-HI]    fanático informático, intruso informático
+ [PH-HI]hacking[/PH-HI]    intrusión informática
+ [PH-HI]halftone[/PH-HI]    mediotono
+ [PH-HI]halt, to[/PH-HI]    detener
+ [PH-HI]handbook[/PH-HI]    manual
+ [PH-HI]handle[/PH-HI]    asa
+ [PH-HI]handshaking[/PH-HI]    saludo inicial
+ [PH-HI]hang[/PH-HI]    ordenador colgado
+ [PH-HI]hang up, to[/PH-HI]    finalizar la sesión, quedarse un ordenador colgado
+ [PH-HI]hanging indent[/PH-HI]    sangría francesa
+ [PH-HI]hard copy[/PH-HI]    copia impresa
+ [PH-HI]hardware (hard)[/PH-HI]    hardware, material
+ [PH-HI]hardwired[/PH-HI]    cableado
+ [PH-HI]harmonic[/PH-HI]    armónico
+ [PH-HI]hash[/PH-HI]    información parásito
+ [PH-HI]hayes command[/PH-HI]    comando hayes
+ [PH-HI]hd (hard disk)[/PH-HI]    disco duro
+ [PH-HI]hdd (hard disk drive)[/PH-HI]    unidad de disco duro
+ [PH-HI]head[/PH-HI]    cabecera
+ [PH-HI]head-cleaning device[/PH-HI]    dispositivo de limpieza de cabezales
+ [PH-HI]header[/PH-HI]    encabezado
+ [PH-HI]height[/PH-HI]    altura
+ [PH-HI]help[/PH-HI]    ayuda
+ [PH-HI]help screen[/PH-HI]    pantalla de ayuda
+ [PH-HI]helpdesk[/PH-HI]    ayuda técnica
+ [PH-HI]hexadecimal[/PH-HI]    hexadecimal
+ [PH-HI]hidden file[/PH-HI]    fichero oculto
+ [PH-HI]hierarchical[/PH-HI]    jerárquico/a
+ [PH-HI]hierarchical database management system (hdbms)[/PH-HI]    sistema de administración de bases de datos jerárquicas
+ [PH-HI]hierarchical file system (hfs)[/PH-HI]    sistema jerárquico de archivos
+ [PH-HI]hierarchical network[/PH-HI]    red jerárquica
+ [PH-HI]hierarchy[/PH-HI]    jerarquía
+ [PH-HI]high bit rate digital subscriber line (hdsl)[/PH-HI]    línea digital de abonado de alta velocidad
+ [PH-HI]high density (hd)[/PH-HI]    alta densidad
+ [PH-HI]high end of a range[/PH-HI]    limite superior de una gama
+ [PH-HI]high impedance[/PH-HI]    alta impedancia
+ [PH-HI]high resolution[/PH-HI]    alta resolución
+ [PH-HI]high-density disk[/PH-HI]    disquete de alta densidad
+ [PH-HI]high-level data link control (hdlc)[/PH-HI]    control de enlace de datos de alto nivel
+ [PH-HI]highlight, to[/PH-HI]    resaltar, realzar
+ [PH-HI]hit[/PH-HI]    acierto
+ [PH-HI]hma (high memory area)[/PH-HI]    area de memoria alta
+ [PH-HI]home key[/PH-HI]    tecla de inicio
+ [PH-HI]homepage[/PH-HI]    página de entrada, página inicial, página principal, página de bienvenida, página de presentación
+ [PH-HI]hood (hierarchical object oriented design)[/PH-HI]    diseño orientado a objetos jerárquico
+ [PH-HI]host[/PH-HI]    ordenador anfitrión
+ [PH-HI]host server[/PH-HI]    servidor anfitrión
+ [PH-HI]hot key[/PH-HI]    tecla caliente
+ [PH-HI]housekeeping[/PH-HI]    operaciones de verificación
+ [PH-HI]hpfs (high performance file system)[/PH-HI]    sistema de archivos de alto rendimiento
+ [PH-HI]hub[/PH-HI]    centro, eje. concentrador
+ [PH-HI]hue[/PH-HI]    tonalidad, matiz
+ [PH-HI]hybrid[/PH-HI]    híbrido
+ [PH-HI]hyperlink[/PH-HI]    hipervínculo, hiperenlace
+ [PH-HI]hypertext[/PH-HI]    hipertexto
+ [PH-HI]hypertext markup language (html)[/PH-HI]    lenguaje de marcas de transferencia de hipertexto
+ [PH-HI]hypertext transfer protocol (http)[/PH-HI]    protocolo de transferencia de hipertexto
+ [PH-HI]hyphen[/PH-HI]    guión
+ [PH-HI]hyphenation[/PH-HI]    separación por guiones
+ [PH-HI]hz (hertz)[/PH-HI]    hercios, número de ciclos por segundo
+ [PH-HI]ibm-compatible[/PH-HI]    compatible con ibm
+ [PH-HI]icon[/PH-HI]    icono
+ [PH-HI]iconify[/PH-HI]    iconizar
+ [PH-HI]ics (ibm cabling system)[/PH-HI]    sistema de cableado de ibm
+ [PH-HI]identifier[/PH-HI]    identificador
+ [PH-HI]ignore, to[/PH-HI]    ignorar
+ [PH-HI]immunize, to[/PH-HI]    inmunizar
+ [PH-HI]impact printer[/PH-HI]    impresora de impacto
+ [PH-HI]impedance[/PH-HI]    impedancia
+ [PH-HI]impedance matching[/PH-HI]    adaptación de impedancias
+ [PH-HI]implement, to[/PH-HI]    implementar
+ [PH-HI]inactive[/PH-HI]    inactivo
+ [PH-HI]inactive status[/PH-HI]    estado inactivo
+ [PH-HI]inch[/PH-HI]    pulgada
+ [PH-HI]increment, to[/PH-HI]    incrementar, añadir
+ [PH-HI]independent software vendor (idv)[/PH-HI]    fabricante independiente de software
+ [PH-HI]index, to[/PH-HI]    indexar, indizar
+ [PH-HI]inhibit, to[/PH-HI]    inhibir
+ [PH-HI]initialize[/PH-HI]    inicializar
+ [PH-HI]injection laser diode (ild)[/PH-HI]    diodos de inyección láser
+ [PH-HI]ink cartridge[/PH-HI]    cartucho de tinta
+ [PH-HI]inkjet printer[/PH-HI]    impresora de chorro de tinta
+ [PH-HI]input[/PH-HI]    entrada
+ [PH-HI]input power[/PH-HI]    potencia de entrada
+ [PH-HI]input/output (i/o)[/PH-HI]    e/s (entrada/salida)
+ [PH-HI]insert, to[/PH-HI]    insertar
+ [PH-HI]install, to[/PH-HI]    instalar
+ [PH-HI]installable file system (ifs)[/PH-HI]    sistema de archivos instalable
+ [PH-HI]installation[/PH-HI]    instalación
+ [PH-HI]institute of electrical and electronics engineers (ieee)[/PH-HI]    instituto de ingenieros eléctricos y electrónicos
+ [PH-HI]instruction[/PH-HI]    instrucción
+ [PH-HI]insulating material[/PH-HI]    material aislante
+ [PH-HI]integer[/PH-HI]    número entero
+ [PH-HI]integral computer aided software engineering (icase)[/PH-HI]    herramienta case integral
+ [PH-HI]integrated development environment (ide)[/PH-HI]    entorno de desarrollos integrados
+ [PH-HI]integrated services digital network (isdn)[/PH-HI]    red digital de servicios integrados (rdsi)
+ [PH-HI]integrating circuit[/PH-HI]    circuito sumador
+ [PH-HI]integrator[/PH-HI]    sumador
+ [PH-HI]integrity[/PH-HI]    integridad
+ [PH-HI]intensity[/PH-HI]    intensidad
+ [PH-HI]interactive[/PH-HI]    interactivo
+ [PH-HI]interface[/PH-HI]    interfaz, interconector
+ [PH-HI]interface card[/PH-HI]    tarjeta interfaz
+ [PH-HI]interface control information (ici)[/PH-HI]    información de control de la interfaz
+ [PH-HI]interface data unit (idu)[/PH-HI]    unidad de datos de interfaz
+ [PH-HI]interface, to[/PH-HI]    interconectar
+ [PH-HI]interlace, to[/PH-HI]    entrelazar
+ [PH-HI]interlacing[/PH-HI]    entrelazado
+ [PH-HI]internal[/PH-HI]    interno
+ [PH-HI]internaut[/PH-HI]    internauta
+ [PH-HI]internet architecture board (iab)[/PH-HI]    comité de arquitectura de internet
+ [PH-HI]internet assigned number authority (iana)[/PH-HI]    autoridad de asignación de números en internet
+ [PH-HI]internet control message protocol (icmp)[/PH-HI]    protocolo de internet de control de mensajes
+ [PH-HI]internet engineering task force (ietf)[/PH-HI]    grupo de tareas de ingeniería de internet
+ [PH-HI]internet explorer (ie)[/PH-HI]    explorador de internet (de microsoft)
+ [PH-HI]internet message access protocol (imap)[/PH-HI]    protocolo de acceso a mensajes de internet
+ [PH-HI]interpreter[/PH-HI]    intérprete
+ [PH-HI]interrecord gap[/PH-HI]    intervalo inter-registros
+ [PH-HI]interrupt (int)[/PH-HI]    interrupción
+ [PH-HI]invalid[/PH-HI]    no válido
+ [PH-HI]invoke, to[/PH-HI]    llamar, invocar
+ [PH-HI]ip (internet protocol)[/PH-HI]    protocolo de internet
+ [PH-HI]ipse (integrated project support environments)[/PH-HI]    entornos integrados de proyectos
+ [PH-HI]ipx (internet packet exchange)[/PH-HI]    intercambio de paquetes en internet
+ [PH-HI]irc (internet relay chat)[/PH-HI]    canal de chat en internet
+ [PH-HI]irq (interrupt request)[/PH-HI]    petición de interrupción
+ [PH-HI]irregularity[/PH-HI]    anomalía
+ [PH-HI]isa (industry standard architecture)[/PH-HI]    arquitectura estándar industrial, arquitectura isa
+ [PH-HI]isam (indexed sequential access method)[/PH-HI]    método de acceso secuencial indizado
+ [PH-HI]isdn (integrated services digital network)[/PH-HI]    rdsi (red digital de servicios integrados)
+ [PH-HI]iso (internet standards organization)[/PH-HI]    organización internacional de estándar, organización internacional de normalización
+ [PH-HI]isoc (internet society)[/PH-HI]    sociedad internet
+ [PH-HI]isolation[/PH-HI]    aislamiento
+ [PH-HI]isolator[/PH-HI]    aislador
+ [PH-HI]isp (internet service provider)[/PH-HI]    proveedor de servicios internet
+ [PH-HI]iss (internet security scanner)[/PH-HI]    rastreador de seguridad de internet
+ [PH-HI]italic[/PH-HI]    cursiva
+ [PH-HI]item[/PH-HI]    dato, elemento
+ [PH-HI]iterate, to[/PH-HI]    iterar, repetir
+ [PH-HI]itu (international telecommunications union)[/PH-HI]    sindicato internacional de telecomunicaciones
+ [PH-HI]jaggies[/PH-HI]    irregularidades (de trazos)
+ [PH-HI]jam[/PH-HI]    atascamiento
+ [PH-HI]jam-free[/PH-HI]    anti-interrupción, antibloqueo
+ [PH-HI]janitor[/PH-HI]    depurador
+ [PH-HI]jdk (java developers kit)[/PH-HI]    entorno de desarrollo del lenguaje java
+ [PH-HI]jitter[/PH-HI]    inestabilidad (de la imagen)
+ [PH-HI]join, to[/PH-HI]    unir
+ [PH-HI]joystick[/PH-HI]    palanca de control, palanca de mando
+ [PH-HI]joystick rotation[/PH-HI]    rotación del joystick
+ [PH-HI]jump[/PH-HI]    salto, bifurcación
+ [PH-HI]jump term[/PH-HI]    palabra puente
+ [PH-HI]jumper[/PH-HI]    jumper, saltador
+ [PH-HI]junk mail[/PH-HI]    correo basura
+ [PH-HI]justification[/PH-HI]    justificación
+ [PH-HI]justify[/PH-HI]    alinear, justificar
+ [PH-HI]kb[/PH-HI]    kilo byte
+ [PH-HI]kerned letters[/PH-HI]    letras solapadas
+ [PH-HI]kernel[/PH-HI]    núcleo (de un sistema operativo)
+ [PH-HI]kernel mode[/PH-HI]    modo privilegiado
+ [PH-HI]kerning[/PH-HI]    talud
+ [PH-HI]key[/PH-HI]    clave, llave, tecla
+ [PH-HI]key punch[/PH-HI]    perforadora
+ [PH-HI]key-to-disk computer[/PH-HI]    ordenador de entrada directa de datos
+ [PH-HI]keyboard[/PH-HI]    teclado
+ [PH-HI]keyboard layout[/PH-HI]    disposición del teclado, diseño del teclado
+ [PH-HI]keystroke[/PH-HI]    pulsación de tecla
+ [PH-HI]keyword[/PH-HI]    palabra clave
+ [PH-HI]kill, to (a client)[/PH-HI]    dar de baja (a un cliente)
+ [PH-HI]label[/PH-HI]    etiqueta, rótulo
+ [PH-HI]landscape[/PH-HI]    apaisado, horizontal
+ [PH-HI]language[/PH-HI]    idioma, lenguaje
+ [PH-HI]laptop computer[/PH-HI]    ordenador de regazo, pc portátil
+ [PH-HI]laser printer[/PH-HI]    impresora láser
+ [PH-HI]layer[/PH-HI]    capa
+ [PH-HI]layout[/PH-HI]    esquema, esbozo, diseño
+ [PH-HI]lcd (liquid crystal display)[/PH-HI]    pantalla de cristal líquido
+ [PH-HI]leased line[/PH-HI]    línea especializada
+ [PH-HI]led diode[/PH-HI]    diodo led
+ [PH-HI]leg[/PH-HI]    rama, tramo
+ [PH-HI]legend[/PH-HI]    leyenda
+ [PH-HI]length[/PH-HI]    longitud
+ [PH-HI]level[/PH-HI]    tono, nivel
+ [PH-HI]library[/PH-HI]    librería
+ [PH-HI]licensed[/PH-HI]    autorizado
+ [PH-HI]lifo (last-in, first-out)[/PH-HI]    ultimo en entrar, primero en salir
+ [PH-HI]light emitting diode (led)[/PH-HI]    diodo led (diodo emisor de luz)
+ [PH-HI]lightweight directory access protocol (ldap)[/PH-HI]    protocolo ligero de acceso a directorios
+ [PH-HI]lilo (last-in, last-out)[/PH-HI]    ultimo en entrar, ultimo en salir
+ [PH-HI]line access protocol (lap)[/PH-HI]    protocolo de acceso por línea
+ [PH-HI]line art[/PH-HI]    arte lineal, arte gráfico
+ [PH-HI]line break[/PH-HI]    corte de líneas
+ [PH-HI]line conditioning[/PH-HI]    acondicionamiento de la línea
+ [PH-HI]line feed[/PH-HI]    avance de línea
+ [PH-HI]line feed key (lf key)[/PH-HI]    tecla de avance de línea
+ [PH-HI]line load[/PH-HI]    carga de línea
+ [PH-HI]line surge[/PH-HI]    sobrecarga de línea(subida de voltaje)
+ [PH-HI]link[/PH-HI]    enlace, vínculo
+ [PH-HI]link access procedure for modems (lapm)[/PH-HI]    procedimiento de acceso a enlace para módems
+ [PH-HI]link control protocol (lcp)[/PH-HI]    protocolo de control de enlace
+ [PH-HI]link, to[/PH-HI]    enlazar, vincular
+ [PH-HI]linkable[/PH-HI]    enlazable
+ [PH-HI]linking and embedding (l&amp;e)[/PH-HI]    vincular e incrustar
+ [PH-HI]liquid crystal display (lcd)[/PH-HI]    visualizador de cristal líquido
+ [PH-HI]llc (link level control)[/PH-HI]    nivel de enlace lógico
+ [PH-HI]ln (line)[/PH-HI]    línea
+ [PH-HI]load, to[/PH-HI]    cargar
+ [PH-HI]loader[/PH-HI]    cargador
+ [PH-HI]lobe[/PH-HI]    lóbulo
+ [PH-HI]local area network (lan)[/PH-HI]    red de área local
+ [PH-HI]local area wireless network (lawn)[/PH-HI]    red inhalámbrica de área local
+ [PH-HI]local variable[/PH-HI]    variable local
+ [PH-HI]locating device[/PH-HI]    dispositivo localizador (de situación)
+ [PH-HI]location[/PH-HI]    ubicación, posición (memoria)
+ [PH-HI]lock, to[/PH-HI]    bloquear, reservar, cerrar
+ [PH-HI]log in, to[/PH-HI]    entrada en el sistema
+ [PH-HI]log off, to[/PH-HI]    salida en el sistema, cerrar la sesión
+ [PH-HI]log on, to[/PH-HI]    entrada en el sistema, conectarse al sistema
+ [PH-HI]log out, to[/PH-HI]    salida en el sistema
+ [PH-HI]logic bomb[/PH-HI]    bomba lógica
+ [PH-HI]logical[/PH-HI]    lógico
+ [PH-HI]logo (logotype)[/PH-HI]    logotipo (distintivo)
+ [PH-HI]long-haul modem[/PH-HI]    módem de larga distancia
+ [PH-HI]look and feel[/PH-HI]    apariencia y comportamiento
+ [PH-HI]lookup table[/PH-HI]    tabla de búsqueda
+ [PH-HI]loop[/PH-HI]    bucle, ciclo
+ [PH-HI]loopback[/PH-HI]    lazo cerrado
+ [PH-HI]loosely coupled system[/PH-HI]    sistema débilmente acoplado
+ [PH-HI]low end of a range[/PH-HI]    limite inferior de una gama
+ [PH-HI]low-density disk[/PH-HI]    disco de baja densidad
+ [PH-HI]low-level language[/PH-HI]    lenguaje de bajo nivel
+ [PH-HI]lower-case letter[/PH-HI]    letra minúscula
+ [PH-HI]lq (letter quality)[/PH-HI]    calidad carta
+ [PH-HI]lu (logical unit)[/PH-HI]    unidad lógica
+ [PH-HI]machine[/PH-HI]    máquina
+ [PH-HI]macro[/PH-HI]    macro
+ [PH-HI]magnetic disk[/PH-HI]    disco magnético
+ [PH-HI]magnetic storage[/PH-HI]    almacenamiento magnético
+ [PH-HI]magnetic tape[/PH-HI]    cinta magnética
+ [PH-HI]mail[/PH-HI]    correo
+ [PH-HI]mailbox[/PH-HI]    buzón
+ [PH-HI]mailing list[/PH-HI]    lista de distribución (por correo)
+ [PH-HI]main[/PH-HI]    principal
+ [PH-HI]mainframe[/PH-HI]    gran sistema, de gran estructura
+ [PH-HI]mainframe computer[/PH-HI]    procesador central
+ [PH-HI]malfunction[/PH-HI]    funcionamiento defectuoso, mal funcionamiento
+ [PH-HI]management[/PH-HI]    dirección, gestión
+ [PH-HI]manager[/PH-HI]    administrador
+ [PH-HI]map (manufacturing automation protocol)[/PH-HI]    protocolo de fabricación automatizada
+ [PH-HI]map, to[/PH-HI]    asignar
+ [PH-HI]margin[/PH-HI]    margen
+ [PH-HI]mark[/PH-HI]    marca
+ [PH-HI]market manager[/PH-HI]    director de ventas
+ [PH-HI]mask[/PH-HI]    máscara
+ [PH-HI]maskable interrupts[/PH-HI]    interrupciones enmascarables
+ [PH-HI]massage, to[/PH-HI]    modificar información, procesar información
+ [PH-HI]master[/PH-HI]    maestro
+ [PH-HI]master boot record[/PH-HI]    registro maestro de arranque
+ [PH-HI]master file[/PH-HI]    archivo maestro, archivo patrón
+ [PH-HI]master-slave[/PH-HI]    maestro- esclavo
+ [PH-HI]match, to[/PH-HI]    emparejar, corresponder, adaptar
+ [PH-HI]math coprocessor[/PH-HI]    coprocesador matemático
+ [PH-HI]matrix[/PH-HI]    matriz
+ [PH-HI]mau (multistation access unit)[/PH-HI]    uam (unidad de acceso multiestación)
+ [PH-HI]maximize[/PH-HI]    maximizar
+ [PH-HI]mb (mega bit)[/PH-HI]    megabit, un millón de bits
+ [PH-HI]mb (mega byte)[/PH-HI]    megabyte, un millón de octetos
+ [PH-HI]mbps (mega bits per second)[/PH-HI]    megabits por segundo
+ [PH-HI]measurement[/PH-HI]    medida
+ [PH-HI]media[/PH-HI]    medios
+ [PH-HI]media access control (mac)[/PH-HI]    control de acceso al medio
+ [PH-HI]medium[/PH-HI]    medio, soporte
+ [PH-HI]memo[/PH-HI]    memorando/s
+ [PH-HI]memory sniffing[/PH-HI]    test sistemático de la memoria
+ [PH-HI]menu[/PH-HI]    menú
+ [PH-HI]menu-driven software[/PH-HI]    software gobernado por menús
+ [PH-HI]merge, to[/PH-HI]    fusionar, combinar
+ [PH-HI]mesh[/PH-HI]    malla
+ [PH-HI]message body[/PH-HI]    cuerpo del mensaje
+ [PH-HI]message trailer[/PH-HI]    cola del mensaje, fin del mensaje
+ [PH-HI]metafile[/PH-HI]    metarchivo
+ [PH-HI]method[/PH-HI]    método
+ [PH-HI]metropolitan area network (man)[/PH-HI]    red de área metropolitana
+ [PH-HI]mhs (message handling system)[/PH-HI]    sistema de manejo de ficheros
+ [PH-HI]mhz (megahertz)[/PH-HI]    megahercios, un millón de hercios
+ [PH-HI]mib (management information base)[/PH-HI]    base de información de gestión
+ [PH-HI]micro channel architecture (mca)[/PH-HI]    arquitectura micro channel
+ [PH-HI]microcomputer[/PH-HI]    microordenador
+ [PH-HI]microfiche[/PH-HI]    microficha
+ [PH-HI]microprogramming[/PH-HI]    microprogramación
+ [PH-HI]microsecond[/PH-HI]    microsegundo
+ [PH-HI]middleware[/PH-HI]    software intermedio
+ [PH-HI]millions of floating operations by second (mflops)[/PH-HI]    millones de operaciones en coma flotante por segundo
+ [PH-HI]minicomputer[/PH-HI]    miniordenador
+ [PH-HI]minimize[/PH-HI]    minimizar
+ [PH-HI]mips (million of instructions per second)[/PH-HI]    millón de instrucciones por segundo
+ [PH-HI]mirror[/PH-HI]    espejo, réplica
+ [PH-HI]mis (management information system)[/PH-HI]    sistema de información para administración
+ [PH-HI]misalignment[/PH-HI]    falta de alineación
+ [PH-HI]mismatch[/PH-HI]    error de coincidencia
+ [PH-HI]mit (massachusetts institute of technology)[/PH-HI]    instituto tecnológico de massachusetts
+ [PH-HI]mixer[/PH-HI]    mezclador
+ [PH-HI]mnemonic[/PH-HI]    mnemónico
+ [PH-HI]mnp (microcom networking protocol)[/PH-HI]    protocolo de redes de microcom
+ [PH-HI]mode[/PH-HI]    modo
+ [PH-HI]mode selector[/PH-HI]    selector de modo
+ [PH-HI]mode switch[/PH-HI]    conmutador de modo
+ [PH-HI]modem[/PH-HI]    módem
+ [PH-HI]modular design[/PH-HI]    diseño modular
+ [PH-HI]modulation[/PH-HI]    modulación
+ [PH-HI]modulator[/PH-HI]    modulador
+ [PH-HI]module[/PH-HI]    módulo
+ [PH-HI]monitor[/PH-HI]    monitor, consola
+ [PH-HI]monitor, to[/PH-HI]    supervisar, vigilar, controlar, dirigir
+ [PH-HI]motd (message of the day)[/PH-HI]    mensaje del día
+ [PH-HI]mouse[/PH-HI]    ratón
+ [PH-HI]mouse case[/PH-HI]    estuche del ratón
+ [PH-HI]mouse pad[/PH-HI]    alfombrilla para el ratón
+ [PH-HI]mouse pointer[/PH-HI]    puntero del ratón
+ [PH-HI]move[/PH-HI]    mover
+ [PH-HI]mpeg (motion pictures expert group)[/PH-HI]    grupo de expertos en imagen en movimiento
+ [PH-HI]mru (maximum receive unit)[/PH-HI]    unidad de máxima recepción
+ [PH-HI]ms-dos (microsoft disk operating system)[/PH-HI]    sistema operativo en disco de microsoft
+ [PH-HI]mtu (maximum transmission unit)[/PH-HI]    unidad de máxima transmisión
+ [PH-HI]multi-tier distributed application services suites (midas)[/PH-HI]    suite de aplicaciones distribuidas multinivel
+ [PH-HI]multi-user dimension (mud)[/PH-HI]    dimensión multiusuario
+ [PH-HI]multicast[/PH-HI]    multidifusión
+ [PH-HI]multicast router (mrouter)[/PH-HI]    router que soporta protocolos multicasting
+ [PH-HI]multimedia[/PH-HI]    multimedia
+ [PH-HI]multimedia extensions (mmx)[/PH-HI]    extensiones multimedia
+ [PH-HI]multipart forms[/PH-HI]    papel multicopia
+ [PH-HI]multiple logical terminal (mlt)[/PH-HI]    terminal lógica múltiple
+ [PH-HI]multiple-reply[/PH-HI]    respuesta múltiple
+ [PH-HI]multiplexer[/PH-HI]    multiplexor
+ [PH-HI]multipoint line[/PH-HI]    línea multipunto
+ [PH-HI]multipurpose internet mail extensions (mime)[/PH-HI]    extensiones multipropósito de correo internet
+ [PH-HI]multiradar processing computer[/PH-HI]    ordenador de procesamiento multiradar
+ [PH-HI]multistar network[/PH-HI]    red multiestrella
+ [PH-HI]multistation access unit (mau)[/PH-HI]    unidad de acceso multiestación (uam)
+ [PH-HI]multitask[/PH-HI]    multitarea
+ [PH-HI]musical instrument digital interface (midi)[/PH-HI]    interfaz digital para instrumentos musicales
+ [PH-HI]name[/PH-HI]    nombre
+ [PH-HI]nanosecond (ns)[/PH-HI]    nanosegundo (nseg.)
+ [PH-HI]narrowband[/PH-HI]    banda estrecha
+ [PH-HI]navigate, to[/PH-HI]    explorar, recorrer, desplazarse por, navegar
+ [PH-HI]ncsa (national center for supercomputing applications)[/PH-HI]    centro nacional de aplicaciones de supercomputación
+ [PH-HI]negative acknowledgement (nack)[/PH-HI]    respuesta de rechazo
+ [PH-HI]nest, to[/PH-HI]    anidar
+ [PH-HI]nested loops[/PH-HI]    bucles anidados
+ [PH-HI]net runner[/PH-HI]    cibernauta
+ [PH-HI]netiquette[/PH-HI]    etiqueta de internet
+ [PH-HI]netware[/PH-HI]    sistema operativo para lan de novell
+ [PH-HI]network[/PH-HI]    red
+ [PH-HI]network access point (nap)[/PH-HI]    punto de acceso a la red
+ [PH-HI]network announcement request (nacr)[/PH-HI]    petición de participación en la red
+ [PH-HI]network basic input output system (netbios)[/PH-HI]    sistema básico de e/s de red
+ [PH-HI]network basic input output system extended user interface (netbeui)[/PH-HI]    netbios en modo protegido
+ [PH-HI]network citizen (netizen)[/PH-HI]    ciudadano de la red
+ [PH-HI]network computer (nc)[/PH-HI]    ordenador de red
+ [PH-HI]network control protocol (ncp)[/PH-HI]    protocolo de control de red
+ [PH-HI]networking[/PH-HI]    realización de redes, gestión del redes
+ [PH-HI]news[/PH-HI]    noticias
+ [PH-HI]newsgroup[/PH-HI]    grupo de noticias
+ [PH-HI]newsletter[/PH-HI]    boletín de información
+ [PH-HI]nic (network information center)[/PH-HI]    centro de información de redes
+ [PH-HI]nic (network interface cards and cabling)[/PH-HI]    cableado y tarjetas de interfaz de redes
+ [PH-HI]nicad battery[/PH-HI]    pila de niquel-cadmio
+ [PH-HI]nickname (nick)[/PH-HI]    alias
+ [PH-HI]nimh[/PH-HI]    hidruro metálico de níquel
+ [PH-HI]nlq (near letter quality)[/PH-HI]    calidad aproximada al tipo carta
+ [PH-HI]nntp (network news transfer protocol)[/PH-HI]    protocolo de transferencia para los grupos de noticias de red
+ [PH-HI]node[/PH-HI]    nodo
+ [PH-HI]nor gate[/PH-HI]    puerta o
+ [PH-HI]nos (network operating system)[/PH-HI]    sistema operativo de red
+ [PH-HI]not[/PH-HI]    no, negado
+ [PH-HI]notch[/PH-HI]    muesca
+ [PH-HI]notebook[/PH-HI]    pc portátil
+ [PH-HI]notepad[/PH-HI]    bloc de notas
+ [PH-HI]novell directory services (nds)[/PH-HI]    servicios de directorio de novell
+ [PH-HI]novell easy administration tool (neat)[/PH-HI]    herramienta de administración fácil de novell
+ [PH-HI]nrm (normal response mode)[/PH-HI]    modo normal de respuesta
+ [PH-HI]nsa (national security agency)[/PH-HI]    agencia nacional de seguridad
+ [PH-HI]nse (national science foundation)[/PH-HI]    fundación nacional de ciencia
+ [PH-HI]ntfs (nt file system)[/PH-HI]    sistema de archivos de nt (windows-nt)
+ [PH-HI]null[/PH-HI]    nulo
+ [PH-HI]null-modem[/PH-HI]    módem nulo
+ [PH-HI]num lock key[/PH-HI]    tecla bloqueo de números
+ [PH-HI]number crunching[/PH-HI]    calculo en masa
+ [PH-HI]numeric keypad[/PH-HI]    teclado numérico
+ [PH-HI]numeric system[/PH-HI]    sistema numérico
+ [PH-HI]object oriented[/PH-HI]    orientado a objetos
+ [PH-HI]object oriented programming (oop)[/PH-HI]    programación orientada a objetos (poo)
+ [PH-HI]obsolete[/PH-HI]    obsoleto
+ [PH-HI]off the shelf software[/PH-HI]    software estándar
+ [PH-HI]off-line[/PH-HI]    fuera de línea
+ [PH-HI]off-line system[/PH-HI]    sistema batch
+ [PH-HI]office document architecture/office document interchange format (oda/odif)[/PH-HI]    intercambio de documentos de oficina
+ [PH-HI]ole (object linking & embedding)[/PH-HI]    vinculación e incrustación de objetos
+ [PH-HI]on-demand report[/PH-HI]    informe a petición
+ [PH-HI]on-line[/PH-HI]    en línea, en pantalla
+ [PH-HI]on-line system[/PH-HI]    sistema en línea
+ [PH-HI]on-site[/PH-HI]    in situ
+ [PH-HI]on-site maintenance[/PH-HI]    mantenimiento en la propia instalación
+ [PH-HI]onion diagram[/PH-HI]    diagrama de cebolla
+ [PH-HI]oop (object oriented programming)[/PH-HI]    poo (programación orientada a objetos)
+ [PH-HI]oopl (object oriented programming language)[/PH-HI]    lenguaje de programación orientada a objetos
+ [PH-HI]open, to[/PH-HI]    abrir
+ [PH-HI]open-ended system[/PH-HI]    sistema abierto
+ [PH-HI]operand[/PH-HI]    operando
+ [PH-HI]operating system (os)[/PH-HI]    sistema operativo (so)
+ [PH-HI]operation[/PH-HI]    operación
+ [PH-HI]operator[/PH-HI]    operador
+ [PH-HI]operator intervention[/PH-HI]    acción de parte del operador
+ [PH-HI]optical character recognition (ocr)[/PH-HI]    reconocimiento óptico de caracteres
+ [PH-HI]optical disk[/PH-HI]    disco óptico
+ [PH-HI]optical drive[/PH-HI]    unidad óptica, manejador óptico
+ [PH-HI]optical fiber[/PH-HI]    fibra óptica
+ [PH-HI]optical tracking[/PH-HI]    seguimiento óptico
+ [PH-HI]optical tracking mechanism[/PH-HI]    mecanismo de seguimiento óptico
+ [PH-HI]optimum bandwidth[/PH-HI]    ancho de banda óptimo
+ [PH-HI]options[/PH-HI]    opciones
+ [PH-HI]or operator (inclusive or operator)[/PH-HI]    operador lógico "o", operador inclusivo "o"
+ [PH-HI]original equipment manufactured (oem)[/PH-HI]    manufactura de equipo original
+ [PH-HI]orphan line[/PH-HI]    línea sola (parte superior de la hoja)
+ [PH-HI]os (operating system)[/PH-HI]    so (sistema operativo)
+ [PH-HI]osi (open systems interconnection model)[/PH-HI]    marisa (modelo arquitectónico de referencia para la interconexión de sistemas abiertos)
+ [PH-HI]out-of-line[/PH-HI]    fuera de lo previsto
+ [PH-HI]outernet[/PH-HI]    red privada
+ [PH-HI]outline[/PH-HI]    contorno, esquema, hueca
+ [PH-HI]outphase[/PH-HI]    desfasado
+ [PH-HI]output[/PH-HI]    salida
+ [PH-HI]output bound[/PH-HI]    limitado por la velocidad de salida
+ [PH-HI]output power[/PH-HI]    potencia de salida
+ [PH-HI]outwards[/PH-HI]    hacia fuera
+ [PH-HI]overflow[/PH-HI]    desbordamiento
+ [PH-HI]overlapping[/PH-HI]    solapamiento
+ [PH-HI]overlay[/PH-HI]    superposición, recubrimiento
+ [PH-HI]overlay, to[/PH-HI]    solapar, superponer
+ [PH-HI]overload, to[/PH-HI]    sobrecarga
+ [PH-HI]override, to[/PH-HI]    invalidar, anular, desautorizar
+ [PH-HI]overrun[/PH-HI]    sobreescritura
+ [PH-HI]overview[/PH-HI]    información general, introducción
+ [PH-HI]owner[/PH-HI]    propietario
+ [PH-HI]packet[/PH-HI]    paquete
+ [PH-HI]packet switching[/PH-HI]    conmutación de paquetes
+ [PH-HI]pad[/PH-HI]    base
+ [PH-HI]page[/PH-HI]    página
+ [PH-HI]page layout[/PH-HI]    diseño de página
+ [PH-HI]page make-up program[/PH-HI]    programa compositor de páginas
+ [PH-HI]page preview[/PH-HI]    vista preliminar
+ [PH-HI]page, to[/PH-HI]    paginar
+ [PH-HI]paintbrush[/PH-HI]    brocha, pincel
+ [PH-HI]palette[/PH-HI]    paleta
+ [PH-HI]palm rest[/PH-HI]    apoya manos
+ [PH-HI]panel[/PH-HI]    panel
+ [PH-HI]paper feed[/PH-HI]    alimentación de papel
+ [PH-HI]paper out[/PH-HI]    falta de papel
+ [PH-HI]paper throw[/PH-HI]    salto de papel
+ [PH-HI]paradigm[/PH-HI]    paradigma
+ [PH-HI]parallel[/PH-HI]    paralelo
+ [PH-HI]parallel port[/PH-HI]    puerto paralelo
+ [PH-HI]parameter[/PH-HI]    parámetro
+ [PH-HI]parent directory[/PH-HI]    directorio superior
+ [PH-HI]parenthesis[/PH-HI]    paréntesis
+ [PH-HI]parity[/PH-HI]    paridad
+ [PH-HI]parity bit[/PH-HI]    bit de paridad
+ [PH-HI]parser[/PH-HI]    programa analizador sintáctico
+ [PH-HI]partition[/PH-HI]    partición
+ [PH-HI]password[/PH-HI]    contraseña
+ [PH-HI]password authentication protocol (pap)[/PH-HI]    protocolo de autentificación por contraseña
+ [PH-HI]paste up board[/PH-HI]    tablero de composición
+ [PH-HI]paste, to[/PH-HI]    pegar
+ [PH-HI]patch a program, to[/PH-HI]    parchear un programa, corregir un programa
+ [PH-HI]patent[/PH-HI]    patente
+ [PH-HI]path[/PH-HI]    camino, ruta de acceso, vía de acceso
+ [PH-HI]pattern[/PH-HI]    configuración, patrón
+ [PH-HI]pc fax[/PH-HI]    pc fax, fax-módem
+ [PH-HI]peer to peer[/PH-HI]    interpares
+ [PH-HI]peer-to-peer network[/PH-HI]    red de igual a igual, red distribuida, red interpar
+ [PH-HI]period[/PH-HI]    periodo
+ [PH-HI]peripheral component interface (pci)[/PH-HI]    interfaz de componentes de periféricos
+ [PH-HI]peripherical[/PH-HI]    periférico
+ [PH-HI]personal area network (pan)[/PH-HI]    red de área personal
+ [PH-HI]personal computer (pc)[/PH-HI]    ordenador personal
+ [PH-HI]personal digital assistant (pda)[/PH-HI]    asistente personal digital
+ [PH-HI]pgdn (page down key)[/PH-HI]    repag (tecla retroceso de página)
+ [PH-HI]pgup (page up key)[/PH-HI]    avpag (tecla de avance de página)
+ [PH-HI]phase delay[/PH-HI]    retardo de fase
+ [PH-HI]phase difference[/PH-HI]    desfase
+ [PH-HI]phase distortion[/PH-HI]    distorsión de fase
+ [PH-HI]phase modulation[/PH-HI]    modulación en fase
+ [PH-HI]phase offset[/PH-HI]    desviación de fase
+ [PH-HI]phase shift[/PH-HI]    desplazamiento de fase
+ [PH-HI]phase shifted[/PH-HI]    desfasado de fase
+ [PH-HI]phone hawk[/PH-HI]    halcón telefónico
+ [PH-HI]phracker (phone hacker)[/PH-HI]    pirata informático que se vale de las redes telefónicas
+ [PH-HI]physical[/PH-HI]    físico
+ [PH-HI]picking device[/PH-HI]    dispositivo de selección
+ [PH-HI]pie chart[/PH-HI]    gráfico circular
+ [PH-HI]piggyback board[/PH-HI]    tarjeta superponible
+ [PH-HI]pim (personal information manager)[/PH-HI]    administrador de información personal
+ [PH-HI]pin[/PH-HI]    aguja (impresora); patilla (circuito).  clavija de conexión
+ [PH-HI]pin (personal identification number)[/PH-HI]    número de identificación personal
+ [PH-HI]pin printer[/PH-HI]    impresora de agujas
+ [PH-HI]pio (program input/output)[/PH-HI]    entrada/salida de programa
+ [PH-HI]pipe[/PH-HI]    tubo, conducto, símbolo canalización (|)
+ [PH-HI]pipe, to[/PH-HI]    canalizar
+ [PH-HI]piracy[/PH-HI]    piratería
+ [PH-HI]pitch[/PH-HI]    paso, densidad de caracteres, caracteres por pulgada
+ [PH-HI]pixel (pel)[/PH-HI]    píxel
+ [PH-HI]placeholder[/PH-HI]    marcador de posición
+ [PH-HI]planar board[/PH-HI]    placa base
+ [PH-HI]planning report[/PH-HI]    informe de previsión
+ [PH-HI]plasma display panels (pdp)[/PH-HI]    sistemas de plasma
+ [PH-HI]platform[/PH-HI]    plataforma
+ [PH-HI]plot, to[/PH-HI]    trazar
+ [PH-HI]plotter[/PH-HI]    trazador gráfico
+ [PH-HI]plug[/PH-HI]    enchufe
+ [PH-HI]plug, to[/PH-HI]    enchufar
+ [PH-HI]point-to-point line[/PH-HI]    línea punto a punto
+ [PH-HI]pointer[/PH-HI]    puntero, indicador
+ [PH-HI]polling[/PH-HI]    invitación a emitir, sondeo
+ [PH-HI]pop-up window[/PH-HI]    ventana emergente
+ [PH-HI]port[/PH-HI]    puerto
+ [PH-HI]portable computer[/PH-HI]    ordenador portátil
+ [PH-HI]portable network graphics (png)[/PH-HI]    gráficos portables de red
+ [PH-HI]portrait[/PH-HI]    vertical
+ [PH-HI]pos (point of sale)[/PH-HI]    punto de venta
+ [PH-HI]posix (portable operating system interface)[/PH-HI]    interfaz de sistema operativo portátil
+ [PH-HI]post office protocol (pop)[/PH-HI]    protocolo de la oficina de correos
+ [PH-HI]power[/PH-HI]    potencia
+ [PH-HI]power case[/PH-HI]    usuario avanzado
+ [PH-HI]power on self test (post)[/PH-HI]    auto-test de encendido
+ [PH-HI]power supply[/PH-HI]    fuente de alimentación
+ [PH-HI]power, to[/PH-HI]    alimentar
+ [PH-HI]ppm (pages per minute)[/PH-HI]    páginas por minuto
+ [PH-HI]ppp (point to point protocol)[/PH-HI]    protocolo punto a punto
+ [PH-HI]prank program[/PH-HI]    programa bromista
+ [PH-HI]preamble[/PH-HI]    preámbulo
+ [PH-HI]prearranged[/PH-HI]    preestablecido
+ [PH-HI]precedence[/PH-HI]    prioridad, anterioridad
+ [PH-HI]prefailure detection and analysis (pda)[/PH-HI]    detección y análisis de fallos
+ [PH-HI]prefix[/PH-HI]    prefijo
+ [PH-HI]prerelease[/PH-HI]    versión preliminar
+ [PH-HI]preset, to[/PH-HI]    preestablecer, inicializar
+ [PH-HI]press, to[/PH-HI]    pulsar, apretar
+ [PH-HI]pretty good privacy (pgp)[/PH-HI]    intimidad bastante buena
+ [PH-HI]preview mode[/PH-HI]    modo de vista propia
+ [PH-HI]previous[/PH-HI]    anterior
+ [PH-HI]primary[/PH-HI]    primario
+ [PH-HI]primary domain[/PH-HI]    dominio principal
+ [PH-HI]primary selection[/PH-HI]    selección primaria
+ [PH-HI]primary storage[/PH-HI]    almacenamiento principal
+ [PH-HI]print queue[/PH-HI]    cola de impresión
+ [PH-HI]print spooler[/PH-HI]    memoria intermedia de impresión
+ [PH-HI]print spooling[/PH-HI]    tratamiento de cola de impresión
+ [PH-HI]print, to[/PH-HI]    imprimir
+ [PH-HI]printed[/PH-HI]    impreso
+ [PH-HI]printer[/PH-HI]    impresora
+ [PH-HI]printer control language (pcl)[/PH-HI]    lenguaje de control de impresoras
+ [PH-HI]printout[/PH-HI]    copia impresa, listado
+ [PH-HI]priority[/PH-HI]    prioridad
+ [PH-HI]private automatic branch exchange (pabx, pbx)[/PH-HI]    centralita privada automática de conmutación
+ [PH-HI]private enhanced mail (pem)[/PH-HI]    correo privado mejorado
+ [PH-HI]procedure[/PH-HI]    procedimiento
+ [PH-HI]process, to[/PH-HI]    procesar
+ [PH-HI]processing[/PH-HI]    tratamiento
+ [PH-HI]processor[/PH-HI]    procesador
+ [PH-HI]program[/PH-HI]    programa
+ [PH-HI]program evaluation and review technique (pert)[/PH-HI]    técnica de evaluación y revisión de programas
+ [PH-HI]program information file (pif)[/PH-HI]    fichero de información de programa
+ [PH-HI]programmable interrupt controller (pic)[/PH-HI]    controlador de interrupciones programable
+ [PH-HI]programmer[/PH-HI]    programador
+ [PH-HI]programming language[/PH-HI]    lenguaje de programación
+ [PH-HI]project[/PH-HI]    proyecto
+ [PH-HI]prom (programmable read only memory)[/PH-HI]    rom programable
+ [PH-HI]prompt[/PH-HI]    indicador
+ [PH-HI]proof of purchase[/PH-HI]    prueba de compra
+ [PH-HI]propagation velocity[/PH-HI]    velocidad de propagación
+ [PH-HI]properties[/PH-HI]    propiedades
+ [PH-HI]proportional spacing[/PH-HI]    espaciado proporcional
+ [PH-HI]protective jacket[/PH-HI]    cubierta protectora
+ [PH-HI]protocol[/PH-HI]    protocolo
+ [PH-HI]protocol data unit (pdu)[/PH-HI]    unidad de datos de protocolo
+ [PH-HI]ps/2 (personal system 2)[/PH-HI]    sistema personal 2
+ [PH-HI]pss (product support services)[/PH-HI]    servicio de soporte técnico
+ [PH-HI]pu (physical unit)[/PH-HI]    unidad física
+ [PH-HI]public domain[/PH-HI]    de dominio público
+ [PH-HI]public domain software[/PH-HI]    software de dominio publico
+ [PH-HI]puck[/PH-HI]    pastilla
+ [PH-HI]pull tractor[/PH-HI]    alimentador de tracción
+ [PH-HI]pulse[/PH-HI]    pulso
+ [PH-HI]pulse amplifier[/PH-HI]    amplificador de pulsos
+ [PH-HI]push button[/PH-HI]    pulsador
+ [PH-HI]push tractor[/PH-HI]    alimentador de fricción
+ [PH-HI]push-down list[/PH-HI]    lista lifo, lista inversa, lista descendente
+ [PH-HI]push-up list[/PH-HI]    lista fifo, lista directa, lista ascendente
+ [PH-HI]pvc (permanent virtual circuit)[/PH-HI]    circuito virtual permanente
+ [PH-HI]quadrature amplitude modulation (qam)[/PH-HI]    modulación de amplitud en cuadratura
+ [PH-HI]qualify, to[/PH-HI]    calificar
+ [PH-HI]quality[/PH-HI]    calidad
+ [PH-HI]query[/PH-HI]    consulta
+ [PH-HI]query by example (qbe)[/PH-HI]    consulta según ejemplo
+ [PH-HI]queue[/PH-HI]    cola
+ [PH-HI]queue manager (qm)[/PH-HI]    gestor de colas
+ [PH-HI]queue telecommunications access method (qtm)[/PH-HI]    metodología de acceso de colas en sistemas de telecomunicaciones
+ [PH-HI]quickmenu[/PH-HI]    menú rápido
+ [PH-HI]quit[/PH-HI]    salir, abandonar
+ [PH-HI]quotation marks[/PH-HI]    comillas tipográficas
+ [PH-HI]quote[/PH-HI]    cita, entre comillas

@@ -1,0 +1,16 @@
+[PHTITLE]PRONOUNCE HELP
+
+Click the [PH-HI]'Pronounce'[/PH-HI] tab.
+
+[PH-HI]This feature is currently not available for Windows users![/PH-HI]
+
+[PH-HI]The 'Pronounce' features allows you to hear words, phrases, and sentences read aloud in Spanish.[/PH-HI]
+
+[PHSECTION]HEARING WORDS, PHRASES, AND SENTENCES PRONOUNCED IN SPANISH:
+You can easily hear any text in the [PH-HI]text box[/PH-HI] pronounced in Spanish if you have the [PH-HI]Festival text-to-speech[/PH-HI] extension installed and usable.  Simply [PH-HI]type[/PH-HI] some text into the [PH-HI]text box[/PH-HI], [PH-HI]paste[/PH-HI] some text into the [PH-HI]text box[/PH-HI] (up to 10 kilobytes), or [PH-HI]drag and drop[/PH-HI] a text file onto the [PH-HI]text box[/PH-HI].  If you wish to hear only a particular portion of the text read aloud, highlight the portion with your mouse cursor.  Press the [PH-HI]'Play'[/PH-HI]  button to your left to hear the text read aloud in Spanish.  It may take a moment to hear the text being read aloud, so please be patient.  This feature is useful for hearing portions of text files, e-mails, web pages, etc. read aloud in Spanish.  For information on the Festival extension, click [PH-HI]'Help' -> 'Festival Text-to-Speech Help...'[/PH-HI] on the menu.
+
+[PHSECTION]SPANISH LETTERS TOOLBAR:
+The [PH-HI]Spanish Letters Toolbar[/PH-HI] contains several commonly-used, accented Spanish letters, not generally found on standard American keyboards.  Clicking one of the letters on the Spanish Letters Toolbar will insert that accented letter into the [PH-HI]text box[/PH-HI] at the cursor position.  This feature has been provided to help eliminate the need for an external 'character map' application.
+
+[PHSECTION]PRINTING:
+If you are running a Linux/Unix version of Pythoñol, and have an LRPng/LPR-based spooler system on your computer, you may [PH-HI]print[/PH-HI] the text in the [PH-HI]text box[/PH-HI] by clicking [PH-HI]'File' -> 'Print...'[/PH-HI] on the Pythoñol main menu.  (Sorry, Windows users!)   See [PH-HI]'Help' --> 'Help...'[/PH-HI] on the menu for more information on printing in Pythoñol.

@@ -1,0 +1,42 @@
+[PHTITLE]NEGATIVE IMPERATIVE TENSE
+
+[PH-HI]The Negative Imperative tense tells a person what NOT to do.  In this sense, this command form is the opposite of the Imperative. All negative command are formed by using the corresponding present subjunctive form:[/PH-HI]
+
+     Yo [does not exist].
+     (Tú) no hables.      [Don't you speak.]
+     (Ella / Él / Usted) no hable.      [Don't let her speak.]
+     (Nosotros) no hablemos.      [Don't let us speak.]
+     (Vosotros) no habléis.      [Don't let you all speak.]
+     (Ellos / Ustedes) no hablen.      [Don't let them speak.]
+
+     ¡No digas nada!  (Don't say anything!)
+     ¡No hagas eso!  (Don't do that!)
+     ¡No tengas miedo!  (Don't be afraid!)
+
+
+[PH-HI]Some irregular 'Tú' forms of the negative imperative include:[/PH-HI]
+
+	decir:   
+		Imperative: ¡Di la verdad!      
+		Negative: ¡No digas nada!  
+	hacer:   
+		Imperative: ¡Hazlo!      
+		Negative: ¡No hagas eso!  
+	ir(se):   
+		Imperative: ¡Vete de aquí!    
+		Negative: ¡No te vayas!  
+	poner:   
+		Imperative: ¡Pon tu chaqueta en al armario!    
+		Negative: ¡No pongas el vaso allí!   
+	salir:   
+		Imperative: ¡Sal inmediamente!     
+		Negative: ¡No salgas!  
+	ser:   
+		Imperative: ¡Sé bueno!     
+		Negative: ¡No seas malo!  
+	tener:   		
+		Imperative: ¡Ten cuidado!     
+		Negative: ¡No tengas miedo! 
+	venir:   
+		Imperative: ¡Ven aquí!   
+		Negative: ¡No vengas todavía!

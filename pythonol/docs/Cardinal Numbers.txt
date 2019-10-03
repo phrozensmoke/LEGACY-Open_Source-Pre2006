@@ -1,0 +1,92 @@
+[PHSECTION]Cardinal numbers 1-30:
+1. uno
+2. dos
+3. tres
+4. cuatro
+5. cinco
+6. seis
+7. siete
+8. ocho
+9. nueve
+10. diez
+11. once
+12. doce
+13. trece
+14. catorce
+15. quince
+16. dieciséis
+17. diecisiete
+18. dieciocho
+19. diecinueve
+20. veinte
+21. veintiuno
+22. veintidós
+23. veintitrés
+24. veinticuatro
+25. veinticinco
+26. veintiséis
+27. veintisiete
+28. veintiocho
+29. veintinueve
+30. treinta
+
+[PHSECTION]Numbers by 10s (to 100):
+10. diez
+20. veinte
+30. treinta
+40. cuarenta
+50. cincuenta
+60. sesenta
+70. setenta
+80. ochenta
+90. noventa
+100. cien
+
+[PHSECTION]Numbers 31-100 (examples):
+31. treinta y uno
+32. treinta y dos
+33. treinta y tres
+34. treinta y cuatro
+35. treinta y cinco
+36. treinta y seis
+37. treinta y siete
+38. treinta y ocho
+39. treinta y nueve
+40. cuarenta
+41. cuarenta y uno
+42. cuarenta y dos
+53. cincuenta y tres
+54. cincuenta y cuatro
+65. sesenta y cinco
+66. sesenta y seis
+78. setenta y ocho
+88. ochenta y ocho
+99. noventa y nueve
+
+[PHSECTION]Numbers 101-199: use "ciento" (examples):
+101. ciento uno
+012. ciento dos
+103. ciento tres
+161. ciento sesenta y uno
+162. ciento sesenta y dos
+
+NOTE: "y" is used only in numbers 31-9. "y" is NOT used to separate hundreds from tens.
+
+[PHSECTION]Numbers 100-1000:
+100. cien
+200. doscientos
+300. trescientos
+400. cuatrocientos
+500. quinientos
+600. seiscientos
+700. setecientos
+800. ochocientos
+900. novecientos
+1000. mil
+
+[PHSECTION]Cardinal Number Examples:
+142. ciento cuarenta y dos
+375. trescientos setenta y cinco
+612. seiscientos doce
+907. novecientos siete
+999. novecientos noventa y nueve

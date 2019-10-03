@@ -1,0 +1,16 @@
+[PHTITLE]MISCELLANEOUS PRONOUNS
+
+[PH-HI]alguien:[/PH-HI] someone, anyone 
+[PH-HI]nadie:[/PH-HI]  no one, nobody
+[PH-HI]algo:[/PH-HI] something, anything          
+[PH-HI]nada:[/PH-HI] nothing
+[PH-HI]cada uno(-a):[/PH-HI]  each (one)
+[PH-HI]todo el mundo:[/PH-HI]  everyone
+[PH-HI]quienquiera:[/PH-HI]  anyone (at all)
+[PH-HI]cualquiera:[/PH-HI] anything (whatsoever)
+
+Remember that the pronoun forms referring to people [such as 'alguien' and 'nadie'] require the use of the personal 'a' when occurring as the direct object of a verb. Also keep in mind the rule for forming negative sentences: one negative word must occur in front of the verb (others may follow the verb).
+
+[PH-HI]Examples:[/PH-HI]
+¿Buscas a alguien?:  Are you looking for someone?
+No. Yo no necesito a nadie.:  No. I don't need anyone.

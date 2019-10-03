@@ -1,0 +1,284 @@
+[PHTITLE]SUBJECT PRONOUNS:
+[PH-HI]Subject pronouns are used as the subject of a verb (the verb may be implied). Subject pronouns are also used as the predicate complement after the verb 'ser'.[/PH-HI] 
+
+[PH-HI]yo:[/PH-HI] I
+[PH-HI]tú:[/PH-HI] you (familiar, singular)
+[PH-HI]él:[/PH-HI] he
+[PH-HI]ella:[/PH-HI] she
+[PH-HI]ellos:[/PH-HI] they (males, or males and females)
+[PH-HI]ellas:[/PH-HI] they (all females)
+[PH-HI]usted:[/PH-HI] you (formal, singular)
+[PH-HI]ustedes:[/PH-HI] you all (formal, plural)
+[PH-HI]nosotros, nosotras:[/PH-HI]  we
+[PH-HI]vosotros, vosotras:[/PH-HI] you all (familiar, plural, Spain)
+
+Note the accent marks over tú and él.  The 'vosotros' form is used as the plural of 'tú' in Spain. In Latin America, 'ustedes' is used as the plural of both 'usted' and ''tú'. 
+
+Examples: 
+Yo prefiero coca-cola.:  I prefer Coca-cola.
+¿Es ella?:  Is it her? [Is it she?]
+¿Quién lo hizo? Yo.:  Who did it?  I did.
+
+
+In English the subject pronoun 'it' is used very frequently. In Spanish, if the pronoun 'it' does not refer back to anything at all, then 'it' is NOT expressed at all.
+
+Example:
+Es obvio que está nevando.:  It's obvious that it is raining. ['It' refers to nothing and is not expressed in Spanish.]
+
+
+[PHSECTION]PREPOSITIONAL OBJECT PRONOUNS
+[PH-HI]These pronouns are used as objects of prepositions.[/PH-HI]
+
+[PH-HI]mí:[/PH-HI]  me
+[PH-HI]ti:[/PH-HI]  you (familiar)
+[PH-HI]él:[/PH-HI]  him
+[PH-HI]ella:[/PH-HI] her
+[PH-HI]ellos:[/PH-HI] them (males, or males and females)
+[PH-HI]ellas:[/PH-HI]  them (all females)
+[PH-HI]usted:[/PH-HI]  you (formal, singular)
+[PH-HI]ustedes:[/PH-HI] you all (formal, plural)
+[PH-HI]nosotros, nosotras:[/PH-HI]  us
+[PH-HI]vosotros, vosotras:[/PH-HI] you all (plural, familiar, Spain)
+[PH-HI]sí:[/PH-HI]  himself / herself / yourself (formal) / themselves / yourselves (formal)
+
+ 
+Examples: 
+¿Es para él o para ella?:  Is it for him or for her?
+No saldrán sin nosotros.:  They won't leave without us.
+A mí me gusta el chocolate.: I like chocolate.
+Special cases: 
+ 
+Special forms are found for mí, ti, and sí after the preposition con: 
+ 
+conmigo: with me  
+¿Vas conmigo?:  Are you going with me?
+
+contigo: with you   (familiar, singular)
+Me gustaría salir contigo.:  I'd like to go out with you.
+
+consigo: with himself/ herself/ yourself (formal)
+No traen dinero consigo.: They don't bring money with themselves.
+
+
+[PH-HI]A few prepositions are NOT followed by the prepositional object pronouns listed in this section. Instead, a few prepositions are followed by the SUBJECT pronouns (yo, tú, él, ella, usted, ustedes, nosotros, etc).  The special prepositions requiring subject pronouns include:[/PH-HI]
+
+entre (between)
+según (according to) 
+salvo (except)
+excepto (except), and 
+hasta (until, up to). 
+
+Example:    
+Entre tú y yo, no es verdad.:  Between to you and me, it's not true.
+
+
+[PHSECTION]DIRECT OBJECT PRONOUNS
+[PH-HI]These forms are used as the direct objects of verbs.[/PH-HI]
+
+[PH-HI]me:[/PH-HI] me
+[PH-HI]te:[/PH-HI] you (familiar)
+[PH-HI]lo:[/PH-HI] him, you (formal), it  (masculine, singular)
+[PH-HI]la:[/PH-HI] her, you (formal), it   (feminine, singular)
+[PH-HI]los:[/PH-HI] them, you all (masculine, plural)
+[PH-HI]las:[/PH-HI] them, you all  (all feminine, plural)
+[PH-HI]nos:[/PH-HI] us
+[PH-HI]os:[/PH-HI]  you all (familiar, plural, Spain)
+[PH-HI]se:[/PH-HI]  himself / herself / yourself (formal) / themselves / yourselves (formal)
+
+'lo and 'la' are used as the direct object forms of 'usted'. 'los' and 'las' are used for ustedes. A prepositional phrase (a él, a ella, a usted) is sometimes be added for clarity or for emphasis, primarily in spoken Spanish. 
+
+Examples:
+¿Me oyes?:  Do you hear me?
+Te necesito.:  I need you.
+Lo conozco.: I know him/I know you/I am familiar with it. (unclear)
+Lo conozco a él.:  I know him. ('a él' makes it clear)
+Lo conozco a usted.: I know you.
+Yo me miro en el espejo.:  I look at myself in the mirror.
+Ustedes se matan.: You are killing yourselves.
+
+Note that these direct object prepositions cannot be used if the verb is only IMPLIED. In that case, the prepositional phrase forms are required: a  él, a ella, etc. 
+
+Example:
+A quién vio Ud.? ¿A ella?:   Who did you see?  Her? (verb implied)
+
+
+[PHSECTION]INDIRECT OBJECT PRONOUNS
+[PH-HI]These pronouns are used as the indirect objects of verbs.[/PH-HI]
+
+[PH-HI]me:[/PH-HI] to me
+[PH-HI]nos:[/PH-HI] to us
+[PH-HI]te:[/PH-HI] to you (familiar)
+[PH-HI]os:[/PH-HI]  to you all (plural, familiar, Spain)
+[PH-HI]le:[/PH-HI]  to him, her, you (formal), it
+[PH-HI]les:[/PH-HI] to them, you all (formal)   (plural)
+[PH-HI]se:[/PH-HI] to himself / herself / yourself (formal) / themselves / yourselves (formal)
+
+Examples: 
+¿Me hablas?:  Are you talking to me?
+¿Me hablas a mí?: Are you talking to me? [a mí added for emphasis]
+Le dije la verdad.:  I told him/her/you the truth.
+Le dije la verdad a ella.: I told her the truth. [A ella added for clarification]
+
+Note: Indirect object pronouns cannot be used if the verb is only IMPLIED.  In those case, 'a' plus a preposition pronoun are used.
+
+Example:
+¿A quién hablas? ¿A mí?:  Who are talking to?  To me?  (verb is impled)
+Sí, a tí.
+Yes, (to) you.
+
+
+Note: Indirect object pronouns are normally used even when a noun is expressed as the indirect object: 
+
+Examples: 
+Le mando un regalo a Carlos.: I'm sending a present to Carlos.
+Les escribo a todos.: I write (to) everyone.
+
+[PH-HI]Special situation:[/PH-HI] 
+When parts of the body and articles of clothing appear as the direct object in Spanish, normally the definite article is used instead of the possessive adjective (my, your, his). An indirect object pronoun is used to indicate the person involved: 
+ 
+Examples:
+Me pongo los zapatos.: I put on my shoes.
+Ella se cortó el dedo.:  She cut her finger.
+
+Position of object pronouns:
+[PH-HI]Object pronouns normally occur immediately before the verb. However, if the verb is an affirmative command, an infinitive, or a gerund (-ndo form), the object pronouns are attached to the end of the verb form. Note that when pronouns are appended to a verb a written accent mark is necessary when the stressed syllable is more than two syllables from the end of the word.[/PH-HI] 
+
+Examples:
+¡Háblenos usted!: Talk to us!
+Favor de darme el libro.: Please give me the book.
+Quitándome el suéter.: Taking off my sweater.
+
+If the verb form consists of a conjugated verb and either an infinitive or an -ndo form, the user has the option of placing the object pronouns before the conjugated verb or attaching them to the end of the unconjugated one. 
+
+Example:
+Voy a verlo.:  I'm going to see him/you/it. (masculine)
+   OR:
+Lo voy a ver.:  I'm going to see him/you/it. (masculine)
+
+
+[PH-HI]Double object pronouns and the use of 'Se': [/PH-HI]
+When both a direct and an indirect object pronoun occur with the same verb, the indirect object pronoun always comes first. If the letter 'L' occurs as the first letter of both the indirect object pronoun (le, les) and the direct object pronoun (lo, la, los, las), the indirect object pronoun is changed to 'se'. 
+
+Examples:
+Ya nos lo dijeron.:  They already told (it to) us.
+Véndamelos.:  Sell them to me! 
+Se lo di a ella.:  I gave it to her.  ('le' + 'lo', 'le' changed to 'se')
+Se la mandé a ellos.:  I sent it to them. ('les' + 'la', 'les' changed to 'se')
+Se los regalaremos.: We will give them to him/her. ('le' + 'los', 'le' changed to 'se')
+
+
+[PHSECTION]INTERROGATIVE PRONOUNS
+[PH-HI]These are the pronouns used when asking questions.[/PH-HI]
+
+[PH-HI]¿Quién?:[/PH-HI]  Who?
+[PH-HI]¿Quiénes?:[/PH-HI]  Who? (plural)
+[PH-HI]¿A quién?:[/PH-HI]  Whom?
+[PH-HI]¿A quiénes?:[/PH-HI]  Whom? (plural)
+[PH-HI]¿Qué?:[/PH-HI]  What?  (asking for information, the definition or identification of something)
+[PH-HI]¿Cuál?:[/PH-HI] Which (one)?
+[PH-HI]¿Cuáles?:[/PH-HI] Which (ones)?
+
+Examples:
+¿Quién rompió la vantana?: Who broke the window?
+¿Quiénes van contigo?:  Who (all) is going with you?
+¿A quién ves en el espejo?: Whom do you see in the mirror?
+¿Qué es esto?:  What is this (thing)?
+¿Qué hace usted?:  What are you doing?
+¿Qué quiere decir 'anda'?:  What does 'anda' mean?
+¿Cuál prefieres? ¿El rojo?:   Which one do you prefer? The red one?
+¿Cuál es tu número de teléfono?:  What is your phone number?
+¿Cuál es su lugar de nacimiento?:  What is your place of birth?
+¿Cuál es su nacionalidad?:  What is her nationaliity?
+
+
+[PHSECTION]DEMONSTRATIVE PRONOUNS
+[PH-HI]Demonstrative pronouns include 'this', 'that', 'those', and 'these'. ('that car', 'these books', etc.)[/PH-HI]
+
+[PH-HI]esto:[/PH-HI]  this   (neuter, unknown object)
+[PH-HI]éste:[/PH-HI] this one
+[PH-HI]éstos:[/PH-HI]  these (plural)
+[PH-HI]ésta:[/PH-HI] this one (feminine)
+[PH-HI]éstas: [/PH-HI] these (feminine plural)
+
+[PH-HI]eso:[/PH-HI] that   (neuter, unknown object)
+[PH-HI]ése:[/PH-HI] that one
+[PH-HI]ésos:[/PH-HI]  those (plural)
+[PH-HI]ésa:[/PH-HI] that one (feminine)
+[PH-HI]ésas:[/PH-HI] those (feminine plural)
+
+[PH-HI]aquello:[/PH-HI] that over there  (neuter, unknown object)
+[PH-HI]aquél:[/PH-HI] that one over there
+[PH-HI]aquéllos:[/PH-HI] those over there (plural)
+[PH-HI]aquélla:[/PH-HI] that one over there (feminine)
+[PH-HI]aquéllas:[/PH-HI] those over there (feminine plural)
+
+
+In English, we usually just make two distinctions: between this thing (close by) and that thing (in the distance, or close to the person spoken to). In Spanish, three distinctions are usually made: éste (this thing close by), ése (that thing close to the person spoken to) and aquél (that thing in the distance). You will recall that the demonstrative adjectives (este libro, esa mesa, etc.) do NOT carry accent marks. The use of accent marks on 
+these pronoun forms is considered optional in some grammar books.
+
+[PH-HI]The 'neuter' demonstrative pronoun:[/PH-HI]
+Neuter demonstrative pronouns also exist: esto (this thing), eso (that thing, near the person spoken to), aquello (that thing in the distance). These neuter never carry a written accent mark. They are used to refer to something unknown (as in the first sentence below), or to refer to a general situation, or an abstract concept or something said earlier (as in the last example below). 
+
+Examples: 
+¿Qué es eso?: What's that [in your hand]?
+Eso es ridículo.: That [what you just said] is ridiculous.
+
+
+The demonstrative pronoun éste/a can be used for 'the latter'” and 
+ése/a or aquél/la for 'the former'.” (Note that in English the order 
+is usually “the former ... the latter”, whereas in Spanish it is usually the other way around: ésta... ésa...). 
+ 
+
+[PHSECTION]MISCELLANEOUS PRONOUNS
+
+[PH-HI]alguien:[/PH-HI] someone, anyone 
+[PH-HI]nadie:[/PH-HI]  no one, nobody
+[PH-HI]algo:[/PH-HI] something, anything          
+[PH-HI]nada:[/PH-HI] nothing
+[PH-HI]cada uno(-a):[/PH-HI]  each (one)
+[PH-HI]todo el mundo:[/PH-HI]  everyone
+[PH-HI]quienquiera:[/PH-HI]  anyone (at all)
+[PH-HI]cualquiera:[/PH-HI] anything (whatsoever)
+
+Remember that the pronoun forms referring to people 
+[such as 'alguien' and 'nadie'] require the use of the 
+personal 'a' when occurring as the direct object of a verb. Also 
+keep in mind the rule for forming negative sentences: one negative word must occur in front of the verb (others may follow the verb).
+
+Examples:
+¿Buscas a alguien?:  Are you looking for someone?
+No. Yo no necesito a nadie.:  No. I don't need anyone.
+
+
+[PHSECTION]RECIPROCAL VS. REFLEXIVE PRONOUNS
+[PH-HI]Reflexive pronouns include such things as 'yourself', 'ourselves', and 'themselves'.  Reciprocal pronouns include such things a 'each other'.[/PH-HI]
+
+The plural direct and indirect object pronouns 'nos', 'os', and 
+'se' can of course be used reflexively to mean ourselves, yourselves,  and themselves. In this case the person doing the action and the recipient of the action are the same. The person is doing something to his or herself. These same plural forms may also be used to express reciprocal actions, expressing the idea of (to/with/for/etc.) each other or one another. Thus the expression 'nos miramos' can mean both 'we see ourselves' (for example, two of us are looking in the mirror and each of us sees both of us) or it can mean 'we see each other' (we pass each other on the street and each one sees the other one). To distinguish between reflexive and reciprocal actions, clarifying prepositional phrases are often added: 
+ 
+The usual clarifying prepositional phrases for reflexives (ourselves, themselves, yourself, etc), are: 
+ 
+[PH-HI]nos + a nosotros(-as) mismos(-as):[/PH-HI]  (to) ourselves
+[PH-HI]os + a vosotros(-as) mismos(-as):[/PH-HI]  (to) yourselves (Spain, plural of tú)
+[PH-HI]se + a sí mismos(-as):[/PH-HI]  (to) themselves, (to) you
+
+Examples:
+Nos queremos a nosotros mismos.:  We love ourselves.
+Las chicas se cayeron y se hicieron daño a si mismas.:  The girls fell down and hurt themselves.
+
+
+For reciprocals ('each other'), you may use as a clarifier 'mutuamente' or one of the following: 
+ 
+[PH-HI](el) uno a(l) otro:[/PH-HI]  (to) each other (two persons, male or one male and one female)
+[PH-HI](la) una a la otra:[/PH-HI]  (to) each other (two persons, both female)
+[PH-HI](los) unos a (los) otros:[/PH-HI]  (to) each other (more than two persons male or all male or male and female)
+[PH-HI](las) unas a (las) otras:[/PH-HI]  (to) each other (more than two persons, all female)
+
+Note: The definite article is optional. The preposition 'a' is used 
+in these samples, but is often replaced by other prepositions depending on individual sentence; see the use of 'con' below. 
+
+Examples:
+Ella y yo nos queremos el uno al otro.:  She and I love each other.
+Ellas se enojaron y se hicieron daño unas a 
+otras.:  The girls got angry and hurt each other.
+Carmen y los chicos charlaban unos con los otros.: Carmen and the boys were chatting with one another.

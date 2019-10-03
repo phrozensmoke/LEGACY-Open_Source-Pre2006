@@ -1,0 +1,32 @@
+[PHTITLE]ARTICLES IN SPANISH 
+  
+
+[PHSECTION]Masculine Nouns:
+
+	DEFINITE ARTICLES:
+	el hombre -- the man 
+	el libro -- the book
+	los hombres -- the men  (plural)
+	los libros -- the books  (plural)
+
+	INDEFINITE ARTICLES:
+	un hombre -- a (one) man 
+	un libro -- a (one) book
+	unos hombres -- some men  (plural) 
+	unos libros -- some books  (plural)
+
+  
+
+[PHSECTION]Feminine Nouns:
+
+	DEFINITE ARTICLES:
+	la mujer -- the woman 
+	la mesa -- the table
+	las mujeras -- the women  (plural) 
+	las mesas -- the tables  (plural)
+
+	INDEFINITE ARTICLES:
+	una mujer -- a (one) woman 
+	una mesa -- a (one) table
+	unas mujeras -- some woman  (plural) 
+	unas mesas -- some table  (plural)

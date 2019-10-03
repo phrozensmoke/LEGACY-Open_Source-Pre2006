@@ -1,0 +1,38 @@
+[PHTITLE]CONJUGATE HELP
+
+Click the [PH-HI]'Conjugate'[/PH-HI] tab.
+
+[PHSECTION]SAVE TO FILE:
+The [PH-HI]'Save To File'[/PH-HI] feature is a quick and easy way to save your verb conjugations and translations to a plain text file.  Simply click the [PH-HI]'Save To File'[/PH-HI] button, select a file name to save to, and click [PH-HI]'Ok'[/PH-HI].  Your verb conjugation and translation information for the select verb will be saved for your future reference.
+
+[PHSECTION]SEARCH-ON-DEMAND:
+With the [PH-HI]'Search-On-Demand'[/PH-HI] feature enabled, Pythoñol's conjugation and translation abilities are greatly increased.  It is recommened that you leave the 'Search-On-Demand' feature enabled (or checked) to take advantage of Pythoñol's full capabilities.  With 'Search-On-Demand' enabled, it is possible to conjugate Spanish verbs which are NOT in their infinitive form.  In addition, if the term you enter cannot be conjugated as a Spanish verb, Pythoñol will allow you to chose a verb from the best matches in the dictionary, making real-time English-to-Spanish translation possible.  Without the 'Search-On-Demand' feature enabled, only Spanish verb infinitives can be conjugated, and the dictionary is not searched if the term you enter cannot be conjugated as a Spanish verb.
+
+[PHSECTION]VERB FAMILY:
+Sometimes, a Spanish verb may be part of a [PH-HI]'verb family'[/PH-HI].  A [PH-HI]'verb family'[/PH-HI] is a group of Spanish verbs which are all either conjugated according to a common conjugation rule, or have related meanings.  For example, the verbs 'conocer' and 'desconocer' are conjugated according to a common conjugation rule and have meanings which are related to one another.  Clicking the 'Verb Family' button will show the 'verb family' for the current verb, if such a 'family' does exist for that verb.
+
+[PHSECTION]VERB FIELD:
+The [PH-HI]'Verb:'[/PH-HI] text field is where you type in the verb or term you wish to have conjugated (and translated).  You can also select previously used verbs and terms from the drop-down list.  The drop-down list stores a 'history' of up to 30 previously used verbs and terms.
+
+[PHSECTION]CONJUGATE BUTTON:
+Clicking the [PH-HI]'CONJUGATE!'[/PH-HI] button tells Pythoñol to attempt to conjugate and translate the verb or term you have entered in the [PH-HI]'Verb:'[/PH-HI] field (described above).
+
+[PHSECTION]SPANISH LETTERS TOOLBAR:
+The [PH-HI]Spanish Letters Toolbar[/PH-HI] contains several commonly-used, accented Spanish letters, not generally found on standard American keyboards.  Clicking one of the letters on the Spanish Letters Toolbar will insert that accented letter into the [PH-HI]'Verb:'[/PH-HI] text field at the cursor position.  This feature has been provided to help eliminate the need for an external 'character map' application.
+
+[PHSECTION]CONJUGATING A VERB OR TERM:
+The steps to conjugating a verb or term are very simple:
+
+1.  Type in the verb or term you wish to have conjugated and translated into the [PH-HI]'Verb:'[/PH-HI] text field, or select a previously used verb or term from the drop-down list.
+
+2.  Use the [PH-HI]Spanish Letters Toolbar[/PH-HI], as needed, to insert accented Spanish letters into the [PH-HI]'Verb:'[/PH-HI] text field.
+
+3.  Make sure that [PH-HI]'Search-On-Demand'[/PH-HI] is checked (recommended).  If you know that the verb you have entered is a Spanish infinitive and do not want the dictionary searched (as-needed), leave  [PH-HI]'Search-On-Demand'[/PH-HI] unchecked.
+
+4.  Click the [PH-HI]'CONJUGATE!'[/PH-HI] button.   If you verb was able to be immediately conjugated as-is, the appropriate conjugations and translations will appear immediately in the window.  Otherwise, a couple self-explanatory, assistive dialog boxes may appear to provide help in conjugating your verb or term.  If conjugation and translation failed completely, an error message will appear in the window.
+
+5.  If you wish to [PH-HI]save[/PH-HI] the conjugations and translations for this verb to a file, click the [PH-HI]'Save To File'[/PH-HI] button, enter a file name, and click [PH-HI]'Ok'[/PH-HI].  Your verb conjugation and translation information for the selected verb will be saved for your future reference.
+
+6.  If you are running a Linux/Unix version of Pythoñol, and have an LRPng/LPR-based spooler system on your computer, you may [PH-HI]print[/PH-HI] the results by clicking [PH-HI]'File' -> 'Print...'[/PH-HI] on the Pythoñol main menu.  (Sorry, Windows users!)   See [PH-HI]'Help' --> 'Help...'[/PH-HI] on the menu for more information on printing in Pythoñol.
+
+If you have the [PH-HI]Festival text-to-speech[/PH-HI] extension installed and usable, you may hear the words pronounced by clicking the light blue [PH-HI]'Play'[/PH-HI] button, generally located to the left of your screen.  Click [PH-HI]'Help' -> 'Festival Text-to-Speech Help...'[/PH-HI] on the menu for more information.

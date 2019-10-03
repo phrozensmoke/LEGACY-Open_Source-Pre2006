@@ -1,0 +1,28 @@
+[PHTITLE]USAGE OF 'BUSCAR'
+
+
+buscar [something]:
+	to look for something:
+		Busco mi lápiz.  (I am looking for my pencil.)
+
+
+buscar a [someone]:
+	to look for someone:
+		Buscamos a Pedro.  (We are looking for Peter.)
+
+
+buscar a [someone]:
+	to pick someone up:
+		Buscaré a los niños a las dos de la tarde.  (I'll pick up the children at 2 p.m.)
+
+
+se busca [name/item]:
+	 [noun] wanted:
+		Se busca cocinero.  (Cook wanted.)
+		Se busca computadora. (Computer wanted.)
+
+
+buscársela:
+	to look for trouble / to find trouble:
+		Ella se la buscó en las calles.  (She found trouble on the streets.)
+		Ellos se la buscaban.  (They were looking for trouble.)

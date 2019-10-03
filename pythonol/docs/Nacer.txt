@@ -1,0 +1,31 @@
+[PHTITLE]USAGE OF 'NACER'
+
+nacer:
+	[PH-HI]to be born:[/PH-HI]
+		No nací ayer. (I wasn't born yesterday.)
+
+nacer [date]:
+	[PH-HI]to be born [on a certain date]:[/PH-HI]
+		Mi abuela nació el 7 de junio de 1910.
+		(My grandmother mother was born June 7, 1910.)
+
+nacer en:
+	[PH-HI]to be born in (or at):[/PH-HI]
+		Mi hija nacerá en Walla Walla, Wáshington.
+		(My daughter will be born at Walla Walla, Washington.)
+
+nacer para [infinitive]:
+	[PH-HI]to be born to [verb]:[/PH-HI]
+		Nació para correr.  (He was born to run.)
+
+
+nacer para [noun]:
+	[PH-HI]to be born to be [something]:[/PH-HI]
+		Nací para profesor.  (I was born to be a professor.)
+
+nacerse:
+	[PH-HI]to sprout, to start to grow:[/PH-HI]
+		Se nacieron los frijoles.  (The beans sprouted.)
+
+
+[PH-HI]NOTE: To say 'to give birth',  use 'dar luz'.  See the Help file for the verb 'Dar' for more information.[/PH-HI]

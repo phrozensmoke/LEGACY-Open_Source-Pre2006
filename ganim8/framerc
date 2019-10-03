@@ -1,0 +1,47 @@
+style "radiob"
+{ 
+   engine "pixmap" {
+    image 
+      {
+        function        = BOX
+	recolorable     = TRUE
+       #state           = ACTIVE
+	shadow          = IN
+	file            = "frame_in.png"
+	border          = { 3, 3, 3, 3 }
+	stretch         = TRUE
+      }
+    image 
+      {
+        function        = BOX
+            #state           = NORMAL
+	recolorable     = TRUE
+	shadow          = OUT
+	file            = "frame_out.png"
+	border          = { 3, 3, 3, 3 }
+	stretch         = TRUE
+      }
+    image 
+      {
+        function        = BOX
+	recolorable     = TRUE
+       state           = SELECTED
+	shadow          = IN
+	file            = "frame_in.png"
+	border          = { 3, 3, 3, 3 }
+	stretch         = TRUE
+      }
+    image 
+      {
+        function        = BOX
+        state           = PRELIGHT
+	recolorable     = TRUE
+	shadow          = OUT
+	file            = "frame_out.png"
+	border          = { 3, 3, 3, 3 }
+	stretch         = TRUE
+      }
+  }
+}
+
+class "GtkRadioButton" style "radiob"

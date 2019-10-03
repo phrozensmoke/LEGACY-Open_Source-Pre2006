@@ -1,0 +1,45 @@
+[PHTITLE]PREPOSITIONAL OBJECT PRONOUNS
+
+[PH-HI]These pronouns are used as objects of prepositions.[/PH-HI]
+
+[PH-HI]mí:[/PH-HI]  me
+[PH-HI]ti:  [/PH-HI]you (familiar)
+[PH-HI]él: [/PH-HI] him
+[PH-HI]ella:[/PH-HI] her
+[PH-HI]ellos:[/PH-HI] them (males, or males and females)
+[PH-HI]ellas:  [/PH-HI]them (all females)
+[PH-HI]usted:[/PH-HI]  you (formal, singular)
+[PH-HI]ustedes:[/PH-HI] you all (formal, plural)
+[PH-HI]nosotros, nosotras: [/PH-HI] us
+[PH-HI]vosotros, vosotras:[/PH-HI] you all (plural, familiar, Spain)
+[PH-HI]sí: [/PH-HI] himself / herself / yourself (formal) / themselves / yourselves (formal)
+
+Examples: 
+¿Es para él o para ella?:  Is it for him or for her?
+No saldrán sin nosotros.:  They won't leave without us.
+A mí me gusta el chocolate.: I like chocolate.
+Special cases: 
+ 
+[PH-HI]Special forms are found for mí, ti, and sí after the preposition con:[/PH-HI] 
+ 
+[PH-HI]conmigo:[/PH-HI] with me  
+¿Vas conmigo?:  Are you going with me?
+
+[PH-HI]contigo:[/PH-HI] with you   (familiar, singular)
+Me gustaría salir contigo.:  I'd like to go out with you.
+
+[PH-HI]consigo:[/PH-HI] with himself/ herself/ yourself (formal)
+No traen dinero consigo.: They don't bring money with themselves.
+
+
+[PH-HI]A few prepositions are NOT followed by the prepositional object pronouns listed in this section. Instead, a few prepositions are followed by the SUBJECT pronouns (yo, tú, él, ella, usted, ustedes, nosotros, etc).  The special prepositions requiring subject pronouns include:[/PH-HI]
+
+entre (between)
+según (according to) 
+salvo (except)
+excepto (except), and 
+hasta (until, up to)
+
+Example:    
+Entre tú y yo, no es verdad.:  Between to you and me, it's not true.
+

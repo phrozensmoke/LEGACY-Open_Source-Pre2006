@@ -1,0 +1,21 @@
+[PHTITLE]IMPERFECT (PAST-PROGRESSIVE) TENSE
+
+[PHSECTION]USE THE IMPERFECT:
+[PH-HI]To describe actions or states in progress in the past in which neiter beginning nor the end matters.[/PH-HI]
+	Ayer a las cinco me bañaba.  
+	(Yesterday, at 5, I was bathing.)
+
+
+[PH-HI]To describe two or more actions in progress in the past that occured simultaneously. Use 'mientras' and 'y' to connect them.[/PH-HI]
+	Yo tocaba guitarra y tú cantabas.
+	(I was playing the guitar and you were singing.)
+
+
+[PH-HI]To describe an action in progress in the past which was interrupted by another action. Use 'cuando' to connect them.[/PH-HI]
+	Mi novio me besaba cuando mi padre abrió la puerta.
+	(My boyfriend was kissing me when my father opened the door.)
+
+
+[PH-HI]To describe habitual actions in the past.[/PH-HI]
+	Todos los días me miraba en clase.
+	(Everyday I was looking at myself in class.)

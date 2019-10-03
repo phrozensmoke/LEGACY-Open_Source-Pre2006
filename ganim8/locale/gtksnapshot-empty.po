@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GtkSnapshot-0.1b\n"
+"POT-Creation-Date: 2003-01-05 11:35+0100\n"
+"PO-Revision-Date: 2003-01-05 15:51+0400\n"
+"Last-Translator: Erica Andrews <PhrozenSmoke@yahoo.com>\n"
+"Language-Team: SPANISH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Exit"
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "About..."
+msgstr ""
+
+msgid "Select the image format you want the screenshot saved as"
+msgstr ""
+
+msgid "Enter a file name to save the screenshot to"
+msgstr ""
+
+msgid "Browse..."
+msgstr ""
+
+msgid "Select a file to save the screenshot to"
+msgstr ""
+
+msgid "Capture Entire Desktop"
+msgstr ""
+
+msgid "CAPTURE Entire Desktop"
+msgstr ""
+
+msgid "Take a screenshot of the WHOLE desktop"
+msgstr ""
+
+msgid "Capture Window or Screen Area"
+msgstr ""
+
+msgid "CAPTURE Window or Screen Area"
+msgstr ""
+
+msgid "Take a screenshot of a specific window or a selectable area of the screen"
+msgstr ""
+
+msgid "Compress GIF"
+msgstr ""
+
+msgid "Compress the GIF (if applicable)\nRequires the optional Gifsicle program to be on your path."
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Save As:"
+msgstr ""
+
+msgid "Save As..."
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+msgid "Creating screenshot...please wait."
+msgstr ""
+
+msgid "Save this screenshot to the selected file"
+msgstr ""
+
+msgid "ERROR:\nSorry, screen capture is not possible\nbecause you do not have all the necessary ImageMagick\nbinaries on your path: convert, import, mogrify\n\nYou must install these ImageMagick binaries on your path first"
+msgstr ""
+
+msgid "SAVE"
+msgstr ""
+
+msgid "Include Window Frame"
+msgstr ""
+
+msgid "If checked, the window's frame will be included in the screenshot (if applicable)."
+msgstr ""
+
+msgid "Your snapshot was successfully taken,\nbut is not previewable with GdkImlib."
+msgstr ""
+
+msgid "The 'gifsicle' binary from Gifsicle was not found on your PATH.  GtkSnapshot requires Gifsicle to compress GIFs.\nIf you do not have Gifsicle, you may still save your screenshots as UNCOMPRESSED GIFs.  Gifsicle can be downloaded from: http://www.lcdf.org/gifsicle/ .  GIF compression is an OPTIONAL feature of GtkSnapshot."
+msgstr ""
+
+msgid "An unknown error occurred compressing your GIF file with Gifsicle: Reverting back to your original, uncompressed GIF file."
+msgstr ""
+
+msgid "GIF Compressed"
+msgstr ""
+
+msgid "bytes"
+msgstr ""
+
+msgid "File saved"
+msgstr ""
+
+msgid "YES"
+msgstr ""
+
+msgid "NO"
+msgstr ""
+
+msgid "The file already exists."
+msgstr ""
+
+msgid "Do you wish to overwrite it?"
+msgstr ""
+
+msgid "Done: Save failed."
+msgstr ""
+
+msgid "Saving (and converting)....please wait."
+msgstr ""
+
+msgid "Your screenshot was successfully saved with the following warnings/messages"
+msgstr ""
+
+msgid "Screenshot successfully created."
+msgstr ""
+
+msgid "Problem Converting/Saving Screenshot"
+msgstr ""
+
+msgid "Be sure that you have the 'convert' binary from ImageMagick (version 5.2.3 or better) on your PATH."
+msgstr ""
+
+msgid "ERROR: Screen capture failed."
+msgstr ""
+
+msgid "Unknown Error:\nScreen capture failed!\nNo screenshot image was produced."
+msgstr ""
+
+msgid "No file specified to convert FROM"
+msgstr ""
+
+msgid "No file specified to convert TO"
+msgstr ""
+
+msgid "The file you are trying to convert FROM does not exist"
+msgstr ""
+
+msgid "No FORMAT specified to convert FROM"
+msgstr ""
+
+msgid "No FORMAT specified to convert TO"
+msgstr ""
+
+msgid "The file to convert TO is a directory, not a file"
+msgstr ""
+
+msgid "The file to convert FROM is a directory, not a file"
+msgstr ""
+
+msgid "An unknown error occurred: Conversion failed."
+msgstr ""
+
+msgid "\nConversion failed:\nImageMagick may require a supplemental library for this conversion.\nPlease check the ImageMagick documentation for the requirements for converting this format."
+msgstr ""
+
+msgid "Copyright 2003 by Erica Andrews. All rights reserved."
+msgstr ""
+
+msgid "Print..."
+msgstr ""

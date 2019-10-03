@@ -1,0 +1,21 @@
+PyBabelPhish VERSION 2.1 CHANGES  (1/20/2004):
+
+	- Major Bug Fix: Fixed a bug where the application might refuse to retrieve translations when running on non-Linux/Unix systems such as Windows and Mac OS X.
+	- User interface improvements: Gtk stock icons have been added to all buttons, dialogs, and menus.
+	- The language selection menu is now wider, for easier reading.  
+	- The 'set_usize' call for the window size has been removed, as it may have caused problems for some users.
+	- All translations services have been re-checked (all are known to be still working properly).
+	- Theme support added: Click 'File'-> 'Settings...' on the menu to manage the theme and font;  This makes it easier for Windows and Mac OS X users to manage the appearance of PyBabelPhish, and users of all operating systems can simply copy or link their favorite Gtk-2 themes into the ./theme/gtk/ subdirectory.  (Many themes require 'theme engines'; these are already included in the Windows .exe binary, and other users can easily find and compile them for their system.)  PyBabelPhish now applys themes on ALL operating systems, not just Windows/non-Linux systems.
+	- PyBabelPhish is now known to run on the Mac OS X operating system, and a new Windows .exe is available for this release (bundled with Pythonol)
+	- External pixmaps have been removed from the Spanish Letters Toolbar (regular character Labels are now used), and a new 'Clear All Text' button has been added to the toolbar which clears all the text from the associated text entry or text box.
+	- Bug Fix: Encoding specifications have been added to all python modules to prevent the warning on the console about 'unknown encoding' when running Pythonol on Python version 2.3
+	- The copyright and about box has been updated to accomodate the  New Year.
+
+
+
+PyBabelPhish VERSION 2.0 CHANGES:
+
+	- The entire application has been ported from a PyGtk-1/Gtk-1 to PyGtk-2/Gtk-2 user interface.
+	- The translation module now supports 6 new translation services.
+	- The Spanish Letters Toolbar now supports capitalized accented characters.
+	- A help document has been added.

@@ -1,0 +1,12 @@
+[PHTITLE]VERB BROWSER
+
+Click the [PH-HI]'Verb Browser'[/PH-HI] tab.
+
+The [PH-HI]'Verb Browser'[/PH-HI] tab shows a list of over 25,000 Spanish verbs, organized alphabetically.  Use the [PH-HI]'View Page:'[/PH-HI] drop-down menu to navigate through the list.  Choose the page you wish to view from the [PH-HI]'View Page:'[/PH-HI] menu, then click the [PH-HI]'Show Page'[/PH-HI] button. The 'Verb Browser' is provided for both your personal studying purposes and to help you find the exact spelling of verbs you don't quite remember how to spell.
+
+[PHSECTION]SAVE TO FILE:
+The [PH-HI]'Save To File'[/PH-HI] feature is a quick and easy way to save a portion of the browseable verbs to a plain text file.  For example, to save 'Page 12' to file, do the following: Choose  'Page 12' from the [PH-HI]'View Page:'[/PH-HI] menu, then click the [PH-HI]'Show Page'[/PH-HI] button.  Then, simply click the [PH-HI]'Save To File'[/PH-HI] button, select a file name to save to, and click [PH-HI]'Ok'[/PH-HI].  All verbs on 'Page 12' will be saved to file for your future reference.
+
+If you are running a Linux/Unix version of Pythoñol, and have an LRPng/LPR-based spooler system on your computer, you may [PH-HI]print[/PH-HI] the current list of verbs by clicking [PH-HI]'File' -> 'Print...'[/PH-HI] on the Pythoñol main menu.  (Sorry, Windows users!)   See [PH-HI]'Help' --> 'Help...'[/PH-HI] on the menu for more information on printing in Pythoñol.
+
+If you have the [PH-HI]Festival text-to-speech[/PH-HI] extension installed and usable, you may hear the words pronounced by clicking the light blue [PH-HI]'Play'[/PH-HI] button, generally located to the left of your screen.  Click [PH-HI]'Help' -> 'Festival Text-to-Speech Help...'[/PH-HI] on the menu for more information.

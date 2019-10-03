@@ -1,0 +1,152 @@
+style "wonderland-default"
+{
+  GtkWidget::interior_focus = 1
+  GtkButton::default_border = { 0, 0, 0, 0 }
+  GtkButton::default_outside_border = { 0, 0, 0, 0 }
+  GtkRange::trough_border = 0
+
+  GtkWidget::focus_padding = 1
+
+  GtkPaned::handle_size = 6
+  
+  GtkRange::slider_width = 15
+  GtkRange::stepper_size = 15
+  GtkScrollbar::min_slider_length = 30
+  GtkCheckButton::indicator_size = 12
+  GtkMenuBar::internal-padding = 0
+
+  #GtkOptionMenu::indicator_size = { 11, 6 }
+  #GtkOptionMenu::indicator_spacing = { 4, 5, 2, 2 }
+
+  xthickness = 1
+  ythickness = 1
+    
+  fg[NORMAL]       = "#000000"
+  fg[ACTIVE]       = "#000000"
+  fg[PRELIGHT]     = "#000000"
+  fg[SELECTED]     = "#FFFFFF"
+  fg[INSENSITIVE]  = "#747474"
+  bg[NORMAL]       = "#e3e3ee"
+  bg[ACTIVE]       = "#C1C1CC"
+  bg[PRELIGHT]     = "#efeffa"
+  bg[SELECTED]     = "#4285c7"
+  bg[INSENSITIVE]  = "#D3D3DD"
+  base[NORMAL]     = "#E5E5F7"
+  base[ACTIVE]     = "#afafaf"
+  base[PRELIGHT]   = "#e2deeb"
+  base[INSENSITIVE]= "#D3D3DD"
+  base[SELECTED]   = "#8092dc"
+  text[INSENSITIVE]= "#747474"
+  text[SELECTED]   = "#ffffff"
+  text[ACTIVE]     = "#000000"
+
+  engine "bluecurve" 
+    {
+      contrast = 1.0
+    }
+}
+
+style "wonderland-wide" = "wonderland-default"
+{
+  xthickness = 2
+  ythickness = 2
+}
+
+style "wonderland-tasklist" = "wonderland-default"
+{
+  xthickness = 5
+  ythickness = 3
+}
+
+style "wonderland-menu" = "wonderland-default"
+{
+  xthickness = 2
+  ythickness = 3
+
+  bg[SELECTED]    = { 0.30,0.35,0.65 }
+  fg[PRELIGHT]  = "#ffffff"
+}
+
+style "wonderland-menubar" = "wonderland-default"
+{
+  xthickness = 3
+  ythickness = 3
+}
+
+style "wonderland-paned" = "wonderland-default"
+{
+  xthickness = 10
+  ythickness = 10
+}
+
+style "wonderland-tree" = "wonderland-default"
+{
+  xthickness = 2
+  ythickness = 2
+}
+
+style "wonderland-frame-title" = "wonderland-default"
+{
+  fg[NORMAL] = { 0.25,0.25,0.25 }
+}
+
+style "wonderland-panel" = "wonderland-default"
+{
+  xthickness = 3
+  ythickness = 3
+}
+
+style "wonderland-tooltips" = "wonderland-default"
+{
+  xthickness = 4
+  ythickness = 4
+  bg[NORMAL] = { 1.0,1.0,0.75 }
+}
+
+style "metacity-frame"
+{
+
+	# Normal base color
+	#bg[NORMAL]	= "#bbbbbb"
+
+	# Unfocused title background color
+	#bg[INSENSITIVE]	= { 0.8, 0.8, 0.8 }
+
+	# Unfocused title text color
+	#fg[INSENSITIVE]	= { 1.55, 1.55, 1.55 }
+
+	# Focused icon color
+	#fg[NORMAL]	= { 0.2, 0.2, 0.2 }
+
+	# Focused title background color
+	#bg[SELECTED]	= { 0.5, 0.8, 0.5 }
+	
+	# Focused title text color
+	#fg[SELECTED]	= "black"
+}
+
+#class "Gtk*Paned" style "wonderland-paned"
+
+class "GtkWidget" style "wonderland-default"
+class "GtkButton" style "wonderland-wide"
+class "GtkRange" style "wonderland-wide"
+class "GtkMenu" style "wonderland-wide"
+class "GtkFrame" style "wonderland-wide"
+class "GtkStatusbar" style "wonderland-wide"
+class "GtkMenuItem" style "wonderland-menu"
+widget_class "*.GtkMenuItem.*" style "wonderland-menu"
+widget_class "*.GtkAccelMenuItem.*" style "wonderland-menu"
+widget_class "*.GtkRadioMenuItem.*" style "wonderland-menu"
+widget_class "*.GtkCheckMenuItem.*" style "wonderland-menu"
+widget_class "*.GtkImageMenuItem.*" style "wonderland-menu"
+widget_class "*.GtkSeparatorMenuItem.*" style "wonderland-menu"
+class "GtkEntry" style "wonderland-wide"
+widget_class "*.tooltips.*.GtkToggleButton" style "wonderland-tasklist"
+widget_class "*.GtkTreeView.GtkButton" style "wonderland-tree"
+widget_class "*.GtkCTree.GtkButton" style "wonderland-tree"
+widget_class "*.GtkList.GtkButton" style "wonderland-tree"
+widget_class "*.GtkCList.GtkButton" style "wonderland-tree"
+widget_class "*.GtkFrame.GtkLabel" style "wonderland-frame-title"
+class "MetaFrames" style "metacity-frame"
+widget_class "BasePWidget.GtkEventBox.GtkTable.GtkFrame" style "wonderland-panel"
+widget "gtk-tooltips" style "wonderland-tooltips"

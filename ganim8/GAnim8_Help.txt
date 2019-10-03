@@ -1,0 +1,58 @@
+gAnim8 version 0.3b-1  
+HELP FILE  (02/16/2003)
+--------------------------------
+
+http://ganim8.sourceforge.net
+
+COPYRIGHT:
+Erica Andrews (PhrozenSmoke@yahoo.com) 2003. All rights reserved.  See the 'LICENSE' file for a copy of the W3C license this software is distributed under.
+
+REQUIREMENTS:
+View the 'SYSTEM_REQUIREMENTS.txt' file or click 'Help' then 'System Requirements' on the menu.
+
+VIDEO SUPPORT:
+View the 'VIDEO_SUPPORT.txt' file or click 'Help' then 'Video Support' on the menu.
+
+RUNNING THE PROGRAM:
+You should be able to run this program by simply typing 'ganim8'. If you move or rename the file /usr/share/gAnim8/gAnim8.py, you will need to edit the startup script at /usr/X11R6/bin/ganim8 appropriately.  There is NO COMPILING REQUIRED for gAnim8 (it's a Python script).  However, if you did not download the a copy of gAnim8 that has  Gifsicle bundled with it, you will need to either download a binary copy or download the source and compile it yourself.  You can get the latest Gifsicle source code and binary packages (RPM) from  http://www.lcdf.org/gifsicle/ .
+
+ICON:  There is an icon for this application at /usr/share/pixmaps/ganim8_icon.png
+
+TESTING ENVIRONMENT:
+gAnim8 has been tested in the following environment:  SuSe 8.1, Mandrake 8.2, Kernel 2.4.8-34/2.4.19, Glibc 2.2.4/2.2.5, Python 2.2, PyGTK 0.6.9-1 and PyGTK 0.6.9-3, PyGnome 1.4.1-1 and 1.4.2-3, Gtk+ 1.2.8-4/1.2.10, Imlib 1.9.8.1-6, Gnome 1.4, IceWM 1.2.5/1.2.6, gifsicle 1.3.0 and ungifsicle 1.3.0, FFMPEG version 0.4.6/0.4.7, ImageMagick 5.2.3 and 5.4.6.1. Alot of distros have 'xalf' running - I have 'xalf' REMOVED from my system as it tended to make Python apps hang on startup and not run correctly.  gAnim8 runs well with at least 64 MB of memory and a Pentium 1 processor (nothing spectacular required).
+
+
+GENERAL HELP:
+--------------
+I'm going to make this short and sweet, since most of this is self explanatory.
+
+FIRST AND FOREMOST:
+You absolutely NEED Gifsicle installed to get ANY use out of gAnim8 whatsoever.  Both the 'gifsicle' and 'gifview' executables from the Gifsicle package must be in your PATH.  The executables MUST be named 'gifsicle' and 'gifview'.  If they are not under those names, please sym-link them into your PATH somewhere.  Gifsicle is needed for all the GIF modifications and manipulations, and 'gifview' is needed for previewing your animations.  You can download the source for Gifsicle at:
+
+http://www.lcdf.org/gifsicle/
+
+In addition, you should be able to find some RPMs for Gifsicle over on http://speakeasy.rpmfind.net.  If you have downloaded the gAnim8 RPM which has Gifsicle bundled inside, you have nothing to worry about: You should be set and ready to go.
+
+
+GETTING STARTED:
+To start a new animation sequence: Click 'File', then 'New'.  Then you can click the 'Insert' button in the window to add your first frame.
+
+To open an animated GIF or single-framed GIF file: Just click 'File', then 'Open'
+
+To set the dimensions for a loaded GIF file:  Click 'This Animation Sequence', then 'Set Dimensions...'
+
+To extract all the frames from a loaded GIF file: Click 'File', then 'Extract All Frames to Directory...'
+
+You can save your animation as either an animate GIF or a video by clicking 'File' on the menu and selecting the appropriate option.
+
+Ok, the rest should be pretty obvious.  Pay attention to the tool-tips that popup, as they will give you most of the help you need.
+
+
+SPECIAL NOTES:
+1.  Gifsicle (the program that drives gAnim8) only supports GIF files.  If you wish to open and insert images that are NOT in GIF format, you will need to have ImageMagick's 'convert' binary installed on your PATH (ImageMagick version 5.2.3+ required, version 5.4.6.1 or better recommended). This will add support for over 110 additional image formats. Support for non-GIF images seems to be working very well but is still considered 'experimental'. If gAnim8 is unable to convert your non-GIF image automatically, you may try to convert it yourself by opening the 'gAnim8 Conversion Tool', which is on the menu under 'Tools'.
+2.  Background Color and Interlaced:  These features pertain to the whole GIF animation sequence.
+3.  Transparent Color and Transparency:  These features pertain to each individual frame in the animation, and you will see them change accordingly as you click each frame.
+4.  gAnim8 uses GdkImlib to display images.  If your image cannot be loaded by GdkImlib, it can't be loaded by gAnim8.  So, if you are using GIFs that are made in some weird proprietary format that only certain programs or operating systems can open, expect trouble.
+
+
+THAT'S ALL FOLKS

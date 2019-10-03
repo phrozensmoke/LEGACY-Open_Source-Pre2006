@@ -1,0 +1,12 @@
+[PHSECTION]Ordinal Numbers (1st - 10th):
+
+first:   primero, primera, primeros, primeras
+second:   segundo, segunda, segundos, segundas
+third:   tercero, tercera, terceros, terceras
+fourth:   cuarto, cuarta, cuartos, cuartas
+fifth:   quinto, quinta, quintos, quintas
+sixth:   sexto, sexta, sextos, sextas
+seventh:   séptimo, séptima, séptimos, séptimas
+eigth:   octavo, octava, octavos, octavas
+ninth:   noveno, novena, novenos, novenas
+tenth:   décimo, décima, décimos, décimas

@@ -1,0 +1,1 @@
+Before you can build the dictionary databases in this directory, you must first change to the 'sqlite' sub-directory and run the script named 'build.sh' first.  When you are done with that, come back to this directory and type 'make'.

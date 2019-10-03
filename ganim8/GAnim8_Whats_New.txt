@@ -1,0 +1,27 @@
+gAnim8 version 0.3b-1  
+
+http://ganim8.sourceforge.net
+NEW FEATURES  (02/16/2003)
+--------------------------------
+
+	- GtkSnapshot: a screenshot utility using ImageMagick's 'import' program
+	- Drag-and-drop support for gAnim8, the gAnim8 Conversion Tool, and GtkSnapshot
+	- Printing capabilities using PyPrint (pythonol.sourceforge.net)
+	- Video support is now implemented through FFMPEG  ('mpeg2decode' is no longer used.)
+	- Support for reading the following video types: MPEG AVI ASF WMV SWF REALPLAYER M4V MOV
+	- Support for writing the following video types: MPEG AVI ASF WMV SWF REALPLAYER M4V
+	- Ability to configure different 'preview' applications for each video type
+	- Video recording capabilities added under the 'Tools' menu ("Record Video...")
+	- Support for recording the following video types: MPEG AVI ASF WMV SWF REALPLAYER M4V
+	- Faster video opening, creation, and saving (thanks to FFMPEG)
+	- Drag-and-drop video frames from the video preview window
+	- Drag-and-drop importation of videos directly into the animation sequence
+	- Added a 'briefcase' for session files (under 'Tools' menu)
+	- Screenshot capture capabilities added under 'Tools' menu (GtkSnapshot)
+	- Locale/Internationalization support
+	- Spanish language support implemented
+	- Default image editor is now 'gimp-remote' (instead of 'gimp')
+	- Default video previewer is now 'mplayer'
+	- Added "New users" and "What's New?" to the 'Help' menu
+	- Updated and improved help documentation
+

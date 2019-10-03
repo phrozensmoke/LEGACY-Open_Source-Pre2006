@@ -1,0 +1,25 @@
+[PHTITLE]USES OF 'TENER'
+
+[PHSECTION]General 'tener' uses: 
+	[PH-HI]to be ... years old:[/PH-HI]    tener ... años :
+
+	Yo tengo 18 años.  (I am 18 years old.) 
+	Ramon tenía 27 años cuando ...   (Ramon was 27 years old when ...)
+                                                                                                         
+                                              
+	[PH-HI]to be (very) hungry[/PH-HI] -  tener (mucha) hambre 
+	[PH-HI]to be (very) thirsty[/PH-HI] -   tener (mucha) sed 
+	[PH-HI]to be afraid (of) [/PH-HI] -  tener miedo (de) 
+	[PH-HI]to be (very) cold[/PH-HI] -  tener (mucho) frío 
+	[PH-HI]to be (very) hot[/PH-HI]  -  tener (mucho) calor 
+	[PH-HI]to be right (wrong)[/PH-HI]  -  (no) tener razon 
+	[PH-HI]to be sleepy[/PH-HI] -   tener sueño 
+	[PH-HI]to be in a hurry[/PH-HI]  -  tener prisa 
+	[PH-HI]to have to do something[/PH-HI] -  tener + 'que'+ infinitive
+                                                       
+
+[PHSECTION]Temperature with 'tener': 
+
+	[PH-HI]I am hot.[/PH-HI] -  Tengo calor.
+	[PH-HI]This (something) is hot.[/PH-HI] -   Està caliente.
+	[PH-HI]It is hot (of weather).[/PH-HI] -  Hace calor.                   

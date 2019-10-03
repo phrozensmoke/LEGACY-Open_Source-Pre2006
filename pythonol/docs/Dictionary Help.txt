@@ -1,0 +1,47 @@
+[PHTITLE]DICTIONARY HELP
+
+Click the [PH-HI]'Dictionary'[/PH-HI] tab.
+
+[PHSECTION]ENGLISH TO SPANISH:
+If selected, Pythoñol will only search the dictionary for [PH-HI]Spanish translations to English words[/PH-HI] and terms.
+
+[PHSECTION]SPANISH TO ENGLISH:
+If selected, Pythoñol will only search the dictionary for English translations to Spanish words and terms.
+
+[PHSECTION]BOTH:
+If selected, Pythoñol will search the dictionary for both [PH-HI]English and Spanish translations[/PH-HI] to the word or term entered.
+
+[PHSECTION]EXTENDED SEARCH:
+If [PH-HI]'Extended search'[/PH-HI] IS checked, Pythoñol will perform a search that is likely to return more matches.  However, the [PH-HI]'Extended search'[/PH-HI] does take slightly longer to perform. The search of the dictionary will be performed in a case-insensitive manner, and Pythoñol WILL show results in which your selected search word or term appears as a substring of a result or is an exact match.
+
+If [PH-HI]'Extended search'[/PH-HI] is NOT checked, Pythoñol will show only definitions and translations that match the search word or term exactly (letter-for-letter, case-insensitive).  The search of the dictionary will be performed in a case-insensitive manner, and Pythoñol will NOT  show results in which your selected search word or term is simply a substring of the result.  If 'Extended search' is NOT checked, the strictest, most accurate search will be performed (This is the default behavior of Pythoñol).  This is also the fastest type of search.  However, for the greatest number of matches to your word or phrase, you should make sure that [PH-HI]'Extended search'[/PH-HI] is checked.  Not checking 'Extended search' may greatly reduce the number of matches returned, and could, quite possibly, result in no matches at all being returned.
+
+[PHSECTION]SAVE TO FILE:
+The [PH-HI]'Save To File'[/PH-HI] feature is a quick and easy way to save your translations to a plain text file.  Simply click the [PH-HI]'Save To File'[/PH-HI] button, select a file name to save to, and click [PH-HI]'Ok'[/PH-HI].  The dictionary definitions found for the selected word or term will be saved to file for your future reference.
+
+[PHSECTION]WORD  / PHRASE:
+The [PH-HI]'Word / Phrase:'[/PH-HI] text field is where you type in the word or term you wish to have defined and translated.  You can also select previously used words and terms from the drop-down list.  The drop-down list stores a 'history' of up to 30 previously used words and terms.
+
+[PHSECTION]LOOKUP! BUTTON:
+Clicking the [PH-HI]'LOOKUP!'[/PH-HI] button tells Pythoñol to attempt to define and translate the word or term you have entered in the [PH-HI]'Word / Phrase:'[/PH-HI] field (described above).
+
+[PHSECTION]SPANISH LETTERS TOOLBAR:
+The [PH-HI]Spanish Letters Toolbar[/PH-HI] contains several commonly-used, accented Spanish letters, not generally found on standard American keyboards.  Clicking one of the letters on the Spanish Letters Toolbar will insert that accented letter into the [PH-HI]'Word / Phrase:'[/PH-HI] text field at the cursor position.  This feature has been provided to help eliminate the need for an external 'character map' application.
+
+
+[PHSECTION]TRANSLATING A WORD OR PHRASE:
+The steps to translating a word or phrase are very simple:
+
+1.  Type in the word or term you wish to have defined and translated into the [PH-HI]'Word / Phrase:'[/PH-HI] text field, or select a previously used verb or term from the drop-down list.
+
+2.  Use the [PH-HI]Spanish Letters Toolbar[/PH-HI], as needed, to insert accented Spanish letters into the  [PH-HI]'Word / Phrase:'[/PH-HI] text field.
+
+3.  For best results, make sure that [PH-HI]'Exact matches only'[/PH-HI] is [PH-HI]NOT[/PH-HI] checked.  However, if you find it necessary to view only results that match your term or word letter-for-letter, make sure that [PH-HI]'Exact matches only'[/PH-HI] is checked.
+
+4.  Click the [PH-HI]'LOOKUP!'[/PH-HI] button.   Any available definitions and translations will be shown in the dictionary window.
+
+5.  If you wish to save the definitions and translations for this search to a file, click the [PH-HI]'Save To File'[/PH-HI] button, enter a file name, and click [PH-HI]'Ok'[/PH-HI].  Your definition and translation information for the selected word or phrase will be saved for your future reference.
+
+6.  If you are running a Linux/Unix version of Pythoñol, and have an LRPng/LPR-based spooler system on your computer, you may [PH-HI]print[/PH-HI] the results by clicking [PH-HI]'File' -> 'Print...'[/PH-HI] on the Pythoñol main menu.  (Sorry, Windows users!)   See [PH-HI]'Help' --> 'Help...'[/PH-HI] on the menu for more information on printing in Pythoñol.
+
+If you have the [PH-HI]Festival text-to-speech[/PH-HI] extension installed and usable, you may hear the words pronounced by clicking the light blue [PH-HI]'Play'[/PH-HI] button, generally located to the left of your screen.  Click [PH-HI]'Help' -> 'Festival Text-to-Speech Help...'[/PH-HI] on the menu for more information.

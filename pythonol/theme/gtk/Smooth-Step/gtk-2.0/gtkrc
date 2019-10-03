@@ -1,0 +1,225 @@
+style "default" {
+    GtkWidget::interior_focus         = 5
+    GtkButton::default_border         = {5, 5, 5, 5}
+    GtkButton::default_outside_border = {5, 5, 5, 5}
+    GtkButton::default_spacing        = 6
+
+    GtkCheckButton::indicator_size    = 17
+    GtkRadioButton::indicator_size    = 16
+
+    GtkRange::trough_border           = 2
+    GtkRange::slider_width            = 15
+    GtkRange::stepper_size            = 15
+    GtkRange::stepper_spacing         = 0
+  
+    GtkPaned::handle_size  = 10
+
+    GtkScrollbar::has_backward_stepper = 0
+    GtkScrollbar::has_secondary_forward_stepper = 0
+
+    GtkScrollbar::has_forward_stepper = 1
+    GtkScrollbar::has_secondary_backward_stepper = 1
+
+    fg[ACTIVE]        = "#000000"
+    fg[INSENSITIVE]   = "#6a6d6a"
+    fg[NORMAL]        = "#000000"
+    fg[PRELIGHT]      = "#000000"
+    fg[SELECTED]      = "#f6f7ec"
+
+    bg[ACTIVE]        = "#6a6d6a"
+    bg[INSENSITIVE]   = "#acaaac"
+    bg[NORMAL]        = "#acaaac"
+    bg[PRELIGHT]      = "#f6f7ec"
+    bg[SELECTED]      = "#6a6d6a"
+
+    base[ACTIVE]      = "#6a6d6a"	
+    base[INSENSITIVE] = "#acaaac"
+    base[NORMAL]      = "#f4f4e0"
+    base[PRELIGHT]    = "#c6c7b5"
+    base[SELECTED]    = "#6a6d6a"
+
+    text[ACTIVE]      = "#000000"
+    text[INSENSITIVE] = "#000000"
+    text[NORMAL]      = "#000000"
+    text[PRELIGHT]    = "#000000"
+    text[SELECTED]    = "#ffffff"
+
+
+    engine "smooth"  {
+       fill {
+           style=shaded
+           hdirection = vertical
+           vdirection = horizontal
+           shade1 = 0.98
+           shade2 = 1.03
+      }
+
+      line {
+         style=smooth
+         thickness=2
+      }
+
+      grip {
+         style= dots_in
+         count = 1
+         spacing = 0
+     }
+  
+     check {
+         style=clean
+         fill {
+             style=shaded
+             hdirection = fdiagonal
+             vdirection = fdiagonal
+             shade1 = 0.98
+             shade2 = 1.03
+        }
+     }
+     
+     option {
+         style=circle
+         fill {
+             style=shaded
+             hdirection = fdiagonal
+             vdirection = fdiagonal
+             shade1 = 0.98
+             shade2 = 1.03
+        }
+     }
+
+   trough {
+      fill {
+        style=solid
+      }
+    }
+
+     arrow {
+        style=cleanice
+	solid=TRUE
+    }
+
+    tab_style = triangle
+   }
+} widget_class "*" style "default"
+
+style "button" = "default"
+{
+  bg[NORMAL]   = "#acaaac"
+  bg[PRELIGHT] = "#acaaac"
+  bg[ACTIVE]   = "#ffffff"
+#  fg[PRELIGHT] =
+}
+
+style "menu" {
+   bg[PRELIGHT] ="#ffffff"
+   fg[PRELIGHT]  = "#000000"
+   engine "smooth" {
+       fill {
+           style=shaded
+           hdirection = vertical
+           vdirection = horizontal
+           shade1 = 0.98
+           shade2 = 1.03
+      }
+
+      line {
+         style=smooth
+         thickness=2
+      }
+
+     check {
+         style=clean
+          line {
+            style=none
+            thickness=1
+          }
+     }
+     
+     option {
+         style=circle
+          line {
+            style=none
+            thickness=1
+          }
+     }
+
+     arrow {
+        style=cleanice
+	solid=TRUE
+    }
+  }
+}
+class "*MenuItem*" style "menu"
+widget_class "*MenuItem*" style "menu"
+class "*Toolbar*.*" style "menu"
+widget_class "*Toolbar*.*" style "menu"
+
+style "scrollbar" {
+     bg[NORMAL]   = "#acaaac"
+     bg[PRELIGHT] = "#acaaac"
+     engine "smooth" {
+       fill {
+           style=shaded
+           hdirection = vertical
+           vdirection = horizontal
+           shade1 = 0.98
+           shade2 = 1.03
+      }
+
+      line {
+         style=smooth
+         thickness=2
+      }
+
+      grip {
+         style= dots_in
+         count = 1
+         spacing = 0
+     }
+  
+   trough {
+      fill {
+        style=solid
+      }
+    }
+
+     arrow {
+        style=cleanice
+	solid=TRUE
+        xpadding = 0
+        ypadding = 0
+    }
+  }
+}
+
+widget_class "*Button" style "button"
+widget_class "*Scrollbar*" style "scrollbar"
+class "*Scrollbar*" style "scrollbar"
+
+style "check" {
+    fg[ACTIVE]        = "#000000"
+    fg[INSENSITIVE]   = "#000000"
+    fg[NORMAL]        = "#000000"
+    fg[PRELIGHT]      = "#000000"
+    fg[SELECTED]      = "#000000"
+
+    bg[ACTIVE]        = "#acaaac"
+    bg[INSENSITIVE]   = "#acaaac"
+    bg[NORMAL]        = "#acaaac"
+    bg[PRELIGHT]      = "#acaaac"
+    bg[SELECTED]      = "#acaaac"
+
+    text[ACTIVE]      = "#000000"
+    text[NORMAL]      = "#000000"
+    text[PRELIGHT]    = "#000000"
+}
+widget_class "*RadioButton*" style "check"
+widget_class "*CheckButton*" style "check"
+
+style "infobar" {
+  bg[PRELIGHT] = "#6a6d6a"
+  fg[PRELIGHT]  = "#f6f7ec"
+  xthickness = 2
+  ythickness = 2
+}
+widget_class "*Progress*"		style "infobar"

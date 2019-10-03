@@ -1,0 +1,9 @@
+style "orbit_font" {font_name="Arial 10" }
+class "GtkWidget"	style "orbit_font"
+widget_class "*.GtkProgress*"	style "orbit_font"
+widget_class "GtkWindow"	style "orbit_font"
+widget_class "*" style "orbit_font"
+class "*" style "orbit_font" 
+
+
+

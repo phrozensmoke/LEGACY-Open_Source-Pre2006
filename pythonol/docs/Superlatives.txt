@@ -1,0 +1,50 @@
+[PHTITLE]SUPERLATIVES
+
+[PHSECTION]There are two types of superlative: relative and absolute. 
+
+	[PH-HI]What is a 'relative' superlative?:[/PH-HI]
+		The relative superlative describes a noun 
+		in comparison with of some larger group:
+
+			John is the smartest boy in the class.
+                	Mary is the youngest person in the room.
+			Of the three, Moe is the meanest.  
+
+
+	[PH-HI]What is an 'absolute' superlative?:[/PH-HI]
+		The absolute superlative does NOT describe 
+		the noun in comparison with a larger group:
+
+			John is very smart.
+			The book is extremely expensive.
+			The food is indescribably tasty. 
+
+
+[PHSECTION]RELATIVE SUPERLATIVE IN SPANISH:
+[PH-HI]In Spanish, the relative superlative construction is similar to the comparative:[/PH-HI]
+
+	[definite article] + [noun] + 'más' ( or 'menos') + [adjective] + de + [noun] :
+
+		Juan es el chico más inteligente de la clase.
+                (John is the smartest boy in the class.)
+
+		Juan es el chico menos inteligente de la clase.
+                (John is the least intelligent boy in the class.)
+
+               Bill Gates es el hombre más rico de los EEUU.
+               (Bill Gates is the richest man in the U.S.)
+
+
+[PHSECTION]ABSOLUTE SUPERLATIVE IN SPANISH:
+[PH-HI]The absolute superlative for adjectives has three possible forms. [/PH-HI]
+
+	muy + [adjective]
+	sumamente + [adjective]
+	[adjective] + ísimo (-a, -os, -as) 
+
+
+Each superlative statement is a little stronger than the one that precedes it:
+
+	muy guapo   (very handsome)
+	sumamente guapo    (extremely handsome)
+	guapísimo    (indescribably handsome)

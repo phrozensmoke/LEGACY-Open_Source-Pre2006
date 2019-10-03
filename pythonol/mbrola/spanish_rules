@@ -1,0 +1,165 @@
+# Copyright 1997, Alistair Conkie
+#
+# Everything that follows is context free
+# things that are context dependent are elsewhere
+#
+# Vowels
+a       a       pata
+e       e       pelo
+i       i       iris
+o       o       poco
+u       u       luna
+a:      'a
+e:      'e
+i:      'i
+o:      'o
+u:      'u
+W       "u
+# Semiconsonantalisation
+j_a     ia
+j_e     ie
+j_o     io
+j_u     iu
+W_a     ua
+W_e     ue
+W_i     ui
+W_o     uo
+j_a:    i'a
+j_e:    i'e
+j_o:    i'o
+j_u:    i'u
+W_a:    u'a
+W_e:    u'e
+W_I:    u'i
+W_o:    u'o
+# 
+# Diphthongs
+# a_i   ai      baile
+# a_i   ay      estay
+# a_u   au      causa
+# e_i   ei      reina
+# e_i   ey      rey
+# e_u   eu      deuda
+# o_i   oi      oiga
+# o_i   oy      soy
+# (actually the next is a proper vowel)
+i       y       STILL TO FIGURE OUT postulate only #y#
+#               (repostulate: not following vowel)
+#
+# Semiconsonants
+# I know where they should go 
+# Some of it is extra-word......
+# 
+# Consonants
+b       b       bomba
+b       v       enviar          assimilation effects to be calculated
+#                               for both bits
+#                               after m and n (n is pronounced m)
+#                               what conditions
+# (some b's appear to be silent eg obscuro)
+# 
+S_e     ce      cero
+S_i     ci      cinco
+S_e     c'e
+S_i     c'i     cinco
+k       c       casa
+# 
+c       ch      mucho
+# 
+d       d       dama            assimilation effects to be calculated
+#                               after silence or n,l
+# 
+f       f       foto
+# 
+x_e     ge      general
+x_i     gi      ginebra
+x_e:    g'e
+x_i:    g'i
+g_e     gue
+g_i     gui
+g_e:    gu'e
+g_i:    gu'i
+g       g       gloria          assimilation effects to be calculated
+# various gu combinations
+# 
+w_e     hue     huesca
+y_E     hie     hierro
+\-      h       hecho
+# 
+x       j       jota            outstanding question re final j silent??
+# 
+k       k       kilo
+# 
+l       l       lelo
+# 
+L       ll      llama
+# L     ll+\.   catalan names
+# 
+m       m       mano            (and perhaps n at the end of a word)
+# 
+n       n       pan             assimilation effects to be calculated
+#                               see b/v
+# 
+~       ~n      nino
+# 
+p       p       papa
+# 
+k_e     que     que
+k_i     qui     quien
+k_e:    qu'e
+k_i:    qu'i
+k       q       quorum          this subtlty is not explained in many places
+#                               look at quorum and quantum in particular.
+# 
+R       rr      torre
+r       r       coro
+# R     r       rapido          (beginning of word and after l,n,s) hence assim
+# 
+#       z_b     sb      ?               does this apply across word boundaries too?
+#       z_d     sd      desde
+#       z_g     sg      asgo
+#       z_l     sl      ?
+#       z_m     sm      fantasma
+#       z_n     sn      desde
+s       s       casa            sometimes gets swallowed if there is rr after
+#                               (this is an assimilation)
+# 
+# e_s   s+cons  snob            expand this one I think
+# 
+t       t       tabla
+# 
+w       w       week-end
+# 
+k_s     x       taxi            needs some refinement!!
+# s     x       pretexto        look elsewhere for conditions
+# s     x       ???             suppoesdly, but examples??
+# G_s   x       exacto,examen
+# 
+y_a     ya
+y_e     ye      yeso
+y_o     yo
+y_u     yu
+y_a:    y'a
+y_e:    y'e     yeso
+y_o:    y'o
+y_u:    y'u
+#                       (there is also stuff like conyugal)
+#                       (which is a bit assimilative
+# 
+S       z       luz
+# 
+# Look at some interesting words like
+# chalet, gag,jazz,shock
+# 
+# what to do about double consonants (Frapp)
+# 
+# how importand is knowing syllable/word boundaries to assimilation
+# assimilations (bdg ptk) 
+# 
+# semiconsonants....
+# 
+# the intra and extra word phonemena need to be treated separately I reckon.
+# 
+# I think accents should be specifically included.
+.       \-       eg sub-rayar
+|       \|      word boundary

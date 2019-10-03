@@ -1,0 +1,28 @@
+[PHTITLE]DIRECT OBJECT PRONOUNS
+These forms are used as the direct objects of verbs.
+
+me: me
+te: you (familiar)
+lo: him, you (formal), it  (masculine, singular)
+la: her, you (formal), it   (feminine, singular)
+los: them, you all (masculine, plural)
+las: them, you all  (all feminine, plural)
+nos: us
+os:  you all (familiar, plural, Spain)
+se:  himself / herself / yourself (formal) / themselves / yourselves (formal)
+
+'lo and 'la' are used as the direct object forms of 'usted'. 'los' and 'las' are used for ustedes. A prepositional phrase (a él, a ella, a usted) is sometimes be added for clarity or for emphasis, primarily in spoken Spanish. 
+
+[PHSECTION]Examples:
+¿Me oyes?:  Do you hear me?
+Te necesito.:  I need you.
+Lo conozco.: I know him/I know you/I am familiar with it. (unclear)
+Lo conozco a él.:  I know him. ('a él' makes it clear)
+Lo conozco a usted.: I know you.
+Yo me miro en el espejo.:  I look at myself in the mirror.
+Ustedes se matan.: You are killing yourselves.
+
+Note that these direct object prepositions cannot be used if the verb is only IMPLIED. In that case, the prepositional phrase forms are required: a  él, a ella, etc. 
+
+Example:
+A quién vio Ud.? ¿A ella?:   Who did you see?  Her? (verb implied)

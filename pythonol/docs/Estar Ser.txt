@@ -1,0 +1,56 @@
+[PHTITLE]ESTAR VS. SER
+
+[PHSECTION]Use of 'Estar':
+  
+[PH-HI]To tell location.[/PH-HI]
+	El libro está en la mesa.  (The book is on the table.)
+
+[PH-HI]To describe health.[/PH-HI]
+	Estoy muy bien.  (I am very well.)
+
+[PH-HI]With adjectives to describe conditions.[/PH-HI]
+	 Estoy muy ocupado.  (I am very worried.)
+
+[PH-HI]In a number of fixed expressions.[/PH-HI]
+	Estoy de acuerdo.   (I agree.)
+	Está bien.  (It's good./It's okay.)
+
+[PH-HI]To form present participle.[/PH-HI]
+	Estoy estudiando ahora mismo.  (I am studying right now.)
+
+  
+[PHSECTION]Use of 'Ser': 
+  
+[PH-HI]To identify people and things.[/PH-HI]
+	Yo soy estudiante. (I am a student.)
+	Esto es un libro.  (This is a book.)
+	Alicia y yo somos amigos.  (Alicia and I are friends.)
+
+[PH-HI]To express nationality; with 'de' to express origin.[/PH-HI]
+	Son cubanos.  (They are Cubans.)
+	Son de la Habana. (They are from Havana.)
+	¿De donde es Ud?  (Where are you from?)
+
+[PH-HI]With 'de' to express of what material is something made.[/PH-HI]
+	Este bolígrafo es de plástico  (The pen is made of plastic.)
+
+[PH-HI]With 'para' to tell for whom or what is something intended.[/PH-HI]
+	Es para la clase de inglés.  (It's for the English class.)
+	Es regalo para Sara.  (It's a gift for Sara.)
+
+[PH-HI]To tell time.[/PH-HI]
+	Son las once.  (It's 11 o'clock.)
+	Es la una y media.  (It's 1:30.)
+
+[PH-HI]With de to express possesion.[/PH-HI]
+	Es de Carlota.  (It's Carlota's.)
+
+[PH-HI]With adjectives to describe basic, inherent qualities or characteristics of people and things.[/PH-HI]
+	Soy sentimental.  (I am sentimental.)
+	El coche es muy viejo.  (The car is very old.)
+
+[PH-HI]To express generalizations (only with es).[/PH-HI]
+	Es importante estudiar, pero no es necesario estudiar todos los días.  (It's important to study, but it is not necessary to study everyday.)
+
+
+[PH-HI]The main difference is that estar refers to temporary attributes while ser to permanent or more lasting ones.[/PH-HI]

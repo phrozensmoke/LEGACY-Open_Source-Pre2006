@@ -1,0 +1,41 @@
+[PHTITLE]USAGE OF 'ACABER'
+
+
+[PHSECTION]acabar ... :
+	to finish something:
+		Ella acabó sus tareas escolares.  (She finished her schoolwork.)
+
+	to use up something:
+		Acabaron los cupones.  (They used up the coupons.)
+
+
+[PHSECTION]acabar con [someone]:
+	to destroy, ruin, or be the end of someone:
+		El escándalo Watergate acabó con presidente Nixon.
+		(The Watergate scandal ruined President Nixon.)
+
+
+[PHSECTION]acabar con ... :
+	to end or destroy something:
+		El honrón acabó con el juego de béisbol.
+		(The home run brought an end to the baseball game.)
+
+
+[PHSECTION]acabar de [infinitive]:
+	to have just [verb]:
+		Acabo de ir al supermercado.  (I have just gone to the supermarket.)
+
+
+[PHSECTION]acabarse:
+	to end, come to an end:
+		Se acabó el concierto.  (The concert ended.)
+
+
+[PHSECTION]acabar por  [infinitive]:
+	to end up [-ing verb]:
+		Acabé por viajar por avión.   (I ended up flying.)
+
+
+[PHSECTION]acabar [present-progressive-participle]
+	to finish [-ing verb]:
+		Acabo comiendo la cena.  (I am finishing eating dinner.)

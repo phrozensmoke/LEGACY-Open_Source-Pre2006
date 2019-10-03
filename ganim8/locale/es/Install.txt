@@ -1,0 +1,4 @@
+To install:
+
+type 'make'
+then type 'make install'

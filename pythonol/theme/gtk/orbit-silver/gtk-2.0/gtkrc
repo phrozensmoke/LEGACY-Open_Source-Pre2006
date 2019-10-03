@@ -1,0 +1,2 @@
+include "../../Smooth-Peachy-Clean/gtk-2.0/gtkrc"
+include "../../basic-look-gtkrc"

@@ -1,0 +1,1015 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GAnim8-0.3b\n"
+"POT-Creation-Date: 2003-02-14 11:35+0100\n"
+"PO-Revision-Date: 2003-02-14 15:51+0400\n"
+"Last-Translator: Erica Andrews <PhrozenSmoke@yahoo.com>\n"
+"Language-Team: SPANISH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Created by gAnim8 for Linux."
+msgstr "Creado por gAnim8 para Linux."
+
+msgid "/_File"
+msgstr "/_Archivo"
+
+msgid "/_File/_New..."
+msgstr "/_Archivo/_Nuevo..."
+
+msgid "/_File/_Open..."
+msgstr "/_Archivo/_Abrir..."
+
+msgid "/_File/_Extract All Frames To Directory..."
+msgstr "/_Archivo/_Extraer Todos los Marcos De la Imagen..."
+
+msgid "/_File/sep5"
+msgstr "/_Archivo/sep5"
+
+msgid "/_File/_Save Animated GIF"
+msgstr "/_Archivo/_Guardar GIF animado"
+
+msgid "/_File/Save _As Animated GIF..."
+msgstr "/_Archivo/Guardar _Como GIF Animado..."
+
+msgid "/_File/sep1"
+msgstr "/_Archivo/sep1"
+
+msgid "/_File/Save As VIDEO"
+msgstr "/_Archivo/Guardar Como VIDEO"
+
+msgid "/_File/Save As VIDEO/Save As MPEG-1..."
+msgstr "/_Archivo/Guardar Como VIDEO/Guardar Como MPEG-1..."
+
+msgid "/_File/Save As VIDEO/Save As AVI..."
+msgstr "/_Archivo/Guardar Como VIDEO/Guardar Como AVI..."
+
+msgid "/_File/Save As VIDEO/Save As SWF (Shockwave Flash)..."
+msgstr "/_Archivo/Guardar Como VIDEO/Guardar Como SWF (Shockwave Flash)..."
+
+msgid "/_File/Save As VIDEO/Save As RM (RealPlayer Video)..."
+msgstr "/_Archivo/Guardar Como VIDEO/Guardar Como RM (RealPlayer Video)..."
+
+msgid "/_File/Save As VIDEO/Save As ASF..."
+msgstr "/_Archivo/Guardar Como VIDEO/Guardar Como ASF..."
+
+msgid "/_File/Save As VIDEO/Save As WMV (Windows Media Video)..."
+msgstr "/_Archivo/Guardar Como VIDEO/Guardar Como WMV (Windows Media Video)..."
+
+msgid "/_File/Save As VIDEO/Save As M4V..."
+msgstr "/_Archivo/Guardar Como VIDEO/Guardar Como M4V..."
+
+msgid "/_File/sep9"
+msgstr "/_Archivo/sep9"
+
+msgid "/_File/Preview/Preview As Animated _GIF"
+msgstr "/_Archivo/Ver de antemano/Ver de antemano como Animated _GIF"
+
+msgid "/_File/Preview/Preview As _MPEG-1 Video"
+msgstr "/_Archivo/Ver de antemano/Ver de antemano como _MPEG-1 Video"
+
+msgid "/_File/Preview/Preview As AVI Video"
+msgstr "/_Archivo/Ver de antemano/Ver de antemano como AVI Video"
+
+msgid "/_File/Preview/Preview As SWF (Shockwave Flash) Video"
+msgstr "/_Archivo/Ver de antemano/Ver de antemano como SWF (Shockwave Flash) Video"
+
+msgid "/_File/Preview/Preview As RM (RealPlayer) Video"
+msgstr "/_Archivo/Ver de antemano/Ver de antemano como RM (RealPlayer) Video"
+
+msgid "/_File/Preview/Preview As ASF Video"
+msgstr "/_Archivo/Ver de antemano/Ver de antemano como ASF Video"
+
+msgid "/_File/Preview/Preview As WMV (Windows Media) Video"
+msgstr "/_Archivo/Ver de antemano/Ver de antemano como WMV (Windows Media) Video"
+
+msgid "/_File/Preview/Preview As M4V Video"
+msgstr "/_Archivo/Ver de antemano/Ver de antemano como M4V Video"
+
+msgid "/_File/sep2"
+msgstr "/_Archivo/sep2"
+
+msgid "/_File/_Quit"
+msgstr "/_Archivo/_Salir"
+
+msgid "/_Options"
+msgstr "/_Opciones"
+
+msgid "/_Options/_Default Image Editor..."
+msgstr "/_Opciones/_Redactor para las imágenes..."
+
+msgid "/_Options/_MPEG-1 Video Previewer..."
+msgstr "/_Opciones/_MPEG-1 Programa para ver de antemano..."
+
+msgid "/_Options/_AVI Video Previewer..."
+msgstr "/_Opciones/_AVI Programa para ver de antemano..."
+
+msgid "/_Options/_SWF (Shockwave Flash) Video Previewer..."
+msgstr "/_Opciones/_SWF (Shockwave Flash) Programa para ver de antemano..."
+
+msgid "/_Options/_RM (RealPlayer) Video Previewer..."
+msgstr "/_Opciones/_RM (RealPlayer) Programa para ver de antemano..."
+
+msgid "/_Options/AS_F Video Previewer..."
+msgstr "/_Opciones/AS_F Programa para ver de antemano..."
+
+msgid "/_Options/_WMV (Windows Media) Video Previewer..."
+msgstr "/_Opciones/_WMV (Windows Media) Programa para ver de antemano..."
+
+msgid "/_Options/M_4V Video Previewer..."
+msgstr "/_Opciones/M_4V Programa para ver de antemano..."
+
+msgid "/_Tools"
+msgstr "/_Herramientas"
+
+msgid "/_Tools/_View Supported File Types"
+msgstr "/_Herramientas/_Ver Tipos Apoyados"
+
+msgid "/_Tools/My _Briefcase"
+msgstr "/_Herramientas/Mi _Maletin"
+
+msgid "/_Tools/gAnim8 Image _Conversion Tool"
+msgstr "/_Herramientas/gAnim8 Herramienta para convertir las imágenes"
+
+msgid "/_Tools/_Screenshot..."
+msgstr "/_Herramientas/_Imagen de la pantalla..."
+
+msgid "/_Tools/_Record Video..."
+msgstr "/_Herramientas/_Grabar un video..."
+
+msgid "/This _Animation Sequence"
+msgstr "/_Esta Animación"
+
+msgid "/This _Animation Sequence/Show _Information"
+msgstr "/_Esta Animación/Ver _información"
+
+msgid "/This _Animation Sequence/Set _Dimensions..."
+msgstr "/_Esta Animación/Configurar _Dimensiones..."
+
+msgid "/_Help"
+msgstr "/A_yuda"
+
+msgid "/_Help/_License Agreement"
+msgstr "/A_yuda/_Licencia"
+
+
+msgid "/_Help/_About gAnim8..."
+msgstr "/A_yuda/_Acerca de gAnim8..."
+
+msgid "/_Help/About _Gifsicle..."
+msgstr "/A_yuda/Acerca de _Gifsicle..."
+
+msgid "/_Help/sep45"
+msgstr "/A_yuda/sep45"
+
+msgid "/_Help/gAnim8 Help"
+msgstr "/A_yuda/gAnim8 Ayuda"
+
+msgid "/_Help/First-time Users"
+msgstr "/A_yuda/Usuarios nuevos"
+
+msgid "/_Help/System Requirements"
+msgstr "/A_yuda/Requisitos Del Sistema"
+
+msgid "/_Help/Video Support"
+msgstr "/A_yuda/Video Ayuda"
+
+msgid "/_Help/sep46"
+msgstr "/A_yuda/sep46"
+
+msgid "/_Help/Bugs and Comments"
+msgstr "/A_yuda/Problemas y Comentarios"
+
+msgid "Loop"
+msgstr "Repetir"
+
+msgid "Turn looping on/off.  ON to make the animation play over and over. OFF to make the animation play once only."
+msgstr "Elegir si la animación se repita. Si es seleccionado, la animación se repetirá."
+
+msgid "Count"
+msgstr "Repeticiónes"
+
+msgid "Enter how many times you want the animation to loop. Enter 0 to make the animation loop forever."
+msgstr "Escriba cuantas veces la animación se repita. Escriba 0 si Usted desea una animación que se repita para siempre."
+
+msgid "Delay"
+msgstr "Retraso"
+
+msgid "Enter the length of time, in hundredths of a second between frame changes in the Animated GIF. WARNING: Setting this value to over 50 may make your animation appear to not be moving at all. This setting has NO effect on videos created by gAnim8"
+msgstr "Elegir la velocidad de la animación (1/100 sec.).  Este necesario que este número sea entre 1 y 50 si Usted desea una animación que se mostraré de la manera normal. Este número no regula la velocidad de los videos (Mpeg, Avi, etc.) creados por gAnim8."
+
+msgid "Preview"
+msgstr "Ver de antemano"
+
+msgid "Build this Animated GIF and preview it with 'gifview'"
+msgstr "Para crear esta GIF animado y verlo de antemano con 'gifview'"
+
+msgid "Stop"
+msgstr "Parar la animación"
+
+msgid "Stop the preview"
+msgstr "Parar la animación"
+
+msgid "Optimization"
+msgstr "Optimización"
+
+msgid "None"
+msgstr "Ninguna"
+
+msgid "No optimization: Your GIF file may be larger in size, but should be readable by almost any web browser."
+msgstr "Sin optimización:  El tamaño del archivo GIF será más grande, pero la imagen será leíble por todos los exploradores de Web."
+
+msgid "Light"
+msgstr "Alguna"
+
+msgid "Light optimization: Usually the best choice. Generally decreases the file size of your GIF, but leaves it readable for most web browsers."
+msgstr "Alguna optimización:  El tamaño del archivo GIF será más pequeño, pero la imagen será leíble por la mayoría de los exploradores de Web. Se recomienda este nivel de optimización."
+
+msgid "Heavy"
+msgstr "La máxima"
+
+msgid "Heavy optimization: Generally only applies to animations with transparency. Shrinks the GIF size as much as possible, but some non-standard web browsers and image viewers may have trouble displaying your image correctly."
+msgstr "Optimización máxima: Contraer el tamaño del GIF tanto como sea posible, pero algunos exploradores de Web no podrá exhibir la imagen correctamente."
+
+msgid "Background Color"
+msgstr "Color del fondo"
+
+msgid "Set the background for this animation. Does not apply to all animations, particularly not to those with transparency in the first frame. This feature applies to the WHOLE animation sequence."
+msgstr "Configurar el color del fondo para esta animación.  No afectará imágenes con la transparencia en el primer marco.  El fondo será aplicado a la secuencia entera de la imagen."
+
+msgid "Interlaced"
+msgstr "Entrecruzado"
+
+msgid "Transparent Color"
+msgstr "Color Transparente"
+
+msgid "Turn interlacing on/off.  This may affect the file size of your GIF by a few bytes or so. This feature applies to the WHOLE animation sequence."
+msgstr "Para elegir si se entrecruza la imagen o no.  El tamaño de la imagen será afectado por algunos octetos.  Esta característica se aplica a la secuencia entera de la imagen."
+
+msgid "Transparent"
+msgstr "Transparente"
+
+msgid "Choose the transparent color for the selected frame ONLY.  You must set/unset transparency for each frame in this animation sequence."
+msgstr "Seleccionar el color transparente para el marco seleccionado SOLAMENTE.  Usted debe elegir la transparencia para cada marco en esta secuencia de animación."
+
+msgid "Enable/disable transparency for the selected frame ONLY.  You must set/unset transparency for each frame in this animation sequence."
+msgstr "Habilitar/Inhabilitar la transparencia para el marco seleccionado SOLAMENTE.  Usted debe elegir la transparencia para cada marco en esta secuencia de animación."
+
+msgid "Comment"
+msgstr "El Comentario"
+
+msgid "Set the comment to be embedded into this animation. WARNING: Large comments can greatly increase the file size of your animation. Set this comment to nothing if you are trying to shrink your file size as much as possible. Otherwise, short comments are suggested."
+msgstr "Escriba el comentario que se encajará en esta animación GIF.  Se recomiendan los comentarios pequeños.  Los comentarios largos aumentarán grandemente el tamaño del archivo."
+
+msgid "Detach"
+msgstr "Destacar"
+
+msgid "Detach/Re-attach the frame window"
+msgstr "Destacar/Adjuntar la ventana para la animación"
+
+msgid "VERY IMPORTANT INFORMATION FOR NEW USERS. Please note that gAnim8 works with TEMPORARY copies of all files ONLY.  This means you should have no fear of playing around with your GIFs and animations, while not having to worry about destroying the original copies.  This ALSO means that these temporary copies of your GIFs are automatically deleted from your system by gAnim8 when they are no longer needed. So, if you edit your GIFs (particularly the frames in your animations) be sure to click the 'Save...' button next to the frame and save it as a permanent file if you wish to keep those changes, as they will be automatically deleted by gAnim8 when you exit this program or start a new animation.  TO REPEAT: If you open an animation, you will be working with a COPY of that animation, not the original animated Gif.  If you add a GIF frame to an animation, you will be working with a COPY of your GIF, not the original.  By the way, temporary files are stored in either your home directory under ~/.ganim8/tmp/ or under /tmp/ (for those of you who care). You will not see this message again unless you do a fresh installation under your username, or your Options file becomes disappears or becomes damaged  or unreadable."
+msgstr "INFORMACIÓN MUY IMPORTANTE PARA LOS NUEVOS USUARIOS.  Observe por favor que gAnim8 trabaja con las copias TEMPORALES de todos los archivos SOLAMENTE.  Esto significa que usted no debe tener ningún miedo de jugar alrededor con su GIFs y animaciones, mientras que no tiene que preocuparse de destruir la original copia.  Esto TAMBIÉN significa que estas copias temporales de su GIFs son suprimidas automáticamente de su sistema por gAnim8 cuando son necesarias no más largo.  Así pues, si usted corrige su GIFs (particularmente los marcos en sus animaciones) sea seguro chascar ' excepto... ' el botón al lado del marco y excepto él como archivo permanente si usted desea guardar esos cambios, pues serán suprimidos automáticamente por gAnim8 cuando usted sale de este programa o comienza una nueva animación.  PARA REPETIR:  Si usted abre una animación, usted trabajará con una COPIA de esa animación, no el GIF animado original.  Si usted agrega un marco del GIF a una animación, usted trabajará con una COPIA de su GIF, no la original.  A propósito, los ficheros temporales se almacenan en su directorio casero debajo de ~/.ganim8/tmp/o debajo/tmp/(para los de usted que cuidado).  Usted no verá este mensaje otra vez a menos que usted haga una instalación fresca debajo de su username, o su archivo de las opciones se convierte desaparece o llega a ser dañado o ilegible."
+
+msgid "Send Bugs and Comments To PhrozenSmoke@yahoo.com. When reporting bugs, please tell me the versions of the following packages installed on your computer: gAnim8, python, pygtk, pygnome, gifsicle, ImageMagick, ffmpeg, gtk, Imlib, and Gnome/Gnome-libs.  Include a DETAILED description of the problem you experienced."
+msgstr "Envíe los insectos y los comentarios a PhrozenSmoke@yahoo.com.  Al divulgar insectos, por favor dígame las versiones de los paquetes siguientes instalados en su computadora:  gAnim8, python, pygtk, pygnome, gifsicle, ImageMagick, ffmpeg, gtk, Imlib, y Gnome/Gnome-libs.  Incluya una descripción DETALLADA del problema que usted experimentó."
+
+msgid "SUPPORTED SAVE FORMATS:\n"
+msgstr "FORMATOS APOYADOS PARA GUARDAR:\n"
+
+msgid "  (GIF not available: 'gifsicle' not found)\n"
+msgstr "  (GIF no es disponible: 'gifsicle' no encontrado)\n"
+
+msgid "  MPEG Video\n  AVI Video\n  ASF Video\n  WMV Video\n  SWF Video\n  RealPlayer Video\n  M4V Video\n\n-------------\nSUPPORTED INPUT FORMATS:\n"
+msgstr "  MPEG Video\n  AVI Video\n  ASF Video\n  WMV Video\n  SWF Video\n  RealPlayer Video\n  M4V Video\n\n-------------\nFORMATOS APOYADOS PARA ABRIR:\n"
+
+msgid "  (VIDEO support not available: missing ImageMagick or 'ffmpeg')\n\n-------------\nSUPPORTED INPUT FORMATS:\n"
+msgstr "  (El apoyo para VIDEOS no es disponible:  'ffmpeg' no encontrado o ImageMagick no encontrado)\n\n-------------\nFORMATOS APOYADOS PARA ABRIR:\n"
+
+msgid "  MPEG Video \n  AVI Video \n  ASF Video \n  WMV Video \n  SWF Video \n  RealPlayer Video \n  M4V Video \n  MOV Video\n"
+msgstr "  MPEG Video \n  AVI Video \n  ASF Video \n  WMV Video \n  SWF Video \n  RealPlayer Video \n  M4V Video \n  MOV Video\n"
+
+msgid "  (VIDEO support not available: missing 'ffmpeg')\n\n"
+msgstr "  (El apoyo para VIDEOS no es disponible:  'ffmpeg' no encontrado)\n\n"
+
+msgid "  (Support for non-GIFs not available: 'convert' from ImageMagick not found)\n  (Video support not available: missing ImageMagick)"
+msgstr "  (El apoyo para otros formatos de imagen no es disponible: 'convert' de ImageMagick no encontrado)\n  (El apoyo para VIDEOS no es disponible: ImageMagick no encontrado)"
+
+msgid "This is simple WIDTH x HEIGHT dimensions setting (in pixels). Here you can set the dimensions of the GIF animation or single-framed GIF that Gifsicle will produce (300 x 150, 20 x 10, etc.).  You can easily SCALE the size of your image (and preserve the aspect ratio) by setting only the width and leaving the height set to '0', or by setting the height and leaving the width set to '0'.  In this case, Gifsicle will automatically scale the image for you, keeping the aspect ratio intact.  For example, if you want to scale the image to a width of 300 pixels. Simply type '300' for width and leave the 'height' set to '0'.  Gifsicle will pick the best height for a width of 300.  It's that easy.  8-)"
+msgstr "Éste es para fijar las dimensiones de la ALTURA y la ANCHURA  (en pixeles).  Aquí usted puede fijar las dimensiones de la animación del GIF o del GIF solo-enmarcado que Gifsicle producirá (300 x 150, 20 x 10, etc.).  Usted puede ESCALAR fácilmente el tamaño de su imagen (y preservar el cociente de aspecto) fijando solamente la anchura y dejando la altura fijada a ' 0 ', o fijando la altura y dejando la anchura fijada a ' 0 '.  En este caso, Gifsicle escalará automáticamente la imagen para usted, manteniendo el cociente de aspecto intacto.  Por ejemplo, si usted desea escalar la imagen a una anchura de 300 pixeles.  Simplemente tecla ' 300 ' para la anchura y sale de la ' altura ' fijó a ' 0 '.  Gifsicle escogerá la mejor altura para una anchura de 300.  Es ése fácil.  8 -)"
+
+msgid "Re-attach"
+msgstr "Adjuntar de nuevo"
+
+msgid "Detach"
+msgstr "Destacar"
+
+msgid "Sorry. File extension '"
+msgstr "ERROR. La extensión de archivo '"
+
+msgid "' is not supported by gAnim8.\nClick 'Tools' then 'View Supported File Types' on the menu for a list of supported formats."
+msgstr "' no es apoyada por gAnim8.\nSeleccione 'Herramientas' -> 'Ver Tipos Apoyados' en el menú para una lista de formatos apoyados"
+
+msgid "An ERROR occurred loading the following files:\n\n"
+msgstr "Un ERROR ocurrió cargando los archivos siguientes:\n\n"
+
+msgid "Please make sure that the file(s) exists and that it is supported by the Imlib image loading library."
+msgstr "Por favor, cerciórese de que exista el archivo y que es apoyado por Imlib."
+
+msgid "No GIFS in this sequence. No information available."
+msgstr "Ningún GIFS en esta secuencia.  Ninguna información disponible."
+
+msgid "ERROR: Your GIF could not be created. Save FAILED!"
+msgstr "ERROR: La imagen GIF no podía ser creada.  No podría ser ahorrada."
+
+msgid "Your GIF could not be created.\nHere is the beginning of the feedback sent by Gifsicle. It may help you troubleshoot the problem:\n\n"
+msgstr "Su imagen no podía ser creada.\nAquí está el principio de la información enviada por Gifsicle.\nPuede ayudarle a corregir el problema:\n\n"
+
+msgid "INFORMATION ABOUT THIS ANIMATION SEQUENCE:\n\n"
+msgstr "INFORMACIÓN SOBRE ESTA SECUENCIA DE LA ANIMACIÓN:\n\n"
+
+msgid "ERROR: The dimensions must be POSITIVE numbers."
+msgstr "ERROR:  Las dimensiones deben ser números POSITIVOS."
+
+msgid " ERROR: The dimensions must be INTEGERS."
+msgstr " ERROR:  Las dimensiones deben ser NÚMEROS ENTEROS."
+
+msgid " No GIFs loaded.  Nothing to save yet."
+msgstr " No hay imágenes cargadas.  No hay nada guardar."
+
+msgid "Save Animation to file..."
+msgstr "Guardar la animación..."
+
+msgid "File "
+msgstr "Archivo "
+
+msgid " already exists.  Overwrite?"
+msgstr " existe ya.  ¿Usted desea sobreescribirlo?"
+
+msgid " No file selected for saving!"
+msgstr " ¡No hay archivo seleccionado para guardar!"
+
+msgid "ERROR: Your GIF animation could not be created. No file saved."
+msgstr "ERROR: La imagen GIF no podía ser creada.  No podría ser ahorrada."
+
+msgid " File saved to  "
+msgstr " El archivo fue guardado como  "
+
+msgid " bytes)"
+msgstr " octetos)"
+
+msgid " ERROR:  Save to file "
+msgstr " ERROR:  Guardar como "
+
+msgid " failed!"
+msgstr " se falló!"
+
+msgid "This image or animation sequence has changed.  Save it?"
+msgstr "Esta imagen o secuencia de la animación ha cambiado.  ¿Usted desea guardarla?"
+
+msgid "Copyright 2003 by Erica Andrews. All rights reserved."
+msgstr "Copyright 2003 - Erica Andrews.  Todos los derechos reservados."
+
+msgid "File removed from sequence. Editing"
+msgstr "Archivo ha sido eliminado de la secuencia. Está redactando"
+
+msgid "Are you sure you want to convert this frame to Grey Scale?\nThis feature is EXPERIMENTAL and cannot be undone.\nIf you don't like the Grey Scale image, you will have reopen this frame's image.\nContinue?"
+msgstr "Es usted seguro usted desea convertir este marco a negro y al blanco?\nEsta característica es EXPERIMENTAL y no puede ser deshecha. \n Si usted no tiene gusto de la imagen negra y blanca, usted tendrá abrir \nde nuevo la imagen de este marco.  Usted desea continuar?"
+
+msgid "Error: could not write the necessary palette to disk for GreyScale conversion."
+msgstr "Error:  no podía escribir la gama de colores necesaria al disco para la conversión negra y blanca."
+
+msgid "Open a file..."
+msgstr "Abrir un fichero..."
+
+msgid "File"
+msgstr "Archivo"
+
+msgid "added to sequence. Editing"
+msgstr "ha sido agregado a la secuencia. Está redactando"
+
+msgid "Select a file..."
+msgstr "Seleccione un fichero..."
+
+msgid "You are about to insert an entire video file directly into the animation sequence.\nIf you choose to continue, the video will be converted to a LOW-QUALITY\nanimated GIF, represented by ONE frame in the animation window.\nCreating this animated GIF frame may take some time.\nDo you wish to continue?"
+msgstr "Usted está a punto de insertar un archivo video entero directamente\n en la secuencia de la animación.  Si usted elige continuar, el vídeo será convertido \na un GIF animado de baja calidad, representado por\n UN marco en la ventana de la animación.  Crear \neste marco animado del GIF puede tomar \nuna cierta hora.  ¿Usted desea continuar?"
+
+msgid "ERROR: Video conversion to animated GIF failed for"
+msgstr "ERROR:  La conversión video al GIF animado falló para"
+
+msgid "ERROR: Video conversion to animated GIF failed for"
+msgstr "ERROR:  La conversión video al GIF animado falló para"
+
+msgid "added to sequence. Editing"
+msgstr "ha sido agregado a la secuencia. Está redactando"
+
+msgid "Dimensiones de video RealPlayer"
+msgstr "RealPlayer Dimensions"
+
+msgid "What size would you like the RealPlayer movie to be?"
+msgstr "Por favor, seleccione las dimensiones para el vídeo RealPlayer:"
+
+msgid "Small - 176x144"
+msgstr "Pequeño - 176x144"
+
+msgid "Large - 352x288"
+msgstr "Grande - 352x288"
+
+msgid " No images loaded to create "
+msgstr " No hay imágenes cargadas para crear "
+
+msgid " from."
+msgstr " de."
+
+msgid "You do not have the 'ffmpeg' binary from the 'ffmpeg' package on your path.\nThis binary is required by gAnim8 to create animated GIFS from videos.\nYou will have to put the 'ffmpeg' binary (version 0.4.6 or better)\non your path before this function will be enabled in gAnim8.\nYou can find versions of 'ffmpeg' on speakeasy.rpmfind.net, ganim8.sourceforge.net,\nand ffmpeg.sourceforge.net."
+msgstr "Usted no tiene el binario 'ffmpeg' en su PATH.  \nEste binario es requerido por gAnim8 para crear videos.  \nUsted tendrá que poner el ' ffmpeg ' binario (la versión 0,4,6 o mejor) \nen su PATH antes de que usted pueda crear videos con \ngAnim8.  Usted puede encontrar versiones del ' ffmpeg ' \nen speakeasy.rpmfind.net, ganim8.sourceforge.net, \ny ffmpeg.sourceforge.net."
+
+msgid "The 'convert' binary from the ImageMagick program is NOT on your PATH\nImageMagick's 'convert' utility is required for all image conversions and must be on your PATH.\nImageMagick 5.2.3 or better is required. Version 5.4.6.1 or better is recommended.\nYou can find versions of ImageMagick on speakeasy.rpmfind.net.\nUntil you have ImageMagick installed, you can only open GIF files with gAnim8."
+msgstr "El 'convert' binario de ImageMagick no está en su PATH. \n El binario 'convert' de ImageMagick se requiere para todas las conversiones de\n la imagen y debe estar en su PATH.  ImageMagick 5,2,3 o mejor\n se requiere.  La versión 5,4,6,1 o mejor se\n recomienda.  Usted puede encontrar versiones de\n ImageMagick en speakeasy.rpmfind.net.  Hasta que usted \ntiene ImageMagick instalado, usted puede abrir \nsolamente archivos del GIF con gAnim8."
+
+msgid "Save As "
+msgstr "Guardar como "
+
+msgid " Video..."
+msgstr " Video..."
+
+msgid "File '"
+msgstr "Archivo '"
+
+msgid "' already exists. Overwrite?"
+msgstr "' existe ya.  ¿Usted desea sobreescribirlo?"
+
+msgid "A BASIC "
+msgstr "Un vídeo básico del tipo "
+
+msgid " Video of this animation will be created.\nThe created video will be about 2 FPS with no special effects.\nThis may take some time - so be patient.\nIf you need to change the frame rate or tweak this video,\nyou will need a separate program, such as ffmpeg's command-line utility.\ngAnim8 is NOT a 'movie studio'!\nContinue?"
+msgstr " de esta animación será creado.  \nEl vídeo creado será cerca de 2 FPS sin efectos especiales.  \nEsto puede tomar una cierta hora - sea tan paciente. \n ¡Si usted necesita cambiar la tarifa del marco o corregir este vídeo, \nusted necesitará otra programa, tal como 'ffmpeg'. \ngAnim8 no es un 'estudio de la película'. \n¿Continúe?"
+
+msgid "ERROR: No animation could be created from this sequence of images."
+msgstr "ERROR: Ninguna animación no se podía crear de esta secuencia de imágenes."
+
+msgid "Successfully created "
+msgstr "Creado con éxito "
+
+msgid " video:\n\n"
+msgstr " video:\n\n"
+
+msgid " video created: "
+msgstr " video creado: "
+
+msgid " bytes"
+msgstr " octetos"
+
+msgid "Creation of "
+msgstr "Crear "
+
+msgid " video FAILED:\n\n"
+msgstr " video falló:\n\n"
+
+msgid "\n\nFile not created."
+msgstr "\n\nEl archivo no fue creado."
+
+msgid "Attempt to import Non-GIF image FAILED:\n"
+msgstr "La imagen no podía ser cargada:\n"
+
+msgid "Unknown error processing converted image with Gifsicle. Conversion failed."
+msgstr "ERROR desconocido mientras que procesaba la imagen con gifsicle.  La conversión falló."
+
+msgid "This image or animation sequence has changed.  Save it?"
+msgstr "Esta imagen o secuencia de animación se ha cambiado.  ¿Usted desea guardarla?"
+
+msgid "Open an Image or Video file..."
+msgstr "Abrir una Imagen o un Video..."
+
+msgid "File not found: "
+msgstr "Archivo no encontrado: "
+
+
+msgid "NOTE: Video support is EXPERIMENTAL!\nLots of temporary disk space may need to be used.\nThe 'preview' window may take a while to display.\nAll video decoding is done with 'ffmpeg',\nthe speed of which gAnim8 cannot control.\ngAnim8 is NOT intended for opening large videos or to be used as a full 'movie studio'.\nSMALL videos (under 1MB/under 1200 frames) should open fine.\nUse at your own risk and be patient. Continue?"
+msgstr "NOTA:  ¡El apoyo para videos es EXPERIMENTAL!  \nUna cantidad grande de espacio de disco temporal puede necesitar \nser utilizado.  La ventana de la ' inspección previo ' puede llevar \nun rato mostrarse.  Todo el descifrar del VIDEO se hace con \n'ffmpeg', la velocidad del cual gAnim8 no se puede controlar. \ngAnim8 no fue creado para abrir videos grandes o utilizar \ncomo ' estudio lleno de la película '.  Los videos PEQUEÑOS \n(bajo 1MB, menos de 1200 marcos) debe abrirse sin ningunos problemas. \n Usted lo utiliza en su propio riesgo. Sea paciente.  \n¿Continúe?"
+
+msgid "WARNING: The VIDEO file you have selected is over 1 MB in size\n.(Probably over 1200 frames.)\ngAnim8 was NOT created to handle Mpegs this large.\ngAnim8 is NOT a full 'movie studio'. It's a simple animation suite.\nIf you continue, LOTS of temporary disk space will need to be used.\n(possibly tens or hundreds of MB, maybe more)\nThe preview window may take a LONG time to open (several minutes? hours?)\nDo NOT attempt to open Mpegs over 15MB with gAnim8.\nYou have been warned! Continue?"
+msgstr "ADVERTENCIA:  El VIDEO que usted ha seleccionado está sobre 1 MB de tamaño.  (probablemente sobre 1200 marcos).  gAnim8 no fue creado para dirigir Mpegs esto grande.  ¿Si usted continúa, Una cantidad grande de espacio de disco temporal necesitarán ser utilizadas (posiblemente los diez o los centenares de MB, quizá más) la ventana de la inspección previo pueden tomar un tiempo LARGO para abrirse (varios minutos?  horas?)  No procure abrir Mpegs sobre 15MB con gAnim8.  ¿Continúe?"
+
+msgid " Ready. Extracted "
+msgstr " Listo.  Se extrajeron "
+
+msgid " frames."
+msgstr " marcos."
+
+msgid "No Gif file specified. Nothing to open."
+msgstr "Ningún GIF se ha seleccionado .  Nada abrir."
+
+msgid " Extracting .gif frames...."
+msgstr " Se están extrayendo los marcos .GIF..."
+
+msgid "No frames extracted from "
+msgstr "Ningunos marcos extraídos de "
+
+msgid "No frames were extracted from the file you selected. Perhaps, the file you selected was not a legitimate GIF file or is in a format that Gifsicle is unable to open.  You may not have read/write access to this file or the temporary directory. Please ensure that your temporary directory exists at either /tmp/ or ~/.ganim8/tmp/ and that you have read/write access to that directory. Click 'Tools' then 'View Support File Types' on the menu up top to see a list of image and video formats supported by gAnim8."
+msgstr "No se extrajo ningunos marcos del archivo que usted seleccionó.  Quizás, el archivo que usted seleccionó no era un archivo legítimo del GIF o no es en un formato que Gifsicle puede abrir.  Usted no puede tener acceso a  este archivo o al directorio temporal.  Asegúrese por favor de que su directorio temporal exista en /tmp/  o ~/.ganim8/tmp/  y de que usted tiene acceso a ese directorio.  Seleccione 'Herramientas' -> 'Ver Tipos Apoyados' en el menú para ver una lista de los formatos apoyados por gAnim8."
+
+msgid "An error occurred opening the selected Gif file: "
+msgstr "Un error ocurrió abriendo la imagen seleccionada: "
+
+msgid "\n\nThis may not be a legitimate gif file, or you may not have read/write access to this file or the temporary directory. Please ensure that your temporary directory exists at either /tmp/ or ~/.ganim8/tmp/ and that you have read/write access to that directory.  Click 'Tools' then 'View Supported File Types' on the menu up top to see a list of image and video formats supported by gAnim8."
+msgstr "\n\nQuizás, el archivo que usted seleccionó no era un archivo legítimo del GIF o no es en un formato que Gifsicle puede abrir.  Usted no puede tener acceso a  este archivo o al directorio temporal.  Asegúrese por favor de que su directorio temporal exista en /tmp/  o ~/.ganim8/tmp/  y de que usted tiene acceso a ese directorio.  Seleccione 'Herramientas' -> 'Ver Tipos Apoyados' en el menú para ver una lista de los formatos apoyados por gAnim8."
+
+msgid "Load a GIF and selected a frame first."
+msgstr "Cargue un GIF y seleccionó un marco primero."
+
+msgid "Color palette unavailable for "
+msgstr "La gama de colores no es disponible para "
+
+msgid "No frames to extract"
+msgstr "No hay ningunos marcos para extraer"
+
+msgid "Extract All Frames To...."
+msgstr "Extraer todos los marcos a...."
+
+msgid "Frames extracted to directory "
+msgstr "Los marcos han sido extraídos al directorio "
+
+msgid "Extract Frame To...."
+msgstr "Extraer el marco a...."
+
+msgid " already exists.  Overwrite?"
+msgstr " existe ya.  ¿Desea remplazarlo?"
+
+msgid "Frame extracted to  "
+msgstr "Marco extraído al directorio  "
+
+msgid "Frame "
+msgstr "Marco "
+
+msgid "     Dimensions: "
+msgstr "     Dimensiones: "
+
+msgid "       Size:  "
+msgstr "       Tamaño:  "
+
+msgid " bytes"
+msgstr " octetos"
+
+msgid " WARNING: Could not write specialized color palette to disk. Using 256 colors instead."
+msgstr " ADVERTENCIA:  No podía escribir la gama de colores especializada al disco.  Usando 256 colores en lugar de otro."
+
+msgid "ERROR: Preview Gif animation could not be created."
+msgstr "ERROR:  La inspección previo para el GIF animado no podía ser creada."
+
+msgid "Your preview animation could not be created.\nHere is the beginning of the feedback sent by Gifsicle:\n\n"
+msgstr "Su animación no podía ser creada.\nAquí está el principio de la información enviada por Gifsicle:\n\n"
+
+msgid " No GIFs currently loaded. Cannot create an empty GIF."
+msgstr " Ningún GIFs cargados actualmente.  No puede crear un GIF vacío.."
+
+msgid " ERROR:  Loop Delay must be a POSITIVE number. "
+msgstr " ERROR:  El lazo retrasa debe ser un número POSITIVO. "
+
+msgid " ERROR:  Loop Count must be a POSITIVE number. "
+msgstr " ERROR:  La cuenta del lazo debe ser un número POSITIVO. "
+
+msgid " ERROR: The Loop Delay and Loop Count must be INTEGERS"
+msgstr " ERROR:  El lazo retrasa y la cuenta del lazo debe ser NÚMEROS ENTEROS"
+
+msgid " Generating preview..."
+msgstr " Generando la inspección previo..."
+
+msgid " Gif created. Animation size is "
+msgstr " GIF fue creado.  El tamaño de la animación es "
+
+msgid "Move Left"
+msgstr "Moverla a la izquierda"
+
+msgid "Move Right"
+msgstr "Moverla a la derecha"
+
+msgid " ERROR: Image not found or could not be loaded via Imlib"
+msgstr " ERROR:  La imagen no encontrada o no se podía cargar con Imlib"
+
+msgid "Change"
+msgstr "Cambiar"
+
+msgid "Replace this image with another image"
+msgstr "Sustituir esta imagen por otra imagen"
+
+msgid "Save..."
+msgstr "Guardar..."
+
+msgid "Save this frame to a permanent file"
+msgstr "Guardar este marco a un fichero permanente "
+
+msgid "Delete"
+msgstr "Borrar"
+
+msgid "Delete this image from the animation sequence"
+msgstr "Borrar esta imagen de la animación"
+
+msgid "Edit"
+msgstr "Redactar"
+
+msgid "Edit this image with your default image editor"
+msgstr "Redactar esta imagen con su redactor para las imágenes"
+
+msgid "Reload this image if it has been edited or modified."
+msgstr "Recargar esta imagen si se ha redactado o se ha modificado."
+
+msgid "Colors"
+msgstr "Colores"
+
+msgid "Show the color palette and edit colors for this image"
+msgstr "Ver la gama de colores y redactar los colores de esta imagen"
+
+msgid "GreyScale"
+msgstr "Negro/Blanco"
+
+msgid "Convert to GreyScale (black and white)"
+msgstr "Convertir a GreyScale (negro y blanco)"
+
+msgid "Flip/Rotate"
+msgstr "Rotar"
+
+msgid "Flip or Rotate this image."
+msgstr "Rotar esta imagen ."
+
+msgid "Unknown"
+msgstr "Desconocido"
+
+msgid "  \nNumber of Colors: "
+msgstr "  \nNúmero de Colores: "
+
+msgid "\n Temporary File: "
+msgstr "\n Fichero Temporal: "
+
+msgid "gAnim8 Help"
+msgstr "gAnim8 Ayuda"
+
+msgid "Close"
+msgstr "Cerrar"
+
+msgid "Close this help window"
+msgstr "Cerrar esta ventana de ayuda"
+
+msgid "Generic Help File"
+msgstr "Generic Help File"
+
+msgid "Color Palette"
+msgstr "Gama de Colores"
+
+msgid "OK"
+msgstr "Aceptar"
+
+msgid "Apply the color changes to this image"
+msgstr "Aplicar los cambios del color a esta imagen"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Close this window without applying the color changes."
+msgstr "Cerrar esta ventana sin la aplicación de los cambios del color."
+
+msgid "Loading palette..."
+msgstr "Gama de colores está cargando..."
+
+msgid " Palette loaded.  Palette has "
+msgstr " Gama de colores cargada.  La gama de colores tiene "
+
+msgid " colors."
+msgstr " colores."
+
+msgid "Select A New Color..."
+msgstr "Seleccione Un Nuevo Color..."
+
+msgid "Flip/Rotate Image"
+msgstr "Rotar Imagen"
+
+msgid "Flip Horizontal"
+msgstr "Intercambiar Horizontal"
+
+msgid "Flip Vertical"
+msgstr "Intercambiar Vertical"
+
+msgid "Rotate 90 Degrees"
+msgstr "Rotar 90 Grados"
+
+msgid "Rotate 180 Degrees"
+msgstr "Rotar 180 Grados"
+
+msgid "Rotate 270 Degrees"
+msgstr "Rotar 270 Grados"
+
+msgid "Apply Change"
+msgstr "Aplicar el cambio"
+
+msgid "Apply the selected change"
+msgstr "Aplicar el cambio seleccionado"
+
+msgid "Close"
+msgstr "Cerrar"
+
+msgid "Close this window"
+msgstr "Cerrar esta ventana"
+
+msgid " ERROR:  You did not fill in the field properly. This field cannot be blank."
+msgstr " ERROR:  Usted no completó el texto correctamente.  Este texto no puede estar en blanco."
+
+msgid "Image Editor Command"
+msgstr "Programa para redactar las imágenes"
+
+msgid "MPEG Video Previewer"
+msgstr "Programa para MPEG"
+
+msgid "AVI Video Previewer"
+msgstr "Programa para AVI"
+
+msgid "SWF Video Previewer"
+msgstr "Programa para SWF"
+
+msgid "RealPlayer Video Previewer"
+msgstr "Programa para RealPlayer"
+
+msgid "ASF Video Previewer"
+msgstr "Programa para ASF"
+
+msgid "WMV Video Previewer"
+msgstr "Programa para WMV"
+
+msgid "M4V Video Previewer"
+msgstr "Programa para M4V"
+
+msgid "Enter the command to launch your image editor"
+msgstr "Escríbe el comando de redactar las imágenes."
+
+msgid "Enter the command to launch your MPEG-1 video player."
+msgstr "Escríbe el comando de ver los videos del tipo MPEG-1."
+
+msgid "Enter the command to launch your AVI player."
+msgstr "Escríbe el comando de ver los videos del tipo AVI."
+
+msgid "Enter the command to launch your SWF (Shockwave Flash) video player."
+msgstr "Escríbe el comando de ver los videos del tipo SWF (Shockwave Flash)."
+
+msgid "Enter the command to launch your RM (RealPlayer) video player."
+msgstr "Escríbe el comando de ver los videos del tipo RM (RealPlayer)."
+
+msgid "Enter the command to launch your ASF video player."
+msgstr "Escríbe el comando de ver los videos del tipo ASF ."
+
+msgid "Enter the command to launch your WMV (Windows Media Video) player."
+msgstr "Escríbe el comando de ver los videos del tipo (Windows Media Video)."
+
+msgid "Enter the command to launch your M4V video player."
+msgstr "Escríbe el comando de ver los videos del tipo M4V."
+
+msgid "Include a %f where the filename should go."
+msgstr "Incluya un %f donde el nombre del fichero debe estar."
+
+msgid " OK"
+msgstr " Aceptar"
+
+msgid "Save changes and close"
+msgstr "Guardar los cambios y cerrar esta ventana"
+
+msgid "Close this window without saving changes"
+msgstr "Cerrar esta ventana sin la aplicación de los cambios"
+
+msgid "Animation Dimensions"
+msgstr "Dimensiones De la Animación"
+
+msgid "Set the width and height for this animation"
+msgstr "Fije la anchura y la altura para esta animación"
+
+msgid "or set to 0x0 to accept the natural dimensions"
+msgstr "o fije a 0x0 para aceptar las dimensiones naturales"
+
+msgid "Enter the desired WIDTH"
+msgstr "Escribe la ANCHURA deseada"
+
+msgid "Enter the desired HEIGHT"
+msgstr "Escribe la ALTURA deseada"
+
+msgid "Accept changes and close this window"
+msgstr "Aceptar los cambios and cerrar esta ventana"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Close this window without saving changes."
+msgstr "Cerrar esta ventana sin la aplicación de los cambios."
+
+msgid "Help Me!"
+msgstr "¡Ayúdeme!"
+
+msgid "Get help on setting dimensions and scaling images"
+msgstr "Ver la ayuda en fijar dimensiones y el escalamiento de imágenes"
+
+msgid "Select Frames For Extraction..."
+msgstr "Seleccione Los Marcos Para Extraer..."
+
+msgid "Drag and drop frames onto the GAnim8 Window"
+msgstr "Arrastre y caiga los marcos sobre la ventana GAnim8"
+
+msgid "or select a range of frames below."
+msgstr "o seleccione una gama de marcos abajo."
+
+msgid "Frames to extract:  "
+msgstr "Marcos para extraer:  "
+
+msgid "Examples:   1-8   or   2,4,6,8    or   1-8,12,34,56"
+msgstr "Ejemplos:   1-8   o   2,4,6,8    o   1-8,12,34,56"
+
+msgid "CANCEL"
+msgstr "Cancelar"
+
+msgid "Frame could not be loaded"
+msgstr "El marco no podía ser cargado"
+
+msgid "Frame "
+msgstr "Marco "
+
+msgid "You have selected more than 25 frames from this Video.\nIt may take a LONG time to process all of these frames into GIFs.\nSo, you will have to be very patient.\ngAnim8 is not a 'movie studio'.\nIt is a suite for SMALL animations.\nSo, this might work, it might not.\n You have been warned!\nContinue anyway?"
+msgstr "¿Usted ha seleccionado más de 25 marcos de este Video.\nPuede tomar un tiempo LARGO \npara procesar todos estos marcos en GIFs.\nHay que ser muy paciente.\ngAnim8 no son una 'película studio'.\nContinue?"
+
+msgid "Invalid Frame Selection! Please re-check your input."
+msgstr "¡Selección Inválida!  Vuelva a inspeccionar su selección."
+
+msgid " bytes"
+msgstr " octetos"
+
+msgid "FILE NOT FOUND!"
+msgstr "¡FICHERO NO ENCONTRADO!"
+
+msgid "Are you sure you want to delete this file?\n"
+msgstr "Está usted seguro usted desea borrar este fichero?\n"
+
+msgid "Sorry, this file cannot be opened for editing because\nit is an important gAnim8 system file.\n\nIf you really need to edit it,\nSAVE it to another file and re-open it from the new file."
+msgstr "Este fichero no se puede abrir para redactar porque es \nun fichero importante usado por gAnim8.  Si usted \nrealmente necesita redactarlo, guardalo como\n otro fichero y abrirlo de nuevo del fichero nuevo."
+
+msgid "The file '"
+msgstr "El fichero '"
+
+msgid "' already exists.\nDo you wish to overwrite it?"
+msgstr "' existe ya. \n¿Desea remplazarlo?"
+
+msgid "File successfully saved to:\n"
+msgstr "El archivo se guardó con éxito como:\n"
+
+msgid "ERROR saving file to:\n"
+msgstr "ERROR - no podía guardar el fichero como:\n"
+
+msgid "Recording..."
+msgstr "Está grabando..."
+
+msgid " video is "
+msgstr " video es "
+
+msgid "Save"
+msgstr "Guardar"
+
+msgid "Re-Open"
+msgstr "Abrir de nuevo"
+
+msgid "Refresh"
+msgstr "Refrescar"
+
+msgid "Files"
+msgstr "Ficheros"
+
+msgid "gAnim8 Briefcase"
+msgstr "gAnim8: Mi Maletin"
+
+msgid "gAnim8 Briefcase\n\nSession files: These are temporary files which \nwill automatically be deleted when gAnim8 quits."
+msgstr "gAnim8: Mi Maletin \n\nLos Ficheros de la Sesión:\nEstos ficheros se borrarán cuando gAnim8 se termina."
+
+msgid "ERROR recording video!"
+msgstr "ERROR recording video!"
+
+msgid "gAnim8 Image Format..."
+msgstr "gAnim8: Formato de Imagen..."
+
+msgid "WHOA! I had a little trouble opening this image."
+msgstr "¡Whoa!  No podía cargar esta imagen."
+
+msgid "Tell me what kind of image this is, and I'll try again:"
+msgstr "Dígame qué clase de imagen es ésta, e intentaré otra vez:"
+
+msgid "Ok"
+msgstr "Aceptar"
+
+msgid "YES"
+msgstr "Sí"
+
+msgid "NO"
+msgstr "No"
+
+msgid "Insert"
+msgstr "Insertar"
+
+msgid "Insert a new frame here"
+msgstr "Insertar una nueva imagen aquí"
+
+msgid "Could not create directory "
+msgstr "No podía crear el directorio "
+
+msgid "ERROR: Could not create/find directory /tmp/ - cannot save/open gif files"
+msgstr "ERROR: No podría crear o encontrar el directorio /tmp/ - no puede guardar o abrir las imágenes"
+
+msgid "ERROR: gAnim8 could not create or find a temporary directory in  /tmp/  or  ~/.ganim8/tmp/ .  You will not be able to open gifs or preview/save gifs until one of these directories is created.  You will have to create one of these directories yourself and restart gAnim8"
+msgstr "ERROR:  gAnim8 no podía crear o encontrar un directorio temporal (/tmp/  o   ~/.ganim8/tmp/).  Usted no podrá abrir las imágenes  hasta que uno de estos directorios se crea.  Usted tendrá que crear uno de estos directorios y recomenzar gAnim8"
+
+msgid " ERROR: Could not save your personalized options under "
+msgstr " ERROR:  No podía guardar sus opciones personalizadas en "
+
+msgid "CRITICAL ERROR: Gifview from the Gifsicle package is required by gAnim8 for previewing animated gifs.  However, the 'gifview' executable was not found on your PATH.  You must install Gifsicle with the gifview program and put it on your PATH before you can preview animated gifs in gAnim8."
+msgstr "ERROR CRÍTICO:  Gifview del paquete de Gifsicle es requerido por gAnim8 para ver gifs de antemano animados.  Sin embargo, el ' gifview ' ejecutable no fue encontrado en su TRAYECTORIA.  Usted debe instalar Gifsicle con el programa del gifview y ponerlo en su TRAYECTORIA antes de que usted pueda ver gifs de antemano animados en gAnim8."
+
+msgid "CRITICAL ERROR: Gifsicle is required by gAnim8.  However, the 'gifsicle' executable was not found on your PATH.  You must install Gifsicle and put it on your PATH before you can use this program successfully."
+msgstr "ERROR CRÍTICO:  Gifsicle es requerido por gAnim8.  Sin embargo, el ' gifsicle ' ejecutable no fue encontrado en su TRAYECTORIA.  Usted debe instalar Gifsicle y ponerlo en su TRAYECTORIA antes de que usted pueda utilizar este programa con éxito."
+
+msgid "CRITICAL ERROR: Gifsicle is required by gAnim8.  However, the 'gifsicle' executable was not found on your PATH.  You must install Gifsicle and put it on your PATH before you can use this program.  You can download the source code for Gifsicle at   http://www.lcdf.org/gifsicle/   and can probaby find RPMs for it on speakeasy.rpmfind.net . Trust me, it's WELL worth the download."
+msgstr "ERROR CRÍTICO:  Gifsicle es requerido por gAnim8.  Sin embargo, el ' gifsicle ' ejecutable no fue encontrado en su TRAYECTORIA.  Usted debe instalar Gifsicle y ponerlo en su TRAYECTORIA antes de que usted pueda utilizar este programa.  Usted puede descargar Gifsicle en http://www.lcdf.org/gifsicle/ y  en speakeasy.rpmfind.net.  Confíeme en, él está BIEN digno de la transferencia directa."
+
+msgid "CRITICAL ERROR: Gifview from the Gifsicle package is required by gAnim8 for previewing animated gifs.  However, the 'gifview' executable was not found on your PATH.  You must install Gifsicle with the gifview program and put it on your PATH before you can preview animated gifs in gAnim8.  You can download the source code for Gifsicle at   http://www.lcdf.org/gifsicle/   and can probaby find RPMs for it on speakeasy.rpmfind.net . Trust me, it's WELL worth the download."
+msgstr "ERROR CRÍTICO:  Gifview del paquete de Gifsicle es requerido por gAnim8 para ver gifs de antemano animados.  Sin embargo, el ' gifview ' ejecutable no fue encontrado en su TRAYECTORIA.  Usted debe instalar Gifsicle con el programa del gifview y ponerlo en su TRAYECTORIA antes de que usted pueda ver gifs de antemano animados en gAnim8.  Usted puede descargar Gifsicle en  http://www.lcdf.org/gifsicle/ y  en speakeasy.rpmfind.net.  Confíeme en, él está BIEN digno de la transferencia directa."
+
+msgid "This image or animation sequence has changed.  Save it?"
+msgstr "Esta imagen o secuencia de la animación ha cambiado.  ¿Usted desea guardarla?"
+
+msgid "\n\nUsage:  ganim8  [file_name]         where [file_name] is the optional file to open immediately upon starting.\n"
+msgstr "\n\nUso:  ganim8  [fichero]          [fichero]  es el archivo opcional a abrirse inmediatamente.\n"
+
+
+msgid "I noticed that you saved this frame to a file that did not have the '.gif' extension.\nPlease note that this file was saved in GIF format.\nAt this time, individuals frames can only be saved to GIF format\n(No matter what file extension you use.)\n\nIf you need to save the extract frame in some other image format,\nclick 'Tools' then 'gAnim8 Image Conversion Tool' on the menu.\nThen, convert '"
+msgstr "Noté que usted guardó este marco como un archivo que no \ntenía la extensión de '.gif '.  Observe por favor que este archivo fue\n guardado  en formato de GIF.  En este tiempo,\n los marcos se pueden guardar solamente al formato del GIF\n (no importa qué la extensión de archivo usted utiliza.)  Si usted necesita\n guardar el marco en otro formato de imagen, seleccione \n'Herramientas' -> 'Herramienta para convertir las imágenes' en el \nmenú y convierta '"
+
+msgid "' to whatever format you want."
+msgstr "' a cualquier formato usted desea."
+
+msgid "GAnim8 Recorder"
+msgstr "GAnim8 Grabador"
+
+msgid "GAnim8 Recorder\n\nRecord from a Video4Linux Device"
+msgstr "GAnim8 Grabador\n\nGrabar de un aparato Video4Linux"
+
+msgid "Device:"
+msgstr "Aparato:"
+
+msgid "Format:"
+msgstr "Formato:"
+
+msgid "Video Size:"
+msgstr "Tamaño del Video:"
+
+msgid "Frame Rate (FPS):"
+msgstr "Velocidad (FPS):"
+
+msgid "Start Recording"
+msgstr "Grabar"
+
+msgid "Stop Recording"
+msgstr "Parar"
+
+msgid "Preview Last Video"
+msgstr "Ver el último video"
+
+msgid "Save Last Video"
+msgstr "Guardar el último video"
+
+msgid "gAnim8 and the gAnim8 Conversion Tool are distributed under the W3C License.\n\n\nW3C SOFTWARE NOTICE AND LICENSE\n\nCopyright 2002 Erica Andrews (PhrozenSmoke@yahoo.com).  All rights reserved.  http://ganim8.sourceforge.net.\n\nThis work (including software, documents, or other related items) is being provided by the copyright holders under the following license. By obtaining, using and/or copying this work, you (the licensee) agree that you have read, understood, and will comply with the following terms and conditions:\n\nPermission to use, copy, modify, and distribute this software and its documentation, with or without modification,  for any purpose and without fee or royalty is hereby granted, provided that you include the following on ALL copies of the software and documentation or portions thereof, including modifications, that you make:\n\n1. The full text of this NOTICE in a location viewable to users of the redistributed or derivative work.\n\n2. Any pre-existing intellectual property disclaimers, notices, or terms and conditions. If none exist, a short notice of the following form (hypertext is preferred, text is permitted) should be used within the body of any redistributed or derivative code: \"Copyright 2002 Erica Andrews (PhrozenSmoke@yahoo.com).  All rights reserved.\"\n\n3. Notice of any changes or modifications to the files within the gAnim8 distribution, including the date changes were made. (I recommend you provide URIs to the location from which the code is derived.)\n\nTHIS SOFTWARE AND DOCUMENTATION IS PROVIDED \"AS IS,\" AND COPYRIGHT HOLDERS MAKE NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE SOFTWARE OR DOCUMENTATION WILL NOT INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS.\n\nCOPYRIGHT HOLDERS WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF ANY USE OF THE SOFTWARE OR DOCUMENTATION.\n\nThe name and trademarks of copyright holders may NOT be used in advertising or publicity pertaining to the software without specific, written prior permission. Title to copyright in this software and any associated documentation will at all times remain with copyright holders."
+msgstr "gAnim8 y la herramienta de la conversión gAnim8 se distribuyen bajo términos de la licencia de W3C.\n\n\nAVISO Y LICENCIA DEL SOFTWARE DE W3C.\n\nCopyright Erica 2002 Andrews (PhrozenSmoke@yahoo.com).  Todos los derechos reservados.  http://ganim8.sourceforge.net.\n\nEste trabajo (software incluyendo, los documentos, u otros artículos relacionados) está siendo proporcionado por los sostenedores del copyright debajo de la licencia siguiente.  Obteniendo, usando y/o copiando este trabajo, usted (el concesionario) conviene que usted ha leído, entendido, y se conformará con los términos y las condiciones siguientes:  El permiso de utilizar, de copiar, de modificar, y de distribuir este software y su documentación, con o sin la modificación, porque cualquier propósito y sin el honorario o derechos se concede por este medio, a condición de que usted incluye el siguiente en TODAS LAS copias del software y de la documentación o de las porciones de eso, incluyendo las modificaciones, que usted hace:  1.  El texto completo de este AVISO en una localización viewable a los usuarios del trabajo redistribuido o derivado.  2.  Cualquieres negaciones preexistentes, avisos, o términos y condiciones de la característica intelectual.  Si existen ningunos, un aviso corto de la forma siguiente (se prefiere el hypertext, se permite el texto) se debe utilizar dentro del cuerpo de cualquier código redistribuido o derivado:  ' Copyright Erica 2002 Andrews (PhrozenSmoke@yahoo.com).  Todo endereza ' 3 reservados.  El aviso de cualesquiera cambia o las modificaciones a los archivos dentro de la distribución gAnim8, incluyendo los cambios de la fecha fueron hechas.  (le recomiendo proporciono URIs a la localización de la cual se deriva el código.)  SE PROPORCIONA ESTE SOFTWARE Y DOCUMENTACIÓN ' COMO ES, ' Y LOS SOSTENEDORES DEL COPYRIGHT NO HACEN NINGUNAS REPRESENTACIONES O GARANTÍA, EXPRESOS O HABER IMPLICADO, INCLUYENDO SINO NO HABER LIMITADO A, GARANTÍAS DE MERCHANTABILITY O LA APTITUD PARA NINGÚN PROPÓSITO PARTICULAR O QUE EL USO DEL SOFTWARE O DE LA DOCUMENTACIÓN NO INFRINGIRÁ NINGUNA PATENTES DE LOS TERCEROS, COPYRIGHT, MARCAS REGISTRADAS U OTRAS DERECHAS.  LOS SOSTENEDORES DEL COPYRIGHT NO SERÁN OBLIGADOS PARA LOS DAÑOS DIRECTOS, INDIRECTOS, ESPECIALES O CONSECUENTES CUALESQUIERA RESULTANTES DE NINGÚN USO DEL SOFTWARE O DE LA DOCUMENTACIÓN.  El nombre y las marcas registradas de los sostenedores del copyright no se pueden utilizar en la publicidad o la publicidad que pertenece al software sin el específico, escrito el permiso anterior.  Seguirá habiendo el título al copyright en este software y cualquier documentación asociada siempre con los sostenedores del copyright."
+
+msgid "http://ganim8.sourceforge.net.\n  \ngAnim8 is a program for creating animated GIFs and small videos.   gAnim8 is  built on top of the wonderful Gifsicle program.  gAnim8 is a frontend for Gifsicle and more.  However, gAnim8 and its author are in NO way affiliated with or endorsed by Gifsicle or the authors of Gifsicle.  gAnim8 is not an  \"official\" extension to Gifsicle and is NOT a modification of the Gifsicle code in anyway.  gAnim8 relies on the excellent functionality of Gifsicle, but does not incorporate any of its code.  gAnim8 is not intended to be the next Gimp. It is intended to be a simple, effective GUI for creating and retouching animated GIFs and small videos. \n \nWritten with Python/PyGTK/PyGnome.     \n \nLicense: W3C (open source). View  \"License\" on the Help menu for more details.  This program and its source may be freely modified and redistributed for non-commercial,  non-profit use only."
+msgstr "http://ganim8.sourceforge.net.\n  \ngAnim8 es una programa para crear GIFs animados y los videos pequeños.  gAnim8 se construye encima del programa maravilloso de Gifsicle.  gAnim8 es un frontend para Gifsicle y más.  Sin embargo, gAnim8 y por su autor no son de manera alguna afiliada con o endosado por Gifsicle o por los autores de Gifsicle.  gAnim8 no es una extensión \"oficial\" a Gifsicle y no es una modificación del código de Gifsicle.  gAnim8 confía en la funcionalidad excelente de Gifsicle, pero no incorpora cualquiera de su código.  gAnim8 no se piensa para ser el gimp siguiente.  Se piensa para ser un GUI simple, eficaz para crear y retocar GIFs animados y los videos pequeños.     \n \nEscrito con Python/PyGTK/PyGnome.      \n \nLicencia:  W3C (código abierto).  Vea \"Licencia\" en el menú de ayuda para más detalles.  Este programa y su código se pueden modificar y se pueden redistribuir libremente para el uso no comercial, no lucrativo solamente."
+
+msgid "\nConversion failed:\nImageMagick may require a supplemental library for this conversion.\nPlease check the ImageMagick documentation for the requirements for converting this format."
+msgstr "\nLa conversión falló: \nImageMagick puede requerir software suplemental para \nesta conversión.  Lea la documentación de ImageMagick para\nmás detalles."
+
+msgid "An unknown error occurred: Conversion failed."
+msgstr "Un error desconocido ocurrió:  La conversión falló."
+
+msgid "The file you are trying to convert FROM does not exist"
+msgstr "El archivo seleccionado no existe"
+
+msgid "The file to convert FROM is a directory, not a file"
+msgstr "El archivo seleccionado es un directorio, no un archivo regular"
+
+msgid "ERROR: Could not load help document"
+msgstr "ERROR:  No podía cargar el documento de ayuda"
+
+
+msgid "/_Help/What's New?"
+msgstr "/A_yuda/Noticias..."
+
+msgid "/_File/_Print this image frame..."
+msgstr "/_Archivo/_Imprimir esta imagen..."
+
+msgid "/_File/sep27"
+msgstr "/_Archivo/sep27"
+
+msgid "No images are selected. Nothing to print."
+msgstr "No hay ningunas imágenes seleccionadas. No hay nada imprimir."

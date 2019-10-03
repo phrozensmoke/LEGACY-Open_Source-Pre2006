@@ -1,0 +1,19 @@
+[PHTITLE]ASKING QUESTIONS IN SPANISH  (INTERROGATIVES)
+
+[PH-HI]¿ Adónde ? [/PH-HI]  -   Where to? To where?
+[PH-HI]¿ A quién ? [/PH-HI]  -   Whom? To whom?
+[PH-HI]¿ Cómo ? [/PH-HI]  -   How? How was that?
+[PH-HI]¿ Cuál ?  [/PH-HI] -   Which?
+[PH-HI]¿ Cuáles ? [/PH-HI]  -   Which ones?
+[PH-HI]¿ Cuándo ? [/PH-HI]  -   When?
+[PH-HI]¿ Cuánto ? [/PH-HI]  -   How much? (generic)
+[PH-HI]¿ Cuánta ? [/PH-HI]  -   How much? (feminine)
+[PH-HI]¿ Cuántos ?[/PH-HI]   -   How many? (generic)
+[PH-HI]¿ Cuántas ?[/PH-HI]   -   How many? ( feminine)
+[PH-HI]¿ Dónde ?  [/PH-HI] -   Where?
+[PH-HI]¿ Para qué ? [/PH-HI]  -   For what? In order to what? To do what?
+[PH-HI]¿ Por qué ? [/PH-HI]  -   Why?
+[PH-HI]¿ Qué ? [/PH-HI]  -   What?
+[PH-HI]¿ Quién ? [/PH-HI]  -   Who?
+[PH-HI]¿ Quiénes ?[/PH-HI]   -   Who? (plural)
+

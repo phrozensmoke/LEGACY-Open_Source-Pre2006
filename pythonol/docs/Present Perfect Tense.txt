@@ -1,0 +1,18 @@
+[PHTITLE]PRESENT PERFECT TENSE
+
+[PH-HI]Use the present perfect when discussing events that have taken place in the past but are relevant to the present or past events that may be repeated or continued in the future. One often uses 'ya' (already,yet) in questions and affirmative sentences while 'todavía' (still, yet) in negative ones with the present perfect: [/PH-HI]
+
+	Ya he visto esa película cuatro veces.    (I have already seen that movie four times.)
+	¿Ya has comido?   (Have you eaten already.)
+	 No, no he comido nada todavía.  (No, I have not eaten anything yet.)
+
+
+[PH-HI]To form the present perfect use 'haber' and a past participle.[/PH-HI] 
+          he / has / ha / hemos / habéis / han      + past participle
+
+     Yo he manejado.      [I have driven.]
+     Tú has manejado.      [You have driven.]
+     Ella / Él / Usted ha manejado.      [She has driven.]
+     Nosotros hemos manejado.      [We have driven.]
+     Vosotros habéis manejado.      [You all have driven.]
+     Ellos / Ustedes han manejado.      [They have driven.]

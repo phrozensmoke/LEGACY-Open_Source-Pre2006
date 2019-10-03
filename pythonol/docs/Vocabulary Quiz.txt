@@ -1,0 +1,5 @@
+[PHTITLE]VOCABULARY QUIZ
+
+You will be given 5 words at a time to translate.  When you are done translating the quiz words, click the [PH-HI]'Show The Answers!'[/PH-HI] button.  (Keep in mind that words may have more than one definition.  So, do not feel discouraged if the answer you provided does not exactly match Pythoñol's answer.)   You may then start a new quiz by clicking the [PH-HI]'Start A New Quiz'[/PH-HI] button.  The quiz can be done as both Spanish-to-English and English-to-Spanish.  Simply select your desired language setting from the drop-down menu, then click the [PH-HI]'Start A New Quiz'[/PH-HI] button.
+
+If you have the [PH-HI]Festival text-to-speech extension[/PH-HI] installed and usable, you may hear the words pronounced by clicking the light blue [PH-HI]'Play'[/PH-HI] button, generally located to the left of your screen.  Click [PH-HI]'Help' -> 'Festival Text-to-Speech Help...'[/PH-HI] on the menu for more information.

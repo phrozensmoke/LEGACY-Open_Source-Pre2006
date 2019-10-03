@@ -1,0 +1,847 @@
+[PHTITLE]INTERNET AND COMPUTER TERMS - Part 1
+
+ [PH-HI]aberration[/PH-HI]    aberración
+ [PH-HI]ability[/PH-HI]    capacidad
+ [PH-HI]abnormal end (abend)[/PH-HI]    finalización anormal
+ [PH-HI]abnormal use[/PH-HI]    utilización anormal
+ [PH-HI]abort, to[/PH-HI]    cancelar, abandonar, anular, abortar
+ [PH-HI]absolute address[/PH-HI]    dirección absoluta
+ [PH-HI]absolute zero[/PH-HI]    cero absoluto
+ [PH-HI]absorption[/PH-HI]    absorción
+ [PH-HI]ac  powered[/PH-HI]    alimentado por corriente alterna
+ [PH-HI]ac  register[/PH-HI]    registro ac
+ [PH-HI]acceleration networks[/PH-HI]    redes de aceleración
+ [PH-HI]accelerator[/PH-HI]    acelerador/a
+ [PH-HI]accelerator board[/PH-HI]    tarjeta aceleradora
+ [PH-HI]accentuation[/PH-HI]    acentuación
+ [PH-HI]acceptance test[/PH-HI]    prueba de aceptación
+ [PH-HI]access[/PH-HI]    acceso
+ [PH-HI]access card[/PH-HI]    tarjeta de acceso
+ [PH-HI]access code[/PH-HI]    código de acceso
+ [PH-HI]access control (ac)[/PH-HI]    control de acceso
+ [PH-HI]access key[/PH-HI]    tecla de acceso
+ [PH-HI]access menu[/PH-HI]    menú de acceso
+ [PH-HI]access right[/PH-HI]    derecho de acceso
+ [PH-HI]access time[/PH-HI]    tiempo de acceso
+ [PH-HI]access, to[/PH-HI]    acceder
+ [PH-HI]accumulator (acc)[/PH-HI]    acumulador
+ [PH-HI]accuracy[/PH-HI]    exactitud, precisión
+ [PH-HI]acknowledgement[/PH-HI]    acuse de recibo, reconocimiento, señal de respuesta
+ [PH-HI]acoustic coupler[/PH-HI]    acoplador acústico
+ [PH-HI]acoustic delay line[/PH-HI]    línea de retardo acústica
+ [PH-HI]acoustic system[/PH-HI]    sistema acústico
+ [PH-HI]acoustic transmission system[/PH-HI]    sistema de transmisión acústica
+ [PH-HI]acronym[/PH-HI]    sigla, acrónimo
+ [PH-HI]activate directory[/PH-HI]    servicios de directorio avanzados
+ [PH-HI]activator[/PH-HI]    activador
+ [PH-HI]active[/PH-HI]    activo
+ [PH-HI]active circuit[/PH-HI]    circuito activo
+ [PH-HI]actuate, to[/PH-HI]    actuar
+ [PH-HI]add time[/PH-HI]    tiempo de suma
+ [PH-HI]add, to[/PH-HI]    añadir
+ [PH-HI]add-in memory[/PH-HI]    memoria adicional
+ [PH-HI]add-on[/PH-HI]    adicional, expansión, complemento, agregado
+ [PH-HI]add-on equipment[/PH-HI]    equipo complementario añadible
+ [PH-HI]add-on products[/PH-HI]    productos complementarios
+ [PH-HI]addition record[/PH-HI]    registro de adición
+ [PH-HI]address bus[/PH-HI]    bus de direcciones
+ [PH-HI]address calculating unit[/PH-HI]    unidad calculadora de direcciones
+ [PH-HI]address characters[/PH-HI]    caracteres de dirección
+ [PH-HI]address field[/PH-HI]    campo de direcciones
+ [PH-HI]addressed memory[/PH-HI]    memoria direccionada
+ [PH-HI]addressing[/PH-HI]    direccionamiento
+ [PH-HI]addressing mode[/PH-HI]    modo de direccionamiento
+ [PH-HI]adjust, to[/PH-HI]    adecuar (una señal)
+ [PH-HI]administer, to[/PH-HI]    administrar
+ [PH-HI]administrator login[/PH-HI]    administrador de registro
+ [PH-HI]advanced computer technology project (actp)[/PH-HI]    proyecto avanzado de tecnología de ordenadores
+ [PH-HI]advanced control power interface (acpi)[/PH-HI]    interfaz avanzada para el control de potencia
+ [PH-HI]advanced data communication control procedures (adccp)[/PH-HI]    procedimientos avanzados de control de comunicación de datos
+ [PH-HI]advanced features[/PH-HI]    características avanzadas
+ [PH-HI]aeromagnetic[/PH-HI]    aeromagnético
+ [PH-HI]affirmative acknowledgement (ack)[/PH-HI]    respuesta afirmativa
+ [PH-HI]agp (accelerated graphics port)[/PH-HI]    puerto de gráficos acelerado
+ [PH-HI]alert message[/PH-HI]    mensaje de alerta
+ [PH-HI]algebraic logic[/PH-HI]    lógica algebraica
+ [PH-HI]algebraic sum[/PH-HI]    suma algebraica
+ [PH-HI]algorithm[/PH-HI]    algoritmo
+ [PH-HI]algorithmic language (algol)[/PH-HI]    lenguaje basado en algoritmos, lenguaje algorítmico
+ [PH-HI]algorithmic process[/PH-HI]    proceso algorítmico
+ [PH-HI]align, to[/PH-HI]    alinear
+ [PH-HI]alignment[/PH-HI]    alineación
+ [PH-HI]alignment pin[/PH-HI]    patilla de alineación, terminal de alineación
+ [PH-HI]all rights reserved[/PH-HI]    todos los derechos reservados
+ [PH-HI]all-purpose computer[/PH-HI]    ordenador de propósito general
+ [PH-HI]allocate, to (memory)[/PH-HI]    asignar (memoria)
+ [PH-HI]allocation[/PH-HI]    asignación
+ [PH-HI]allocation technique[/PH-HI]    técnica de alineación
+ [PH-HI]alpha test[/PH-HI]    prueba alfa
+ [PH-HI]alphanumeric[/PH-HI]    alfanumérico
+ [PH-HI]alphanumeric display unit[/PH-HI]    unidad de visualización alfanumérico
+ [PH-HI]alternate input device[/PH-HI]    dispositivo de entrada alternativo
+ [PH-HI]alternating current (ac)[/PH-HI]    corriente alterna
+ [PH-HI]alternating voltage[/PH-HI]    tensión alterna
+ [PH-HI]alternation[/PH-HI]    alternancia
+ [PH-HI]alternator[/PH-HI]    alternador
+ [PH-HI]always on top[/PH-HI]    siempre visible
+ [PH-HI]amateur radio operator[/PH-HI]    radioaficionado
+ [PH-HI]ambient noise[/PH-HI]    ruido ambiente
+ [PH-HI]american association for the advancement of science (aaas)[/PH-HI]    asociación americana para el progreso de la ciencia
+ [PH-HI]american federation of information processing societies (afips)[/PH-HI]    federación americana de sociedades de tratamiento de información
+ [PH-HI]american management association (ama)[/PH-HI]    asociación americana de gestión
+ [PH-HI]american morse code[/PH-HI]    código morse americano
+ [PH-HI]ampere (a)[/PH-HI]    amperio
+ [PH-HI]amperimeter[/PH-HI]    amperímetro
+ [PH-HI]ampersand (&)[/PH-HI]    símbolo de unión
+ [PH-HI]amplifier[/PH-HI]    amplificador
+ [PH-HI]amplify, to[/PH-HI]    amplificar
+ [PH-HI]amplitude[/PH-HI]    amplitud
+ [PH-HI]amplitude modulation (am)[/PH-HI]    modulación de amplitud
+ [PH-HI]analog[/PH-HI]    analógico, analogía
+ [PH-HI]analog channel[/PH-HI]    canal analógico
+ [PH-HI]analog circuit[/PH-HI]    circuito analógico
+ [PH-HI]analog computer[/PH-HI]    ordenador analógico
+ [PH-HI]analog mode[/PH-HI]    modo analógico
+ [PH-HI]analog mode switch[/PH-HI]    conmutador de modo analógico
+ [PH-HI]analog network[/PH-HI]    red analógica
+ [PH-HI]analog output[/PH-HI]    salida analógica
+ [PH-HI]analog to digital (a/d)[/PH-HI]    analógico a digital
+ [PH-HI]analog to digital converter (adc)[/PH-HI]    convertidor analógico-digital
+ [PH-HI]analog voltage comparator[/PH-HI]    comparador analógico de tensión
+ [PH-HI]analysis[/PH-HI]    análisis
+ [PH-HI]analyst[/PH-HI]    analista
+ [PH-HI]analyzer[/PH-HI]    analizador
+ [PH-HI]anchorage[/PH-HI]    anclaje
+ [PH-HI]and gate[/PH-HI]    puerta y
+ [PH-HI]and operator[/PH-HI]    operador lógico "y"
+ [PH-HI]and/nor gate[/PH-HI]    puerta y/o
+ [PH-HI]angle[/PH-HI]    angulo
+ [PH-HI]animation[/PH-HI]    animación
+ [PH-HI]annotate, to[/PH-HI]    anotar
+ [PH-HI]anode[/PH-HI]    anodo
+ [PH-HI]anonymous ftp[/PH-HI]    ftp anónimo
+ [PH-HI]ansi (american national standards institute)[/PH-HI]    instituto nacional americano de normalización
+ [PH-HI]ansi keyboard[/PH-HI]    teclado ansi
+ [PH-HI]ansi standards[/PH-HI]    normas ansi
+ [PH-HI]answer-only modem[/PH-HI]    módem de solo respuesta
+ [PH-HI]aperture time[/PH-HI]    tiempo de apertura
+ [PH-HI]apl (a programming language)[/PH-HI]    lenguaje de programación apl
+ [PH-HI]apostrophe[/PH-HI]    apóstrofo (')
+ [PH-HI]appc (advanced program-to-program communications)[/PH-HI]    comunicaciones en condiciones de igualdad
+ [PH-HI]append value[/PH-HI]    valor de adición
+ [PH-HI]append, to[/PH-HI]    anexar
+ [PH-HI]appendix[/PH-HI]    apéndice
+ [PH-HI]appliance computer language (acl)[/PH-HI]    lenguaje de utilización en ordenadores
+ [PH-HI]application[/PH-HI]    aplicación
+ [PH-HI]application binary interface (abi)[/PH-HI]    interfaz binario de aplicaciones
+ [PH-HI]application common service elements (acses)[/PH-HI]    elementos comunes de servicio de aplicación
+ [PH-HI]application configuration access protocol (acap)[/PH-HI]    protocolo de acceso a la configuración de aplicaciones
+ [PH-HI]application engineer[/PH-HI]    ingeniero de gestión
+ [PH-HI]application parent[/PH-HI]    aplicación principal
+ [PH-HI]application program interface (api)[/PH-HI]    interfaz del programa de aplicación
+ [PH-HI]application programmer[/PH-HI]    programador de aplicaciones
+ [PH-HI]application protocol data unit (apdu)[/PH-HI]    nivel de aplicación de la unidad de datos de protocolo
+ [PH-HI]application software[/PH-HI]    programa de aplicación
+ [PH-HI]applications configurator (apco)[/PH-HI]    generador de programas
+ [PH-HI]applique circuit[/PH-HI]    circuito adaptador
+ [PH-HI]appn (advanced peer to peer networking)[/PH-HI]    red avanzada par a par
+ [PH-HI]archive[/PH-HI]    archivo
+ [PH-HI]argument[/PH-HI]    argumento
+ [PH-HI]arithmetic expression[/PH-HI]    expresión aritmética
+ [PH-HI]arithmetic function[/PH-HI]    función aritmética
+ [PH-HI]arithmetic logic unit (alu)[/PH-HI]    ual (unidad aritmético lógica)
+ [PH-HI]arithmetic shift[/PH-HI]    desplazamiento aritmético
+ [PH-HI]arithmetic statement[/PH-HI]    sentencia aritmética
+ [PH-HI]arp (address resolution protocol)[/PH-HI]    protocolo de resolución de dirección
+ [PH-HI]arpa (advanced research projects agency of us dod)[/PH-HI]    agencia de proyectos de investigación avanzada (del departamento de defensa estadounidense)
+ [PH-HI]arpanet (advanced research projects agency network)[/PH-HI]    red de la agencia de proyectos de investigación avanzada (red arpa)
+ [PH-HI]arq (automatic request)[/PH-HI]    demanda automática
+ [PH-HI]arrange, to[/PH-HI]    organizar
+ [PH-HI]array[/PH-HI]    array, matriz
+ [PH-HI]array processor (ap)[/PH-HI]    procesador matricial
+ [PH-HI]arrow keys[/PH-HI]    teclas de dirección
+ [PH-HI]artificial intelligence (ai)[/PH-HI]    inteligencia artificial (ia)
+ [PH-HI]artificial language[/PH-HI]    lenguaje artificial
+ [PH-HI]asa (american standard association)[/PH-HI]    ansi, asociación americana de estándares
+ [PH-HI]asap (as soon as possible)[/PH-HI]    tan pronto como sea posible
+ [PH-HI]ascending[/PH-HI]    ascendente
+ [PH-HI]ascii (american standard code for information interchange)[/PH-HI]    código del instituto americano para el intercambio de información
+ [PH-HI]ase (application service elements)[/PH-HI]    elementos de servicio de aplicación
+ [PH-HI]asic (application-specific integrated circuit)[/PH-HI]    circuito integrado para aplicaciones específicas
+ [PH-HI]asis (american society for information science)[/PH-HI]    sociedad americana de ciencias de la información
+ [PH-HI]ask (amplitude-shift keying)[/PH-HI]    codificación por desplazamiento de amplitud
+ [PH-HI]assemble, to[/PH-HI]    ensamblar
+ [PH-HI]assembler (asm)[/PH-HI]    ensamblador
+ [PH-HI]assembler language[/PH-HI]    lenguaje ensamblador
+ [PH-HI]assembler program[/PH-HI]    programa ensamblador
+ [PH-HI]assembly[/PH-HI]    montaje
+ [PH-HI]assessment[/PH-HI]    asesoramiento, valoración
+ [PH-HI]assignment operator[/PH-HI]    operador asignación
+ [PH-HI]association for computer machinery (acm)[/PH-HI]    asociación para la maquinaria del ordenador
+ [PH-HI]asterisk (*)[/PH-HI]    asterisco
+ [PH-HI]asymmetric digital subscriber line (adsl)[/PH-HI]    línea digital asimétrica de abonado
+ [PH-HI]asynchronous balanced mode (abm)[/PH-HI]    modo asíncrono balanceado
+ [PH-HI]asynchronous communications interface adapter (acia)[/PH-HI]    adaptador para interfaz de comunicaciones asíncronas
+ [PH-HI]asynchronous response mode (arm)[/PH-HI]    modo asíncrono de respuesta
+ [PH-HI]asynchronous transmission[/PH-HI]    transmisión asíncrona
+ [PH-HI]asynchronously[/PH-HI]    asíncrono
+ [PH-HI]at (advanced technology)[/PH-HI]    tecnología avanzada
+ [PH-HI]ata (at attachment)[/PH-HI]    adición al at
+ [PH-HI]atm (asynchronous transfer mode)[/PH-HI]    modo de transferencia asíncrona
+ [PH-HI]atm (asynchronous transmission mode)[/PH-HI]    modo de transmisión asíncrona
+ [PH-HI]ats (administrative terminal system)[/PH-HI]    sistema de terminal administrativo
+ [PH-HI]attach, to[/PH-HI]    adjuntar
+ [PH-HI]attached resource computer network (arcnet)[/PH-HI]    red arcnet
+ [PH-HI]attachment[/PH-HI]    adjunto
+ [PH-HI]attenuation[/PH-HI]    atenuación
+ [PH-HI]attenuator[/PH-HI]    atenuador
+ [PH-HI]attribute[/PH-HI]    atributo
+ [PH-HI]au (arithmetic unit)[/PH-HI]    unidad aritmética
+ [PH-HI]audio[/PH-HI]    audio, sonido
+ [PH-HI]audio signal[/PH-HI]    señal de audio
+ [PH-HI]audio teleconferencing[/PH-HI]    audioteleconferencia
+ [PH-HI]aui (attachment unit interface)[/PH-HI]    conexión de unidad de interfaz
+ [PH-HI]aup (acceptable use policy)[/PH-HI]    política de uso aceptable
+ [PH-HI]authenticate[/PH-HI]    validar, autentificar, auténtico
+ [PH-HI]author[/PH-HI]    autor
+ [PH-HI]authorization[/PH-HI]    autorización
+ [PH-HI]authorized user[/PH-HI]    usuario autorizado
+ [PH-HI]auto log[/PH-HI]    registro automático
+ [PH-HI]auto logging[/PH-HI]    auto registro
+ [PH-HI]auto-answer[/PH-HI]    respuesta automática
+ [PH-HI]auto-dial[/PH-HI]    marcado automático
+ [PH-HI]autocode[/PH-HI]    autocódigo
+ [PH-HI]autodecrementing[/PH-HI]    autodecrementación
+ [PH-HI]autoff (automatic form feed)[/PH-HI]    alimentación automática (de papel)
+ [PH-HI]autoincrementing[/PH-HI]    autoincrementación
+ [PH-HI]automatic calling unit (acu)[/PH-HI]    unidad de llamada automática
+ [PH-HI]automatic check[/PH-HI]    control automático
+ [PH-HI]automatic computing (ac)[/PH-HI]    cálculo automático
+ [PH-HI]automatic computing system (acs)[/PH-HI]    sistema informático
+ [PH-HI]automatic data processing (adp)[/PH-HI]    procesamiento automático de datos
+ [PH-HI]automatic data processing equipment (adpe)[/PH-HI]    equipo de procesamiento automático de datos
+ [PH-HI]automatic dialing unit (adu)[/PH-HI]    unidad automática de selección
+ [PH-HI]automatic engineering design (aed)[/PH-HI]    diseño de ingeniería automático
+ [PH-HI]automatic programming (ap)[/PH-HI]    programación automática
+ [PH-HI]automatic programming tools (apt)[/PH-HI]    herramientas de programación automática
+ [PH-HI]automatic receiver program (arp)[/PH-HI]    programa receptor automático
+ [PH-HI]automatic send and receive (asr)[/PH-HI]    transmisión-recepción automática
+ [PH-HI]automatic test equipment (ate)[/PH-HI]    equipo de prueba automático
+ [PH-HI]automation[/PH-HI]    automatización
+ [PH-HI]automaton[/PH-HI]    autómata
+ [PH-HI]autonomous system number (asn)[/PH-HI]    número de sistema autónomo
+ [PH-HI]auxiliary circuit[/PH-HI]    circuito auxiliar
+ [PH-HI]auxiliary equipment[/PH-HI]    equipo auxiliar
+ [PH-HI]auxiliary register[/PH-HI]    registro auxiliar
+ [PH-HI]auxiliary storage[/PH-HI]    memoria auxiliar
+ [PH-HI]available[/PH-HI]    disponible
+ [PH-HI]available time[/PH-HI]    tiempo disponible
+ [PH-HI]average[/PH-HI]    promedio
+ [PH-HI]average access time[/PH-HI]    tiempo promedio de acceso
+ [PH-HI]awg (american wire gauge)[/PH-HI]    medida o galga de alambres, calibre para medir diámetros de los hilos
+ [PH-HI]azimute[/PH-HI]    acimutal
+ [PH-HI]azimuth[/PH-HI]    acimut
+ [PH-HI]b[/PH-HI]    byte, octeto
+ [PH-HI]babble[/PH-HI]    ruido de mezcla, murmullo
+ [PH-HI]back circuit[/PH-HI]    circuito de retorno
+ [PH-HI]back door[/PH-HI]    puerta trasera
+ [PH-HI]back plane[/PH-HI]    panel de conexiones eléctricas
+ [PH-HI]backbone[/PH-HI]    espina dorsal/segmento principal (de una red); cable principal (de banda ancha)
+ [PH-HI]backdrop[/PH-HI]    fondo de página
+ [PH-HI]backend[/PH-HI]    en segundo plano
+ [PH-HI]background[/PH-HI]    fondo
+ [PH-HI]background color[/PH-HI]    color de fondo
+ [PH-HI]background noise[/PH-HI]    ruido de fondo
+ [PH-HI]background process[/PH-HI]    proceso en segundo plano
+ [PH-HI]background program[/PH-HI]    programa no prioritario
+ [PH-HI]backing storage[/PH-HI]    area intermedia
+ [PH-HI]backlash[/PH-HI]    ajuste de holguras
+ [PH-HI]backlast[/PH-HI]    holgura
+ [PH-HI]backlighting[/PH-HI]    retroiluminación
+ [PH-HI]backlit screen[/PH-HI]    pantalla retroiluminada
+ [PH-HI]backslash[/PH-HI]    barra inversa, barra invertida, barra diagonal inversa (\)
+ [PH-HI]backtracking[/PH-HI]    algoritmos de prueba y marcha atrás
+ [PH-HI]backup[/PH-HI]    copia de seguridad
+ [PH-HI]backup equipment[/PH-HI]    equipo para copias de seguridad
+ [PH-HI]backup storage[/PH-HI]    memoria de reserva
+ [PH-HI]bad[/PH-HI]    incorrecto, defectuoso, no válido, inservible
+ [PH-HI]bad parity[/PH-HI]    error de paridad
+ [PH-HI]bad sector[/PH-HI]    sector defectuoso
+ [PH-HI]badge[/PH-HI]    distintivo, credencial
+ [PH-HI]band[/PH-HI]    banda
+ [PH-HI]band width[/PH-HI]    ancho de banda
+ [PH-HI]base address[/PH-HI]    dirección base
+ [PH-HI]base buttons[/PH-HI]    botones básicos
+ [PH-HI]base register[/PH-HI]    registro básico
+ [PH-HI]baseband[/PH-HI]    banda base
+ [PH-HI]basic access method (bam)[/PH-HI]    método de acceso básico
+ [PH-HI]basic assembly language (bal)[/PH-HI]    lenguaje ensamblador básico
+ [PH-HI]batch (batch processing)[/PH-HI]    proceso por lotes
+ [PH-HI]batch file[/PH-HI]    fichero de proceso por lotes
+ [PH-HI]batch system[/PH-HI]    sistema de procesos por lotes
+ [PH-HI]batchep[/PH-HI]    agrupado
+ [PH-HI]battery[/PH-HI]    pila, batería
+ [PH-HI]battery- powered[/PH-HI]    alimentado por pilas, alimentado por baterías
+ [PH-HI]baud[/PH-HI]    baudio
+ [PH-HI]baud rate[/PH-HI]    velocidad (de transmisión) en baudios
+ [PH-HI]beep[/PH-HI]    bip, pitido
+ [PH-HI]beginners all purpose symbolic instruction code (basic)[/PH-HI]    código de instrucciones simbólicas de carácter general para principiantes
+ [PH-HI]behavioral device[/PH-HI]    dispositivo de comportamiento
+ [PH-HI]benchmark program[/PH-HI]    programa patrón de prestaciones, programa de devaluación de prestaciones
+ [PH-HI]benchtest (benchmark test)[/PH-HI]    prueba de evolución de prestaciones
+ [PH-HI]ber (basic encoding rules)[/PH-HI]    reglas básicas de codificación
+ [PH-HI]beta test[/PH-HI]    prueba beta
+ [PH-HI]beta version[/PH-HI]    versión beta
+ [PH-HI]bi-directional[/PH-HI]    bi-direccional
+ [PH-HI]big blue (ibm)[/PH-HI]    gigante azul (ibm)
+ [PH-HI]binary[/PH-HI]    binario
+ [PH-HI]binary base[/PH-HI]    base binaria, base 2
+ [PH-HI]binary code[/PH-HI]    código binario
+ [PH-HI]binary coded decimal (bcd)[/PH-HI]    decimal codificado en binario
+ [PH-HI]binary digit[/PH-HI]    dígito binario (bit)
+ [PH-HI]binary file transfer (bft)[/PH-HI]    transferencia de fichero binario
+ [PH-HI]binary search[/PH-HI]    búsqueda binaria
+ [PH-HI]binhex (binary hexadecimal)[/PH-HI]    hexadecimal binario
+ [PH-HI]bios (basic input output system)[/PH-HI]    sistema básico de entrada/salida
+ [PH-HI]bipolar[/PH-HI]    bipolar
+ [PH-HI]bips (billion of instructions per second)[/PH-HI]    miles de millones de instrucciones por segundo
+ [PH-HI]bistable[/PH-HI]    biestable
+ [PH-HI]bisync (bi-synchronous)[/PH-HI]    bi-síncrono
+ [PH-HI]bit (binary digit)[/PH-HI]    dígito binario
+ [PH-HI]bit error rate (ber)[/PH-HI]    radio de error de bit
+ [PH-HI]bit mapped image[/PH-HI]    imagen de bits asignados
+ [PH-HI]bit stream[/PH-HI]    corriente de bits, flujo de bits
+ [PH-HI]bitmap display[/PH-HI]    pantalla de mapa de bits
+ [PH-HI]black box[/PH-HI]    caja negra
+ [PH-HI]blank[/PH-HI]    espacio en blanco, blanco, vacío
+ [PH-HI]blind carbon copy[/PH-HI]    copia oculta
+ [PH-HI]blink[/PH-HI]    parpadear, intermitencia
+ [PH-HI]blob (binary large objects)[/PH-HI]    objetos grandes en binario
+ [PH-HI]block[/PH-HI]    bloque
+ [PH-HI]block sort[/PH-HI]    clasificación por bloques
+ [PH-HI]blocking[/PH-HI]    agrupamiento en bloques
+ [PH-HI]blocks of time[/PH-HI]    bloques de tiempo
+ [PH-HI]blue ribbon program[/PH-HI]    programa de cinta azul
+ [PH-HI]blueprint[/PH-HI]    anteproyecto
+ [PH-HI]bmp (bit map)[/PH-HI]    mapa de bits
+ [PH-HI]board[/PH-HI]    tarjeta, placa
+ [PH-HI]boilerplate[/PH-HI]    texto modelo
+ [PH-HI]boldface[/PH-HI]    negrita
+ [PH-HI]bookmark[/PH-HI]    marca, señalador, atajo, marcador
+ [PH-HI]boolean algebra[/PH-HI]    algebra booleana
+ [PH-HI]boot[/PH-HI]    carga inicial
+ [PH-HI]boot prom[/PH-HI]    prom de arranque
+ [PH-HI]bootstrap protocol (bootp)[/PH-HI]    protocolo de arranque-asignación
+ [PH-HI]bop (bit orientated protocol)[/PH-HI]    protocolo orientado al bit
+ [PH-HI]border[/PH-HI]    borde
+ [PH-HI]borrow[/PH-HI]    acarreo negativo
+ [PH-HI]bos (basic operating system)[/PH-HI]    sistema operativo básico
+ [PH-HI]bottleneck[/PH-HI]    estrechamiento, cuello de botella
+ [PH-HI]bpi (bits per inch)[/PH-HI]    bits por pulgada
+ [PH-HI]bps (bits per second)[/PH-HI]    bits por segundo
+ [PH-HI]bracket[/PH-HI]    corchete
+ [PH-HI]brainstorming[/PH-HI]    tormenta de ideas
+ [PH-HI]branch[/PH-HI]    bifurcar, ramificar, separar
+ [PH-HI]brand[/PH-HI]    modelo, marca
+ [PH-HI]breadboard[/PH-HI]    tarjeta experimental
+ [PH-HI]break down (machines), to[/PH-HI]    averiarse
+ [PH-HI]break, to[/PH-HI]    romper
+ [PH-HI]breakdown[/PH-HI]    avería
+ [PH-HI]bridge[/PH-HI]    puente
+ [PH-HI]bridged networks[/PH-HI]    redes unidas
+ [PH-HI]bridging software[/PH-HI]    software de transición
+ [PH-HI]briefcase computer[/PH-HI]    ordenador de maletín
+ [PH-HI]brightness lever[/PH-HI]    palanca de brillo
+ [PH-HI]bring forward[/PH-HI]    traer adelante
+ [PH-HI]bring to front[/PH-HI]    traer al frente
+ [PH-HI]broad[/PH-HI]    amplio
+ [PH-HI]broadband isdn (b-isdn)[/PH-HI]    rdsi de banda ancha
+ [PH-HI]broadcast[/PH-HI]    transmisión, emisión
+ [PH-HI]browse, to[/PH-HI]    examinar, rastrear
+ [PH-HI]browser[/PH-HI]    navegador, visualizador, visor
+ [PH-HI]bs (backspace)[/PH-HI]    retroceso
+ [PH-HI]bsc (binary synchronous communication)[/PH-HI]    comunicación binaria síncrona
+ [PH-HI]btt (bad track table)[/PH-HI]    tabla de pistas defectuosas
+ [PH-HI]bubble memory[/PH-HI]    memoria de burbuja
+ [PH-HI]bubble sort[/PH-HI]    ordenación por método de la burbuja
+ [PH-HI]bucket[/PH-HI]    sector de almacenamiento
+ [PH-HI]buffer[/PH-HI]    memoria intermedia
+ [PH-HI]buffer flush[/PH-HI]    vaciado de buffers
+ [PH-HI]buffer pool[/PH-HI]    consorcio de buffers
+ [PH-HI]bug[/PH-HI]    error, fallo
+ [PH-HI]build, to[/PH-HI]    incorporar, integrar
+ [PH-HI]built-in[/PH-HI]    incorporado, integrado
+ [PH-HI]built-in test equipment (bite)[/PH-HI]    equipos de prueba incorporados
+ [PH-HI]bulk storage[/PH-HI]    almacenamiento de gran capacidad
+ [PH-HI]bull cabling system (bcs)[/PH-HI]    sistema de cableado de bull
+ [PH-HI]bullet[/PH-HI]    punto elevado
+ [PH-HI]bulletin board system (bbs)[/PH-HI]    sistema de tablón de anuncios
+ [PH-HI]bump[/PH-HI]    desechar
+ [PH-HI]bundle[/PH-HI]    bulto, lote, paquete
+ [PH-HI]bundled system[/PH-HI]    sistema no disociable
+ [PH-HI]burst[/PH-HI]    ráfaga de impulsos
+ [PH-HI]burster[/PH-HI]    separador de hojas (papel continuo)
+ [PH-HI]bus[/PH-HI]    bus, canal
+ [PH-HI]bus topology[/PH-HI]    topología de bus
+ [PH-HI]business information system (bis)[/PH-HI]    sistema de información para negocios
+ [PH-HI]busy[/PH-HI]    ocupado
+ [PH-HI]button[/PH-HI]    botón
+ [PH-HI]buzzword[/PH-HI]    termino técnico
+ [PH-HI]bypass, to[/PH-HI]    puentear un circuito, pasar por alto un circuito, desviar
+ [PH-HI]byte[/PH-HI]    octeto
+ [PH-HI]cable[/PH-HI]    cable
+ [PH-HI]cable harness[/PH-HI]    manojo de cables
+ [PH-HI]cache[/PH-HI]    caché
+ [PH-HI]calculator[/PH-HI]    calculadora
+ [PH-HI]calibration[/PH-HI]    calibración
+ [PH-HI]call[/PH-HI]    llamada
+ [PH-HI]callback, to[/PH-HI]    repetir llamada
+ [PH-HI]calling feature[/PH-HI]    dispositivo de llamada
+ [PH-HI]calling list[/PH-HI]    lista de llamada
+ [PH-HI]calling sequence[/PH-HI]    secuencia de llamada
+ [PH-HI]cancel[/PH-HI]    cancelar
+ [PH-HI]canned software[/PH-HI]    software enlatado, software estándar
+ [PH-HI]cap (calendar access protocol)[/PH-HI]    protocolo de acceso a calendarios
+ [PH-HI]capacitor[/PH-HI]    condensador
+ [PH-HI]capitalization[/PH-HI]    uso de mayúsculas
+ [PH-HI]caps[/PH-HI]    letras mayúsculas
+ [PH-HI]caps lock key[/PH-HI]    tecla bloqueo de mayúsculas
+ [PH-HI]capture, to[/PH-HI]    capturar
+ [PH-HI]card[/PH-HI]    tarjeta
+ [PH-HI]card punch[/PH-HI]    perforadora de tarjetas
+ [PH-HI]card reader[/PH-HI]    lectora de tarjetas (perforadas)
+ [PH-HI]caret[/PH-HI]    intercalación
+ [PH-HI]carriage[/PH-HI]    carro de impresión
+ [PH-HI]carrier[/PH-HI]    portadora
+ [PH-HI]carry flag[/PH-HI]    indicador de acarreo
+ [PH-HI]carry out, to[/PH-HI]    ejecutar una acción, llevar a cabo una acción
+ [PH-HI]carrying handle[/PH-HI]    asa de transporte
+ [PH-HI]cartridge[/PH-HI]    cartucho
+ [PH-HI]cascade amplifier[/PH-HI]    amplificador en cascada
+ [PH-HI]cascade windows[/PH-HI]    ventanas en cascada
+ [PH-HI]case sensitive[/PH-HI]    distinguir mayúsculas de minúsculas
+ [PH-HI]caution[/PH-HI]    advertencia, precaución
+ [PH-HI]cell[/PH-HI]    celda
+ [PH-HI]censorship[/PH-HI]    censura
+ [PH-HI]central processing unit (cpu)[/PH-HI]    unidad central de procesos (ucp)
+ [PH-HI]centrilized processing[/PH-HI]    procesamiento de datos centralizado
+ [PH-HI]certification[/PH-HI]    certificación
+ [PH-HI]chad[/PH-HI]    agujero (en cintas magnéticas o tarjetas perforadas)
+ [PH-HI]chain, to[/PH-HI]    encadenar
+ [PH-HI]chained program[/PH-HI]    programa encadenado
+ [PH-HI]chaining[/PH-HI]    encadenamiento
+ [PH-HI]channel[/PH-HI]    canal
+ [PH-HI]channel address word[/PH-HI]    palabra de dirección de canal
+ [PH-HI]channel command[/PH-HI]    comando de canal
+ [PH-HI]channel connector[/PH-HI]    conector de canales
+ [PH-HI]channel control field[/PH-HI]    campo de control de canal
+ [PH-HI]channel status condition[/PH-HI]    condición de estado del canal
+ [PH-HI]channel work area expansion[/PH-HI]    extensión del área de memoria para la gestión de canales
+ [PH-HI]character[/PH-HI]    carácter
+ [PH-HI]character rate[/PH-HI]    velocidad de transferencia de caracteres
+ [PH-HI]character recognition[/PH-HI]    reconocimiento de caracteres
+ [PH-HI]character set[/PH-HI]    juego de caracteres
+ [PH-HI]characteristic[/PH-HI]    característica
+ [PH-HI]charge couple device (ccd)[/PH-HI]    dispositivo acoplado por carga
+ [PH-HI]chart[/PH-HI]    gráfico, cuadro, tabla
+ [PH-HI]chassis[/PH-HI]    chasis
+ [PH-HI]chat[/PH-HI]    grupos de discusión, grupos de debate
+ [PH-HI]chat, to[/PH-HI]    conversar, charlar
+ [PH-HI]check bit[/PH-HI]    bit de comprobación
+ [PH-HI]check digit[/PH-HI]    dígito de control
+ [PH-HI]check in, to[/PH-HI]    ingresar
+ [PH-HI]check light[/PH-HI]    luz indicadora de error, luz de control
+ [PH-HI]check mark[/PH-HI]    marca de verificación
+ [PH-HI]check out, to[/PH-HI]    retirar
+ [PH-HI]check sum[/PH-HI]    suma de verificación, suma de comprobación
+ [PH-HI]check, to[/PH-HI]    controlar, comprobar, verificar
+ [PH-HI]checkout[/PH-HI]    verificación
+ [PH-HI]checkpoint[/PH-HI]    punto de control
+ [PH-HI]chevrons[/PH-HI]    comillas angulares
+ [PH-HI]chip[/PH-HI]    chip, pastilla, microplaca
+ [PH-HI]chronogram[/PH-HI]    cronograma
+ [PH-HI]cip (calendar interoperatibility protocol)[/PH-HI]    protocolo de transmisiones entre calendarios
+ [PH-HI]circuit[/PH-HI]    circuito
+ [PH-HI]circuit switching[/PH-HI]    conmutación de circuitos
+ [PH-HI]circuitry[/PH-HI]    circuitería, conjunto de circuitos
+ [PH-HI]class[/PH-HI]    clase
+ [PH-HI]clean, to[/PH-HI]    limpiar, eliminar
+ [PH-HI]clear key[/PH-HI]    tecla de borrado
+ [PH-HI]clear, to[/PH-HI]    borrar (la pantalla), despejar
+ [PH-HI]click, to[/PH-HI]    presionar (botón del ratón), hacer clic
+ [PH-HI]client[/PH-HI]    cliente
+ [PH-HI]client-server model[/PH-HI]    modelo cliente-servidor
+ [PH-HI]client/server architecture[/PH-HI]    arquitectura cliente/servidor
+ [PH-HI]clip art[/PH-HI]    galería de imágenes, imagen
+ [PH-HI]clipboard[/PH-HI]    portapapeles
+ [PH-HI]clock (clk)[/PH-HI]    reloj
+ [PH-HI]clock speed[/PH-HI]    velocidad del reloj
+ [PH-HI]clockwise[/PH-HI]    sentido de las agujas del reloj
+ [PH-HI]clone[/PH-HI]    clónico, clon
+ [PH-HI]close[/PH-HI]    cerrar
+ [PH-HI]closed loop[/PH-HI]    bucle cerrado
+ [PH-HI]cluster[/PH-HI]    clúster
+ [PH-HI]cluster, to[/PH-HI]    agrupar
+ [PH-HI]clustered devices[/PH-HI]    dispositivos agrupados
+ [PH-HI]coalition for network information (cni)[/PH-HI]    coalición para la información en la red
+ [PH-HI]coaxial cable[/PH-HI]    cable coaxial
+ [PH-HI]code[/PH-HI]    código
+ [PH-HI]code translator feature[/PH-HI]    dispositivo de conversión de códigos
+ [PH-HI]codecs (compression and decompression)[/PH-HI]    comprimir y descomprimir
+ [PH-HI]coding[/PH-HI]    codificación
+ [PH-HI]coding form[/PH-HI]    hoja de codificación
+ [PH-HI]coding line[/PH-HI]    línea de codificación
+ [PH-HI]cold boot[/PH-HI]    arranque en frío
+ [PH-HI]collapse, to[/PH-HI]    contraer
+ [PH-HI]collate, to[/PH-HI]    intercalar
+ [PH-HI]collating sequence[/PH-HI]    secuencia de intercalación
+ [PH-HI]colon[/PH-HI]    dos puntos (/)
+ [PH-HI]color graphics adapter (cga)[/PH-HI]    adaptador de gráficos a color
+ [PH-HI]column[/PH-HI]    columna
+ [PH-HI]com port[/PH-HI]    puerto de comunicaciones
+ [PH-HI]command[/PH-HI]    comando, instrucción, orden, mandato
+ [PH-HI]command line[/PH-HI]    línea de comando/s
+ [PH-HI]command-driven software[/PH-HI]    software gobernado por comandos
+ [PH-HI]commercial internet exchange (cix)[/PH-HI]    intercambio comercial internet
+ [PH-HI]common application environment (cae)[/PH-HI]    entorno de aplicaciones comunes
+ [PH-HI]common business oriented language (cobol)[/PH-HI]    lenguaje orientado a problemas de gestión o comerciales
+ [PH-HI]common gateway interface (cgi)[/PH-HI]    interfaz de acceso común
+ [PH-HI]common management information protocol (cmip)[/PH-HI]    protocolo de información común de gestión
+ [PH-HI]common management information services (cmis)[/PH-HI]    servicios de información común de gestión
+ [PH-HI]common questions[/PH-HI]    dudas frecuentes
+ [PH-HI]communications[/PH-HI]    comunicaciones
+ [PH-HI]communications decency act (cda)[/PH-HI]    acta de decencia en las telecomunicaciones
+ [PH-HI]communications server[/PH-HI]    servidor de comunicaciones
+ [PH-HI]community antenna television (catv)[/PH-HI]    televisión por cable
+ [PH-HI]compact disc (cd)[/PH-HI]    disco compacto
+ [PH-HI]compact disc - read  only memory (cd-rom)[/PH-HI]    disco compacto de sólo lectura
+ [PH-HI]companion[/PH-HI]    libro guía, complemento
+ [PH-HI]compile, to[/PH-HI]    compilar
+ [PH-HI]compiler[/PH-HI]    compilador
+ [PH-HI]complementary metal oxide semiconductor (cmos)[/PH-HI]    semiconductor complementario de óxido y metal
+ [PH-HI]complex[/PH-HI]    complejo
+ [PH-HI]complex instruction set computer (cisc)[/PH-HI]    conjunto de instrucciones complejas para ordenador
+ [PH-HI]component[/PH-HI]    componente
+ [PH-HI]compose, to[/PH-HI]    redactar
+ [PH-HI]compute, to[/PH-HI]    calcular, computar
+ [PH-HI]computer[/PH-HI]    ordenador
+ [PH-HI]computer aided design (cad)[/PH-HI]    diseño asistido por ordenador
+ [PH-HI]computer aided education (cae)[/PH-HI]    educación asistida por ordenador
+ [PH-HI]computer aided engineering (cae)[/PH-HI]    ingeniería asistida por ordenador
+ [PH-HI]computer aided instruction (cai)[/PH-HI]    instrucción asistida por ordenador
+ [PH-HI]computer aided manufacturing (cam)[/PH-HI]    fabricación asistida por ordenador
+ [PH-HI]computer aided software engineering (case)[/PH-HI]    ingeniería del software asistida por ordenador
+ [PH-HI]computer aided testing (cat)[/PH-HI]    prueba asistida por ordenador
+ [PH-HI]computer based learning (cbl)[/PH-HI]    aprendizaje basado en ordenador
+ [PH-HI]computer based training (cbt)[/PH-HI]    entrenamiento basado en ordenador
+ [PH-HI]computer crime[/PH-HI]    delito informático
+ [PH-HI]computer graphics interface (cgi)[/PH-HI]    interfaz de computadoras para gráficos
+ [PH-HI]computer incident advisory capability (ciac)[/PH-HI]    instituto asesor sobre incidentes informáticos
+ [PH-HI]computer integrated manufacturing (cim)[/PH-HI]    fabricación integrada por ordenador
+ [PH-HI]computer network[/PH-HI]    red informática
+ [PH-HI]computer output microfiche (com)[/PH-HI]    microficha de salida de ordenador
+ [PH-HI]computer science[/PH-HI]    informática, ciencias de la computación
+ [PH-HI]computer wizard[/PH-HI]    asistente informático
+ [PH-HI]computerize, to[/PH-HI]    informatizar, mecanizar
+ [PH-HI]computing power[/PH-HI]    potencia de calculo
+ [PH-HI]concatenate, to[/PH-HI]    concatenar
+ [PH-HI]concurrent[/PH-HI]    concurrente
+ [PH-HI]condensed letter[/PH-HI]    letra comprimida
+ [PH-HI]condensed printing[/PH-HI]    impresión comprimida
+ [PH-HI]conductor[/PH-HI]    conductor
+ [PH-HI]configuration[/PH-HI]    configuración
+ [PH-HI]configure, to[/PH-HI]    configurar
+ [PH-HI]confirm[/PH-HI]    confirmar
+ [PH-HI]connect, to[/PH-HI]    conectar
+ [PH-HI]connection-oriented network service (cns)[/PH-HI]    servicio de red orientado a la conexión
+ [PH-HI]connectionless[/PH-HI]    sin conexión
+ [PH-HI]connectionless protocols (clp)[/PH-HI]    protocolos no orientados a la conexión
+ [PH-HI]connector[/PH-HI]    conector
+ [PH-HI]constant[/PH-HI]    constante
+ [PH-HI]constant angular velocity (cav)[/PH-HI]    velocidad angular constante
+ [PH-HI]constant linear velocity (clv)[/PH-HI]    velocidad lineal constante
+ [PH-HI]constructive cost model (cocomo)[/PH-HI]    modelo constructivo de coste
+ [PH-HI]consultative committee for international radiocommunications (ccir)[/PH-HI]    comité consultivo para radio-telecomunicaciones internacionales
+ [PH-HI]consultative committee on international telegraph and telephone (ccitt)[/PH-HI]    comité consultivo internacional en teléfonos y telégrafos
+ [PH-HI]content addressable memory (cam)[/PH-HI]    memoria direccionable por el contenido
+ [PH-HI]contention[/PH-HI]    contienda, confrontación (de dispositivos)
+ [PH-HI]contiguous[/PH-HI]    contiguo
+ [PH-HI]contrast lever[/PH-HI]    palanca de contraste
+ [PH-HI]control bus[/PH-HI]    bus de control
+ [PH-HI]control center[/PH-HI]    centro de control
+ [PH-HI]control program microcomputers (cpm)[/PH-HI]    programa de control de microcomputadoras
+ [PH-HI]conventional[/PH-HI]    convencional
+ [PH-HI]conventional memory[/PH-HI]    memoria convencional
+ [PH-HI]conversational monitor system (cms)[/PH-HI]    sistema monitor conversacional
+ [PH-HI]conversion factor[/PH-HI]    factor de conversión
+ [PH-HI]convert, to[/PH-HI]    convertir
+ [PH-HI]cop (character oriented protocols)[/PH-HI]    protocolos orientados al carácter
+ [PH-HI]cop (connection oriented protocols)[/PH-HI]    protocolos orientados a la conexión
+ [PH-HI]coprocessor[/PH-HI]    coprocesador
+ [PH-HI]copy[/PH-HI]    copiar
+ [PH-HI]copy buster[/PH-HI]    dominador de copias
+ [PH-HI]cordless[/PH-HI]    inalámbrico
+ [PH-HI]core[/PH-HI]    núcleo (en memorias)
+ [PH-HI]core memory[/PH-HI]    memoria de núcleos
+ [PH-HI]core storage[/PH-HI]    almacenamiento de núcleos
+ [PH-HI]correction factor[/PH-HI]    factor de corrección
+ [PH-HI]cose (common open software environment)[/PH-HI]    entorno de software abierto
+ [PH-HI]counter[/PH-HI]    contador
+ [PH-HI]coupler[/PH-HI]    acoplador
+ [PH-HI]coupling[/PH-HI]    acoplamiento
+ [PH-HI]courseware[/PH-HI]    software didáctico
+ [PH-HI]courtesy copy (cc, cc)[/PH-HI]    copia de cortesía
+ [PH-HI]coverage[/PH-HI]    alcance
+ [PH-HI]cp/m (control program for microcomputers)[/PH-HI]    programa de control para microcomputadoras
+ [PH-HI]cpi (characters per inch)[/PH-HI]    caracteres por pulgada
+ [PH-HI]cps (characters per second)[/PH-HI]    caracteres por segundo
+ [PH-HI]cpu (central processing unit)[/PH-HI]    ucp (unidad central de procesos)
+ [PH-HI]cr (carry return)[/PH-HI]    retorno de carro
+ [PH-HI]crack a code, to[/PH-HI]    descubrir un código, romper un código
+ [PH-HI]cram (card random access memory)[/PH-HI]    tarjeta con memoria de acceso aleatorio
+ [PH-HI]crash[/PH-HI]    fallo, bloqueo (del sistema); quedarse bloqueado
+ [PH-HI]crash, to[/PH-HI]    bloquearse, quedarse bloqueado
+ [PH-HI]create, to[/PH-HI]    crear
+ [PH-HI]cren (computer research and education network)[/PH-HI]    red informática de educación e investigación
+ [PH-HI]criteria[/PH-HI]    criterio
+ [PH-HI]critical error[/PH-HI]    error crítico
+ [PH-HI]critical path method (cpm)[/PH-HI]    método de camino crítico
+ [PH-HI]crop, to[/PH-HI]    recortar
+ [PH-HI]cross-hair pointer[/PH-HI]    puntero en forma de cruz
+ [PH-HI]cross-reference[/PH-HI]    referencia cruzada
+ [PH-HI]crosstalk[/PH-HI]    interferencia (en comunicaciones)
+ [PH-HI]crs (computer reservation system)[/PH-HI]    sistema computerizado de reservas
+ [PH-HI]crt (cathode ray tube)[/PH-HI]    tubo de rayos catódicos
+ [PH-HI]cslip (compressed serial line protocol)[/PH-HI]    protocolo de línea serie comprimido
+ [PH-HI]csma (carrier sense multiple access)[/PH-HI]    acceso múltiple por detección de portadora
+ [PH-HI]ctcp (client to client protocol)[/PH-HI]    protocolo cliente a cliente
+ [PH-HI]ctl (complementary transistor logical)[/PH-HI]    transistor lógico complementario
+ [PH-HI]cts (clear to send)[/PH-HI]    preparado para transmitir
+ [PH-HI]currency[/PH-HI]    moneda
+ [PH-HI]current[/PH-HI]    actual, en uso
+ [PH-HI]cursor[/PH-HI]    cursor
+ [PH-HI]curve fitting[/PH-HI]    ajuste de curvas
+ [PH-HI]custom options[/PH-HI]    opciones de personalización
+ [PH-HI]customer information control system (cics)[/PH-HI]    sistema de control de información de clientes
+ [PH-HI]customer support[/PH-HI]    asistencia técnica
+ [PH-HI]customize, to[/PH-HI]    personalizar
+ [PH-HI]cut[/PH-HI]    cortar
+ [PH-HI]cut (control unit terminal)[/PH-HI]    terminal de unidad de control
+ [PH-HI]cut off, to[/PH-HI]    cortar (el abastecimiento)
+ [PH-HI]cut-sheet feeder[/PH-HI]    alimentador de papel cortado (folios)
+ [PH-HI]cwis (campus wide information system)[/PH-HI]    sistema de información universitario
+ [PH-HI]cybernetic[/PH-HI]    cibernético/a
+ [PH-HI]cyberspace[/PH-HI]    ciberespacio
+ [PH-HI]cyclic[/PH-HI]    cíclico/a
+ [PH-HI]cyclic redundancy check (crc)[/PH-HI]    código de redundancia cíclica
+ [PH-HI]cylinder[/PH-HI]    cilindro
+ [PH-HI]daisy-wheel printer[/PH-HI]    impresora de margarita
+ [PH-HI]dash[/PH-HI]    guión (-)
+ [PH-HI]data[/PH-HI]    dato
+ [PH-HI]data bus[/PH-HI]    bus de datos
+ [PH-HI]data diddling[/PH-HI]    falsificación de datos
+ [PH-HI]data highway[/PH-HI]    autopista de la información, autopista de datos, infopista
+ [PH-HI]data leakage[/PH-HI]    copia de datos, extracción de datos
+ [PH-HI]data line[/PH-HI]    línea de datos
+ [PH-HI]data throughput[/PH-HI]    caudal de datos
+ [PH-HI]database[/PH-HI]    base de datos
+ [PH-HI]databit[/PH-HI]    bit de datos
+ [PH-HI]datacom (data communications)[/PH-HI]    comunicación de datos
+ [PH-HI]datagram[/PH-HI]    datagrama
+ [PH-HI]dataset[/PH-HI]    conjunto de datos
+ [PH-HI]datasheet[/PH-HI]    hoja de datos
+ [PH-HI]date[/PH-HI]    fecha
+ [PH-HI]daughter board[/PH-HI]    tarjeta secundaria, tarjeta subsidiaria
+ [PH-HI]dbms (database managing system)[/PH-HI]    sistema de administración de bases de datos
+ [PH-HI]dcd (data carrier detect)[/PH-HI]    detección de portadora de datos
+ [PH-HI]de facto standard[/PH-HI]    estándar de facto
+ [PH-HI]deadlock[/PH-HI]    punto muerto, interbloqueo
+ [PH-HI]deallocate, to[/PH-HI]    reasignar, volver a asignar
+ [PH-HI]debug[/PH-HI]    depurar, corregir errores, limpiar
+ [PH-HI]decibel (db)[/PH-HI]    decibelio
+ [PH-HI]decimal[/PH-HI]    decimal
+ [PH-HI]decipher, to[/PH-HI]    decodificar, descifrar
+ [PH-HI]decision-making[/PH-HI]    toma de decisiones
+ [PH-HI]decode, to[/PH-HI]    decodificar
+ [PH-HI]decoder[/PH-HI]    decodificador
+ [PH-HI]decompress value[/PH-HI]    valor de descompresión
+ [PH-HI]decompress, to[/PH-HI]    descomprimir
+ [PH-HI]decouple, to[/PH-HI]    desacoplar
+ [PH-HI]decrypt, to[/PH-HI]    descifrar
+ [PH-HI]dedicated line[/PH-HI]    línea dedicada
+ [PH-HI]default[/PH-HI]    por defecto, por omisión, predeterminado
+ [PH-HI]default file[/PH-HI]    fichero por defecto
+ [PH-HI]defense advanced research projects agency (darpa)[/PH-HI]    agencia del departamento de defensa (estadounidense) para proyectos de investigación avanzados
+ [PH-HI]define, to[/PH-HI]    definir
+ [PH-HI]degausser[/PH-HI]    desimantador, desmagnetizador
+ [PH-HI]dejaggies[/PH-HI]    supresión de irregularidades
+ [PH-HI]delay[/PH-HI]    retardo
+ [PH-HI]delay circuit[/PH-HI]    circuito de retardo
+ [PH-HI]delay time[/PH-HI]    tiempo de retardo
+ [PH-HI]delete[/PH-HI]    borrar, eliminar, suprimir
+ [PH-HI]delimiter[/PH-HI]    delimitador
+ [PH-HI]delivery[/PH-HI]    entrega
+ [PH-HI]demodulator[/PH-HI]    demodulador
+ [PH-HI]demonstration[/PH-HI]    demostración
+ [PH-HI]density[/PH-HI]    densidad
+ [PH-HI]des (data encryption standard)[/PH-HI]    algoritmo de encriptación estándar
+ [PH-HI]deselect[/PH-HI]    quitar la selección
+ [PH-HI]design[/PH-HI]    diseño
+ [PH-HI]desktop[/PH-HI]    escritorio
+ [PH-HI]desktop publishing[/PH-HI]    autoedición
+ [PH-HI]destination[/PH-HI]    destino, destinación
+ [PH-HI]detachable keyboard[/PH-HI]    teclado desmontable, tarjeta separable
+ [PH-HI]device[/PH-HI]    dispositivo
+ [PH-HI]dial[/PH-HI]    marcador
+ [PH-HI]dial-up[/PH-HI]    marcar
+ [PH-HI]dial-up line[/PH-HI]    línea de mercado
+ [PH-HI]dictionary[/PH-HI]    diccionario
+ [PH-HI]dif (data interchange format)[/PH-HI]    formato de intercambio de datos
+ [PH-HI]differential phase[/PH-HI]    fase diferencial
+ [PH-HI]digit[/PH-HI]    dígito
+ [PH-HI]digital[/PH-HI]    digital
+ [PH-HI]digital audio tape (dat)[/PH-HI]    cinta audio digital
+ [PH-HI]digital camera[/PH-HI]    cámara digital
+ [PH-HI]digital circuit[/PH-HI]    circuito digital
+ [PH-HI]digital mode[/PH-HI]    modo digital
+ [PH-HI]digital signature[/PH-HI]    firma digital
+ [PH-HI]digitize, to[/PH-HI]    digitalizar
+ [PH-HI]digitizer[/PH-HI]    digitalizador
+ [PH-HI]dim, to[/PH-HI]    atenuar
+ [PH-HI]dimension, to[/PH-HI]    dimensionar
+ [PH-HI]diode[/PH-HI]    diodo
+ [PH-HI]dip switch[/PH-HI]    conmutador de paquete en doble fila
+ [PH-HI]direccional coupler[/PH-HI]    acoplador direccional
+ [PH-HI]direct access (da)[/PH-HI]    acceso directo
+ [PH-HI]direct current (dc)[/PH-HI]    corriente continua
+ [PH-HI]direct-connect modem[/PH-HI]    módem de conexión directa
+ [PH-HI]direction[/PH-HI]    dirección
+ [PH-HI]directive[/PH-HI]    directiva
+ [PH-HI]directory[/PH-HI]    directorio
+ [PH-HI]disable, to[/PH-HI]    deshabilitar, inhibir
+ [PH-HI]disconnect, to[/PH-HI]    desacoplar, desconectar
+ [PH-HI]disk[/PH-HI]    disco
+ [PH-HI]diskette[/PH-HI]    disquete, disco flexible
+ [PH-HI]display[/PH-HI]    presentación, visualización.  pantalla
+ [PH-HI]display, to[/PH-HI]    presentar o mostrar en pantalla, visualizar
+ [PH-HI]distributed data processing (ddp)[/PH-HI]    proceso distribuido de datos
+ [PH-HI]distributed function terminal (dft)[/PH-HI]    terminal de funciones distribuida
+ [PH-HI]disturbance[/PH-HI]    alteración
+ [PH-HI]dithering[/PH-HI]    fusionando (colores)
+ [PH-HI]ditto[/PH-HI]    idem
+ [PH-HI]dma (direct memory access)[/PH-HI]    acceso directo a memoria
+ [PH-HI]dock, to[/PH-HI]    acoplar
+ [PH-HI]dockable[/PH-HI]    acoplable
+ [PH-HI]document[/PH-HI]    documento
+ [PH-HI]dod (department of defense)[/PH-HI]    departamento de defensa (estadounidense)
+ [PH-HI]domain[/PH-HI]    dominio
+ [PH-HI]domain name system (dns)[/PH-HI]    sistema de nombres de dominio
+ [PH-HI]doorway[/PH-HI]    puerta de entrada
+ [PH-HI]dos (disk operating system)[/PH-HI]    sistema operativo en disco
+ [PH-HI]dos boot record (dbr)[/PH-HI]    sector de arranque del dos
+ [PH-HI]dot[/PH-HI]    punto
+ [PH-HI]dot matrix printer[/PH-HI]    impresora matricial, impresora matricial de puntos
+ [PH-HI]double density (dd)[/PH-HI]    doble densidad
+ [PH-HI]double strike[/PH-HI]    doble impresión
+ [PH-HI]double-click[/PH-HI]    hacer doble clic
+ [PH-HI]download, to[/PH-HI]    bajar, telecargar (de central a satélite), descargar
+ [PH-HI]downtime[/PH-HI]    tiempo de inactividad (de avería)
+ [PH-HI]downward compatible[/PH-HI]    compatibilidad descendente
+ [PH-HI]dp (data processing)[/PH-HI]    procesamiento de datos
+ [PH-HI]dpi (dots per inch)[/PH-HI]    puntos por pulgada
+ [PH-HI]draft quality (dq)[/PH-HI]    calidad borrador
+ [PH-HI]drag and drop[/PH-HI]    arrastrar y soltar, arrastrar y colocar
+ [PH-HI]drag, to[/PH-HI]    arrastrar
+ [PH-HI]dragging[/PH-HI]    deslizamiento
+ [PH-HI]drift[/PH-HI]    deriva (de una señal)
+ [PH-HI]driver[/PH-HI]    controlador
+ [PH-HI]drop-down menu[/PH-HI]    menú desplegable
+ [PH-HI]drum plotter[/PH-HI]    trazador de tambor
+ [PH-HI]dsp (digital signal processor)[/PH-HI]    procesador digital de señal
+ [PH-HI]dsr (data set ready)[/PH-HI]    equipo de datos preparado
+ [PH-HI]dss (decision support system)[/PH-HI]    sistema de apoyo a la decisión
+ [PH-HI]dtce (data terminal-circuit equipment)[/PH-HI]    equipo terminal del circuito de datos
+ [PH-HI]dte (data terminal equipment)[/PH-HI]    equipo terminal de datos
+ [PH-HI]dtr (data terminal ready)[/PH-HI]    terminal de datos preparada
+ [PH-HI]dual in line package (dip)[/PH-HI]    paquete en doble fila
+ [PH-HI]dual independent bus (dib)[/PH-HI]    bus dual independiente
+ [PH-HI]dual tone multifrequency (dtmf)[/PH-HI]    multifrecuencia de doble tono
+ [PH-HI]dual-axis[/PH-HI]    eje dual
+ [PH-HI]dummy instruction[/PH-HI]    instrucción ficticia, instrucción simulada
+ [PH-HI]dump, to[/PH-HI]    descargar, volcar
+ [PH-HI]duplex[/PH-HI]    dúplex
+ [PH-HI]dvb (digital video broadcast)[/PH-HI]    vídeo digital para emisión
+ [PH-HI]dvd (digital video disk)[/PH-HI]    disco de vídeo digital
+ [PH-HI]dvi (digital video interactive)[/PH-HI]    vídeo digital interactivo
+ [PH-HI]dynamic[/PH-HI]    dinámico
+ [PH-HI]dynamic data exchange (dde)[/PH-HI]    intercambio dinámico de datos
+ [PH-HI]dynamic execution[/PH-HI]    ejecución dinámica
+ [PH-HI]dynamic random access memory (dram)[/PH-HI]    ram dinámica
+ [PH-HI]e-mail (electronic mail)[/PH-HI]    correo electrónico
+ [PH-HI]e-zine (electronic magazine)[/PH-HI]    revista electrónica
+ [PH-HI]echo[/PH-HI]    eco
+ [PH-HI]edit, to[/PH-HI]    editar
+ [PH-HI]elapsed time[/PH-HI]    tiempo transcurrido
+ [PH-HI]electrically erasable programmable read-only memory (eeprom)[/PH-HI]    rom programable borrable eléctricamente
+ [PH-HI]electronic bulletin board[/PH-HI]    sistema de tablón de anuncios electrónico
+ [PH-HI]electronic data interchange (edi)[/PH-HI]    intercambio electrónico de datos
+ [PH-HI]electronic data interchange for administration, commerce and transport (edifact)[/PH-HI]    intercambio electrónico de datos para administración, comercio y transporte
+ [PH-HI]electronic data processing (edp)[/PH-HI]    procesamiento electrónico de datos
+ [PH-HI]electronic form (e-form)[/PH-HI]    formulario electrónico
+ [PH-HI]electronic frontier foundation (eff)[/PH-HI]    fundación frontera electrónica
+ [PH-HI]electronic industries association (eia)[/PH-HI]    asociación de industrias electrónicas
+ [PH-HI]ellipses[/PH-HI]    puntos suspensivos (...)
+ [PH-HI]em dash[/PH-HI]    guión largo
+ [PH-HI]em space[/PH-HI]    espacio largo
+ [PH-HI]embed, to[/PH-HI]    incrustar
+ [PH-HI]embedded system[/PH-HI]    sistema insertado
+ [PH-HI]emulator[/PH-HI]    emulador
+ [PH-HI]en dash[/PH-HI]    guión corto
+ [PH-HI]encode, to[/PH-HI]    codificar
+ [PH-HI]encoder[/PH-HI]    codificador
+ [PH-HI]encryption[/PH-HI]    encriptación, cifrado
+ [PH-HI]end[/PH-HI]    extremo, final, fin
+ [PH-HI]end delimiter (ed)[/PH-HI]    final de trama
+ [PH-HI]end mark[/PH-HI]    marca de fin
+ [PH-HI]end-user[/PH-HI]    usuario final
+ [PH-HI]engine[/PH-HI]    generador, máquina
+ [PH-HI]engineer[/PH-HI]    ingeniero
+ [PH-HI]enhance, to[/PH-HI]    mejorar, innovar, aumentar, ampliar
+ [PH-HI]enhanced dynamic random access memory (edram)[/PH-HI]    ram dinámica mejorada
+ [PH-HI]enhanced graphics adapter (ega)[/PH-HI]    adaptador de gráficos mejorado
+ [PH-HI]enhanced integrated device electronics (eide)[/PH-HI]    electrónica de dispositivos integrados mejorados
+ [PH-HI]enter, to[/PH-HI]    introducir
+ [PH-HI]entity[/PH-HI]    entidad
+ [PH-HI]entry[/PH-HI]    entrada, elemento
+ [PH-HI]environment[/PH-HI]    entorno
+ [PH-HI]eof (end of file)[/PH-HI]    final de fichero
+ [PH-HI]eot (end of transmission)[/PH-HI]    fin de transmisión
+ [PH-HI]epp (enhanced parallel port)[/PH-HI]    puerto paralelo mejorado
+ [PH-HI]eps (encapsulated postscript)[/PH-HI]    postscript encapsulado
+ [PH-HI]erasable programmable read-only memory (eprom)[/PH-HI]    rom programable borrable
+ [PH-HI]error[/PH-HI]    error
+ [PH-HI]error checking and correction (ecc)[/PH-HI]    corrección y chequeo de errores
+ [PH-HI]etb (end of transmission block)[/PH-HI]    fin de bloque de transmisión
+ [PH-HI]etx (end of text)[/PH-HI]    fin de texto
+ [PH-HI]european communication satellite (ecs)[/PH-HI]    sistema europeo de satélites de comunicaciones
+ [PH-HI]european computer manufacturer association (ecma)[/PH-HI]    asociación europea de fabricantes de ordenadores
+ [PH-HI]european telecommunications standards institute (etsi)[/PH-HI]    instituto europeo de estándares en telecomunicaciones
+ [PH-HI]event[/PH-HI]    evento
+ [PH-HI]event handler[/PH-HI]    manejador de eventos
+ [PH-HI]event-driven[/PH-HI]    activado por eventos
+ [PH-HI]example[/PH-HI]    ejemplo
+ [PH-HI]exception report[/PH-HI]    informe de excepción
+ [PH-HI]exchange, to[/PH-HI]    cambiar, intercambiar
+ [PH-HI]executive program[/PH-HI]    programa ejecutivo
+ [PH-HI]exit[/PH-HI]    salir
+ [PH-HI]expand, to[/PH-HI]    expandir
+ [PH-HI]expanded memory manager (emm)[/PH-HI]    administrador de memoria expandida
+ [PH-HI]expanded memory specification (ems)[/PH-HI]    especificación de memoria expandida
+ [PH-HI]expert system[/PH-HI]    sistema experto
+ [PH-HI]explore, to[/PH-HI]    explorar
+ [PH-HI]export, to[/PH-HI]    exportar
+ [PH-HI]extended binary coded decimal interchange code (ebcdic)[/PH-HI]    código extendido de binario codificado decimal
+ [PH-HI]extended industry standard architecture (eisa)[/PH-HI]    arquitectura estándar industrial extendidas, arquitectura eisa
+ [PH-HI]extensibility[/PH-HI]    extensibilidad
+ [PH-HI]extension[/PH-HI]    extensión
+ 

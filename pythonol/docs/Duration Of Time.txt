@@ -1,0 +1,38 @@
+[PHTITLE]DURATION OF TIME
+
+[PHSECTION]Expressing Duration of the Action: 
+  
+I have been doing something for time expression.: 
+           
+	'Hace' + (time expression)+ 'que' + (verb in present). 
+		Hace tres semanas que yo estudio. (It's been 3 weeks that I have been studying.)
+
+	(Verb in present) + 'desde hace'+ (time expression). 
+		Yo estudio desde hace tres semanas. (I have been studying for 3 weeks.)
+
+
+
+[PHSECTION]How long have you been doing something?:
+
+	'¿Cuánto tiempo hace que' + (verb in present) ?
+		¿Cuánto tiempo hace que estudias?  (How long have you been studying.)
+
+
+
+[PHSECTION]I have been doing something for about time expression.:
+
+	'Hace como' +(time expression)+ 'que'+ (verb in present). 
+		Hace come tres semanas que yo estudio. (I have been studying about 3 weeks.)
+
+	'Hace unos'+(time expression)+ 'que'+ (verb in present).
+		Hace unos minutos que yo como.  (I have been eating a few minutes.)
+
+
+
+[PHSECTION]Something happened time expression ago.:
+
+	'Hace' +(time expression) +'que'+ (verb in preterit). 
+		Hace diez minutos que yo comí.  (It's been 10 minutes since I ate.)
+
+	(Verb in preterit) +'hace'+(time expression).
+		Yo comí hace diez minutos.   (I ate 10 minutes ago.)

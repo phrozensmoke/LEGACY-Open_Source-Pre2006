@@ -1,0 +1,39 @@
+[PHTITLE]THE IMPERSONAL, PASSIVE, ACCIDENTAL, AND RECIPROCAL 'SE':
+
+
+[PHSECTION]Impersonal 'Se':  
+          People/You/They/One do something.  (When narrating in present.)  
+          'Se' + singular present-tense verb:
+
+		Se estudia mucho en esta universidad. (People/You/They study alot in this university.)
+
+
+[PHSECTION]Passive 'Se':
+	Subject is acted upon. Frequently used for instructions and afveritising.  
+	'Se' + 3rd person verb + passive subject:
+
+		Se compran tomates frescos. (Fresh tomatoes are bought.)
+		Se compra tomates frescos. (One buys fresh tomatoes.)
+
+
+[PHSECTION]Accidental 'Se':
+	To espress accidental or unintentional occurrences.  
+	'Se' + indirect pronoun + ... + (a + noun/pronoun):
+
+		Se le cerró el libro a Juan.  (Juan let the book close.)
+		Juan cerró el libro. (Juan closed the book. [on purpose])
+
+
+[PHSECTION]Reciprocal 'Se': 
+	Used with reflexive verbs to express that the recipient of the action is its performer.
+		Juan se está bañando.  (Juan is bathing himself.)
+
+
+[PH-HI] The Passive Voice is mainly found in writing and is used, as in English, to put an emphasis on the action rather than on the doer. To form the passive voice, use the following construction. [/PH-HI]  
+	Direct object + 'ser' + past participle + 'por' + Agent:
+
+		Tomates frescos son comprados por Juan.  (Fresh tomatoes are brought by Juan.)
+		Tomates frescos fue comprados por Juan.  (Fresh tomatoes were brought by Juan.)
+
+
+You can form most of the tenses using such a construction. However, when there is no clear agent, the passive 'se' construction should be used. 

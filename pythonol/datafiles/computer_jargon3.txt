@@ -1,0 +1,624 @@
+[PHTITLE]INTERNET AND COMPUTER TERMS - Part 3
+
+ [PH-HI]ram resident[/PH-HI]    residente en memoria
+ [PH-HI]random[/PH-HI]    aleatorio
+ [PH-HI]random access memory (ram)[/PH-HI]    memoria de acceso aleatorio
+ [PH-HI]range[/PH-HI]    rango
+ [PH-HI]raw data[/PH-HI]    datos en bruto
+ [PH-HI]read out, to be[/PH-HI]    extraídos
+ [PH-HI]read, to[/PH-HI]    leer
+ [PH-HI]read-only[/PH-HI]    sólo lectura
+ [PH-HI]real time[/PH-HI]    tiempo real
+ [PH-HI]rearrange, to[/PH-HI]    reorganizar
+ [PH-HI]reassign, to[/PH-HI]    reasignar
+ [PH-HI]receive data (rd)[/PH-HI]    recepción de datos
+ [PH-HI]receive, to[/PH-HI]    recibir
+ [PH-HI]receiver[/PH-HI]    receptor
+ [PH-HI]record, to[/PH-HI]    registrar
+ [PH-HI]recorder[/PH-HI]    registrador
+ [PH-HI]recursive[/PH-HI]    recursivo, repetitivo
+ [PH-HI]redo, to[/PH-HI]    rehacer
+ [PH-HI]redundancy[/PH-HI]    redundancia
+ [PH-HI]reference card[/PH-HI]    tarjeta de referencia
+ [PH-HI]reference phase[/PH-HI]    fase de referencia
+ [PH-HI]reflective light[/PH-HI]    luz reflejada
+ [PH-HI]refresh rate[/PH-HI]    velocidad de regeneración
+ [PH-HI]refresh, to[/PH-HI]    regenerar (la pantalla), actualizar
+ [PH-HI]register[/PH-HI]    registro
+ [PH-HI]regulated[/PH-HI]    reglamentados, regulados
+ [PH-HI]reinitialize, to[/PH-HI]    reinicializar
+ [PH-HI]reinstall, to[/PH-HI]    reinstalar
+ [PH-HI]rej (reject)[/PH-HI]    rechazo
+ [PH-HI]reject, to[/PH-HI]    rechazar
+ [PH-HI]relational database[/PH-HI]    base de datos relacional
+ [PH-HI]relational database management system (rdbms)[/PH-HI]    sistema de administración de bases de datos relacionales
+ [PH-HI]relay[/PH-HI]    relé
+ [PH-HI]release[/PH-HI]    lanzamiento
+ [PH-HI]reliability[/PH-HI]    fiabilidad
+ [PH-HI]reliable[/PH-HI]    seguro
+ [PH-HI]reload, to[/PH-HI]    recargar
+ [PH-HI]relocatable program[/PH-HI]    programa reubicable
+ [PH-HI]remap, to[/PH-HI]    remapear
+ [PH-HI]remark (rem)[/PH-HI]    comentario
+ [PH-HI]remedial maintenance[/PH-HI]    mantenimiento correctivo
+ [PH-HI]remote[/PH-HI]    remoto
+ [PH-HI]remote computer service (rcs)[/PH-HI]    servicio de ordenadores remotos
+ [PH-HI]remote control system (rcs)[/PH-HI]    sistema de revisión de control
+ [PH-HI]remote login[/PH-HI]    conexión remota
+ [PH-HI]removable[/PH-HI]    removible
+ [PH-HI]remove, to[/PH-HI]    eliminar, quitar, extraer
+ [PH-HI]rename, to[/PH-HI]    renombrar, cambiar de nombre
+ [PH-HI]reorder[/PH-HI]    reordenar
+ [PH-HI]repair, to[/PH-HI]    reparar
+ [PH-HI]repeater[/PH-HI]    repetidor
+ [PH-HI]repetitive[/PH-HI]    repetitivo, recursivo
+ [PH-HI]replace, to[/PH-HI]    reemplazar
+ [PH-HI]report[/PH-HI]    informe
+ [PH-HI]request[/PH-HI]    petición
+ [PH-HI]requirement[/PH-HI]    requisito
+ [PH-HI]rerun, to[/PH-HI]    repetir la pasada, volver a procesar
+ [PH-HI]reseller[/PH-HI]    distribuidor
+ [PH-HI]reserved word[/PH-HI]    palabra reservada
+ [PH-HI]reset, to[/PH-HI]    resetear, restablecer
+ [PH-HI]reside, to[/PH-HI]    residir
+ [PH-HI]resident[/PH-HI]    residente
+ [PH-HI]resistor[/PH-HI]    resistencia
+ [PH-HI]resize, to[/PH-HI]    redimensionar
+ [PH-HI]resolution[/PH-HI]    resolución
+ [PH-HI]resolution setting[/PH-HI]    parámetro de resolución
+ [PH-HI]resource[/PH-HI]    recurso
+ [PH-HI]resource allocation[/PH-HI]    asignación de recursos
+ [PH-HI]resource manager[/PH-HI]    administrador de recursos
+ [PH-HI]resource sharing[/PH-HI]    compartimento de recursos
+ [PH-HI]response time[/PH-HI]    tiempo de respuesta
+ [PH-HI]restart[/PH-HI]    reiniciar, reinicializar
+ [PH-HI]restore[/PH-HI]    restaurar
+ [PH-HI]resume, to[/PH-HI]    reanudar
+ [PH-HI]retrofit a system, to[/PH-HI]    actualizar un sistema
+ [PH-HI]retry, to[/PH-HI]    reintentar
+ [PH-HI]reusability[/PH-HI]    reusabilidad
+ [PH-HI]reusable[/PH-HI]    reusable
+ [PH-HI]reverse address resolution protocol (rarp)[/PH-HI]    protocolo de resolución de dirección de retorno
+ [PH-HI]revert, to[/PH-HI]    volver
+ [PH-HI]rfc (request for comment)[/PH-HI]    petición de comentario
+ [PH-HI]rgb (red, green, blue)[/PH-HI]    rojo, verde y azul
+ [PH-HI]ring indicator (ri)[/PH-HI]    indicador de llamada
+ [PH-HI]ring network[/PH-HI]    red en anillo
+ [PH-HI]risc (reduced instructions set computer)[/PH-HI]    juego reducido de instrucción para el ordenador
+ [PH-HI]rje (remote job entry)[/PH-HI]    entrada remota de trabajo
+ [PH-HI]rnr (receiver not ready)[/PH-HI]    receptor no preparado
+ [PH-HI]roadmap[/PH-HI]    guía básica
+ [PH-HI]robot[/PH-HI]    robot
+ [PH-HI]roll in, to[/PH-HI]    transferir dentro (de memora auxiliar a principal)
+ [PH-HI]roll out, to[/PH-HI]    transferir fuera (de memoria principal a auxiliar)
+ [PH-HI]roller[/PH-HI]    rodillo
+ [PH-HI]romable[/PH-HI]    gravable en rom
+ [PH-HI]roman font[/PH-HI]    fuente románica
+ [PH-HI]root[/PH-HI]    raíz
+ [PH-HI]rose (remote operation service)[/PH-HI]    servicio de operaciones remoto
+ [PH-HI]rounding error[/PH-HI]    error de redondeo
+ [PH-HI]route[/PH-HI]    ruta
+ [PH-HI]router[/PH-HI]    encaminador, enrutador, direccionador
+ [PH-HI]routine[/PH-HI]    rutina
+ [PH-HI]row[/PH-HI]    fila
+ [PH-HI]row-column scanning (roco scanning)[/PH-HI]    exploración de líneas
+ [PH-HI]rpc (remote procedure call)[/PH-HI]    llamadas a procedimientos remotos
+ [PH-HI]rr (receiver ready)[/PH-HI]    receptor preparado
+ [PH-HI]rtf (rich-text format)[/PH-HI]    formato de texto enriquecido
+ [PH-HI]rtp (real time protocol)[/PH-HI]    protocolo de emisión
+ [PH-HI]rts (request to send)[/PH-HI]    solicitud de envío
+ [PH-HI]ruggedized computer[/PH-HI]    ordenador reforzado
+ [PH-HI]rule[/PH-HI]    regla
+ [PH-HI]run, to[/PH-HI]    ejecutar, cargar
+ [PH-HI]runtime[/PH-HI]    en tiempo de ejecución, al ejecutarse
+ [PH-HI]runtime error[/PH-HI]    error en tiempo de ejecución
+ [PH-HI]rvi (reverse interrupt)[/PH-HI]    interrupción inversa
+ [PH-HI]rwin (receive window)[/PH-HI]    ventana de recepción
+ [PH-HI]s-gnd (sg)[/PH-HI]    tierra de señalización
+ [PH-HI]s-http (secure hypertext transfer protocol)[/PH-HI]    protocolo seguro de transferencia de hipertexto
+ [PH-HI]safeguard, to[/PH-HI]    proteger
+ [PH-HI]sample[/PH-HI]    muestra, ejemplo
+ [PH-HI]saturation[/PH-HI]    saturación
+ [PH-HI]save, to[/PH-HI]    guardar, salvar
+ [PH-HI]scale[/PH-HI]    escala
+ [PH-HI]scan[/PH-HI]    barrido
+ [PH-HI]scanner[/PH-HI]    explorador
+ [PH-HI]scatter graph[/PH-HI]    gráfico disperso
+ [PH-HI]scheduled report[/PH-HI]    informe periódico
+ [PH-HI]scheduler[/PH-HI]    planificador, agenda
+ [PH-HI]schema[/PH-HI]    esquema
+ [PH-HI]scope[/PH-HI]    osciloscopio
+ [PH-HI]screen[/PH-HI]    pantalla
+ [PH-HI]screen dump[/PH-HI]    capturación de pantalla
+ [PH-HI]screen grid[/PH-HI]    cuadrícula de la pantalla, retícula de la pantalla
+ [PH-HI]screen saver[/PH-HI]    protector de pantalla, salva pantallas, preservador de pantallas
+ [PH-HI]screened data[/PH-HI]    datos filtrados, datos seleccionados
+ [PH-HI]screw[/PH-HI]    tornillo
+ [PH-HI]script[/PH-HI]    macro, script
+ [PH-HI]scroll[/PH-HI]    desplazamiento
+ [PH-HI]scroll lock key[/PH-HI]    tecla bloqueo de desplazamiento de pantalla
+ [PH-HI]scrollbar[/PH-HI]    barra de desplazamiento
+ [PH-HI]secondary[/PH-HI]    secundario
+ [PH-HI]sector[/PH-HI]    sector
+ [PH-HI]secure server[/PH-HI]    servidor seguro
+ [PH-HI]security[/PH-HI]    seguridad
+ [PH-HI]security analysis tool for audition networks (satan)[/PH-HI]    herramienta de análisis de seguridad para la auditoría de redes
+ [PH-HI]security flaws[/PH-HI]    fallos en la seguridad, fisuras en la seguridad
+ [PH-HI]seek time[/PH-HI]    tiempo de búsqueda, tiempo de posicionamiento
+ [PH-HI]seek, to[/PH-HI]    buscar, posicionar
+ [PH-HI]select, to[/PH-HI]    seleccionar, activar
+ [PH-HI]self checking[/PH-HI]    autochequeo, autocomprobación
+ [PH-HI]self testing[/PH-HI]    autocomprobación
+ [PH-HI]semantics[/PH-HI]    semántica
+ [PH-HI]send[/PH-HI]    enviar
+ [PH-HI]sender[/PH-HI]    transmisor, emisor
+ [PH-HI]separator[/PH-HI]    separador
+ [PH-HI]sepp (secure electronic payment protocol)[/PH-HI]    protocolo de pago electrónico seguro
+ [PH-HI]sequential[/PH-HI]    secuencial
+ [PH-HI]sequential file[/PH-HI]    fichero de acceso secuencial
+ [PH-HI]serial[/PH-HI]    en serie, serie
+ [PH-HI]serial line[/PH-HI]    línea serie
+ [PH-HI]serial port[/PH-HI]    puerto serie
+ [PH-HI]serial transmission[/PH-HI]    transmisión serie
+ [PH-HI]server[/PH-HI]    servidor
+ [PH-HI]service access point (sap)[/PH-HI]    punto de acceso al servicio
+ [PH-HI]service data unit (sdu)[/PH-HI]    unidad de datos de servicio
+ [PH-HI]session[/PH-HI]    sesión
+ [PH-HI]set (secure electronic transaction)[/PH-HI]    transacción electrónica segura
+ [PH-HI]set, to[/PH-HI]    fijar, establecer, definir
+ [PH-HI]settings[/PH-HI]    configuración, valor
+ [PH-HI]setup[/PH-HI]    configuración, instalación
+ [PH-HI]setup disk[/PH-HI]    disco de instalación
+ [PH-HI]shade[/PH-HI]    matiz
+ [PH-HI]shadow[/PH-HI]    sombra
+ [PH-HI]shadow random access memory[/PH-HI]    memoria sombra
+ [PH-HI]shape[/PH-HI]    forma
+ [PH-HI]share, to[/PH-HI]    compartir
+ [PH-HI]shareware[/PH-HI]    software compartido
+ [PH-HI]sharp, to be[/PH-HI]    nítido, claro
+ [PH-HI]sharpness[/PH-HI]    nitidez
+ [PH-HI]shelfware[/PH-HI]    software de estantería (no vende)
+ [PH-HI]shell[/PH-HI]    cubierta (de un sistema operativo), intérprete de comandos
+ [PH-HI]shielding layer[/PH-HI]    capa protectora, capa de blindado
+ [PH-HI]shift[/PH-HI]    mayúsculas
+ [PH-HI]shift register[/PH-HI]    registro de desplazamiento
+ [PH-HI]shift, to[/PH-HI]    desplazar
+ [PH-HI]shortcut[/PH-HI]    método abreviado, acceso directo, atajo
+ [PH-HI]shredder[/PH-HI]    maquina destructora de documentos
+ [PH-HI]shrink, to[/PH-HI]    comprimir
+ [PH-HI]side effect[/PH-HI]    efecto secundario
+ [PH-HI]sidehead[/PH-HI]    título lateral
+ [PH-HI]sign[/PH-HI]    signo
+ [PH-HI]sign bit[/PH-HI]    bit de signo
+ [PH-HI]sign off, to[/PH-HI]    cerrar sesión
+ [PH-HI]sign on, to[/PH-HI]    iniciar sesión
+ [PH-HI]signal[/PH-HI]    señal
+ [PH-HI]signal power[/PH-HI]    potencia de señal
+ [PH-HI]signal-to-noise ratio (s/n)[/PH-HI]    relación señal-ruido
+ [PH-HI]signposting[/PH-HI]    señalización
+ [PH-HI]silicon[/PH-HI]    silicio
+ [PH-HI]simplex[/PH-HI]    simplex
+ [PH-HI]simulation[/PH-HI]    simulación
+ [PH-HI]simulator[/PH-HI]    simulador
+ [PH-HI]simultaneous[/PH-HI]    simultáneo
+ [PH-HI]single edge connect (sec)[/PH-HI]    conexión de una sola línea
+ [PH-HI]single in-line memory module (simm)[/PH-HI]    módulo simple de memoria en línea
+ [PH-HI]sink tree[/PH-HI]    arbol sumidero
+ [PH-HI]sinusoidal[/PH-HI]    senoidal, sinusoidal
+ [PH-HI]sio (serial input/output)[/PH-HI]    entrada/salida serie
+ [PH-HI]size[/PH-HI]    tamaño
+ [PH-HI]skip, to[/PH-HI]    saltar
+ [PH-HI]slash[/PH-HI]    barra diagonal (/)
+ [PH-HI]slave[/PH-HI]    esclavo
+ [PH-HI]sleeve[/PH-HI]    acoplador, casquillo
+ [PH-HI]slider[/PH-HI]    control deslizante
+ [PH-HI]slip (serial line internet protocol)[/PH-HI]    línea serie de protocolo de internet
+ [PH-HI]slot[/PH-HI]    ranura
+ [PH-HI]small caps[/PH-HI]    versales, minúsculas
+ [PH-HI]small computer system interface (scsi)[/PH-HI]    interfaz de sistemas de ordenadores pequeños
+ [PH-HI]smtp (simple mail transfer protocol)[/PH-HI]    protocolo de correo electrónico
+ [PH-HI]snmp (simple network management protocol)[/PH-HI]    protocolo simple de administración de redes
+ [PH-HI]socket[/PH-HI]    zócalo
+ [PH-HI]soft key[/PH-HI]    tecla de función programable
+ [PH-HI]software[/PH-HI]    software, soporte lógico
+ [PH-HI]software bundle[/PH-HI]    paquete de software
+ [PH-HI]software developer[/PH-HI]    desarrollador de programas
+ [PH-HI]software development kit (sdk)[/PH-HI]    kit de desarrollo de software
+ [PH-HI]software piracy[/PH-HI]    piratería de software, de programas
+ [PH-HI]software vaccine[/PH-HI]    vacuna para el software
+ [PH-HI]sort, to[/PH-HI]    ordenar, clasificar
+ [PH-HI]sorter[/PH-HI]    clasificador
+ [PH-HI]sound[/PH-HI]    sonido
+ [PH-HI]sound card[/PH-HI]    tarjeta de sonido
+ [PH-HI]sound chime[/PH-HI]    señal sonora
+ [PH-HI]source[/PH-HI]    origen, fuente
+ [PH-HI]source program[/PH-HI]    programa fuente
+ [PH-HI]space[/PH-HI]    espacio
+ [PH-HI]space bar[/PH-HI]    barra espaciadora
+ [PH-HI]spdu (session protocol data unit)[/PH-HI]    nivel de sesión de la unidad de datos de protocolo
+ [PH-HI]specific applications service elements (sase)[/PH-HI]    elementos de aplicaciones de servicios específicos
+ [PH-HI]speller[/PH-HI]    verificador ortográfico, corrector ortográfico
+ [PH-HI]spider network[/PH-HI]    red en araña
+ [PH-HI]split bar[/PH-HI]    barra de división
+ [PH-HI]split screen[/PH-HI]    pantalla partida o dividida
+ [PH-HI]spooling[/PH-HI]    operaciones periféricas simultáneas en línea
+ [PH-HI]sprite[/PH-HI]    objeto móvil, duende(en pantalla)
+ [PH-HI]sprocket holes[/PH-HI]    perforación de arrastre
+ [PH-HI]sqa[/PH-HI]    garantía de calidad del software
+ [PH-HI]sqd (signal quality detect)[/PH-HI]    detector de calidad de señal
+ [PH-HI]srd (secondary received data)[/PH-HI]    recepción de datos circuito secundario
+ [PH-HI]srej (selective reject)[/PH-HI]    rechazo selectivo
+ [PH-HI]ss (single sided)[/PH-HI]    cara simple
+ [PH-HI]ssl (secure servers layers)[/PH-HI]    capa de servidor seguro
+ [PH-HI]ssl (secure socket layer)[/PH-HI]    capa de enchufe seguro
+ [PH-HI]stack[/PH-HI]    pila
+ [PH-HI]staggered windows[/PH-HI]    ventanas escalonadas
+ [PH-HI]stand-alone system[/PH-HI]    sistema autónomo
+ [PH-HI]stand-by[/PH-HI]    en espera, disponible, en reserva activa
+ [PH-HI]standard[/PH-HI]    estándar
+ [PH-HI]standard generalized markup language (sgml)[/PH-HI]    lenguaje estandarizado y generalizado de marcado
+ [PH-HI]standard mode[/PH-HI]    modo estándar
+ [PH-HI]standardize, to[/PH-HI]    estandarizar, normalizar
+ [PH-HI]star network[/PH-HI]    red de estrella
+ [PH-HI]start[/PH-HI]    inicio, comienzo
+ [PH-HI]start bit[/PH-HI]    bit de arranque
+ [PH-HI]start delimiter (sd)[/PH-HI]    inicio de la trama
+ [PH-HI]start of header (soh)[/PH-HI]    comienzo de cabecera
+ [PH-HI]start-stop transmission[/PH-HI]    transmisión arrítmica
+ [PH-HI]startup[/PH-HI]    inicializar, inicio
+ [PH-HI]state of the art technology[/PH-HI]    tecnología punta, tecnología de vanguardia
+ [PH-HI]statement[/PH-HI]    instrucción, factura
+ [PH-HI]static[/PH-HI]    estático
+ [PH-HI]static field[/PH-HI]    campo estático
+ [PH-HI]static random access memory (sram)[/PH-HI]    memoria de acceso aleatorio estática
+ [PH-HI]station[/PH-HI]    terminal, estación
+ [PH-HI]status[/PH-HI]    estado
+ [PH-HI]status bar[/PH-HI]    barra de estado
+ [PH-HI]status menu[/PH-HI]    menú de estado
+ [PH-HI]ste[/PH-HI]    terminal de señalización
+ [PH-HI]step[/PH-HI]    paso
+ [PH-HI]step-up[/PH-HI]    suplemento especial
+ [PH-HI]sticky note[/PH-HI]    nota adhesiva
+ [PH-HI]stop bit[/PH-HI]    bit de detención, bit de parada
+ [PH-HI]storage[/PH-HI]    almacenamiento
+ [PH-HI]store and forward, to[/PH-HI]    almacenar y enviar (mensajes)
+ [PH-HI]store, to[/PH-HI]    almacenar, guardar
+ [PH-HI]stp (shielded twisted pair)[/PH-HI]    par trenzado apantallado, par trenzado blindado
+ [PH-HI]streamer[/PH-HI]    unidad de cinta magnética
+ [PH-HI]string[/PH-HI]    cadena
+ [PH-HI]structure[/PH-HI]    estructura
+ [PH-HI]structured query language (sql)[/PH-HI]    lenguaje estructurado por consultas
+ [PH-HI]structured walkthrough[/PH-HI]    revisión estructurada
+ [PH-HI]stt (secure transaction technology)[/PH-HI]    tecnología de transacción segura
+ [PH-HI]stx (start of text)[/PH-HI]    comienzo de texto
+ [PH-HI]stylus[/PH-HI]    estilete
+ [PH-HI]subdirectory[/PH-HI]    subdirectorio
+ [PH-HI]subfont[/PH-HI]    fuente secundaria
+ [PH-HI]subject[/PH-HI]    asunto
+ [PH-HI]submit, to[/PH-HI]    presentar, remitir, entregar
+ [PH-HI]subroutine[/PH-HI]    subrutina
+ [PH-HI]subscript[/PH-HI]    subíndice
+ [PH-HI]suite[/PH-HI]    paquetes integrados
+ [PH-HI]summary[/PH-HI]    resumen
+ [PH-HI]supertwist display[/PH-HI]    visualizador de supertorsión
+ [PH-HI]supplier[/PH-HI]    proveedor
+ [PH-HI]supply connector[/PH-HI]    conector de alimentación
+ [PH-HI]support[/PH-HI]    soporte
+ [PH-HI]survival guide[/PH-HI]    manual de referencia básica
+ [PH-HI]sweep frequency[/PH-HI]    frecuencia de barrido
+ [PH-HI]switch[/PH-HI]    conmutador, interruptor, modificador (línea de comandos)
+ [PH-HI]switchboard[/PH-HI]    central telefónica
+ [PH-HI]switched line[/PH-HI]    línea conmutada
+ [PH-HI]switching device[/PH-HI]    dispositivo de conmutación
+ [PH-HI]symmetric digital subscriber line (sdsl)[/PH-HI]    línea digital simétrica de abonado
+ [PH-HI]symmetric multiprocessing (smp)[/PH-HI]    sistema de multiproceso simétrico
+ [PH-HI]synchronize, to[/PH-HI]    sincronizar
+ [PH-HI]synchronous[/PH-HI]    síncrono
+ [PH-HI]synchronous data link controller (sdlc)[/PH-HI]    controlador de enlace de datos síncrono
+ [PH-HI]synchronous detector[/PH-HI]    detector síncrono
+ [PH-HI]syntax[/PH-HI]    sintaxis
+ [PH-HI]syntax error[/PH-HI]    error sintáctico
+ [PH-HI]sysop (system operator)[/PH-HI]    operador del sistema (de una bbs)
+ [PH-HI]system breakdown[/PH-HI]    avería del sistema
+ [PH-HI]system failure[/PH-HI]    fallo del sistema
+ [PH-HI]system management application entity (smae)[/PH-HI]    entidad de aplicación de gestión
+ [PH-HI]system network architecture (sna)[/PH-HI]    arquitectura de redes, arquitectura sna
+ [PH-HI]systems analyst[/PH-HI]    analista de sistemas
+ [PH-HI]systems application architecture (saa)[/PH-HI]    arquitectura saa
+ [PH-HI]systems engineer (se)[/PH-HI]    ingeniero de sistemas
+ [PH-HI]tab[/PH-HI]    cinta protectora
+ [PH-HI]tab (tabulator)[/PH-HI]    tabulador
+ [PH-HI]table[/PH-HI]    tabla
+ [PH-HI]tag[/PH-HI]    rótulo
+ [PH-HI]tailor-made program[/PH-HI]    programa hecho a medida, programa diseñado a medida
+ [PH-HI]tamper-proof[/PH-HI]    no modificable
+ [PH-HI]tape[/PH-HI]    cinta
+ [PH-HI]tape search[/PH-HI]    búsqueda en cinta
+ [PH-HI]target[/PH-HI]    destino
+ [PH-HI]task[/PH-HI]    tarea
+ [PH-HI]taskbar[/PH-HI]    barra de tareas
+ [PH-HI]technical reference[/PH-HI]    referencia técnica
+ [PH-HI]technical services[/PH-HI]    atención al cliente
+ [PH-HI]technical support[/PH-HI]    soporte técnico
+ [PH-HI]telecommunications[/PH-HI]    telecomunicaciones
+ [PH-HI]telecommunications access method (tcam)[/PH-HI]    método de acceso de telecomunicaciones
+ [PH-HI]telecommute, to[/PH-HI]    trabajar a distancia(con telecomunicaciones)
+ [PH-HI]teleconference[/PH-HI]    teleconferencia
+ [PH-HI]telephone handset[/PH-HI]    microteléfono (lleva micro)
+ [PH-HI]telephony[/PH-HI]    telefonía
+ [PH-HI]telephony application programming interface (tapi)[/PH-HI]    interfaz de programación de aplicaciones de telefonía
+ [PH-HI]teletext[/PH-HI]    teletexto
+ [PH-HI]telnet (tele network)[/PH-HI]    tele red
+ [PH-HI]template[/PH-HI]    plantilla
+ [PH-HI]temporary file[/PH-HI]    fichero temporal
+ [PH-HI]temporary store[/PH-HI]    almacenamiento temporal
+ [PH-HI]tera (t)[/PH-HI]    tera (un trillón)
+ [PH-HI]terabyte (tb)[/PH-HI]    terabyte (un trillón de octetos)
+ [PH-HI]term[/PH-HI]    término
+ [PH-HI]terminal[/PH-HI]    terminal
+ [PH-HI]terminal controller[/PH-HI]    controlador de terminales
+ [PH-HI]terminal emulation[/PH-HI]    emulación de terminal
+ [PH-HI]terminal server[/PH-HI]    servidor de terminal
+ [PH-HI]test, to[/PH-HI]    probar
+ [PH-HI]text[/PH-HI]    texto
+ [PH-HI]text editor[/PH-HI]    editor de texto
+ [PH-HI]texture[/PH-HI]    textura
+ [PH-HI]thermal noise[/PH-HI]    ruido térmico
+ [PH-HI]thermal printer[/PH-HI]    impresora térmica
+ [PH-HI]thesaurus[/PH-HI]    diccionario de sinónimos
+ [PH-HI]thick-ethernet[/PH-HI]    red ethernet de coaxial grueso
+ [PH-HI]thin film transistor (tft)[/PH-HI]    transistor de película delgada
+ [PH-HI]thin-ethernet[/PH-HI]    red ethernet de coaxial fino
+ [PH-HI]three-dimensional (3d)[/PH-HI]    tridimensional
+ [PH-HI]throughput[/PH-HI]    rendimiento total (de procesamiento), capacidad de ejecución, productividad
+ [PH-HI]thumbnail[/PH-HI]    boceto
+ [PH-HI]tightly coupled system[/PH-HI]    sistema fuertemente acoplado
+ [PH-HI]tile[/PH-HI]    recuadro
+ [PH-HI]tiled windows[/PH-HI]    ventanas en mosaico, ventanas embaldosadas
+ [PH-HI]tilting screen[/PH-HI]    pantalla inclinable
+ [PH-HI]time aligned[/PH-HI]    alineado en tiempo
+ [PH-HI]time sharing[/PH-HI]    tiempo compartido
+ [PH-HI]timer[/PH-HI]    temporizador
+ [PH-HI]timeslice[/PH-HI]    intervalo de tiempo
+ [PH-HI]timing signals[/PH-HI]    señales de temporizaron, señales de sincronización
+ [PH-HI]tip[/PH-HI]    sugerencia
+ [PH-HI]title[/PH-HI]    título
+ [PH-HI]title bar[/PH-HI]    barra de título
+ [PH-HI]toggle[/PH-HI]    conmutador
+ [PH-HI]toggle off, to[/PH-HI]    desactivar
+ [PH-HI]toggle on, to[/PH-HI]    activar
+ [PH-HI]toggle, to[/PH-HI]    alternar
+ [PH-HI]token[/PH-HI]    testigo, paso de testigo
+ [PH-HI]token passing bus[/PH-HI]    paso de testigo en bus
+ [PH-HI]token ring[/PH-HI]    anillo con paso de testigo
+ [PH-HI]tone[/PH-HI]    tono
+ [PH-HI]tool[/PH-HI]    herramienta
+ [PH-HI]toolbar[/PH-HI]    barra de herramientas
+ [PH-HI]toolkit[/PH-HI]    juego de herramientas
+ [PH-HI]top (technical and office protocol)[/PH-HI]    protocolo técnico y de oficina
+ [PH-HI]top-down design[/PH-HI]    diseño descendente
+ [PH-HI]top-down programming[/PH-HI]    programación descendente
+ [PH-HI]topic[/PH-HI]    tema
+ [PH-HI]topology[/PH-HI]    topología
+ [PH-HI]touch-sensitive screen[/PH-HI]    pantalla táctil
+ [PH-HI]touch-tone[/PH-HI]    llamada por tonos
+ [PH-HI]tower case[/PH-HI]    chasis tipo torre,  caja tipo torre
+ [PH-HI]trace, to[/PH-HI]    trazar, indicar, rastrear, seguir paso a paso
+ [PH-HI]tracer[/PH-HI]    trazador
+ [PH-HI]track[/PH-HI]    pista
+ [PH-HI]trackball[/PH-HI]    bola de seguimiento, bola rodante
+ [PH-HI]tracking[/PH-HI]    seguimiento
+ [PH-HI]tracking error[/PH-HI]    error de pista
+ [PH-HI]tracks per inch (tpi)[/PH-HI]    pistas por pulgada
+ [PH-HI]tractor feed[/PH-HI]    arrastre de papel, alimentación de papel (por tracción)
+ [PH-HI]trade-up[/PH-HI]    actualización
+ [PH-HI]transaction processing system (tps)[/PH-HI]    sistema de procesamiento de transacción
+ [PH-HI]transactions per second (tps)[/PH-HI]    transacciones por segundo
+ [PH-HI]transceiver[/PH-HI]    transceptor
+ [PH-HI]transcribe, to[/PH-HI]    transcribir, copiar
+ [PH-HI]transfer rate[/PH-HI]    velocidad de transferencia
+ [PH-HI]transfer, to[/PH-HI]    transferir
+ [PH-HI]transient[/PH-HI]    transitorio, pasajero
+ [PH-HI]transient error[/PH-HI]    error transitorio
+ [PH-HI]translate, to[/PH-HI]    traducir
+ [PH-HI]translator[/PH-HI]    traductor, compilador
+ [PH-HI]transmission[/PH-HI]    transmisión
+ [PH-HI]transmission control protocol (tcp)[/PH-HI]    protocolo de comunicaciones
+ [PH-HI]transmission control protocol/internet protocol (tcp/ip)[/PH-HI]    protocolo de comunicaciones para internet
+ [PH-HI]transmit buffer empty (tbe)[/PH-HI]    transmite la memoria intermedia vacía
+ [PH-HI]transmit data (td)[/PH-HI]    transmitir datos
+ [PH-HI]transmitter[/PH-HI]    emisor, transmisor
+ [PH-HI]transparent[/PH-HI]    transparente
+ [PH-HI]transponder[/PH-HI]    transpondedor
+ [PH-HI]transport[/PH-HI]    acarreo
+ [PH-HI]transport level interface (tli)[/PH-HI]    interfaz de nivel de transporte
+ [PH-HI]transport protocol data unit (tpdu)[/PH-HI]    nivel de transporte de la unidad de datos de protocolo
+ [PH-HI]trap, to[/PH-HI]    interceptar, atrapar, capturar
+ [PH-HI]trash[/PH-HI]    papelera
+ [PH-HI]tray[/PH-HI]    bandeja
+ [PH-HI]tree structure[/PH-HI]    arbol, estructura arbórea
+ [PH-HI]triphase[/PH-HI]    trifásico
+ [PH-HI]trojan horse[/PH-HI]    caballo de troya
+ [PH-HI]troubleshoot, to[/PH-HI]    solucionar problemas
+ [PH-HI]truncate, to[/PH-HI]    truncar
+ [PH-HI]truncation[/PH-HI]    truncamiento
+ [PH-HI]trustee rights[/PH-HI]    derechos de administración
+ [PH-HI]tsr (terminate and stay resident)[/PH-HI]    programa residente en memoria
+ [PH-HI]tss (telecommunications standards sector)[/PH-HI]    sector de estándares de telecomunicaciones
+ [PH-HI]tstn (triple stn)[/PH-HI]    stn triple
+ [PH-HI]ttl (time to live)[/PH-HI]    tiempo de vida
+ [PH-HI]tty (teletype, teletypewriter)[/PH-HI]    teletipo
+ [PH-HI]tuner[/PH-HI]    sintonizador
+ [PH-HI]turbo button[/PH-HI]    botón de turbo
+ [PH-HI]turn down, to[/PH-HI]    bajar
+ [PH-HI]turn off, to[/PH-HI]    apagar
+ [PH-HI]turn on, to[/PH-HI]    encender
+ [PH-HI]turnkey system[/PH-HI]    sistema completo, sistema compacto
+ [PH-HI]tutorial[/PH-HI]    manual de aprendizaje, lección, tutorial
+ [PH-HI]twisted pair[/PH-HI]    par trenzado(entrelazado)
+ [PH-HI]txe (transmitter empty)[/PH-HI]    transmisor vacío
+ [PH-HI]type[/PH-HI]    tipo
+ [PH-HI]type, to[/PH-HI]    teclear
+ [PH-HI]typeface[/PH-HI]    tipo de letra, tipo de fuente
+ [PH-HI]typeover[/PH-HI]    sobreescribir
+ [PH-HI]unavailable[/PH-HI]    no disponible
+ [PH-HI]unbundled system[/PH-HI]    sistema disociable
+ [PH-HI]underline[/PH-HI]    subrayado
+ [PH-HI]undo, to[/PH-HI]    deshacer
+ [PH-HI]unerase[/PH-HI]    recuperar
+ [PH-HI]unfreeze, to[/PH-HI]    liberar
+ [PH-HI]ungroup, to[/PH-HI]    desagrupar
+ [PH-HI]uninstall, to[/PH-HI]    desinstalar
+ [PH-HI]uninterrupted power supply (ups)[/PH-HI]    sistema de alimentación ininterrumpida (sai)
+ [PH-HI]unique[/PH-HI]    único
+ [PH-HI]unit[/PH-HI]    unidad
+ [PH-HI]universal[/PH-HI]    universal
+ [PH-HI]universal asynchronous receiver-transmitter (uart)[/PH-HI]    receptor-transmisor asíncrono universal
+ [PH-HI]universal language[/PH-HI]    lenguaje universal
+ [PH-HI]universal naming convention (unc)[/PH-HI]    convención de nomenclatura universal
+ [PH-HI]unknown[/PH-HI]    desconocido
+ [PH-HI]unload, to[/PH-HI]    descargar
+ [PH-HI]unlock, to[/PH-HI]    desbloquear
+ [PH-HI]unmount, to[/PH-HI]    desmontar
+ [PH-HI]unpack, to[/PH-HI]    desembalar, desempaquetar
+ [PH-HI]unrecognized[/PH-HI]    sin identificar
+ [PH-HI]up[/PH-HI]    arriba
+ [PH-HI]upc (universal product code)[/PH-HI]    código de producto universal
+ [PH-HI]update, to[/PH-HI]    actualizar (dentro de la misma versión), mejorar
+ [PH-HI]upgrade, to[/PH-HI]    actualizar (a nivel de diferentes versiones), mejorar
+ [PH-HI]upgradeability[/PH-HI]    posibilidad de mejora, posibilidad de ampliación
+ [PH-HI]upload, to[/PH-HI]    telecargar (de satélite a central)
+ [PH-HI]uploaded[/PH-HI]    sobrecargado
+ [PH-HI]upper memory area (uma)[/PH-HI]    area de memoria superior
+ [PH-HI]upper memory block (umb)[/PH-HI]    bloque de memoria superior
+ [PH-HI]upper-case letter[/PH-HI]    letra mayúscula
+ [PH-HI]ups (uninterrupted power supply)[/PH-HI]    sai (sistema de alimentación ininterrumpida)
+ [PH-HI]upselect, to[/PH-HI]    anular la selección
+ [PH-HI]uptime[/PH-HI]    tiempo de actividad (de una máquina)
+ [PH-HI]upward compatible[/PH-HI]    de compatibilidad ascendente
+ [PH-HI]url (uniform resource locator)[/PH-HI]    localizador unificado de recursos
+ [PH-HI]usb (universal serial bus)[/PH-HI]    bus serie universal
+ [PH-HI]user[/PH-HI]    usuario
+ [PH-HI]user datagram protocol (udp)[/PH-HI]    protocolo de datagramas de usuario
+ [PH-HI]user friendly[/PH-HI]    fácil de usar
+ [PH-HI]user group (ug)[/PH-HI]    grupo de usuario
+ [PH-HI]user identificator (uid)[/PH-HI]    identificador de usuario
+ [PH-HI]user request[/PH-HI]    petición de usuario
+ [PH-HI]user's guide[/PH-HI]    manual de usuario
+ [PH-HI]user's reference[/PH-HI]    referencia del usuario
+ [PH-HI]user-friendly[/PH-HI]    amigable, fácil de usar
+ [PH-HI]username[/PH-HI]    nombre de usuario
+ [PH-HI]usrt (universal synchronous receiver/transmitter)[/PH-HI]    transmisor/receptor universal síncrono
+ [PH-HI]utility[/PH-HI]    utilidad
+ [PH-HI]utp (unshielded twisted pair)[/PH-HI]    par trenzado sin apantallar, par trenzado sin blindar
+ [PH-HI]uucp (unix-to-unix copy program)[/PH-HI]    protocolo de comunicaciones de unix a unix
+ [PH-HI]validate, to[/PH-HI]    validar
+ [PH-HI]value[/PH-HI]    valor
+ [PH-HI]van (value added network)[/PH-HI]    red de valor añadido, red de valor agregado
+ [PH-HI]variable[/PH-HI]    variable
+ [PH-HI]vector[/PH-HI]    vector
+ [PH-HI]velocity tapering[/PH-HI]    abocinado de velocidad
+ [PH-HI]verify, to[/PH-HI]    comprobar
+ [PH-HI]version[/PH-HI]    versión
+ [PH-HI]vfd (vacuum fluorescent displays)[/PH-HI]    pantalla de vacío fluorescente
+ [PH-HI]vga plus (svga)[/PH-HI]    super adaptador de gráficos de vídeo
+ [PH-HI]video adaptor board[/PH-HI]    tarjeta de adaptador de vídeo
+ [PH-HI]video amplifier[/PH-HI]    amplificador de vídeo
+ [PH-HI]video controller[/PH-HI]    controladora de vídeo, tarjeta de vídeo
+ [PH-HI]video display board[/PH-HI]    tarjeta de vídeo, controladora de vídeo
+ [PH-HI]video display terminal (vdt)[/PH-HI]    terminal de pantalla de vídeo
+ [PH-HI]video display unit (vdu)[/PH-HI]    unidad de pantalla de vídeo
+ [PH-HI]video electronics standards association (vesa)[/PH-HI]    asociación de estándares de vídeo y electrónica
+ [PH-HI]video graphics adapter (vga)[/PH-HI]    adaptador de gráficos de vídeo
+ [PH-HI]video processor[/PH-HI]    procesador de vídeo
+ [PH-HI]view[/PH-HI]    vista
+ [PH-HI]view, to[/PH-HI]    ver, modo de ver
+ [PH-HI]viewer[/PH-HI]    visualizador
+ [PH-HI]virtual[/PH-HI]    virtual
+ [PH-HI]virtual disk (vdisk)[/PH-HI]    disco virtual
+ [PH-HI]virtual file allocation table (vfat)[/PH-HI]    tabla de asignación de archivos virtual
+ [PH-HI]virtual network system (vines)[/PH-HI]    sistema de redes virtual
+ [PH-HI]virus[/PH-HI]    virus
+ [PH-HI]virus detection[/PH-HI]    detección de virus
+ [PH-HI]visca (video system control architecture)[/PH-HI]    arquitectura de control de sistema de vídeo
+ [PH-HI]vlb (vesa local bus)[/PH-HI]    bus local de vesa
+ [PH-HI]vm (virtual machine)[/PH-HI]    máquina virtual
+ [PH-HI]vm (virtual memory)[/PH-HI]    memoria virtual
+ [PH-HI]vm/sp (virtual machine/system product)[/PH-HI]    máquina virtual / producto de sistema
+ [PH-HI]voice information service (vis)[/PH-HI]    servicio de información de voz
+ [PH-HI]voice mail[/PH-HI]    correo de voz
+ [PH-HI]voice recognition[/PH-HI]    reconocimiento de voz
+ [PH-HI]void[/PH-HI]    defecto de impresión, defecto de entintado
+ [PH-HI]voltage[/PH-HI]    tensión
+ [PH-HI]volume[/PH-HI]    volumen
+ [PH-HI]volume label[/PH-HI]    etiqueta de volumen
+ [PH-HI]vr (virtual reality)[/PH-HI]    realidad virtual
+ [PH-HI]vram (video random access memory)[/PH-HI]    memoria de acceso aleatorio de vídeo
+ [PH-HI]vrc (vertical redundancy check)[/PH-HI]    control de redundancia vertical
+ [PH-HI]vrl (virtual reality language), vrml[/PH-HI]    lenguaje de realidad virtual
+ [PH-HI]vrml (virtual reality modeling language), vrl[/PH-HI]    lenguaje de modelado de realidad virtual
+ [PH-HI]vsam (virtual storage access method)[/PH-HI]    método de acceso de almacenamiento virtual
+ [PH-HI]vt (video terminal)[/PH-HI]    terminal de vídeo
+ [PH-HI]vt (virtual terminal)[/PH-HI]    terminal virtual
+ [PH-HI]wafer[/PH-HI]    microplaqueta
+ [PH-HI]wait[/PH-HI]    espera
+ [PH-HI]wait state[/PH-HI]    estado de espera
+ [PH-HI]wallpaper[/PH-HI]    papel tapiz
+ [PH-HI]wand[/PH-HI]    lápiz lector
+ [PH-HI]warm start[/PH-HI]    arranque en caliente, iniciar en caliente
+ [PH-HI]warning[/PH-HI]    advertencia, aviso, alarma
+ [PH-HI]warning system[/PH-HI]    sistema de alarma
+ [PH-HI]washer[/PH-HI]    arandela
+ [PH-HI]watchdog timer[/PH-HI]    temporizador de guarda
+ [PH-HI]wave[/PH-HI]    onda
+ [PH-HI]web page[/PH-HI]    página web
+ [PH-HI]webmaster[/PH-HI]    administrador de web
+ [PH-HI]weight[/PH-HI]    grosor
+ [PH-HI]weighted code[/PH-HI]    código ponderado
+ [PH-HI]wide area information service (wais)[/PH-HI]    servidores de información de área amplia
+ [PH-HI]wide area network (wan)[/PH-HI]    red de área amplia o extensa
+ [PH-HI]wideband[/PH-HI]    banda ancha
+ [PH-HI]width[/PH-HI]    ancho
+ [PH-HI]wildcard[/PH-HI]    comodín, metacarácter
+ [PH-HI]window[/PH-HI]    ventana
+ [PH-HI]window manager[/PH-HI]    administrador de ventanas
+ [PH-HI]windows application binary interface (wabi)[/PH-HI]    interfaz binario de windows de aplicación
+ [PH-HI]wire[/PH-HI]    hilo, cable, alambre
+ [PH-HI]wizard[/PH-HI]    asistente
+ [PH-HI]wmc (warning and maintenance computer)[/PH-HI]    ordenador de aviso y mantenimiento
+ [PH-HI]word[/PH-HI]    palabra
+ [PH-HI]word processing[/PH-HI]    tratamiento de texto
+ [PH-HI]word processor[/PH-HI]    procesador de texto
+ [PH-HI]word wrap[/PH-HI]    ajuste automático de línea
+ [PH-HI]work breakdown structure (wbs)[/PH-HI]    estructura de descomposición de trabajos
+ [PH-HI]workgroup[/PH-HI]    grupo de trabajo
+ [PH-HI]working directory[/PH-HI]    directorio de trabajo
+ [PH-HI]worksheet[/PH-HI]    hoja de cálculo
+ [PH-HI]workspace[/PH-HI]    area de trabajo
+ [PH-HI]workstation[/PH-HI]    estación de trabajo, terminal
+ [PH-HI]worm (write-once, read-many)[/PH-HI]    una sola escritura - varias lecturas, escribir una vez - leer muchas
+ [PH-HI]wosa (windows open services architecture)[/PH-HI]    arquitectura de servicios abiertos de windows
+ [PH-HI]wram (windows random access memory)[/PH-HI]    ram de windows
+ [PH-HI]wrap-around[/PH-HI]    retorno del cursor
+ [PH-HI]write protect notch[/PH-HI]    pestaña de protección contra escritura
+ [PH-HI]write protection[/PH-HI]    protección contra escritura
+ [PH-HI]write-once, read-many (worm)[/PH-HI]    una sola escritura - varias lecturas
+ [PH-HI]www (world wide web)[/PH-HI]    telaraña mundial, multimalla mundial (mmm)
+ [PH-HI]wysiwyg (what you see is what you get)[/PH-HI]    lo que se ve es lo que se obtiene, lo que ser ve es lo que se imprime
+ [PH-HI]xdr (external data representation)[/PH-HI]    representación externa de datos
+ [PH-HI]xga (extended graphics array)[/PH-HI]    matriz de gráficos extendida
+ [PH-HI]xma (extended memory adaptor)[/PH-HI]    adaptador de memoria extendida
+ [PH-HI]xmm (extended memory manager)[/PH-HI]    administrador de memoria extendida
+ [PH-HI]xms (extended memory specification)[/PH-HI]    especificación de memoria extendida
+ [PH-HI]xns (xerox network services)[/PH-HI]    protocolo de red de rank xerox
+ [PH-HI]xor (exclusive or operator)[/PH-HI]    operador "o" exclusivo
+ [PH-HI]xti (x/open transport interface)[/PH-HI]    interfaz de transporte x/open
+ [PH-HI]yield[/PH-HI]    rendimiento
+ [PH-HI]yield, to[/PH-HI]    rendir, producir
+ [PH-HI]zap, to[/PH-HI]    borrar, suprimir
+ [PH-HI]zero[/PH-HI]    cero
+ [PH-HI]zero set[/PH-HI]    puesta a cero
+ [PH-HI]zif (zero insertion force)[/PH-HI]    zócalo zif
+ [PH-HI]zoom[/PH-HI]    zoom
+ [PH-HI]zoom in, to[/PH-HI]    aumentar
+ [PH-HI]zoom out, to[/PH-HI]    reducir

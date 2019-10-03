@@ -1,0 +1,19 @@
+[PHTITLE]FUTURE TENSES
+
+Use the future when referring to an action that will take place in the future. In Spanish there are two ways to do it: the Future Grammatical and the Future Popular.
+
+
+[PHSECTION]FUTURE (GRAMMATICAL):
+[PH-HI]When referring to an event to take place in the future - the near future, far future, or at an undefined time in the future, you can use the Future Grammatical tense.  It is identical to "I will (verb)...". Simply, use the Future Tense conjugation of the (verb):[/PH-HI]
+
+	Yo hablaré.      (I will speak.)
+	Tú comerás.      (You will eat.)
+	Ellos dormirán.      (They will sleep.)
+
+
+[PHSECTION]FUTURE POPULAR:
+[PH-HI]When referring to a certain event in the near future, you can use the Future Popular tense. It's identical to "I am going to (verb)...".  The Future Popular is formed by:  'ir'+'a'+(verb):[/PH-HI]
+	
+	Voy a comer.   (I am going to eat.  [soon])
+	Vas a hablar.  (You are going to speak.  [soon])
+	Vamos a cantar.  (We are going to sing.  [soon])

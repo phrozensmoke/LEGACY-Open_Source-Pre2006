@@ -1,0 +1,20 @@
+[PHTITLE]VERB FAMILIES
+
+Click the [PH-HI]'Verb Families'[/PH-HI] tab.
+
+The 'Verb Families' tab shows a list of approximately 90 known Spanish verb families.  [PH-HI]A 'verb family' is a group of verbs which are all conjugated in a similar manner.[/PH-HI]  For example, the verb 'poner' (to put) is part of a 'family' that contains such verbs as 'oponer', 'yuxtaponer' and 'suponer'. All of these verbs are conjugated in a similary manner:
+
+	[PH-HI]PONER:[/PH-HI]
+		Yo pongo.  (I put.)
+	[PH-HI]SUPONER:[/PH-HI]
+		Yo supongo.  (I suppose.)
+	[PH-HI]OPONER:[/PH-HI]
+		Yo opongo.  (I oppose.)
+	[PH-HI]YUXTAPONER:[/PH-HI]
+		Yo yuxtapongo.  (I juxtapose.)
+
+The browseable list of 'verb families' is intended for your informational and studying purposes. You may save the list of 'verb families' to a plain text file by clicking the [PH-HI]'Save To File'[/PH-HI] button in the 'Verb Families' section.  Referring to the 'verb family' list periodically will greatly improve your Spanish vocabulary and speed up your learning of Spanish verb conjugation and grammar.
+
+If you are running a Linux/Unix version of Pythoñol, and have an LRPng/LPR-based spooler system on your computer, you may [PH-HI]print[/PH-HI] the list of 'verb families' by clicking [PH-HI]'File' -> 'Print...'[/PH-HI] on the Pythoñol main menu.  (Sorry, Windows users!)   See [PH-HI]'Help' --> 'Help...'[/PH-HI] on the menu for more information on printing in Pythoñol.
+
+If you have the [PH-HI]Festival text-to-speech[/PH-HI] extension installed and usable, you may hear the words pronounced by clicking the light blue [PH-HI]'Play'[/PH-HI] button, generally located to the left of your screen.  Click [PH-HI]'Help' -> 'Festival Text-to-Speech Help...'[/PH-HI] on the menu for more information.

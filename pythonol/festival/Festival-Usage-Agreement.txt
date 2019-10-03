@@ -1,0 +1,10 @@
+Festival version 1.4.3
+
+
+Restrictions
+
+Unlike versions prior to 1.4.0 this version is free for any purpose, commercial or non-commercial alike. Although it is our intention that the copyright allows commercial use without further licensing if you intend to use this commercially please check the actual copyright and the COPYING file in each of the distributions. If you do use the system commercially we would be interested to know so we can show we are making a useful contribution.
+
+Note that the British English lexicon is derived from Oxford Advanced Learners' Dictionary of Current English and that sub-system alone in our distribution is restricted for non-commercial use only. We hope to rectify this with an alternative free lexicon in the near future.
+
+Thank you for your continued interest in our work.

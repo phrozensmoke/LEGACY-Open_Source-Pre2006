@@ -1,0 +1,31 @@
+# Snowdream GTK+ Theme 2003 Rodney Dawes <dobey@free.fr>
+# Dreamy snow-like colours for your CleanIce happiness
+
+style "snowdream" {
+  bg[SELECTED] = "#516087"
+  fg[SELECTED] = "#efefef"
+    
+  bg[ACTIVE] = "#cccccc"
+  fg[ACTIVE] = "#343434"
+
+  bg[PRELIGHT] = "#516087"
+  fg[PRELIGHT] = "#efefef"
+
+  bg[INSENSITIVE] = "#dddddd"
+	fg[INSENSITIVE] = "#343434"
+
+  fg[NORMAL] = "#000000"
+  bg[NORMAL] = "#ececec"
+
+  base[NORMAL] = "#ffffff"
+  text[NORMAL] = "#000000"
+
+  base[SELECTED] = "#516087"
+  text[SELECTED] = "#efefef"
+	base[PRELIGHT] = "#516087"
+	text[PRELIGHT] = "#efefef"
+
+  engine "cleanice" {}
+}
+widget_class "*" style "snowdream"
+

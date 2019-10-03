@@ -1,0 +1,63 @@
+[PHTITLE]INDIRECT OBJECT PRONOUNS
+These pronouns are used as the indirect objects of verbs.
+
+[PH-HI]me:[/PH-HI] to me
+[PH-HI]nos:[/PH-HI] to us
+[PH-HI]te:[/PH-HI] to you (familiar)
+[PH-HI]os: [/PH-HI] to you all (plural, familiar, Spain)
+[PH-HI]le: [/PH-HI] to him, her, you (formal), it
+[PH-HI]les:[/PH-HI] to them, you all (formal)   (plural)
+[PH-HI]se: [/PH-HI]to himself / herself / yourself (formal) / themselves / yourselves (formal)
+
+Examples: 
+¿Me hablas?:  Are you talking to me?
+¿Me hablas a mí?: Are you talking to me? [a mí added for emphasis]
+Le dije la verdad.:  I told him/her/you the truth.
+Le dije la verdad a ella.: I told her the truth. [A ella added for clarification]
+
+Note: Indirect object pronouns cannot be used if the verb is only IMPLIED.  In those case, 'a' plus a preposition pronoun are used.
+
+Example:
+¿A quién hablas? ¿A mí?:  Who are talking to?  To me?  (verb is impled)
+Sí, a tí.
+Yes, (to) you.
+
+
+Note: Indirect object pronouns are normally used even when a noun is expressed as the indirect object: 
+
+Examples: 
+Le mando un regalo a Carlos.: I'm sending a present to Carlos.
+Les escribo a todos.: I write (to) everyone.
+
+[PH-HI]Special situation:[/PH-HI]  
+When parts of the body and articles of clothing appear as the direct object in Spanish, normally the definite article is used instead of the possessive adjective (my, your, his). An indirect object pronoun is used to indicate the person involved: 
+ 
+Examples:
+Me pongo los zapatos.: I put on my shoes.
+Ella se cortó el dedo.:  She cut her finger.
+
+[PH-HI]Position of object pronouns:[/PH-HI]
+Object pronouns normally occur immediately before the verb. However, if the verb is an affirmative command, an infinitive, or a gerund (-ndo form), the object pronouns are attached to the end of the verb form. Note that when pronouns are appended to a verb a written accent mark is necessary when the stressed syllable is more than two syllables from the end of the word. 
+
+Examples:
+¡Háblenos usted!: Talk to us!
+Favor de darme el libro.: Please give me the book.
+Quitándome el suéter.: Taking off my sweater.
+
+If the verb form consists of a conjugated verb and either an infinitive or an -ndo form, the user has the option of placing the object pronouns before the conjugated verb or attaching them to the end of the unconjugated one. 
+
+Example:
+Voy a verlo.:  I'm going to see him/you/it. (masculine)
+   OR:
+Lo voy a ver.:  I'm going to see him/you/it. (masculine)
+
+
+[PH-HI]Double object pronouns and the use of 'Se':[/PH-HI] 
+When both a direct and an indirect object pronoun occur with the same verb, the indirect object pronoun always comes first. If the letter 'L' occurs as the first letter of both the indirect object pronoun (le, les) and the direct object pronoun (lo, la, los, las), the indirect object pronoun is changed to 'se'. 
+
+Examples:
+Ya nos lo dijeron.:  They already told (it to) us.
+Véndamelos.:  Sell them to me! 
+Se lo di a ella.:  I gave it to her.  ('le' + 'lo', 'le' changed to 'se')
+Se la mandé a ellos.:  I sent it to them. ('les' + 'la', 'les' changed to 'se')
+Se los regalaremos.: We will give them to him/her. ('le' + 'los', 'le' changed to 'se')

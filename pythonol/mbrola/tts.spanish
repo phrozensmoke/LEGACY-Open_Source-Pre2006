@@ -1,0 +1,961 @@
+#!/usr/bin/perl
+
+# Copyright 1997 Alistair Conkie
+# See the readme.txt
+
+# Usage: a program do text to speech, in a most basic form.
+
+## DO NOT CHANGE THIS LINE - IT'S NEEDED BY PYTHONOL FOR CONTROLLING TTS PLAYBACK
+$0="PYTHONOL-TTS";
+
+
+
+## ADAPT THE LINE BELOW AS NECESSARY FOR AUDIO PLAYBACK ON YOUR SYSTEM
+$mbrola_cmd = "| ./mbrola -v 2.5 -t 1.3 mx1  - -.au | sox -t au - -t raw -r 8000 -Ub - >/dev/audio";
+
+
+
+# Other sound card examples here
+#$mbrola_cmd = "| ./mbrola -v 2.5 -t 1.3 mx1 - -.wav | bplay -b 16";
+#$mbrola_cmd = "| ./mbrola -v 2.5 -t 1.3 mx1 - -.wav | sox -t au - -t raw -Uub -r 8000 - | bplay -b 8";
+#$mbrola_cmd = "| ./mbrola -v 2.5 -t 1.3 mx1  - -.au | sox -t au - -t raw -r 8000 -Ub - >/dev/audio";
+
+
+
+
+%char_corrs = (
+        "\341", "'a",
+        "\351", "'e",
+        "\355", "'i",
+        "\363", "'o",
+        "\372", "'u",
+        "\374", '"u',
+        "\361", "~n",
+
+        ##### THERE ARE SEVERAL MISSING
+        ## inverted ? 277
+        ## inverted ! 241
+);
+
+# I want to be able to note NO sentence stress here too.
+%fw = (
+        'al', 'fw',
+        'aun', 'fw',
+        'vos', 'fw',
+        'del', 'fw',
+        'el', 'fw',
+        'en', 'fw',
+        'quien', 'fw',
+        'con', 'fw',
+        'cual', 'fw',
+        'cuan', 'fw',
+        'las', 'fw',
+        'los', 'fw',
+        'les', 'fw',
+        'mas', 'fw',
+        'mis', 'fw',
+        'nos', 'fw',
+        'os', 'fw',
+        'pos', 'fw',
+        'pues', 'fw',
+        'sin', 'fw',
+        'sus', 'fw',
+        'tan', 'fw',
+        'tras', 'fw',
+        'tus', 'fw',
+        'un', 'fw',
+
+        'ante', 'no_ss',
+        'hace', 'no_ss',
+        'hacia', 'no_ss',
+        'hasta', 'no_ss',
+        'aunque', 'no_ss',
+        'casi', 'no_ss',
+        'desde', 'no_ss',
+        'donde', 'no_ss',
+        'entre', 'no_ss',
+        'frente', 'no_ss',
+        'como', 'no_ss',
+        'contra', 'no_ss',
+        'cuando', 'no_ss',
+        'mientras', 'no_ss',
+        'pero', 'no_ss',
+        'porque', 'no_ss',
+        'puesto', 'no_ss',
+        'que', 'no_ss',
+        'cerca', 'no_ss',
+        'sino', 'no_ss',
+        'sobre', 'no_ss',
+
+);
+
+# Basic durations
+
+%tosampa = (
+        '#', '_',
+        'a', 'a',
+        'e', 'e',
+        'i', 'i',
+        'o', 'o',
+        'u', 'u',
+        'a:', 'a1',
+        'e:', 'e1',
+        'i:', 'i1',
+        'o:', 'o1',
+        'u:', 'u1',
+        'j', 'i',
+        'W', 'u',
+        'w', 'w',
+        'y', 'jj',
+        'c', 'tS',
+        's', 's',
+        'z', 's',
+        'p', 'p',
+        'b', 'b',
+        'B', 'b',
+        'f', 'f',
+        't', 't',
+        'd', 'd',
+        'D', 'd',
+        'S', 'T',
+        'k', 'k',
+        'g', 'g',
+        'G', 'g',
+        'x', 'x',
+        'm', 'm',
+        'n', 'n',
+        '~', 'J',
+        'N', 'n',
+        'M', 'm',
+        'l', 'l',
+        'L', 'L',
+        'r', 'r',
+        'R', 'rr',
+);
+
+%dur0 = (
+        'a', '90',
+        'e', '90',
+        'i', '80',
+        'o', '90',
+        'u', '80',
+        'a:', '108',
+        'e:', '108',
+        'i:', '96',
+        'o:', '108',
+        'u:', '96',
+        'j', '60',
+        'W', '60',
+        'w', '45',
+        'y', '90',
+        'c', '135',
+        's', '110',
+        'z', '60',
+        'p', '100',
+        'b', '60',
+        'B', '65',
+        'f', '100',
+        't', '85',
+        'd', '60',
+        'D', '65',
+        'S', '100',
+        'k', '100',
+        'g', '50',
+        'G', '80',
+        'x', '130',
+        'm', '70',
+        'n', '80',
+        '~', '110',
+        'N', '50',
+        'M', '50',
+        'l', '80',
+        'L', '105',
+        'r', '50',
+        'R', '80',
+);
+
+# Preparation - reading in the phonetization rules
+
+open(RULES,"spanish_rules");
+while(<RULES>) {
+        chop;
+        if(($_ =~ /^\#/) || ($_ eq '')) {
+                next;
+        }
+        @bits = split(' ',$_);
+        if(@bits>1) {
+                $ts{$bits[1]} = $bits[0];
+        }
+}
+close(RULES);
+
+# provides a transcription with stress and syllabification
+
+sub transcribe_word {
+        local($i) = $_[0];
+        local($t);
+        local($w);
+
+        ($tv,$rn,$w,$t) = find_match('',$i);
+        # print "Transcription: $t\n";
+        $t =~ s/_/ /g;
+
+        # and now a rather sad section (things with context)
+
+        $t =~ s/^r/R/;
+        $t =~ s/(\.|n|l|s) r/\1 R/;
+        $t =~ s/i a /j a /;     # caused by deficiencias (ja ja)
+        $t =~ s/i a$/j a/;
+        $t =~ s/L[ ]?$/l/;      # for catalan names
+
+        return($t);
+}
+
+sub find_match {
+        local($preword,$word) = @_;
+
+        local($key,$newpreword,$newword,$w,$t,$tv);
+
+        if($word eq '') {       # diff from L+K
+                return((1,'','',''));
+        } else {
+                foreach $key (reverse(sort(keys(%ts)))) {
+                        if($word =~/^($key)(.*)/) {     # needs to be more comp?
+                                # print "Found a match $key\n";
+                                $newpreword ="$preword$1";
+                                $newword = $2;
+                                ($tv,$rn,$w,$t) = find_match($newpreword,$newword);
+                                if($tv eq 1) {
+                                        $w = "$key $w";
+                                        $t = "$ts{$key} $t";
+                                        return(($tv,$nr,$w,$t));
+                                }
+                        }
+                }
+                return((0,'','',''));
+        }
+}
+
+
+
+sub use_synth {
+        open(MBROLA,"$mbrola_cmd");
+        print MBROLA $_[0];
+        close(MBROLA);
+}
+
+
+sub add_missing_stresses {
+        local($phons) = $_[0];;
+
+        # we want to provide two, fairly complex patterns
+        # why is it so complicated?     it certainly need not be
+        # first if the word terminates in n or s or vowel and has 2 sylls
+        # we add a stress marker -- if one is needed
+
+        @bits = split(/\|/,$phons);
+        $found_stress = 0;
+
+        foreach $bitphons (@bits) {
+
+                if($bitphons =~ /:/) {
+                        # no need to do anything
+                        @phonlist = split(' ',$bitphons);
+                        $found_stress = 1;
+                }
+
+                # first case   penultimate
+                elsif($bitphons =~ /[aeiousn][ ]?$/) {
+                        # it's much simpler to split
+                        @phonlist = split(' ',$bitphons);
+
+                        for($e=0;$e<=$#phonlist;$e++) {
+                                if($phonlist[$e] =~ /^[aeiou]$/) {
+                                        $remember = $e;  # a reference
+                                        # other conditions to satisfy.....
+                                        if(($e<=$#phonlist-2) && ($phonlist[$e+1] =~ /^[iu]$/)) {
+                                                $look = $e+2;
+                                        } elsif($e<=$#phonlist-1) {
+                                                $look = $e+1;
+                                        }
+                                        while(($look<=$#phonlist) && ($phonlist[$look] !~ /^[aeiou]$/)) {
+                                                $look++;
+                                        }
+                                        if(($look==$#phonlist) && ($phonlist[$look] =~ /^[aeiou]$/)) {
+                                                $found_stress = 1;
+                                                last;
+                                        }
+                                        elsif(($look==($#phonlist-1)) && ($phonlist[$look] =~ /^[aeiou]$/) && ($phonlist[$look+1] =~ /^[sn]$/
+)) {
+                                                $found_stress = 1;
+                                                last;
+                                        }
+                                        elsif(($look==($#phonlist-2)) && ($phonlist[$look] =~ /^[aeiou]$/) && ($phonlist[$look+1] =~ /^i$/) && ($phonlist[$look+2] =~ /^s$/)) {
+                                                $found_stress = 1;
+                                                last;
+                                        }
+                                }
+                        }
+                        if($found_stress == 1) {
+                                $phonlist[$remember] .= ":",
+                        }
+
+                # second case  final syll
+                } 
+                if($found_stress == 0) {
+                        # it's much simpler to split
+                        @phonlist = split(' ',$bitphons);
+                        $e = $#phonlist;
+
+                        if($e>=1) {
+                                if(($phonlist[$e-1] =~ /[aeiou]/) && ($phonlist[$e] =~ /[aeiou]/)) {
+                                        $phonlist[$e-1] .= ":",
+                                }
+                                elsif(($phonlist[$e-1] =~ /[aeioujW]/) && ($phonlist[$e] !~ /[aeiou]/)) {
+                                        $phonlist[$e-1] .= ":",
+                                }
+                                elsif($e>=2) {
+                                        if(($phonlist[$e-2] =~ /[aeiou]/) && ($phonlist[$e-1] !~ /[aeiou]/) && ($phonlist[$e] !~ /[aeiou]/)) 
+{
+                                                $phonlist[$e-2] .= ":",
+                                        }
+                                        elsif(($phonlist[$e-2] =~ /[aeiou]/) && ($phonlist[$e-1] =~ /[iu]/) && ($phonlist[$e] !~ /[aeiour]/))
+ {
+                                                $phonlist[$e-2] .= ":",
+                                        }
+                                }
+                        }
+                }
+                $bitphons = join(' ',@phonlist);
+
+        }
+
+        $phons = join(" . ",@bits);
+
+        return($phons);
+}
+
+### The start of the program itself ###
+ 
+print STDERR "FreeSpeech-Espanol (C) 1995 Alistair Conkie\n";
+print STDERR "There is ABSOLUTELY NO WARRANTY with this program.\n";
+
+$buffer = '';           # assume has had \n->space
+@sentencelist = ();
+while($line = <>) {
+        if($line eq "\n") {
+                if($buffer !~ /^[ \t\n]*$/) {
+                        push(@sentencelist,"$buffer");
+                        $buffer = '';
+                }
+                process_and_send_to_synth(@sentencelist);
+                @sentencelist = ();
+        } else {
+                chop($line);
+                $line .= " ";
+                @line = split(//,$line);
+                foreach $i (@line) {
+                        if($i =~ /[?\.!]/) {
+                                # suspect a sentence
+                                $buffer .= " $i";
+                                $poss_sent = 1;
+                        } elsif (($i eq "(") || ($i eq "{") || ($i eq "[")) {
+                                $buffer .= " $i ";
+                        } elsif (($i eq ")") || ($i eq "}") || ($i eq "]")) {
+                                $buffer .= " $i ";
+                        } elsif (($i =~ /[\241]/) || ($i =~ /[\277]/)) {   # inverted ! and ? resp
+                                $buffer .= " $i ";
+                        } elsif (($i eq ":") || ($i eq ";") || ($i eq ",")) {
+                                $buffer .= " $i ";
+                        } elsif (($i eq "\n") || ($i eq "\t") || ($i eq " ")) {
+                                if($poss_sent eq 1) {
+                                        if($buffer !~ /^[ \t\n]*$/) {
+                                                push(@sentencelist,"$buffer");
+                                                $buffer = '';
+                                        }
+                                        process_and_send_to_synth(@sentencelist);
+                                        @sentencelist = ();
+                                } else {
+                                        $poss_sent = 0;
+                                        $buffer .= ' ';
+                                }
+                        } elsif(defined($char_corrs{$i})) {
+                                $buffer .= $char_corrs{$i};
+                                $poss_sent = 0;
+                        } else {
+                                $buffer .= $i;
+                                $poss_sent = 0;
+                        }
+                }
+        }
+}
+# tidy up for EOF
+if($buffer ne '') {
+        push(@sentencelist,"$buffer");
+}
+process_and_send_to_synth(@sentencelist);
+
+sub process_and_send_to_synth {
+        local(@sentences) = @_;
+        local($xxxx_str);
+
+        $xxxx_str = "";
+
+        $first = 1;
+        foreach $sent (@sentences) {
+                @xxxx_data = process_sentence($sent);
+                if($first) {
+                        $xxxx_str .= join("\n",@xxxx_data);
+                        $first = 0;
+                } else {
+                        $xxxx_str .= "\n" . join("\n",@xxxx_data);
+                }
+        }
+        $LISTEN = 1;
+        if($LISTEN) {
+                use_synth($xxxx_str);
+        }
+}
+
+sub process_sentence {
+        local(@tokens) = split(' ',$_[0]);
+
+        @tokens0 = treat(@tokens);
+        @tokens1 = add_tags(@tokens0);
+        @tokens2 = phrases(@tokens1);
+        @tokens3 = transcribe(@tokens2);
+        @tokens4 = conv(@tokens3);
+        @tokens5 = massage(@tokens4);
+        @tokens6 = prosody(@tokens5);
+        @tokens7 = change_phonemes(@tokens6);
+
+        return(@tokens7);
+}
+
+sub token_type {
+        local($look) = $_[0];
+
+        if($look =~ /[A-Za-z0-9]/) {
+                return('word');
+        }
+        return('punct');
+}
+
+sub add_tags {
+        local(@data) = @_;
+        local($out) = '';
+        local(@out) = ();
+        local($n) = 0;
+
+        foreach $i (@data) {
+                if((token_type($i)) eq 'word') {
+                        if((function_word($i)) eq 'yes') {
+                                $out = "$i/FW";
+                        }else {
+                                $out = "$i/CW";
+                        }
+                } else {
+                        $out = "$i/PUNCT";
+                }
+                $out[$n++] = $out;
+        }
+        return(@out);
+}
+
+sub phrases {
+        local(@data) = @_;
+        local(@out) = ();
+
+        for($i=0,$j=0;$i<$#data;$i++) {
+                if(($data[$i] =~ /\/CW$/) && ($data[$i+1] =~ /\/FW$/)) {
+                        $out[$j++] = $data[$i];
+                        $out[$j++] = '/PUNCT';
+                } else {
+                        $out[$j++] = $data[$i];
+                }
+        }
+        $out[$j++] = $data[$i];
+        return(@out);
+}
+
+sub function_word {
+        local($word) = $_[0];
+
+        if(defined($fw{$word})) {
+                return('yes');
+        } else {
+                return('no');
+        }
+}
+
+sub transcribe {
+        local(@input) = @_;
+        local($word);
+        local(@out) = ();
+        local($trans);
+        local($j) = 0;
+
+        foreach $chunk (@input) {
+                if($chunk =~ /(.*)\/CW/) {
+                        $word = $1;
+                        $trans = transcribe_word($word);
+                        $trans = add_missing_stresses($trans);
+                        $trans = syllabify($trans);
+                        $out[$j++] = "$trans/CW";
+                }
+                elsif($chunk =~ /(.*)\/FW/) {
+                        $word = $1;
+                        $trans = transcribe_word($word);
+                        $trans = syllabify($trans);
+
+                        ## This still leaves the problem of what precisely to do with the
+                        ## non accented words
+
+                        $out[$j++] = "$trans/FW";
+                }
+                else {
+                        $out[$j++] = "$chunk";
+                }
+        }
+        return(@out);
+}
+
+sub conv {
+        local(@inlist) = @_;
+
+        local(@outlist) = ();
+        local($word) = '';
+        local($j) = 0;
+        local($syll_num) = 0;
+        local($stress) = '';
+
+        $outlist[$j++] = '# 50 H[<1.0>';
+        foreach $word (@inlist) {
+                if($word =~ /(.*)\/PUNCT/) {
+                        $notes = $1;
+                        $k = & last_vowel(@outlist);
+                        if($notes eq '') {              # minor phrase boundary
+                                $outlist[$k] .= "L-H]<0.2>";
+                                # zero duration...
+                        } else {                                # major phrase boundary
+                                if($notes eq '-') {
+                                        $outlist[$k] .= "L-H]<0.7>";
+                                        $duration = 50;
+                                }
+                                elsif(($notes eq ':') || ($notes eq '-')) {
+                                        $outlist[$k] .= "L-H]<0.7>";
+                                        $duration = 250; ### was 750
+                                }
+                                elsif($notes eq ';') {
+                                        $outlist[$k] .= "L-L]<0.7>";
+                                        $duration = 250; ### was 750
+                                }
+                                elsif($notes eq '.') {
+                                        $outlist[$k] .= "L-L]<1.0>";
+                                        $duration = 250; ### was 1200
+                                }
+                                elsif($notes eq '!') {          # not right
+                                        $outlist[$k] .= "L-L]<1.0>";
+                                        $duration = 250; ### was 1200
+                                }
+                                elsif($notes eq '?') {          # not right
+                                        $outlist[$k] .= "L-L]<1.0>";
+                                        $duration = 250; ### was 1200
+                                }
+                                elsif (($notes eq ',') || ($notes eq '(') || ($notes eq '[') ||
+                                       ($notes eq '{') || ($notes eq ')') || ($notes eq ']') ||
+                                       ($notes eq '}') || ($notes eq '"')) {
+                                        $outlist[$k] .= "L-H]<0.7>";
+                                        $duration = 200;
+                                }
+                                $outlist[$j++] = "# $duration";
+                        }
+                        next;
+                }
+                elsif($word =~ /(.*)\/CW/) {
+                        $phonemes = $1;
+                        $wordtype = 'CW';
+                }
+                elsif($word =~ /(.*)\/FW/) {
+                        $phonemes = $1;
+                        $wordtype = 'FW';
+                }
+                @phonemes = split(' ',$phonemes);
+                foreach $ph (@phonemes) {
+                        if($ph =~ /\-/) {
+                                next;
+                        }
+                        if(defined($dur0{$ph})) {               # true phoneme
+                                if($ph =~ /:$/) {
+                                        $stress = "H*<0.5>";
+                                }
+                                $outlist[$j++] = "$ph $syll_num $stress";       # and maybe a sentence stress
+                                $stress = '';
+                        } elsif (($ph eq '+') || ($ph eq '-') || ($ph eq '.') || ($ph eq '|')) {
+                                $syll_num += 1;
+                        } else {
+                                print "Something unknown: $j\n";
+                        }
+                }
+                $syll_num += 1;
+        }
+        if(($j eq 1) || ($outlist[$j-1] !~ /^#/)) {
+                $outlist[$j] = '# 1000';
+        }
+        return(@outlist);
+}
+
+sub last_vowel{
+        local(@phonemelist) = @_;
+        local($i);
+        local(@phoneme);
+
+        for($i=$#phonemelist;$i>=0;$i--) {
+                @phoneme = split(' ',$phonemelist[$i]); 
+                if($phoneme[0] =~ /[aeiou]/) {
+                        return($i);
+                }
+        }
+        #print "There is no vowel!!\n";
+}
+
+# Why is this so bloody difficult?????????
+# it would be simple with the rule compiler.
+sub syllabify {
+        local($phs) = $_[0];
+
+        @phonlist = split(' ',$phs);
+        local(@outlist) = ();
+
+        # first van Gerwen rule
+        for($e=0;$e<=$#phonlist;$e++) {
+                if(($e > 0) && ($e <= $#phonlist-2)) {  # possibly wrong
+                        if(($phonlist[$e] =~ /[BFGKP]/) && ($phonlist[$e+1] eq "L")) {
+                                push(@outlist,".");
+                        } elsif(($phonlist[$e] =~ /[BDFGKPT]/) && ($phonlist[$e+1] eq "R")) {
+                                push(@outlist,".");
+                        }
+                } 
+                push(@outlist,$phonlist[$e]);
+        }
+
+        (@phonlist) = @outlist;
+        @outlist = ();
+
+        # second van Gerwen rule
+        # paraphrasing
+        #  if we have a consonant followed by a vowel, or h plus vowel AND
+        #  the preceeding whatsits are not word boundary/syll boundary followed by a phoneme
+        #  go for it
+
+        for($e=0;$e<=$#phonlist;$e++) {
+                $rightOK = 0;
+                if($phonlist[$e] !~ /[AEIOU\.]/) {
+                        if(($e<$#phonlist) && ($phonlist[$e+1] =~ /[AEIOU]/)) {
+                                $rightOK = 1;
+                        } elsif (($e<$#phonlist-1) && ($phonlist[$e+1] eq "\-") && ($phonlist[$e+2] =~ /[AEIOU]/)) {
+                                $rightOK = 1;
+                        }
+                        if($rightOK) {
+                                if(($e >= 2) && ($phonlist[$e-1] ne ".") && ($phonlist[$e-2] ne ".")) {
+                                        push(@outlist,".");
+                                }
+                        }
+                }
+                push(@outlist,$phonlist[$e]);
+        }
+
+
+        (@phonlist) = @outlist;
+        @outlist = ();
+
+        # third van Gerwen rule
+        # BE very careful about size of array
+        if(($phonlist[0] =~ /[AEIOU]/) && ($phonlist[1] !~ /[AEIOU]/)) {
+                if($phonlist[2] =~ /[AEIOU]/) {
+                        $first = shift(@phonlist);
+                        unshift(@phonlist,".");
+                        unshift(@phonlist,$first);
+                } elsif (($phonlist[2] eq "\-") && ($phonlist[3] =~ /[AEIOU]/)) {
+                        $first = shift(@phonlist),
+                        unshift(@phonlist,".");
+                        unshift(@phonlist,$first);
+                }
+        }
+
+
+        @outlist = ();
+
+        # fourth van Gerwen rule
+        for($e=0;$e<=$#phonlist;$e++) {
+                push(@outlist,$phonlist[$e]);
+                if($phonlist[$e] =~ /[AEIOU]/) {
+                        if($phonlist[$e+1] =~ /^(A:|E:|I:|O:|U:|A|E|O)$/) {
+                                push(@outlist,".");
+                        }
+                }
+
+        }
+
+        return(join(' ',@outlist));
+}
+
+sub treat {     ## various bits of preprocessing -- everything that is in van Gerwen in the main rules
+        local(@words) = @_;
+        local($word);
+
+        ### sub-, -mente, hyphens, TOlower
+        ### stress additions
+
+        foreach $word (@words) {
+                $word =~ y/A-Z/a-z/;
+                if($word =~ /.+\-.+/ ) {
+                        $word =~ y/\-/|/;
+                } elsif($word =~ /^sub(lev|lin|lun|ray|rei|rep|rog)/) {
+                        $word =~ s/^sub/sub\-/;
+                } elsif($word =~ /mente$/) {
+                        if($word !~ /^(aumente|lamente|tormente)$/) {
+                                $word =~ s/mente$/|mente/;
+                        }
+                } elsif($word =~ /^(va|ve|vi|da|di|fe|ha|he|no|ti|yo|ya)$/ ) {
+                        $word =~ s/(.)(.)/\1'\2/;
+                } 
+        }
+
+        return(@words);
+}
+
+sub massage {
+        local(@in) = @_;
+        local(@out) = ();
+
+        # now we are in a position, knowing the pauses, to do the assimilation.
+
+        @phonss = ();
+        @syllns = ();
+        @pcomms = ();
+
+        for($mi=0;$mi<=$#in;$mi++) {
+                @fiddlybit = (split(' ',$in[$mi]),"");
+                ($phonss[$mi],$syllns[$mi],$pcomms[$mi]) = ($fiddlybit[0],$fiddlybit[1],$fiddlybit[2]);
+        }
+        for($mi=0;$mi<=$#in;$mi++) {
+                # lots of assimilations
+                if($phonss[$mi] eq "b") {
+                        if($mi==0) {
+                                $phonss[$mi] = "B";
+                        } elsif(($phonss[$mi-1] =~ /[MN#]/) && ($syllns[$mi-1] != $syllns[$mi])) {
+                                $phonss[$mi] = "B";
+                        }
+                }
+                elsif($phonss[$mi] eq "g") {
+                        if($mi==0) {
+                                $phonss[$mi] = "G";
+                        } elsif(($phonss[$mi-1] =~ /[MN#]/) && ($syllns[$mi-1] != $syllns[$mi])) {
+                                $phonss[$mi] = "G";
+                        }
+                }
+                elsif($phonss[$mi] eq "d") {
+                        if($mi==0) {
+                                $phonss[$mi] = "D";
+                        } elsif(($phonss[$mi-1] =~ /[MN#]/) && ($syllns[$mi-1] != $syllns[$mi])) {
+                                $phonss[$mi] = "D";
+                        }
+                }
+
+        }
+        for($mi=0;$mi<=$#in-2;$mi++) {
+                if(($phonss[$mi] eq "k") && ($phonss[$mi+1] eq "s") && ($syllns[$mi+1] != $syllns[$mi+2])) {
+                        $phonss[$mi] = "ELIMINATE";
+                }
+        }
+        for($mi=0;$mi<=$#in-1;$mi++) {
+                if(($phonss[$mi] eq "s") && ($phonss[$mi+1] eq "R") && ($syllns[$mi] != $syllns[$mi+1])) {
+                        $phonss[$mi] = "ELIMINATE";
+                }
+        }
+        for($mi=0;$mi<=$#in-1;$mi++) {
+                if(($phonss[$mi] eq $phonss[$mi+1]) && ($phonss[$mi] !~ /[aeiou]/)) {
+                        $phonss[$mi] = "ELIMINATE";
+                }
+        }
+        for($mi=0;$mi<=$#in-1;$mi++) {
+                if(($phonss[$mi] eq "k") && ($syllns[$mi] != $syllns[$mi+1])) {
+                        $phonss[$mi] = "G";
+                }
+        }
+        for($mi=0;$mi<=$#in-2;$mi++) {
+                if(($phonss[$mi] eq "k") && ($phonss[$mi+1] eq "s") && ($syllns[$mi+1] != $syllns[$mi+2])) {
+                        $phonss[$mi] = "G";
+                }
+        }
+        for($mi=0;$mi<=$#in-1;$mi++) {
+                if(($phonss[$mi] eq "p") && ($syllns[$mi] != $syllns[$mi+1])) {
+                        $phonss[$mi] = "B";
+                }
+        }
+        for($mi=0;$mi<=$#in-2;$mi++) {
+                if(($phonss[$mi] eq "p") && ($phonss[$mi+1] eq "s") && ($syllns[$mi+1] != $syllns[$mi+2])) {
+                        $phonss[$mi] = "B";
+                }
+        }
+        for($mi=0;$mi<=$#in-1;$mi++) {
+                if(($phonss[$mi] eq "t") && ($syllns[$mi] != $syllns[$mi+1])) {
+                        $phonss[$mi] = "D";
+                }
+        }
+        for($mi=0;$mi<=$#in-2;$mi++) {
+                if(($phonss[$mi] eq "t") && ($phonss[$mi+1] eq "s") && ($syllns[$mi+1] != $syllns[$mi+2])) {
+                        $phonss[$mi] = "D";
+                }
+        }
+        for($mi=0;$mi<=$#in-1;$mi++) {
+                if(($phonss[$mi] eq "s") && ($phonss[$mi+1] =~ /[Sbdgr]/) && ($syllns[$mi] != $syllns[$mi+1])) {
+                        $phonss[$mi] = "S";
+                }
+        }
+
+
+
+        for($mi=0;$mi<=$#in;$mi++) {
+                # do ELIMINATE
+                if($phonss[$mi] ne "ELIMINATE") {
+                        push(@out,join(' ',($phonss[$mi],$syllns[$mi],$pcomms[$mi])));
+                }
+        }
+
+        return(@out);
+}
+
+
+sub snum {              # syllable number
+        local($input) = $_[0];
+
+        local(@input) = split(' ',$input);
+
+        if($input[0] ne '#') {
+                return($input[1]);
+        } else {
+                return(-1);
+        }
+}
+
+
+sub prosody {
+        local(@phonemelist) = @_;
+
+        local(@spnlist) = ();
+        local(@spnlistreserve) = ();
+        local($curr_snum) = -1;         # just for starting off
+        local($ref_snum) = -1;          # just for starting off
+
+        for($i=0;$i<=$#phonemelist;$i++) {              # each time we find a symbol we make a curve
+                @phoneme = split(' ',$phonemelist[$i]);
+                $spnlist[$i] = "$phoneme[0]";
+                $curr_snum = & snum($phonemelist[$i]);
+                if($phoneme[0] ne '#') {
+                        $spnlist[$i] .= "\t$dur0{$phoneme[0]}";
+                } else {
+                        $spnlist[$i] .= "\t$phoneme[1]";
+                }
+                # print STDERR "Duration: $duration[$i]\n";
+                if($i eq 0) {
+                        $spnlist[$i] .= "\t(0,120)";
+                        next;
+                }
+                if($i eq $#phonemelist) {
+                        $spnlist[$i] .= "\t(99,80)";
+                        next;
+                }
+                # need to find max and min with same syllable number.
+                if($curr_snum ne $ref_snum) {
+                        $sos = $i;
+                        $ref_snum = $curr_snum;
+                }
+                if($#phoneme eq 2) {
+                        $fop = $i;
+                        while(& snum($phonemelist[$fop]) eq $curr_snum) {
+                                $fop++;
+                        }
+                        $fop--;         # we overshot slightly
+                        if($phoneme[2] =~ /^H\*<(\d+\.\d+)>$/) {
+                                $spnlist[$sos] .= "\t(0,100)";
+                                $spnlist[$i] .= "\t(30,130)";
+                        } elsif($phoneme[2] =~ /^H\[<(\d+\.\d+)>$/) {
+                        } elsif($phoneme[2] =~ /^L-H\]<(\d+\.\d+)>$/) {
+                                $spnlistreserve[$fop] .= "\t(90,100)";
+                        } elsif($phoneme[2] =~ /^L-L\]<(\d+\.\d+)>$/) {
+                                $spnlistreserve[$fop] .= "\t(99,80)";
+                        } elsif($phoneme[2] =~ /^H\*<.\..>L-H\]<(\d+\.\d+)>$/) {
+                                $spnlist[$sos] .= "\t(0,100)";
+                                $spnlist[$i] .= "\t(30,130)";
+                                $spnlist[$i] .= "\t(80,100)";
+                                $spnlistreserve[$fop] .= "\t(99,120)";
+                        } elsif($phoneme[2] =~ /^H\*<.\..>L-L\]<(\d+\.\d+)>$/) {
+                                $spnlist[$sos] .= "\t(0,100)";
+                                $spnlist[$i] .= "\t(30,130)";
+                                $spnlist[$i] .= "\t(80,90)";
+                                $spnlistreserve[$fop] .= "\t(99,80)";
+                        } else {
+                                print STDERR "Having a bit of trouble finding a suitable f0, mate!\n";
+                        }
+                }
+        }
+        for($i=0;$i<=$#spnlist;$i++) {
+                $spnlist[$i] .= $spnlistreserve[$i];
+        }
+        return(@spnlist);
+}
+
+sub interpolate {
+
+        ## x1,y1,x2,y2,xx -> yy
+
+        local($a,$b,$c,$d,$e) = @_;
+        local($f);
+ 
+        $f = ($c*$b + $d*$e - $e*$b -$a*$d)/($c-$a);
+ 
+        return(int($f));
+}
+
+
+sub abs_targets {
+        local(($cumdur,$index,$dur,@targs)) = @_;
+        local($ta,$rval,$absx);
+        local(@rval) = ();
+
+        foreach $ta (@targs) {
+                if($ta =~ /\(([0-9]+),([0-9]+)\)/) {
+                        $perc = $1;
+                        $absy = $2;
+                } else {
+                        print "Problem with target\n";
+                }
+                $absx =  $cumdur + int($perc*$dur/100);
+                push(@rval,join(' ',$index,$absx,$absy,$perc));
+        }
+        return(@rval);
+}
+
+sub change_phonemes {
+        local(@llist) = @_;
+
+        foreach $l (@llist) {
+
+                @pline = split(' ',$l);
+                $pline[0] = $tosampa{$pline[0]};
+                $pline[0] =~ s/1//;
+                $l = join("\t",@pline);
+
+                $l =~ s/\(/ /g;
+                $l =~ s/\)/ /g;
+                $l =~ s/,/ /g;
+
+        }
+
+        @llist;
+}
+
+ 
+

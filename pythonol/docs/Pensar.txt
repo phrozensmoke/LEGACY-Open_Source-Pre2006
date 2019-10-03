@@ -1,0 +1,53 @@
+[PHTITLE]USAGE OF 'PENSAR'
+
+pensar:
+	[PH-HI]to think:[/PH-HI]
+		Mi hermano no piensa.   (My brother doesn't think.)
+
+
+pensar en [something or someone]:
+	[PH-HI]to think about [something or someone]:[/PH-HI]
+		Pensamos en tí.  (We're thinking about you.)
+
+
+pensar de [something or someone]:
+	[PH-HI]to have an opinion about [something or someone]:[/PH-HI]
+		¿Qué piensas del presidente?
+		(What do you think about the president?)
+
+
+pensar [infinitive]:
+	[PH-HI]to plan on:[/PH-HI]
+		Pensamos ir a la playa.
+		(We're planning on going to the beach.)
+
+
+no pensar que [prediction-subjunctive]:
+	[PH-HI]to doubt that [prediction - with doubt] :[/PH-HI]
+		No pienso que él salga.  (I doubt he's leaving.)
+
+
+pensar que [prediction-indicative]
+	[PH-HI]to think that [prediction- without doubt]:[/PH-HI]
+		Pienso que mi hermano es rico. 
+		(I think my brother is rich.)
+
+
+pensar sobre [something]:
+	[PH-HI]to think something over:[/PH-HI]
+		Necesito pensar sobre la boda.  (I need to think over the wedding.)
+
+
+pensar [something]:
+	 [PH-HI]to think something up:[/PH-HI]
+		¿Quién pensó este plan?  (Who dreamed up this plan?)
+
+
+pensar que [prediction-subjunctive]:
+	[PH-HI]to think that [prediction]:[/PH-HI]
+		Pienso que vaya a llover.  (I think it is going to rain.)
+
+
+dar que pensar a [someone]:
+	[PH-HI]to give someone something to think about:[/PH-HI]
+		Doy que pensar a mi hijo.  (I gave my son something to think about.)

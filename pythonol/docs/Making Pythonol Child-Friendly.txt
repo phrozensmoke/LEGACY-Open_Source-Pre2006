@@ -1,0 +1,29 @@
+[PHTITLE]Making Pythoñol Child-Friendly:
+
+[PHSECTION]What does 'child-friendly' mean?
+The term 'child-friendly' refers to versions of Pythoñol which are intended to be more suitable for persons under the age of 18 than the original version of Pythoñol.  The 'child-friendly' versions of Pythoñol do NOT feature the database file named 'dictionary-mature.db' in the '/datafiles/' sub-directory of the installation directory, and therefore, lack almost all of the definitions, expressions, and idioms not suitable for minors.  While I cannot guarantee that all users will agree that the 'child-friendly' version of Pythoñol is perfectly suitable for minors, rest assured that every effort has been made to remove all profane, obscene, and offensive material from the 'child-friendly' version.  Every effort has been made to remove from the 'child-friendly' version of Pythoñol such things as curse words, inappropriate references to body parts, and other expressions one would generally not want a child to repeat.  However, parents, educators, or anyone else who intends to allow a child to use this software are encouraged to review, and edit as necessary, the data files for Pythoñol (found in the /datafiles/ subdirectory).  Since Pythoñol is open source, you have my permission to edit/modify and redistribute versions of the contained data files for non-commercial purposes.  NOTE: The data files for 'child-friendly' versions of Pythoñol should not contain language not appropriate for children. However, 'child-friendly' versions of this software do not impair a child's ability to conjugate possibly objectionable verbs.  In the event a child does conjugate a 'banned' verb, no definitions or translations will be provided for that conjugated verb, since no definitions should exist in the 'child-friendly' data files.  Remember, Pythoñol is offered for free, but without warranty or guarantee, so I do NOT guarantee that even 'child-friendly' versions of Pythoñol will be suitable for users of all ages, since each person's concept of what is 'child-friendly' will vary.
+
+[PHSECTION]How do I know if the version of Pythoñol I am running is 'child-friendly'?:
+If you are running a 'child-friendly' version of Pythoñol, you will see the phrase '(Child-friendly mode)' in the bottom status bar as well as the in the program's application window title bar.  If you do NOT see this, you are NOT running a 'child-friendly' version of Pythoñol.  See the section below for information on how to obtain or create a 'child-friendly' copy of Pythoñol.
+
+[PHSECTION]How do I make Pythoñol 'child-friendly'?
+As of version 1.0, Pythoñol supports TWO Child-friendly modes: Temporary and Permanent.
+
+[PH-HI]TEMPORARY Child-Friendly Mode:  [/PH-HI]
+To make Pythoñol temporarily Child-friendly, click 'Settings' -> 'Content' -> 'Disable Mature Content [Temporarily]' on the Pythoñol menu.  Mature content will remain disable until you click 'Settings' -> 'Content' -> 'Enable Mature Content' on the menu.  This mode is for people who need to temporarily disable mature content, but do not want the mature content completely removed from the Pythoñol databases forever.
+
+[PH-HI]PERMANENT Child-Friendly Mode:[/PH-HI]
+This mode is probably the most appropriate mode for minors and sensitive viewers. Permenant Child-Friendly mode eliminates ALL mature content from the Pythoñol databases forever. With this mode, mature content CANNOT be restored by simply clicking 'Enable Mature Content' on the 'Settings' menu or by clicking 'Re-install Language Databases...' on the 'Settings' menu.  Beware: Mature content is PERMANENTLY deleted from your system in this mode.  If you wish to enable PERMANENT Child-Friendly mode, click 'Settings'  -> 'Content' -> 'Make Pythoñol PERMANENTLY Child-Friendly...' on the Pythoñol menu.
+
+[PHSECTION]RESTORING MATURE CONTENT:
+If you have switched your copy of Pythoñol to PERMANENT Child-Friendly mode, and someday wish to restore mature content, there is only one way to do this.  Follow these steps in the EXACT order given:
+	Go to http://pythonol.sourceforge.net and click on 'Download'.  
+	Download the 'dictionaries' package.  
+	Start the Pythoñol program
+	Install the 'datafiles' package into your Pythoñol installation directory (folder)
+	Click 'Settngs' -> 'Content' -> 'Re-install Language Databases...'
+	When asked if you would like to make Pythoñol permanently Child-Friendly, choose 'NO'
+
+
+[PHSECTION]Other Information:
+If you have ideas for making the 'child-friendly' version of Pythoñol more suitable for minors, please e-mail me at [PH-HI]PhrozenSmoke@yahoo.com[/PH-HI]  with your suggestions and comments.  [PH-HI]Input from parents, guardians, and educators would be greatly appreciated.[/PH-HI]

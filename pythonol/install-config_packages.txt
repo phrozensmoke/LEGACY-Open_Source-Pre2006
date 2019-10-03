@@ -1,0 +1,332 @@
+##  PYINSTALLSHIELD CONFIGURATION FILE - USE ONE FILE FOR BOTH INSTALL AND UNINSTALL
+
+# installation type:  either 1 for Linux/Posix/Unix, or 2 for Windows - This isnt necessary but CAN be uncomment if 
+#  PyInstallShield should be first to install as a certain OS
+#install_type=1
+
+# The directory to install your program in - the user can still select another from within PyInstallShield
+# Include ths trailing slash.  A copy of PyUnInstallShield will automatically be placed in install_dir, for later 
+# uninstallation, and an 'uninstall' script or Start Menu link will automatically be created. The direction of the 
+#  slashes no longer matters - PyInstallShield will auto-detect the right 'slash' for the operating system
+
+install_dir=/usr/share/Pythonol/
+bin_dir=/usr/X11R6/bin/
+icon_dir=/usr/share/icons/
+#install_dir=C:/Program Files/PyBabelPhish/
+
+# The name of your program - will be showed to the users in PyInstallShield - do NOT include the version number in the name
+install_app_name=Pythonol
+
+# The version number of your application - put the version HERE, not in the name above
+install_app_version=2.0
+
+# The XPM to show at the top of the setup program - best to put it in the same directory as PyInstallShield.py
+# However, it can be in a subdirectory, as shown below. This directory is relative to the location of 
+#  PyInstallShield.py
+install_pixmap=pixmaps/title.gif
+
+#  Would you like to show a license to the user when PyInstallShield starts? PyInstallShield will exit if the user doesn't 
+#  'agree' to the license, set show_license to 0  if you don't want to show any license at all.  The license is NOT shown 
+#  during UN-installation, only during installation.
+show_license=1
+
+# Enter the file name of the license, this should be a plain text file
+# If you you have show_license set to '1' but still see no license, make sure you have the path and filename of the 
+# license file name correct
+license=user-doc/Pythonol-LICENSE
+
+# a license in the 'doc' subdirectory of your distribution (on linux)...
+#license=doc/PyBabelPhish-LICENSE
+# a license in the 'doc' subdirectory of your distribution (on windows)...
+#license=doc/PyBabelPhish-LICENSE
+
+
+# A list of as many Python scripts (.py,.pyc,.pyo) or .exe files to make executable (an put on the Start Menu in windows)
+#  All 'exe' values MUST be declared in the 'file' section at the bottom of this configuration file.  You only need to 
+#  create this section if you are going to be making system 'links'  (Linux or Windows) - NOTE: For this to work, 
+#  you must also have 'install_links' set to 1  down below.
+#exe=pybabelfish.py
+#exe=my_second_program.py
+#exe=my_third_program.exe
+
+# an application in a subdirectory called 'bin' - for Linux/Unix:
+#exe=bin/my_program.exe
+# an application in a subdirectory called 'bin' - for Windows:
+#exe=bin/my_program.exe
+
+#  NOTE: You can specify a specific name for the link to be created from the EXE...on Windows, this is the name
+#  that appears in the Start Menu....on Linux/Unix, this is the name of the startup shell script to be placed in 
+#  either /usr/X11R6/bin or /usr/bin....to do this: use   [script],[link name]  - see below
+
+exe=pybabelfish.py,PyBabelPhish
+exe=pythonolui.py,pythonol
+
+
+# For Windows, this might be better since the 'link' will be on the Start Menu and should be human-readable...
+#exe=pybabelfish.py,PyBabelPhish v.0.1a
+
+#Do you want to remove all the installation files after a successful installation?   0=No,1=Yes
+install_clean=0
+
+#  Do you want to install useful links?  
+#  On Linux/Unix, this will create an easy to use shell script from the name of each 'exe' value above:
+#  For example, /usr/X11R6/bin/pybabelfish   will be created to launch the pybabelfish.py script
+#  The user could then just type 'pybabelfish' to launch the program, this also eases adding the application to the menu
+#  For the user.   All script names will converted to lower case.  You can add icons to the system icon folder (see below)
+#
+#  On Windows, creating links on the 'Start Menu' is not yet supported
+install_links=1
+
+#  This is for Linux/Unix systems ONLY:  Do you want to install icons in the system icon folder?
+#  Any 'icon' values specified below will be copied to the /usr/share/icons/  
+#  and /usr/share/pixmaps/ folders, the standard icon folders on most Unix/Linux systems.
+# NOTE: The icons will only be copied to these folders if the folders already exist on the system
+#    The user can then easily add your application to their Window Managers menu.
+#  If you are creating an installation for Windows, or you don't want to install icons, comment out all 'icon' values below.
+#  The default behavior is to install no icons.  You should give your icon name a name that is unlikely to already exist 
+#  in the system icon folders.  It is not necessary to declare 'icon' files in the 'file' section below, unless you just want 
+#  to keep an extra copy of the icon in the installation directory
+
+icon=icons/pybabel_icon.png
+icon=icons/pythonol_icon.png
+
+
+# Application files:  Here you specify ALL other supporting files for you application. All files will be either in the 'install_dir'
+#  or a sub-directory of 'install_dir'.  Installing to directories outside of 'install_dir' is not supported at this time. Do NOT 
+#  include folders or directories, only actual files.  Bascially, this just copies your application 'tree' to the user's preferred 
+#  installation directory.   For example, if you have  a file called  'pixmaps/mytitle.gif' in a subdirectory called 'pixmaps', 
+#  mytitle.gif will be copied to  install_dir/pixmaps/mytitle.gif,  will be in install_dir. Remeber to list all of you, 'exe'
+#  values here.  Only list your 'icon' values here if you want to store an additional copy of the icon in install_dir
+
+file=datafiles/computer_jargon.txt
+file=datafiles/computer_jargon2.txt
+file=datafiles/computer_jargon3.txt
+file=datafiles/data_comp1.txt
+file=datafiles/data_comp10.txt
+file=datafiles/data_comp11.txt
+file=datafiles/data_comp12.txt
+file=datafiles/data_comp13.txt
+file=datafiles/data_comp14.txt
+file=datafiles/data_comp15.txt
+file=datafiles/data_comp16.txt
+file=datafiles/data_comp17.txt
+file=datafiles/data_comp18.txt
+file=datafiles/data_comp19.txt
+file=datafiles/data_comp20.txt
+file=datafiles/data_comp21.txt
+file=datafiles/data_comp22.txt
+file=datafiles/data_comp2.txt
+file=datafiles/data_comp3.txt
+file=datafiles/data_comp4.txt
+file=datafiles/data_comp5.txt
+file=datafiles/data_comp6.txt
+file=datafiles/data_comp7.txt
+file=datafiles/data_comp8.txt
+file=datafiles/data_comp9.txt
+file=datafiles/data_eng_verbs.txt
+file=datafiles/irregular_verbs.txt
+file=datafiles/trans_adv.txt
+file=datafiles/trans_beg.txt
+file=datafiles/trans_mid.txt
+file=datafiles/verb_families.txt
+file=dictionary/data_dict1.txt
+file=dictionary/data_dict2.txt
+file=dictionary/data_dict3.txt
+file=dictionary/data_dict4.txt
+file=dictionary/data_dict5.txt
+file=dictionary/data_idioms.txt
+file=dictionary/data_mature.txt
+file=dictionary/data_thes_cat.txt
+file=dictionary/makedb.py
+file=docs/Acknowledgements.txt
+file=docs/About.txt
+file=docs/Acaber.txt
+file=docs/Accents.txt
+file=docs/Alphabets.txt
+file=docs/Articles.txt
+file=docs/Buscar.txt
+file=docs/Caber.txt
+file=docs/Cardinal Numbers.txt
+file=docs/Comparisons.txt
+file=docs/Conditional Perfect Tense.txt
+file=docs/Conditional Tense.txt
+file=docs/Conjugate Help.txt
+file=docs/Dar.txt
+file=docs/Days Of The Week.txt
+file=docs/Demonstrative Pronouns.txt
+file=docs/Dictionary Help.txt
+file=docs/Different Tenses Different Meanings.txt
+file=docs/Direct Object Pronouns.txt
+file=docs/Duration Of Time.txt
+file=docs/Estar Ser.txt
+file=docs/Faq.txt
+file=docs/Festival Extension Readme.txt
+file=docs/Future All Tense.txt
+file=docs/Future Perfect Subjunctive Tense.txt
+file=docs/Future Subjunctive Tense.txt
+file=docs/Future Tense.txt
+file=docs/General Help.txt
+file=docs/Gustar.txt
+file=docs/Idiom Help.txt
+file=docs/Imperative Tense.txt
+file=docs/Imperfect Progressive Tense.txt
+file=docs/Imperfect Tense.txt
+file=docs/Indirect Object Pronouns.txt
+file=docs/Interrogative Pronouns.txt
+file=docs/Linked Verbs.txt
+file=docs/Making Pythonol Child-Friendly.txt
+file=docs/Miscellaneous Pronouns.txt
+file=docs/Nacer.txt
+file=docs/Negative Imperative Tense.txt
+file=docs/Ordinal Numbers.txt
+file=docs/Passive Voice.txt
+file=docs/Past Perfect Subjunctive Tense.txt
+file=docs/Past Perfect Tense.txt
+file=docs/Past Subjunctive Tense.txt
+file=docs/Pensar.txt
+file=docs/Personal A.txt
+file=docs/Por Para.txt
+file=docs/Prepositional Object Pronouns.txt
+file=docs/Prepositions.txt
+file=docs/Present Perfect Subjunctive Tense.txt
+file=docs/Present Perfect Tense.txt
+file=docs/Present Progressive Tense.txt
+file=docs/Present Subjunctive Tense.txt
+file=docs/Present Tense.txt
+file=docs/Preterit Perfect Tense.txt
+file=docs/Preterit Tense.txt
+file=docs/Pronoun Placement.txt
+file=docs/Pronounce Help.txt
+file=docs/Pronouns.txt
+file=docs/Reciprocal Reflexive Pronouns.txt
+file=docs/Saber Conocer.txt
+file=docs/Spanish Questions.txt
+file=docs/Subject Pronouns.txt
+file=docs/Subjunctive.txt
+file=docs/Superlatives.txt
+file=docs/Tener.txt
+file=docs/Thesaurus Help.txt
+file=docs/Translate Help.txt
+file=docs/Translation Exercise.txt
+file=docs/Useful Verb Constructions.txt
+file=docs/Verb Browser Help.txt
+file=docs/Verb Families Help.txt
+file=docs/Verbs Like Gustar.txt
+file=docs/Vocabulary Quiz.txt
+file=docs/Weather.txt
+file=docs/Pythonol-LICENSE.txt
+file=docs/images/pron1.jpg
+file=docs/images/pron2.jpg
+file=docs/images/pron3.jpg
+file=docs/images/bab1.jpg
+file=docs/images/bab2.jpg
+file=docs/images/bab3.jpg
+file=docs/images/conj1.jpg
+file=docs/images/conj2.jpg
+file=docs/images/conj3.jpg
+file=docs/images/dict1.jpg
+file=docs/images/dict2.jpg
+file=docs/images/dict3.jpg
+file=docs/images/dict4.jpg
+file=docs/images/help_penguin.png
+file=docs/images/id1.jpg
+file=docs/images/id2.jpg
+file=docs/images/id3.jpg
+file=docs/images/thes1.jpg
+file=docs/images/thes2.jpg
+file=docs/images/thes3.jpg
+file=docs/images/thes4.jpg
+file=docs/images/trans1.jpg
+file=docs/images/trans2.jpg
+file=docs/images/trans3.jpg
+file=docs/images/trans4.jpg
+file=docs/images/vocab1.jpg
+file=docs/images/vocab2.jpg
+file=docs/images/vocab3.jpg
+file=docs/images/vocab4.jpg
+file=icons/pybabel_icon.png
+file=icons/pythonol_icon.png
+file=pixmaps/babtitle.gif
+file=pixmaps/close.gif
+file=pixmaps/help.gif
+file=pixmaps/play.gif
+file=pixmaps/print.gif
+file=pixmaps/pyprint_load.gif
+file=pixmaps/pyprint_preview.gif
+file=pixmaps/pyprint_printer.gif
+file=pixmaps/pyprint_printer_big.gif
+file=pixmaps/pyprint_reload.gif
+file=pixmaps/s1.gif
+file=pixmaps/s2.gif
+file=pixmaps/s3.gif
+file=pixmaps/s4.gif
+file=pixmaps/s5.gif
+file=pixmaps/s6.gif
+file=pixmaps/s7.gif
+file=pixmaps/s8.gif
+file=pixmaps/s9.gif
+file=pixmaps/s10.gif
+file=pixmaps/s11.gif
+file=pixmaps/s12.gif
+file=pixmaps/s13.gif
+file=pixmaps/s14.gif
+file=pixmaps/s15.gif
+file=pixmaps/s16.gif
+file=pixmaps/save.gif
+file=pixmaps/stop.gif
+file=pixmaps/tab.gif
+file=pixmaps/title.gif
+file=sqlite/__init__.py
+file=sqlite/_sqlite.so
+file=sqlite/main.py
+file=theme/gtk/gtkrc
+file=user-doc/SQLite-LICENSE
+file=user-doc/PySQLite-LICENSE
+file=user-doc/PySQLite-Copyright.txt
+file=user-doc/Pythonol-COPYRIGHT
+file=user-doc/CHANGES.txt
+file=user-doc/PyBabelPhish-LICENSE
+file=user-doc/PyInstallShield-LICENSE
+file=user-doc/PyPrint-LICENSE
+file=user-doc/Pythonol-LICENSE
+file=user-doc/Festival Extension Readme.txt
+file=PyInstallShield
+file=URLRead.py
+file=irregular_verbs.py
+file=pybabelfish.py
+file=pydictionaries.py
+file=pyfilter.py
+file=pyprint.py
+file=pyprintcommon.py
+file=pyquiz.py
+file=pytheme.py
+file=pythesaurus.py
+file=pythonol_colors.py
+file=pythonol_help.py
+file=pythonol_help_anim.py
+file=pythonol_festival.py
+file=pythonol_setup.py
+file=pythonol_sqlite.py
+file=pythonolui.py
+file=pytrans.py
+file=span2eng.py
+file=symbolbar.py
+file=verb_conjugate.py
+file=verb_families.py
+file=festival/Festival Extension Readme.txt
+file=festival/tts.spanish
+file=festival/festival
+
+#optional=sqlite/_sqlite.so
+optional=sqlite/_sqlite.dll
+optional=sqlite/sqlite.dll
+optional=sqlite/_sqlitemodule.dll
+optional=sqlite/sqlmodule.dll
+optional=sqlite/_sqlite.pyd
+
+optional=festival/festival
+
+
+
+optional=dictionary/data_mature.txt
+optional=datafiles/dictionary-mature.db

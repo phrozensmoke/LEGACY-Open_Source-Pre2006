@@ -1,0 +1,214 @@
+# pixmap_path "<dir 1>:<dir 2>:<dir 3>:..."
+#
+# include "rc-file"
+#
+# style <name> [= <name>]
+# {
+#   <option>
+# }
+#
+# widget <widget_set> style <style_name>
+# widget_class <widget_class_set> style <style_name>
+
+
+
+
+################################################################
+##
+##	default widget ... fallback
+##
+################################################################
+
+style "orbit_default" {
+	bg[ACTIVE]		= "#c7d0d9"	# inactive tab, current task in task list
+	fg[ACTIVE]		= "#000000"
+	bg[NORMAL]		= "#eaf0f3"	# normal face color
+	fg[NORMAL]		= "#000000"
+	bg[INSENSITIVE]		= "#d1dde4" 	# when disabled
+	fg[INSENSITIVE]		= "#555555"
+	bg[PRELIGHT]		= "#c7d0d9"
+	fg[PRELIGHT]		= "#000000"
+	bg[SELECTED]		= "#d1dde4"	# listbox selected line
+	fg[SELECTED]		= "#ffffff"
+	base[NORMAL]		= "#ffffff"	# entry or listbox background
+	base[ACTIVE]		= "#dddddd"
+	base[SELECTED]		= "#d1dde4"	# selected text
+	base[INSENSITIVE]	= "#f5faff"	# entry or listbox background when disabled
+	base[PRELIGHT]		= "#e0e0e0"
+
+        font_name="Arial 10"
+
+}
+
+class "GtkWidget"		style "orbit_default"
+widget_class "*.GtkProgress*"		style "orbit_default"
+widget_class "GtkWindow"		style "orbit_default"
+
+widget_class "*" style "orbit_default"
+class "*" style "orbit_default"
+
+
+# This theme is based on Orbit-Gtk, without the Pixmaps 
+
+################################################################
+##
+##	Buttons ... pixmap for checkbutton, radiobutton and
+##	togglebutton, because you apparently can't use the xeno-
+##	philia engine for togglebuttons when you use the pixmap
+##	engine for check- or radiobuttons
+##
+################################################################
+
+style "orbit_button" {
+	bg[NORMAL]		= "#d1dde4"
+	bg[ACTIVE]		= "#d1dde4" 	# when mouse down
+	bg[PRELIGHT]		= "#cfdce3" 	# when mouse over
+	bg[INSENSITIVE]		= "#d1dde4" 	# when disabled
+	base[NORMAL]		= "#d8d4d4" 	# checkbox or radio
+	base[ACTIVE]		= "#d1dde4" 	# 3-state-button when selected
+	base[PRELIGHT]		= "#d1dde4" 	# 3-state-button or checkbox or radio when selected and mouse over
+	base[INSENSITIVE]	= "#d1dde4" 	# when disabled
+	
+}
+
+style "orbit_checkbutton" {
+	bg[PRELIGHT]		= "#eaf0f3"
+
+}
+
+style "orbit_radiobutton" {
+	bg[PRELIGHT]		= "#eaf0f3"	
+
+}
+
+
+
+class "GtkButton"		style "orbit_button"
+class "GtkCheckButton"		style "orbit_checkbutton"
+class "GtkRadioButton"		style "orbit_radiobutton"
+class "GtkSpinButton"		style "orbit_button"
+
+
+################################################################
+##
+##	lists and similar
+##
+################################################################
+
+style "orbit_list" {
+	base[ACTIVE]		="#ffffff"
+}
+
+class "GtkList"			style "orbit_list"
+class "GtkTree"			style "orbit_list"
+class "GtkCList"		style "orbit_list"
+class "GtkCTree"		style "orbit_list"
+
+
+################################################################
+##
+##	Notebook
+##
+################################################################
+
+class "GtkNotebook"		style "orbit_default"
+
+
+################################################################
+##
+##	Menus are tricky .........
+##
+################################################################
+
+widget_class "*.GtkMenuBar"		style "orbit_default"
+widget_class "*.GtkMenuShell"		style "orbit_default"
+
+widget_class "*.GtkMenu*"		style "orbit_default"
+widget_class "*.GtkMenuItem*"		style "orbit_default"
+widget_class "*.GtkCheckMenuItem*"	style "orbit_default"
+widget_class "*.GtkImageMenuItem*"	style "orbit_default"
+widget_class "*.GtkRadioMenuItemItem*"	style "orbit_default"
+widget_class "*.GtkSeparatorMenuItem*"	style "orbit_default"
+widget_class "*.GtkTearoffMenuItem*"	style "orbit_default"
+
+
+################################################################
+##
+##	Scrollbars and the like
+##
+################################################################
+
+style "orbit_range" {
+	bg[NORMAL]	= "#e1e9ed"
+	bg[ACTIVE]	= "#9a9ea6"	# scroll bar background
+#	bg[ACTIVE]	= "#c6d9e4"	# when mouse down
+	bg[PRELIGHT]	= "#c6d9e4"	# when mouse over
+	bg[INSENSITIVE]	= "#c6d9e4"	# when mouse over
+
+	base[NORMAL]	= "#424f63"	# checkbox or radio
+	base[ACTIVE]	= "#ffffff"	# 3-state-button when selected
+	base[PRELIGHT]	= "#ffffff"	# 3-state-button or checkbox or radio when selected and mouse over
+	base[INSENSITIVE]	= "#424f63"	# 3-state-button or checkbox or radio when selected and mouse over
+
+	fg[NORMAL]	= "#000000"
+
+}
+
+class "GtkRange"		style "orbit_range"
+
+
+################################################################
+##
+##	Infobar
+##
+################################################################
+
+style "orbit_infobar" {
+	bg[NORMAL]	= "#9a9ea6"
+}
+
+class "GtkStatusbar"		style "orbit_infobar"
+class "GtkProgress"		style "orbit_infobar"
+
+
+################################################################
+##
+##	Frames
+##
+################################################################
+
+class "GtkFrame"		style "orbit_default"
+
+###############################################################
+##
+##	from pixmap theme ... fixes togglebutton oddity
+##
+###############################################################
+
+class "GtkWindow" style "orbit_default"
+
+
+################################################################
+##
+##	tooltips
+##
+################################################################
+
+style "orbit_tooltips" {
+	bg[NORMAL]		= "#eaf0f3"
+	fg[NORMAL]		= "#000000"
+
+}
+
+widget "gtk-tooltips*"		style "orbit_tooltips"
+
+widget_class "GtkWindow"		style "orbit_default"
+widget_class "GtkHBox"		style "orbit_default"
+widget_class "GtkVBox"		style "orbit_default"
+
+
+
+ 
+
+
+

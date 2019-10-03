@@ -1,0 +1,77 @@
+Pythoñol's help topics can be easily searched by first closing this Help window, then pressing the [PH-HI]'F4'[/PH-HI] button.  Below is a quick overview of what's inside Pythoñol.
+
+
+[PHSECTION][Main Components]
+
+[PH-HI]CONJUGATE :[/PH-HI]
+	Click the 'Conjugate' tab to conjugate a Spanish verb into over 25 different verb tenses.  Click the 'Help' button within the 'Conjugate' section for more specific help on this feature.
+
+[PH-HI]TRANSLATE :[/PH-HI]
+	Click the 'Translate' tab to translate entire sentences or phrases from one language to another.  To use the 'Translate' feature, you must have a working internet connection and be currently connected to the internet.  On the 'Help' menu, click 'Translate Help...' for more specific help on this feature.
+
+[PH-HI]DICTIONARY :[/PH-HI]
+	Click the 'Dictionary' tab to lookup words and phrases in the Spanish-English and English-Spanish dictionaries.  Click the 'Help' button within the 'Dictionary' section for more specific help on this feature.
+
+[PH-HI]THESAURUS :[/PH-HI]
+	Click the 'Thesaurus' tab to search for Spanish or English synonyms for a word or phrase.  Click the 'Help' button within the 'Thesaurus' section for more specific help on this feature.
+
+[PH-HI]IDIOMS :[/PH-HI]
+	Click the 'Idioms' tab to list or search common phrases and expressions (Spanish and English).  Click the 'Help' button within the 'Idioms' section for more specific help on this feature.
+
+[PH-HI]PRONOUNCE :[/PH-HI]
+	Click the 'Pronounce' tab to hear any text of your choice read aloud in Spanish.  Click the 'Help' button within the 'Pronounce' section for more specific help on this feature.
+
+[PH-HI]VERB BROWSER :[/PH-HI]
+	Click the 'Verb Browser' tab to browse through over 25,000 Spanish verbs in alphabetical order.  On the 'Help' menu, click 'Verb Browser Help...' for more specific help on this feature.
+
+[PH-HI]VERB FAMILIES :[/PH-HI]
+	Click the 'Verb Families' tab to browse through approximately 90 known Spanish verb families.  On the 'Help' menu, click 'Verb Families Help...' for more specific help on this feature.
+
+
+
+[PHSECTION]['File' Menu]
+
+[PH-HI]'Quit' :[/PH-HI]
+	Click 'Quit' on the 'File' menu to exit Pythoñol.
+
+[PH-HI]'Print...':[/PH-HI]
+	If you are running a Linux/Unix version of Pythoñol, and have an LRPng/LPR-based spooler system on your computer, you may print the text in almost any window by clicking 'File', then 'Print...' on the Pythoñol main menu. Printing uses a modified version of my PyPrint module.  PyPrint supports ONLY LPRng/LPR-based local printer spools.  Cups and other printing systems are NOT supported.  In other words, the following executables need to be on your PATH on the computer you are using: lpr, lpstat, lpd, ppsselect, ghostview, and a2ps.  Basically, you need LRPng, postscript, and any2ps installed on your computer (apsfilter is also recommended).  Sorry Windows users, printing under Windows is NOT supported on Pythoñol, and there is no immediate plan to support printing on Windows.  Remember, this is a LINUX application that has been ported to Windows to be 'nice' to Windows users, but Pythoñol will always be a LINUX application first.  Windows users, in most cases, can click the 'Save To File' option in the section they are viewing, save the data they wish to print to a plain text file, then open the file in something like Notepad and print from there.
+
+
+[PHSECTION]['Settings' Menu]
+
+[PH-HI]'Content' :[/PH-HI]
+	Click 'Content' on the 'Settings' menu to control the content available in the current Pythoñol session.
+
+[PH-HI]'Content-->Disable Mature Content' :[/PH-HI]
+	Click 'Content-->Disable Mature Content' on the 'Settings' menu to temporarily disable all mature content, such as swear words, in the current Pythoñol session.
+
+[PH-HI]'Content-->Enable Mature Content' :[/PH-HI]
+	Click 'Content-->Enable Mature Content' on the 'Settings' menu to re-enable all mature content, such as swear words, in the current Pythoñol session.  All of Pythoñol's data files will be reloaded, and mature content will be enabled.  NOTE: This feature does nothing on 'Child-Friendly' versions of Pythoñol.
+
+[PH-HI]'Change Translation Service...' :[/PH-HI]
+	Click 'Change Translation Service...' on the 'Settings' menu to select the translation service you wish to use.  The translation service chosen here will be used for retrieving translations in both the 'Translate' section and the 'Translation Exercise' section.  It is a good idea to change the selected 'Translation Service' if you are receiving repeated error messages indicating that a translation could not be retrieved, or if you feel that you are receiving too many errors in the translations being retrieved.
+
+[PH-HI]'View Pythoñol's Capabilities...' :[/PH-HI]
+	Click 'View Pythoñol's Capabilities...' on the 'Settings' menu to view some interesting information about what Pythoñol is able to do.
+
+
+
+[PHSECTION]['Reference Section' Menu]
+
+Click the 'Reference Section' menu to browse through Pythoñol's library of Spanish grammar topics, organized in a self-explanatory manner.
+
+
+[PHSECTION]['Exercises' Menu]
+
+[PH-HI]'Random Vocabulary List' :[/PH-HI]
+	Click 'Random Vocabulary List' on the 'Exercises' menu to create a vocabulary list of randomly generated words.  You will be asked how many words you want in your list (10, 25, 50, or 100).  Your list will then be created in a new window for your personal studying purposes.  You may then click 'Save To File' to save your vocabulary list for later use and studying.
+
+[PH-HI]'Vocabulary Quiz' :[/PH-HI]
+	Click 'Vocabulary Quiz' on the 'Exercises' menu to open Pythoñol's vocabulary quiz section.  You will be given 5 words at a time to translate.  When you are done translating the quiz words, click the 'Show The Answers!' button.  (Keep in mind that words may have more than one definition.  So, do not feel discouraged if the answer you provided does not exactly match Pythoñol's answer.)   You may then start a new quiz by clicking the 'Start A New Quiz' button.  The quiz can be done as both Spanish-to-English and English-to-Spanish.  Simply select your desired language setting from the drop-down menu, then click the 'Start A New Quiz' button.
+
+[PH-HI]'Translation Exercise' :[/PH-HI]
+	Click 'Translation Exercise' on the 'Exercises' menu to open Pythoñol's translation exercise section.  You will be given a sentence or phrase to translate.  Type the best translation you can for the sentence or phrase.  When you are done, click the 'Show The Answer!' button.   (Be aware that not all of the translations retrieved from the translation service are 100% correct.  So, do not feel discouraged if the answer you provided does not exactly match the answer in the 'Answer' box.)  You may then start a new translation exercise by clicking the 'Next Sentence' button.  The translation exercise supports 3 levels of difficulty ('Short sentences', 'Medium sentences', and 'Long sentences').  You may change to a new level of difficulty by selecting your desired level of difficulty from the drop-down menu and, then, clicking the 'Next Sentence' button.  NOTE:  To use the 'Translation Exercise' feature, you must have a working internet connection and be currently connected to the internet. 
+
+[PH-HI]'Reading Comprehension' :[/PH-HI]
+	Click 'Reading Comprehension' on the 'Exercises' menu to browse through a small collection of texts suitable for practicing your Spanish reading comprehension.  The exercises are organized by length and level of difficulty, with reading comprehension exercise #1 being both the shortest and the easiest.  Some of the exercises have quizzes and questions at the bottom, which you may find helpful in testing your comprehension and overall understanding of the passage.  The reading comprehension exercises are in no way 'graded' by Pythoñol.  Instead, they are intended for your personal studying purposes.  It is adviced that you re-read the reading comprehension passages periodically as your knowledge of Spanish improves.  

@@ -1,0 +1,28 @@
+[PHTITLE]USAGE OF 'GUSTAR'
+
+[me/te/le/nos/les/os] gustar [something or infinitive]
+	[PH-HI]someone likes something:[/PH-HI]
+		Me gusta el libro.  (I like the book. [Literally, the book pleases me.]
+		Me gusta viajar.  (I like to travel.)
+
+[me/te/le/nos/les/os] gustar [something] a  [someone]:
+	[PH-HI]someone likes something:[/PH-HI]
+		Le gustan los libros a Ana.   (Ana likes the books.)
+
+[me/te/le/nos/les/os] gustar de  [something]:
+	[PH-HI]someone enjoys something:[/PH-HI]
+		Me gusta de las playas.  (I enjoy the beaches.)
+
+gustar [something]:
+	[PH-HI]to taste something:[/PH-HI]
+		No he gustado el pan.   (I have not tasted the bread.)
+
+gustar:
+	[PH-HI]to please:[/PH-HI]
+		La película gusta.  (The film is pleasing.)
+
+¿Usted gusta?  or  ¿Gusta?:
+	Would you like some?
+
+Como usted gusta.  or   Como  gustas.:
+	As you wish.

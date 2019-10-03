@@ -1,0 +1,17 @@
+[PHTITLE]PAST PERFECT TENSE
+
+[PH-HI]Use the Past Perfect tense (also known as the 'pluperfect') when referring to an action that preceded another action in the past. This tense is identical to the past perfect in English:[/PH-HI] 
+
+	Lief Ericson ya había visitado America cuando llegó Colón.
+	(Lief Ericson had already visited America when Columbus arrived.)
+
+
+[PH-HI]To form the Past Perfect use the imperfect of 'haber' and a past participle. [/PH-HI]
+	había / habías / había / habíamos / habíais / habían     + past participle
+
+     Yo había manejado      [I had driven.]
+     Tú habías manejado      [You had driven.]
+     Ella / Él / Usted había manejado      [She had driven.]
+     Nosotros habíamos manejado      [We had driven.]
+     Vosotros habíais manejado      [You all had driven.]
+     Ellos / Ustedes habían manejado      [They had driven.]

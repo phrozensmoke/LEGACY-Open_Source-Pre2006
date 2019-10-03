@@ -1,0 +1,156 @@
+Pythonol VERSION 2.1 CHANGES  (1/20/2004):
+
+	- Critical Update: Installation fix for packages using the PyInstallShield installer: A bug resulting from an unneeded 'import GTK' call which could cause installations to completely fail has been fixed.  
+	- Critical Update: If you are currently using a child-friendly version of Pythoñol 2.0, you should upgrade immediately to version 2.1 or higher, as version 2.0 has a bug which allows 'inappropriate' content into the databases.  This problem has been fixed in version 2.1, and my apologies to anyone inconvenienced by this problem. All known 'adult'  content has been quarantined to the 'mature' database, as it should be.
+	- Critical Update: Pythonol has been upgraded to use PySQLite version 0.5.0 and SQLite version 2.8.8, this has brought some speed improvements, and most certainly adds more stability to the database layer of the application.  Users who need to recompile the PySQLite module used by Pythonol will need to make sure they compile against SQLite 2.8.8 (exactly)
+	- Critical Bug Fix: Fixed bugs in the Idioms lister and the Verb Browers which could inadvertently send a very memory-intensive 'cross join' query to the underlying SQLite databases
+	- Major Bug Fix: Fixed a bug where the 'Translate' module (PyBabelPhish) might refuse to retrieve translations when running on non-Linux/Unix systems such as Windows and Mac OS X.
+	- Portability improvements: Several compatibility changes have been made to support Python 2.3 as well as Python 2.2
+	- Portability improvements: Several compatibility changes have been made to improve support for running Pythonol on Windows, and now, Mac OS X (though the application could not be tested on Mac OS X, changes suggested from Mac OS X users were implemented.)
+	- Pythonol is now known to run on the Mac OS X operating system, and a new Windows .exe is available for this release
+	- A bug which could lead to 'unknown encoding' warnings on the console has been fixed. 
+	- User Interface enhancement: Icons on the buttons in the application now use Gtk stock icons, instead of external pixmaps
+	- User Interface enhancement: Gtk stock icons have been added to all menus and dialog messages
+	- Cleanups: Many duplicates have been removed from the global dictionaries, and the mature content dictionary
+	- Improved searching: Searching for one database has been improved by eliminating the 'blob' in the database and replacing it with a 'varchar' column.
+	- Help animations: All help animations have been redone; The animations are cleaner, up-to-date, and in .png format instead of .jpg;  In addition, the sizes of the animation frames is now normalized (scaled to a uniform size), and animations now completely fill they animation window (UI improvement); The rate of animation has been slowed down a little to accomodate slower readers
+	- Animated help is now enabled on non-Linux/Unix systems such as Windows and OS X, provided the GdkPixbuf and LibPng libraries are properly installed
+	- User interface improvements have been made to the 'Search' window that pops up from the 'Conjugate' module; search results should be a little easier to read and scroll through
+	- Translation Exercise updates: Many new translatable sentences have been added to the beginner, mid-level, and advanced translation exercises.
+	- User interface improvements have been made to the 'Translation' Exercise: the interface is cleaner and uses alot less screen space (this should help lower resolution users)
+	- The Thesaurus module now generally returns a few more matches when searching the Thesaurus
+	- External pixmaps have been removed from the Spanish Letters Toolbar (regular character Labels are now used), and a new 'Clear All Text' button has been added to the toolbar which clears all the text from the associated text entry or text box.
+	- Theme support added: Click 'Settings'-> 'Appearance...' on the menu to manage the theme and font;  This makes it easier for Windows and Mac OS X users to manage the appearance of Pythonol, and users of all operating systems can simply copy or link their favorite Gtk-2 themes into the ./theme/gtk/ subdirectory.  (Many themes require 'theme engines'; these are already included in the Windows .exe binary, and other users can easily find and compile them for their system.).  Pythonol now applys themes on ALL operating systems, not just Windows/non-Linux systems.
+	- Bug fix: Preferences saving on Windows: Pythonol will now try to save the preferences file in the directory specified in the environment variable 'WINDIR' if the environment variable 'HOME' does not exist.
+	- Bug Fix: Encoding specifications have been added to all python modules to prevent the warning on the console about 'unknown encoding' when running Pythonol on Python version 2.3
+	- The application's copyright has been updated to accomodate the New Year
+	
+
+
+PyBabelPhish VERSION 2.1 CHANGES  (1/20/2004):
+
+	- Major Bug Fix: Fixed a bug where the application might refuse to retrieve translations when running on non-Linux/Unix systems such as Windows and Mac OS X.
+	- User interface improvements: Gtk stock icons have been added to all buttons, dialogs, and menus.
+	- The language selection menu is now wider, for easier reading.  
+	- The 'set_usize' call for the window size has been removed, as it may have caused problems for some users.
+	- All translations services have been re-checked (all are known to be still working properly).
+	- Theme support added: Click 'File'-> 'Settings...' on the menu to manage the theme and font;  This makes it easier for Windows and Mac OS X users to manage the appearance of PyBabelPhish, and users of all operating systems can simply copy or link their favorite Gtk-2 themes into the ./theme/gtk/ subdirectory.  (Many themes require 'theme engines'; these are already included in the Windows .exe binary, and other users can easily find and compile them for their system.)  PyBabelPhish now applys themes on ALL operating systems, not just Windows/non-Linux systems.
+	- PyBabelPhish is now known to run on the Mac OS X operating system, and a new Windows .exe is available for this release (bundled with Pythonol)
+	- External pixmaps have been removed from the Spanish Letters Toolbar (regular character Labels are now used), and a new 'Clear All Text' button has been added to the toolbar which clears all the text from the associated text entry or text box.
+	- Bug Fix: Encoding specifications have been added to all python modules to prevent the warning on the console about 'unknown encoding' when running Pythonol on Python version 2.3
+	- The copyright and about box has been updated to accomodate the  New Year.
+
+
+PyPrint VERSION 0.3 CHANGES  (1/20/2004):
+	- PyPrint:
+		- The application has been ported to Gtk-2/PyGtk-2 and now requires PyGtk version 1.99 or better
+		- All buttons, menu items, and dialog boxes now use Gtk stock icons
+		- PyPrint now accepts one command line argument, a file, to be automatically selected for printing when the application starts
+		- PyPrint now checks to see if the file selected for printing exists and makes sure that it is not an empty file before proceeding
+		- Other minor user interface improvements have been made including the addition of tooltips
+		- A wm_name/wm_class has been added to the window
+		- The window how features a built-in window icon
+		- The application's copyright has been updated to accomodate the New Year	
+
+	- PySpool:
+		- The application has been ported to Gtk-2/PyGtk-2 and now requires PyGtk version 1.99 or better
+		- All buttons, menu items, and dialog boxes now use Gtk stock icons
+		- Other minor user interface improvements have been made including switching Labels for Buttons in the CList widget (makes column resizing easier), and making the CList itself larger and more scrollable
+		- A wm_name/wm_class has been added to the window
+		- The window how features a built-in window icon
+		- The use of the gtk.timeout has been made more efficient to accomodate Gtk-2
+		- The application's copyright has been updated to accomodate the New Year	
+
+
+
+PyInstallShield VERSION 0.5 CHANGES  (12/20/2003):
+
+	- Critical Update: A bug resulting from an unneeded 'import GTK' call which could cause installations to completely fail has been fixed.  
+	- A bug which could lead to 'unknown encoding' warnings on the console has been fixed. 
+
+
+
+
+Pythonol VERSION 2.0 CHANGES:
+
+	- The entire application has been ported from a PyGtk-1/Gtk-1 to PyGtk-2/Gtk-2 user interface.
+	- Over 3200 new words have been added to the Spanish-English dictionary.
+	- The translation module now supports 6 new translation services.
+	- The help system's appearance has been improved, and several help documents have been added.
+	- Nine new reading comprehension exercises have been added.
+	- Speed improvements and bug fixes have been made to the Search-On-Demand feature.
+	- A large computer jargon glossary has been added.
+	- Tear-off menus have been temporarily disabled to avoid a crash in PyGtk-2.
+	- The Spanish Letters Toolbar now supports capitalized accented characters.
+	- The Verb Families module now offers the pronunciation feature.
+	- Built-in window icons are now provided.
+	- The application logo has been redesigned.
+
+
+
+
+Pythonol VERSION 1.1.1 CHANGES:
+
+	- Added embedded database (SQLite/PySQLite) for dictionary and thesaurus queries: serious speed improvement
+	- Added TEXT-TO-SPEECH support via the Festival speech engine (Linux/Unix versions only!): Almost any word on any screen can be pronounced in Spanish throughout Pythonol and PyBabelPhish
+	- Dictionary and Thesaurus database now built at install-time (to limit download size)
+	- Pythonol now starts up MUCH faster
+	- Added over 10,000 new words to the Spanish-English ("data_dict5.txt")
+	- Added animated 'help' module named 'pythonol_help_anim.py' for simple animated usage demonstrations
+	- Improved help, with animated demonstrations for the most important functions: makes things easy for new users
+	- Added a 'pronounce' tab, allowing the user to hear arbitrary text pronounced in Spanish via Festival (Linux/Unix only)
+	- Added a new 'setup' module for dynamic language database creation and child-friendly preferences management
+	- With the new 'setup' module, ANY copy of Pythonol can be easily turned into a Child-friendly version with a simple menu command
+	- Pythonol and it's 'setup' program now implement 2 different Child-friendly modes: temporary and permanent
+	- New, updated language databases can be installed/created via a menu command ('setup' module)
+	- Eliminated most 'duplicates' from the dictionary, speed improvement
+	- added 'makedb.py' script for dynamic building of dictionary and thesaurus databases
+	- Added Makefiles for source packages (now needed, now that some C is used)
+	- Centralized database querying into the 'pyfiler.py' module
+	- Centralized basic pixmap loading and drag-and-drop support into the 'pyfilter.py' module
+	- Eliminated function 'getDefinitions' from 'pydictionaries.py': all lookups now done through 'getDefinitions2' and 'getExactDefinition'
+	- Added PyInstallShield version 0.2 as installation method for non-Windows packages
+	- Fixed a conjugation problem causing the English present progressive and past participles of 'mix' and 'fix' to be mispelled, added exception to 'data_eng_verbs.txt'
+	- Added 'pythonol_sqlite.py' module as a stable wrapper to PySQLite
+	- Added drag-and-drop support to PyBabelPhish and the 'Pronounce' module, so text files can be dragged onto the text windows and opened immediately
+	- Made notebook tabs scrollable
+	- Pythonol starts with a larger window, appropriate for the screen, and resizeable
+	- Made GtkCombo widgets for Conjugate, Dictionary, Thesaurus, and Idioms case-sensitive
+	- Made Dictionary searching compatible with new SQLite interface: drastic speed improvement
+	- 'Extended Search' is now the default mode of searching for Dictionary, due to drastic speed improvements
+	- Made Idioms searching compatible with new SQLite interface: drastic speed improvement
+	- Made Idioms listing compatible with new SQLite interface: drastic speed improvement
+	- 'Mature' idioms now listed after all other idioms, on Page 5 of Idioms window
+	- 'Mature' idioms at the end of page 5 of the Idioms window are in blue, instead of purple
+	- Idioms window now has 5 pages, instead of 4, for speed improvements
+	- Changed the Pythonol logo to something sleeker and more sophisticated
+	- Added nice little 3D pixmaps to the tabs on the notebook
+	- Made Conjugate compatible with new SQLite interface: drastic speed improvement
+	- Made Search-On-Demand compatible with new SQLite interface: drastic speed improvment
+	- 'Search-On-Demand' now shows more relavant search results for search words
+	- Made Vocabulary Quiz  compatible with new SQLite interface: drastic speed improvement
+	- Made Vocabulary List  compatible with new SQLite interface: drastic speed improvement
+	- Made 'Thesaurus' module compatible with new SQLite interface: modest speed improvement
+	- Made some accuracy improvements to 'Search-on-demand' reverse verb conjugation
+	- Made "spanish slang" listing in reference section compatible with new SQLite interface
+	- Made speed improvements to 'Search-on-demand' reverse verb conjugation, exact matches first
+	- Using much cooler-looking pixmaps (images) throughout Pythonol
+	- Implemented some 'tearoff' menus to make browsing through the Reference and Exercise menu sections much easier
+	- Thesaurus no longer requires 'words' file/database, due to SQLite implementation
+	- Added a 'help' button to Pythonol's internal PyBabelPhish module
+	- Fixed a small bug in 'pythonol_help.py' which didn't remove weird '\r' characters from help files
+	- Updated the 'about' box, the licenses, and misc. documentation
+	- Added 'Help' menu item for Festival text-to-speech extension
+	- Added a 'Frequently Asked Questions' to the menu, the docs section, and the web site.
+
+
+
+TODO:
+	- Gettext spanish locale support on Unix/Linux??  (Es posible)
+	- Make pythonol able to run in either Spanish or English, via 'preferences' file (POSIX only)
+	- Add more sentences/phrases to the Translation exercise
+
+
+	
+RANDOM NOTES:
+	- Festival site: http://www.cstr.ed.ac.uk/projects/festival/download.html

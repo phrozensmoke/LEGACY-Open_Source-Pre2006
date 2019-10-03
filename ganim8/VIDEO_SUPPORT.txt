@@ -1,0 +1,90 @@
+ABOUT VIDEO SUPPORT IN GANIM8
+
+
+IMPORTANT CHANGE IN VERSION 0.3:
+As of version gAnim8 0.3, video support is now implemented through the use of the MUCH more advanced FFMPEG. The old 'mpeg2decode' is no longer used, because it is slow, has limited functionality, and supports only a few file types.
+
+
+The VIDEO support in gAnim8 is still EXPERIMENTAL. Here are the facts:
+
+At this time only videos under 1MB (1200 frames or less) are supported.  If you open videos bigger than that, you do so at your own risk (see below).
+
+
+INTENDED USAGE:
+The VIDEO support in gAnim8 is NOT intended for opening/editing/saving large VIDEOs.  It is NOT intended to turn gAnim8 into a full-fledged 'movie studio'.  The VIDEO support is intended for such things as opening a small VIDEO, grabbing 1-25 frames from the VIDEO, and using those frames to make a smaller animation (i.e, an animated Gif from an VIDEO or a smaller VIDEO from the original VIDEO).  The VIDEO support is useful for those wishing to grab a frame or frames from an VIDEO, or those wishing to make a mini animated 'preview' of an Video.  Any other usage is not 'supported'. So, if you use the VIDEO support for anything other than what I have just described, you do so at your OWN risk.  If you try to open a 20MB VIDEO and it crashes your computer, do NOT send in a 'bug' report, as the only thing 'malfunctioning' will have been your reading comprehension.
+
+
+SOME SUGGESTED USES:
+  - Creating a small SWF (Shockwave Flash) or RealPlayer presentation from an animated GIF or small video.
+  - Creating a small animated GIF rendition or 'preview' of a video file.
+  - Making a small video of an animated GIF
+  - Converting a small video of one format to a small video of another format
+  - Recording a short video from a Video4Linux device using gAnim8's 'Record Video.." tool
+
+
+REQUIREMENTS:
+In order to do ANYTHING with Videos (opening or saving), you MUST have  BOTH 'ffmpeg' and the 'convert' program from ImageMagick installed on your system.  
+
+FFMPEG - The 'ffmpeg' package  (containing the 'ffmpeg' binary - version 0.4.6 or better - required for video read/write support)
+
+ImageMagick (containing the 'convert' binary, version 5.2.3+, version 5.4.6.1 or better recommended - adds support for 110+ image formats, and is also needed for video support)
+
+
+GETTING FFMPEG:
+The 'ffmpeg' package can be found on speakeasy.rpmfind.net and at the FFMPEG web site (ffmpeg.sourceforge.net).
+
+GETTING IMAGEMAGICK:
+The ImageMagick package can be found on both speakeasy.rpmfind.net and www.imagemagick.org .
+
+
+IMPORTANT: gAnim8 is NOT intended for opening, saving, or editing large videos.  At this time only videos under 1MB (1200 frames or less) are supported.  gAnim8 is NOT a 'movie studio' - it is an animation suite, intended for opening/saving/editing SMALL animations and videos.  If you choose to ignore this warning - expect to wait a LONG time for your video to open.  In addition, LOTS of temporary disk space will be used (possibly hundreds of MBs), and the whole GUI of gAnim8 will run much, much slower. Large VIDEOs over 1MB can take MANY minutes to open. Use at your own risk!
+
+
+gAnim8 has NO control over the speed of decoding videos.  This is controlled by the external program 'ffmpeg' from the 'ffmpeg' package.
+
+gAnim8 has NO control over the speed of encoding videos.  This is controlled by the external program 'ffmpeg' from the 'ffmpeg' package.
+
+
+SUPPORTED VIDEO FORMATS - FOR OPENING   (Video types gAnim8 can READ):
+	MPEG
+	AVI  (Windows Video)
+	ASF  (Windows Video)
+	WMV  (Window Media Video)
+	SWF (Shockwave Flash, old, version 1.0)
+	RM (RealPlayer, older format)
+	M4V
+	MOV/QT  (Quicktime)
+
+SUPPORTED VIDEO FORMATS - FOR SAVING   (Video types gAnim8 can WRITE):
+	MPEG
+	AVI  (Windows Video)
+	ASF  (Windows Video)
+	WMV  (Window Media Video)
+	SWF (Shockwave Flash, old, version 1.0)
+	RM (RealPlayer, older format)
+	M4V
+
+gAnim8 does NOT support any other VIDEO formats.  If it's not listed above, it's not supported.  The types of videos that can be opened and saved depends heavily on how recent and functional your copy of 'ffmpeg' is. Make sure you have a very recent version of FFMPEG.
+
+
+OPENING VIDEOS:
+To open a video, select "Open..." on the menu, and select one of the supported video types (see above).  Opening an VIDEO can take a moment.  Please be patient.  A 'preview' window will open.  You may then select the frames from the VIDEO video you want to incorporate into your animation.  As of gAnim8 version 0.3, you can drag-and-drop frames onto the gAnim8 window: The frames will be automatically imported into the animation.  If you select a RANGE of frames to import, it is HIGHLY suggested that you do not choose more than 25 frames (as you will may be waiting a LONG time for all of the frames to be processed and incorporated into the animation). If you ignore this warning, you do so at your own risk.  IMPORTANT NOTE: When opening a video from the menu with the 'Open...' command, gAnim8 will only display the first 200 frames of your video.  There is a reason for this:  Trying to show more than 200 frames in the video preview window has been known to make the X Server completely CRASH, as too much screen real estate is being used.  (I'm working on it!)
+
+
+IMPORTING VIDEOS:
+If you wish to import a whole video at once, you may do so by dragging and droping a supported video from a file manager (such as GMC) onto one of the 'Insert' buttons in gAnim8.  Importing a video will quickly insert a lower-quality version of your video directly into the animation sequence.  Basically, what this feature does is quickly convert your video into an animated .GIF, then embeds that animated GIF into your animation sequence.  If you are importing a LARGE video, be prepared to wait a moment or more.  
+
+For now, If your video is more than 200 frames, and you wish to have ALL the video frames included in the animation (not suggested - gAnim8 isn't a 'movie studio), you will have to IMPORT your video, instead of OPEN your video.
+
+
+RECORDING VIDEOS:
+You can record a video from a V4L device (new in gAnim8 version 0.3!) by clicking 'Tool', then 'Record Video...' on the menu.  This feature, of course, requires FFMPEG to be installed on your system.  It's not that advanced or fancy, but it gets the job done.  Currently, there is no way to 'preview' the video you are recording until after it has been recorded.  (Allowing both gAnim8 and FFMPEG to access a V4L device at the same time would take some serious hacking.)  
+
+SUPPORTED VIDEO FORMATS - FOR RECORDING:
+	MPEG
+	AVI  (Windows Video)
+	ASF  (Windows Video)
+	WMV  (Window Media Video)
+	SWF (Shockwave Flash, old, version 1.0)
+	RM (RealPlayer, older format)
+	M4V

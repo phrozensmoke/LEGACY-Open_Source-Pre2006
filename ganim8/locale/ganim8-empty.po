@@ -1,0 +1,1332 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+
+"Project-Id-Version: GAnim8-0.3b\n"
+"POT-Creation-Date: 2003-02-14 11:35+0100\n"
+"PO-Revision-Date: 2003-02-14 15:51+0400\n"
+"Last-Translator: Erica Andrews <PhrozenSmoke@yahoo.com>\n"
+"Language-Team: SPANISH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Created by gAnim8 for Linux."
+msgstr ""
+
+
+msgid "/_File"
+msgstr ""
+
+
+msgid "/_File/_New..."
+msgstr ""
+
+
+msgid "/_File/_Open..."
+msgstr ""
+
+
+msgid "/_File/_Extract All Frames To Directory..."
+msgstr ""
+
+
+msgid "/_File/sep5"
+msgstr ""
+
+
+msgid "/_File/_Save Animated GIF"
+msgstr ""
+
+
+msgid "/_File/Save _As Animated GIF..."
+msgstr ""
+
+
+msgid "/_File/sep1"
+msgstr ""
+
+
+msgid "/_File/Save As VIDEO"
+msgstr ""
+
+
+msgid "/_File/Save As VIDEO/Save As MPEG-1..."
+msgstr ""
+
+
+msgid "/_File/Save As VIDEO/Save As AVI..."
+msgstr ""
+
+
+msgid "/_File/Save As VIDEO/Save As SWF (Shockwave Flash)..."
+msgstr ""
+
+
+msgid "/_File/Save As VIDEO/Save As RM (RealPlayer Video)..."
+msgstr ""
+
+
+msgid "/_File/Save As VIDEO/Save As ASF..."
+msgstr ""
+
+
+msgid "/_File/Save As VIDEO/Save As WMV (Windows Media Video)..."
+msgstr ""
+
+
+msgid "/_File/Save As VIDEO/Save As M4V..."
+msgstr ""
+
+
+msgid "/_File/sep9"
+msgstr ""
+
+
+msgid "/_File/Preview/Preview As Animated _GIF"
+msgstr ""
+
+
+msgid "/_File/Preview/Preview As _MPEG-1 Video"
+msgstr ""
+
+
+msgid "/_File/Preview/Preview As AVI Video"
+msgstr ""
+
+
+msgid "/_File/Preview/Preview As SWF (Shockwave Flash) Video"
+msgstr ""
+
+
+msgid "/_File/Preview/Preview As RM (RealPlayer) Video"
+msgstr ""
+
+
+msgid "/_File/Preview/Preview As ASF Video"
+msgstr ""
+
+
+msgid "/_File/Preview/Preview As WMV (Windows Media) Video"
+msgstr ""
+
+
+msgid "/_File/Preview/Preview As M4V Video"
+msgstr ""
+
+
+msgid "/_File/sep2"
+msgstr ""
+
+
+msgid "/_File/_Quit"
+msgstr ""
+
+
+msgid "/_Options"
+msgstr ""
+
+
+msgid "/_Options/_Default Image Editor..."
+msgstr ""
+
+
+msgid "/_Options/_MPEG-1 Video Previewer..."
+msgstr ""
+
+
+msgid "/_Options/_AVI Video Previewer..."
+msgstr ""
+
+
+msgid "/_Options/_SWF (Shockwave Flash) Video Previewer..."
+msgstr ""
+
+
+msgid "/_Options/_RM (RealPlayer) Video Previewer..."
+msgstr ""
+
+
+msgid "/_Options/AS_F Video Previewer..."
+msgstr ""
+
+
+msgid "/_Options/_WMV (Windows Media) Video Previewer..."
+msgstr ""
+
+
+msgid "/_Options/M_4V Video Previewer..."
+msgstr ""
+
+
+msgid "/_Tools"
+msgstr ""
+
+
+msgid "/_Tools/_View Supported File Types"
+msgstr ""
+
+
+msgid "/_Tools/My _Briefcase"
+msgstr ""
+
+
+msgid "/_Tools/gAnim8 Image _Conversion Tool"
+msgstr ""
+
+
+msgid "/_Tools/_Screenshot..."
+msgstr ""
+
+
+msgid "/_Tools/_Record Video..."
+msgstr ""
+
+
+msgid "/This _Animation Sequence"
+msgstr ""
+
+
+msgid "/This _Animation Sequence/Show _Information"
+msgstr ""
+
+
+msgid "/This _Animation Sequence/Set _Dimensions..."
+msgstr ""
+
+
+msgid "/_Help"
+msgstr ""
+
+
+msgid "/_Help/_License Agreement"
+msgstr ""
+
+
+
+msgid "/_Help/_About gAnim8..."
+msgstr ""
+
+
+msgid "/_Help/About _Gifsicle..."
+msgstr ""
+
+
+msgid "/_Help/sep45"
+msgstr ""
+
+
+msgid "/_Help/gAnim8 Help"
+msgstr ""
+
+
+msgid "/_Help/First-time Users"
+msgstr ""
+
+
+msgid "/_Help/System Requirements"
+msgstr ""
+
+
+msgid "/_Help/Video Support"
+msgstr ""
+
+
+msgid "/_Help/sep46"
+msgstr ""
+
+
+msgid "/_Help/Bugs and Comments"
+msgstr ""
+
+
+msgid "Loop"
+msgstr ""
+
+
+msgid "Turn looping on/off.  ON to make the animation play over and over. OFF to make the animation play once only."
+msgstr ""
+
+
+msgid "Count"
+msgstr ""
+
+
+msgid "Enter how many times you want the animation to loop. Enter 0 to make the animation loop forever."
+msgstr ""
+
+
+msgid "Delay"
+msgstr ""
+
+
+msgid "Enter the length of time, in hundredths of a second between frame changes in the Animated GIF. WARNING: Setting this value to over 50 may make your animation appear to not be moving at all. This setting has NO effect on videos created by gAnim8"
+msgstr ""
+
+
+msgid "Preview"
+msgstr ""
+
+
+msgid "Build this Animated GIF and preview it with 'gifview'"
+msgstr ""
+
+
+msgid "Stop"
+msgstr ""
+
+
+msgid "Stop the preview"
+msgstr ""
+
+
+msgid "Optimization"
+msgstr ""
+
+
+msgid "None"
+msgstr ""
+
+
+msgid "No optimization: Your GIF file may be larger in size, but should be readable by almost any web browser."
+msgstr ""
+
+
+msgid "Light"
+msgstr ""
+
+
+msgid "Light optimization: Usually the best choice. Generally decreases the file size of your GIF, but leaves it readable for most web browsers."
+msgstr ""
+
+
+msgid "Heavy"
+msgstr ""
+
+
+msgid "Heavy optimization: Generally only applies to animations with transparency. Shrinks the GIF size as much as possible, but some non-standard web browsers and image viewers may have trouble displaying your image correctly."
+msgstr ""
+
+
+msgid "Background Color"
+msgstr ""
+
+
+msgid "Set the background for this animation. Does not apply to all animations, particularly not to those with transparency in the first frame. This feature applies to the WHOLE animation sequence."
+msgstr ""
+
+
+msgid "Interlaced"
+msgstr ""
+
+
+msgid "Transparent Color"
+msgstr ""
+
+
+msgid "Turn interlacing on/off.  This may affect the file size of your GIF by a few bytes or so. This feature applies to the WHOLE animation sequence."
+msgstr ""
+
+
+msgid "Transparent"
+msgstr ""
+
+
+msgid "Choose the transparent color for the selected frame ONLY.  You must set/unset transparency for each frame in this animation sequence."
+msgstr ""
+
+
+msgid "Enable/disable transparency for the selected frame ONLY.  You must set/unset transparency for each frame in this animation sequence."
+msgstr ""
+
+
+msgid "Comment"
+msgstr ""
+
+
+msgid "Set the comment to be embedded into this animation. WARNING: Large comments can greatly increase the file size of your animation. Set this comment to nothing if you are trying to shrink your file size as much as possible. Otherwise, short comments are suggested."
+msgstr ""
+
+
+msgid "Detach"
+msgstr ""
+
+
+msgid "Detach/Re-attach the frame window"
+msgstr ""
+
+
+msgid "VERY IMPORTANT INFORMATION FOR NEW USERS. Please note that gAnim8 works with TEMPORARY copies of all files ONLY.  This means you should have no fear of playing around with your GIFs and animations, while not having to worry about destroying the original copies.  This ALSO means that these temporary copies of your GIFs are automatically deleted from your system by gAnim8 when they are no longer needed. So, if you edit your GIFs (particularly the frames in your animations) be sure to click the 'Save...' button next to the frame and save it as a permanent file if you wish to keep those changes, as they will be automatically deleted by gAnim8 when you exit this program or start a new animation.  TO REPEAT: If you open an animation, you will be working with a COPY of that animation, not the original animated Gif.  If you add a GIF frame to an animation, you will be working with a COPY of your GIF, not the original.  By the way, temporary files are stored in either your home directory under ~/.ganim8/tmp/ or under /tmp/ (for those of you who care). You will not see this message again unless you do a fresh installation under your username, or your Options file becomes disappears or becomes damaged  or unreadable."
+msgstr ""
+
+
+msgid "Send Bugs and Comments To PhrozenSmoke@yahoo.com. When reporting bugs, please tell me the versions of the following packages installed on your computer: gAnim8, python, pygtk, pygnome, gifsicle, ImageMagick, ffmpeg, gtk, Imlib, and Gnome/Gnome-libs.  Include a DETAILED description of the problem you experienced."
+msgstr ""
+
+
+msgid "SUPPORTED SAVE FORMATS:\n"
+msgstr ""
+
+
+msgid "  (GIF not available: 'gifsicle' not found)\n"
+msgstr ""
+
+
+msgid "  MPEG Video\n  AVI Video\n  ASF Video\n  WMV Video\n  SWF Video\n  RealPlayer Video\n  M4V Video\n\n-------------\nSUPPORTED INPUT FORMATS:\n"
+msgstr ""
+
+
+msgid "  (VIDEO support not available: missing ImageMagick or 'ffmpeg')\n\n-------------\nSUPPORTED INPUT FORMATS:\n"
+msgstr ""
+
+
+msgid "  MPEG Video \n  AVI Video \n  ASF Video \n  WMV Video \n  SWF Video \n  RealPlayer Video \n  M4V Video \n  MOV Video\n"
+msgstr ""
+
+
+msgid "  (VIDEO support not available: missing 'ffmpeg')\n\n"
+msgstr ""
+
+
+msgid "  (Support for non-GIFs not available: 'convert' from ImageMagick not found)\n  (Video support not available: missing ImageMagick)"
+msgstr ""
+
+
+msgid "This is simple WIDTH x HEIGHT dimensions setting (in pixels). Here you can set the dimensions of the GIF animation or single-framed GIF that Gifsicle will produce (300 x 150, 20 x 10, etc.).  You can easily SCALE the size of your image (and preserve the aspect ratio) by setting only the width and leaving the height set to '0', or by setting the height and leaving the width set to '0'.  In this case, Gifsicle will automatically scale the image for you, keeping the aspect ratio intact.  For example, if you want to scale the image to a width of 300 pixels. Simply type '300' for width and leave the 'height' set to '0'.  Gifsicle will pick the best height for a width of 300.  It's that easy.  8-)"
+msgstr ""
+
+
+msgid "Re-attach"
+msgstr ""
+
+
+msgid "Detach"
+msgstr ""
+
+
+msgid "Sorry. File extension '"
+msgstr ""
+
+
+msgid "' is not supported by gAnim8.\nClick 'Tools' then 'View Supported File Types' on the menu for a list of supported formats."
+msgstr ""
+
+
+msgid "An ERROR occurred loading the following files:\n\n"
+msgstr ""
+
+
+msgid "Please make sure that the file(s) exists and that it is supported by the Imlib image loading library."
+msgstr ""
+
+
+msgid "No GIFS in this sequence. No information available."
+msgstr ""
+
+
+msgid "ERROR: Your GIF could not be created. Save FAILED!"
+msgstr ""
+
+
+msgid "Your GIF could not be created.\nHere is the beginning of the feedback sent by Gifsicle. It may help you troubleshoot the problem:\n\n"
+msgstr ""
+
+
+msgid "INFORMATION ABOUT THIS ANIMATION SEQUENCE:\n\n"
+msgstr ""
+
+
+msgid "ERROR: The dimensions must be POSITIVE numbers."
+msgstr ""
+
+
+msgid " ERROR: The dimensions must be INTEGERS."
+msgstr ""
+
+
+msgid " No GIFs loaded.  Nothing to save yet."
+msgstr ""
+
+
+msgid "Save Animation to file..."
+msgstr ""
+
+
+msgid "File "
+msgstr ""
+
+
+msgid " already exists.  Overwrite?"
+msgstr ""
+
+
+msgid " No file selected for saving!"
+msgstr ""
+
+
+msgid "ERROR: Your GIF animation could not be created. No file saved."
+msgstr ""
+
+
+msgid " File saved to  "
+msgstr ""
+
+
+msgid " bytes)"
+msgstr ""
+
+
+msgid " ERROR:  Save to file "
+msgstr ""
+
+
+msgid " failed!"
+msgstr ""
+
+
+msgid "This image or animation sequence has changed.  Save it?"
+msgstr ""
+
+
+msgid "Copyright 2003 by Erica Andrews. All rights reserved."
+msgstr ""
+
+
+msgid "File removed from sequence. Editing"
+msgstr ""
+
+
+msgid "Are you sure you want to convert this frame to Grey Scale?\nThis feature is EXPERIMENTAL and cannot be undone.\nIf you don't like the Grey Scale image, you will have reopen this frame's image.\nContinue?"
+msgstr ""
+
+
+msgid "Error: could not write the necessary palette to disk for GreyScale conversion."
+msgstr ""
+
+
+msgid "Open a file..."
+msgstr ""
+
+
+msgid "File"
+msgstr ""
+
+
+msgid "added to sequence. Editing"
+msgstr ""
+
+
+msgid "Select a file..."
+msgstr ""
+
+
+msgid "You are about to insert an entire video file directly into the animation sequence.\nIf you choose to continue, the video will be converted to a LOW-QUALITY\nanimated GIF, represented by ONE frame in the animation window.\nCreating this animated GIF frame may take some time.\nDo you wish to continue?"
+msgstr ""
+
+
+msgid "ERROR: Video conversion to animated GIF failed for"
+msgstr ""
+
+
+msgid "ERROR: Video conversion to animated GIF failed for"
+msgstr ""
+
+
+msgid "added to sequence. Editing"
+msgstr ""
+
+
+msgid "Dimensiones de video RealPlayer"
+msgstr ""
+
+
+msgid "What size would you like the RealPlayer movie to be?"
+msgstr ""
+
+
+msgid "Small - 176x144"
+msgstr ""
+
+
+msgid "Large - 352x288"
+msgstr ""
+
+
+msgid " No images loaded to create "
+msgstr ""
+
+
+msgid " from."
+msgstr ""
+
+
+msgid "You do not have the 'ffmpeg' binary from the 'ffmpeg' package on your path.\nThis binary is required by gAnim8 to create animated GIFS from videos.\nYou will have to put the 'ffmpeg' binary (version 0.4.6 or better)\non your path before this function will be enabled in gAnim8.\nYou can find versions of 'ffmpeg' on speakeasy.rpmfind.net, ganim8.sourceforge.net,\nand ffmpeg.sourceforge.net."
+msgstr ""
+
+
+msgid "The 'convert' binary from the ImageMagick program is NOT on your PATH\nImageMagick's 'convert' utility is required for all image conversions and must be on your PATH.\nImageMagick 5.2.3 or better is required. Version 5.4.6.1 or better is recommended.\nYou can find versions of ImageMagick on speakeasy.rpmfind.net.\nUntil you have ImageMagick installed, you can only open GIF files with gAnim8."
+msgstr ""
+
+
+msgid "Save As "
+msgstr ""
+
+
+msgid " Video..."
+msgstr ""
+
+
+msgid "File '"
+msgstr ""
+
+
+msgid "' already exists. Overwrite?"
+msgstr ""
+
+
+msgid "A BASIC "
+msgstr ""
+
+
+msgid " Video of this animation will be created.\nThe created video will be about 2 FPS with no special effects.\nThis may take some time - so be patient.\nIf you need to change the frame rate or tweak this video,\nyou will need a separate program, such as ffmpeg's command-line utility.\ngAnim8 is NOT a 'movie studio'!\nContinue?"
+msgstr ""
+
+
+msgid "ERROR: No animation could be created from this sequence of images."
+msgstr ""
+
+
+msgid "Successfully created "
+msgstr ""
+
+
+msgid " video:\n\n"
+msgstr ""
+
+
+msgid " video created: "
+msgstr ""
+
+
+msgid " bytes"
+msgstr ""
+
+
+msgid "Creation of "
+msgstr ""
+
+
+msgid " video FAILED:\n\n"
+msgstr ""
+
+
+msgid "\n\nFile not created."
+msgstr ""
+
+
+msgid "Attempt to import Non-GIF image FAILED:\n"
+msgstr ""
+
+
+msgid "Unknown error processing converted image with Gifsicle. Conversion failed."
+msgstr ""
+
+
+msgid "This image or animation sequence has changed.  Save it?"
+msgstr ""
+
+
+msgid "Open an Image or Video file..."
+msgstr ""
+
+
+msgid "File not found: "
+msgstr ""
+
+
+
+msgid "NOTE: Video support is EXPERIMENTAL!\nLots of temporary disk space may need to be used.\nThe 'preview' window may take a while to display.\nAll video decoding is done with 'ffmpeg',\nthe speed of which gAnim8 cannot control.\ngAnim8 is NOT intended for opening large videos or to be used as a full 'movie studio'.\nSMALL videos (under 1MB/under 1200 frames) should open fine.\nUse at your own risk and be patient. Continue?"
+msgstr ""
+
+
+msgid "WARNING: The VIDEO file you have selected is over 1 MB in size\n.(Probably over 1200 frames.)\ngAnim8 was NOT created to handle Mpegs this large.\ngAnim8 is NOT a full 'movie studio'. It's a simple animation suite.\nIf you continue, LOTS of temporary disk space will need to be used.\n(possibly tens or hundreds of MB, maybe more)\nThe preview window may take a LONG time to open (several minutes? hours?)\nDo NOT attempt to open Mpegs over 15MB with gAnim8.\nYou have been warned! Continue?"
+msgstr ""
+
+
+msgid " Ready. Extracted "
+msgstr ""
+
+
+msgid " frames."
+msgstr ""
+
+
+msgid "No Gif file specified. Nothing to open."
+msgstr ""
+
+
+msgid " Extracting .gif frames...."
+msgstr ""
+
+
+msgid "No frames extracted from "
+msgstr ""
+
+
+msgid "No frames were extracted from the file you selected. Perhaps, the file you selected was not a legitimate GIF file or is in a format that Gifsicle is unable to open.  You may not have read/write access to this file or the temporary directory. Please ensure that your temporary directory exists at either /tmp/ or ~/.ganim8/tmp/ and that you have read/write access to that directory. Click 'Tools' then 'View Support File Types' on the menu up top to see a list of image and video formats supported by gAnim8."
+msgstr ""
+
+
+msgid "An error occurred opening the selected Gif file: "
+msgstr ""
+
+
+msgid "\n\nThis may not be a legitimate gif file, or you may not have read/write access to this file or the temporary directory. Please ensure that your temporary directory exists at either /tmp/ or ~/.ganim8/tmp/ and that you have read/write access to that directory.  Click 'Tools' then 'View Supported File Types' on the menu up top to see a list of image and video formats supported by gAnim8."
+msgstr ""
+
+
+msgid "Load a GIF and selected a frame first."
+msgstr ""
+
+
+msgid "Color palette unavailable for "
+msgstr ""
+
+
+msgid "No frames to extract"
+msgstr ""
+
+
+msgid "Extract All Frames To...."
+msgstr ""
+
+
+msgid "Frames extracted to directory "
+msgstr ""
+
+
+msgid "Extract Frame To...."
+msgstr ""
+
+
+msgid " already exists.  Overwrite?"
+msgstr ""
+
+
+msgid "Frame extracted to  "
+msgstr ""
+
+
+msgid "Frame "
+msgstr ""
+
+
+msgid "     Dimensions: "
+msgstr ""
+
+
+msgid "       Size:  "
+msgstr ""
+
+
+msgid " bytes"
+msgstr ""
+
+
+msgid " WARNING: Could not write specialized color palette to disk. Using 256 colors instead."
+msgstr ""
+
+
+msgid "ERROR: Preview Gif animation could not be created."
+msgstr ""
+
+
+msgid "Your preview animation could not be created.\nHere is the beginning of the feedback sent by Gifsicle:\n\n"
+msgstr ""
+
+
+msgid " No GIFs currently loaded. Cannot create an empty GIF."
+msgstr ""
+
+
+msgid " ERROR:  Loop Delay must be a POSITIVE number. "
+msgstr ""
+
+
+msgid " ERROR:  Loop Count must be a POSITIVE number. "
+msgstr ""
+
+
+msgid " ERROR: The Loop Delay and Loop Count must be INTEGERS"
+msgstr ""
+
+
+msgid " Generating preview..."
+msgstr ""
+
+
+msgid " Gif created. Animation size is "
+msgstr ""
+
+
+msgid "Move Left"
+msgstr ""
+
+
+msgid "Move Right"
+msgstr ""
+
+
+msgid " ERROR: Image not found or could not be loaded via Imlib"
+msgstr ""
+
+
+msgid "Change"
+msgstr ""
+
+
+msgid "Replace this image with another image"
+msgstr ""
+
+
+msgid "Save..."
+msgstr ""
+
+
+msgid "Save this frame to a permanent file"
+msgstr ""
+
+
+msgid "Delete"
+msgstr ""
+
+
+msgid "Delete this image from the animation sequence"
+msgstr ""
+
+
+msgid "Edit"
+msgstr ""
+
+
+msgid "Edit this image with your default image editor"
+msgstr ""
+
+
+msgid "Reload this image if it has been edited or modified."
+msgstr ""
+
+
+msgid "Colors"
+msgstr ""
+
+
+msgid "Show the color palette and edit colors for this image"
+msgstr ""
+
+
+msgid "GreyScale"
+msgstr ""
+
+
+msgid "Convert to GreyScale (black and white)"
+msgstr ""
+
+
+msgid "Flip/Rotate"
+msgstr ""
+
+
+msgid "Flip or Rotate this image."
+msgstr ""
+
+
+msgid "Unknown"
+msgstr ""
+
+
+msgid "  \nNumber of Colors: "
+msgstr ""
+
+
+msgid "\n Temporary File: "
+msgstr ""
+
+
+msgid "gAnim8 Help"
+msgstr ""
+
+
+msgid "Close"
+msgstr ""
+
+
+msgid "Close this help window"
+msgstr ""
+
+
+msgid "Generic Help File"
+msgstr ""
+
+
+msgid "Color Palette"
+msgstr ""
+
+
+msgid "OK"
+msgstr ""
+
+
+msgid "Apply the color changes to this image"
+msgstr ""
+
+
+msgid "Cancel"
+msgstr ""
+
+
+msgid "Close this window without applying the color changes."
+msgstr ""
+
+
+msgid "Loading palette..."
+msgstr ""
+
+
+msgid " Palette loaded.  Palette has "
+msgstr ""
+
+
+msgid " colors."
+msgstr ""
+
+
+msgid "Select A New Color..."
+msgstr ""
+
+
+msgid "Flip/Rotate Image"
+msgstr ""
+
+
+msgid "Flip Horizontal"
+msgstr ""
+
+
+msgid "Flip Vertical"
+msgstr ""
+
+
+msgid "Rotate 90 Degrees"
+msgstr ""
+
+
+msgid "Rotate 180 Degrees"
+msgstr ""
+
+
+msgid "Rotate 270 Degrees"
+msgstr ""
+
+
+msgid "Apply Change"
+msgstr ""
+
+
+msgid "Apply the selected change"
+msgstr ""
+
+
+msgid "Close"
+msgstr ""
+
+
+msgid "Close this window"
+msgstr ""
+
+
+msgid " ERROR:  You did not fill in the field properly. This field cannot be blank."
+msgstr ""
+
+
+msgid "Image Editor Command"
+msgstr ""
+
+
+msgid "MPEG Video Previewer"
+msgstr ""
+
+
+msgid "AVI Video Previewer"
+msgstr ""
+
+
+msgid "SWF Video Previewer"
+msgstr ""
+
+
+msgid "RealPlayer Video Previewer"
+msgstr ""
+
+
+msgid "ASF Video Previewer"
+msgstr ""
+
+
+msgid "WMV Video Previewer"
+msgstr ""
+
+
+msgid "M4V Video Previewer"
+msgstr ""
+
+
+msgid "Enter the command to launch your image editor"
+msgstr ""
+
+
+msgid "Enter the command to launch your MPEG-1 video player."
+msgstr ""
+
+
+msgid "Enter the command to launch your AVI player."
+msgstr ""
+
+
+msgid "Enter the command to launch your SWF (Shockwave Flash) video player."
+msgstr ""
+
+
+msgid "Enter the command to launch your RM (RealPlayer) video player."
+msgstr ""
+
+
+msgid "Enter the command to launch your ASF video player."
+msgstr ""
+
+
+msgid "Enter the command to launch your WMV (Windows Media Video) player."
+msgstr ""
+
+
+msgid "Enter the command to launch your M4V video player."
+msgstr ""
+
+
+msgid "Include a %f where the filename should go."
+msgstr ""
+
+
+msgid " OK"
+msgstr ""
+
+
+msgid "Save changes and close"
+msgstr ""
+
+
+msgid "Close this window without saving changes"
+msgstr ""
+
+
+msgid "Animation Dimensions"
+msgstr ""
+
+
+msgid "Set the width and height for this animation"
+msgstr ""
+
+
+msgid "or set to 0x0 to accept the natural dimensions"
+msgstr ""
+
+
+msgid "Enter the desired WIDTH"
+msgstr ""
+
+
+msgid "Enter the desired HEIGHT"
+msgstr ""
+
+
+msgid "Accept changes and close this window"
+msgstr ""
+
+
+msgid "Cancel"
+msgstr ""
+
+
+msgid "Close this window without saving changes."
+msgstr ""
+
+
+msgid "Help Me!"
+msgstr ""
+
+
+msgid "Get help on setting dimensions and scaling images"
+msgstr ""
+
+
+msgid "Select Frames For Extraction..."
+msgstr ""
+
+
+msgid "Drag and drop frames onto the GAnim8 Window"
+msgstr ""
+
+
+msgid "or select a range of frames below."
+msgstr ""
+
+
+msgid "Frames to extract:  "
+msgstr ""
+
+
+msgid "Examples:   1-8   or   2,4,6,8    or   1-8,12,34,56"
+msgstr ""
+
+
+msgid "CANCEL"
+msgstr ""
+
+
+msgid "Frame could not be loaded"
+msgstr ""
+
+
+msgid "Frame "
+msgstr ""
+
+
+msgid "You have selected more than 25 frames from this Video.\nIt may take a LONG time to process all of these frames into GIFs.\nSo, you will have to be very patient.\ngAnim8 is not a 'movie studio'.\nIt is a suite for SMALL animations.\nSo, this might work, it might not.\n You have been warned!\nContinue anyway?"
+msgstr ""
+
+
+msgid "Invalid Frame Selection! Please re-check your input."
+msgstr ""
+
+
+msgid " bytes"
+msgstr ""
+
+
+msgid "FILE NOT FOUND!"
+msgstr ""
+
+
+msgid "Are you sure you want to delete this file?\n"
+msgstr ""
+
+
+msgid "Sorry, this file cannot be opened for editing because\nit is an important gAnim8 system file.\n\nIf you really need to edit it,\nSAVE it to another file and re-open it from the new file."
+msgstr ""
+
+
+msgid "The file '"
+msgstr ""
+
+
+msgid "' already exists.\nDo you wish to overwrite it?"
+msgstr ""
+
+
+msgid "File successfully saved to:\n"
+msgstr ""
+
+
+msgid "ERROR saving file to:\n"
+msgstr ""
+
+
+msgid "Recording..."
+msgstr ""
+
+
+msgid " video is "
+msgstr ""
+
+
+msgid "Save"
+msgstr ""
+
+
+msgid "Re-Open"
+msgstr ""
+
+
+msgid "Refresh"
+msgstr ""
+
+
+msgid "Files"
+msgstr ""
+
+
+msgid "gAnim8 Briefcase"
+msgstr ""
+
+
+msgid "gAnim8 Briefcase\n\nSession files: These are temporary files which \nwill automatically be deleted when gAnim8 quits."
+msgstr ""
+
+
+msgid "ERROR recording video!"
+msgstr ""
+
+
+msgid "gAnim8 Image Format..."
+msgstr ""
+
+
+msgid "WHOA! I had a little trouble opening this image."
+msgstr ""
+
+
+msgid "Tell me what kind of image this is, and I'll try again:"
+msgstr ""
+
+
+msgid "Ok"
+msgstr ""
+
+
+msgid "YES"
+msgstr ""
+
+
+msgid "NO"
+msgstr ""
+
+
+msgid "Insert"
+msgstr ""
+
+
+msgid "Insert a new frame here"
+msgstr ""
+
+
+msgid "Could not create directory "
+msgstr ""
+
+
+msgid "ERROR: Could not create/find directory /tmp/ - cannot save/open gif files"
+msgstr ""
+
+
+msgid "ERROR: gAnim8 could not create or find a temporary directory in  /tmp/  or  ~/.ganim8/tmp/ .  You will not be able to open gifs or preview/save gifs until one of these directories is created.  You will have to create one of these directories yourself and restart gAnim8"
+msgstr ""
+
+
+msgid " ERROR: Could not save your personalized options under "
+msgstr ""
+
+
+msgid "CRITICAL ERROR: Gifview from the Gifsicle package is required by gAnim8 for previewing animated gifs.  However, the 'gifview' executable was not found on your PATH.  You must install Gifsicle with the gifview program and put it on your PATH before you can preview animated gifs in gAnim8."
+msgstr ""
+
+
+msgid "CRITICAL ERROR: Gifsicle is required by gAnim8.  However, the 'gifsicle' executable was not found on your PATH.  You must install Gifsicle and put it on your PATH before you can use this program successfully."
+msgstr ""
+
+
+msgid "CRITICAL ERROR: Gifsicle is required by gAnim8.  However, the 'gifsicle' executable was not found on your PATH.  You must install Gifsicle and put it on your PATH before you can use this program.  You can download the source code for Gifsicle at   http://www.lcdf.org/gifsicle/   and can probaby find RPMs for it on speakeasy.rpmfind.net . Trust me, it's WELL worth the download."
+msgstr ""
+
+
+msgid "CRITICAL ERROR: Gifview from the Gifsicle package is required by gAnim8 for previewing animated gifs.  However, the 'gifview' executable was not found on your PATH.  You must install Gifsicle with the gifview program and put it on your PATH before you can preview animated gifs in gAnim8.  You can download the source code for Gifsicle at   http://www.lcdf.org/gifsicle/   and can probaby find RPMs for it on speakeasy.rpmfind.net . Trust me, it's WELL worth the download."
+msgstr ""
+
+
+msgid "This image or animation sequence has changed.  Save it?"
+msgstr ""
+
+
+msgid "\n\nUsage:  ganim8  [file_name]         where [file_name] is the optional file to open immediately upon starting.\n"
+msgstr ""
+
+
+
+msgid "I noticed that you saved this frame to a file that did not have the '.gif' extension.\nPlease note that this file was saved in GIF format.\nAt this time, individuals frames can only be saved to GIF format\n(No matter what file extension you use.)\n\nIf you need to save the extract frame in some other image format,\nclick 'Tools' then 'gAnim8 Image Conversion Tool' on the menu.\nThen, convert '"
+msgstr ""
+
+
+msgid "' to whatever format you want."
+msgstr ""
+
+
+msgid "GAnim8 Recorder"
+msgstr ""
+
+
+msgid "GAnim8 Recorder\n\nRecord from a Video4Linux Device"
+msgstr ""
+
+
+msgid "Device:"
+msgstr ""
+
+
+msgid "Format:"
+msgstr ""
+
+
+msgid "Video Size:"
+msgstr ""
+
+
+msgid "Frame Rate (FPS):"
+msgstr ""
+
+
+msgid "Start Recording"
+msgstr ""
+
+
+msgid "Stop Recording"
+msgstr ""
+
+
+msgid "Preview Last Video"
+msgstr ""
+
+
+msgid "Save Last Video"
+msgstr ""
+
+
+msgid "gAnim8 and the gAnim8 Conversion Tool are distributed under the W3C License.\n\n\nW3C SOFTWARE NOTICE AND LICENSE\n\nCopyright 2002 Erica Andrews (PhrozenSmoke@yahoo.com).  All rights reserved.  http://ganim8.sourceforge.net.\n\nThis work (including software, documents, or other related items) is being provided by the copyright holders under the following license. By obtaining, using and/or copying this work, you (the licensee) agree that you have read, understood, and will comply with the following terms and conditions:\n\nPermission to use, copy, modify, and distribute this software and its documentation, with or without modification,  for any purpose and without fee or royalty is hereby granted, provided that you include the following on ALL copies of the software and documentation or portions thereof, including modifications, that you make:\n\n1. The full text of this NOTICE in a location viewable to users of the redistributed or derivative work.\n\n2. Any pre-existing intellectual property disclaimers, notices, or terms and conditions. If none exist, a short notice of the following form (hypertext is preferred, text is permitted) should be used within the body of any redistributed or derivative code: \"Copyright 2002 Erica Andrews (PhrozenSmoke@yahoo.com).  All rights reserved.\"\n\n3. Notice of any changes or modifications to the files within the gAnim8 distribution, including the date changes were made. (I recommend you provide URIs to the location from which the code is derived.)\n\nTHIS SOFTWARE AND DOCUMENTATION IS PROVIDED \"AS IS,\" AND COPYRIGHT HOLDERS MAKE NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE SOFTWARE OR DOCUMENTATION WILL NOT INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS.\n\nCOPYRIGHT HOLDERS WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF ANY USE OF THE SOFTWARE OR DOCUMENTATION.\n\nThe name and trademarks of copyright holders may NOT be used in advertising or publicity pertaining to the software without specific, written prior permission. Title to copyright in this software and any associated documentation will at all times remain with copyright holders."
+msgstr ""
+
+
+msgid "http://ganim8.sourceforge.net.\n  \ngAnim8 is a program for creating animated GIFs and small videos.   gAnim8 is  built on top of the wonderful Gifsicle program.  gAnim8 is a frontend for Gifsicle and more.  However, gAnim8 and its author are in NO way affiliated with or endorsed by Gifsicle or the authors of Gifsicle.  gAnim8 is not an  \"official\" extension to Gifsicle and is NOT a modification of the Gifsicle code in anyway.  gAnim8 relies on the excellent functionality of Gifsicle, but does not incorporate any of its code.  gAnim8 is not intended to be the next Gimp. It is intended to be a simple, effective GUI for creating and retouching animated GIFs and small videos. \n \nWritten with Python/PyGTK/PyGnome.     \n \nLicense: W3C (open source). View  \"License\" on the Help menu for more details.  This program and its source may be freely modified and redistributed for non-commercial,  non-profit use only."
+msgstr ""
+
+
+msgid "\nConversion failed:\nImageMagick may require a supplemental library for this conversion.\nPlease check the ImageMagick documentation for the requirements for converting this format."
+msgstr ""
+
+
+msgid "An unknown error occurred: Conversion failed."
+msgstr ""
+
+
+msgid "The file you are trying to convert FROM does not exist"
+msgstr ""
+
+
+msgid "The file to convert FROM is a directory, not a file"
+msgstr ""
+
+
+msgid "ERROR: Could not load help document"
+msgstr ""
+
+

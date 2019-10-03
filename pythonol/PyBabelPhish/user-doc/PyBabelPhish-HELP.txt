@@ -1,0 +1,51 @@
+PyBabelPhish HELP
+
+Last Update: 11/25/2003
+
+
+PyBabelPhish is for translating entire phrases and sentences through one of the available online translation services, such as BabelFish or Google.  NOTE: PyBabelPhish requires a working internet connection in order to properly function.
+
+
+TEXT TO TRANSLATE:
+The 'Text to translate:' text field is where you type in the phrases or sentences you wish to have translated.  You may also paste in the text, or drag and drop a text file onto the 'Text to translate:' box.
+
+SPANISH LETTERS TOOLBAR:
+The Spanish Letters Toolbar contains several commonly-used, accented Spanish letters, not generally found on standard American keyboards.  Clicking one of the letters on the Spanish Letters Toolbar will insert that accented letter into the 'Text to translate:' text field at the cursor position.  This feature has been provided to help eliminate the need for an external 'character map' application.
+
+LANGUAGE:
+Use the 'Language:' menu to select the appropriate language pair for the translation you are about to retrieve.  For example, if the text you entered in 'Text to translate:' is in English, and you need a Spanish translation, select the menu option 'English to Spanish'.  Likewise, if the text you entered in 'Text to translate:' is in Spanish, and you need an English translation, select the menu option 'Spanish to English'.
+
+TRANSLATE:
+Clicking the 'Translate!' button tells PyBabelPhish to retrieve a translation for the phrases or sentences you entered in the 'Text to translate' field (described above).  PyBabelPhish will display the translation in the window just below the 'Translate!' button (in the 'Translation:' window), or will display an error message if it was unable to retrieve a translation.
+
+SAVE:
+The 'Save Translation' feature is a quick and easy way to save retrieved translations to a plain text file.  Both the retrieved translation and the text you entered in 'Text to translate:' will be saved in the file.  Simply click 'File' -> 'Save Translation' on the menu, select a file name to save to, and click 'Save'.  The translation will be saved to file for your future reference.
+
+ABOUT:
+Click the 'Help' -> 'About' on the menu for more information, such as the license and copyright, on the the translation component, PyBabelPhish.
+
+TRANSLATION:
+The 'Translation:' window displays any retrieved translations or error messages.  If you see repeated error messages indicating that a translation could not be retrieved, make sure that you have a working internet connection and that you are currently connected to the internet.  In addition, you may want to try selecting a new 'Translation Service' (see below).
+
+
+['Translation Service' Menu]
+'Change Translation Service...' :
+	Click 'Change Translation Service...' on the 'Settings' menu to select the translation service you wish to use.  The translation service chosen here will be used for retrieving translations in both the 'Translate' section and the 'Translation Exercise' section.  It is a good idea to change the selected 'Translation Service' if you are receiving repeated error messages indicating that a translation could not be retrieved, or if you feel that you are receiving too many errors in the translations being retrieved.
+
+
+
+TRANSLATING PHRASES OR SENTENCES:
+The steps for translating phrases and sentences are very simple:
+
+1.  Type in the phrases or sentences you wish to have translated into the 'Text to translate:' text field.  You may also paste in the text, or drag and drop a text file onto the 'Text to translate:' window.
+
+2.  Use the Spanish Letters Toolbar, as needed, to insert accented Spanish letters into the 'Text to translate:' text field.
+
+3.  Select the appropriate language pair for the text entered in Step #1 by selecting the correct option from the 'Language:' menu.  For example, if the text you entered in 'Text to translate:' is in English, and you need a Spanish translation, select the menu option 'English to Spanish'.
+
+4.  Click the 'Translate!' button.   Any retrieved translations (or error messages) will be displayed in the 'Translation:' window.
+
+5.  If you wish to save your retrieved translation to a file, click 'File' -> 'Save Translation' on the menu, enter a file name, and click 'Save'.  Your translation will be saved for your future reference.
+
+
+If you have the Festival text-to-speech extension installed and usable, you may hear the words pronounced by clicking the light blue 'Play' button, generally located to the left of your screen.  

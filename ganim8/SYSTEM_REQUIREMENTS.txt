@@ -1,0 +1,39 @@
+SYSTEM REQUIRMENTS FOR GANIM8 0.3
+
+
+These requirements apply to gAnim8 ONLY (not the gAnim8 Conversion Tool and GtkSnapshot)
+
+REQUIRED:
+Python 2.2 or better
+Gtk+ (1.2.8-4 or better is recommended)
+PyGTK 0.6.9 or better (with the gdkimlib module)
+Python Numeric
+PyGnome 1.4.1-1 or better
+GdkImlib and Imlib (most Gnome and GTK users probably already have this, Imlib version 1.9.8.1-6 or better is recommended)
+Gnome (1.4 or better recommended, you might be able to get away with just the Gnome libs)
+Gifsicle (which contains both the 'gifsicle' and 'gifview' executables, version 1.3 or better, either the gifsicle or ungifsicle package should do)
+
+
+RECOMMENDED:
+
+FFMPEG - The 'ffmpeg' package  (containing the 'ffmpeg' binary - version 0.4.6 or better - required for video read/write support)
+
+ImageMagick (containing the 'convert' binary, version 5.2.3+, version 5.4.6.1 or better recommended - adds support for 110+ image formats, and is also needed for video support)
+
+
+
+GETTING GIFSICLE:
+You can get the latest Gifsicle source code and binary packages (RPM) from  http://www.lcdf.org/gifsicle/
+
+NOTE: This program is built on top of Gifsicle, so you can do nothing with gAnim8 until you get Gifsicle:
+http://www.lcdf.org/gifsicle/
+
+There are some RPMS for Gifsicle on  speakeasy.rpmfind.net and http://www.lcdf.org/gifsicle/
+
+
+GETTING FFMPEG:
+The 'ffmpeg' package can be found on speakeasy.rpmfind.net and at the FFMPEG web site (ffmpeg.sourceforge.net).
+
+
+GETTING IMAGEMAGICK:
+The ImageMagick package can be found on both speakeasy.rpmfind.net and www.imagemagick.org .

@@ -1,0 +1,174 @@
+[PHTITLE]PYTHONOL FREQUENTLY ASKED QUESTIONS
+
+
+[PHSECTION]IS PYTHONOL OPEN SOURCE?
+Yes.  It is open source under the terms of the [PH-HI]Free Education Initiative License[/PH-HI].
+
+[PHSECTION]WHY DIDN'T YOU LICENSE PYTHONOL UNDER SOMETHING LIKE THE GNU GENERAL PUBLIC LICENSE (GPL)?
+Because the GNU GPL allows for unlimited distribution and redistribution of open 
+source software for unrestricted commercial purposes and for profit.  One of my 
+inspirations for creating this software was to contribute (hopefully useful) 
+educational software to individuals who cannot afford expensive commercial 
+software, so it wouldn't make sense to license Pythonol under the GNU GPL, 
+giving 'big-business' a free ticket to, once again, sell over-priced educational 
+software.  Furthermore, having put over 8 months of non-stop hard work 
+into this program, I refuse to let 'big-business' piggy back off of my hard work 
+for their greedy intentions.  So, I created a license which captures as much as 
+possible, the freedoms of other Open Source licenses, but limits commercial 
+distribution to non-exploitative ventures.  If I had it my way, education would 
+NEVER be 'for sale'.
+
+[PHSECTION]DO YOU PROVIDE TECHNICAL SUPPORT FOR PYTHONOL?
+No. I do not provide technical support to the general public beyond the help documentation and the web site, as I am busy with several other large software projects.  I think you've gotten enough 'free labor' out of me, don't you think?  However, I make exceptions to this rule for relatives, personal friends, and educators (teachers and professors interested in using Pythonol in their classrooms.)
+
+[PHSECTION]WHAT HAPPENED TO THE CHILD-FRIENDLY COPIES OF PYTHONOL?
+As of version 1.0 of Pythonol, ALL copies of Pythonol can be made into Child-Friendly copies. Scroll down to 'HOW DO I MAKE MY COPY OF PYTHONOL 'CHILD-FRIENDLY'?' below for more information.
+
+[PHSECTION]WHAT DOES 'CHILD-FRIENDLY' MEAN?
+The term 'child-friendly' refers to versions of Pythoñol which are intended to be more suitable for persons under the age of 18 than the original version of Pythoñol.  The 'child-friendly' versions of Pythoñol do NOT feature the database file named 'dictionary-mature.db' in the '/datafiles/' sub-directory of the installation directory, and therefore, lack almost all of the definitions, expressions, and idioms not suitable for minors.  While I cannot guarantee that all users will agree that the 'child-friendly' version of Pythoñol is perfectly suitable for minors, rest assured that every effort has been made to remove all profane, obscene, and offensive material from the 'child-friendly' version.  Every effort has been made to remove from the 'child-friendly' version of Pythoñol such things as curse words, inappropriate references to body parts, and other expressions one would generally not want a child to repeat.  However, parents, educators, or anyone else who intends to allow a child to use this software are encouraged to review, and edit as necessary, the data files for Pythoñol (found in the /datafiles/ subdirectory).  Since Pythoñol is open source, you have my permission to edit/modify and redistribute versions of the contained data files for non-commercial purposes.  NOTE: The data files for 'child-friendly' versions of Pythoñol should not contain language not appropriate for children. However, 'child-friendly' versions of this software do not impair a child's ability to conjugate possibly objectionable verbs.  In the event a child does conjugate a 'banned' verb, no definitions or translations will be provided for that conjugated verb, since no definitions should exist in the 'child-friendly' data files.  Remember, Pythoñol is offered for free, but without warranty or guarantee, so I do NOT guarantee that even 'child-friendly' versions of Pythoñol will be suitable for users of all ages, since each person's concept of what is 'child-friendly' will vary.
+
+[PHSECTION]HOW DO I KNOW IF THE VERSION OF PYTHONOL I AM USING IS 'CHILD-FRIENDLY'?
+If you are running a 'child-friendly' version of Pythoñol, you will see the phrase '(Child-friendly mode)' in the bottom status bar as well as the in the program's application window title bar.  If you do NOT see this, you are NOT running a 'child-friendly' version of Pythoñol.  See the section below for information on how to obtain or create a 'child-friendly' copy of Pythoñol.
+
+[PHSECTION]HOW DO I GET THE FESTIVAL EXTENSION (TEXT-TO-SPEECH) WORKING ON WINDOWS?
+The Festival text-to-speech extension is NOT SUPPORTED on Windows versions of Pythoñol.  This does not mean you cannot use or attempt to use Festival with Pythoñol.  What it does mean is that this  feature is only supported on Linux/Unix, and there are no future plans to add text-to-speech support to Windows versions of Pythoñol.  However, Windows users may freely download and modify the source code for Pythoñol (doing so in accordance with the Free Education Initiative License), and download the source code for Festival (http://www.cstr.ed.ac.uk/download/festival/), and try to implement this support yourself.  (Be sure to read both the license agreement for Festival, and the license agreement for the Festival voice files, as both are different from one another, and different from the Free Education Initiative License under which Pythoñol is distributed). Suggestion: UPGRADE to Linux and leave MicroSlave Windows alone.
+
+[PHSECTION]HOW DO I GET THE FESTIVAL EXTENSION (TEXT-TO-SPEECH) WORKING ON LINUX / UNIX?
+To enable text-to-speech support via the Festival extenion currently used by Pythoñol, you must first do ONE of the following:
+
+	1.  Download the 'Festival-extension' package from  http://pythonol.sourceforge.net 
+	    (IF you are running an Intel-compatible, i586 or better Linux system - glibc), and 
+	    install the package by running 'PyInstallShield', or 'INSTALL-ME.sh'.  It's probably 
+	    easiest to install the extension in the /festival/ sub-directory of your Pythoñol 
+	    installation directory, however; this is not required. If you install festival in another 
+	    directory, you will need to create a symbolic link from your 'festival' executable to 
+	    'PYTHONOL_INSTALLATION_DIRECTORY/festival/festival'.  In addition, you will 
+	    need to edit the 'tts.spanish' script in 
+	    PYTHONOL_INSTALLATION_DIRECTORY/festival/, to suit your system.
+
+	2.  Download the Festival source code and install Festival from  
+	    http://www.cstr.ed.ac.uk/download/festival/ , and 
+	    get the necessary spanish voice files:  (At last check, the voice files were at 
+	    http://www.cstr.ed.ac.uk/download/festival/1.4.3/  - in a file named 
+	    'festvox_ellpc11k.tar.gz' )   Alternatively, voice files created by 
+	    by a different group of software developers is available at: 
+	    http://cslu.cse.ogi.edu/tts/download/ .  It's probably 
+	    easiest to install the extension in the /festival/ sub-directory of your Pythoñol 
+	    installation directory, however; this is not required. If you install festival in another 
+	    directory, you will need to create a symbolic link from your 'festival' executable to 
+	    'PYTHONOL_INSTALLATION_DIRECTORY/festival/festival'.  In addition, you will 
+	    need to edit the 'tts.spanish' script in 
+	    PYTHONOL_INSTALLATION_DIRECTORY/festival/, to suit your system.
+
+Be sure to read both the license agreement for Festival, and the license agreement for the Festival voice files, as both are different from one another, and different from the Free Education Initiative License under which Pythoñol is distributed.  You should pay CLOSE attention to the Festival licensing agreement, particularly for the voice files.  Festival appears to licensed free of usage restrictions, however, the voice files are not, and it appears that the voice files are only licensed for non-commercial use. After you have installed the extension correctly, you *may* have to edit the script named 'tts.spanish'  in the '/festival/' sub-directory of your Pythoñol installation directory to ensure that the Festival extension is correctly configured to play through your sound card, and that the script is correctly configured to utilize your version of Festival. (Read the script's comments at the top of the file.)  You should especially check and edit this script if you installed festival from another distribution other than Pythoñol's 'Festival-extension' package, or you installed Festival from source.   
+
+
+[PHSECTION]I'M HAVING TROUBLE GETTING PYTHON OR PYGTK INSTALLED. CAN YOU HELP?
+No. Python and PyGtk are not written by me. Ask the authors of Python and PyGtk for help, if necessary. Static binaries for both Linux and Windows are available in the 'Download' section of the web site. Try one of them if you can't get Python or PyGtk running.
+
+[PHSECTION]I HAVE BOTH PYTHON AND PYGTK INSTALLED. WHEN I RUN PYTHONOL, I GET AN 'IMPORT ERROR' FOR 'GTK.PY' OR 'GTKEXTRA.PY'. HELP!
+No. Python and PyGtk are not written by me.  The only help I can offer is to make sure that PyGtk is installing in the same directory where you have Python installed.
+
+[PHSECTION]MY PYTHONOL LANGUAGE DATABASES ARE MISSING, DELETED, OR CORRUPTED. WHAT SHOULD I DO? 
+Go to the 'Download' section of the web site. Download the 'dictionaries' package.  Install it in your Pythonol /dictionary/ sub-directory.  Run Pythonol. On the menu click 'Settings' -> 'Content' -> 'Re-Install Language Databases...'
+
+[PHSECTION]WHEN I FIRST RAN PYTHONOL, MY LANGUAGE DATABASES COULD NOT BE CREATED. WHAT SHOULD I DO?
+Hmm. That sucks.  You have 2 choices, either troubleshoot or give up.  Make sure you have read-write access to the part of the hard-drive where you installed Pythonol.  It's probably best to install Pythonol as 'root' on Linux / Unix, or install Pythonol in your home directory if you don't have 'root' privileges.
+
+[PHSECTION]CAN I USE PYTHONOL WITH PYTHON VERSION 1.5?
+No. Pythonol is written for Python version 2.2 and above. Upgrade your version of Python: http://www.python.org
+
+[PHSECTION]I TRIED TO RUN PYTHONOL ON PYTHON VERSION 1.5 AND GOT TONS OF ERROR MESSAGES.
+Pythonol is written for Python version 2.2 and above.  Upgrade your version of Python: http://www.python.org
+
+[PHSECTION]ARE THERE ANY PLANS TO MAKE A VERSION OF PYTHONOL THAT WORKS WITH PYTHON 1.5?
+Nope. You need to UPGRADE. Python version 1.5 is ancient. Upgrade your version of Python: http://www.python.org
+
+[PHSECTION]I WANT TO USE PYTHONOL, BUT I DON'T WANT TO UPGRADE MY VERSION OF PYTHON.
+Sorry. You either have to upgrade Python, or download one of the static binaries from the 'Download' section and hope it works on your system.
+
+[PHSECTION]I DOWNLOADED THE SOURCE PACKAGE AND CAN'T GET SQLITE OR PYSQLITE TO COMPILE. HELP!
+Hmm. That sucks.  However, neither SQLite nor PySQLite is written by me. You should go to those web sites for more information: http://www.sqlite.org/  and  http://pysqlite.sourceforge.net
+
+[PHSECTION]WHY DID YOU CHOOSE FESTIVAL AS THE TEXT-TO-SPEECH ENGINE FOR PYTHONOL, INSTEAD OF MBROLA?
+MBrola is closed source and comes with too many usage restrictions.  MBrola is 'freeware', but not open source, making it proprietary software and not acceptable as an extension to Pythonol under the Free Education Initiative License.
+
+[PHSECTION]I WANT TO USE THE TEXT-TO-SPEECH FEATURE OF PYTHONOL, BUT I CAN'T GET IT COMPILED OR INSTALLED.
+Sorry.  Those are the breaks in life. Please do NOT email me with questions about how to get Festival downloaded, installed, or configured. I am NOT offering technical support to the general public for this feature.  This document IS your 'technical support'.  If you  have other questions ask the folks at the Festival web site for help: (http://www.cstr.ed.ac.uk/download/festival/)  It's THEIR software.
+
+
+[PHSECTION]I HAVE THE FESTIVAL EXTENSION INSTALLED, BUT I HEAR NO PRONUNCIATIONS WHEN I CLICK THE 'PLAY' BUTTON.
+Try editing the script named 'tts.spanish' (a Bash script)  in the '/festival/' sub-directory of your Pythoñol installation directory to ensure that the Festival extension is correctly configured to play through your sound card, and that the script is correctly configured to utilize your version of Festival. (Read the script's comments at the top of the script file for more information.)  You should especially check and edit this script if you installed festival from another distribution other than Pythoñol's 'Festival-extension' package, or you installed Festival from source.   You do NOT need to re-start Pythoñol to do this. In fact, its probably better to have Pythoñol running while you make modifications to the script, so you can easily test the Festival extension.
+
+[PHSECTION]WHAT IS THE FESTIVAL EXTENSION IN PYTHONOL USED FOR?
+If you have the Festival text-to-speech extension installed and usable, you may hear the words pronounced throughout most of Pythoñol by clicking the light blue 'Play' button (with the small black arrow), which is generally located to the left of your screen.  For instance, try clicking 'Reference Section' -> 'Basic Spanish' -> 'Colors' on the Pythoñol menu.  You will see a 'Play' button next to each word, allowing you to hear a Spanish pronounciation of each color. For text windows, such as the ones found in the 'Conjugate' and 'Dictionary' sections, you may listen to words and phrases in the text window by clicking the mouse in front of the word or phrase you wish to hear pronounced.  Then, click the light blue 'Play' button.  If you would like to type in your own words and phrases to hear them pronounced, try clicking the 'Pronounce' tab in Pythoñol.
+
+[PHSECTION]THE FESTIVAL EXTENSION SOMETIMES 'CHOKES' WHEN READING ALOUD. WHAT'S GOING ON?
+Pronunciations through the Festival speech engine are very usable, but not perfect. Occasionally, the Festival engine will 'skip' or 'choke' if it encounters strange words or unfamiliar syllables.  
+
+[PHSECTION]WHEN OPENING TEXT FILES OR READING LONG TEXTS, FESTIVAL ONLY READS PART OF THE TEXT.
+When reading longer texts, Pythoñol will only attempt to read up to 30 kilobytes at a time aloud through the Festival speech engine.  This is for reasons of speed.
+
+[PHSECTION]HOW DOES DRAG-AND-DROP SUPPORT WORK IN PYTHONOL FOR THE FESTIVAL EXTENSION?
+Both the 'Pronounce' and 'Translate' (PyBabelPhish) modules within Pythoñol feature drag-and-dro support.  You can drag and drop a text file onto the text windows of either of these modules. If all goes well, the file will be displayed in the text window, after which you can simply click 'Play' to hear the text read aloud. When reading longer texts, Pythoñol will only attempt to read up to 10 kilobytes at a time aloud through the Festival speech engine.  This is for reasons of speed.
+
+
+[PHSECTION]HOW DO I MAKE MY COPY OF PYTHONOL 'CHILD-FRIENDLY'?
+How do I make Pythoñol 'child-friendly'?
+As of version 1.0, Pythoñol supports TWO Child-friendly modes: Temporary and Permanent.
+
+[PH-HI]TEMPORARY Child-Friendly Mode:  [/PH-HI]
+To make Pythoñol temporarily Child-friendly, click 'Settings' -> 'Content' -> 'Disable Mature Content [Temporarily]' on the Pythoñol menu.  Mature content will remain disable until you click 'Settings' -> 'Content' -> 'Enable Mature Content' on the menu.  This mode is for people who need to temporarily disable mature content, but do not want the mature content completely removed from the Pythoñol databases forever.
+
+[PH-HI]PERMANENT Child-Friendly Mode:[/PH-HI]
+This mode is probably the most appropriate mode for minors and sensitive viewers. Permenant Child-Friendly mode eliminates ALL mature content from the Pythoñol databases forever. With this mode, mature content CANNOT be restored by simply clicking 'Enable Mature Content' on the 'Settings' menu or by clicking 'Re-install Language Databases...' on the 'Settings' menu.  Beware: Mature content is PERMANENTLY deleted from your system in this mode.  If you wish to enable PERMANENT Child-Friendly mode, click 'Settings'  -> 'Content' -> 'Make Pythoñol PERMANENTLY Child-Friendly...' on the Pythoñol menu.
+
+
+[PHSECTION]I MADE MY COPY OF PYTHONOL PERMANENTLY 'CHILD-FRIENDLY'. NOW, I WANT THE 'MATURE' CONTENT BACK. HELP!
+If you have switched your copy of Pythoñol to PERMANENT Child-Friendly mode, and someday wish to restore mature content, there is only one way to do this.  Follow these steps in the EXACT order given:
+	Go to http://pythonol.sourceforge.net and click on 'Download'.  
+	Download the 'dictionaries' package.  
+	Start the Pythoñol program
+	Install the 'datafiles' package into your Pythoñol installation directory (folder)
+	Click 'Settngs' -> 'Content' -> 'Re-install Language Databases...'
+	When asked if you would like to make Pythoñol permanently Child-Friendly, choose 'NO'
+
+
+[PHSECTION]I FOUND CONTENT IN THE 'CHILD-FRIENDLY' VERSION WHICH I THINK SHOULD BE REMOVED.
+If you have ideas for making the 'child-friendly' version of Pythoñol more suitable for minors, please e-mail me at PhrozenSmoke@yahoo.com  with your suggestions and comments.  Input from parents, guardians, and educators would be greatly appreciated.  I will consider your request.
+
+
+[PHSECTION]I ALREADY HAVE A COPY OF FESTIVAL. CAN I USE IT WITH PYTHONOL, INSTEAD OF DOWNLOADING THE EXTENSION PACKAGE?
+Sure. You should be able to. Create a symbolic link from your existing Festival binary (named 'festival') to  [YOUR_PYTHONOL_DIRECTORY]/festival/festival . Then, you will need to edit the script named 'tts.spanish' in the ./festival/ sub-directory of your Pythonol directory, to make sure Festival is using whatever Spanish 'voice' file you already have installed on your system.  (Read the comments at the top of the script)  If you don't already have some spanish voice files for use with Festival, you can obtain some at either:  http://www.cstr.ed.ac.uk/download/festival/  or  http://cslu.cse.ogi.edu/tts/download/
+
+[PHSECTION]I REALLY WISH PYTHONOL USED AN INTERNAL 'TRANSLATION' SYSTEM INSTEAD OF GOOGLE AND ALTAVISTA. WHEN ARE YOUR GOING TO WRITE ONE?
+The question is...when are YOU going to write one?  Pythonol is open source, so you are free to write your own in accordance with the Free Education Initiative License.
+
+[PHSECTION]WHY DOESN'T THE WINDOWS VERSION OF PYTHONOL PRINT?
+Because I rarely use Windows (once a month at best), and see no reason to spend time writing a 'print' module for an operating system I rarely use.
+
+[PHSECTION]WILL PYPRINT EVERY SUPPORT CUPS OR ANOTHER PRINTING SYSTEM ON LINUX / UNIX?
+Probably not.  I don't really care for CUPS, and LPRng works fine for me. I don't plan on program 'print' modules for printing systems I don't use.
+
+[PHSECTION]WHAT USER INTERFACE DOES PYTHONOL USE?
+Pythonol and all its modules currently use Gtk+ 2.
+
+[PHSECTION]WHEN CAN I EXPECT A GTK+ 2.0 VERSION OF PYTHONOL?
+It's already available.  ;-)
+
+[PHSECTION]ARE PRE-BUILT COPIES OF THE LANGUAGE DATABASES AVAILABLE FOR DOWNLOAD?
+Nope. That's too much for me to upload (around 10 MB).  Pythonol will build them for you.   If you can't get your databases built, you're out of luck.
+
+[PHSECTION]I WANT TO EDIT, ADD, OR DELETE SOME OF THE CONTENT OF THE PYTHONOL LANGUAGE DATABASES. HOW DO I DO THAT?
+You can edit the '.txt' files in the /dictionary/ sub-directory of your Pythonol directory as you please.  When you are done, click 'Settings' -> 'Content' -> 'Re-Install Language Databases...' on the Pythonol menu.  If you intend on distribute your modified copy of Pythonol or your modified language files, please read the <a href="license.php">Free Education Initiative License</a> under which Pythonol is licensed before doing so.
+
+[PHSECTION]WHAT THIRD-PARTY SOFTWARE DOES PYTHONOL USE?
+Pythoñol uses the following third-party software:
+	SQLite : http://www.sqlite.org/
+	PySQLite : http://pysqlite.sourceforge.net
+	Festival : http://www.cstr.ed.ac.uk/download/festival/
+
+[PHSECTION]WHAT ARE THE LICENSES FOR THESE THIRD-PARTY PRODUCTS?
+Check the links above.
+
+

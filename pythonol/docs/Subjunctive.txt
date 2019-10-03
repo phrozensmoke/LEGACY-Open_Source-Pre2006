@@ -1,0 +1,166 @@
+[PHTITLE]THE SUBJUNCTIVE TENSES
+
+[PHSECTION]A QUICK OVERVIEW - WHEN TO USE WHICH SUBJUNCTIVE TENSE: 
+1. Present Subjunctive - Emotions today and tomorrow about something being done today or tomorrow. (Example: hable) 
+2. Imperfect Subjunctive - Emotions today and tomorrow about something done yesterday. (Example: hablara/hablase) 
+3. Present Perefect Subjunctive - Emotions yesterday about something done before yesterday; Conditional Sentences referring to something unreal today or tomorrow. (Example: haya hablado)  
+4. Pluperfect Subjunctive - Conditional Sentences referring to something unreal yesterday. (Example: hubiera/hubiese hablado)  
+____________________________
+
+[PHSECTION]WHEN TO USE THE SUBJUNCTIVE - A DETAILED LOOK:
+Use the subjunctive in the following cases:
+
+
+[PH-HI]A) With the following verbs to express influence or desire by one person upon another:[/PH-HI] 
+  	aconsejar que - to advise 
+  	advertir que - to warn, advise 
+  	anhelar que - to desire, long for
+  	desear que - to wish 
+  	esperar que - to hope
+  	insistir en que - to insist on 
+  	permitir que - to permit, allow 
+  	preferir que - to prefer 
+  	prohibir que - to prohibit 
+  	querer que - to want 
+  	recomendar que - to recommend 
+  	necesitar que - to need
+  	ojalá que - if only 
+  	me/te/le/nos/les aconsejar que - to advise
+  	me/te/le/nos/les exigir que - to demand 
+  	me/te/le/nos/les pedir que - to ask, request 
+  	me/te/le/nos/les proponer que - to propose
+  	me/te/le/nos/les recomendar que - to recommend 
+  	me/te/le/nos/les rogar que - to beg 
+  	me/te/le/nos/les sugerir que - to suggest 
+  	me/te/le/nos/les suplicar que - to implore   
+
+
+[PH-HI]B) To express emotion by one person upon another: [/PH-HI] 
+  	me/te/le/nos/les molesta que - to be bothered that 
+  	me/te/le/nos/les encanta que - to be delighted  that 
+  	me/te/le/nos/les gusta que - to be pleased that  
+ 	me/te/le/nos/les interesa que - to be interested that  
+ 	me/te/le/nos/les duele que - to be sorry, hurt that 
+  	me/te/le/nos/les preocupa que - to be worried that  
+  	me/te/le/nos/les sorprende que - to be surprised that  
+  	me/te/le/nos/les alegra que - to be glad that  
+  	me/te/le/nos/les da asco que - to be sick (it sickens me) that  
+  	me/te/le/nos/les da coraje que - to be angered that  
+  	me/te/le/nos/les da tristeza que - to be sad that  
+  	me/te/le/nos/les da gusto que - to be glad that  
+  	me/te/le/nos/les da miedo que - to be afraid that  
+  	me/te/le/nos/les da pena que - to be sorry, hurt that  
+  	me/te/le/nos/les de vergu:enza que - to be ashamed that     
+
+ With the following phrases with estar and tener: 
+  	estar triste de que - to be sad that 
+  	estar enojado de que - to be angry that 
+  	estar feliz de que - to be happy that 
+  	estar contento de que - to be content, satisfied that 
+  	estar frustrado de que - to be frustrated that 
+  	tener miedo de que - to be afraid that 
+  	tener la culpa de que - to be to blame that
+
+
+[PH-HI]C) With the following reflexive verbs:[/PH-HI] 
+  	Sorprender(se) de que - to be surprised 
+  	Preocupar(se) de que - to be worried 
+  	Alegrar(se) de que - to be glad 
+  	Enojar(se) de que - to be angry 
+  	Reír(se) de que - to laugh at
+
+ Although these seem to be identical to those in parts A and B, they are almost. Note conjugation and 'de': 
+
+	Me sorprendo de que no puedas abrir la puerta. -- I am surprised that they cannot open the door. 
+
+	Me sorprenda que no puedas abrir la puerta. -- It surprises me that they cannot open the door. 
+
+
+[PH-HI]D) With the following expressions. Although these expressions are impersonal, they express advice, desire, and influence.:[/PH-HI] 
+  	(no) es aconsejable que - it's (not) advisable that
+  	(no) es buena/mala idea que - it's (not) a good/bad idea that
+  	(no) es bueno/malo que - it's (not) good/bad that 
+  	(no) es importante que - it's (not) important that 
+  	(no) es mejor que - it's (not) better that 
+  	(no) es necesario que - it's (not) necessary that 
+  	(no) es preciso que - it's (not) necessary that 
+  	(no) es preferible que - it's (not) preferable that
+
+
+[PH-HI]E) To express doubt: [/PH-HI]
+  	Tal vez - may be 
+  	Quizá - perhaps 
+  	Probablemente - probably 
+  	Posiblemente - possibly 
+  	Acaso - by chance 
+  	No + creer - not believe 
+  	No + pensar - not think
+  	No + decir - not say 
+  	No + opinar - not consider, think 
+ 	No + suponer - not suppose 
+
+	Also in questions: 
+		¿Crees que llueva? 
+
+	The first 4 expressions can be used with indicative as well to indicate less doubt. 
+	It is rather confusing to use subjunctive with words like creer, pensar, dudar, estar seguro/a (de), negar. 
+
+	The rule is: when doubt or denial is being expressed then subjunctive is used: 
+		No creo que sean estudiantes.
+		Creo que son estudiantes.
+
+	In the first case, the person is not sure, and thus even if they are really students, subjunctive should be used. In the second case, the person is sure, and thus even if they are not students, indicative should be used. 
+
+
+[PH-HI]F) To describe the unknown or non-existent:[/PH-HI] 
+  	Buscamos una persona que nos enseñe a reciclar.
+    		We are looking for someone who can teach us to recycle. (there may or may not exist such a preson) 
+
+  	Buscamos a la persona que nos enseña a reciclar.
+    		We are looking for the person who teaches recycling. (We know this person exists) 
+
+  	No encuentro nada que me guste.
+    		I can't find anything that I like.
+
+
+[PH-HI]G) With uncertain or future time: [/PH-HI]
+  	Cuando - when
+  	Mientras - while 
+  	En cuanto - as soon as 
+  	Antes (de) que - before 
+  	Hasta que - until 
+  	Despues (de) que - after
+
+
+[PH-HI]H) With conditions:[/PH-HI] 
+  	A menos que - unless 
+  	Para que - in order to (so that) 
+  	Sin que - without 
+  	Con tal (de) que - provided that 
+  	A fin de que - so that 
+  	En caso (de) que - in case of
+
+
+[PH-HI]I) Expresiones with 'quiera':[/PH-HI] 
+  	Quienquiera que - whoever 
+  	Cuandoquiera que - whenever 
+  	Dondequeira que - wherever 
+  	Comoquiera que - however 
+  	Cualquiera que - whatever
+
+
+[PH-HI]J) With aunque/although to express possibility of a future event:[/PH-HI] 
+		Aunque tenga dinero, no iré.:
+			Although I have money, I (probably) will not go. 
+
+ In a case of reality, use indicative: 
+		Aunque tengo dinero, no voy.:
+			Although I have money, I am not going. 
+
+
+[PH-HI]K) Others: [/PH-HI]
+  	Por ____ que, ...
+
+		Por mucho que se alegre, no me importa. 
+		Por mucho que Ud. explique, no le va a hacer caso. 
+		Por atrevidos que sean no van a ganar la batalla. 

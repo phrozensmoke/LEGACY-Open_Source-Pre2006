@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GAnim8 -PyPrint Module 0.1a\n"
+"POT-Creation-Date: 2003-02-16 11:35+0100\n"
+"PO-Revision-Date: 2003-02-16 15:51+0400\n"
+"Last-Translator: Erica Andrews <PhrozenSmoke@yahoo.com>\n"
+"Language-Team: SPANISH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "OK"
+msgstr "Aceptar"
+
+msgid "Select A File To Print"
+msgstr "Seleccione Un Fichero Para Imprimir"
+
+msgid "Yes"
+msgstr "Sí"
+
+msgid "No"
+msgstr "No"
+
+msgid ": Print A Document"
+msgstr ": Imprimir Un Documento"
+
+msgid "/ _File"
+msgstr "/ _Fichero"
+
+msgid "/ _File/_Close"
+msgstr "/ _Fichero/_Salir"
+
+msgid "/_Help"
+msgstr "/_Ayuda"
+
+msgid "/_Help/_About PyPrint..."
+msgstr "/_Ayuda/_Acerca de PyPrint..."
+
+msgid "File:"
+msgstr "Fichero:"
+
+msgid "Printer:"
+msgstr "Impresora:"
+
+msgid "Browse..."
+msgstr "Buscar..."
+
+msgid "Refresh Printer List"
+msgstr "Recargar la lista de impresoras"
+
+msgid "Pages:    "
+msgstr "Páginas:    "
+
+msgid "All pages"
+msgstr "Documento entero"
+
+msgid "Selected pages:"
+msgstr "Páginas seleccionadas:"
+
+msgid "# of Copies:"
+msgstr "Copias:"
+
+msgid "Print As:"
+msgstr "Imprimir Como:"
+
+msgid "Help"
+msgstr "Ayuda"
+
+msgid "Print Preview  (ghostview)"
+msgstr "Ver de antemano"
+
+msgid "Close Print Preview"
+msgstr "Cerrar la inspección previo"
+
+msgid "Print Now!"
+msgstr "¡Imprimir Ahora!"
+
+msgid "CANCEL"
+msgstr "CANCELAR"
+
+msgid "EXPERIMENTAL: PyPrint supports only local LPRng/LPR-based printers."
+msgstr "EXPERIMENTAL:  PyPrint apoya solamente las impresoras locales de LPRng/LPR."
+
+msgid "Sorry, you don't have the 'ghostview' executable on your PATH.\nYou need to either install ghostview or\nedit the pyprint.py script to use another Postscript-capable viewer (ggv, kghostview, etc)."
+msgstr "ERROR: Usted no tiene el 'ghostview' ejecutable en su PATH. \n Usted necesita instalar el ghostview o corregir la escritura de pyprint.py\npara utilizar otro espectador Posdata-capaz (ggv, kghostview, etc)."
+
+msgid "Sorry, you cannot print with PyPrint because the executable\n'lpr' is not on your PATH."
+msgstr "ERROR: Usted no tiene el 'lpr' ejecutable en su PATH.\n No puede imprimir."
+
+msgid "No printers available for printing!\nPrinters must be registered with lpr/lpd to be usable by PyPrint."
+msgstr "¡Ningunas impresoras disponibles para imprimir!  \nLas impresoras se deben colocar con lpr/lpd para ser \nusables por PyPrint."
+
+msgid "psselect: There was an error extracting the 'Selected Pages' from this file.\nThe warnings and errors (if any) were as follows:"
+msgstr "psselect:  Había un error que extraía las 'Páginas Seleccionadas' de este archivo. \nLas advertencias y los errores (si cualesquiera) eran como sigue:"
+
+msgid "Sorry, you don't have the executable 'a2ps' on your system.\nCannot print or preview as 'Image'."
+msgstr "ERROR: Usted no tiene el 'a2ps' ejecutable en su sistema. \n No puede imprimir o ver de antemano como 'Imagen'."
+
+msgid "a2ps: There was an error converting the selected file to Postscript for printing.\nThe warnings and errors (if any) were as follows:"
+msgstr "a2ps:  Había un error mientras que convertía \nel archivo seleccionado a la \nposdata para imprimir.  Las advertencias y\n los errores (si cualesquiera) \neran como sigue:"
+
+msgid "NO PRINTERS FOUND"
+msgstr "NINGUNAS IMPRESORAS"
+
+msgid "Sorry, you do not have the 'psselect' executable in your PATH.\nWithout 'psselect', you may only print ALL pages (the entire document)."
+msgstr "Usted no tiene el 'psselect' ejecutable en su PATH.  \nSin 'psselect', usted puede imprimir solamente \nTODAS LAS páginas (el documento entero)."
+
+msgid "The # of Copies field must be at least 1."
+msgstr "El valor de 'Copias' debe ser por lo menos 1."
+
+msgid "The # of Copies field must contain a NUMBER (1 or above)."
+msgstr "El valor de las 'Copias' debe ser un número."
+
+msgid "The 'Selected Pages' field may only contain numbers, commas, and hypens."
+msgstr "Valor inválido para 'Páginas Seleccionadas'.\nSolamente se permiten los números, las comas, y los hypens."
+
+msgid "Invalid value for 'Selected Pages'.\nPage ranges cannot start with 0, but can start with 1."
+msgstr "Valor inválido para 'Páginas Seleccionadas'.\nLas gamas de página no pueden comenzar con 0, sino pueden comenzar con 1."
+
+msgid "Invalid value for 'Selected Pages'.\nThis value may not START or END with a hypen."
+msgstr "Valor inválido para 'Páginas Seleccionadas'.\nEste valor no puede COMENZARSE o TERMINARSE con un hypen."
+
+msgid "Invalid value for 'Selected Pages'.\nThis value may not START or END with a comma."
+msgstr "Valor inválido para 'Páginas Seleccionadas'.\nEste valor no puede COMENZARSE o TERMINARSE con un coma."
+
+msgid "Invalid value for 'Selected Pages'."
+msgstr "Valor inválido para 'Páginas Seleccionadas'."
+
+msgid " ERROR creating a temporary file for printing! \n Printing cannot continue. "
+msgstr "¡Error mientras que crea un fichero temporal para imprimir!\nNo puede imprimir."
